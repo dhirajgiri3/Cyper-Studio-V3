@@ -160,7 +160,7 @@ function Approach() {
   };
 
   return (
-    <section className="container mx-auto px-4 md:px-8 py-24 bg-dark rounded-t-3xl">
+    <section className="container mx-auto px-4 md:px-8 py-16 md:py-24 bg-dark rounded-t-3xl">
       <div className="space-y-32">
         {/* Section One */}
         <div
@@ -188,12 +188,12 @@ function Approach() {
           >
             <span className="text-[#666] text-sm tracking-wider font-medium">01 / VISION</span>
             <div className="space-y-6">
-              <h1 className="text-5xl md:text-6xl text-white font-semibold leading-tight">
+              <h1 className="text-3xl md:text-6xl text-white font-semibold leading-tight">
                 We Envision
               </h1>
               <div className="h-1 w-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
             </div>
-            <p className="text-lg text-[#999] font-light leading-relaxed">
+            <p className="text-md text-[#999] font-light leading-relaxed">
               Got a crazy idea? We'll cannonball into it, crafting digital experiences that'll make jaws drop. Take Helix—we flipped their logistics game with real-time tracking and courier wizardry so slick, it's practically sorcery.
             </p>
             <PrimaryButton
@@ -233,12 +233,12 @@ function Approach() {
           >
             <span className="text-[#666] text-sm tracking-wider font-medium">02 / BUILD</span>
             <div className="space-y-6">
-              <h1 className="text-5xl md:text-6xl text-white font-semibold leading-tight">
+              <h1 className="text-3xl md:text-6xl text-white font-semibold leading-tight">
                 We Build Brilliance
               </h1>
               <div className="h-1 w-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
             </div>
-            <p className="text-lg text-[#999] font-light leading-relaxed">
+            <p className="text-md text-[#999] font-light leading-relaxed">
               We’re tech chefs whipping up scalable solutions with a dash of
               creative flair. You bring the idea; we toss in the secret sauce (and
               maybe some digital glitter). The result? Apps and systems so tasty,
@@ -281,12 +281,12 @@ function Approach() {
           >
             <span className="text-[#666] text-sm tracking-wider font-medium">03 / EMPOWER</span>
             <div className="space-y-6">
-              <h1 className="text-5xl md:text-6xl text-white font-semibold leading-tight">
+              <h1 className="text-3xl md:text-6xl text-white font-semibold leading-tight">
                 We Empower (and High-Five)
               </h1>
               <div className="h-1 w-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
             </div>
-            <p className="text-lg text-[#999] font-light leading-relaxed">
+            <p className="text-md text-[#999] font-light leading-relaxed">
               Collaboration is our jam. We keep you looped in—no “where’s my
               project?” panic here. Your success is our scoreboard, tied only with
               our weekly coffee tally. Let’s build something epic together!
@@ -304,12 +304,12 @@ function Approach() {
 
         {/* Updated Footer Text */}
         <div 
-          className="max-w-3xl mx-auto text-center pt-16 mt-16 border-t border-[#333] overflow-hidden"
+          className="max-w-3xl mx-auto text-center pt-8 mt-0 border-t border-[#333] overflow-hidden"
           ref={(el) => addToRefs(el, contentRefs)}
         >
           <ApproachAnimatedText
             text="At Cyper Studio, we scale smart. We reimagine your brand and product to keep you connected with a growing audience, taking your vision from concept to launch through tailored design sprints that transform ideas into a winning Product."
-            className="text-lg text-[#999] font-light leading-relaxed"
+            className="text-md text-[#999] font-light leading-relaxed text-left md:text-center"
           />
         </div>
       </div>

@@ -291,7 +291,6 @@ function Up() {
         initial="initial"
         whileInView="animate"
         viewport={{ once: true }}
-        whileHover={{ scale: 1.02 }}
         className={`${row} relative`}
       >
         <div className={col}>

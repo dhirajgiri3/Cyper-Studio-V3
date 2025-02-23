@@ -66,11 +66,11 @@ function Story() {
 
   return (
     <>
-      <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 w-full px-6 sm:px-10 md:px-20 lg:px-32 py-16 pt-8 relative">
+      <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 w-full px-6 sm:px-10 md:px-20 lg:px-32 py-16 pt-0 relative">
         {/* Story Left */}
         <div className="flex flex-col items-center justify-center gap-8 flex-1 text-center md:text-left">
           <motion.h1 
-            className="text-2xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-dark to-black/90 bg-clip-text text-transparent"
+            className="text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-dark to-black/90 bg-clip-text text-transparent"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-100px" }}
@@ -109,13 +109,13 @@ function Story() {
           className="flex flex-col gap-6 flex-1 md:pl-12 text-center md:text-left"
         >
           {/* Keep existing AnimatedText components unchanged */}
-          <p className="text-nm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
             <AnimatedText
               text="Cyper Studio was born out of a passion for technology and a desire to make a difference. Founded by a team of visionary entrepreneurs, we set out to create digital solutions that not only solve problems but also inspire and empower."
               innerRef={animatedTextRef1}
             />
           </p>
-          <p className="text-nm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
             <AnimatedText
               text="From our humble beginnings, we've grown to become a trusted partner for businesses around the world, delivering innovative products that drive success."
               innerRef={animatedTextRef2}

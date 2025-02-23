@@ -45,7 +45,7 @@ function Hero() {
           className="texts flex flex-col gap-6 md:gap-8"
           variants={itemVariants}
         >
-          <h1 className="text-[2rem] sm:text-[2.5rem] md:text-[3.5rem] lg:text-[4rem] leading-[1.2] font-semibold font-clash text-black tracking-tight">
+          <h1 className="text-[3rem] sm:text-[4rem] md:text-[5rem] leading-[1.2] font-semibold font-clash text-black tracking-tight">
             Where{" "}
             <motion.span
               className="font-playfair font-medium italic text-neutral-800 inline-block"
@@ -82,7 +82,7 @@ function Hero() {
         </motion.div>
 
         <div
-          className="threed h-[300px] sm:h-[400px] md:h-[500px] flex justify-center items-center relative perspective-1000"
+          className="threed none md:h-[500px] flex justify-center items-center relative perspective-1000"
         >
           <div className="w-full h-full">
             <Scene children={<Item9 />} />
@@ -111,7 +111,7 @@ function Hero() {
           </PrimaryButton>
         </motion.div>
       </motion.div>
-      <hr />
+      <hr className="block" />
     </motion.section>
   );
 }

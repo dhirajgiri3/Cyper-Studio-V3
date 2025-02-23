@@ -13,8 +13,8 @@ function Home() {
       <Hero />
       <Story />
       <Approach />
-      <Dream />
-      <ContactCard />
+      <Dream /> 
+      {/* <ContactCard /> */}
     </div>
   );
 }

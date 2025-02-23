@@ -4,15 +4,10 @@ import { Environment } from '@react-three/drei';
 import styled from 'styled-components';
 
 const CanvasContainer = styled(Canvas)`
-    height: 100%; /* Change 'full' to '100vh' for appropriate styling */
+    height: 100%;
     width: 100%;
     position: relative;
     margin: 0 auto;
-    
-    @media (max-width: 768px) {
-        width: 100%;
-        height: 50vh;
-    }
 `
 
 const Scene = ({ children }) => {
