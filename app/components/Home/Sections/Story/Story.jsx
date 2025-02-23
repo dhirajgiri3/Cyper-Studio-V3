@@ -57,11 +57,11 @@ function Story() {
 
   const revealVariants = {
     hidden: { opacity: 0, y: 50 },
-    visible: { 
-      opacity: 1, 
+    visible: {
+      opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: "easeOut" }
-    }
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
   };
 
   return (
@@ -69,7 +69,7 @@ function Story() {
       <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-10 w-full px-6 sm:px-10 md:px-20 lg:px-32 py-16 pt-0 relative">
         {/* Story Left */}
         <div className="flex flex-col items-center justify-center gap-8 flex-1 text-center md:text-left">
-          <motion.h1 
+          <motion.h1
             className="text-4xl md:text-5xl lg:text-6xl font-extrabold bg-gradient-to-r from-dark to-black/90 bg-clip-text text-transparent"
             initial="hidden"
             whileInView="visible"
@@ -78,16 +78,16 @@ function Story() {
           >
             Our Story
           </motion.h1>
-          <motion.div 
+          <motion.div
             className="relative w-40 h-40 sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[22rem] lg:h-[22rem] rounded-full overflow-hidden flex justify-center items-center"
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <video
               ref={videoRef}
-              className="w-40 h-40 sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[22rem] lg:h-[22rem] object-cover rounded-full transition-transform duration-500 hover:scale-105"
+              className="w-40 h-40 sm:w-[14rem] sm:h-[14rem] md:w-[18rem] md:h-[18rem] lg:w-[22rem] lg:h-[22rem] object-cover rounded-full transition-transform duration-500"
               loop
               autoPlay
               muted
@@ -104,26 +104,24 @@ function Story() {
           viewport={{ once: true, margin: "-100px" }}
           variants={{
             hidden: { opacity: 0 },
-            visible: { opacity: 1, transition: { staggerChildren: 0.2 } }
+            visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
           }}
           className="flex flex-col gap-6 flex-1 md:pl-12 text-center md:text-left"
         >
           {/* Keep existing AnimatedText components unchanged */}
-          <p className="text-sm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-base font-normal text-gray-700 leading-relaxed">
             <AnimatedText
               text="Cyper Studio was born out of a passion for technology and a desire to make a difference. Founded by a team of visionary entrepreneurs, we set out to create digital solutions that not only solve problems but also inspire and empower."
               innerRef={animatedTextRef1}
             />
           </p>
-          <p className="text-sm sm:text-base md:text-base font-light text-gray-700 leading-relaxed">
+          <p className="text-sm sm:text-base md:text-base font-normal text-gray-700 leading-relaxed">
             <AnimatedText
               text="From our humble beginnings, we've grown to become a trusted partner for businesses around the world, delivering innovative products that drive success."
               innerRef={animatedTextRef2}
             />
           </p>
-          <motion.div
-            variants={revealVariants}
-          >
+          <motion.div variants={revealVariants}>
             <PrimaryButton
               variant="primary"
               size="large"

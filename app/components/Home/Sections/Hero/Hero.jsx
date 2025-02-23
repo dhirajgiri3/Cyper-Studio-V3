@@ -82,7 +82,7 @@ function Hero() {
         </motion.div>
 
         <div
-          className="threed none md:h-[500px] flex justify-center items-center relative perspective-1000"
+          className="threed h-[40vh] md:h-[500px] flex justify-center items-center relative perspective-1000"
         >
           <div className="w-full h-full">
             <Scene children={<Item9 />} />

@@ -1,30 +1,16 @@
-import React, { useState, memo, useMemo, useCallback, useEffect } from "react";
+import React, { useState, memo, useMemo, useCallback, lazy, Suspense } from "react";
 import { motion } from "framer-motion";
-import { Gravity, MatterBody } from "../../Animations/Gravity/Gravity";
-import { loadSlim } from "tsparticles-slim";
-import Particles from "react-particles";
 import { RocketIcon, SecurityIcon, SparkleIcon, ChartIcon } from '../../Icons/Icons';
 import PrimaryButton from "../../Buttons/PrimaryButton";
-import toast, { Toaster } from 'react-hot-toast';
-import ReactConfetti from 'react-confetti';
+import toast from 'react-hot-toast';
 import { useWindowSize } from 'react-use';
 
-// Move these outside the component
-const labelVariants = {
-  hidden: { opacity: 0, scale: 0.8, y: 20 },
-  visible: (i) => ({
-    opacity: 1,
-    scale: 1,
-    y: 0,
-    transition: {
-      delay: i * 0.1,
-      duration: 0.6,
-      ease: [0.25, 0.4, 0.25, 0.9]
-    }
-  })
-};
+// Lazy load heavy components
+const FloatingLabels = lazy(() => import('./FloatingLabels'));
+const ParticleBackground = lazy(() => import('./ParticleBackground'));
+const ReactConfetti = lazy(() => import('react-confetti'));
 
-// Create a stable floatingLabels array
+// Constants moved outside component
 const staticFloatingLabels = [
   { id: 1, text: "24/7 Support", className: "label-support" },
   { id: 2, text: "99.9% Uptime", className: "label-reliability" },
@@ -40,7 +26,6 @@ const staticFloatingLabels = [
   { id: 12, text: "Expert Team", className: "label-expertise" }
 ];
 
-// Create a stable interests array
 const interests = [
   "Digital Transformation",
   "Cloud Migration",
@@ -54,85 +39,12 @@ const interests = [
   "Mobile & Web Development"
 ];
 
-// Optimize FloatingLabels component
-const FloatingLabels = memo(({ floatingLabels }) => {
-  const [bounds, setBounds] = useState({ 
-    top: -100, 
-    left: -100, 
-    right: 1000, 
-    bottom: 1000 
-  });
-
-  useEffect(() => {
-    const updateBounds = () => {
-      if (typeof window !== 'undefined') {
-        setBounds({
-          top: -100,
-          left: -100,
-          right: window.innerWidth + 100,
-          bottom: window.innerHeight + 100
-        });
-      }
-    };
-
-    updateBounds();
-    if (typeof window !== 'undefined') {
-      window.addEventListener('resize', updateBounds);
-      return () => window.removeEventListener('resize', updateBounds);
-    }
-  }, []);
-
-  const gravityConfig = useMemo(() => ({
-    gravity: { x: 0, y: 0.2 }, // Reduced gravity for smoother movement
-    debug: false,
-    grabCursor: true,
-    resetOnResize: false,
-    bounds
-  }), [bounds]);
-
-  return (
-    <div className="h-full floating-labels-container absolute inset-0 overflow-hidden z-11">
-      <Gravity {...gravityConfig}>
-        {floatingLabels.map((label, index) => {
-          const matterConfig = useMemo(() => ({
-            matterBodyOptions: { 
-              friction: 0.2,
-              restitution: 0.5,
-              density: 0.0008,
-              slop: 0.05
-            },
-            x: `${Math.random() * 90 + 5}%`,
-            y: `${Math.random() * 90 + 5}%`,
-            angle: Math.random() * 360
-          }), []);
-
-          return (
-            <MatterBody key={label.id} {...matterConfig}>
-              <motion.span
-                custom={index}
-                variants={labelVariants}
-                className={`${label.className} px-4 py-2 rounded-full text-xs font-medium 
-                  bg-neutral-800/30 backdrop-blur-md border border-neutral-500/50 text-neutral-200
-                  hover:bg-primary/10 hover:border-primary/40 hover:text-primary-light 
-                  transition-all duration-300 cursor-grab select-none
-                  shadow-[0_0_15px_rgba(0,0,0,0.1)] hover:shadow-[0_0_20px_rgba(var(--primary-rgb),0.15)]`}
-                whileHover={{
-                  scale: 1.05,
-                  rotate: Math.random() * 8 - 4,
-                  transition: { duration: 0.2 }
-                }}
-              >
-                {label.text}
-              </motion.span>
-            </MatterBody>
-          );
-        })}
-      </Gravity>
-    </div>
-  );
-});
-
-FloatingLabels.displayName = 'FloatingLabels';
+const features = [
+  { icon: RocketIcon, text: "10x Faster Development" },
+  { icon: SparkleIcon, text: "AI-Powered Solutions" },
+  { icon: ChartIcon, text: "Proven ROI Framework" },
+  { icon: SecurityIcon, text: "Enterprise-Grade Security" }
+];
 
 const validateForm = (formData) => {
   const errors = {};
@@ -145,218 +57,6 @@ const validateForm = (formData) => {
   if (!formData.message.trim()) errors.message = 'Message is required';
   return errors;
 };
-
-const ParticleBackground = memo(() => {
-  const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine);
-  }, []);
-
-  const options = useMemo(() => ({
-    fullScreen: false,
-    background: {
-      color: { value: "transparent" },
-    },
-    fpsLimit: 120,
-    interactivity: {
-      events: {
-        onHover: {
-          enable: true,
-          mode: ["trail", "grab"]
-        },
-        onClick: {
-          enable: true,
-          mode: "push"
-        },
-      },
-      modes: {
-        trail: {
-          delay: 0.1,
-          quantity: 3,
-          particles: {
-            color: {
-              value: ["#60A5FA", "#A855F7", "#34D399", "#F472B6", "#FBBF24"],
-              animation: {
-                enable: true,
-                speed: 150
-              }
-            },
-            move: {
-              speed: 6,
-              outModes: "out"
-            },
-            size: {
-              value: { min: 1, max: 3 },
-              animation: {
-                enable: true,
-                speed: 3,
-                minimumValue: 1
-              }
-            },
-            opacity: {
-              value: 0.6
-            }
-          }
-        },
-        grab: {
-          distance: 150,
-          links: {
-            opacity: 0.1
-          }
-        }
-      }
-    },
-    particles: {
-      color: {
-        value: ["#60A5FA", "#A855F7", "#ffffff", "#34D399", "#F472B6"]
-      },
-      links: {
-        color: "#ffffff",
-        distance: 150,
-        enable: true,
-        opacity: 0.05, // Reduced opacity for links
-        width: 0.5, // Thinner lines
-      },
-      move: {
-        enable: true,
-        random: true,
-        speed: 1,
-        direction: "none",
-        outModes: "out"
-      },
-      number: {
-        density: {
-          enable: true,
-          area: 1000
-        },
-        value: 60 // Reduced number of particles
-      },
-      opacity: {
-        value: { min: 0.1, max: 0.5 },
-        animation: {
-          enable: true,
-          speed: 1,
-          minimumValue: 0.1
-        }
-      },
-      shape: {
-        type: ["circle", "star"]
-      },
-      size: {
-        value: { min: 1, max: 3 },
-        animation: {
-          enable: true,
-          speed: 2,
-          minimumValue: 0.1
-        }
-      },
-      // Add comet effects
-      groups: {
-        comet: {
-          particles: {
-            color: {
-              value: ["#60A5FA", "#A855F7", "#34D399", "#F472B6", "#FBBF24"],
-              animation: {
-                enable: true,
-                speed: 150
-              }
-            },
-            move: {
-              direction: "none",
-              enable: true,
-              outModes: "out",
-              speed: 3,
-              straight: true,
-              trail: {
-                enable: true,
-                length: 10
-              }
-            },
-            opacity: {
-              value: 0.8,
-              animation: {
-                enable: true,
-                speed: 0.5,
-                minimumValue: 0.1
-              }
-            },
-            size: {
-              value: { min: 1, max: 3 }
-            }
-          },
-          number: {
-            value: 15
-          }
-        }
-      },
-      emitters: [
-        {
-          direction: "top-right",
-          life: {
-            count: 0,
-            duration: 0.1,
-            delay: 0.4
-          },
-          rate: {
-            delay: 1,
-            quantity: 1
-          },
-          size: {
-            width: 100,
-            height: 0
-          },
-          position: {
-            x: 0,
-            y: 100
-          },
-          particles: {
-            groups: ["comet"]
-          }
-        },
-        {
-          direction: "top-left",
-          life: {
-            count: 0,
-            duration: 0.1,
-            delay: 0.4
-          },
-          rate: {
-            delay: 1.5,
-            quantity: 1
-          },
-          size: {
-            width: 100,
-            height: 0
-          },
-          position: {
-            x: 100,
-            y: 100
-          },
-          particles: {
-            groups: ["comet"]
-          }
-        }
-      ]
-    }
-  }), []);
-
-  return (
-    <motion.div 
-      className="absolute inset-0"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 2 }}
-    >
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={options}
-        className="h-full"
-      />
-    </motion.div>
-  );
-});
-
-ParticleBackground.displayName = 'ParticleBackground';
 
 function ContactCard() {
   const { width, height } = useWindowSize();
@@ -525,13 +225,6 @@ function ContactCard() {
     }
   };
 
-  const features = [
-    { icon: RocketIcon, text: "10x Faster Development" },
-    { icon: SparkleIcon, text: "AI-Powered Solutions" },
-    { icon: ChartIcon, text: "Proven ROI Framework" },
-    { icon: SecurityIcon, text: "Enterprise-Grade Security" }
-  ];
-
   return (
     <motion.div
       className="relative min-h-screen md:h-full flex items-center justify-center p-3 xs:p-4 md:p-6 lg:p-8 overflow-hidden"
@@ -539,41 +232,33 @@ function ContactCard() {
       animate="visible"
       variants={containerVariants}
     >
-      {/* Enhanced background gradients */}
+      {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-b from-[#07070c] via-neutral-900/95 to-black" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,78,232,0.2),transparent_60%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(142,53,240,0.2),transparent_40%)]" />
-        <ParticleBackground />
-        <div className="absolute inset-0 bg-mesh-pattern opacity-[0.03]" />
+        <Suspense fallback={null}>
+          <ParticleBackground />
+        </Suspense>
       </div>
 
       {showConfetti && (
-        <ReactConfetti
-          width={width}
-          height={height}
-          numberOfPieces={200}
-          recycle={false}
-          colors={['#60A5FA', '#A855F7', '#ffffff', '#34D399']}
-          gravity={0.2}
-        />
+        <Suspense fallback={null}>
+          <ReactConfetti
+            width={width}
+            height={height}
+            numberOfPieces={100}
+            recycle={false}
+            colors={['#60A5FA', '#A855F7']}
+            gravity={0.2}
+          />
+        </Suspense>
       )}
 
-      <Toaster 
-        position="top-center" 
-        reverseOrder={false}
-        gutter={8}
-        toastOptions={{
-          className: 'backdrop-blur-md',
-          style: {
-            background: 'rgba(0, 0, 0, 0.8)',
-            color: 'white',
-          },
-        }} 
-      />
+      <Suspense fallback={null}>
+        <FloatingLabels floatingLabels={staticFloatingLabels} />
+      </Suspense>
 
-      <FloatingLabels floatingLabels={staticFloatingLabels} />
-
+      {/* Main content */}
       <motion.div
         className="relative w-full max-w-7xl rounded-2xl xs:rounded-3xl md:rounded-[2.5rem] overflow-hidden 
           my-4 md:my-6 lg:my-8 mb-48 mx-auto backdrop-blur-3xl"
@@ -797,4 +482,4 @@ function ContactCard() {
   );
 }
 
-export default ContactCard;
+export default memo(ContactCard);

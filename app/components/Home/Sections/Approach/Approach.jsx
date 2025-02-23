@@ -160,8 +160,8 @@ function Approach() {
   };
 
   return (
-    <section className="container mx-auto px-4 md:px-8 py-16 md:py-24 bg-dark rounded-t-3xl">
-      <div className="space-y-32">
+    <section className="container mx-auto px-4 md:px-8 py-16 md:py-10 md:pb-0 bg-dark rounded-t-3xl">
+      <div className="space-y-28">
         {/* Section One */}
         <div
           className="flex flex-col md:flex-row items-center gap-16"
@@ -304,7 +304,7 @@ function Approach() {
 
         {/* Updated Footer Text */}
         <div 
-          className="max-w-3xl mx-auto text-center pt-8 mt-0 border-t border-[#333] overflow-hidden"
+          className="max-w-3xl mx-auto text-center pt-12 mt-0 border-t border-[#333] overflow-hidden"
           ref={(el) => addToRefs(el, contentRefs)}
         >
           <ApproachAnimatedText

@@ -14,7 +14,7 @@ function Home() {
       <Story />
       <Approach />
       <Dream /> 
-      {/* <ContactCard /> */}
+      <ContactCard />
     </div>
   );
 }
