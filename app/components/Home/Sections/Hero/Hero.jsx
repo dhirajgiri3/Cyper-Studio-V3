@@ -1,9 +1,9 @@
 import React from "react";
-import PrimaryButton from "@/app/components/Buttons/PrimaryButton";
+import PrimaryButton from "../../../Buttons/PrimaryButton";
 import { motion } from "framer-motion";
-import ImageTrail from "@/app/components/Animations/ImageTrail/ImageTrail";
-import { Item9 } from "@/app/components/3D/Hero/Item9";
-import Scene from "@/app/components/3D/Hero/Scene";
+import ImageTrail from "../../../Animations/ImageTrail/ImageTrail";
+import Item9 from "../../../3D/Hero/Item9";
+import Scene from "../../../3D/Hero/Scene";
 
 function Hero() {
   const containerVariants = {
@@ -32,7 +32,7 @@ function Hero() {
 
   return (
     <motion.section
-      className="min-h-[90vh] w-full max-w-[1440px] mx-auto px-4 sm:px-8 md:px-20 py-16 md:pb-10 md:pt-32 grid gap-8 gap-16 relative overflow-hidden hardware-accelerated [&>hr]:mx-12 [&>hr]:w-4/5 [&>hr]:border-0 [&>hr]:h-[1px] [&>hr]:bg-gradient-to-r [&>hr]:from-transparent [&>hr]:via-black/30 [&>hr]:to-transparent [&_h1_span]:relative [&_h1_span:after]:content-[''] [&_h1_span:after]:absolute [&_h1_span:after]:w-0 [&_h1_span:after]:h-[2px] [&_h1_span:after]:bottom-0 [&_h1_span:after]:left-0 [&_h1_span:after]:bg-[var(--accent-gradient)] [&_h1_span:after]:transition-[width] [&_h1_span:after]:duration-300 [&_h1_span:after]:ease-in-out hover:[&_h1_span:after]:w-full z-10"
+      className="min-h-[90vh] w-full max-w-[1440px] mx-auto px-4 sm:px-8 md:px-20 py-16 pt-32 md:pb-10 grid gap-16 relative overflow-hidden hardware-accelerated [&>hr]:mx-12 [&>hr]:w-4/5 [&>hr]:border-0 [&>hr]:h-[1px] [&>hr]:bg-gradient-to-r [&>hr]:from-transparent [&>hr]:via-black/30 [&>hr]:to-transparent [&_h1_span]:relative [&_h1_span:after]:content-[''] [&_h1_span:after]:absolute [&_h1_span:after]:w-0 [&_h1_span:after]:h-[2px] [&_h1_span:after]:bottom-0 [&_h1_span:after]:left-0 [&_h1_span:after]:bg-[var(--accent-gradient)] [&_h1_span:after]:transition-[width] [&_h1_span:after]:duration-300 [&_h1_span:after]:ease-in-out hover:[&_h1_span:after]:w-full z-10"
       initial="hidden"
       animate="visible"
       variants={containerVariants}

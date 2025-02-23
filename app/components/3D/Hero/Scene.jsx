@@ -8,12 +8,7 @@ const CanvasContainer = styled(Canvas)`
     width: 100%;
     position: relative;
     margin: 0 auto;
-    transition: transform 0.3s ease;
-
-    &:hover {
-        transform: scale(1.05);
-    }
-
+    
     @media (max-width: 768px) {
         width: 100%;
         height: 50vh;

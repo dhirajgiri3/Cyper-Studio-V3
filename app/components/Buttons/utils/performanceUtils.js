@@ -1,4 +1,3 @@
-// Performance utility functions for button components
 const PERFORMANCE_THRESHOLD = 16.67; // 60fps threshold in ms
 
 export const throttleFrame = (callback) => {

@@ -5,7 +5,7 @@ import * as THREE from "three";
 import { CustomeMaterial } from "./material";
 
 // Inspired by https://www.shadertoy.com/view/sdsXWr
-export const Item11 = () => {
+const Item11 = () => {
   const refList = useRef([]);
 
   const getRef = useCallback((mesh) => {
@@ -82,3 +82,5 @@ export const Item11 = () => {
     </group>
   );
 };
+
+export default Item11;

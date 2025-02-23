@@ -4,7 +4,7 @@ import gsap from "gsap";
 import { CustomeMaterial } from "./material";
 import { useGSAP } from "@gsap/react";
 
-export const Item9 = () => {
+const Item9 = () => {
   const refList = useRef([]);
 
   const getRef = useCallback((mesh) => {
@@ -52,3 +52,5 @@ export const Item9 = () => {
     </Center>
   );
 };
+
+export default Item9;

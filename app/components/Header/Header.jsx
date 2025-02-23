@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import logo from "@/public/Assets/Image/cyper-logo/cyper-dark-logo.png";
+import logo from "../../../public/Assets/Image/cyper-logo/cyper-dark-logo.png";
 import Image from "next/image";
 import PrimaryButton from "../Buttons/PrimaryButton";
 
@@ -68,7 +68,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
           <button 
             onClick={onToggleSidebar}
             className={`relative z-[1002] flex items-center justify-center rounded-full p-2.5 cursor-pointer transition-all duration-500 border border-slate-200/60 hover:border-[var(--primary)] bg-white/10 hover:bg-white group ${
-              isChecked ? 'border-[var(--primary)] bg-[var(--primary)]/5 scale-110' : 'hover:scale-105'
+              isChecked ? 'border-[var(--primary)] bg-[var(--primary)]/5 scale-110' : 'hover:scale-100'
             }`}
           >
             <div className="relative w-6 h-5">
