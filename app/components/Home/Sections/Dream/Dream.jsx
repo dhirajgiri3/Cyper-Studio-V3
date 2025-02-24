@@ -16,7 +16,7 @@ const fadeVariants = {
     y: 0,
     transition: {
       duration: 1.2,
-      ease: "easeInOut", // Changed from cubic-bezier to a valid easing
+      ease: "easeInOut",
     },
   },
 };
@@ -96,7 +96,7 @@ const TextContent = memo(() => {
 
       <AnimatedText
         text="Cyper Studio, an emerging agency, embodies dynamism and creativity, driven by a dedicated team eager to bring your vision to life. We are your partners in progress, committed to exceeding expectations and pushing boundaries in the digital landscape."
-        className="text-base sm:text-lg text-[#bbbbbb] leading-relaxed"
+        className="text-base text-[#bbbbbb] font-normal leading-relaxed"
       />
 
       <div className="pt-4">
