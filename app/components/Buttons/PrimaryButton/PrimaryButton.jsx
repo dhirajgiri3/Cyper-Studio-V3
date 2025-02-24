@@ -7,7 +7,7 @@ import BorderGradient from './BorderGradient';
 import { ParticleEffect } from './ParticleEffect';
 import { sizeClasses, variantClasses, glowEffects } from './buttonStyles';
 import { createRipples } from './buttonEffects';
-import * as perf from './utils/performanceUtils';
+import * as perf from '../utils/performanceUtils';
 
 const MAX_PARTICLES = 12;
 

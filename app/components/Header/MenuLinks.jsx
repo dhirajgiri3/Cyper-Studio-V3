@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import TextLink from './TextLink';
 
 const MenuLinksContainer = styled.div`
+  width: 100%;
+  
   .links {
     ul {
       list-style: none;
@@ -9,9 +11,13 @@ const MenuLinksContainer = styled.div`
       margin: 0;
       display: flex;
       flex-direction: column;
+      gap: 0.5rem;
+
+      @media screen and (max-width: 767px) {
+        gap: 0.25rem;
+      }
     }
   }
-  
 `;
 
 export default function MenuLinks() {

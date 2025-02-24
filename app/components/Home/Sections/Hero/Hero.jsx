@@ -1,9 +1,9 @@
 import React from "react";
-import PrimaryButton from "../../../Buttons/PrimaryButton";
+import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 import { motion } from "framer-motion";
 import ImageTrail from "../../../Animations/ImageTrail/ImageTrail";
-import Item9 from "../../../3D/Hero/Item9";
-import Scene from "../../../3D/Hero/Scene";
+import Item9 from "../../../3D/Models/Item9";
+import Scene from "../../../3D/Scene";
 
 function Hero() {
   const containerVariants = {
@@ -32,7 +32,7 @@ function Hero() {
 
   return (
     <motion.section
-      className="min-h-[90vh] w-full max-w-[1440px] mx-auto px-4 sm:px-8 md:px-20 py-16 pt-32 md:pb-10 grid gap-16 relative overflow-hidden hardware-accelerated [&>hr]:mx-12 [&>hr]:w-4/5 [&>hr]:border-0 [&>hr]:h-[1px] [&>hr]:bg-gradient-to-r [&>hr]:from-transparent [&>hr]:via-black/30 [&>hr]:to-transparent [&_h1_span]:relative [&_h1_span:after]:content-[''] [&_h1_span:after]:absolute [&_h1_span:after]:w-0 [&_h1_span:after]:h-[2px] [&_h1_span:after]:bottom-0 [&_h1_span:after]:left-0 [&_h1_span:after]:bg-[var(--accent-gradient)] [&_h1_span:after]:transition-[width] [&_h1_span:after]:duration-300 [&_h1_span:after]:ease-in-out hover:[&_h1_span:after]:w-full z-10"
+      className="min-h-[90vh] w-full max-w-[1440px] mx-auto px-4 sm:px-8 md:px-20 py-16 pt-28 md:pt-32 md:pb-10 grid gap-16 relative overflow-hidden hardware-accelerated [&>hr]:mx-12 [&>hr]:w-4/5 [&>hr]:border-0 [&>hr]:h-[1px] [&>hr]:bg-gradient-to-r [&>hr]:from-transparent [&>hr]:via-black/30 [&>hr]:to-transparent [&_h1_span]:relative [&_h1_span:after]:content-[''] [&_h1_span:after]:absolute [&_h1_span:after]:w-0 [&_h1_span:after]:h-[2px] [&_h1_span:after]:bottom-0 [&_h1_span:after]:left-0 [&_h1_span:after]:bg-[var(--accent-gradient)] [&_h1_span:after]:transition-[width] [&_h1_span:after]:duration-300 [&_h1_span:after]:ease-in-out hover:[&_h1_span:after]:w-full z-10"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -45,7 +45,7 @@ function Hero() {
           className="texts flex flex-col gap-6 md:gap-8"
           variants={itemVariants}
         >
-          <h1 className="text-[3rem] sm:text-[4rem] md:text-[5rem] leading-[1.2] font-semibold font-clash text-black tracking-tight">
+          <h1 className="text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] leading-[1.2] font-semibold font-clash text-black tracking-tight pb-8">
             Where{" "}
             <motion.span
               className="font-playfair font-medium italic text-neutral-800 inline-block"

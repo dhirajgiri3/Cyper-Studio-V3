@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import PrimaryButton from "../../../Buttons/PrimaryButton";
+import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 import { motion } from "framer-motion";
 
 gsap.registerPlugin(ScrollTrigger);

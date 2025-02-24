@@ -1,7 +1,7 @@
 import React, { useState, memo, useMemo, useCallback, lazy, Suspense } from "react";
 import { motion } from "framer-motion";
 import { RocketIcon, SecurityIcon, SparkleIcon, ChartIcon } from '../../Icons/Icons';
-import PrimaryButton from "../../Buttons/PrimaryButton";
+import PrimaryButton from "../../Buttons/PrimaryButton/PrimaryButton";
 import toast from 'react-hot-toast';
 import { useWindowSize } from 'react-use';
 
@@ -234,8 +234,9 @@ function ContactCard() {
     >
       {/* Background */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#07070c] via-neutral-900/95 to-black" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,78,232,0.2),transparent_60%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#07070c] via-neutral-900/85 to-black" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,78,232,0.25),transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,bg-purple-500/30,transparent_70%)] blur-3xl" />
         <Suspense fallback={null}>
           <ParticleBackground />
         </Suspense>
@@ -266,7 +267,7 @@ function ContactCard() {
       >
         {/* Enhanced glass effect */}
         <div className="absolute inset-0 backdrop-blur-3xl bg-gradient-to-br from-white/[0.08] to-white/[0.02] border border-white/10" />
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/[0.07] to-purple-500/[0.07]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/[0.06] to-purple-500/[0.07]" />
 
         <div className="relative grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 p-4 xs:p-6 sm:p-8 md:p-10 lg:p-12">
           {/* Left column with improved spacing and typography */}

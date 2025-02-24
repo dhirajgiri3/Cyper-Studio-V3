@@ -6,40 +6,39 @@ const SidebarTopContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 7rem;
+  gap: 4rem;
+  width: 100%;
 
-  @media screen and (max-width : 768px) {
+  @media screen and (max-width: 1024px) {
+    gap: 3rem;
+  }
+
+  @media screen and (max-width: 767px) {
     flex-direction: column-reverse;
-    gap: 1rem;
+    gap: 2rem;
   }
 
   .title {
     h2 {
       color: var(--para);
       font-size: var(--sm);
-      font-weight: 300;
+      font-weight: 500;
+      margin-bottom: 1rem;
+
+      @media screen and (max-width: 767px) {
+        margin-bottom: 0.5rem;
+      }
     }
   }
 
   .left, .right {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 2rem;
-
-    @media screen and (max-width : 768px) {
-      gap: 1.5rem;
-    }
-
-    .links {
-      ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-      }
+    gap: 1.5rem;
+    
+    @media screen and (max-width: 767px) {
+      width: 100%;
+      gap: 1rem;
     }
   }
 `;

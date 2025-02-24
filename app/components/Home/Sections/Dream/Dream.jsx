@@ -1,13 +1,11 @@
 import React, { memo, useLayoutEffect, useRef, useCallback } from "react";
 import { motion } from "framer-motion";
-import { loadSlim } from "tsparticles-slim";
-import Particles from "react-particles";
 import Up from "./Up";
-import Scene from "../../../3D/Hero/Scene";
-import Item11 from "../../../3D/Hero/Item11";
+import Scene from "../../../3D/Scene";
+import Item11 from "../../../3D/Models/Item11";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import PrimaryButton from "../../../Buttons/PrimaryButton";
+import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -153,89 +151,9 @@ const VisionSection = memo(() => (
   </div>
 ));
 
-const ParticlesComponent = memo(() => {
-  const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine);
-  }, []);
-
-  const particlesConfig = {
-    particles: {
-      number: {
-        value: 100,
-        density: { enable: true, value_area: 800 },
-      },
-      color: {
-        value: ["#FF69B4", "#4169E1", "#7B68EE", "#00CED1"],
-      },
-      shape: {
-        type: "circle",
-      },
-      opacity: {
-        value: 0.5,
-        random: true,
-        animation: {
-          enable: true,
-          speed: 1,
-          minimumValue: 0.1,
-          sync: false,
-        },
-      },
-      size: {
-        value: 3,
-        random: true,
-        animation: {
-          enable: true,
-          speed: 2,
-          minimumValue: 0.1,
-          sync: false,
-        },
-      },
-      move: {
-        enable: true,
-        speed: 1,
-        direction: "none",
-        random: true,
-        straight: false,
-        outModes: {
-          default: "out",
-        },
-      },
-    },
-    interactivity: {
-      events: {
-        onHover: {
-          enable: false,
-        },
-        resize: true,
-      },
-    },
-    background: {
-      color: "transparent",
-    },
-    detectRetina: true,
-    fullScreen: {
-      enable: false, // This is crucial - prevents particles from going fullscreen
-    },
-  };
-
-  return (
-    <div
-      className="absolute inset-0 h-full w-full overflow-hidden"
-      style={{ zIndex: 1 }}
-    >
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={particlesConfig}
-        className="w-full h-full pointer-events-none"
-      />
-    </div>
-  );
-});
-
 const Dream = () => {
   return (
-    <section className="relative w-full py-0 md:py-16 overflow-hidden bg-dark">
+    <section className="relative w-full py-0 md:py-24 md:pb-12 overflow-hidden bg-dark">
       <div
         className="absolute inset-0 bg-gradient-to-b from-transparent via-[#080808] to-black"
         style={{ zIndex: 0 }}
@@ -248,13 +166,10 @@ const Dream = () => {
         className="absolute inset-0 bg-gradient-radial from-primary/5 via-transparent to-transparent pointer-events-none"
         style={{ zIndex: 0 }}
       />
-      <ParticlesComponent />
 
       <div className="relative z-10">
-        {" "}
-        {/* Wrap content to ensure it's above particles */}
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center mb-20 md:mb-24">
+          <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center mb-20 md:mb-28">
             <TextContent />
             <motion.div
               variants={fadeVariants}
@@ -268,7 +183,6 @@ const Dream = () => {
           </div>
 
           <div className="relative">
-            <ParticlesComponent />
             <VisionSection />
             <div className="mt-20 md:mt-28">
               <Up />

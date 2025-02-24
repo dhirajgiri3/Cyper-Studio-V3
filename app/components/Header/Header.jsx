@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import logo from "../../../public/Assets/Image/cyper-logo/cyper-dark-logo.png";
 import Image from "next/image";
-import PrimaryButton from "../Buttons/PrimaryButton";
+import PrimaryButton from "../Buttons/PrimaryButton/PrimaryButton";
 
 export default function Header({ onToggleSidebar, isChecked }) {
   const LinkItems = [
@@ -27,7 +27,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
   ];
 
   return (
-    <header className="flex justify-between items-center px-8 py-2 bg-white/80 backdrop-blur-lg fixed top-6 left-1/2 -translate-x-1/2 z-[1000] w-[94vw] self-center rounded-full hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] border border-slate-100/20 transition-all duration-300">
+    <header className="flex justify-between items-center px-4 sm:px-8 py-2 bg-white/80 backdrop-blur-lg fixed top-6 left-1/2 -translate-x-1/2 z-[1000] w-[94vw] self-center rounded-full hover:shadow-[0_8px_30px_rgb(0,0,0,0.03)] border border-slate-100/20 transition-all duration-300">
       <Link
         href="/"
         className="no-underline outline-none hover:outline-none focus:outline-none transition-transform duration-300 hover:scale-105"
@@ -35,7 +35,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
         <Image
           src={logo}
           alt="Cyper Logo"
-          className="h-[42px] w-[42px] object-contain"
+          className="h-[36px] w-[36px] sm:h-[42px] sm:w-[42px] object-contain"
         />
       </Link>
 
@@ -51,8 +51,8 @@ export default function Header({ onToggleSidebar, isChecked }) {
         ))}
       </nav>
 
-      <div className="flex justify-center items-center gap-10 md:gap-12">
-        <li className="w-full h-full m-0 p-0 flex flex-col items-center justify-center relative list-none">
+      <div className="flex justify-center items-center gap-4 sm:gap-10 md:gap-12">
+        <li className="hidden md:flex w-full h-full m-0 p-0 flex-col items-center justify-center relative list-none">
           <Link href="/Contact">
             <PrimaryButton
               withParticles={true}

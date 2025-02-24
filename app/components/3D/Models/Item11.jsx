@@ -2,7 +2,7 @@ import { Instance, Instances } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import { useRef, useMemo, useCallback } from "react";
 import * as THREE from "three";
-import { CustomeMaterial } from "./material";
+import { CustomeMaterial } from "../material";
 
 // Inspired by https://www.shadertoy.com/view/sdsXWr
 const Item11 = () => {

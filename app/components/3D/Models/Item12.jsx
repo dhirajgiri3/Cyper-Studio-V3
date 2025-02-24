@@ -1,7 +1,7 @@
 import { Instance, Instances } from "@react-three/drei";
 import { useCallback, useMemo, useRef } from "react";
 import gsap from "gsap";
-import { CustomeMaterial } from "./material";
+import { CustomeMaterial } from "../material";
 import * as THREE from "three";
 import { useGSAP } from "@gsap/react";
 

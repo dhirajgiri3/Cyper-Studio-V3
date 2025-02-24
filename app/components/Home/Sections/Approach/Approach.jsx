@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import PrimaryButton from "../../../Buttons/PrimaryButton";
+import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -160,7 +160,7 @@ function Approach() {
   };
 
   return (
-    <section className="container mx-auto px-4 md:px-8 py-16 md:py-10 md:pb-0 bg-dark rounded-t-3xl">
+    <section className="container mx-auto px-4 md:px-8 py-16 md:py-10 md:pb-0 bg-dark rounded-t-3xl shadow-none">
       <div className="space-y-28">
         {/* Section One */}
         <div

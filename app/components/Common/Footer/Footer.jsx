@@ -1,10 +1,10 @@
 "use client";
 
-import { Item12 } from "../../3D/Hero/Item12";
-import Scene from "../../3D/Hero/Scene";
+import { Item12 } from "../../3D/Models/Item12";
+import Scene from "../../3D/Scene";
 import React from "react";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
-import PrimaryButton from "../../Buttons/PrimaryButton";
+import PrimaryButton from "../../Buttons/PrimaryButton/PrimaryButton";
 
 function Footer() {
   return (
