@@ -84,13 +84,13 @@ function OurWork() {
         {/* Enhanced floating blobs */}
         <div
           className="absolute top-1/4 left-1/3 w-[45rem] h-[45rem] 
-          bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.08),transparent_50%)]
+          bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.1),transparent_50%)]
           animate-blob-slow filter blur-2xl"
         />
 
         <div
           className="absolute bottom-1/4 right-1/3 w-[40rem] h-[40rem] 
-          bg-[radial-gradient(circle_at_center,rgba(168,85,247,0.08),transparent_50%)]
+          bg-[radial-gradient(circle_at_center,rgba(168,85,247,0.1),transparent_50%)]
           animate-blob-slow-reverse filter blur-2xl"
         />
 

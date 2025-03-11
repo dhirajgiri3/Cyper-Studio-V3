@@ -149,14 +149,14 @@ const WorkItem = React.memo(
         justify-center
         overflow-hidden
         backdrop-blur-sm
-        max-w-[200px] mx-auto
+        max-w-[200px] mx-auto bg-white
         `}
         role="button"
         tabIndex={0}
         aria-label={item.title}
       >
         {/* Subtle hover overlay */}
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white" />
         <SparkleEffect isActive={isSparkleActive} />
         <span
         className="text-lg relative transition-transform duration-300 group-hover:scale-110"

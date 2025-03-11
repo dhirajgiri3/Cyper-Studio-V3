@@ -119,16 +119,15 @@ function Home() {
           <Dream />
         </section>
 
-        <section data-bg="#07070c" className="relative z-0">
+        <section data-bg="#fff" className="relative z-0">
           <Title />
           <OurWork />
         </section>
 
-        <section data-bg="#07070c" className="relative z-10">
+        <section data-bg="#fff" className="relative z-10">
           <ContactCard />
         </section>
       </div>
-
       <div
         className="fixed inset-0 z-[60] pointer-events-none mix-blend-overlay opacity-20 transition-opacity duration-500"
         style={{
