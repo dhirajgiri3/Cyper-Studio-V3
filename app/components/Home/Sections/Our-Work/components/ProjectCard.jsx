@@ -1,6 +1,6 @@
 // /ProjectCard.jsx
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectItem from "./ProjectItem";
 import { generateGridLayout } from "./utils/layoutUtils";
@@ -11,6 +11,21 @@ const ProjectCard = ({ projectsData }) => {
   const [selectedCategory, setSelectedCategory] = useState("live");
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [layout, setLayout] = useState([]);
+  const [windowWidth, setWindowWidth] = useState(0);
+  const isClient = useRef(false);
+
+  // Set isClient to true on mount and handle window resize
+  useEffect(() => {
+    isClient.current = true;
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   useEffect(() => {
     if (!projectsData) return;
@@ -78,10 +93,10 @@ const ProjectCard = ({ projectsData }) => {
               <motion.div
                 key={project.id}
                 className={`relative transform-gpu ${index === 0 ? "xs:col-span-2 lg:col-span-8" : ""} ${index === 1 ? "lg:col-span-4" : ""} ${
-                  window.innerWidth < 1024 ? "" : layout[index]?.variant === "wide" ? "lg:col-span-6" : ""
+                  !isClient.current || windowWidth < 1024 ? "" : layout[index]?.variant === "wide" ? "lg:col-span-6" : ""
                 }`}
                 style={
-                  window.innerWidth >= 1024
+                  isClient.current && windowWidth >= 1024
                     ? {
                         gridColumn: `${layout[index]?.colStart || 1} / span ${layout[index]?.colSpan || 4}`,
                         gridRow: `span ${layout[index]?.rowSpan || 1}`,
@@ -99,7 +114,7 @@ const ProjectCard = ({ projectsData }) => {
                 <ProjectItem
                   project={project}
                   index={index}
-                  variant={window.innerWidth >= 1024 ? layout[index]?.variant || "normal" : "mobile"}
+                  variant={isClient.current && windowWidth >= 1024 ? layout[index]?.variant || "normal" : "mobile"}
                   totalProjects={filteredProjects.length}
                 />
               </motion.div>

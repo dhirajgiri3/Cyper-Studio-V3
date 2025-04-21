@@ -1,8 +1,9 @@
 "use client";
 
-import React, { useRef, useEffect } from "react";
+import React, { useRef, useEffect, useState, useCallback, useMemo } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
 import Hero from "./Sections/Hero/Hero";
 import Story from "./Sections/Story/Story";
 import Approach from "./Sections/Approach/Approach";
@@ -10,43 +11,80 @@ import Dream from "./Sections/Dream/Dream";
 import ContactCard from "../Common/ContactCard/ContactCard";
 import Title from "./Sections/Our-Work/Title";
 import OurWork from "./Sections/Our-Work/OurWork";
+import { isReducedMotion } from "../Buttons/utils/performanceUtils";
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
   const mainRef = useRef(null);
+  const [isClient, setIsClient] = useState(false);
+  const reducedMotion = useMemo(() => isReducedMotion(), []);
 
+  // Memoize the background transition duration
+  const bgTransitionDuration = useMemo(() =>
+    reducedMotion ? 0.3 : 0.6
+  , [reducedMotion]);
+
+  // Memoize the smooth update background function
+  const smoothUpdateBackground = useCallback((newColor, element) => {
+    if (!element) return;
+
+    gsap.to(element, {
+      backgroundColor: newColor,
+      duration: bgTransitionDuration,
+      ease: "power3.out",
+      overwrite: "auto",
+    });
+  }, [bgTransitionDuration]);
+
+  // Set isClient to true on mount
   useEffect(() => {
-    gsap.config({ force3D: true });
-    let mm = gsap.matchMedia();
+    setIsClient(true);
+  }, []);
 
-    const ctx = gsap.context(() => {
+  // Use useGSAP for better cleanup and performance
+  useGSAP(() => {
+    if (!mainRef.current) return;
+
+    gsap.config({ force3D: true });
+
+    // Create a matchMedia context for responsive animations
+    const mm = gsap.matchMedia();
+
+    // Desktop animations
+    mm.add("(min-width: 768px)", () => {
       const sections = Array.from(
         mainRef.current.querySelectorAll("section[data-bg]")
       );
+
+      if (sections.length === 0) return;
+
       let currentColor = sections[0].getAttribute("data-bg");
 
-      sections.forEach((section, index) => {
+      // Create ScrollTriggers for each section
+      const scrollTriggers = sections.map((section, index) => {
         const targetColor = section.getAttribute("data-bg");
 
-        ScrollTrigger.create({
+        return ScrollTrigger.create({
           trigger: section,
           start: "top 65%",
           end: "bottom 35%",
           toggleActions: "play none none reverse",
-          onEnter: () => smoothUpdateBackground(targetColor),
-          onEnterBack: () => smoothUpdateBackground(targetColor),
+          onEnter: () => smoothUpdateBackground(targetColor, mainRef.current),
+          onEnterBack: () => smoothUpdateBackground(targetColor, mainRef.current),
           onLeave: () => {
             if (index < sections.length - 1) {
               smoothUpdateBackground(
-                sections[index + 1].getAttribute("data-bg")
+                sections[index + 1].getAttribute("data-bg"),
+                mainRef.current
               );
             }
           },
           onLeaveBack: () => {
             if (index > 0) {
               smoothUpdateBackground(
-                sections[index - 1].getAttribute("data-bg")
+                sections[index - 1].getAttribute("data-bg"),
+                mainRef.current
               );
             }
           },
@@ -56,35 +94,63 @@ function Home() {
         });
       });
 
-      function smoothUpdateBackground(newColor) {
-        gsap.to(mainRef.current, {
-          backgroundColor: newColor,
-          duration: 0.6,
-          ease: "power3.out",
-          overwrite: "auto",
-          onUpdate: () => {
-            currentColor = newColor;
-          },
-        });
-      }
-
+      // Initial background animation
       gsap.from(mainRef.current, {
         backgroundColor: "#ffffff",
-        duration: 0.8,
+        duration: bgTransitionDuration,
         ease: "power3.out",
       });
 
       gsap.set(mainRef.current, {
         backgroundColor: currentColor,
       });
-    }, mainRef);
 
-    return () => {
-      ctx.revert();
-      mm.revert();
-      ScrollTrigger.getAll().forEach((st) => st.kill());
-    };
-  }, []);
+      return () => scrollTriggers.forEach(st => st.kill());
+    });
+
+    // Mobile animations - simplified for better performance
+    mm.add("(max-width: 767px)", () => {
+      const sections = Array.from(
+        mainRef.current.querySelectorAll("section[data-bg]")
+      );
+
+      if (sections.length === 0) return;
+
+      let currentColor = sections[0].getAttribute("data-bg");
+
+      // Create ScrollTriggers with reduced complexity for mobile
+      const scrollTriggers = sections.map((section) => {
+        const targetColor = section.getAttribute("data-bg");
+
+        return ScrollTrigger.create({
+          trigger: section,
+          start: "top 75%",
+          end: "bottom 25%",
+          toggleActions: "play none none reverse",
+          onEnter: () => smoothUpdateBackground(targetColor, mainRef.current),
+          onEnterBack: () => smoothUpdateBackground(targetColor, mainRef.current),
+          invalidateOnRefresh: true,
+          markers: false,
+          scrub: 0.2, // Faster scrub for mobile
+        });
+      });
+
+      // Initial background animation
+      gsap.from(mainRef.current, {
+        backgroundColor: "#ffffff",
+        duration: bgTransitionDuration,
+        ease: "power3.out",
+      });
+
+      gsap.set(mainRef.current, {
+        backgroundColor: currentColor,
+      });
+
+      return () => scrollTriggers.forEach(st => st.kill());
+    });
+
+    return () => mm.revert();
+  }, [smoothUpdateBackground, bgTransitionDuration]);
 
   return (
     <main
@@ -97,7 +163,7 @@ function Home() {
         backfaceVisibility: "hidden",
         WebkitBackfaceVisibility: "hidden",
         willChange: "background-color",
-        transition: "background-color 0.6s cubic-bezier(0.33, 1, 0.68, 1)",
+        transition: `background-color ${bgTransitionDuration}s cubic-bezier(0.33, 1, 0.68, 1)`,
       }}
     >
       <div className="fixed inset-0 z-0 backdrop-blur-[120px] transition-all duration-500 bg-gradient-to-b from-transparent to-black/5" />
@@ -140,4 +206,5 @@ function Home() {
   );
 }
 
-export default Home;
+// Use React.memo to prevent unnecessary re-renders
+export default React.memo(Home);
