@@ -52,9 +52,16 @@ const PrimaryButton = ({
     };
   }, []);
 
-  const buttonClassNames = useMemo(() =>
-    `relative inline-flex items-center justify-center font-medium tracking-wide overflow-hidden whitespace-nowrap ${sizeClasses[size]} ${variantClasses[variant]} ${glowEffects[variant]} ${className} button-container z-10`
-  , [size, variant, className]);
+  const buttonClassNames = useMemo(() => {
+    const baseClasses = "relative inline-flex items-center justify-center font-medium tracking-wide overflow-hidden whitespace-nowrap button-container z-10";
+    return [
+      baseClasses,
+      sizeClasses[size],
+      variantClasses[variant],
+      glowEffects[variant], 
+      className
+    ].join(" ");
+  }, [size, variant, className]);
 
   // Throttled particle creation on mouse move with reduced motion awareness
   const addParticle = useCallback((e) => {

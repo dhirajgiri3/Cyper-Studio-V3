@@ -3,9 +3,9 @@ export const projectsData = {
     {
       id: "helix",
       name: "Helix",
-      link: "https://helix.cyper.studio",
+      link: "https://helix.cyperstudio.in",
       backgroundImage:
-        "https://cdn.prod.website-files.com/675a9288acc30318645d2409/676906d6db1908a8be8a02c1_Rectangle-5.avif",
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745951802/helix_ihpliu.png",
       tagline:
         "A powerful shipping aggregator providing an end-to-end logistics solution.",
       description:
@@ -17,7 +17,7 @@ export const projectsData = {
       name: "Teslavolts",
       link: "https://teslavolts.com",
       backgroundImage:
-        "https://cdn.prod.website-files.com/6717c7af1514ac7192c1f7b6/6752d479d2935e66e4dc6905_solo-landscape-v2.webp",
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745951804/teslavolt_n4sckw.png",
       tagline:
         "Revolutionizing EV charging infrastructure for a sustainable future.",
       description:
@@ -29,7 +29,7 @@ export const projectsData = {
       name: "Fad Fashion",
       link: "https://fadfashion.com",
       backgroundImage:
-        "https://cdn.prod.website-files.com/6717c7af1514ac7192c1f7b6/67572d06061ab7f7b7b42158_Comigo-landscape.webp",
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745951803/Fad_qnwqwh.png",
       tagline:
         "Premium fashion brand blending modern aesthetics with sustainability.",
       description:
@@ -37,10 +37,29 @@ export const projectsData = {
       tags: ["Fashion", "E-commerce", "Sustainability"],
     },
     {
+      id: "kashi-mitra-tours",
+      name: "Kashi Mitra Tours",
+      link: "https://kashimitratours.com",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745954631/kashi-tour_m4ibmi.png",
+      tagline:
+        "Explore sacred Hindu pilgrimage destinations with immersive 3D tours.",
+      description:
+        "AI-powered travel recommendations, spiritual guides, and real-time booking management.",
+      tags: [
+        "Travel",
+        "Pilgrimage",
+        "Spiritual",
+        "Holy Place Tours",
+        "Travel Booking",
+      ],
+    },
+    {
       id: "vikava-labs",
       name: "Vikava Labs",
       link: "https://vikavalabs.in",
-      backgroundImage: "images/vikava-labs-mockup.jpg",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745954632/vikava-labs_sot9vb.png",
       tagline:
         "An ecosystem empowering designers and manufacturers in the fashion industry.",
       description:
@@ -51,7 +70,8 @@ export const projectsData = {
       id: "tryfit-fabrics",
       name: "TryFit Fabrics",
       link: "https://tryfitfabrics.com",
-      backgroundImage: "images/tryfit-fabrics-mockup.jpg",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745951803/gym_q9ccgf.png",
       tagline:
         "Performance-based fabrics for activewear and sportswear industries.",
       description:
@@ -62,7 +82,8 @@ export const projectsData = {
       id: "family-vibes",
       name: "Family Vibes",
       link: "https://familyvibes.in",
-      backgroundImage: "images/family-vibes-mockup.jpg",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745959464/family_hj6a0e.png",
       tagline: "Revolutionizing home decor with easy-stick photo frames.",
       description:
         "Lightweight, unbreakable photo frames that require no nails for installation.",
@@ -72,7 +93,8 @@ export const projectsData = {
       id: "blueship",
       name: "Blueship",
       link: "https://blueship.com",
-      backgroundImage: "images/blueship-mockup.jpg",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745951803/blueship_ki3pgd.png",
       tagline:
         "Reliable courier and logistics services with optimized delivery routes.",
       description:
@@ -80,20 +102,11 @@ export const projectsData = {
       tags: ["Logistics", "Shipping", "Delivery Optimization"],
     },
     {
-      id: "shipex-india",
-      name: "Shipex India",
-      link: "https://shipexindia.com",
-      backgroundImage: "images/shipex-india-mockup.jpg",
-      tagline: "Seamless shipping solutions for B2B and B2C businesses.",
-      description:
-        "COD shipping, fraud detection, and API integration for e-commerce platforms.",
-      tags: ["Shipping", "E-commerce", "Courier API"],
-    },
-    {
       id: "fastguide",
       name: "FastGuide (LMS App)",
       link: "https://fastguide.com",
-      backgroundImage: "images/fastguide-mockup.jpg",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745954631/file_00000000f02861f7839b0ea1ed265cfe_mpinpw.png",
       tagline: "An interactive learning platform offering paid courses.",
       description:
         "AI-powered course recommendations, secure payments, and certification upon completion.",
@@ -103,7 +116,6 @@ export const projectsData = {
       id: "avm-school",
       name: "AVM School Management App",
       link: "https://avmschool.com",
-      backgroundImage: "images/avm-school-mockup.jpg",
       tagline: "A complete school ERP for efficient management.",
       description:
         "Attendance tracking, finance management, and teacher-parent communication.",
@@ -113,7 +125,6 @@ export const projectsData = {
       id: "su-exam-app",
       name: "SU Exam Attendance App",
       link: "https://suexamapp.com",
-      backgroundImage: "images/su-exam-app-mockup.jpg",
       tagline: "Automated student attendance tracking for exams.",
       description:
         "QR-based check-ins, real-time invigilator monitoring, and secure exam records.",
@@ -123,7 +134,6 @@ export const projectsData = {
       id: "chatter",
       name: "Chatter (Chat App)",
       link: "https://chatterapp.com",
-      backgroundImage: "images/chatter-mockup.jpg",
       tagline: "A secure and fast messaging platform.",
       description: "Encrypted messaging, cloud storage, and multi-device sync.",
       tags: ["Chat", "Messaging", "Encryption"],
@@ -132,7 +142,6 @@ export const projectsData = {
       id: "dn-news",
       name: "DN News",
       link: "https://dnnews.in",
-      backgroundImage: "images/dn-news-mockup.jpg",
       tagline: "Stay updated with AI-curated news in multiple languages.",
       description:
         "Real-time news updates, video/audio integration, and reader engagement tools.",
@@ -145,8 +154,9 @@ export const projectsData = {
       id: "navkar-selection",
       name: "Navkar Selection",
       link: "https://navkarselection.com",
-      backgroundImage: "images/navkar-selection-mockup.jpg",
       tagline: "A diverse e-commerce platform for multiple product categories.",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745964060/navkar_ereewv.png",
       description:
         "AI-powered product recommendations, secure checkout, and vendor marketplace.",
       tags: ["E-commerce", "Retail", "AI"],
@@ -155,9 +165,10 @@ export const projectsData = {
       id: "product-bazaar",
       name: "Product Bazaar",
       link: "https://productbazaar.com",
-      backgroundImage: "images/product-bazaar-mockup.jpg",
       tagline:
         "Discover startups, investors, and freelancers in one ecosystem.",
+      backgroundImage:
+        "https://res.cloudinary.com/dgak25skk/image/upload/v1745964059/Productbazar_qrbi1l.png",
       description:
         "Startup discovery, investor matchmaking, and freelancer hiring platform.",
       tags: ["Startups", "Funding", "Networking"],
@@ -166,21 +177,10 @@ export const projectsData = {
       id: "testimony",
       name: "Testimony",
       link: "https://testimony.com",
-      backgroundImage: "images/testimony-mockup.jpg",
       tagline: "SaaS platform for managing and collecting client testimonials.",
       description:
         "Automated testimonial requests, AI-generated suggestions, and website integration.",
       tags: ["SaaS", "Marketing", "Testimonials"],
-    },
-    {
-      id: "kashi-mitra-tours",
-      name: "Kashi Mitra Tours",
-      link: "https://kashimitratours.com",
-      backgroundImage: "images/kashi-mitra-tours-mockup.jpg",
-      tagline: "Explore sacred Hindu pilgrimage destinations.",
-      description:
-        "3D tour previews, spiritual guides, and AI-powered travel recommendations.",
-      tags: ["Travel", "Pilgrimage", "Spiritual"],
     },
   ],
 
@@ -189,7 +189,6 @@ export const projectsData = {
       id: "cyperfit",
       name: "CyperFit",
       link: "https://cyperfit.com",
-      backgroundImage: "images/cyperfit-mockup.jpg",
       tagline: "A smart Gym ERP solution for fitness centers and trainers.",
       description:
         "Membership management, workout planning, and automated invoicing.",
@@ -199,7 +198,6 @@ export const projectsData = {
       id: "nexecom",
       name: "Nexecom",
       link: "https://nexecom.com",
-      backgroundImage: "images/nexecom-mockup.jpg",
       tagline:
         "A next-gen e-commerce platform with robust inventory and shipping features.",
       description:
@@ -210,11 +208,29 @@ export const projectsData = {
       id: "edvita",
       name: "Edvita",
       link: "https://edvita.com",
-      backgroundImage: "images/edvita-mockup.jpg",
       tagline: "An AI-powered ERP for educational institutions.",
       description:
         "Student management, fee tracking, and AI-driven academic insights.",
       tags: ["Education", "ERP", "AI"],
+    },
+    {
+      id: "metaverse-studio",
+      name: "Metaverse Studio",
+      link: "https://metaversestudio.io",
+      tagline:
+        "Create immersive virtual worlds and experiences without coding.",
+      description:
+        "Drag-and-drop metaverse builder with asset marketplace and monetization tools.",
+      tags: ["Metaverse", "Virtual Reality", "Creator Tools"],
+    },
+    {
+      id: "blockchain-hub",
+      name: "Blockchain Hub",
+      link: "https://blockchainhub.tech",
+      tagline: "All-in-one platform for blockchain development and deployment.",
+      description:
+        "Smart contract templates, testing environments, and cross-chain integration tools.",
+      tags: ["Blockchain", "Web3", "DApps"],
     },
   ],
 };

@@ -23,7 +23,7 @@ export const MOBILE_LAYOUT = {
 };
   
 export const CATEGORIES = [
-    { id: "live", label: "Live Projects", type: "liveProjects", color: "from-gray-100 to-gray-100", activeColor: "from-neutral-100 to-neutral-200" },
-    { id: "development", label: "In Development", type: "inDevelopment", color: "from-gray-100 to-gray-100", activeColor: "from-neutral-100 to-neutral-200" },
-    { id: "upcoming", label: "Coming Soon", type: "comingSoon", color: "from-gray-100 to-gray-100", activeColor: "from-neutral-100 to-neutral-200" },
+    { id: "live", label: "Live Projects", type: "liveProjects", color: "from-blue-900 to-blue-700", activeColor: "from-blue-600 to-blue-400" },
+    { id: "development", label: "In Development", type: "inDevelopment", color: "from-purple-900 to-purple-700", activeColor: "from-purple-600 to-purple-400" },
+    { id: "upcoming", label: "Coming Soon", type: "comingSoon", color: "from-violet-900 to-violet-700", activeColor: "from-violet-600 to-violet-400" },
   ];

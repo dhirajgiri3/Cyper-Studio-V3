@@ -256,13 +256,13 @@ function ContactCard() {
       )}
 
       <Suspense fallback={null}>
-        <FloatingLabels floatingLabels={staticFloatingLabels} />
+        <FloatingLabels floatingLabels={staticFloatingLabels.map(label => label.text)} />
       </Suspense>
 
       {/* Main content */}
       <motion.div
         className="relative w-full max-w-7xl rounded-2xl xs:rounded-3xl md:rounded-[2.5rem] overflow-hidden 
-          my-4 md:my-6 lg:my-8 mb-48 mx-auto backdrop-blur-3xl"
+          my-4 md:my-6 lg:my-8 mb-48 mx-auto backdrop-blur-3xl z-20"
         variants={containerVariants}
       >
         {/* Enhanced glass effect */}

@@ -7,12 +7,13 @@ import { generateGridLayout } from "./utils/layoutUtils";
 import { TRANSITION_VARIANTS } from "./utils/animationUtils";
 import { CATEGORIES } from "./constants/cardConstants";
 
-const ProjectCard = ({ projectsData }) => {
-  const [selectedCategory, setSelectedCategory] = useState("live");
+const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [layout, setLayout] = useState([]);
   const [windowWidth, setWindowWidth] = useState(0);
   const isClient = useRef(false);
+  const initialMountRef = useRef(true);
 
   // Set isClient to true on mount and handle window resize
   useEffect(() => {
@@ -27,6 +28,14 @@ const ProjectCard = ({ projectsData }) => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  // Update category when initialCategory prop changes
+  useEffect(() => {
+    if (initialCategory !== selectedCategory) {
+      setSelectedCategory(initialCategory);
+    }
+  }, [initialCategory]);
+
+  // Update the filtered projects when category changes
   useEffect(() => {
     if (!projectsData) return;
 
@@ -35,14 +44,33 @@ const ProjectCard = ({ projectsData }) => {
 
     const projects = projectsData[category.type] || [];
     const limitedProjects = projects.slice(0, 8);
-    setFilteredProjects(limitedProjects);
-    setLayout(generateGridLayout(limitedProjects.length));
+    
+    // Minimal animation on first render for better performance
+    if (initialMountRef.current) {
+      setFilteredProjects(limitedProjects);
+      setLayout(generateGridLayout(limitedProjects.length));
+      initialMountRef.current = false;
+    } else {
+      // Use GSAP or other animation lib for smoother transitions
+      setTimeout(() => {
+        setFilteredProjects(limitedProjects);
+        setLayout(generateGridLayout(limitedProjects.length));
+      }, 100); // Small timeout for visual transition
+    }
+    
+    // Dispatch event for Title component communication
+    if (typeof window !== 'undefined' && !initialMountRef.current) {
+      const event = new CustomEvent('category-updated', {
+        detail: { category: selectedCategory }
+      });
+      window.dispatchEvent(event);
+    }
   }, [selectedCategory, projectsData]);
 
   return (
     <div className="relative w-full mx-auto max-w-[2000px] px-4 sm:px-6 lg:px-8">
       <div className="relative flex flex-col items-center mb-10 sm:mb-14 lg:mb-20 z-10">
-        <div className="relative flex flex-wrap justify-center gap-2 sm:gap-4 p-2 sm:p-3 rounded-full bg-gradient-to-br from-neutral-700/40 via-neutral-800/30 to-neutral-900/40 backdrop-blur-xl border border-white/15 shadow-lg w-[90vw] sm:w-[70vw] lg:w-[50vw] xl:w-[40vw]">
+        <div className="relative flex flex-wrap justify-center gap-2 sm:gap-4 p-2 sm:p-3 rounded-full bg-gradient-to-br from-black/80 via-black/70 to-[#07070c]/80 backdrop-blur-xl border border-white/10 shadow-xl w-[90vw] sm:w-[70vw] lg:w-[50vw] xl:w-[40vw] hardware-accelerated">
           {CATEGORIES.map((category) => {
             const isActive = selectedCategory === category.id;
             const projectCount = projectsData?.[category.type]?.length || 0;
@@ -51,21 +79,21 @@ const ProjectCard = ({ projectsData }) => {
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
                 className={`relative flex items-center gap-2 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-sm font-medium transition-all duration-500 ease-out flex-1 sm:flex-none justify-center min-w-[120px] ${
-                  isActive ? "text-black/90" : "text-white/90 hover:text-white"
+                  isActive ? "text-white" : "text-white/70 hover:text-white"
                 }`}
                 whileTap={{ scale: 0.95 }}
               >
                 {isActive && (
                   <motion.div
                     layoutId="activeTab"
-                    className={`absolute inset-0 rounded-full bg-gradient-to-r ${category.activeColor}`}
+                    className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-700/70 to-purple-700/70"
                     transition={{ type: "spring", bounce: 0.25, duration: 0.7 }}
                   />
                 )}
                 <span className="relative">{category.label}</span>
                 <span
                   className={`relative px-2 py-0.5 text-xs rounded-full transition-colors duration-300 ${
-                    isActive ? "bg-black/90 text-white" : "bg-black/70 text-white/90"
+                    isActive ? "bg-blue-500/90 text-white" : "bg-blue-900/50 text-white/80"
                   }`}
                 >
                   {projectCount}
@@ -129,7 +157,7 @@ const ProjectCard = ({ projectsData }) => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="relative text-center py-16 sm:py-20 bg-gradient-to-br from-white/[0.1] to-white/[0.03] border border-white/15 rounded-3xl backdrop-blur-3xl"
+            className="relative text-center py-16 sm:py-20 bg-gradient-to-br from-black/40 to-black/20 border border-white/10 rounded-3xl backdrop-blur-3xl"
           >
             <h3 className="text-xl sm:text-2xl font-medium text-white/90">No projects found in this category</h3>
             <p className="text-sm sm:text-base text-white/65 mt-3">Check back soon for new additions!</p>

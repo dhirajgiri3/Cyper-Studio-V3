@@ -8,6 +8,13 @@ let deviceCapabilityCache = {
   lastChecked: 0
 };
 
+export const isReducedMotion = () => {
+  if (typeof window === 'undefined') return false;
+  
+  // Check for prefers-reduced-motion media query
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+};
+
 export const throttleFrame = (callback, threshold = PERFORMANCE_THRESHOLD) => {
   let frameId = null;
   let lastTimestamp = 0;
@@ -94,17 +101,6 @@ export const monitorPerformance = (callback) => {
   }
 
   return duration;
-};
-
-export const isReducedMotion = () => {
-  if (typeof window === 'undefined') return false;
-
-  try {
-    return window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  } catch (e) {
-    // Fallback for browsers that don't support this media query
-    return false;
-  }
 };
 
 export const getReducedAnimationDuration = (defaultDuration) =>

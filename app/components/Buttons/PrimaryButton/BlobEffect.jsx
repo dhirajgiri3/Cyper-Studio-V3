@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
-const BlobEffect = ({ children, color = 'rgba(255, 255, 255, 0.1)' }) => {
+const BlobEffect = ({ children, color = 'rgba(255, 255, 255, 0.1)', reducedMotion = false }) => {
   const blobRef = useRef(null);
   const containerRef = useRef(null);
 
@@ -39,7 +39,7 @@ const BlobEffect = ({ children, color = 'rgba(255, 255, 255, 0.1)' }) => {
       }}
       initial={{ borderRadius: '1rem' }}
       whileHover={{ borderRadius: '1.2rem 0.8rem 1rem 1.2rem' }}
-      transition={{ duration: 0.3, ease: 'easeInOut' }}
+      transition={{ duration: reducedMotion ? 0.2 : 0.3, ease: 'easeInOut' }}
     >
       <motion.div
         ref={blobRef}
@@ -57,7 +57,7 @@ const BlobEffect = ({ children, color = 'rgba(255, 255, 255, 0.1)' }) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.7 }}
         exit={{ opacity: 0 }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: reducedMotion ? 0.2 : 0.3 }}
       />
       {children}
     </motion.div>

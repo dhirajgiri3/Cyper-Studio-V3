@@ -13,16 +13,12 @@ export default function Header({ onToggleSidebar, isChecked }) {
       link: "/",
     },
     {
-      name: "About",
-      link: "/About",
-    },
-    {
-      name: "Services",
-      link: "/Services",
+      name: "Our Work",
+      link: "/#our-work",
     },
     {
       name: "Contact",
-      link: "/Contact",
+      link: "/#contact",
     },
   ];
 
@@ -53,7 +49,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
 
       <div className="flex justify-center items-center gap-4 sm:gap-10 md:gap-12">
         <li className="hidden md:flex w-full h-full m-0 p-0 flex-col items-center justify-center relative list-none">
-          <Link href="/Contact">
+          <Link href="/#contact">
             <PrimaryButton
               withParticles={true}
               withRipple={true}
@@ -64,7 +60,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
           </Link>
         </li>
 
-        <div className="bar">
+        {/* <div className="bar">
           <button 
             onClick={onToggleSidebar}
             className={`relative z-[1002] flex items-center justify-center rounded-full p-2.5 cursor-pointer transition-all duration-500 border border-slate-200/60 hover:border-[var(--primary)] bg-white/10 hover:bg-white group ${
@@ -85,7 +81,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
               } group-hover:bg-[var(--primary)] group-hover:w-full`}></span>
             </div>
           </button>
-        </div>
+        </div> */}
       </div>
     </header>
   );

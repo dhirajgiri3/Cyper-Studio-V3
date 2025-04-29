@@ -27,6 +27,9 @@ const MagneticWrapper = ({
   // Create throttled and debounced functions outside of the effect
   const throttledMouseMove = useMemo(() => {
     return throttleFrame((e, targetXY, rect, isHovered, animate) => {
+      // Check if rect is null or undefined
+      if (!rect) return;
+
       const { clientX, clientY } = e;
       const centerX = rect.left + rect.width / 2;
       const centerY = rect.top + rect.height / 2;
@@ -106,7 +109,11 @@ const MagneticWrapper = ({
     };
 
     const handleMouseMove = (e) => {
-      if (!rectRef.current) updateRect();
+      if (!rectRef.current) {
+        updateRect();
+        // If rectRef is still null after trying to update, don't proceed
+        if (!rectRef.current) return;
+      }
       throttledMouseMove(e, targetXY, rectRef.current, isHovered, animate);
     };
 
@@ -125,7 +132,12 @@ const MagneticWrapper = ({
       });
     };
 
-    // Initial setup
+    // Initial setup - immediately get the rect instead of using debounced version
+    if (wrapper) {
+      rectRef.current = wrapper.getBoundingClientRect();
+    }
+
+    // Also schedule a debounced update in case the initial measurement wasn't accurate
     updateRect();
 
     // Use passive event listeners for better performance

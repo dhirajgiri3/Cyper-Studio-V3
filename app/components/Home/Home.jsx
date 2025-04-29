@@ -1,6 +1,13 @@
 "use client";
 
-import React, { useRef, useEffect, useState, useCallback, useMemo } from "react";
+import React, {
+  useRef,
+  useEffect,
+  useState,
+  useCallback,
+  useMemo,
+  memo,
+} from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -12,6 +19,7 @@ import ContactCard from "../Common/ContactCard/ContactCard";
 import Title from "./Sections/Our-Work/Title";
 import OurWork from "./Sections/Our-Work/OurWork";
 import { isReducedMotion } from "../Buttons/utils/performanceUtils";
+import ContactUs from "../Common/ContactCard/ContactUs";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,21 +29,25 @@ function Home() {
   const reducedMotion = useMemo(() => isReducedMotion(), []);
 
   // Memoize the background transition duration
-  const bgTransitionDuration = useMemo(() =>
-    reducedMotion ? 0.3 : 0.6
-  , [reducedMotion]);
+  const bgTransitionDuration = useMemo(
+    () => (reducedMotion ? 0.3 : 0.6),
+    [reducedMotion]
+  );
 
   // Memoize the smooth update background function
-  const smoothUpdateBackground = useCallback((newColor, element) => {
-    if (!element) return;
+  const smoothUpdateBackground = useCallback(
+    (newColor, element) => {
+      if (!element) return;
 
-    gsap.to(element, {
-      backgroundColor: newColor,
-      duration: bgTransitionDuration,
-      ease: "power3.out",
-      overwrite: "auto",
-    });
-  }, [bgTransitionDuration]);
+      gsap.to(element, {
+        backgroundColor: newColor,
+        duration: bgTransitionDuration,
+        ease: "power3.out",
+        overwrite: "auto",
+      });
+    },
+    [bgTransitionDuration]
+  );
 
   // Set isClient to true on mount
   useEffect(() => {
@@ -71,7 +83,8 @@ function Home() {
           end: "bottom 35%",
           toggleActions: "play none none reverse",
           onEnter: () => smoothUpdateBackground(targetColor, mainRef.current),
-          onEnterBack: () => smoothUpdateBackground(targetColor, mainRef.current),
+          onEnterBack: () =>
+            smoothUpdateBackground(targetColor, mainRef.current),
           onLeave: () => {
             if (index < sections.length - 1) {
               smoothUpdateBackground(
@@ -105,7 +118,7 @@ function Home() {
         backgroundColor: currentColor,
       });
 
-      return () => scrollTriggers.forEach(st => st.kill());
+      return () => scrollTriggers.forEach((st) => st.kill());
     });
 
     // Mobile animations - simplified for better performance
@@ -128,7 +141,8 @@ function Home() {
           end: "bottom 25%",
           toggleActions: "play none none reverse",
           onEnter: () => smoothUpdateBackground(targetColor, mainRef.current),
-          onEnterBack: () => smoothUpdateBackground(targetColor, mainRef.current),
+          onEnterBack: () =>
+            smoothUpdateBackground(targetColor, mainRef.current),
           invalidateOnRefresh: true,
           markers: false,
           scrub: 0.2, // Faster scrub for mobile
@@ -146,7 +160,7 @@ function Home() {
         backgroundColor: currentColor,
       });
 
-      return () => scrollTriggers.forEach(st => st.kill());
+      return () => scrollTriggers.forEach((st) => st.kill());
     });
 
     return () => mm.revert();
@@ -185,13 +199,17 @@ function Home() {
           <Dream />
         </section>
 
-        <section data-bg="#fff" className="relative z-0">
+        <section data-bg="#000000" id="our-work" className="relative z-10">
           <Title />
           <OurWork />
         </section>
 
-        <section data-bg="#fff" className="relative z-10">
+        {/* <section data-bg="#000000" className="relative z-10">
           <ContactCard />
+        </section> */}
+
+        <section data-bg="#000000" id="contact" className="relative z-10">
+          <ContactUs />
         </section>
       </div>
       <div
@@ -207,4 +225,4 @@ function Home() {
 }
 
 // Use React.memo to prevent unnecessary re-renders
-export default React.memo(Home);
+export default memo(Home);

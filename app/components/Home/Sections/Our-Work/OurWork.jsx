@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { projectsData } from "./Data/ProjectCardsData";
 import ProjectCard from "./components/ProjectCard";
@@ -8,6 +8,7 @@ import Particles from "react-particles";
 
 function OurWork() {
   const sectionRef = useRef(null);
+  const [selectedCategory, setSelectedCategory] = useState("live");
 
   // Calculate total projects across all categories
   const totalProjects = Object.values(projectsData).reduce(
@@ -15,6 +16,22 @@ function OurWork() {
     0
   );
 
+  // Effect to listen for category selection from Title component
+  useEffect(() => {
+    const handleCategorySelection = (event) => {
+      if (event.detail && event.detail.category) {
+        setSelectedCategory(event.detail.category);
+      }
+    };
+
+    window.addEventListener("category-selected", handleCategorySelection);
+
+    return () => {
+      window.removeEventListener("category-selected", handleCategorySelection);
+    };
+  }, []);
+
+  // Set up particles
   const particlesInit = async (engine) => {
     await loadSlim(engine);
   };
@@ -65,8 +82,8 @@ function OurWork() {
     >
       {/* Enhanced Background Effects */}
       <div className="absolute inset-0">
-        {/* Base gradients */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#07070c] via-[#07070c]/95 to-black/90" />
+        {/* Gradient backdrop */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-[#07070c]/95 to-[#07070c]" />
 
         {/* Enhanced radial gradients */}
         <div
@@ -94,9 +111,9 @@ function OurWork() {
           animate-blob-slow-reverse filter blur-2xl"
         />
 
-        {/* New accent gradients */}
-        <div className="absolute inset-0 bg-grid-pattern opacity-[0.02]" />
-        <div className="absolute inset-0 bg-noise-pattern mix-blend-overlay opacity-[0.02]" />
+        {/* Accent layers */}
+        <div className="absolute inset-0 bg-grid-pattern opacity-[0.03]" />
+        <div className="absolute inset-0 bg-noise-pattern mix-blend-overlay opacity-[0.03]" />
 
         {/* Particle system */}
         <Particles
@@ -111,15 +128,18 @@ function OurWork() {
       </div>
 
       <div className="container mx-auto px-0 xs:px-5 sm:px-6 lg:px-8 relative z-10 max-w-[2000px]">
-        {/* Projects Grid with Filtering */}
-        <div className="relative mt-12 xs:mt-16 sm:mt-20">
-          <ProjectCard projectsData={projectsData} />
+        {/* Projects Grid with Filtering - Pass selectedCategory */}
+        <div className="relative mt-0">
+          <ProjectCard
+            projectsData={projectsData}
+            initialCategory={selectedCategory}
+          />
         </div>
 
         {/* View All Button - Enhanced Responsive Margins */}
-        {totalProjects > 8 && (
+        {/* {totalProjects > 8 && (
           <motion.div
-            className="text-center mt-16 xs:mt-20 sm:mt-24 md:mt-28 lg:mt-32"
+            className="text-center mt-16 xs:mt-20 sm:mt-24 md:mt-28 lg:mt-32 mb-10 sm:mb-16"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{
               opacity: 1,
@@ -132,6 +152,7 @@ function OurWork() {
               variant="primary"
               size="large"
               withParticles={true}
+              reducedMotion={true}
               className="hardware-accelerated rounded-full 
                         text-sm xs:text-base sm:text-lg
                         px-6 py-3 xs:px-8 xs:py-4 sm:px-10"
@@ -139,7 +160,7 @@ function OurWork() {
               View All Projects
             </PrimaryButton>
           </motion.div>
-        )}
+        )} */}
       </div>
     </section>
   );

@@ -7,86 +7,19 @@ export const sizeClasses = {
 };
 
 export const variantClasses = {
-  default: `
-    bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900
-    text-neutral-50 
-    border border-neutral-800/10
-    hover:border-neutral-700/20
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-out
-  `,
-  primary: `
-    bg-gradient-to-r from-primary-dark via-primary to-primary-light
-    text-white 
-    border border-primary/10
-    hover:border-primary-light/30
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-out
-  `,
-  secondary: `
-    bg-gradient-to-r from-accent-2/80 to-accent-2
-    text-neutral-200 font-light
-    border-none
-    hover:from-accent-1 hover:to-accent-2
-    hover:border-accent-3/50
-    hover:text-neutral-900
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-  `,
-  light: `
-    bg-light 
-    text-neutral-900
-    hover:border-neutral-300/20
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-  `,
-  success: `
-    bg-semantic-success
-    text-white
-    border border-semantic-success/10
-    hover:shadow-[0_8px_25px_-5px_rgba(16,185,129,0.25)]
-    hover:border-semantic-success/20
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-  `,
-  danger: `
-    bg-semantic-danger
-    text-white
-    border border-semantic-danger/10
-    hover:shadow-[0_8px_25px_-5px_rgba(239,68,68,0.25)]
-    hover:border-semantic-danger/20
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-  `,
-  outline: `
-    bg-white
-    border-2
-    border-primary/80
-    text-primary-dark
-    hover:bg-primary-50
-    hover:border-primary
-    hover:shadow-[0_4px_20px_rgba(59,130,246,0.15)]
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-  `,
-  ghost: `
-    bg-transparent
-    text-accent-1
-    hover:bg-primary-50
-    hover:text-primary
-    active:transform active:scale-[0.98]
-    transition-all duration-300 ease-smooth
-    focus:ring-2 focus:ring-primary-100
-  `,
+  default: "bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 text-neutral-50 border border-neutral-800/10 hover:border-neutral-700/20 active:transform active:scale-[0.98] transition-all duration-300 ease-out",
+  primary: "bg-gradient-to-r from-primary-dark via-primary to-primary-light text-white border border-primary/10 hover:border-primary-light/30 active:transform active:scale-[0.98] transition-all duration-300 ease-out",
+  secondary: "bg-gradient-to-r from-accent-2/80 to-accent-2 text-neutral-200 font-light border-none hover:from-accent-1 hover:to-accent-2 hover:border-accent-3/50 hover:text-neutral-900 active:transform active:scale-[0.98] transition-all duration-300 ease-smooth",
+  light: "bg-light text-neutral-900 hover:border-neutral-300/20 active:transform active:scale-[0.98] transition-all duration-300 ease-smooth",
+  success: "bg-semantic-success text-white border border-semantic-success/10 hover:shadow-[0_8px_25px_-5px_rgba(16,185,129,0.25)] hover:border-semantic-success/20 active:transform active:scale-[0.98] transition-all duration-300 ease-smooth",
+  danger: "bg-semantic-danger text-white border border-semantic-danger/10 hover:shadow-[0_8px_25px_-5px_rgba(239,68,68,0.25)] hover:border-semantic-danger/20 active:transform active:scale-[0.98] transition-all duration-300 ease-smooth",
+  outline: "bg-white border-2 border-primary/80 text-primary-dark hover:bg-primary-50 hover:border-primary hover:shadow-[0_4px_20px_rgba(59,130,246,0.15)] active:transform active:scale-[0.98] transition-all duration-300 ease-smooth",
+  ghost: "bg-transparent text-accent-1 hover:bg-primary-50 hover:text-primary active:transform active:scale-[0.98] transition-all duration-300 ease-smooth focus:ring-2 focus:ring-primary-100",
 };
 
 export const glowEffects = {
   default: "after:bg-neutral-900/10",
-  primary: `
-    after:bg-primary/20
-    after:blur-xl
-    after:animate-pulse
-  `,
+  primary: "after:bg-primary/20 after:blur-xl after:animate-pulse",
   secondary: "after:bg-accent-3/15",
   success: "after:bg-semantic-success/15",
   danger: "after:bg-semantic-danger/15",
