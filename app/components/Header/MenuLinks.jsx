@@ -35,7 +35,7 @@ export default function MenuLinks() {
             <TextLink href="/services" icon="Services" subtitle="What We Offer" />
           </li>
           <li>
-            <TextLink href="/our-work" icon="Our Work" subtitle="See What We’ve Done" />
+            <TextLink href="/#our-work" icon="Our Work" subtitle="See What We’ve Done" />
           </li>
           <li>
             <TextLink href="/whats-new" icon="What's New" subtitle="Latest Updates" />

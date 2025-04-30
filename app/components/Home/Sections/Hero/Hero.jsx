@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 import { motion } from "framer-motion";
 import ImageTrail from "../../../Animations/ImageTrail/ImageTrail";
@@ -13,7 +14,7 @@ function Hero() {
       transition: {
         duration: 0.8,
         staggerChildren: 0.15,
-        ease: "easeOut"
+        ease: "easeOut",
       },
     },
   };
@@ -23,9 +24,9 @@ function Hero() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { 
+      transition: {
         duration: 0.6,
-        ease: [0.215, 0.61, 0.355, 1]
+        ease: [0.215, 0.61, 0.355, 1],
       },
     },
   };
@@ -47,16 +48,12 @@ function Hero() {
         >
           <h1 className="text-[3.5rem] sm:text-[4rem] md:text-[5.5rem] leading-[1.2] font-semibold font-clash text-black tracking-tight pb-8">
             Where{" "}
-            <motion.span
-              className="font-playfair font-medium italic text-neutral-800 inline-block"
-            >
+            <motion.span className="font-playfair font-medium italic text-neutral-800 inline-block">
               Innovation
             </motion.span>{" "}
             <br />
             Meets{" "}
-            <motion.span
-              className="font-playfair font-medium italic text-neutral-800 inline-block"
-            >
+            <motion.span className="font-playfair font-medium italic text-neutral-800 inline-block">
               Passion
             </motion.span>
           </h1>
@@ -81,9 +78,7 @@ function Hero() {
           </motion.p>
         </motion.div>
 
-        <div
-          className="threed h-[40vh] md:h-[500px] flex justify-center items-center relative perspective-1000"
-        >
+        <div className="threed h-[40vh] md:h-[500px] flex justify-center items-center relative perspective-1000">
           <div className="w-full h-full">
             <Scene children={<Item9 />} />
           </div>
@@ -94,21 +89,25 @@ function Hero() {
         className="hero-bottom flex flex-col items-center gap-8 text-center"
         variants={itemVariants}
       >
-        <motion.p
-          variants={itemVariants}
-        >
+        <motion.p variants={itemVariants}>
           We love to bring smiles to people's faces, and that's our job—yep,
           we're serious! 😉
         </motion.p>
         <motion.div className="flex gap-4" variants={itemVariants}>
-          <PrimaryButton
-            variant="primary"
-            size="large"
-            withParticles={true}
-            withRipple={true}
+          <Link
+            href="/#contact"
+            className="relative font-medium"
           >
-            Start Your Project
-          </PrimaryButton>
+            <PrimaryButton
+              variant="primary"
+              size="large"
+              withParticles={true}
+              withRipple={true}
+            >
+              {" "}
+              Start Your Project
+            </PrimaryButton>
+          </Link>
         </motion.div>
       </motion.div>
       <hr className="block" />

@@ -3,7 +3,7 @@
 import React, { useRef, useState, useEffect, useCallback, memo } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { useEnhancedParallax } from "./hooks/useEnhancedParallax";
+// Removed parallax import
 import MagneticButton from "./MagneticButton";
 import { calculateDynamicPadding } from "./utils/layoutUtils";
 import { ANIMATION_VARIANTS } from "./utils/animationUtils";
@@ -46,38 +46,29 @@ const ProjectItem = memo(({ project, index, variant, totalProjects }) => {
     return () => resizeObserver.disconnect();
   }, [variant, cardDimensions.width, cardDimensions.height]);
 
-  const getParallaxConfig = useCallback((variant) => ({
-    hero: { sensitivity: preferReducedMotion ? 5 : 25, depth: preferReducedMotion ? 0.2 : 1.2 },
-    vertical: { sensitivity: preferReducedMotion ? 4 : 20, depth: preferReducedMotion ? 0.2 : 1 },
-    wide: { sensitivity: preferReducedMotion ? 3.6 : 18, depth: preferReducedMotion ? 0.18 : 0.9 },
-    normal: { sensitivity: preferReducedMotion ? 3 : 15, depth: preferReducedMotion ? 0.15 : 0.7 },
-    square: { sensitivity: preferReducedMotion ? 3.6 : 18, depth: preferReducedMotion ? 0.18 : 0.9 },
-  }[variant] || { sensitivity: preferReducedMotion ? 3 : 15, depth: preferReducedMotion ? 0.15 : 0.7 }), [variant, preferReducedMotion]);
-
-  const cardParallax = useEnhancedParallax(cardRef, { ...getParallaxConfig(variant), rotation: !preferReducedMotion, scale: !preferReducedMotion });
-  const imageParallax = useEnhancedParallax(imageRef, { sensitivity: preferReducedMotion ? 7 : 35, depth: preferReducedMotion ? 0.3 : 1.3 });
-  const contentParallax = useEnhancedParallax(contentRef, { sensitivity: preferReducedMotion ? 4 : 20, depth: preferReducedMotion ? 0.1 : 0.4 });
+  // Mouse hover effects are handled separately, so we don't need parallax config anymore
 
   const handleMouseMove = useCallback((e) => {
     if (!cardRef.current || preferReducedMotion) return;
     const rect = cardRef.current.getBoundingClientRect();
-    const x = (e.clientX - rect.left - rect.width / 2) / 30;
-    const y = (e.clientY - rect.top - rect.height / 2) / 30;
+    // Reduce the divisor to make the effect more subtle (from 30 to 60)
+    const x = (e.clientX - rect.left - rect.width / 2) / 60;
+    const y = (e.clientY - rect.top - rect.height / 2) / 60;
 
-    // Enhanced effect for cards without background image
-    const noBackgroundEnhancement = !project.backgroundImage ? 1.5 : 1;
+    // Reduced enhancement for cards without background image
+    const noBackgroundEnhancement = !project.backgroundImage ? 1.2 : 0.8;
 
     // Use requestAnimationFrame for smoother animation
     requestAnimationFrame(() => {
       if (cardRef.current) {
-        cardRef.current.style.transform = `perspective(1000px) rotateX(${-y * noBackgroundEnhancement}deg) rotateY(${x * noBackgroundEnhancement}deg) scale3d(1.02, 1.02, 1.02)`;
+        cardRef.current.style.transform = `perspective(1000px) rotateX(${-y * noBackgroundEnhancement}deg) rotateY(${x * noBackgroundEnhancement}deg) scale3d(1.01, 1.01, 1.01)`;
 
         // Add mouse-follow effect for text cards
         if (!project.backgroundImage && imageRef.current) {
           // Subtle parallax effect for the text background
-          const moveX = x * 2;
-          const moveY = y * 2;
-          imageRef.current.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) scale(1.05)`;
+          const moveX = x * 1; // Reduced from 2 to 1
+          const moveY = y * 1; // Reduced from 2 to 1
+          imageRef.current.style.transform = `translate3d(${moveX}px, ${moveY}px, 0) scale(1.03)`;
         }
       }
     });
@@ -108,9 +99,6 @@ const ProjectItem = memo(({ project, index, variant, totalProjects }) => {
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
       style={{
-        y: cardParallax.y,
-        rotateX: cardParallax.rotateX,
-        scale: cardParallax.scale,
         transformPerspective: "2000px",
         height: "100%",
         minHeight: CARD_MIN_DIMENSIONS.height[variant === "hero" ? "lg" : "md"],
@@ -137,7 +125,7 @@ const ProjectItem = memo(({ project, index, variant, totalProjects }) => {
             <motion.div
               ref={imageRef}
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: `url(${project.backgroundImage})`, y: imageParallax.y, scale: 1.05 }}
+              style={{ backgroundImage: `url(${project.backgroundImage})`, scale: 1.05 }}
               variants={ANIMATION_VARIANTS.image}
             >
               <motion.div
@@ -151,7 +139,6 @@ const ProjectItem = memo(({ project, index, variant, totalProjects }) => {
             <motion.div
               ref={imageRef}
               className="absolute inset-0 overflow-hidden"
-              style={{ y: imageParallax.y }}
               variants={ANIMATION_VARIANTS.image}
             >
               {/* Fancy text background when no image is available */}
@@ -256,7 +243,7 @@ const ProjectItem = memo(({ project, index, variant, totalProjects }) => {
           <motion.div
             ref={contentRef}
             className={`relative h-full flex flex-col justify-end ${variant === "mobile" ? "gap-3 xs:gap-4" : "gap-4 md:gap-6"}`}
-            style={{ y: contentParallax.y, gap: dynamicPadding?.elementSpacing }}
+            style={{ gap: dynamicPadding?.elementSpacing }}
             variants={ANIMATION_VARIANTS.content}
           >
             <div className={`space-y-3 ${variant === "mobile" ? "xs:space-y-3" : "xs:space-y-4"}`}>

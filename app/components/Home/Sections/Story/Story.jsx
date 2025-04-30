@@ -121,16 +121,6 @@ function Story() {
               innerRef={animatedTextRef2}
             />
           </p>
-          <motion.div variants={revealVariants}>
-            <PrimaryButton
-              variant="primary"
-              size="large"
-              withParticles={true}
-              withRipple={true}
-            >
-              Learn More
-            </PrimaryButton>
-          </motion.div>
         </motion.div>
       </div>
     </>

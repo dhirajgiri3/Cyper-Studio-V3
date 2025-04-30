@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -100,14 +101,16 @@ function Approach() {
               logistics game with real-time tracking and courier wizardry so
               slick, it's practically sorcery.
             </p>
-            <PrimaryButton
-              variant="primary"
-              size="large"
-              withParticles={true}
-              className="mt-4 text-white shadow-lg transition-all duration-300"
-            >
-              Explore Our Work
-            </PrimaryButton>
+            <Link href="/#our-work" className="relative font-medium">
+              <PrimaryButton
+                variant="primary"
+                size="large"
+                withParticles={true}
+                className="mt-4 text-white shadow-lg transition-all duration-300"
+              >
+                Explore Our Work
+              </PrimaryButton>
+            </Link>
           </div>
         </div>
 
