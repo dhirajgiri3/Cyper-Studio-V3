@@ -183,23 +183,23 @@ function Home() {
       <div className="fixed inset-0 z-0 backdrop-blur-[120px] transition-all duration-500 bg-gradient-to-b from-transparent to-black/5" />
 
       <div className="relative z-10 w-full">
-        <section data-bg="#f9fafb" className="min-h-screen relative z-50">
+        <section id="hero" data-bg="#f9fafb" className="min-h-screen relative z-50">
           <Hero />
         </section>
 
-        <section data-bg="#ffffff" className="relative z-40">
+        <section id="story" data-bg="#ffffff" className="relative z-40">
           <Story />
         </section>
 
-        <section data-bg="#1f2126" className="min-h-screen relative z-30">
+        <section id="approach" data-bg="#1f2126" className="min-h-screen relative z-30">
           <Approach />
         </section>
 
-        <section data-bg="#1f2126" className="min-h-screen relative z-20">
+        <section id="dream" data-bg="#1f2126" className="min-h-screen relative z-20">
           <Dream />
         </section>
 
-        <section data-bg="#000000" id="our-work" className="relative z-10">
+        <section id="our-work" data-bg="#000000" className="relative z-10">
           <Title />
           <OurWork />
         </section>
@@ -208,7 +208,7 @@ function Home() {
           <ContactCard />
         </section> */}
 
-        <section data-bg="#000000" id="contact" className="relative z-10">
+        <section id="contact" data-bg="#000000" className="relative z-10">
           <ContactUs />
         </section>
       </div>

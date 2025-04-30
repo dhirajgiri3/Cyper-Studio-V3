@@ -5,6 +5,7 @@ import Scene from "../../3D/Scene";
 import React from "react";
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 import PrimaryButton from "../../Buttons/PrimaryButton/PrimaryButton";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -40,6 +41,10 @@ function Footer() {
               simply have a chat :)
             </p>
             <div className="relative inline-block group perspective-1000">
+              <Link
+                href="/#contact"
+                className="relative font-medium"
+              >
               <PrimaryButton
                 variant="primary"
                 size="large"
@@ -64,6 +69,7 @@ function Footer() {
                   </svg>
                 </span>
               </PrimaryButton>
+              </Link>
             </div>
           </div>
 
@@ -89,14 +95,14 @@ function Footer() {
                   </h4>
                   <ul className="space-y-2 sm:space-y-3">
                     {[
-                      { name: "Our Work", path: "/work" },
-                      { name: "Services", path: "/services" },
-                      { name: "About Us", path: "/about" },
+                      { name: "Our Work", path: "/#our-work" },
+                      { name: "Services", path: "/#our-work" },
+                      { name: "About Us", path: "/#story" },
                     ].map((item) => (
                       <li key={item.name}>
                         <a
                           href={item.path}
-                          className="text-white/60 hover:text-white transition-all duration-300 text-xs xs:text-sm inline-flex items-center group"
+                          className="text-white/60 hover:text-white transition-all duration-300 text-sm xs:text-sm inline-flex items-center group"
                         >
                           <span className="group-hover:translate-x-1 transition-transform duration-300">
                             {item.name}
@@ -114,7 +120,7 @@ function Footer() {
                   </h4>
                   <div className="space-y-3 sm:space-y-4">
                     <a
-                      href="mailto:hello@company.com"
+                      href="mailto:hello@cyperstudio.in"
                       className="group flex items-center gap-2 sm:gap-3 text-white/60 hover:text-white transition-all duration-300 text-xs xs:text-sm sm:text-base"
                     >
                       <span className="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-white/10 transition-all">
@@ -127,23 +133,23 @@ function Footer() {
                           <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                         </svg>
                       </span>
-                      hello@company.com
+                      hello@cyperstudio.in
                     </a>
                     <div className="flex gap-3 sm:gap-4">
                       {[
                         {
                           icon: FaTwitter,
-                          href: "https://twitter.com",
+                          href: "https://x.com/cyperstudioo",
                           label: "Twitter",
                         },
                         {
                           icon: FaGithub,
-                          href: "https://github.com",
+                          href: "https://github.com/dhirajgiri3",
                           label: "GitHub",
                         },
                         {
                           icon: FaLinkedin,
-                          href: "https://linkedin.com",
+                          href: "https://www.linkedin.com/in/company/cyper-studio",
                           label: "LinkedIn",
                         },
                       ].map((social) => (
