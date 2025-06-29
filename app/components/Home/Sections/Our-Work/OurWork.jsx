@@ -9,12 +9,10 @@ import Particles from "react-particles";
 function OurWork() {
   const sectionRef = useRef(null);
   const [selectedCategory, setSelectedCategory] = useState("live");
-
-  // Calculate total projects across all categories
-  const totalProjects = Object.values(projectsData).reduce(
-    (acc, curr) => acc + (curr?.length || 0),
-    0
-  );
+  const projectCardRef = useRef(null);
+  const [hasMoreToLoad, setHasMoreToLoad] = useState(false);
+  const [visibleProjects, setVisibleProjects] = useState(0);
+  const [totalInCategory, setTotalInCategory] = useState(0);
 
   // Effect to listen for category selection from Title component
   useEffect(() => {
@@ -30,6 +28,26 @@ function OurWork() {
       window.removeEventListener("category-selected", handleCategorySelection);
     };
   }, []);
+
+  // Effect to check if there are more projects to load on initial render and category change
+  useEffect(() => {
+    const category = selectedCategory;
+    const categoryType = category === "live" ? "liveProjects" :
+                         category === "development" ? "inDevelopment" :
+                         category === "upcoming" ? "comingSoon" : "liveProjects";
+
+    const projects = projectsData[categoryType] || [];
+    setTotalInCategory(projects.length);
+    setHasMoreToLoad(projects.length > 8);
+    setVisibleProjects(Math.min(8, projects.length));
+  }, [selectedCategory]);
+
+  // Function to handle loading more projects
+  const handleLoadMore = (newLimit, total) => {
+    setVisibleProjects(newLimit);
+    setTotalInCategory(total);
+    setHasMoreToLoad(newLimit < total);
+  };
 
   // Set up particles
   const particlesInit = async (engine) => {
@@ -77,7 +95,7 @@ function OurWork() {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full min-h-[100svh] py-8 sm:py-10 md:py-12 lg:py-16 
+      className="relative w-full min-h-[100svh] py-8 sm:py-10 md:py-12 lg:py-16
                  bg-[#07070c] overflow-hidden"
     >
       {/* Enhanced Background Effects */}
@@ -87,26 +105,26 @@ function OurWork() {
 
         {/* Enhanced radial gradients */}
         <div
-          className="absolute top-0 left-0 w-full h-full 
+          className="absolute top-0 left-0 w-full h-full
           bg-[radial-gradient(ellipse_at_top,rgba(14,78,232,0.15),transparent_70%)]
           blur-3xl opacity-60"
         />
 
         <div
-          className="absolute bottom-0 right-0 w-full h-full 
+          className="absolute bottom-0 right-0 w-full h-full
           bg-[radial-gradient(ellipse_at_bottom,rgba(142,53,240,0.15),transparent_70%)]
           blur-3xl opacity-60"
         />
 
         {/* Enhanced floating blobs */}
         <div
-          className="absolute top-1/4 left-1/3 w-[45rem] h-[45rem] 
+          className="absolute top-1/4 left-1/3 w-[45rem] h-[45rem]
           bg-[radial-gradient(circle_at_center,rgba(99,102,241,0.1),transparent_50%)]
           animate-blob-slow filter blur-2xl"
         />
 
         <div
-          className="absolute bottom-1/4 right-1/3 w-[40rem] h-[40rem] 
+          className="absolute bottom-1/4 right-1/3 w-[40rem] h-[40rem]
           bg-[radial-gradient(circle_at_center,rgba(168,85,247,0.1),transparent_50%)]
           animate-blob-slow-reverse filter blur-2xl"
         />
@@ -127,17 +145,21 @@ function OurWork() {
         <div className="absolute inset-0 bg-mesh-pattern opacity-[0.02]" />
       </div>
 
-      <div className="container mx-auto px-0 xs:px-5 sm:px-6 lg:px-8 relative z-10 max-w-[2000px]">
+      <div className="container mx-auto px-0 xs:px-5 sm:px-6 lg:px-8 relative z-5 max-w-[2000px]">
         {/* Projects Grid with Filtering - Pass selectedCategory */}
         <div className="relative mt-0">
+          {/* Store the ProjectCard component reference to access its methods */}
           <ProjectCard
+            ref={projectCardRef}
             projectsData={projectsData}
             initialCategory={selectedCategory}
+            projectsToShow={8}
+            onLoadMore={handleLoadMore}
           />
         </div>
 
-        {/* View All Button - Enhanced Responsive Margins */}
-        {/* {totalProjects > 8 && (
+        {/* Load More Button - Enhanced Responsive Margins */}
+        {hasMoreToLoad && (
           <motion.div
             className="text-center mt-16 xs:mt-20 sm:mt-24 md:mt-28 lg:mt-32 mb-10 sm:mb-16"
             initial={{ opacity: 0, y: 20 }}
@@ -153,14 +175,19 @@ function OurWork() {
               size="large"
               withParticles={true}
               reducedMotion={true}
-              className="hardware-accelerated rounded-full 
+              className="hardware-accelerated rounded-full
                         text-sm xs:text-base sm:text-lg
                         px-6 py-3 xs:px-8 xs:py-4 sm:px-10"
+              onClick={() => {
+                if (projectCardRef.current && projectCardRef.current.handleLoadMore) {
+                  projectCardRef.current.handleLoadMore();
+                }
+              }}
             >
-              View All Projects
+              Load More Projects
             </PrimaryButton>
           </motion.div>
-        )} */}
+        )}
       </div>
     </section>
   );

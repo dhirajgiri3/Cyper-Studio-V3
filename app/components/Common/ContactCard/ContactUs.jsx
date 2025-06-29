@@ -36,7 +36,7 @@ import {
 } from "lucide-react";
 
 // --- Lazy Load Heavy Components ---
-// const FloatingLabels = lazy(() => import("./FloatingLabels"));
+const GravityLabels = lazy(() => import("./GravityLabels"));
 const ParticleBackground = lazy(() => import("./ParticleBackground"));
 const ReactConfetti = lazy(() => import("react-confetti"));
 const GlowingOrb = lazy(() => import("./GlowingOrb"));
@@ -441,7 +441,7 @@ function ContactUs() {
       <Toaster position="top-center" reverseOrder={false} />
 
       {/* Background Effects */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-[5]" style={{ minHeight: '100vh' }}>
         {/* Spotlight Effect */}
         <motion.div
           className="absolute top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle_at_center,rgba(79,70,229,0.3),rgba(147,51,234,0.2),transparent_70%)] blur-3xl"
@@ -456,9 +456,11 @@ function ContactUs() {
         <Suspense fallback={<div className="bg-neutral-900/50" />}>
           <ParticleBackground particleColor="#a1a1aa" particleDensity={8} />
         </Suspense>
-        {/* <Suspense fallback={null}>
-          <FloatingLabels floatingLabels={FLOATING_LABELS} />
-        </Suspense> */}
+        <Suspense fallback={null}>
+          <div className="z-[15] absolute inset-0 w-full h-full pointer-events-auto" style={{ minHeight: '100vh' }}>
+            <GravityLabels labels={FLOATING_LABELS} /> 
+          </div>
+        </Suspense>
         <Suspense fallback={null}>
           {formTouched && (
             <GlowingOrb
@@ -666,9 +668,8 @@ function ContactUs() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <motion.a
                     href={`tel:${CONTACT_PHONE_TEL}`}
-                    className="flex-1 flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-neutral-800/70 hover:bg-neutral-700/80 text-neutral-200 text-sm font-medium border border-neutral-700/50 transition-all duration-300"
+                    className="flex-1 flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-neutral-800/70 text-neutral-200 text-sm font-medium border border-neutral-700/50 transition-all duration-300"
                     whileHover={{
-                      scale: 1.03,
                       boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
                       y: -2,
                     }}
@@ -679,9 +680,8 @@ function ContactUs() {
                   </motion.a>
                   <motion.a
                     href={`mailto:${CONTACT_EMAIL}`}
-                    className="flex-1 flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-neutral-800/70 hover:bg-neutral-700/80 text-neutral-200 text-sm font-medium border border-neutral-700/50 transition-all duration-300"
+                    className="flex-1 flex items-center justify-center gap-3 px-5 py-3 rounded-lg bg-neutral-800/70 text-neutral-200 text-sm font-medium border border-neutral-700/50 transition-all duration-300"
                     whileHover={{
-                      scale: 1.03,
                       boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
                       y: -2,
                     }}
@@ -860,14 +860,14 @@ function ContactUs() {
                             }}
                           />
                         )}
-                        <div className="flex items-center gap-4">
+                        <div className="flex items-start gap-2 w-full">
                           <motion.div
                             className={`p-3 rounded-lg bg-${service.color}-500/30 group-hover:ring-1 group-hover:ring-${service.color}-500/30 transition-all duration-300`}
                             whileHover={{ scale: 1.2, rotate: 15 }}
                           >
                             <service.icon className="w-7 h-7 text-white" />
                           </motion.div>
-                          <div>
+                          <div className="flex flex-col gap-4 w-full">
                             <h4 className="text-lg font-semibold text-white">
                               {service.name}
                             </h4>
@@ -917,7 +917,7 @@ function ContactUs() {
                       className={`w-full py-4 text-lg rounded-xl font-medium text-white shadow-lg transition-all duration-300 ${
                         formData.service
                           ? "bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 hover:shadow-blue-500/20"
-                          : "bg-neutral-700/50 cursor-not-allowed"
+                          : "bg-white/70 text-gray-900 backdrop-blur-lg cursor-not-allowed"
                       }`}
                       whileHover={
                         formData.service ? { scale: 1.02, y: -2 } : {}
@@ -956,7 +956,7 @@ function ContactUs() {
                   <motion.form
                     key="step2"
                     onSubmit={handleSubmit}
-                    className="space-y-8 max-w-4xl mx-auto relative z-50 bg-neutral-900/95"
+                    className="space-y-8 max-w-4xl mx-auto relative z-5 bg-neutral-900/95"
                     initial={{ opacity: 0, y: 30 }}
                     animate={{
                       opacity: 1,

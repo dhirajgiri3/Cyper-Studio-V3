@@ -53,7 +53,7 @@ const PrimaryButton = ({
   }, []);
 
   const buttonClassNames = useMemo(() => {
-    const baseClasses = "relative inline-flex items-center justify-center font-medium tracking-wide overflow-hidden whitespace-nowrap button-container z-10";
+    const baseClasses = "relative inline-flex items-center justify-center font-medium tracking-wide overflow-hidden whitespace-nowrap button-container z-5";
     return [
       baseClasses,
       sizeClasses[size],
@@ -152,7 +152,7 @@ const PrimaryButton = ({
       }}
       {...props}
     >
-      <div className="relative z-10">
+      <div className="relative z-5">
         {children}
       </div>
       {withParticles && isHovered && (

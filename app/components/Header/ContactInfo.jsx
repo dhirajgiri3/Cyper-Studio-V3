@@ -25,8 +25,8 @@ export default function ContactInfo() {
     <ContactInfoContainer>
       <div className="email">
         <li className="content__item">
-          <a href="mailto:info@cyper.studio" className="link link--iocaste">
-            <span>Info@cyper.studio</span>
+          <a href="mailto:hello@cyperstudio.in" className="link link--iocaste">
+            <span>hello@cyperstudio.in</span>
             <svg className="link__graphic link__graphic--slide" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
               <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
             </svg>
@@ -35,8 +35,8 @@ export default function ContactInfo() {
       </div>
       <div className="phone">
         <li className="content__item">
-          <a href="tel:+91 9904392992" className="link link--iocaste">
-            <span>+91 9904392992</span>
+          <a href="tel:+91 9569691483" className="link link--iocaste">
+            <span>+91 9569691483</span>
             <svg className="link__graphic link__graphic--slide" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
               <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>
             </svg>

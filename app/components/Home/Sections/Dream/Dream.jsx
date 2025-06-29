@@ -157,7 +157,7 @@ const Dream = () => {
         style={{ zIndex: 0 }}
       />
 
-      <div className="relative z-10">
+      <div className="relative z-5">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 md:gap-16 items-center mb-20 md:mb-28">
             <TextContent />

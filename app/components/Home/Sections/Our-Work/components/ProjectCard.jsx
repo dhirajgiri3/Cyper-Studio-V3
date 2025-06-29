@@ -1,17 +1,18 @@
 // /ProjectCard.jsx
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, forwardRef, useImperativeHandle } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import ProjectItem from "./ProjectItem";
 import { generateGridLayout } from "./utils/layoutUtils";
 import { TRANSITION_VARIANTS } from "./utils/animationUtils";
 import { CATEGORIES } from "./constants/cardConstants";
 
-const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
+const ProjectCard = forwardRef(({ projectsData, initialCategory = "live", projectsToShow = 8, onLoadMore }, ref) => {
   const [selectedCategory, setSelectedCategory] = useState(initialCategory);
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [layout, setLayout] = useState([]);
   const [windowWidth, setWindowWidth] = useState(0);
+  const [projectLimit, setProjectLimit] = useState(projectsToShow);
   const isClient = useRef(false);
   const initialMountRef = useRef(true);
 
@@ -35,7 +36,7 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
     }
   }, [initialCategory]);
 
-  // Update the filtered projects when category changes
+  // Update the filtered projects when category changes or project limit changes
   useEffect(() => {
     if (!projectsData) return;
 
@@ -43,8 +44,8 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
     if (!category) return;
 
     const projects = projectsData[category.type] || [];
-    const limitedProjects = projects.slice(0, 8);
-    
+    const limitedProjects = projects.slice(0, projectLimit);
+
     // Minimal animation on first render for better performance
     if (initialMountRef.current) {
       setFilteredProjects(limitedProjects);
@@ -57,7 +58,7 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
         setLayout(generateGridLayout(limitedProjects.length));
       }, 100); // Small timeout for visual transition
     }
-    
+
     // Dispatch event for Title component communication
     if (typeof window !== 'undefined' && !initialMountRef.current) {
       const event = new CustomEvent('category-updated', {
@@ -65,11 +66,48 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
       });
       window.dispatchEvent(event);
     }
-  }, [selectedCategory, projectsData]);
+  }, [selectedCategory, projectsData, projectLimit]);
+
+  // Function to handle loading more projects
+  const handleLoadMore = () => {
+    const category = CATEGORIES.find((cat) => cat.id === selectedCategory);
+    if (!category) return;
+
+    const projects = projectsData[category.type] || [];
+    const newLimit = Math.min(projectLimit + 4, projects.length);
+
+    setProjectLimit(newLimit);
+
+    // Call the parent component's onLoadMore if provided
+    if (onLoadMore) {
+      onLoadMore(newLimit, projects.length, selectedCategory);
+    }
+  };
+
+  // Expose methods to parent component via ref
+  useImperativeHandle(ref, () => ({
+    handleLoadMore,
+    hasMoreProjects: hasMoreProjects(),
+    currentCategory: selectedCategory,
+    totalInCategory: (() => {
+      const category = CATEGORIES.find((cat) => cat.id === selectedCategory);
+      return category ? (projectsData[category.type] || []).length : 0;
+    })(),
+    visibleCount: filteredProjects.length
+  }));
+
+  // Check if there are more projects to load
+  const hasMoreProjects = () => {
+    const category = CATEGORIES.find((cat) => cat.id === selectedCategory);
+    if (!category) return false;
+
+    const projects = projectsData[category.type] || [];
+    return projectLimit < projects.length;
+  };
 
   return (
     <div className="relative w-full mx-auto max-w-[2000px] px-4 sm:px-6 lg:px-8">
-      <div className="relative flex flex-col items-center mb-10 sm:mb-14 lg:mb-20 z-10">
+      <div className="relative flex flex-col items-center mb-10 sm:mb-14 lg:mb-20 z-5">
         <div className="relative flex flex-wrap justify-center gap-2 sm:gap-4 p-2 sm:p-3 rounded-full bg-gradient-to-br from-black/80 via-black/70 to-[#07070c]/80 backdrop-blur-xl border border-white/10 shadow-xl w-[90vw] sm:w-[70vw] lg:w-[50vw] xl:w-[40vw] hardware-accelerated">
           {CATEGORIES.map((category) => {
             const isActive = selectedCategory === category.id;
@@ -107,14 +145,14 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={selectedCategory}
-          className="relative z-10"
+          className="relative z-5"
           variants={TRANSITION_VARIANTS}
           initial="initial"
           animate="animate"
           exit="exit"
         >
           <motion.div
-            className={`relative grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-12 gap-5 sm:gap-6 lg:gap-8 auto-rows-[minmax(320px,auto)] sm:auto-rows-[minmax(360px,auto)] lg:auto-rows-[minmax(50vh,auto)] perspective-[2000px] transform-gpu`}
+            className={`relative grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-12 gap-5 sm:gap-6 lg:gap-8 auto-rows-[minmax(320px,auto)] sm:auto-rows-[minmax(360px,auto)] lg:auto-rows-[minmax(50vh,auto)]`}
             layout
           >
             {filteredProjects.map((project, index) => (
@@ -164,8 +202,9 @@ const ProjectCard = ({ projectsData, initialCategory = "live" }) => {
           </motion.div>
         )}
       </AnimatePresence>
+
     </div>
   );
-};
+});
 
 export default ProjectCard;

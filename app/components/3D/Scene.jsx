@@ -37,7 +37,7 @@ const Scene = ({ children }) => {
             <Suspense fallback={null}>
                 {children}
             </Suspense>
-            <Environment preset='sunset' />
+            <Environment preset='city' />  {/* Changed from 'sunset' to 'city' which should be available */}
 
             {/* Performance optimizations */}
             <AdaptiveDpr pixelated />

@@ -2,8 +2,6 @@
 
 import React, {
   useRef,
-  useEffect,
-  useState,
   useCallback,
   useMemo,
   memo,
@@ -15,17 +13,17 @@ import Hero from "./Sections/Hero/Hero";
 import Story from "./Sections/Story/Story";
 import Approach from "./Sections/Approach/Approach";
 import Dream from "./Sections/Dream/Dream";
-import ContactCard from "../Common/ContactCard/ContactCard";
 import Title from "./Sections/Our-Work/Title";
 import OurWork from "./Sections/Our-Work/OurWork";
 import { isReducedMotion } from "../Buttons/utils/performanceUtils";
 import ContactUs from "../Common/ContactCard/ContactUs";
+import ImageTrail from "../Animations/ImageTrail/ImageTrail";
 
 gsap.registerPlugin(ScrollTrigger);
 
 function Home() {
   const mainRef = useRef(null);
-  const [isClient, setIsClient] = useState(false);
+  const heroSectionRef = useRef(null);
   const reducedMotion = useMemo(() => isReducedMotion(), []);
 
   // Memoize the background transition duration
@@ -48,11 +46,6 @@ function Home() {
     },
     [bgTransitionDuration]
   );
-
-  // Set isClient to true on mount
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   // Use useGSAP for better cleanup and performance
   useGSAP(() => {
@@ -182,33 +175,61 @@ function Home() {
     >
       <div className="fixed inset-0 z-0 backdrop-blur-[120px] transition-all duration-500 bg-gradient-to-b from-transparent to-black/5" />
 
-      <div className="relative z-10 w-full">
-        <section id="hero" data-bg="#f9fafb" className="min-h-screen relative z-50">
+      <div className="relative z-5 w-full">
+        <section
+          id="hero"
+          data-bg="#f9fafb"
+          className="min-h-screen relative z-50"
+          ref={heroSectionRef}
+        >
           <Hero />
+          <div
+            className="absolute inset-0 z-10 overflow-hidden"
+            style={{ pointerEvents: "auto" }}
+          >
+            <ImageTrail
+              containerRef={heroSectionRef}
+              className="hero-image-trail"
+              options={{
+                imageSize: 200,
+                threshold: 50,
+                maxConcurrentAnimations: 5,
+                trailDensity: 1.5
+              }}
+            />
+          </div>
         </section>
 
         <section id="story" data-bg="#ffffff" className="relative z-40">
           <Story />
         </section>
 
-        <section id="approach" data-bg="#1f2126" className="min-h-screen relative z-30">
+        <section
+          id="approach"
+          data-bg="#1f2126"
+          className="min-h-screen relative z-30"
+        >
           <Approach />
         </section>
 
-        <section id="dream" data-bg="#1f2126" className="min-h-screen relative z-20">
+        <section
+          id="dream"
+          data-bg="#1f2126"
+          className="min-h-screen relative z-20"
+        >
           <Dream />
         </section>
 
-        <section id="our-work" data-bg="#000000" className="relative z-10">
+        <section id="our-work" data-bg="#000000" className="relative z-5">
           <Title />
           <OurWork />
         </section>
 
-        {/* <section data-bg="#000000" className="relative z-10">
+        {/* <section data-bg="#000000" className="relative z-5">
           <ContactCard />
         </section> */}
 
-        <section id="contact" data-bg="#000000" className="relative z-10">
+        <section id="contact" data-bg="#000000" className="relative z-5">
           <ContactUs />
         </section>
       </div>

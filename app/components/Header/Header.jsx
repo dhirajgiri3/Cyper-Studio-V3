@@ -60,7 +60,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
           </Link>
         </li>
 
-        {/* <div className="bar">
+        <div className="bar">
           <button 
             onClick={onToggleSidebar}
             className={`relative z-[1002] flex items-center justify-center rounded-full p-2.5 cursor-pointer transition-all duration-500 border border-slate-200/60 hover:border-[var(--primary)] bg-white/10 hover:bg-white group ${
@@ -81,7 +81,7 @@ export default function Header({ onToggleSidebar, isChecked }) {
               } group-hover:bg-[var(--primary)] group-hover:w-full`}></span>
             </div>
           </button>
-        </div> */}
+        </div>
       </div>
     </header>
   );

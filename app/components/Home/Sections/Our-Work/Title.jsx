@@ -10,7 +10,14 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import MagneticWrapper from "../../../Buttons/PrimaryButton/MagneticWrapper";
 import SparkleEffect from "../../../Animations/Effects/Sparkle";
 import { isReducedMotion } from "../../../Buttons/utils/performanceUtils";
-import { BadgePlusIcon,  } from "lucide-react";
+import {
+  ShoppingBag,
+  HeartPulse,
+  BookOpen,
+  Cloud,
+  Brain,
+  Code
+} from "lucide-react";
 
 // Register GSAP plugins
 gsap.registerPlugin(ScrollTrigger);
@@ -30,7 +37,7 @@ const throttle = (func, limit) => {
 
 // WorkItem Component - Enhanced for better animations and visuals
 const WorkItem = React.memo(
-  ({ item, index, color, isSparkleActive, onClick }) => {
+  ({ item, color, isSparkleActive, onClick }) => {
     const itemRef = useRef(null);
     const textRef = useRef(null);
     const animationRef = useRef(null);
@@ -154,37 +161,41 @@ const WorkItem = React.memo(
       >
         <div
           ref={itemRef}
-          className={`work-item relative z-20 px-3 py-4 sm:py-5 rounded-xl transition-all duration-300 ease-out flex items-center gap-3 font-medium tracking-tight max-w-full mx-auto ${color} active:scale-95 justify-center overflow-hidden hover:shadow-lg`}
+          className={`work-item relative z-10 px-4 py-4 sm:py-5 rounded-xl transition-all duration-300 ease-out flex items-center gap-3 font-medium tracking-tight max-w-full mx-auto ${color} active:scale-95 justify-center overflow-hidden hover:shadow-lg`}
           role="button"
           tabIndex={0}
           onClick={onClick}
           aria-label={item.title}
         >
           {/* Enhanced hover effect with gradient */}
-          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-white/15 to-white/0 pointer-events-none" />
-          
+          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-white/20 to-white/0 pointer-events-none" />
+
           {/* Added subtle inner border */}
-          <div className="absolute inset-0 border border-white/10 rounded-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <div className="absolute inset-0 border border-white/15 rounded-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
+          {/* Added subtle glow effect on hover */}
+          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-xl shadow-[0_0_15px_rgba(255,255,255,0.15)] pointer-events-none" />
 
           {/* Enhanced sparkle effect */}
           <SparkleEffect isActive={isSparkleActive} size={0.6} />
 
-          <span
-            className="text-xl relative z-10 transition-all duration-300 group-hover:scale-110 mr-1"
+          {/* Icon with improved styling and animation */}
+          <div
+            className="relative z-10 flex items-center justify-center w-7 h-7 transition-all duration-300 group-hover:scale-110 text-white bg-white/10 rounded-full p-1.5"
             aria-hidden="true"
           >
             {item.icon}
-          </span>
+          </div>
 
           <span
             ref={textRef}
-            className="hidden xs:inline relative z-10 transform transition-transform duration-300 text-white font-semibold text-sm whitespace-nowrap"
+            className="hidden xs:inline relative z-10 transform transition-transform duration-300 text-white font-semibold text-sm whitespace-nowrap ml-1"
           >
             {preferReducedMotion ? item.title : null}
           </span>
 
           {/* Fallback for small screens */}
-          <span className="xs:hidden relative z-10 transform transition-transform duration-300 text-white font-semibold text-sm">
+          <span className="xs:hidden relative z-10 transform transition-transform duration-300 text-white font-semibold text-sm ml-1">
             {item.title.split(" ")[0]}
           </span>
         </div>
@@ -216,17 +227,17 @@ const Title = () => {
   const intervalRef = useRef(null);
   const [activeCategory, setActiveCategory] = useState(null);
 
-  // Updated work items to reflect your services
+  // Updated work items with professional Lucide React icons
   const workItemsData = useMemo(
     () => [
-      { title: "E-commerce Platforms", icon: "🛍️", category: "ecommerce" },
-      { title: "Healthcare Solutions", icon: "⚕️", category: "healthcare" },
-      { title: "EdTech Applications", icon: "📚", category: "edtech" },
-      { title: "SaaS Development", icon: "☁️", category: "saas" },
-      { title: "AI & ML Integration", icon: "🤖", category: "ai" },
-      { title: "Custom Software", icon: "💻", category: "custom" },
+      { title: "E-commerce Platforms", icon: <ShoppingBag size={16} strokeWidth={2} />, category: "ecommerce" },
+      { title: "Healthcare Solutions", icon: <HeartPulse size={16} strokeWidth={2} />, category: "healthcare" },
+      { title: "EdTech Applications", icon: <BookOpen size={16} strokeWidth={2} />, category: "edtech" },
+      { title: "SaaS Development", icon: <Cloud size={16} strokeWidth={2} />, category: "saas" },
+      { title: "AI & ML Integration", icon: <Brain size={16} strokeWidth={2} />, category: "ai" },
+      { title: "Custom Software", icon: <Code size={16} strokeWidth={2} />, category: "custom" },
     ],
-    []
+    [ShoppingBag, HeartPulse, BookOpen, Cloud, Brain, Code]
   );
 
   // Refined color palette - more modern and cohesive
@@ -279,16 +290,16 @@ const Title = () => {
           setSparkleIndices((prev) => {
             const length = workItemsData.length;
             if (length < 2) return prev;
-            
+
             // Create a more randomized sparkle effect
             let nextIndex1 = Math.floor(Math.random() * length);
             let nextIndex2 = Math.floor(Math.random() * length);
-            
+
             // Ensure indices are different
             while (nextIndex1 === nextIndex2) {
               nextIndex2 = Math.floor(Math.random() * length);
             }
-            
+
             return [nextIndex1, nextIndex2];
           });
         }
@@ -341,7 +352,7 @@ const Title = () => {
       const createBlob = () => {
         const blob = document.createElement("div");
         blob.className = "blob absolute top-1/2 left-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 opacity-25 pointer-events-none z-1 will-change-transform";
-        
+
         // More vibrant gradient with better blending
         const gradients = [
           "rgba(59, 130, 246, 0.45)", // Blue
@@ -350,7 +361,7 @@ const Title = () => {
           "rgba(6, 182, 212, 0.1)",   // Light cyan
           "rgba(0, 0, 0, 0)",         // Transparent
         ];
-        
+
         blob.style.background = `radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), ${gradients[0]} 0%, ${gradients[1]} 25%, ${gradients[2]} 40%, ${gradients[3]} 65%, ${gradients[4]} 100%)`;
         blob.style.transition = "background 0.5s ease";
         blob.style.filter = "blur(40px)"; // Add blur for softer effect
@@ -412,15 +423,15 @@ const Title = () => {
 
       // Split title into words first, then characters
       const words = titleText.split(" ");
-      
+
       words.forEach((word, wordIndex) => {
         const wordSpan = document.createElement("span");
         wordSpan.style.display = "inline-block";
         wordSpan.style.position = "relative";
         wordSpan.className = "word";
-        
+
         // Add characters
-        const chars = word.split("").map((char) => {
+        word.split("").forEach((char) => {
           const span = document.createElement("span");
           span.textContent = char;
           span.style.display = "inline-block";
@@ -428,11 +439,10 @@ const Title = () => {
           span.style.willChange = "transform, opacity";
           span.className = "char";
           wordSpan.appendChild(span);
-          return span;
         });
-        
+
         titleWrapper.appendChild(wordSpan);
-        
+
         // Add space after word (except last word)
         if (wordIndex < words.length - 1) {
           const space = document.createElement("span");
@@ -442,18 +452,18 @@ const Title = () => {
           titleWrapper.appendChild(space);
         }
       });
-      
+
       titleEl.appendChild(titleWrapper);
-      
+
       // Get all characters for animation
       const allChars = titleWrapper.querySelectorAll(".char");
-      
+
       // Enhanced title animation with 3D effect
       gsap.fromTo(
         allChars,
-        { 
-          opacity: 0, 
-          y: 50, 
+        {
+          opacity: 0,
+          y: 50,
           rotateX: -40,
           transformOrigin: "50% 50% -20px"
         },
@@ -472,7 +482,7 @@ const Title = () => {
           },
           onComplete: function() {
             this.scrollTrigger?.kill();
-            
+
             // Add subtle hover animation after initial animation
             const hoverTl = gsap.timeline({ paused: true });
             hoverTl.to(allChars, {
@@ -481,7 +491,7 @@ const Title = () => {
               ease: "power2.out",
               duration: 0.4
             });
-            
+
             titleWrapper.addEventListener("mouseenter", () => hoverTl.play());
             titleWrapper.addEventListener("mouseleave", () => hoverTl.reverse());
           }
@@ -496,7 +506,7 @@ const Title = () => {
         const centerY = rect.top + rect.height / 2;
         const rotateY = ((e.clientX - centerX) / rect.width) * 8; // Reduced tilt for subtlety
         const rotateX = -((e.clientY - centerY) / rect.height) * 8;
-        
+
         gsap.to(titleWrapper, {
           rotateY,
           rotateX,
@@ -542,7 +552,7 @@ const Title = () => {
               scale: 1,
               y: 0,
               rotateX: 0,
-              stagger: { 
+              stagger: {
                 each: 0.12,
                 from: "start" // Start from the first element
               },
@@ -573,12 +583,12 @@ const Title = () => {
         if (containerRef.current) {
           containerRef.current.removeEventListener("mousemove", handleMouseMove);
         }
-        
+
         if (titleWrapper) {
           titleWrapper.removeEventListener("mousemove", handleTitleMouseMove);
           titleWrapper.removeEventListener("mouseleave", handleMouseLeave);
         }
-        
+
         if (blobRef.current?.parentNode) {
           blobRef.current.remove();
           blobRef.current = null;
@@ -605,7 +615,7 @@ const Title = () => {
       {/* Main title with enhanced styling */}
       <h1
         ref={titleRef}
-        className="text-white text-9xl xs:text-10xl sm:text-11xl md:text-12xl lg:text-13xl font-black relative z-10 text-center mb-12 xs:mb-14 sm:mb-16 md:mb-18 px-2 xs:px-4 leading-tight tracking-tight [text-wrap:balance] select-none transition-all duration-500"
+        className="text-white text-9xl xs:text-10xl sm:text-11xl md:text-12xl lg:text-13xl font-black relative z-5 text-center mb-12 xs:mb-14 sm:mb-16 md:mb-18 px-2 xs:px-4 leading-tight tracking-tight [text-wrap:balance] select-none transition-all duration-500"
       >
         Our Work {/* Initial text for SSR/non-JS */}
       </h1>
@@ -613,7 +623,7 @@ const Title = () => {
       {/* Service items grid with improved spacing */}
       <div
         ref={workItemsRef}
-        className="w-full max-w-[96%] xs:max-w-[94%] sm:max-w-[92%] md:max-w-[88%] lg:max-w-[84%] mt-4 xs:mt-6 sm:mt-8 relative z-20 grid grid-cols-2 md:grid-cols-3 gap-4 xs:gap-5 sm:gap-6 md:gap-7 lg:gap-8 [perspective:2000px] px-2 xs:px-3 sm:px-4"
+        className="w-full max-w-[96%] xs:max-w-[94%] sm:max-w-[92%] md:max-w-[88%] lg:max-w-[84%] mt-4 xs:mt-6 sm:mt-8 relative z-10 grid grid-cols-2 md:grid-cols-3 gap-4 xs:gap-5 sm:gap-6 md:gap-7 lg:gap-8 [perspective:2000px] px-2 xs:px-3 sm:px-4"
         role="list"
         aria-label="Our services"
       >

@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import PrimaryButton from "../../../Buttons/PrimaryButton/PrimaryButton";
 import { motion } from "framer-motion";
-import ImageTrail from "../../../Animations/ImageTrail/ImageTrail";
 import Item9 from "../../../3D/Models/Item9";
 import Scene from "../../../3D/Scene";
 
@@ -38,9 +37,7 @@ function Hero() {
       animate="visible"
       variants={containerVariants}
     >
-      <div className="background-trail absolute inset-0 -z-10">
-        <ImageTrail />
-      </div>
+
       <div className="hero-top w-full grid grid-cols-1 md:grid-cols-2 gap-12">
         <motion.div
           className="texts flex flex-col gap-6 md:gap-8"

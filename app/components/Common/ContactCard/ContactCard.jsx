@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 import { useWindowSize } from 'react-use';
 
 // Lazy load heavy components
-const FloatingLabels = lazy(() => import('./FloatingLabels'));
+const GravityLabels = lazy(() => import('./GravityLabels'));
 const ParticleBackground = lazy(() => import('./ParticleBackground'));
 const ReactConfetti = lazy(() => import('react-confetti'));
 
@@ -63,7 +63,7 @@ function ContactCard() {
   const [showConfetti, setShowConfetti] = useState(false);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
-  
+
   const formInitialState = useMemo(() => ({
     name: "",
     email: "",
@@ -131,7 +131,7 @@ function ContactCard() {
       </div>,
       toastStyles.success
     );
-    
+
     // Stop confetti after 5 seconds
     setTimeout(() => {
       setShowConfetti(false);
@@ -152,7 +152,7 @@ function ContactCard() {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     const errors = validateForm(formData);
     if (Object.keys(errors).length > 0) {
       setFormErrors(errors);
@@ -194,13 +194,13 @@ function ContactCard() {
   }, [formErrors]);
 
   const inputClassName = useCallback((fieldName) => `
-    w-full px-6 py-4 rounded-2xl bg-neutral-800/50 border 
-    ${formErrors[fieldName] 
-      ? 'border-red-500/50 focus:ring-primary/50' 
+    w-full px-6 py-4 rounded-2xl bg-neutral-800/50 border
+    ${formErrors[fieldName]
+      ? 'border-red-500/50 focus:ring-primary/50'
       : 'border-neutral-700/30 focus:ring-primary/50 focus:border-primary/50'
     }
-    text-neutral-800 placeholder-neutral-400 focus:outline-none focus:ring-2 
-    transition-all duration-300 backdrop-blur-md hover:bg-neutral-800/50 
+    text-neutral-800 placeholder-neutral-400 focus:outline-none focus:ring-2
+    transition-all duration-300 backdrop-blur-md hover:bg-neutral-800/50
     hover:border-neutral-600/50 text-sm
   `, [formErrors]);
 
@@ -217,7 +217,7 @@ function ContactCard() {
     visible: {
       opacity: 1,
       scale: 1,
-      transition: { 
+      transition: {
         duration: 1,
         ease: [0.25, 0.4, 0.25, 1],
         staggerChildren: 0.15
@@ -233,7 +233,7 @@ function ContactCard() {
       variants={containerVariants}
     >
       {/* Background */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0" style={{ minHeight: '100vh' }}>
         <div className="absolute inset-0 bg-gradient-to-b from-[#07070c] via-neutral-900/85 to-black" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,78,232,0.25),transparent_60%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,bg-purple-500/30,transparent_70%)] blur-3xl" />
@@ -256,12 +256,14 @@ function ContactCard() {
       )}
 
       <Suspense fallback={null}>
-        <FloatingLabels floatingLabels={staticFloatingLabels.map(label => label.text)} />
+        <div className="z-[15] absolute inset-0 w-full h-full pointer-events-auto" style={{ minHeight: '100vh' }}>
+          <GravityLabels labels={staticFloatingLabels.map(label => label.text)} />
+        </div>
       </Suspense>
 
       {/* Main content */}
       <motion.div
-        className="relative w-full max-w-7xl rounded-2xl xs:rounded-3xl md:rounded-[2.5rem] overflow-hidden 
+        className="relative w-full max-w-7xl rounded-2xl xs:rounded-3xl md:rounded-[2.5rem] overflow-hidden
           my-4 md:my-6 lg:my-8 mb-48 mx-auto backdrop-blur-3xl z-20"
         variants={containerVariants}
       >
@@ -279,13 +281,13 @@ function ContactCard() {
           >
             <div className="space-y-4 sm:space-y-6">
               <motion.span
-                className="inline-block px-4 sm:px-6 py-2 rounded-full bg-blue-500/10 
-                  text-blue-200 text-xs font-semibold border border-blue-500/20 
+                className="inline-block px-4 sm:px-6 py-2 rounded-full bg-blue-500/10
+                  text-blue-200 text-xs font-semibold border border-blue-500/20
                   backdrop-blur-2xl"
               >
                 2024 Special Offer
               </motion.span>
-              <h2 className="text-2xl lg:text-3xl font-bold bg-clip-text text-transparent 
+              <h2 className="text-2xl lg:text-3xl font-bold bg-clip-text text-transparent
                 bg-gradient-to-r from-white via-blue-100 to-white/90 leading-tight tracking-tight">
                 Scale Smarter with Our Digital Blueprint
               </h2>
@@ -301,7 +303,7 @@ function ContactCard() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.7 + index * 0.1 }}
                 >
-                  <div className="p-2 rounded-xl bg-blue-500/10 group-hover:bg-blue-500/20 
+                  <div className="p-2 rounded-xl bg-blue-500/10 group-hover:bg-blue-500/20
                     transition-all duration-300 border border-blue-500/20">
                     <Icon className="w-6 h-6 sm:w-7 sm:h-7 filter drop-shadow-[0_0_8px_rgba(96,165,250,0.4)]" />
                   </div>
@@ -312,14 +314,14 @@ function ContactCard() {
 
             {/* Enhanced offer box */}
             <motion.div
-              className="p-6 sm:p-8 rounded-2xl sm:rounded-3xl 
-                bg-gradient-to-br from-blue-800/15 to-dark/10 border border-purple-800/10 
+              className="p-6 sm:p-8 rounded-2xl sm:rounded-3xl
+                bg-gradient-to-br from-blue-800/15 to-dark/10 border border-purple-800/10
                 backdrop-blur-xl hidden sm:block transition-transform duration-300"
             >
               <p className="text-white/80 text-sm">
                 ⭐️ LIMITED TIME: Free Tech Strategy Session
-                <span className="block text-white font-semibold mt-3 
-                  text-lg bg-clip-text text-transparent 
+                <span className="block text-white font-semibold mt-3
+                  text-lg bg-clip-text text-transparent
                   bg-gradient-to-r from-blue-400 to-purple-400">
                   Valued at $997
                 </span>
@@ -331,9 +333,9 @@ function ContactCard() {
           <motion.form
             onSubmit={handleSubmit}
             className="space-y-6 relative order-1 md:order-2
-              bg-gradient-to-br from-neutral-800/60 to-neutral-900/60 
-              p-5 xs:p-6 sm:p-8 lg:p-10 rounded-2xl sm:rounded-3xl 
-              border border-white/10 backdrop-blur-3xl 
+              bg-gradient-to-br from-neutral-800/60 to-neutral-900/60
+              p-5 xs:p-6 sm:p-8 lg:p-10 rounded-2xl sm:rounded-3xl
+              border border-white/10 backdrop-blur-3xl
               shadow-[0_0_40px_rgba(0,0,0,0.07)] overflow-y-auto
               max-h-[85vh] md:max-h-none transition-all duration-500"
           >
@@ -352,7 +354,7 @@ function ContactCard() {
                     onChange={handleChange}
                     placeholder="John Doe"
                     required
-                    className={`${enhancedInputClassName("name")} 
+                    className={`${enhancedInputClassName("name")}
                       px-4 xs:px-6 py-3 xs:py-4 text-xs xs:text-sm`}
                   />
                   {getInputError("name")}
@@ -370,7 +372,7 @@ function ContactCard() {
                     onChange={handleChange}
                     placeholder="john@company.com"
                     required
-                    className={`${enhancedInputClassName("email")} 
+                    className={`${enhancedInputClassName("email")}
                       px-4 xs:px-6 py-3 xs:py-4 text-xs xs:text-sm`}
                   />
                   {getInputError("email")}
@@ -432,7 +434,7 @@ function ContactCard() {
                   checked={formData.subscribeNewsletter}
                   onChange={handleChange}
                   id="newsletter-checkbox"
-                  className="h-5 w-5 rounded-md bg-neutral-800/80 border-neutral-600 
+                  className="h-5 w-5 rounded-md bg-neutral-800/80 border-neutral-600
                     text-primary focus:ring-primary focus:ring-offset-0 focus:ring-offset-transparent"
                 />
                 <label
