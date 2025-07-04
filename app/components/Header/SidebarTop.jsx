@@ -46,12 +46,12 @@ const SidebarTopContainer = styled.div`
 export default function SidebarTop() {
   return (
     <SidebarTopContainer>
-      <div className="left">
+      {/* <div className="left">
         <div className="title">
           <h2>Social Media</h2>
         </div>
         <SocialMediaLinks />
-      </div>
+      </div> */}
       <div className="right">
         <div className="title">
           <h2>Menu</h2>
