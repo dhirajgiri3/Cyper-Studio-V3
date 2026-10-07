@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run start)",
+      "Bash(npm run lint)",
+      "Bash(npm ls:*)",
+      "Bash(bash scripts/check-all.sh)",
+      "Bash(bash scripts/check-banned.sh:*)",
+      "Bash(bash scripts/check-placeholders.sh)",
+      "Bash(bash scripts/check-domains.sh)",
+      "Bash(bash scripts/check-founding-year.sh)",
+      "Bash(bash scripts/check-nojs.sh:*)",
+      "Bash(bash scripts/check-meta-length.sh:*)",
+      "Bash(.impeccable/impeccable/scripts/impeccable context:*)",
+      "Bash(.impeccable/impeccable/scripts/impeccable detect:*)",
+      "Bash(.impeccable/impeccable/scripts/impeccable hooks status)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(curl -sL http://localhost:3000/:*)",
+      "Bash(curl -sIL http://localhost:3000/:*)",
+      "Read(./Cyper_Studio_Redesign.md)",
+      "Read(./PRODUCT.md)",
+      "Read(./DESIGN.md)"
+    ],
+    "ask": [
+      "Bash(npm install:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm i:*)",
+      "Bash(npm rm:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)",
+      "Bash(git merge:*)",
+      "Bash(git rebase:*)",
+      "Bash(bash scripts/check-redirects.sh:*)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Edit(./.impeccable/impeccable/**)",
+      "Edit(./.impeccable/_archive/**)",
+      "Edit(./package-lock.json)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/hooks/session-start.sh\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"$CLAUDE_PROJECT_DIR/scripts/hooks/post-edit-check.sh\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

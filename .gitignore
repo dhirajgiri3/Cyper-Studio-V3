@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude / impeccable local overrides
+.claude/settings.local.json
+.impeccable/config.local.json
