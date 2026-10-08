@@ -1,0 +1,22 @@
+// HELIX wordmark, traced from the supplied brand file (design-system/home-lab/brand/helix-wordmark.faithful.svg).
+// Fill is currentColor so the D-1 blue decision stays a single token.
+export default function Wordmark({ className, title = "HELIX", decorative = false }) {
+  return (
+    <svg
+      className={className}
+      viewBox="56 118.5 2380.9 683.5"
+      role={decorative ? undefined : "img"}
+      aria-hidden={decorative ? "true" : undefined}
+      aria-label={decorative ? undefined : title}
+      focusable="false"
+    >
+      <g fill="currentColor">
+        <path d="M56 125H232.7V397.5H459V125H635.7V801.5H459V564.7H232.7V801.5H56Z" />
+        <path d="M1155.5 125V294.6H920.3A65 65 0 0 0 855.3 359.6V385.2H1155.5V545.8H855.3V569A65 65 0 0 0 920.3 634H1155.5V801.5H919.8A237.3 237.3 0 0 1 682.5 564.2V362.3A237.3 237.3 0 0 1 919.8 125Z" />
+        <path d="M1203 118.5H1380V575.7A48.5 48.5 0 0 0 1428.5 624.2H1582.8V801.5H1415.5A212.5 212.5 0 0 1 1203 589Z" />
+        <path d="M1641.3 123.6H1818.9V801.4H1641.3Z" />
+        <path d="M1870 124.5H2042.8V212.2A62 62 0 0 0 2058.7 253.7L2153.4 359.1L2248.1 253.7A62 62 0 0 0 2264 212.2V124.5H2436.8V214.7A176.4 176.4 0 0 1 2389.1 335.4L2269.4 463L2389.1 590.6A176.4 176.4 0 0 1 2436.8 711.3V801.5H2264V713.8A62 62 0 0 0 2248.1 672.3L2153.4 566.9L2058.7 672.3A62 62 0 0 0 2042.8 713.8V801.5H1870V711.3A176.4 176.4 0 0 1 1917.7 590.6L2037.4 463L1917.7 335.4A176.4 176.4 0 0 1 1870 214.7Z" />
+      </g>
+    </svg>
+  );
+}

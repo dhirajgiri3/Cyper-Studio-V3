@@ -1,0 +1,150 @@
+{
+  "helyo-hero-welcome-rough": {
+    "name": "helyo-hero-welcome-rough",
+    "width": 1040,
+    "height": 848,
+    "terminal": {
+      "x": 74.37,
+      "y": 82.37
+    },
+    "bytes": 101942,
+    "source": "A02-refined-hero.png",
+    "box": null
+  },
+  "helyo-problem-concern-rough": {
+    "name": "helyo-problem-concern-rough",
+    "width": 365,
+    "height": 330,
+    "terminal": {
+      "x": 77.95,
+      "y": 88.11
+    },
+    "bytes": 11284,
+    "source": "A03-existing-emotions.png",
+    "box": [
+      0,
+      395,
+      418,
+      355
+    ]
+  },
+  "helyo-reassure-rough": {
+    "name": "helyo-reassure-rough",
+    "width": 392,
+    "height": 343,
+    "terminal": {
+      "x": 72.82,
+      "y": 86.2
+    },
+    "bytes": 12980,
+    "source": "A03-existing-emotions.png",
+    "box": [
+      836,
+      800,
+      418,
+      355
+    ]
+  },
+  "helyo-celebrate-rough": {
+    "name": "helyo-celebrate-rough",
+    "width": 380,
+    "height": 342,
+    "terminal": {
+      "x": 75.17,
+      "y": 87.53
+    },
+    "bytes": 13022,
+    "source": "A03-existing-emotions.png",
+    "box": [
+      418,
+      800,
+      418,
+      355
+    ]
+  },
+  "helyo-delivered-rough": {
+    "name": "helyo-delivered-rough",
+    "width": 402,
+    "height": 334,
+    "terminal": {
+      "x": 74.91,
+      "y": 86.71
+    },
+    "bytes": 12620,
+    "source": "A03-existing-emotions.png",
+    "box": [
+      0,
+      800,
+      418,
+      355
+    ]
+  },
+  "helyo-journey-inspect-rough": {
+    "name": "helyo-journey-inspect-rough",
+    "width": 475,
+    "height": 387,
+    "terminal": {
+      "x": 69.12,
+      "y": 84.7
+    },
+    "bytes": 16604,
+    "source": "05-gesture-library.png",
+    "box": [
+      0,
+      500,
+      512,
+      405
+    ]
+  },
+  "helyo-journey-parcel-rough": {
+    "name": "helyo-journey-parcel-rough",
+    "width": 461,
+    "height": 395,
+    "terminal": {
+      "x": 70.44,
+      "y": 86.27
+    },
+    "bytes": 17054,
+    "source": "05-gesture-library.png",
+    "box": [
+      512,
+      500,
+      512,
+      405
+    ]
+  },
+  "helyo-journey-guide-rough": {
+    "name": "helyo-journey-guide-rough",
+    "width": 476,
+    "height": 371,
+    "terminal": {
+      "x": 65.96,
+      "y": 86.8
+    },
+    "bytes": 16098,
+    "source": "05-gesture-library.png",
+    "box": [
+      1024,
+      30,
+      512,
+      400
+    ]
+  },
+  "helyo-present-rough": {
+    "name": "helyo-present-rough",
+    "width": 503,
+    "height": 371,
+    "terminal": {
+      "x": 66.61,
+      "y": 87.35
+    },
+    "bytes": 17216,
+    "source": "05-gesture-library.png",
+    "box": [
+      512,
+      30,
+      512,
+      400
+    ]
+  }
+}

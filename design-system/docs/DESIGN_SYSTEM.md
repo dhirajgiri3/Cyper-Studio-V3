@@ -172,3 +172,68 @@ Do: state a fact in the headline; use `--ink` for headings and `--text` for body
 ## 13. Versioning and change control
 
 v0.x is draft and **nothing is locked**: changes need a changelog entry and a decision-log entry. At LOCK v1.0 tokens freeze; afterwards any change requires a written change request stating the impact on pages. Promotion of components into `app/components/` and any page redesign are separate tasks, and promotion requires the parity check in `react-mapping.md`.
+
+# Avoiding Generic, "AI-Slop" Design When Designing with AI Agents
+
+## Why it happens
+
+An AI agent left alone drifts to the average of everything it has seen. Ask for "a premium SaaS landing page" and you get the mean: a gradient blob, a centred headline with one coloured word, three feature cards, a logo strip, a dark terminal window. It looks finished and says nothing. The fix is not "be more creative". The fix is to give the agent a point of view, real material, and checks that catch the average.
+
+## The tells (if you see these, it is slop)
+
+**Layout and look**
+- Centred hero, one accented headline word, two buttons, gradient or glow behind it
+- Row of three identical feature cards; bento grids with no reason for the boxes
+- Dark mode with neon, glassmorphism, purple-to-blue gradients, glowing borders
+- Cream background with a serif headline (the "editorial" default)
+- Rounded cards with soft shadows on everything; pill badges like "New"
+- ALL-CAPS tiny labels above every heading; numbered markers on things that are not a sequence
+
+**Terminal and "tech" costume**
+- Code windows, fake CLI blocks, green-on-black, monospace used as decoration
+- Fake dashboards with invented charts and "99.9%" counters
+- Mono type is for data only (tracking numbers, amounts), never for atmosphere
+
+**Motion**
+- Fade-and-slide on every section; hover-scale on every card
+- Count-up numbers, marquees, cursor glows, parallax for its own sake
+- Motion that does not explain anything
+
+**Content**
+- "Seamless, powerful, AI-powered, supercharge, unlock"
+- Stock photos, 3D blobs, emoji or generic line icons as the only visuals
+- Logo strips and testimonials the company cannot actually show
+- Claims, metrics or features nobody verified
+
+## The rules that prevent it
+
+1. **Product is the visual.** Real captures of the real product beat any decoration. If there is no capture yet, show a labelled placeholder, not an invention.
+2. **One idea per page, written down first.** A one-sentence creative thesis, before any pixel. Every choice is judged against it.
+3. **Specific beats general.** Real nouns, real numbers, real workflows (₹, AWB, COD, NDR). If a sentence would fit any company, rewrite it.
+4. **Few motion moments, each with a job.** At most two per viewport. Say what each one explains. Leave the rest still.
+5. **Type carries the personality.** Pick scale, weight and spacing on purpose. Do not rely on colour or effects.
+6. **Restraint in colour.** One brand colour, used where it means something. Nothing glows.
+7. **Earn every element.** If removing it loses nothing, remove it.
+8. **Honesty is a design constraint.** No invented customers, logos, metrics or features.
+
+## How to work with agents so they do not default
+
+- **Brief with a stance, not adjectives.** "Calm, exact, product-first, trusted by a skeptical logistics founder" works. "Modern, premium, sleek" produces the average.
+- **References as principles, never copies.** Ask the agent to say what makes each reference work and what HELIX's truthful equivalent is. Copying a look is its own kind of slop.
+- **Ask for 3 different options**, different in composition, not colour. Then pick, mix, or reject.
+- **Ban the defaults in the brief.** Paste the tells list above into every design prompt.
+- **Make the agent critique itself.** Require a "generic tells found in my own work" list in every report. If the list is empty, it did not look.
+- **Review screenshots, not code.** Look at 1440 px and 390 px. The page is the judge.
+- **Human taste gate.** The agent proposes; the founder decides and locks.
+
+## Five quick tests before anything ships
+
+1. **Cover-the-logo:** hide the logo. Could any other SaaS use this page? If yes, fail.
+2. **Swap test:** replace the industry nouns with another industry. If it still reads fine, it is too generic.
+3. **Squint test:** blur the page. Is there one clear focal point and a clear order?
+4. **Remove test:** delete each effect. Does the page lose meaning, or only decoration?
+5. **Stranger test:** show it to someone for 5 seconds. Can they say what it is, for whom, and why it matters?
+
+## Paste into any agent prompt
+
+> Avoid generic, templated design. Do not use: centred gradient hero, one accented headline word, three-card feature rows, glow or glass or neon, terminal or code-window styling, fake dashboards or metrics, stock imagery, decorative motion, hype words. Start from the product and the creative thesis. Use only real or clearly labelled sample content. Give three options that differ in composition. In your report, list every generic tell you find in your own work and run the cover-the-logo, swap, squint and remove tests. Do not lock anything without my word.
