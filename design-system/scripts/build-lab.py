@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Generate the static Lab pages from tokens.json and the component HTML below.
 
-Usage (repo root):  python3 -I docs/design-system/build-tokens.py && python3 -I docs/design-system/build-lab.py
+Usage (repo root):  python3 -I design-system/scripts/build-tokens.py && python3 -I design-system/scripts/build-lab.py
 Writes only inside design-system/. Pages are plain HTML and CSS; the only JavaScript is Lab tooling (lab.js).
 """
 import json, os, re, html
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
-LAB = os.path.join(ROOT, 'design-system')
-T = json.load(open(os.path.join(HERE, 'tokens.json')))
-PAIRS = json.load(open(os.path.join(HERE, 'contrast.json')))
+DS_DIR = os.path.abspath(os.path.join(HERE, '..'))
+ROOT = os.path.abspath(os.path.join(DS_DIR, '..'))
+LAB = DS_DIR
+TOKENS_DIR = os.path.join(DS_DIR, 'tokens')
+T = json.load(open(os.path.join(TOKENS_DIR, 'tokens.json')))
+PAIRS = json.load(open(os.path.join(TOKENS_DIR, 'contrast.json')))
 V = T['version']
 esc = html.escape
 
@@ -187,7 +189,7 @@ def contrast_table():
         res = p['result']; cls = 'pass' if res == 'PASS' else ('fail' if res == 'FAIL' else '')
         rows.append(f'<tr><td>{esc(p["name"])}</td><td><span style="display:inline-block;width:14px;height:14px;border:1px solid var(--border);background:var(--{p["fg"]});vertical-align:-2px"></span> {p["fgHex"]}</td><td><span style="display:inline-block;width:14px;height:14px;border:1px solid var(--border);background:var(--{p["bg"]});vertical-align:-2px"></span> {p["bgHex"]}</td><td class="hx-data">{p["ratio"]:.2f}:1</td><td>{(">= " + str(p["min"]) + ":1") if p["min"] else "none"}</td><td class="{cls}">{res}</td></tr>')
     fails = sum(1 for p in PAIRS if p['result'] == 'FAIL')
-    return f'<p class="hx-small" style="margin-bottom:var(--s3)">{len(PAIRS)} pairs computed by <code>build-tokens.py</code> (WCAG 2.x relative luminance). <strong>{fails} failing.</strong> Source: <code>docs/design-system/contrast.md</code>.</p><div class="lab-scroll" tabindex="0" role="region" aria-label="Contrast table"><table class="lab-table"><thead><tr><th>Pair</th><th>Foreground</th><th>Background</th><th>Ratio</th><th>Required</th><th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
+    return f'<p class="hx-small" style="margin-bottom:var(--s3)">{len(PAIRS)} pairs computed by <code>build-tokens.py</code> (WCAG 2.x relative luminance). <strong>{fails} failing.</strong> Source: <code>design-system/tokens/contrast.md</code>.</p><div class="lab-scroll" tabindex="0" role="region" aria-label="Contrast table"><table class="lab-table"><thead><tr><th>Pair</th><th>Foreground</th><th>Background</th><th>Ratio</th><th>Required</th><th>Result</th></tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
 def type_rows():
     cls = {'display': 'hx-display', 'h1': 'hx-h1', 'h2': 'hx-h2', 'h3': 'hx-h3', 'h4': 'hx-h4', 'h5': 'hx-h5', 'h6': 'hx-h6', 'body-lg': 'hx-lead', 'body': 'hx-p', 'small': 'hx-small', 'caption': 'hx-caption', 'label': 'hx-label', 'data': 'hx-data'}
@@ -350,6 +352,8 @@ def hub():
 <li><a class="hx-link" href="components/index.html">Components</a>: Button, Link, Field, Card, Badge</li>
 <li><a class="hx-link" href="compositions/index.html">Compositions</a>: Header and mobile menu, Hero, Rate-card table, Footer</li>
 <li><a class="hx-link" href="directions/index.html">Directions (Gate 1)</a>: the three style studies</li>
+<li><a class="hx-link" href="Reference-page.html">Reference page</a>: full homepage prototype</li>
+<li>Documentation: <a class="hx-link" href="docs/DESIGN_SYSTEM.md">DESIGN_SYSTEM.md</a>, decisions, and tokens in <code>docs/</code> and <code>tokens/</code></li>
 <li>Motion lab, compare mode, live controls and the remaining compositions: Round 2</li></ul>
 <p class="hx-p" style="margin-top:var(--s5)">Run from the repository root: <code>python3 -m http.server 4173 --directory design-system</code>, then open <code>http://localhost:4173</code>.</p>
 </main></body></html>'''

@@ -37,9 +37,10 @@ Git: raw PNGs untracked and ignored (`a83ba10`, local); 11 key WebP images added
 **Scope:** research, three style studies, repo recon. No design system exists yet; `DESIGN_SYSTEM.md` starts at v0.1 after Gate 1.
 
 Added (all inside the write boundary):
-- `docs/design-system/00-repo-recon.md`, `PROOF_REPORT.md`, `DECISION_SHEET.md`, `DECISIONS.md`, `CHANGELOG.md`, `screenshots/`
+- `design-system/docs/00-repo-recon.md`, `PROOF_REPORT.md`, `DECISION_SHEET.md`, `DECISIONS.md`, `CHANGELOG.md`, `screenshots/`
 - `docs/research/design/`: 12 observation cards with screenshots and raw JSON, `MEASURED.md`, `SYNTHESIS.md`, `motion-catalogue.md`, `positioning-map.svg`
 - `design-system/` static Lab: hub, `directions/` (three studies), subset Geist fonts and OFL licence
+- Consolidated: unified `docs/design-system/` and `design-system/` into a single root `design-system/` workspace (`tokens/`, `scripts/`, `docs/`, `components/`, etc.).
 
 Changed: nothing outside the write boundary. No existing file was modified.
 

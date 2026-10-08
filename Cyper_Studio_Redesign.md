@@ -2133,7 +2133,7 @@ A page is done when: its blueprint acceptance criteria pass; `check-placeholders
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 8 Oct 2026 | Initial combined master specification |
-| 1.1 | 8 Oct 2026 | Applied design-system patches A1 to A3 and B1 to B3 per the Gate 2 reply: reject `liquid-metal-button` and `image-stream-hero` by default (15.5); `--border-strong` token (14.1, 14.4, Appendix B); motion-moment definition with transform-only moment 1 (15.4); 13px mono label and extended type scale (14.2); header CTA filled, md, same label and destination as the hero (8.3, 12.2, 14.4). B4 to B6 not applied (see `docs/design-system/spec-patches.md`). |
+| 1.1 | 8 Oct 2026 | Applied design-system patches A1 to A3 and B1 to B3 per the Gate 2 reply: reject `liquid-metal-button` and `image-stream-hero` by default (15.5); `--border-strong` token (14.1, 14.4, Appendix B); motion-moment definition with transform-only moment 1 (15.4); 13px mono label and extended type scale (14.2); header CTA filled, md, same label and destination as the hero (8.3, 12.2, 14.4). B4 to B6 not applied (see `design-system/docs/spec-patches.md`). |
 
 ---
 *End of document.*

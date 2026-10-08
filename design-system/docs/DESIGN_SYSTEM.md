@@ -1,6 +1,6 @@
 # HELIX / Cyper Studio Design System · v0.1.1 (DRAFT, not locked)
 
-Direction **A (calm editorial-technical)** with **B's mono key-value rail** inside the product frame (D-1). Light mode only. Single source of truth: [`tokens.json`](tokens.json), compiled to [`tokens.css`](tokens.css), [`tokens.ts`](tokens.ts) and [`contrast.md`](contrast.md) by `build-tokens.py`. Components: `design-system/components/components.css` (plain CSS, `hx-` prefix). React mapping: [`react-mapping.md`](react-mapping.md). Spec changes: [`spec-patches.md`](spec-patches.md). Measurements: [`PROOF_REPORT.md`](PROOF_REPORT.md). Decisions: [`DECISIONS.md`](DECISIONS.md).
+Direction **A (calm editorial-technical)** with **B's mono key-value rail** inside the product frame (D-1). Light mode only. Single source of truth: [`tokens.json`](../tokens/tokens.json), compiled to [`tokens.css`](../tokens/tokens.css), [`tokens.ts`](../tokens/tokens.ts) and [`contrast.md`](../tokens/contrast.md) by [`build-tokens.py`](../scripts/build-tokens.py). Components: `design-system/components/components.css` (plain CSS, `hx-` prefix). React mapping: [`react-mapping.md`](react-mapping.md). Spec changes: [`spec-patches.md`](spec-patches.md). Measurements: [`PROOF_REPORT.md`](PROOF_REPORT.md). Decisions: [`DECISIONS.md`](DECISIONS.md).
 
 Status by section: 1 to 6, 10 to 13 are written for Round 1 scope. Sections 7 (motion system) and 8 (imagery and diagrams) are partial and complete in Round 2.
 
@@ -163,7 +163,7 @@ Do: state a fact in the headline; use `--ink` for headings and `--text` for body
 
 ## 12. Tokens and implementation
 
-- Source: `tokens.json`. Build: `python3 -I docs/design-system/build-tokens.py` (also copies `tokens.css` into the Lab and exits non-zero if any contrast pair fails), then `python3 -I docs/design-system/build-lab.py`.
+- Source: `tokens/tokens.json`. Build: `python3 -I design-system/scripts/build-tokens.py` (also copies `tokens.css` into the Lab and exits non-zero if any contrast pair fails), then `python3 -I design-system/scripts/build-lab.py`.
 - Naming: `--{role}` for colour, `--fs-/--lh-/--fw-/--ls-{level}` for type, `--s1..10`, `--r-{size}`, `--shadow-{n}`, motion and layout names as in the file.
 - Governance: no component uses a raw hex or pixel value. Documented exceptions: breakpoints inside media queries (custom properties cannot be used there) and the 1px visually-hidden utility. `components.css` currently contains 0 colour literals.
 - `tokens.ts` exports `tokens` (typed `as const`) and `cssVar()`.

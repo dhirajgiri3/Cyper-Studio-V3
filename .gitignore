@@ -46,3 +46,4 @@ next-env.d.ts
 
 # design research and Lab screenshots: raw PNGs stay local (compressed key images are kept as .webp under 100 KB)
 docs/**/*.png
+design-system/**/*.png

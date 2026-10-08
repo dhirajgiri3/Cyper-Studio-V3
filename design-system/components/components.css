@@ -1,7 +1,7 @@
 /* HELIX / Cyper Studio components v0.1 (DRAFT until LOCK v1.0).
    Plain CSS. Consumes ONLY tokens.css custom properties: no raw hex, no raw px except where noted as a token alias.
    All selectors are prefixed hx- to avoid colliding with legacy CSS. No JavaScript is required by anything in this file.
-   Light mode only. See docs/design-system/react-mapping.md for the 1:1 React mapping. */
+   Light mode only. See design-system/docs/react-mapping.md for the 1:1 React mapping. */
 
 @font-face { font-family: "Geist"; src: url("../fonts/Geist-Variable.subset.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }
 @font-face { font-family: "Geist Mono"; src: url("../fonts/GeistMono-Variable.subset.woff2") format("woff2"); font-weight: 100 900; font-display: swap; }

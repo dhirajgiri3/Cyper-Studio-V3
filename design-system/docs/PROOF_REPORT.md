@@ -90,7 +90,7 @@ These apply to the style studies only. They show the style language itself costs
 - **Component interaction states beyond the forced hover, focus and disabled renderings in the studies:** the full component gallery is built after Gate 1.
 - **Contrast of real photography or screenshots:** none exist yet.
 
-Screenshots: `docs/design-system/screenshots/gate1/` (desktop 1440 and mobile 390 for each direction). Raw measurement JSON: `docs/design-system/screenshots/measure/lab-directions/`.
+Screenshots: `design-system/docs/screenshots/gate1/` (desktop 1440 and mobile 390 for each direction). Raw measurement JSON: `design-system/docs/screenshots/measure/lab-directions/`.
 
 ---
 
@@ -181,7 +181,7 @@ ID overlay (7 `data-id` regions labelled on the Compositions page), 12-column gr
 - `npm run build` of the app (writes `.next/`, outside the boundary).
 - Components not yet built are listed in `DESIGN_SYSTEM.md` section 6.
 
-Screenshots: `docs/design-system/screenshots/round1/` (local only, PNG ignored).
+Screenshots: `design-system/docs/screenshots/round1/` (local only, PNG ignored).
 
 ---
 
