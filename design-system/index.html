@@ -1,7 +1,14 @@
-<!doctype html>
-<html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>HELIX Design Lab</title>
-<style>:root{color-scheme:light}body{margin:0;font:400 16px/1.6 system-ui,sans-serif;color:#344054;background:#fff}main{max-width:720px;margin:0 auto;padding:48px 24px}h1{color:#101828;font-size:1.75rem;margin:0 0 8px}code{background:#F3F4F6;padding:2px 6px;border-radius:4px}a{color:#1F4FE0}li{margin:6px 0}.tag{font:500 12px/1 ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#667085}</style></head>
-<body><main><p class="tag">noindex · never ships · not part of the Next.js app</p><h1>HELIX Design Lab</h1>
-<p>Isolated static prototype environment for the Cyper Studio design system. Status: <b>v0.0, Gate 1</b>. No real page has been redesigned.</p>
-<ul><li><a href="directions/index.html">Three directions</a> (Gate 1 style studies)</li><li>Foundations, components, compositions, motion lab: built after Gate 1.</li></ul>
-<p>Run locally from the repository root: <code>python3 -m http.server 4173 --directory design-system</code>, then open <code>http://localhost:4173</code>.</p></main></body></html>
+<!doctype html><html lang="en-IN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>HELIX Design Lab</title><link rel="icon" href="data:,">
+<link rel="stylesheet" href="components/tokens.css"><link rel="stylesheet" href="components/components.css"><link rel="stylesheet" href="lab/lab.css"></head>
+<body class="hx-root"><main id="main" class="hx-container hx-section" style="max-width:760px">
+<p class="hx-label">noindex · never ships · not part of the Next.js app</p>
+<h1 class="hx-h1" style="margin:var(--s2) 0 var(--s4)">HELIX Design Lab</h1>
+<p class="hx-p">Isolated static prototype environment for the Cyper Studio design system. Status: <b>v0.1.1, Round 1</b> (Direction A, DRAFT until LOCK v1.0). No real page has been redesigned.</p>
+<ul class="hx-stack" style="padding-left:var(--s5);margin-top:var(--s5)">
+<li><a class="hx-link" href="foundations/index.html">Foundations</a>: colour and contrast, type scale, spacing, shape, motion tokens</li>
+<li><a class="hx-link" href="components/index.html">Components</a>: Button, Link, Field, Card, Badge</li>
+<li><a class="hx-link" href="compositions/index.html">Compositions</a>: Header and mobile menu, Hero, Rate-card table, Footer</li>
+<li><a class="hx-link" href="directions/index.html">Directions (Gate 1)</a>: the three style studies</li>
+<li>Motion lab, compare mode, live controls and the remaining compositions: Round 2</li></ul>
+<p class="hx-p" style="margin-top:var(--s5)">Run from the repository root: <code>python3 -m http.server 4173 --directory design-system</code>, then open <code>http://localhost:4173</code>.</p>
+</main></body></html>

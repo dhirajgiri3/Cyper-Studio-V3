@@ -1,0 +1,173 @@
+{
+  "slug": "spacefs",
+  "url": "https://spacefs.com",
+  "date": "2026-10-08T04:09:48.542Z",
+  "notObserved": [],
+  "mobileMenu": {
+    "toggle": {
+      "tag": "button",
+      "label": "Open menu",
+      "w": 40,
+      "h": 28,
+      "ariaExpanded": "false",
+      "ariaControls": null
+    },
+    "bodyBefore": {
+      "overflow": "visible",
+      "htmlOverflow": "visible"
+    },
+    "bodyAfter": {
+      "overflow": "visible",
+      "htmlOverflow": "visible",
+      "dialog": false,
+      "ariaExpanded": "true",
+      "links": [
+        "Skip to main content",
+        "Space",
+        "Home",
+        "Pricing",
+        "Developers",
+        "Enterprise",
+        "About",
+        "Industries",
+        "Film, video & audio",
+        "Knowledge work",
+        "AEC",
+        "Games & 3D"
+      ]
+    },
+    "animationsDuringOpen": [
+      {
+        "dur": 1800,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      }
+    ],
+    "scrollLocked": false
+  },
+  "hover": {
+    "cta": "Skip to main content",
+    "before": {
+      "bg": "rgb(247, 248, 250)",
+      "color": "rgb(14, 15, 18)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "all"
+    },
+    "after": {
+      "bg": "rgb(247, 248, 250)",
+      "color": "rgb(14, 15, 18)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "all"
+    },
+    "propertiesChanged": []
+  },
+  "faq": {
+    "tag": "button",
+    "text": "Is Space for individuals or companies?",
+    "count": 13,
+    "animationsDuringOpen": [
+      {
+        "dur": 150,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "opacity"
+        ]
+      },
+      {
+        "dur": 1800,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1100,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "height": 809,
+    "links": 22,
+    "columnsApprox": 6,
+    "headings": [
+      "Product",
+      "Company",
+      "Legal",
+      "Social"
+    ],
+    "hasLegal": true,
+    "hasEmail": false,
+    "hasCopyright": true,
+    "bg": "rgba(0, 0, 0, 0)"
+  },
+  "pricing": {
+    "href": "https://spacefs.com/#pricing",
+    "title": "Space | The infinite AI-native filesystem",
+    "h1": "The infiniteAI-native filesystem",
+    "tables": 0,
+    "planCardsApprox": 1,
+    "currencySymbols": 10,
+    "contactSales": false
+  }
+}

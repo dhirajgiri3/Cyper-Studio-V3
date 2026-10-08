@@ -1,0 +1,61 @@
+{
+  "slug": "ab2-nomotion-1",
+  "url": "http://localhost:4173/tests/hero-nomotion.html",
+  "date": "2026-10-08T04:36:17.811Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 54
+  },
+  "metrics": {
+    "LCP_ms": 1511,
+    "CLS": 0,
+    "TBT_ms": 0,
+    "FCP_ms": 1211,
+    "SI_ms": 1211,
+    "totalBytes": 92623
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 8,
+      "kb": 90
+    },
+    "font": {
+      "n": 2,
+      "kb": 46
+    },
+    "stylesheet": {
+      "n": 4,
+      "kb": 32
+    },
+    "image": {
+      "n": 1,
+      "kb": 8
+    },
+    "document": {
+      "n": 1,
+      "kb": 4
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "script": {
+      "n": 0,
+      "kb": 0
+    },
+    "other": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 0,
+      "kb": 0
+    }
+  },
+  "finalUrl": "http://localhost:4173/tests/hero-nomotion.html",
+  "runWarnings": []
+}

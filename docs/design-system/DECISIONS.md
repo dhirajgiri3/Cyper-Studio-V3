@@ -22,7 +22,7 @@ Format: ID · decision · who decided · date · rationale · alternatives rejec
 | M-1 | Geist Sans and Geist Mono both contain `₹` (U+20B9); Geist Sans has `tnum`. Inter fallback not needed | fontTools cmap and GSUB on the shipped files | 8 Oct 2026 |
 | M-2 | Full Geist variable files are 141 KB, over the 100 KB budget; the Latin plus `₹` subset is 46.7 KB | file sizes | 8 Oct 2026 |
 
-## Proposed this round (awaiting reply; see `DECISION_SHEET.md` for options)
+## Proposed at Gate 1 (all answered in the Gate 1 reply, see below)
 
 | ID | Proposal | Status |
 |---|---|---|
@@ -39,4 +39,46 @@ Format: ID · decision · who decided · date · rationale · alternatives rejec
 
 ## Founder decisions made in this task
 
-None yet. Awaiting Gate 1 reply.
+Gate 1 reply, 8 Oct 2026 (founder):
+
+| ID | Decision | Notes |
+|---|---|---|
+| D-1 | **Direction A** as base, plus B's mono key-value rail inside the product frame | |
+| D-2 | `liquid-metal-button` is REJECT | In `spec-patches.md` A1 |
+| D-3 | `image-stream-hero` rejected by default; reopen only with real tenant screens | In `spec-patches.md` A1 |
+| D-4 | Two motion moments. **Moment 1 uses transform only; never opacity or hiding the LCP element; verify LCP unchanged** | Verified in Round 1: Lighthouse median 1508 ms both ways (PROOF_REPORT R1.3) |
+| D-5 | `--border-strong` only for form controls and boundaries needed to identify a component; decorative borders stay on `--border` | In `spec-patches.md` A2; implemented |
+| D-6 | Visible grid rejected | |
+| D-7 | Tone-shift headline allowed as a variant, off by default | `hx-tone-muted` class exists, unused |
+| D-8 | Accent: **blank in the reply; assumed KEEP cobalt `#1F4FE0`** | Assumption, see Decision Sheet A |
+| D-9 | 17px body | |
+| D-10 | Accepted; check whether any live page or production HTML references the biotif or SF Pro files | Checked: no reference anywhere, but the files are publicly downloadable (PROOF_REPORT R1.7) |
+| D-11 | Accepted provisionally, subject to legal review | |
+| D-12 | CSS-only tabs | |
+| D-13 | Static HTML for the direction studies only; from Round 1 plain HTML and CSS components with a documented 1:1 React mapping and a screenshot-parity check at promotion | `react-mapping.md` |
+| D-14 | Sample copy by default | |
+| D-15 | `DESIGN.md` and `PRODUCT.md` refreshed after LOCK | |
+| Taste | **Blank in the reply; assumed no corrections** to `SYNTHESIS.md` section 4 | Assumption |
+| Spec | Do not edit the Spec; write `spec-patches.md` | Done |
+| Git | Do not commit raw research screenshots; ignore them; commit cards, analysis files and key WebP under 100 KB | Done in `a83ba10` (local). Raw PNGs from `cf51450` remain in history, see D-20 |
+| Experiment | Optional CTA hover sheen, transform-only pseudo-element, hover-only, <= 600ms, off under reduced motion; measure cost | Built and measured (PROOF_REPORT R1.4); not applied to the hero |
+| Scope | Round 1: tokens, foundations, type scale, Button/Link/Field/Card/Badge, Header + mobile menu, Footer, PRO-HERO-01, PRO-TBL-01, ID overlay, token export | Delivered |
+
+## Proposed in Round 1 (answered at Gate 2, see the Gate 2 table below)
+
+D-16 mono label size · D-17 header CTA style · D-18 classify the header line and hover sheen as not counted · D-19 apply Spec patches · D-20 raw PNGs in pushed history · D-21 remove demo and SF Pro font files from `public/` · D-22 commit Round 1 · D-23 mobile menu close behaviour.
+
+## Gate 2 reply, 8 Oct 2026 (founder). Nothing is locked.
+
+| ID | Decision | Notes |
+|---|---|---|
+| D-16 | Mono labels **13px (0.8125rem)**, the only text allowed below 14px | `tokens.json` label size changed; Spec 14.2 and Appendix B `.mono-label` updated; Lab regression re-run |
+| D-17 | Header CTA stays **filled**, same label and destination as the hero CTA, **md** size (hero uses **lg**). Change to secondary only if the founder says so after seeing both in the Lab | Both Lab renderings kept. Spec rule reworded to "one primary action per viewport" |
+| D-18 | Header line and hover sheen are **not** motion moments. Sheen stays off the hero until the founder has tried it with a real mouse | Recorded in Spec 15.4 and DESIGN_SYSTEM.md |
+| D-19 | Apply spec-patches A1 to A3 and B1 to B3 per the answers; list B4 to B6, do not apply | Applied; Spec v1.1. B2 applied as proposed (no separate answer) |
+| D-20 | Option (c): no force-push; squash-merge later | No history change made |
+| D-21 | **Explicit exception to the write boundary:** delete the demo biotif, SF Pro and Clash font files from `public/Assets/Fonts` in one separate commit that changes nothing else; report what must be redeployed | Done; history still contains the files |
+| D-22 | Commit Round 1 now, with no PNGs | Done |
+| D-23 | Accept: mobile menu close behaviour | |
+| Round 2 | **Paused** until the visual-assets task reaches its first review gate. Scope when resumed: segmented selector or tabs (CSS-only), fact strip, stepper, callout, FAQ, form states, mobile compositions, live controls. Compare mode and the playable motion lab deferred. Capability grid, white-label, lifecycle, annotated screenshot and diagram card move to the assets task | |
+| Lock | **Round 1 is not LOCK.** Nothing is frozen; v0.x remains draft | |

@@ -1,0 +1,61 @@
+{
+  "slug": "g2-table",
+  "url": "http://localhost:4173/compositions/table.html",
+  "date": "2026-10-08T05:16:39.729Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 100,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 50
+  },
+  "metrics": {
+    "LCP_ms": 1355,
+    "CLS": 0,
+    "TBT_ms": 0,
+    "FCP_ms": 1205,
+    "SI_ms": 1205,
+    "totalBytes": 85815
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 7,
+      "kb": 84
+    },
+    "font": {
+      "n": 2,
+      "kb": 46
+    },
+    "stylesheet": {
+      "n": 4,
+      "kb": 32
+    },
+    "document": {
+      "n": 1,
+      "kb": 6
+    },
+    "image": {
+      "n": 0,
+      "kb": 0
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "script": {
+      "n": 0,
+      "kb": 0
+    },
+    "other": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 0,
+      "kb": 0
+    }
+  },
+  "finalUrl": "http://localhost:4173/compositions/table.html",
+  "runWarnings": []
+}

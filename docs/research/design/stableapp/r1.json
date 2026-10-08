@@ -1,0 +1,89 @@
+{
+  "slug": "stableapp",
+  "url": "https://www.stableapp.cloud",
+  "date": "2026-10-08T04:11:03.396Z",
+  "notObserved": [
+    "hover: no prominent CTA found"
+  ],
+  "mobileMenu": {
+    "toggle": {
+      "tag": "button",
+      "label": "Menu",
+      "w": 21,
+      "h": 20,
+      "ariaExpanded": null,
+      "ariaControls": "offcanvas-navbar"
+    },
+    "bodyBefore": {
+      "overflow": "hidden auto",
+      "htmlOverflow": "visible"
+    },
+    "bodyAfter": {
+      "overflow": "hidden",
+      "htmlOverflow": "visible",
+      "dialog": true,
+      "ariaExpanded": null,
+      "links": [
+        "Pricing",
+        "Resources",
+        "Help Center",
+        "Login",
+        "Free Trial"
+      ]
+    },
+    "animationsDuringOpen": [
+      {
+        "dur": 300,
+        "easing": "ease-in-out",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 150,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      }
+    ],
+    "scrollLocked": true
+  },
+  "faq": {
+    "tag": "button",
+    "text": "DevOps",
+    "count": 13,
+    "animationsDuringOpen": [
+      {
+        "dur": 150,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "height": 891,
+    "links": 12,
+    "columnsApprox": 10,
+    "headings": [
+      "Amazon Web Services",
+      "Amazon Web Services",
+      "Social Links"
+    ],
+    "hasLegal": true,
+    "hasEmail": false,
+    "hasCopyright": true,
+    "bg": "rgb(248, 249, 254)"
+  },
+  "pricing": {
+    "href": "https://www.stableapp.cloud/#pricing",
+    "title": "Home - Stable",
+    "h1": "Where no AWS waste can hide",
+    "tables": 0,
+    "planCardsApprox": 0,
+    "currencySymbols": 0,
+    "contactSales": true
+  }
+}

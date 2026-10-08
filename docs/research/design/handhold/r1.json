@@ -1,0 +1,150 @@
+{
+  "slug": "handhold",
+  "url": "https://handhold.io",
+  "date": "2026-10-08T04:10:14.505Z",
+  "notObserved": [
+    "no pricing link found on home page"
+  ],
+  "mobileMenu": {
+    "toggle": {
+      "tag": "button",
+      "label": "Open menu",
+      "w": 40,
+      "h": 40,
+      "ariaExpanded": "false",
+      "ariaControls": "_R_11av55ulb_"
+    },
+    "bodyBefore": {
+      "overflow": "visible",
+      "htmlOverflow": "visible"
+    },
+    "bodyAfter": {
+      "overflow": "visible",
+      "htmlOverflow": "visible",
+      "dialog": false,
+      "ariaExpanded": "true",
+      "links": [
+        "Try for free",
+        "Sign in",
+        "Blog",
+        "Changelog",
+        "Docs",
+        "Try for free"
+      ]
+    },
+    "animationsDuringOpen": [
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      },
+      {
+        "dur": 40000,
+        "easing": "linear",
+        "props": [
+          "transform"
+        ]
+      }
+    ],
+    "scrollLocked": false
+  },
+  "hover": {
+    "cta": "Try for free",
+    "before": {
+      "bg": "lab(0 0 0)",
+      "color": "lab(100 0 0)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "after": {
+      "bg": "lab(14.7726 2.29341 3.7733)",
+      "color": "lab(100 0 0)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "0.15s cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "propertiesChanged": [
+      "bg"
+    ]
+  },
+  "faq": {
+    "tag": "button",
+    "text": "Resources",
+    "count": 7,
+    "animationsDuringOpen": [
+      {
+        "dur": 100,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "backgroundColor"
+        ]
+      },
+      {
+        "dur": 100,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "outlineColor"
+        ]
+      },
+      {
+        "dur": 100,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "outlineOffset"
+        ]
+      },
+      {
+        "dur": 100,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "outlineWidth"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "height": 276,
+    "links": 6,
+    "columnsApprox": 2,
+    "headings": [],
+    "hasLegal": true,
+    "hasEmail": false,
+    "hasCopyright": false,
+    "bg": "rgba(0, 0, 0, 0)"
+  }
+}

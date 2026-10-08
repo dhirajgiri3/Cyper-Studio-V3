@@ -1,0 +1,262 @@
+[
+ {
+  "name": "Heading ink on page",
+  "fg": "ink",
+  "fgHex": "#0B1220",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 18.72,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Heading ink on surface",
+  "fg": "ink",
+  "fgHex": "#0B1220",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 17.92,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Body text on page",
+  "fg": "text",
+  "fgHex": "#475467",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 7.69,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Body text on surface",
+  "fg": "text",
+  "fgHex": "#475467",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 7.36,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Muted on page",
+  "fg": "muted",
+  "fgHex": "#667085",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 4.97,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Muted on surface",
+  "fg": "muted",
+  "fgHex": "#667085",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 4.76,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Accent link on page",
+  "fg": "accent",
+  "fgHex": "#1F4FE0",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 6.46,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Accent link on surface",
+  "fg": "accent",
+  "fgHex": "#1F4FE0",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 6.18,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Accent on accent-tint (badge)",
+  "fg": "accent",
+  "fgHex": "#1F4FE0",
+  "bg": "accent-tint",
+  "bgHex": "#EEF3FF",
+  "ratio": 5.81,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Button label on accent",
+  "fg": "on-accent",
+  "fgHex": "#FFFFFF",
+  "bg": "accent",
+  "bgHex": "#1F4FE0",
+  "ratio": 6.46,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Button label on accent-hover",
+  "fg": "on-accent",
+  "fgHex": "#FFFFFF",
+  "bg": "accent-hover",
+  "bgHex": "#1A42BD",
+  "ratio": 8.21,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Button label on accent-pressed",
+  "fg": "on-accent",
+  "fgHex": "#FFFFFF",
+  "bg": "accent-pressed",
+  "bgHex": "#15399F",
+  "ratio": 9.92,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Secondary button label (ink) on page",
+  "fg": "ink",
+  "fgHex": "#0B1220",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 18.72,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Success text on success-tint",
+  "fg": "success",
+  "fgHex": "#067647",
+  "bg": "success-tint",
+  "bgHex": "#ECFDF3",
+  "ratio": 5.4,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Warning text on warning-tint",
+  "fg": "warning",
+  "fgHex": "#B54708",
+  "bg": "warning-tint",
+  "bgHex": "#FFFAEB",
+  "ratio": 5.2,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Danger text on danger-tint",
+  "fg": "danger",
+  "fgHex": "#B42318",
+  "bg": "danger-tint",
+  "bgHex": "#FEF3F2",
+  "ratio": 6.05,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Error text (danger) on page",
+  "fg": "danger",
+  "fgHex": "#B42318",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 6.57,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Success text on page",
+  "fg": "success",
+  "fgHex": "#067647",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 5.69,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Warning text on page",
+  "fg": "warning",
+  "fgHex": "#B54708",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 5.43,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Annotation marker digit on accent",
+  "fg": "on-accent",
+  "fgHex": "#FFFFFF",
+  "bg": "accent",
+  "bgHex": "#1F4FE0",
+  "ratio": 6.46,
+  "min": 4.5,
+  "result": "PASS"
+ },
+ {
+  "name": "Field border on page (UI, 3:1)",
+  "fg": "border-strong",
+  "fgHex": "#8691A3",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 3.19,
+  "min": 3.0,
+  "result": "PASS"
+ },
+ {
+  "name": "Field border on surface (UI, 3:1)",
+  "fg": "border-strong",
+  "fgHex": "#8691A3",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 3.05,
+  "min": 3.0,
+  "result": "PASS"
+ },
+ {
+  "name": "Focus ring (accent) on page (UI, 3:1)",
+  "fg": "accent",
+  "fgHex": "#1F4FE0",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 6.46,
+  "min": 3.0,
+  "result": "PASS"
+ },
+ {
+  "name": "Focus ring (accent) on surface (UI, 3:1)",
+  "fg": "accent",
+  "fgHex": "#1F4FE0",
+  "bg": "surface",
+  "bgHex": "#F9FAFB",
+  "ratio": 6.18,
+  "min": 3.0,
+  "result": "PASS"
+ },
+ {
+  "name": "Danger border on page (UI, 3:1)",
+  "fg": "danger",
+  "fgHex": "#B42318",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 6.57,
+  "min": 3.0,
+  "result": "PASS"
+ },
+ {
+  "name": "Decorative hairline on page (no requirement)",
+  "fg": "border",
+  "fgHex": "#E4E7EC",
+  "bg": "bg",
+  "bgHex": "#FFFFFF",
+  "ratio": 1.24,
+  "min": null,
+  "result": "n/a (decorative)"
+ }
+]

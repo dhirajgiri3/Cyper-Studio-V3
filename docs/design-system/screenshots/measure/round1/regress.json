@@ -1,0 +1,517 @@
+{
+  "date": "2026-10-08T05:12:45.412Z",
+  "pages": {
+    "foundations/index.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 32979,
+          "font": 47124,
+          "js": 5511,
+          "img": 0,
+          "doc": 27935,
+          "n": 9
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 32979,
+          "font": 47124,
+          "js": 5511,
+          "img": 0,
+          "doc": 27935,
+          "n": 9
+        }
+      }
+    },
+    "components/index.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 13997,
+          "n": 10
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 13997,
+          "n": 10
+        }
+      }
+    },
+    "compositions/index.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 8011,
+          "doc": 24500,
+          "n": 24
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 8011,
+          "doc": 24500,
+          "n": 24
+        }
+      }
+    },
+    "compositions/header.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7142,
+          "n": 7
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7142,
+          "n": 7
+        }
+      }
+    },
+    "compositions/header-open.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7145,
+          "n": 7
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7145,
+          "n": 7
+        }
+      }
+    },
+    "compositions/header-long-cta.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 206,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7161,
+          "n": 7
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 7161,
+          "n": 7
+        }
+      }
+    },
+    "compositions/hero.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 6047,
+          "n": 8
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 206,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 6047,
+          "n": 8
+        }
+      }
+    },
+    "compositions/table.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 5712,
+          "n": 7
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 5712,
+          "n": 7
+        }
+      }
+    },
+    "compositions/footer.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 8657,
+          "n": 7
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 8657,
+          "n": 7
+        }
+      }
+    },
+    "tests/hero-motion.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 4531,
+          "n": 8
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 4531,
+          "n": 8
+        }
+      }
+    },
+    "tests/hero-nomotion.html": {
+      "390": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 4524,
+          "n": 8
+        }
+      },
+      "1440": {
+        "hScroll": false,
+        "console": [],
+        "axe": [],
+        "targets": [],
+        "bytes": {
+          "css": 0,
+          "font": 0,
+          "js": 0,
+          "img": 0,
+          "doc": 4524,
+          "n": 8
+        }
+      }
+    }
+  },
+  "notes": [],
+  "noJs": {
+    "menuBefore": {
+      "open": false,
+      "panelVisible": false
+    },
+    "menuAfter": {
+      "open": true,
+      "panelH": 253,
+      "links": [
+        48,
+        48,
+        48
+      ]
+    },
+    "visibleTextChars": 3450,
+    "hero": {
+      "h1": "Sample headline that states a fact",
+      "h1Opacity": "1",
+      "imgLoaded": true
+    }
+  },
+  "motion_no-preference": {
+    "animationsAtLoad": [
+      {
+        "type": "CSSAnimation",
+        "name": "hx-header-line",
+        "dur": "auto",
+        "easing": "linear",
+        "iter": 1,
+        "props": [
+          "opacity"
+        ]
+      }
+    ],
+    "infinite": 0,
+    "scrollTimeline": "supported",
+    "headerLineOpacityTop": "0",
+    "headerLineOpacityScrolled": "1"
+  },
+  "motion_reduce": {
+    "animationsAtLoad": [],
+    "infinite": 0,
+    "scrollTimeline": "supported",
+    "headerLineOpacityTop": "1",
+    "headerLineOpacityScrolled": "1"
+  },
+  "sheen_no-preference": {
+    "transitionsOnPseudo": [
+      {
+        "type": "CSSTransition",
+        "prop": "transform",
+        "pseudo": "::after",
+        "dur": 600,
+        "easing": "cubic-bezier(0.2, 0.7, 0.2, 1)"
+      }
+    ],
+    "layoutCountDelta": 0,
+    "recalcStyleDelta": 8,
+    "scriptMsDelta": 0,
+    "taskMsDelta": 82.5,
+    "layoutMsDelta": 0,
+    "recalcMsDelta": 1.2
+  },
+  "sheen_reduce": {
+    "transitionsOnPseudo": [],
+    "layoutCountDelta": 0,
+    "recalcStyleDelta": 1,
+    "scriptMsDelta": 0,
+    "taskMsDelta": 46.2,
+    "layoutMsDelta": 0,
+    "recalcMsDelta": 0.2
+  },
+  "keyboard_1440": {
+    "stops": 14,
+    "allHaveRing": true,
+    "missing": [],
+    "obscured": [],
+    "sequence": [
+      "Skip to main conte",
+      "HELIX by Cyper Stu",
+      "Product",
+      "About",
+      "Sample CTA",
+      "Sample CTA",
+      "Sample secondary",
+      "HELIX by Cyper Stu",
+      "info@<canonical>",
+      "HELIX overview",
+      "About",
+      "Contact",
+      "Privacy",
+      "Terms"
+    ]
+  },
+  "keyboard_390": {
+    "stops": 13,
+    "allHaveRing": true,
+    "missing": [],
+    "obscured": [],
+    "sequence": [
+      "Skip to main conte",
+      "HELIX by Cyper Stu",
+      "Sample CTA",
+      "Menu",
+      "Sample CTA",
+      "Sample secondary",
+      "HELIX by Cyper Stu",
+      "info@<canonical>",
+      "HELIX overview",
+      "About",
+      "Contact",
+      "Privacy",
+      "Terms"
+    ]
+  },
+  "headerNarrow": {
+    "320": {
+      "hScroll": false,
+      "overlap": false,
+      "ctaW": 134,
+      "barW": 280
+    },
+    "360": {
+      "hScroll": false,
+      "overlap": false,
+      "ctaW": 134,
+      "barW": 320
+    },
+    "390": {
+      "hScroll": false,
+      "overlap": false,
+      "ctaW": 134,
+      "barW": 350
+    },
+    "414": {
+      "hScroll": false,
+      "overlap": false,
+      "ctaW": 134,
+      "barW": 374
+    }
+  },
+  "lcpAB": {
+    "hero-motion": {
+      "medianMs": 72,
+      "medianMs4xCpu": 128,
+      "element": "IMG.",
+      "all": [
+        76,
+        52,
+        72,
+        64,
+        80
+      ],
+      "all4x": [
+        104,
+        124,
+        128,
+        208,
+        140
+      ]
+    },
+    "hero-nomotion": {
+      "medianMs": 72,
+      "medianMs4xCpu": 92,
+      "element": "IMG.",
+      "all": [
+        72,
+        72,
+        36,
+        48,
+        76
+      ],
+      "all4x": [
+        92,
+        80,
+        92,
+        76,
+        96
+      ]
+    }
+  }
+}

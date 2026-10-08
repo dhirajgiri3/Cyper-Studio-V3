@@ -1,0 +1,18 @@
+/* GENERATED from components.css by build-lab.py. Lab-only: lets the gallery display :hover/:active/:focus-visible states. */
+.hx-root [data-force~="focus"] { outline: var(--ring-w) solid var(--accent); outline-offset: var(--ring-offset); }
+.hx-link[data-force~="hover"] { color: var(--accent-hover); text-decoration-thickness: calc(var(--hairline) * 2); }
+.hx-link[data-force~="active"] { color: var(--accent-pressed); }
+.hx-link--arrow[data-force~="hover"] { text-decoration: underline; text-decoration-thickness: var(--hairline); text-underline-offset: 0.2em; }
+.hx-btn--primary[data-force~="hover"] { background: var(--accent-hover); }
+.hx-btn--primary[data-force~="active"] { background: var(--accent-pressed); }
+.hx-btn--secondary[data-force~="hover"] { border-color: var(--ink); }
+.hx-btn--secondary[data-force~="active"] { background: var(--surface); border-color: var(--ink); }
+.hx-btn--tertiary[data-force~="hover"] { color: var(--accent-hover); }
+.hx-btn--tertiary[data-force~="active"] { color: var(--accent-pressed); }
+.hx-input[data-force~="hover"], .hx-select[data-force~="hover"], .hx-textarea[data-force~="hover"] { border-color: var(--text); }
+.hx-input[data-force~="focus"], .hx-select[data-force~="focus"], .hx-textarea[data-force~="focus"] { border-color: var(--accent); }
+.hx-nav__link[data-force~="hover"] { color: var(--ink); }
+.hx-menu__toggle[data-force~="hover"] { border-color: var(--ink); }
+.hx-footer__link[data-force~="hover"] { color: var(--ink); text-decoration: underline; text-underline-offset: 0.2em; }
+.hx-table-wrap[data-force~="focus"] { outline-offset: calc(var(--ring-offset) * -1); }
+.hx-root [data-force~="focus"] { outline: var(--ring-w) solid var(--accent); outline-offset: var(--ring-offset); }

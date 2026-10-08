@@ -1,0 +1,129 @@
+{
+  "slug": "eden",
+  "url": "https://eden.so",
+  "date": "2026-10-08T04:10:39.946Z",
+  "notObserved": [
+    "FAQ/accordion not found on home page"
+  ],
+  "mobileMenu": {
+    "toggle": {
+      "tag": "button",
+      "label": "Open menu",
+      "w": 36,
+      "h": 36,
+      "ariaExpanded": "false",
+      "ariaControls": null
+    },
+    "bodyBefore": {
+      "overflow": "hidden auto",
+      "htmlOverflow": "visible"
+    },
+    "bodyAfter": {
+      "overflow": "hidden auto",
+      "htmlOverflow": "visible",
+      "dialog": false,
+      "ariaExpanded": "true",
+      "links": [
+        "Eden",
+        "Start free",
+        "Marketplace",
+        "Referral program",
+        "Agencies",
+        "Pricing",
+        "Download",
+        "Help",
+        "Sign in",
+        "Get started free"
+      ]
+    },
+    "animationsDuringOpen": [
+      {
+        "dur": 150,
+        "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "props": [
+          "color"
+        ]
+      },
+      {
+        "dur": 1050,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      },
+      {
+        "dur": 1350,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1350,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1350,
+        "easing": "linear",
+        "props": [
+          "opacity",
+          "transform"
+        ]
+      },
+      {
+        "dur": 1050,
+        "easing": "linear",
+        "props": [
+          "opacity"
+        ]
+      }
+    ],
+    "scrollLocked": false
+  },
+  "hover": {
+    "cta": "New",
+    "before": {
+      "bg": "rgba(255, 255, 255, 0.09)",
+      "color": "rgba(255, 255, 255, 0.75)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "all"
+    },
+    "after": {
+      "bg": "rgba(255, 255, 255, 0.09)",
+      "color": "rgba(255, 255, 255, 0.75)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "all"
+    },
+    "propertiesChanged": []
+  },
+  "footer": {
+    "height": 1039,
+    "links": 64,
+    "columnsApprox": 6,
+    "headings": [],
+    "hasLegal": true,
+    "hasEmail": false,
+    "hasCopyright": true,
+    "bg": "rgb(20, 20, 20)"
+  },
+  "pricing": {
+    "href": "https://eden.so/pricing/",
+    "title": "Eden Pricing | Curator and Creator Plans",
+    "h1": "Pricing for curators and creators.",
+    "tables": 1,
+    "planCardsApprox": 3,
+    "currencySymbols": 105,
+    "contactSales": true
+  }
+}

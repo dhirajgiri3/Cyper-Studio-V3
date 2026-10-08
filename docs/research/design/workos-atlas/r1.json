@@ -1,0 +1,47 @@
+{
+  "slug": "workos-atlas",
+  "url": "https://workos.com/atlas",
+  "date": "2026-10-08T04:10:29.777Z",
+  "notObserved": [
+    "mobile menu toggle not found by heuristics (or nav is always visible)",
+    "FAQ/accordion not found on home page",
+    "no pricing link found on home page"
+  ],
+  "mobileMenu": {
+    "toggle": null
+  },
+  "hover": {
+    "cta": "Add to your Slack",
+    "before": {
+      "bg": "rgb(0, 0, 0)",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1), transform 0.15s cubic-be"
+    },
+    "after": {
+      "bg": "oklab(0 0 0 / 0.85)",
+      "color": "rgb(255, 255, 255)",
+      "transform": "none",
+      "shadow": "none",
+      "filter": "none",
+      "opacity": "1",
+      "transition": "background-color 0.15s cubic-bezier(0, 0, 0.2, 1), color 0.15s cubic-bezier(0, 0, 0.2, 1), box-shadow 0.15s cubic-bezier(0, 0, 0.2, 1), transform 0.15s cubic-be"
+    },
+    "propertiesChanged": [
+      "bg"
+    ]
+  },
+  "footer": {
+    "height": 464,
+    "links": 4,
+    "columnsApprox": 4,
+    "headings": [],
+    "hasLegal": true,
+    "hasEmail": false,
+    "hasCopyright": true,
+    "bg": "rgb(255, 255, 255)"
+  }
+}
