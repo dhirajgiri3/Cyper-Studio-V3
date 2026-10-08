@@ -43,3 +43,6 @@ next-env.d.ts
 # claude / impeccable local overrides
 .claude/settings.local.json
 .impeccable/config.local.json
+
+# design research and Lab screenshots: raw PNGs stay local (compressed key images are kept as .webp under 100 KB)
+docs/**/*.png
