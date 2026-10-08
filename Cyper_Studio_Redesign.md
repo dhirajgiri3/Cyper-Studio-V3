@@ -1,6 +1,6 @@
 # Cyper Studio Redesign: Master Specification
 
-**Document version:** 1.0
+**Document version:** 1.1
 **Written:** 8 October 2026
 **Owner:** Founder, Cyper Studio
 **Scope:** The complete plan, rules, copy, design system and implementation guide for rebuilding the Cyper Studio website around **HELIX**.
@@ -355,7 +355,7 @@ A skeptical operator will fill the form when they have seen: (1) a real console 
 - Target queries differ so the two pages do not compete.
 
 ### 8.3 Navigation
-- Header: wordmark (HELIX by Cyper Studio), `Product` (`/helix`), `About`, `Changelog` and `Blog` (only when live), primary button `Request a demo`.
+- Header: wordmark (HELIX by Cyper Studio), `Product` (`/helix`), `About`, `Changelog` and `Blog` (only when live), primary (filled) button `Request a demo` at md size, with the same label and destination as the hero CTA (which is lg).
 - Mobile: wordmark, button, menu. No more than five items.
 - Footer: entity line, `info@`, product links, company links, legal links, founding year, copyright.
 
@@ -905,8 +905,8 @@ Acceptance:
 ### 12.2 CTA map
 | Location | Label | Destination | Style | Intent |
 |---|---|---|---|---|
-| Header | Request a demo | `#request-demo` or `/contact` | Primary (small) | Always available |
-| Hero | Request a demo | `#request-demo` | Primary | High intent |
+| Header | Request a demo | `#request-demo` or `/contact` (same as the hero CTA) | Primary, md (filled) | Always available |
+| Hero | Request a demo | `#request-demo` | Primary, lg | High intent |
 | Hero | See how white-label works | `#white-label` | Secondary | Exploring |
 | After capabilities | See every module | `/helix` | Tertiary link | Exploring |
 | After "Built by" block | About Cyper Studio | `/about` | Tertiary link | Proof seeking |
@@ -914,7 +914,7 @@ Acceptance:
 | Footer | info@ link | `mailto:` | Link | Direct contact |
 | Mobile sticky bar | Request a demo | `#request-demo` | Primary | Appears after the hero leaves the viewport; hidden at the form |
 
-Rules: at most one primary-style button in any viewport; a visitor is never more than one scroll from a CTA.
+Rules: at most one primary **action** in any viewport. The header CTA and any in-page primary CTA visible together must share the same label and destination and count as one action (header md, in-page lg); this also covers the mobile sticky bar. A visitor is never more than one scroll from a CTA.
 
 ### 12.3 Form specification
 | Field | Type | Required | Reason |
@@ -1025,7 +1025,7 @@ Full file in Appendix B. Summary:
 
 | Group | Tokens |
 |---|---|
-| Surface | `--bg #FFFFFF`, `--surface #F9FAFB`, `--border #E4E7EC` |
+| Surface | `--bg #FFFFFF`, `--surface #F9FAFB`, `--border #E4E7EC` (decorative only), `--border-strong #8691A3` (controls) |
 | Text | `--ink #0B1220` (headings), `--text #475467` (body), `--muted #667085` (captions) |
 | Accent | `--accent #1F4FE0`, `--accent-hover #1A42BD`, `--accent-tint #EEF3FF` (working choice, D-14) |
 | State | `--success #067647`, `--warning #B54708`, `--danger #B42318` |
@@ -1035,6 +1035,8 @@ Full file in Appendix B. Summary:
 | Motion | `--ease: cubic-bezier(.2,.7,.2,1)`; 150ms (fast), 250ms (base) |
 
 Contrast ratios in the draft are estimates. **Validate every foreground/background pair against WCAG 2.2 AA (4.5:1 for body text, 3:1 for large text and UI components) before locking** and record results in the repo.
+
+`--border` is for decoration only (card edges, row dividers). It is 1.24:1 on white and must never be the only visual cue that identifies a control. Controls, and anything whose boundary conveys meaning, use `--border-strong` (WCAG 1.4.11, 3:1). Corner brackets also use `--border-strong` so they stay visible. Verified: `--border-strong` is 3.19:1 on `--bg` and 3.05:1 on `--surface`.
 
 ### 14.2 Typography
 **Typeface (D-05):** Geist Sans (headings, body) + Geist Mono (numbers, labels, data). Self-hosted variable woff2.
@@ -1050,14 +1052,21 @@ Validation before locking:
 
 | Role | Size | Line height | Weight | Notes |
 |---|---|---|---|---|
-| Hero `h1` | `clamp(2.5rem, 1rem + 5vw, 4.25rem)` | 1.05 | 600 | tracking -0.03em |
+| Display (hero `h1`) | `clamp(2.5rem, 1rem + 5vw, 4.25rem)` | 1.05 | 600 | tracking -0.03em; once per page |
+| `h1` (inner page title) | `clamp(2rem, 1rem + 3.4vw, 3.25rem)` | 1.08 | 600 | tracking -0.025em |
 | `h2` | `clamp(1.75rem, 1rem + 2.5vw, 2.75rem)` | 1.12 | 600 | tracking -0.02em |
 | `h3` | 1.25rem | 1.3 | 600 | |
+| `h4` | 1.125rem | 1.35 | 600 | |
+| `h5` | 1rem | 1.4 | 600 | |
+| `h6` | 0.875rem | 1.4 | 600 | tracking +0.01em |
+| Body large | 1.1875rem (19px) | 1.6 | 400 | hero lead |
 | Body | 1.0625rem (17px) | 1.65 | 400 | max width 65ch |
 | Small | 0.875rem | 1.5 | 400 | |
-| Mono label | 0.75rem | 1.4 | 500 | uppercase, tracking +0.06em |
+| Caption | 0.875rem | 1.45 | 400 | `--muted` |
+| Mono label | 0.8125rem (13px) | 1.4 | 500 | uppercase, tracking +0.06em; the only text allowed below 14px |
+| Data (mono) | 0.9375rem | 1.5 | 500 | tabular figures in tables and specimens |
 
-Rules: numeric columns right-aligned in mono; data such as AWB numbers, rates, weights and COD amounts in mono; no italic body text; no text below 14px.
+Rules: numeric columns right-aligned in mono; data such as AWB numbers, rates, weights and COD amounts in mono; no italic body text; no body or caption text below 14px (mono uppercase labels at 13px are the one exception).
 
 ### 14.3 Layout
 - Container max width 1200px; side padding 20px mobile, 24px desktop; 12-column grid.
@@ -1069,11 +1078,11 @@ Rules: numeric columns right-aligned in mono; data such as AWB numbers, rates, w
 ### 14.4 Components
 | Component | Spec |
 |---|---|
-| **Button** | 44px min height. Primary: solid `--accent`, white text. Secondary: white with 1px border. Tertiary: text link with arrow. One primary per viewport. Visible focus ring. |
+| **Button** | 44px min height. Primary: solid `--accent`, white text. Secondary: white with 1px border. Tertiary: text link with arrow. One primary action per viewport (the header CTA and an in-page CTA with the same label and destination count as one). Sizes: md 44px (header, forms), lg 52px (hero). Visible focus ring. |
 | **Focus** | 2px `--accent` ring, 2px offset, on every interactive element. Never removed. |
 | **Card** | 1px border, `--r-md`, 24px padding, no shadow. |
 | **Product frame** | `--r-lg`, 1px border, `--shadow-2`, no fake browser chrome, no branded URL. |
-| **Form field** | 44px height, label above, inline error with icon, correct `type` and `autocomplete`. |
+| **Form field** | 44px height, label above, border `--border-strong` (3:1), inline error with icon, correct `type` and `autocomplete`. |
 | **Data table** | Mono numerals, right-aligned, 1px row dividers, no zebra. |
 | **Badge/label** | `--accent-tint` background, mono text. |
 | **Icon** | Lucide, 1.5px stroke, 20 or 24px, inlined SVG. No icon fonts. |
@@ -1134,8 +1143,13 @@ Requirements: a text alternative (`<title>`/`<desc>` and a visible caption); ren
 ### 15.4 Motion
 - Hover and focus transitions 150ms; reveals 250ms; both `--ease`.
 - Animate only `transform` and `opacity`.
-- A scroll reveal is a one-time 8px rise and fade, disabled under `prefers-reduced-motion`.
-- At most **two motion moments** on the whole page (for example the hero screenshot fade-in and one diagram reveal).
+- A **motion moment** is any animation that plays once without a direct user action (load or scroll into view). Hover, focus, press and an instant tab or accordion state change are not moments.
+- At most **two motion moments** on the whole page. Default pair: (1) the hero product frame settles in; (2) one diagram fades in once.
+- **Moment 1 uses `transform` only** (an 8px rise over 250ms on the product frame). Never apply `opacity`, `visibility` or a hidden start state to the LCP element, the h1, the subhead or the primary CTA. The frame is fully visible from the first paint. Verify with the in-browser LCP and Lighthouse that LCP is unchanged with and without the motion.
+- Moment 2 is `opacity` only (nodes and edges fade in once, 250ms, staggered 40ms). Its final state is the default, so no-JS and reduced-motion show the finished diagram.
+- Below-the-fold scroll reveals (one-time 8px rise and fade) count toward the two moments; prefer none.
+- Hover-only micro-effects on controls and scroll-linked state indicators (for example a header line that fades in over the first 64px of scroll) are not moments, but each is limited to `transform` or `opacity`, 600ms or less, hover-capable pointers where hover-based, and is disabled under reduced motion. Gradients remain banned: effects use solid fills. The optional CTA hover sheen is not used on the hero unless the founder approves it.
+- Every motion is disabled under `prefers-reduced-motion`.
 - No parallax, scroll-jacking, autoplay video above the fold, auto-advancing carousels, or animation library above the fold.
 - Content must be visible with JavaScript disabled. Animation classes are added after hydration, never required for content to appear.
 
@@ -1145,9 +1159,10 @@ The founder likes components at `https://21st.dev/community/components`. Four we
 | Component | Verdict | Use |
 |---|---|---|
 | `ink-orbit-features` | **ADAPT** | Keep the hatched-paper, bracket and bento-diagram language. Delete the "Predictive Insights" card, portraits, presence labels, the incrementing "REPORT #" counter and "syncing" text. Rebuild as three cards from verified facts: (1) white-label tenant model, (2) carrier network as text chips for confirmed integrations, (3) shipment lifecycle. Mark any sample value "Illustrative". Restore corrupted `\n` escapes (default title string and `parseTitle` regex). Force `theme="light"`. Replace font stacks with the design-system Geist tokens. Make content visible without JS. |
-| `image-stream-hero` | **ADAPT (optional)** | Below the fold only, for a "Your brand, your console" section using real console screenshots under labelled sample tenants. Static image on mobile; limit card count; never the LCP element; no hotlinked or stock images. |
+| `image-stream-hero` | **REJECT (default)** | Looping infinite animation, needs many real images that do not exist, mostly off-screen. Use a static grid of labelled sample-tenant screens instead. Reopen only when real tenant screens exist and the founder asks; then below the fold only, static on mobile, never the LCP element, no hotlinked or stock images. |
 | `scroll-morph-hero` | **REJECT** | Hijacks wheel and touch scroll (`preventDefault`), updates React state every animation frame, no reduced-motion handling, content hidden at load. |
 | `hero-section-3` (fly-in) | **REJECT** | Reads `window.innerWidth` during render (breaks server rendering), spends 200vh on a decorative plane, image without dimensions, off-domain theme. |
+| `liquid-metal-button` | **REJECT** | Mounts a WebGL shader canvas per button (`@paper-design/shaders`, unmeasured KB), uses `transition: all` with an overshooting spring easing (`cubic-bezier(0.34, 1.56, 0.64, 1)`), injects a `<style>` tag at runtime, and its metallic material contradicts the flat system (14.6). The primary CTA must not be the heaviest element on the page. An optional transform-only hover sheen (15.4) is the lightweight alternative. |
 
 Global component rules:
 1. No scroll hijacking; no `preventDefault` on wheel or touch.
@@ -1744,6 +1759,7 @@ Ordered by how much each blocks P0 work. Resolve before the item they block.
   --bg: #FFFFFF;
   --surface: #F9FAFB;
   --border: #E4E7EC;
+  --border-strong: #8691A3; /* form controls and any boundary needed to identify a component; 3:1 against --bg and --surface */
   --ink: #0B1220;
   --text: #475467;
   --muted: #667085;
@@ -1779,7 +1795,7 @@ h1, h2, h3 { color: var(--ink); font-weight: 600; margin: 0; }
 h1 { font-size: clamp(2.5rem, 1rem + 5vw, 4.25rem); line-height: 1.05; letter-spacing: -0.03em; }
 h2 { font-size: clamp(1.75rem, 1rem + 2.5vw, 2.75rem); line-height: 1.12; letter-spacing: -0.02em; }
 h3 { font-size: 1.25rem; line-height: 1.3; }
-.mono-label { font-family: var(--font-mono); font-size: .75rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+.mono-label { font-family: var(--font-mono); font-size: .8125rem; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .tabular { font-variant-numeric: tabular-nums; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
@@ -1787,7 +1803,7 @@ h3 { font-size: 1.25rem; line-height: 1.3; }
 .hatched { background-color: var(--surface);
   background-image: repeating-linear-gradient(135deg, rgba(11,18,32,.04) 0 1px, transparent 1px 10px); }
 .brackets { position: relative; }
-.brackets::before, .brackets::after { content: ""; position: absolute; width: 12px; height: 12px; border: 0 solid var(--border); pointer-events: none; }
+.brackets::before, .brackets::after { content: ""; position: absolute; width: 12px; height: 12px; border: 0 solid var(--border-strong); pointer-events: none; }
 .brackets::before { top: -6px; left: -6px; border-top-width: 1.5px; border-left-width: 1.5px; }
 .brackets::after { bottom: -6px; right: -6px; border-bottom-width: 1.5px; border-right-width: 1.5px; }
 
@@ -2117,6 +2133,7 @@ A page is done when: its blueprint acceptance criteria pass; `check-placeholders
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | 8 Oct 2026 | Initial combined master specification |
+| 1.1 | 8 Oct 2026 | Applied design-system patches A1 to A3 and B1 to B3 per the Gate 2 reply: reject `liquid-metal-button` and `image-stream-hero` by default (15.5); `--border-strong` token (14.1, 14.4, Appendix B); motion-moment definition with transform-only moment 1 (15.4); 13px mono label and extended type scale (14.2); header CTA filled, md, same label and destination as the hero (8.3, 12.2, 14.4). B4 to B6 not applied (see `docs/design-system/spec-patches.md`). |
 
 ---
 *End of document.*
