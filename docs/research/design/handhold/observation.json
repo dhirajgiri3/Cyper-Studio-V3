@@ -1,0 +1,690 @@
+{
+  "slug": "handhold",
+  "url": "https://handhold.io",
+  "date": "2026-10-08T03:35:40.048Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://handhold.io/",
+  "heroAnimationsAtLoad": 0,
+  "dom": {
+    "prefetch": {
+      "lang": "en-GB",
+      "title": "Handhold",
+      "desc": "Capture quality leads 24/7 and free up sales team’s time with personalised, multilingual AI demos and 1-to-1 onboarding",
+      "og": true,
+      "jsonld": [
+        "[\"Organization\",\"WebSite\",\"Person\",\"Person\"]"
+      ],
+      "canonical": "https://handhold.io/",
+      "colorScheme": "light"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "A dedicated guide for every buyer",
+          "family": "bureauSerif",
+          "size": "72px",
+          "weight": "200",
+          "lh": "72px",
+          "ls": "-2.16px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "See Handhold in action",
+          "family": "bureauSerif",
+          "size": "40px",
+          "weight": "200",
+          "lh": "40px",
+          "ls": "-1.2px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Deploy agents across your customer journey",
+          "family": "bureauSerif",
+          "size": "40px",
+          "weight": "200",
+          "lh": "40px",
+          "ls": "-1.2px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Help leads validate with AI chat",
+          "family": "bureauSerif",
+          "size": "40px",
+          "weight": "200",
+          "lh": "40px",
+          "ls": "-1.2px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Live 24/7",
+          "family": "bureauSerif",
+          "size": "28px",
+          "weight": "200",
+          "lh": "28px",
+          "ls": "-0.84px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Multilingual",
+          "family": "bureauSerif",
+          "size": "28px",
+          "weight": "200",
+          "lh": "28px",
+          "ls": "-0.84px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Personalised for each prospect",
+          "family": "bureauSerif",
+          "size": "28px",
+          "weight": "200",
+          "lh": "28px",
+          "ls": "-0.84px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "What our customers say about us",
+          "family": "bureauSerif",
+          "size": "20px",
+          "weight": "200",
+          "lh": "20px",
+          "ls": "-0.6px",
+          "color": "lab(0 0 0 / 0.55)",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "AI agents running tailored demos & onboarding 24/7",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "-0.18px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "“Our sales reps are less occupied with bad fit leads, creating extra capacity fo",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.18px",
+          "color": "lab(0 0 0 / 0.55)",
+          "transform": "none"
+        },
+        {
+          "text": "Alasdair Reynolds",
+          "family": "Inter",
+          "size": "12px",
+          "weight": "400",
+          "lh": "16px",
+          "ls": "0.01px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Resources",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.13px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "See AI demo",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.13px",
+          "color": "lab(100 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Start demo",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.13px",
+          "color": "lab(100 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Engages visitors and answers their questions",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Sign in",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.13px",
+          "color": "lab(0 0 0)",
+          "transform": "none"
+        },
+        {
+          "text": "Try for free",
+          "family": "Inter",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.13px",
+          "color": "lab(100 0 0)",
+          "transform": "none"
+        }
+      ],
+      "label": [],
+      "mono": []
+    },
+    "header": {
+      "position": "relative",
+      "height": 72,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "links": [
+        "Sign in",
+        "Try for free"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 828,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "A dedicated guide for every buyer"
+      },
+      {
+        "tag": "section",
+        "h": 2101,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Help leads validate with AI chat"
+      },
+      {
+        "tag": "section",
+        "h": 292,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "We're seeing a very positive impact. Sales reps are less occupied with"
+      },
+      {
+        "tag": "section",
+        "h": 428,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Frequently Asked Questions"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1376",
+        9
+      ],
+      [
+        "1184",
+        2
+      ],
+      [
+        "683",
+        1
+      ],
+      [
+        "1408",
+        1
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Try for free",
+        "bg": "lab(0 0 0)",
+        "color": "lab(100 0 0)",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "8px 16px"
+      },
+      {
+        "label": "See AI demo",
+        "bg": "lab(0 0 0)",
+        "color": "lab(100 0 0)",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "8px 16px"
+      },
+      {
+        "label": "Try for free",
+        "bg": "lab(95.139 -0.175655 2.06032)",
+        "color": "lab(0 0 0)",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "8px 16px"
+      },
+      {
+        "label": "Decline",
+        "bg": "lab(95.139 -0.175655 2.06032)",
+        "color": "lab(0 0 0)",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "7px 16px"
+      },
+      {
+        "label": "Accept",
+        "bg": "lab(0 0 0)",
+        "color": "lab(100 0 0)",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "7px 16px"
+      }
+    ],
+    "headings": [
+      "H1 A dedicated guide for every buyer",
+      "H2 See Handhold in action",
+      "H2 Deploy agents across your customer journey",
+      "H2 Help leads validate with AI chat",
+      "H2 Give 1:1 demos at scale with an AI expert",
+      "H2 Provide tailored onboarding with an AI guide",
+      "H2 Get started in minutes",
+      "H2 1.",
+      "H2 2.",
+      "H2 3.",
+      "H2 Scale personalised sales without growing your team",
+      "H2 Create your own agent",
+      "H3 Live 24/7",
+      "H3 Multilingual",
+      "H3 Personalised for each prospect",
+      "H2 We're seeing a very positive impact. Sales reps are less occupied with",
+      "H2 Our demo agent helps leads quickly validate whether Parcel Tracker is ",
+      "H2 Handhold helps our website visitors discover the depth of Finbite's pl",
+      "H2 Frequently Asked Questions",
+      "H3 How long does it take to set up?",
+      "H3 How do my agents stay up to date?",
+      "H3 How are the sessions personalised?",
+      "H3 What languages does Handhold support?",
+      "H3 What kind of analytics are available?",
+      "H3 Is the agent able to show my actual product interface?",
+      "H3 Give a white glove experience to every prospect",
+      "H2 Do you accept optional cookies?"
+    ],
+    "footer": {
+      "h": 276,
+      "links": 7,
+      "text": "Handhold (“Handhold”) provides technology and AI-powered agents designed to help businesses engage visitors, qualify inbound leads, deliver personalized product experiences, and guide users through onboarding. Handhold i"
+    },
+    "fonts": [
+      [
+        "Inter",
+        4513
+      ],
+      [
+        "bureauSerif",
+        1364
+      ]
+    ],
+    "fgColors": [
+      [
+        "lab(0 0 0 / 0.55)",
+        2563
+      ],
+      [
+        "lab(0 0 0)",
+        2328
+      ],
+      [
+        "lab(0 0 0 / 0.4)",
+        907
+      ],
+      [
+        "lab(100 0 0)",
+        79
+      ]
+    ],
+    "bgColors": [
+      [
+        "lab(95.139 -0.175655 2.06032)",
+        244.97128827865123
+      ],
+      [
+        "lab(0 0 0 / 0.4)",
+        129.6
+      ],
+      [
+        "#f2f1ed",
+        77.93963014861345
+      ],
+      [
+        "lab(100 0 0)",
+        13.2608
+      ]
+    ],
+    "borders": [
+      [
+        "1px null",
+        8
+      ],
+      [
+        "1px #000000",
+        5
+      ],
+      [
+        "1px lab(86.0894 0.121564 5.46051)",
+        4
+      ],
+      [
+        "1px lab(95.139 -0.175655 2.06032)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "3.35544e+07px",
+        38
+      ],
+      [
+        "32px",
+        9
+      ],
+      [
+        "8px",
+        1
+      ],
+      [
+        "24px",
+        1
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+        4
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "14px/400/20px/-0.18px",
+        1622
+      ],
+      [
+        "16px/400/24px/normal",
+        1511
+      ],
+      [
+        "40px/200/40px/-1.2px",
+        949
+      ],
+      [
+        "12px/400/16px/0.01px",
+        947
+      ],
+      [
+        "28px/200/28px/-0.84px",
+        325
+      ],
+      [
+        "14px/400/20px/-0.13px",
+        174
+      ],
+      [
+        "14px/400/24px/0.14px",
+        155
+      ],
+      [
+        "20px/200/20px/-0.6px",
+        57
+      ],
+      [
+        "16px/400/24px/-0.18px",
+        50
+      ],
+      [
+        "72px/200/72px/-2.16px",
+        33
+      ],
+      [
+        "20px/600/28px/-0.3px",
+        31
+      ],
+      [
+        "14px/400/22px/0.14px",
+        13
+      ]
+    ],
+    "counts": {
+      "gradients": 2,
+      "backdrop": 0,
+      "filters": 0,
+      "video": 0,
+      "canvas": 7,
+      "svg": 66,
+      "img": 16,
+      "buttons": 24,
+      "forms": 0,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 8,
+      "links": 14
+    },
+    "loadedFonts": [
+      "Inter 100 900 normal",
+      "bureauSerif 200 normal"
+    ],
+    "animations": {
+      "n": 0,
+      "sample": []
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "logoSlide",
+      "livePulse",
+      "accordionDown",
+      "accordionUp",
+      "spin",
+      "pulse",
+      "swipe-out-left",
+      "swipe-out-right",
+      "swipe-out-up",
+      "swipe-out-down",
+      "sonner-fade-in",
+      "sonner-fade-out",
+      "sonner-spin"
+    ],
+    "globals": [
+      "plausible"
+    ],
+    "htmlCls": "inter_5901b7c6-module__ec5Qua__variable bureauserif_14406768-module__8wID-G__variable h-full font-sans light",
+    "scripts": [
+      "handhold.io/_next/static/chunks/2i7vdq31dltzw.js",
+      "handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+      "handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+      "handhold.io/_next/static/chunks/turbopack-1f_buqr0-muc3.js",
+      "handhold.io/_next/static/chunks/0an71yv8a-gl9.js",
+      "handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+      "handhold.io/_next/static/chunks/0x5rdq9-3r5ym.js",
+      "handhold.io/_next/static/chunks/0uwr7wn_py9wu.js",
+      "handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+      "handhold.io/_next/static/chunks/1qbequw011zcy.js",
+      "handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+      "handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+      "handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+      "handhold.io/_next/static/chunks/1q8el0n13ad_9.js",
+      "handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+      "handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+      "handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+      "handhold.io/_next/static/chunks/2olvhwm96-8_n.js",
+      "handhold.io/_next/static/chunks/1fdpondzf0f6p.js",
+      "handhold.io/_next/static/chunks/3-b55b7l299sy.js",
+      "handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+      "handhold.io/_next/static/chunks/1l2i3xzgj28rw.js",
+      "handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+      "handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+      "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+      "handhold.io/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "handhold.io/_next/static/chunks/0mfx86pv-__p8.js",
+      "handhold.io/_next/static/chunks/32xy-licoyc1n.js",
+      "handhold.io/_next/static/chunks/1o39ce2eh_5jq.js",
+      "handhold.io/_next/static/chunks/22xfbf8by4odv.js",
+      "handhold.io/_next/static/chunks/137xxg5f7wwko.js",
+      "handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+      "handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+      "handhold.io/_next/static/chunks/2rt-4edx9gijl.js",
+      "handhold.io/_next/static/chunks/2dim4-b1-538y.js",
+      "handhold.io/pa/script.js",
+      "handhold.io/demo/embed.js"
+    ],
+    "scriptCount": 37,
+    "domBytes": 389330,
+    "dpr": 1
+  },
+  "pageHeight": 7629,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 0
+    },
+    {
+      "at": 0.4,
+      "n": 0
+    },
+    {
+      "at": 0.6,
+      "n": 0
+    },
+    {
+      "at": 0.8,
+      "n": 0
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 0,
+      "at960ms": 0
+    },
+    {
+      "expected": 600,
+      "at60ms": 0,
+      "at960ms": 0
+    },
+    {
+      "expected": 900,
+      "at60ms": 0,
+      "at960ms": 0
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 30,
+    "wheelListeners": [
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "document",
+        "passive": false
+      }
+    ],
+    "nonPassiveWheel": 1,
+    "nonPassiveTouch": 1,
+    "rafCalls": 920,
+    "canvasContexts": [
+      "webgl2"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 60,
+  "transferBytes": {
+    "js": 1096061,
+    "css": 29672,
+    "font": 614514,
+    "image": 2298419,
+    "media": 0,
+    "doc": 161325,
+    "other": 82126,
+    "requests": 185,
+    "thirdPartyTop": []
+  },
+  "axe": {
+    "total": 0,
+    "byImpact": {},
+    "items": []
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 0,
+    "h1": "A dedicated guide for every buyer",
+    "visibleOpacity0": 6
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 0,
+    "infiniteRunningAfterScroll": 0
+  }
+}

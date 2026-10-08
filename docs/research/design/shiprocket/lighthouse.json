@@ -1,0 +1,61 @@
+{
+  "slug": "shiprocket",
+  "url": "https://www.shiprocket.in",
+  "date": "2026-10-08T03:47:41.030Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 57,
+    "accessibility": 74,
+    "best-practices": 73,
+    "seo": 85
+  },
+  "metrics": {
+    "LCP_ms": 3096,
+    "CLS": 0,
+    "TBT_ms": 8554,
+    "FCP_ms": 1896,
+    "SI_ms": 6301,
+    "totalBytes": 3711192
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 139,
+      "kb": 3624
+    },
+    "script": {
+      "n": 47,
+      "kb": 2045
+    },
+    "image": {
+      "n": 36,
+      "kb": 1112
+    },
+    "font": {
+      "n": 6,
+      "kb": 188
+    },
+    "stylesheet": {
+      "n": 6,
+      "kb": 139
+    },
+    "document": {
+      "n": 5,
+      "kb": 85
+    },
+    "other": {
+      "n": 39,
+      "kb": 55
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 88,
+      "kb": 1983
+    }
+  },
+  "finalUrl": "https://www.shiprocket.in/",
+  "runWarnings": []
+}

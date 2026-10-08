@@ -1,0 +1,61 @@
+{
+  "slug": "getenergy",
+  "url": "https://getenergy.com",
+  "date": "2026-10-08T03:43:34.665Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 94,
+    "accessibility": 100,
+    "best-practices": 92,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 2271,
+    "CLS": 0,
+    "TBT_ms": 234,
+    "FCP_ms": 1371,
+    "SI_ms": 1371,
+    "totalBytes": 371773
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 36,
+      "kb": 363
+    },
+    "image": {
+      "n": 21,
+      "kb": 134
+    },
+    "script": {
+      "n": 4,
+      "kb": 113
+    },
+    "font": {
+      "n": 3,
+      "kb": 82
+    },
+    "stylesheet": {
+      "n": 1,
+      "kb": 16
+    },
+    "document": {
+      "n": 1,
+      "kb": 12
+    },
+    "other": {
+      "n": 5,
+      "kb": 6
+    },
+    "media": {
+      "n": 1,
+      "kb": 1
+    },
+    "third-party": {
+      "n": 5,
+      "kb": 27
+    }
+  },
+  "finalUrl": "https://getenergy.com/",
+  "runWarnings": []
+}

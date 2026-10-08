@@ -1,0 +1,851 @@
+{
+  "slug": "stableapp",
+  "url": "https://www.stableapp.cloud",
+  "date": "2026-10-08T03:37:42.376Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://www.stableapp.cloud/",
+  "heroAnimationsAtLoad": 0,
+  "dom": {
+    "prefetch": {
+      "lang": "en-US",
+      "title": "Home - Stable",
+      "desc": "Crush your AWS cost creep. Stable cuts waste across every layer of your cloud — delivering FinOps-level savings straight to your bottom line.",
+      "og": true,
+      "jsonld": [
+        "[\"WebPage\",\"BreadcrumbList\",\"WebSite\"]"
+      ],
+      "canonical": "https://www.stableapp.cloud/",
+      "colorScheme": "normal"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Where no AWS waste can hide",
+          "family": "Plus Jakarta Sans",
+          "size": "36px",
+          "weight": "500",
+          "lh": "44px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Crush your AWS cost creep",
+          "family": "Plus Jakarta Sans",
+          "size": "64px",
+          "weight": "500",
+          "lh": "80px",
+          "ls": "normal",
+          "color": "#474747",
+          "transform": "none"
+        },
+        {
+          "text": "Stable goes deeper",
+          "family": "Plus Jakarta Sans",
+          "size": "52px",
+          "weight": "500",
+          "lh": "80px",
+          "ls": "normal",
+          "color": "#474747",
+          "transform": "none"
+        },
+        {
+          "text": "Features",
+          "family": "Plus Jakarta Sans",
+          "size": "52px",
+          "weight": "500",
+          "lh": "80px",
+          "ls": "normal",
+          "color": "#b6a8e1",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "The result?",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#745ac6",
+          "transform": "none"
+        },
+        {
+          "text": "Prioritized recommendations for cost optimization",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Impact assessment",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        }
+      ],
+      "h4": [],
+      "p": [
+        {
+          "text": "Discover Stable, your go-to solution for AWS cloud savings. Stable slashes runaw",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#191919 a0.56",
+          "transform": "none"
+        },
+        {
+          "text": "Where most cost-cutting platforms stop at Reserved Instances and the usual EC2/S",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#191919 a0.56",
+          "transform": "none"
+        },
+        {
+          "text": "Serverless services and resources are just some of the costs we reel in.",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#191919 a0.56",
+          "transform": "none"
+        }
+      ],
+      "small": [
+        {
+          "text": "Alexandre Walsh CoFounder & Engineering VP @ Nexapp and Axify",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#745ac6",
+          "transform": "none"
+        },
+        {
+          "text": "Damien Demessence Director of Technology @ 4th Whale",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#745ac6",
+          "transform": "none"
+        }
+      ],
+      "button": [
+        {
+          "text": "Free Trial",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "See how",
+          "family": "Plus Jakarta Sans",
+          "size": "20px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#6f6f6f",
+          "transform": "none"
+        },
+        {
+          "text": "Get Free Trial See how See how",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#191919 a0.56",
+          "transform": "none"
+        },
+        {
+          "text": "See how",
+          "family": "Plus Jakarta Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "Pricing",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        },
+        {
+          "text": "Resources",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        },
+        {
+          "text": "Help Center",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        },
+        {
+          "text": "Login",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Coming Soon",
+          "family": "Plus Jakarta Sans",
+          "size": "12px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Full name",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        },
+        {
+          "text": "Email",
+          "family": "Plus Jakarta Sans",
+          "size": "14px",
+          "weight": "700",
+          "lh": "22px",
+          "ls": "normal",
+          "color": "#191919",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "relative",
+      "height": 68,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px none rgba(25, 25, 25, 0.56)",
+      "links": [
+        "Pricing",
+        "Resources",
+        "Help Center",
+        "Login",
+        "Free Trial"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 620,
+        "padT": "120px",
+        "padB": "82px",
+        "bg": null,
+        "heading": "Crush your AWS cost creep"
+      },
+      {
+        "tag": "section",
+        "h": 705,
+        "padT": "120px",
+        "padB": "84px",
+        "bg": "#f8f9fe",
+        "heading": "Stable goes deeper"
+      },
+      {
+        "tag": "section",
+        "h": 1078,
+        "padT": "88px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Features"
+      },
+      {
+        "tag": "section",
+        "h": 852,
+        "padT": "120px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "Get Free Trial"
+      },
+      {
+        "tag": "section",
+        "h": 678,
+        "padT": "120px",
+        "padB": "84px",
+        "bg": "#f8f9fe",
+        "heading": "Pricing"
+      },
+      {
+        "tag": "section",
+        "h": 514,
+        "padT": "120px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "Consistently save on your AWS bills"
+      },
+      {
+        "tag": "section",
+        "h": 629,
+        "padT": "0px",
+        "padB": "120px",
+        "bg": null,
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 398,
+        "padT": "0px",
+        "padB": "92px",
+        "bg": null,
+        "heading": "Clients"
+      },
+      {
+        "tag": "section",
+        "h": 641,
+        "padT": "120px",
+        "padB": "84px",
+        "bg": "#f8f9fe",
+        "heading": "No one-click chaos"
+      },
+      {
+        "tag": "section",
+        "h": 765,
+        "padT": "120px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "How it works"
+      },
+      {
+        "tag": "section",
+        "h": 647,
+        "padT": "0px",
+        "padB": "90px",
+        "bg": null,
+        "heading": "Who is Stable for"
+      },
+      {
+        "tag": "section",
+        "h": 596,
+        "padT": "0px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "About Unicorne"
+      },
+      {
+        "tag": "section",
+        "h": 2085,
+        "padT": "0px",
+        "padB": "90px",
+        "bg": null,
+        "heading": "FAQs on optimizing your AWS costs"
+      },
+      {
+        "tag": "section",
+        "h": 856,
+        "padT": "0px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "Got questions?"
+      },
+      {
+        "tag": "section",
+        "h": 429,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Start your free trial now"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1380",
+        12
+      ],
+      [
+        "1150",
+        5
+      ],
+      [
+        "1360",
+        4
+      ],
+      [
+        "690",
+        1
+      ],
+      [
+        "750",
+        1
+      ]
+    ],
+    "ctas": [],
+    "headings": [
+      "H1 Where no AWS waste can hide",
+      "H2 Crush your AWS cost creep",
+      "H2 Stable goes deeper",
+      "H3 The result?",
+      "H2 Features",
+      "H3 Prioritized recommendations for cost optimization",
+      "H3 Impact assessment",
+      "H3 Cost exploration",
+      "H3 Real-time, smart alerts",
+      "H3 Savings analyses",
+      "H2 Get Free Trial",
+      "H2 Pricing",
+      "H2 Consistently save on your AWS bills",
+      "H2 Clients",
+      "H2 No one-click chaos",
+      "H2 How it works",
+      "H2 Who is Stable for",
+      "H2 CTOs",
+      "H2 DevOps",
+      "H2 FinOps",
+      "H2 About Unicorne",
+      "H2 FAQs on optimizing your AWS costs",
+      "H2 How do I choose the AWS pricing model that best fits my needs?",
+      "H2 How can I customize AWS services to my specific context?",
+      "H2 How do I eliminate unused resources?",
+      "H2 What’s the best way to manage my snapshots?",
+      "H2 How can I optimize my EBS volumes?",
+      "H2 How do I right-size my resources?",
+      "H2 How can I control data-transfer costs?",
+      "H2 What’s the smartest way to implement Auto Scaling?",
+      "H2 How do I use S3 Intelligent-Tiering to cut storage costs?",
+      "H2 How can AWS Instance Scheduler lower my AWS costs?",
+      "H2 How do I optimize serverless services?",
+      "H2 Why is continuous monitoring essential for FinOps?",
+      "H2 Got questions?",
+      "H2 Start your free trial now",
+      "H3 Amazon Web Services"
+    ],
+    "footer": {
+      "h": 891,
+      "links": 17,
+      "text": "Amazon Web Services Resources Help Center Login Fr 🇫🇷 AWS Partner AWS Partner Evaluation AWS Meetup Québec Amazon Web Services AWS Partner AWS Partner Evaluation AWS Meetup Québec Social Links LinkedIn © 2026 Stable Po"
+    },
+    "fonts": [
+      [
+        "Plus Jakarta Sans",
+        7227
+      ]
+    ],
+    "fgColors": [
+      [
+        "#191919 a0.56",
+        2531
+      ],
+      [
+        "#ffffff",
+        1067
+      ],
+      [
+        "#745ac6",
+        1030
+      ],
+      [
+        "#c6bbe7",
+        967
+      ],
+      [
+        "#474747",
+        877
+      ],
+      [
+        "#191919",
+        414
+      ],
+      [
+        "#000000",
+        236
+      ],
+      [
+        "#392c60",
+        75
+      ]
+    ],
+    "bgColors": [
+      [
+        "#f8f9fe",
+        455.30533750000006
+      ],
+      [
+        "#f5f4fb",
+        206.90108750000002
+      ],
+      [
+        "#ffffff",
+        167.6882
+      ],
+      [
+        "#f0f0f0 a0.4",
+        130.5575625
+      ],
+      [
+        "#e7e3f5",
+        8.10804375
+      ]
+    ],
+    "borders": [
+      [
+        "1px #191919 a0.16",
+        30
+      ],
+      [
+        "1px #745ac6",
+        26
+      ],
+      [
+        "1px #848484",
+        6
+      ],
+      [
+        "1px #ffffff",
+        4
+      ],
+      [
+        "1px #787878",
+        3
+      ]
+    ],
+    "radii": [
+      [
+        "8px",
+        28
+      ],
+      [
+        "30px",
+        18
+      ],
+      [
+        "999px",
+        16
+      ],
+      [
+        "40px",
+        15
+      ],
+      [
+        "24px",
+        4
+      ],
+      [
+        "32px",
+        2
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(9, 14, 21, 0.16) 0px 5px 40px 0px",
+        1
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "20px/400/32px/normal",
+        3534
+      ],
+      [
+        "16px/400/24px/normal",
+        1726
+      ],
+      [
+        "24px/500/36px/normal",
+        563
+      ],
+      [
+        "36px/500/44px/normal",
+        526
+      ],
+      [
+        "14px/500/24px/normal",
+        254
+      ],
+      [
+        "52px/500/80px/normal",
+        222
+      ],
+      [
+        "12px/400/20px/normal",
+        139
+      ],
+      [
+        "20px/700/32px/normal",
+        117
+      ],
+      [
+        "14px/700/22px/normal",
+        69
+      ],
+      [
+        "64px/500/80px/normal",
+        25
+      ],
+      [
+        "14px/500/22px/normal",
+        19
+      ],
+      [
+        "24px/700/36px/normal",
+        12
+      ]
+    ],
+    "counts": {
+      "gradients": 66,
+      "backdrop": 31,
+      "filters": 1,
+      "video": 1,
+      "canvas": 0,
+      "svg": 20,
+      "img": 66,
+      "buttons": 41,
+      "forms": 1,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 30,
+      "links": 63
+    },
+    "loadedFonts": [
+      "Plus Jakarta Sans 400 normal",
+      "Plus Jakarta Sans 400 italic",
+      "Plus Jakarta Sans 500 normal",
+      "Plus Jakarta Sans 700 normal"
+    ],
+    "animations": {
+      "n": 0,
+      "sample": []
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "spinner-border",
+      "spinner-grow",
+      "splide-loading",
+      "launcherEnter"
+    ],
+    "globals": [
+      "jQuery",
+      "gtag",
+      "Intercom",
+      "dataLayer"
+    ],
+    "htmlCls": "js",
+    "scripts": [
+      "widget.intercom.io/widget/c7mnlv75",
+      "www.youtube.com/s/player/f2999a12/www-widgetapi.vflset/www-widgetapi.js",
+      "www.youtube.com/iframe_api",
+      "www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+      "www.googletagmanager.com/gtag/js?id=G-ZDRZVWKEDT",
+      "www.stableapp.cloud/app/plugins/sitepress-multilingual-cms/res/js/cookies/language-cookie.",
+      "www.stableapp.cloud/wp/wp-includes/js/jquery/jquery.min.js?ver=3.7.1",
+      "www.stableapp.cloud/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1",
+      "www.stableapp.cloud/app/plugins/sitepress-multilingual-cms/dist/js/browser-redirect/app.js",
+      "www.stableapp.cloud/app/plugins/bs-contact-form-7/assets/js/bs-cf7-script.min.js?ver=20251",
+      "www.stableapp.cloud/wp/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1",
+      "www.stableapp.cloud/wp/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375",
+      "www.stableapp.cloud/app/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.5",
+      "www.stableapp.cloud/app/plugins/contact-form-7/includes/js/index.js?ver=6.1.5",
+      "www.stableapp.cloud/app/themes/shape/node_modules/bootstrap/dist/js/bootstrap.bundle.js?ve",
+      "www.stableapp.cloud/app/themes/shape/assets/dist/js/vendor/bootscore.js?ver=5.3.2",
+      "www.stableapp.cloud/app/themes/shape/assets/dist/js/script.js?ver=1.0.15",
+      "www.stableapp.cloud/app/themes/shape/assets/dist/js/front-page.js?ver=1.0.15",
+      "www.google.com/recaptcha/api.js?render=6LeHJMYrAAAAAGb-CBvU2zSbjsUfnqIQ4NT7WwtC&ver=3.0",
+      "www.stableapp.cloud/wp/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0",
+      "www.stableapp.cloud/app/plugins/contact-form-7/modules/recaptcha/index.js?ver=6.1.5"
+    ],
+    "scriptCount": 21,
+    "domBytes": 431755,
+    "dpr": 1
+  },
+  "pageHeight": 13235,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 0
+    },
+    {
+      "at": 0.4,
+      "n": 0
+    },
+    {
+      "at": 0.6,
+      "n": 0
+    },
+    {
+      "at": 0.8,
+      "n": 0
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 18,
+    "wheelListeners": [
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 2,
+    "rafCalls": 5277,
+    "canvasContexts": [
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 260,
+  "transferBytes": {
+    "js": 1860181,
+    "css": 19804,
+    "font": 50449,
+    "image": 534536,
+    "media": 1409991,
+    "doc": 59870,
+    "other": 353751,
+    "requests": 103,
+    "thirdPartyTop": [
+      [
+        "js.intercomcdn.com",
+        975121
+      ],
+      [
+        "www.gstatic.com",
+        356031
+      ],
+      [
+        "www.googletagmanager.com",
+        179064
+      ],
+      [
+        "www.youtube.com",
+        9429
+      ],
+      [
+        "api-iam.intercom.io",
+        8124
+      ],
+      [
+        "widget.intercom.io",
+        2499
+      ]
+    ]
+  },
+  "axe": {
+    "total": 1,
+    "byImpact": {
+      "serious": 1
+    },
+    "items": [
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 6017,
+    "h1": "Where no AWS waste can hide",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 0,
+    "infiniteRunningAfterScroll": 0
+  }
+}

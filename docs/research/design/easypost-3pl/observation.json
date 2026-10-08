@@ -1,0 +1,679 @@
+{
+  "slug": "easypost-3pl",
+  "url": "https://get.easypost.com/3pl-solutions",
+  "date": "2026-10-08T03:45:59.361Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://get.easypost.com/3pl-solutions",
+  "heroAnimationsAtLoad": 1,
+  "dom": {
+    "prefetch": {
+      "lang": "en",
+      "title": "EasyPost 3PL Shipping Solution | Multi-Carrier Shipping Built to Scale",
+      "desc": "Increase profitability for your 3PL in 2026 with EasyPost. Unify shipping workflows, reduce delays, cut costs, and scale with control.\n",
+      "og": false,
+      "jsonld": [
+        "\"VideoObject\""
+      ],
+      "canonical": "https://get.easypost.com/3pl-solutions",
+      "colorScheme": "normal"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "The Shipping Platform Built for3PL Scale",
+          "family": "Poppins",
+          "size": "48px",
+          "weight": "700",
+          "lh": "52.8px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "EasyPost is built for the way modern 3PLs operate",
+          "family": "Poppins",
+          "size": "28px",
+          "weight": "400",
+          "lh": "30.8px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        },
+        {
+          "text": "Trusted by companies worldwide",
+          "family": "Poppins",
+          "size": "28px",
+          "weight": "400",
+          "lh": "30.8px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Shipping Complexity Is Now a Core 3PL Challenge",
+          "family": "Poppins",
+          "size": "37px",
+          "weight": "400",
+          "lh": "40.7px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        },
+        {
+          "text": "Offering Shipping as a Service to Your Clients?",
+          "family": "Poppins",
+          "size": "37px",
+          "weight": "400",
+          "lh": "40.7px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        },
+        {
+          "text": "Stop Making Carrier Decisions Based on Two-Year-Old Rules",
+          "family": "Poppins",
+          "size": "37px",
+          "weight": "400",
+          "lh": "40.7px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "How Kase Reduced Shipping Costs by 10% With EasyPost",
+          "family": "Poppins",
+          "size": "28px",
+          "weight": "300",
+          "lh": "30.8px",
+          "ls": "normal",
+          "color": "#061340",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "",
+          "family": "Poppins",
+          "size": "8px",
+          "weight": "400",
+          "lh": "12px",
+          "ls": "normal",
+          "color": "#47547f",
+          "transform": "none"
+        },
+        {
+          "text": "Rising carrier costs, missed claims, and peak-season downtime are killing 3PL ma",
+          "family": "Poppins",
+          "size": "18px",
+          "weight": "400",
+          "lh": "27px",
+          "ls": "normal",
+          "color": "#47547f",
+          "transform": "none"
+        },
+        {
+          "text": "AI-powered carrier and parcel insights with Luma AI",
+          "family": "Poppins",
+          "size": "18px",
+          "weight": "400",
+          "lh": "27px",
+          "ls": "normal",
+          "color": "#47547f",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Preferences",
+          "family": "Roboto",
+          "size": "12px",
+          "weight": "700",
+          "lh": "13.8px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Accept",
+          "family": "Roboto",
+          "size": "12px",
+          "weight": "700",
+          "lh": "13.8px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Talk to a 3PL solutions expert",
+          "family": "Poppins",
+          "size": "18px",
+          "weight": "400",
+          "lh": "20.7px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Talk to a 3PL solutions expert",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "16.1px",
+          "ls": "1px",
+          "color": "#061340",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "Poppins",
+          "size": "18px",
+          "weight": "400",
+          "lh": "20.7px",
+          "ls": "normal",
+          "color": "#164dff",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "First name*",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "1px",
+          "color": "#002d5b",
+          "transform": "none"
+        },
+        {
+          "text": "Last name*",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "1px",
+          "color": "#002d5b",
+          "transform": "none"
+        },
+        {
+          "text": "Company name*",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "1px",
+          "color": "#002d5b",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "static",
+      "height": 108,
+      "bg": "#ffffff",
+      "backdrop": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "links": []
+    },
+    "sections": [
+      {
+        "tag": "main",
+        "h": 4987,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "The Shipping Platform Built for3PL Scale"
+      },
+      {
+        "tag": "div",
+        "h": 4987,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "The Shipping Platform Built for3PL Scale"
+      }
+    ],
+    "containerWidths": [],
+    "ctas": [
+      {
+        "label": "Preferences",
+        "bg": null,
+        "color": "#000000",
+        "radius": "3px",
+        "h": 31,
+        "pad": "7.5px 24px"
+      },
+      {
+        "label": "Accept",
+        "bg": "#1feeb4",
+        "color": "#000000",
+        "radius": "3px",
+        "h": 31,
+        "pad": "7.5px 24px"
+      }
+    ],
+    "headings": [
+      "H1 The Shipping Platform Built for3PL Scale",
+      "H2 EasyPost is built for the way modern 3PLs operate",
+      "H3 Shipping Complexity Is Now a Core 3PL Challenge",
+      "H3 Offering Shipping as a Service to Your Clients?",
+      "H3 Stop Making Carrier Decisions Based on Two-Year-Old Rules",
+      "H2 Trusted by companies worldwide",
+      "H3 Stop Overpaying on Every Label",
+      "H3 Ready To Scale Your 3PL Shipping Infrastructure?"
+    ],
+    "footer": null,
+    "fonts": [
+      [
+        "Poppins",
+        4372
+      ],
+      [
+        "Roboto",
+        492
+      ]
+    ],
+    "fgColors": [
+      [
+        "#47547f",
+        3446
+      ],
+      [
+        "#061340",
+        686
+      ],
+      [
+        "#000000",
+        492
+      ],
+      [
+        "#002d5b",
+        108
+      ],
+      [
+        "#4671fe",
+        40
+      ],
+      [
+        "#164dff",
+        39
+      ],
+      [
+        "#ffffff",
+        22
+      ],
+      [
+        "#05e3ac",
+        19
+      ]
+    ],
+    "bgColors": [
+      [
+        "#000000 a0.7",
+        132.2041078125
+      ],
+      [
+        "#f9f9f9",
+        113.9895
+      ],
+      [
+        "#ffffff",
+        75.27615
+      ],
+      [
+        "#061340",
+        23.067
+      ]
+    ],
+    "borders": [
+      [
+        "1px #8d9ec1",
+        6
+      ],
+      [
+        "1px #000000",
+        1
+      ],
+      [
+        "1px #1feeb4",
+        1
+      ],
+      [
+        "2px #969696",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "4px",
+        9
+      ],
+      [
+        "3px",
+        2
+      ],
+      [
+        "50%",
+        2
+      ],
+      [
+        "5px",
+        1
+      ],
+      [
+        "10px",
+        1
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0.25) 0px 0px 35px 0px",
+        1
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "18px/400/27px/normal",
+        3119
+      ],
+      [
+        "12px/400/21px/normal",
+        475
+      ],
+      [
+        "18px/700/27px/normal",
+        319
+      ],
+      [
+        "16px/400/24px/normal",
+        239
+      ],
+      [
+        "37px/400/40.7px/normal",
+        229
+      ],
+      [
+        "28px/400/30.8px/normal",
+        79
+      ],
+      [
+        "14px/400/20px/1px",
+        69
+      ],
+      [
+        "21px/400/23.1px/normal",
+        67
+      ],
+      [
+        "14px/400/23px/normal",
+        53
+      ],
+      [
+        "28px/300/30.8px/normal",
+        52
+      ],
+      [
+        "14px/400/16.1px/1px",
+        47
+      ],
+      [
+        "48px/700/52.8px/normal",
+        40
+      ]
+    ],
+    "counts": {
+      "gradients": 3,
+      "backdrop": 0,
+      "filters": 0,
+      "video": 0,
+      "canvas": 0,
+      "svg": 11,
+      "img": 34,
+      "buttons": 6,
+      "forms": 1,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 0,
+      "links": 19
+    },
+    "loadedFonts": [
+      "Poppins 700 normal",
+      "Poppins 300 normal",
+      "Poppins 500 normal",
+      "Poppins 400 normal"
+    ],
+    "animations": {
+      "n": 1,
+      "sample": [
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 7000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "scrollDown",
+      "fadeIn",
+      "pulse-ring",
+      "pulse-dot",
+      "bounce",
+      "flash",
+      "rubberBand",
+      "shake",
+      "headShake",
+      "swing",
+      "tada",
+      "wobble",
+      "jello",
+      "heartBeat",
+      "bounceIn",
+      "bounceInDown",
+      "bounceInLeft",
+      "bounceInRight",
+      "bounceInUp",
+      "bounceOut",
+      "bounceOutDown",
+      "bounceOutLeft",
+      "bounceOutRight",
+      "bounceOutUp",
+      "fadeInDown",
+      "fadeInDownBig",
+      "fadeInLeft",
+      "fadeInLeftBig",
+      "fadeInRight",
+      "fadeInRightBig"
+    ],
+    "globals": [
+      "jQuery",
+      "gtag",
+      "_hsq",
+      "dataLayer"
+    ],
+    "htmlCls": "mdl-js",
+    "scripts": [
+      "js.adsrvr.org/up_loader.1.1.0.js",
+      "tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "ws-assets.zoominfo.com/formcomplete.js",
+      "snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+      "bzrcdn.openai.com/sdk/oaiq.min.js",
+      "connect.facebook.net/signals/config/477164606454147?v=2.9.415&r=stable&domain=get.easypost",
+      "connect.facebook.net/en_US/fbevents.js",
+      "snap.licdn.com/li.lms-analytics/insight.min.js",
+      "www.googletagmanager.com/gtag/js?id=AW-991142166&cx=c&gtm=4e6a61",
+      "www.googletagmanager.com/gtag/js?id=G-4N3G1JLH68&cx=c&gtm=4e6a61",
+      "www.googletagmanager.com/gtm.js?id=GTM-WSB2GX5J",
+      "js.hs-banner.com/v2/7905119/banner.js",
+      "js.hs-analytics.net/analytics/1791431100000/7905119.js",
+      "js.hscollectedforms.net/collectedforms.js",
+      "app.termly.io/resource-blocker/9b2ef128-b211-47ac-929a-dddee6064b6c?autoBlock=on",
+      "googleads.g.doubleclick.net/pagead/viewthroughconversion/991142166/?random=1791431163684&c",
+      "tools.luckyorange.com/core/web-vitals.js?v=900d204",
+      "get.easypost.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+      "get.easypost.com/hubfs/hub_generated/template_assets/1/180808772791/1791326498735/template",
+      "get.easypost.com/hubfs/hub_generated/template_assets/1/180807452561/1791326504633/template",
+      "get.easypost.com/hubfs/hub_generated/template_assets/1/181809549112/1791326494156/template",
+      "get.easypost.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+      "get.easypost.com/hubfs/hub_generated/template_assets/1/180807452562/1791326506542/template",
+      "js.hubspot.com/web-interactives-embed.js",
+      "get.easypost.com/_hcms/forms/v2.js",
+      "get.easypost.com/hubfs/hub_generated/template_assets/1/180808772786/1791326517489/template",
+      "static.hsappstatic.net/video-embed/ex/loader.js",
+      "get.easypost.com/hs/scriptloader/7905119.js",
+      "get.easypost.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+      "easypost.chilipiper.com/concierge-js/cjs/concierge.js",
+      "//js.hs-scripts.com/7905119.js",
+      "searchable-tracker.searchable.workers.dev/s.js",
+      "tools.luckyorange.com/core/lo.js?site-id=0dac1bdf",
+      "js.zi-scripts.com/zi-tag.js",
+      "blob:https://get.easypost.com/7bf869a4-1d10-4f6f-9a23-0446e7c44093"
+    ],
+    "scriptCount": 35,
+    "domBytes": 278444,
+    "dpr": 1
+  },
+  "pageHeight": 4987,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 1
+    },
+    {
+      "at": 0.4,
+      "n": 1
+    },
+    {
+      "at": 0.6,
+      "n": 1
+    },
+    {
+      "at": 0.8,
+      "n": 1
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 4,
+    "wheelListeners": [
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 49,
+    "canvasContexts": [
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 0,
+  "transferBytes": {
+    "js": 1492781,
+    "css": 44783,
+    "font": 201598,
+    "image": 754518,
+    "media": 0,
+    "doc": 30081,
+    "other": 28682,
+    "requests": 148,
+    "thirdPartyTop": [
+      [
+        "www.googletagmanager.com",
+        365086
+      ],
+      [
+        "connect.facebook.net",
+        216095
+      ],
+      [
+        "app.termly.io",
+        173811
+      ],
+      [
+        "tools.luckyorange.com",
+        151522
+      ],
+      [
+        "easypost.chilipiper.com",
+        53088
+      ],
+      [
+        "js.hs-analytics.net",
+        44039
+      ]
+    ]
+  },
+  "axe": {
+    "total": 2,
+    "byImpact": {
+      "serious": 2
+    },
+    "items": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "frame-title",
+        "impact": "serious",
+        "nodes": 1
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 4327,
+    "h1": "The Shipping Platform Built for3PL Scale",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 1,
+    "infiniteRunningAfterScroll": 0
+  }
+}

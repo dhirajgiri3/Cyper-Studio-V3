@@ -1,0 +1,911 @@
+{
+  "slug": "workos-atlas",
+  "url": "https://workos.com/atlas",
+  "date": "2026-10-08T03:36:19.463Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://workos.com/atlas",
+  "heroAnimationsAtLoad": 14,
+  "dom": {
+    "prefetch": {
+      "lang": "en",
+      "title": "Atlas by WorkOS",
+      "desc": "Atlas works alongside your team in Slack to answer questions, automate tasks, and help everyone do their best work.",
+      "og": true,
+      "jsonld": [],
+      "canonical": "https://workos.com/atlas",
+      "colorScheme": "normal"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Meet Atlas, your AI coworker.",
+          "family": "InterDisplay",
+          "size": "84px",
+          "weight": "600",
+          "lh": "85.68px",
+          "ls": "-1.68px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "How teams use Atlas",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Connected to all your tools.",
+          "family": "InterDisplay",
+          "size": "48px",
+          "weight": "600",
+          "lh": "48px",
+          "ls": "-0.96px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "A coworker for the whole team.",
+          "family": "InterDisplay",
+          "size": "48px",
+          "weight": "600",
+          "lh": "48px",
+          "ls": "-0.96px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Right where your team works",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "600",
+          "lh": "24px",
+          "ls": "-0.16px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Talk it through",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "600",
+          "lh": "24px",
+          "ls": "-0.16px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Turn questions into action",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "600",
+          "lh": "24px",
+          "ls": "-0.16px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h4": [],
+      "p": [
+        {
+          "text": "Atlas works alongside your team in Slack to answer questions, automate tasks, an",
+          "family": "Inter",
+          "size": "18px",
+          "weight": "500",
+          "lh": "28px",
+          "ls": "-0.18px",
+          "color": "oklab(0 0 0 / 0.8)",
+          "transform": "none"
+        },
+        {
+          "text": "Channels",
+          "family": "Lato",
+          "size": "13px",
+          "weight": "500",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#767577",
+          "transform": "none"
+        },
+        {
+          "text": "Direct messages",
+          "family": "Lato",
+          "size": "13px",
+          "weight": "500",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#767577",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Prep for a call",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+          "transform": "none"
+        },
+        {
+          "text": "Debug a regression",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+          "transform": "none"
+        },
+        {
+          "text": "Onboard a new hire",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+          "transform": "none"
+        },
+        {
+          "text": "Catch up after time off",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Add to your Slack",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "500",
+          "lh": "24px",
+          "ls": "-0.16px",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Add to your Slack",
+          "family": "Lato",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "-0.14px",
+          "color": "lab(10.4113 0.684075 -0.513756 / 0.7)",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "absolute",
+      "height": 88,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px solid rgb(0, 0, 0)",
+      "links": [
+        "Add to your Slack"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "header",
+        "h": 1757,
+        "padT": "80px",
+        "padB": "80px",
+        "bg": null,
+        "heading": "Meet Atlas, your AI coworker."
+      },
+      {
+        "tag": "div",
+        "h": 1597,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Meet Atlas, your AI coworker."
+      },
+      {
+        "tag": "section",
+        "h": 632,
+        "padT": "48px",
+        "padB": "48px",
+        "bg": null,
+        "heading": "Connected to all your tools."
+      },
+      {
+        "tag": "div",
+        "h": 536,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Connected to all your tools."
+      },
+      {
+        "tag": "section",
+        "h": 665,
+        "padT": "48px",
+        "padB": "32px",
+        "bg": null,
+        "heading": "A coworker for the whole team."
+      },
+      {
+        "tag": "div",
+        "h": 585,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "A coworker for the whole team."
+      },
+      {
+        "tag": "section",
+        "h": 672,
+        "padT": "32px",
+        "padB": "120px",
+        "bg": null,
+        "heading": "Always learning, never guessing."
+      },
+      {
+        "tag": "div",
+        "h": 520,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Always learning, never guessing."
+      },
+      {
+        "tag": "section",
+        "h": 1213,
+        "padT": "80px",
+        "padB": "96px",
+        "bg": "lab(98.26 0 0)",
+        "heading": "Build your AI team."
+      },
+      {
+        "tag": "div",
+        "h": 1037,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Build your AI team."
+      },
+      {
+        "tag": "section",
+        "h": 836,
+        "padT": "112px",
+        "padB": "0px",
+        "bg": "#05070e",
+        "heading": "Built on WorkOS. Secure by default."
+      },
+      {
+        "tag": "div",
+        "h": 724,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Built on WorkOS. Secure by default."
+      },
+      {
+        "tag": "section",
+        "h": 763,
+        "padT": "120px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Ready to meet Atlas?"
+      },
+      {
+        "tag": "div",
+        "h": 643,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Ready to meet Atlas?"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1080",
+        6
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Add to your Slack",
+        "bg": "#000000",
+        "color": "#ffffff",
+        "radius": "3.35544e+07px",
+        "h": 40,
+        "pad": "8px 16px 8px 12px"
+      }
+    ],
+    "headings": [
+      "H1 Meet Atlas, your AI coworker.",
+      "H2 How teams use Atlas",
+      "H3 Right where your team works",
+      "H3 Talk it through",
+      "H3 Turn questions into action",
+      "H2 Connected to all your tools.",
+      "H2 A coworker for the whole team.",
+      "H2 Always learning, never guessing.",
+      "H2 Build your AI team.",
+      "H2 Built on WorkOS. Secure by default.",
+      "H2 Ready to meet Atlas?",
+      "H3 1.Add Atlas to Slack",
+      "H3 2.@mention it anywhere",
+      "H3 3.Connect tools when you're ready"
+    ],
+    "footer": {
+      "h": 464,
+      "links": 4,
+      "text": "© 2026 WorkOS, Inc.ContactTermsPrivacyWorkOS.com"
+    },
+    "fonts": [
+      [
+        "Inter",
+        2079
+      ],
+      [
+        "Lato",
+        2051
+      ],
+      [
+        "InterDisplay",
+        199
+      ]
+    ],
+    "fgColors": [
+      [
+        "#1d1c1d",
+        1577
+      ],
+      [
+        "oklab(0 0 0 / 0.7)",
+        1312
+      ],
+      [
+        "#000000",
+        395
+      ],
+      [
+        "#616061",
+        253
+      ],
+      [
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.75)",
+        188
+      ],
+      [
+        "oklab(0 0 0 / 0.8)",
+        115
+      ],
+      [
+        "#1264a3",
+        80
+      ],
+      [
+        "#ffffff",
+        74
+      ]
+    ],
+    "bgColors": [
+      [
+        "#ffffff",
+        337.14703746637394
+      ],
+      [
+        "lab(98.26 0 0)",
+        174.672
+      ],
+      [
+        "#05070e",
+        120.321
+      ],
+      [
+        "#000000",
+        58.31044470742345
+      ],
+      [
+        "oklab(0.999994 0.0000455678 0.0000200868 / 0.9)",
+        11.04
+      ],
+      [
+        "oklab(0 0 0 / 0.1)",
+        5.3664
+      ]
+    ],
+    "borders": [
+      [
+        "1px oklab(0 0 0 / 0.12)",
+        2
+      ],
+      [
+        "1px oklab(0 0 0 / 0.16)",
+        2
+      ]
+    ],
+    "radii": [
+      [
+        "3.35544e+07px",
+        94
+      ],
+      [
+        "50%",
+        37
+      ],
+      [
+        "4px",
+        35
+      ],
+      [
+        "6px",
+        19
+      ],
+      [
+        "8px",
+        19
+      ],
+      [
+        "3px",
+        19
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0",
+        90
+      ],
+      [
+        "rgba(41, 54, 61, 0.07) 0px 0px 0px 1px inset, rgba(41, 54, 61, 0.03) 0px 1px 1px 0px, rgba",
+        38
+      ],
+      [
+        "rgba(0, 0, 0, 0.08) 0px 1.5px 0px 0px inset, rgba(0, 0, 0, 0.1) 0px -14px 24px -6px inset,",
+        1
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "15px/400/22.5px/normal",
+        1341
+      ],
+      [
+        "18px/500/28px/-0.18px",
+        1062
+      ],
+      [
+        "15px/500/24.375px/-0.15px",
+        312
+      ],
+      [
+        "15px/500/22.5px/-0.15px",
+        258
+      ],
+      [
+        "14px/600/20px/-0.14px",
+        148
+      ],
+      [
+        "16px/600/24px/-0.16px",
+        143
+      ],
+      [
+        "11px/400/16.5px/normal",
+        123
+      ],
+      [
+        "14px/500/20px/-0.14px",
+        91
+      ],
+      [
+        "48px/600/48px/-0.96px",
+        90
+      ],
+      [
+        "13.5px/400/20.25px/normal",
+        84
+      ],
+      [
+        "15px/600/22.5px/normal",
+        80
+      ],
+      [
+        "15px/900/22.5px/normal",
+        80
+      ]
+    ],
+    "counts": {
+      "gradients": 61,
+      "backdrop": 6,
+      "filters": 40,
+      "video": 0,
+      "canvas": 1,
+      "svg": 76,
+      "img": 153,
+      "buttons": 23,
+      "forms": 0,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 0,
+      "links": 9
+    },
+    "loadedFonts": [
+      "InterDisplay 600 normal",
+      "InterDisplay Fallback normal normal",
+      "Inter 400 normal",
+      "Inter 500 normal",
+      "Inter 600 normal",
+      "Inter Fallback normal normal",
+      "Lato 400 normal",
+      "Lato 700 normal",
+      "Lato 900 normal",
+      "Lato Fallback normal normal"
+    ],
+    "animations": {
+      "n": 13,
+      "sample": [
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.absolute"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.absolute"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.font-slack"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.absolute"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.inline-flex"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.inline-flex"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.inline-flex"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "security-module__yRcFLa__security-breathe",
+          "dur": 9000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "scale"
+          ],
+          "target": "div.security-module__yRcFLa__field"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "atlas-caret-blink",
+          "dur": 1060,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.ml-px"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 6500,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "span.absolute"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 10500,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "span.absolute"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 1800,
+          "iter": 1,
+          "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+          "props": [
+            "transform"
+          ],
+          "target": "div.origin-bottom"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 1800,
+          "iter": 1,
+          "easing": "cubic-bezier(0.87, 0, 0.13, 1)",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [],
+    "globals": [
+      "_hsq",
+      "dataLayer"
+    ],
+    "htmlCls": "interdisplay_5d721241-module__bMza8G__variable inter_a25a8e49-module__cSpxAq__variable lato_b1192a9c-module__2-xiNq__var",
+    "scripts": [
+      "www.googletagmanager.com/gtag/js?id=AW-654613002&cx=c&gtm=4e6a61",
+      "www.redditstatic.com/ads/pixel.js?pixel_id=t2_eww6iys0d",
+      "www.googletagmanager.com/gtag/js?id=G-8TFHF8KP00&cx=c&gtm=4e6a61",
+      "js.hs-banner.com/v2/20433186/banner.js",
+      "js.hsadspixel.net/pixels.js",
+      "js.hs-analytics.net/analytics/1791424500000/20433186.js",
+      "www.googletagmanager.com/gtm.js?id=GTM-NTN3Q3DV",
+      "dotcom.workos.com/_next/static/chunks/1qufylzv1fxi8.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2jc-tfgiyn8yy.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/3ggs-b_g9q4yg.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/0mtwm_6crtc0b.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/turbopack-0o1m9rctm0n2r.js?dpl=7ab293fdf86d42e6a789c",
+      "dotcom.workos.com/_next/static/chunks/0skh6t4yno70v.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2i_q07tc0n1pe.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/1xr1fqwi3aj2a.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2xku0n3o82gnb.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/3m-x-20pyln1g.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2788hgwms205m.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/1x8bqpav3yf69.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2se7p81bcay5p.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2adgldfn8pzeb.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/3jmftj79_l8d2.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/2spm_oj-y20sn.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/05rldqiw5jovp.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "dotcom.workos.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "www.googletagmanager.com/gtag/js?id=AW-654613002",
+      "googleads.g.doubleclick.net/pagead/viewthroughconversion/654613002/?random=1791430584043&c",
+      "dotcom.workos.com/_next/static/chunks/03e076p9h2qbj.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+      "js-na1.hs-scripts.com/20433186.js"
+    ],
+    "scriptCount": 29,
+    "domBytes": 355416,
+    "dpr": 1
+  },
+  "pageHeight": 7001,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 12
+    },
+    {
+      "at": 0.4,
+      "n": 19
+    },
+    {
+      "at": 0.6,
+      "n": 11
+    },
+    {
+      "at": 0.8,
+      "n": 15
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 29,
+    "wheelListeners": [
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 866,
+    "canvasContexts": [
+      "webgpu",
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 60,
+  "transferBytes": {
+    "js": 1589592,
+    "css": 19184,
+    "font": 141591,
+    "image": 627315,
+    "media": 0,
+    "doc": 62188,
+    "other": 17956,
+    "requests": 130,
+    "thirdPartyTop": [
+      [
+        "www.googletagmanager.com",
+        693058
+      ],
+      [
+        "js.hs-analytics.net",
+        43682
+      ],
+      [
+        "www.redditstatic.com",
+        25771
+      ],
+      [
+        "js.hs-banner.com",
+        24446
+      ],
+      [
+        "js.hsadspixel.net",
+        5411
+      ],
+      [
+        "googleads.g.doubleclick.net",
+        3149
+      ]
+    ]
+  },
+  "axe": {
+    "total": 1,
+    "byImpact": {
+      "serious": 1
+    },
+    "items": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 10
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 4561,
+    "h1": "Meet Atlas, your AI coworker.",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 11,
+    "infiniteRunningAfterScroll": 8
+  }
+}

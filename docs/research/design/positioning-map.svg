@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="t d"><title id="t">Positioning map of 12 reference pages</title><desc id="d">Horizontal axis calm to expressive, vertical axis airy to dense. HELIX target sits at calm and medium-dense.</desc><rect width="640" height="480" fill="#fff"/>
+<rect x="70" y="40" width="520" height="380" fill="#F9FAFB" stroke="#E4E7EC"/>
+<line x1="122.0" y1="40" x2="122.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="382.0" x2="590" y2="382.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="174.0" y1="40" x2="174.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="344.0" x2="590" y2="344.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="226.0" y1="40" x2="226.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="306.0" x2="590" y2="306.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="278.0" y1="40" x2="278.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="268.0" x2="590" y2="268.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="330.0" y1="40" x2="330.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="230.0" x2="590" y2="230.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="382.0" y1="40" x2="382.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="192.0" x2="590" y2="192.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="434.0" y1="40" x2="434.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="154.0" x2="590" y2="154.0" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="486.0" y1="40" x2="486.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="115.99999999999999" x2="590" y2="115.99999999999999" stroke="#E4E7EC" stroke-width="1"/>
+<line x1="538.0" y1="40" x2="538.0" y2="420" stroke="#E4E7EC" stroke-width="1"/><line x1="70" y1="78.0" x2="590" y2="78.0" stroke="#E4E7EC" stroke-width="1"/>
+<rect x="148.0" y="173.0" width="104.0" height="76.00000000000003" fill="#EEF3FF" stroke="#1F4FE0" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="200.0" y="214.99999999999997" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" font-weight="600" fill="#1F4FE0">HELIX target</text>
+<circle cx="226.0" cy="268.0" r="5" fill="#0B1220"/><text x="235.0" y="272.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">getenergy</text>
+<circle cx="174.0" cy="230.0" r="5" fill="#0B1220"/><text x="183.0" y="234.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">crealo</text>
+<circle cx="278.0" cy="306.0" r="5" fill="#0B1220"/><text x="287.0" y="310.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">wama</text>
+<circle cx="382.0" cy="344.0" r="5" fill="#0B1220"/><text x="391.0" y="348.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">spacefs</text>
+<circle cx="434.0" cy="306.0" r="5" fill="#0B1220"/><text x="443.0" y="310.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">handhold</text>
+<circle cx="434.0" cy="283.20000000000005" r="5" fill="#0B1220"/><text x="443.0" y="287.20000000000005" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">workos-atlas</text>
+<circle cx="382.0" cy="192.0" r="5" fill="#0B1220"/><text x="391.0" y="196.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">stableapp</text>
+<circle cx="382.0" cy="115.99999999999999" r="5" fill="#0B1220"/><text x="391.0" y="119.99999999999999" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">eden</text>
+<circle cx="486.0" cy="154.0" r="5" fill="#0B1220"/><text x="495.0" y="158.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">monday</text>
+<circle cx="486.0" cy="78.0" r="5" fill="#0B1220"/><text x="495.0" y="82.0" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">shiprocket</text>
+<circle cx="506.8" cy="131.2" r="5" fill="#0B1220"/><text x="515.8" y="135.2" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#344054">linear</text>
+<text x="70" y="468" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#667085">calm</text><text x="590" y="468" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#667085">expressive</text><text x="330.0" y="468" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#667085">calm to expressive (judgement)</text>
+<text x="14" y="50" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#667085">dense</text><text x="14" y="420" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#667085">airy</text>
+</svg>

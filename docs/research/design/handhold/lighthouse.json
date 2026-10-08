@@ -1,0 +1,61 @@
+{
+  "slug": "handhold",
+  "url": "https://handhold.io",
+  "date": "2026-10-08T03:41:21.852Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 38,
+    "accessibility": 100,
+    "best-practices": 96,
+    "seo": 92
+  },
+  "metrics": {
+    "LCP_ms": 12872,
+    "CLS": 0,
+    "TBT_ms": 1606,
+    "FCP_ms": 2339,
+    "SI_ms": 8444,
+    "totalBytes": 2655065
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 170,
+      "kb": 2593
+    },
+    "script": {
+      "n": 97,
+      "kb": 1081
+    },
+    "image": {
+      "n": 6,
+      "kb": 646
+    },
+    "font": {
+      "n": 39,
+      "kb": 600
+    },
+    "document": {
+      "n": 4,
+      "kb": 158
+    },
+    "other": {
+      "n": 14,
+      "kb": 77
+    },
+    "stylesheet": {
+      "n": 10,
+      "kb": 31
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 0,
+      "kb": 0
+    }
+  },
+  "finalUrl": "https://handhold.io/",
+  "runWarnings": []
+}

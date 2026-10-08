@@ -1,0 +1,768 @@
+{
+  "slug": "wama",
+  "url": "https://wama.com.br",
+  "date": "2026-10-08T03:40:26.230Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://wama.com.br/",
+  "heroAnimationsAtLoad": 8,
+  "dom": {
+    "prefetch": {
+      "lang": "pt-BR",
+      "title": "Wama | Agência de Design, Sites, SaaS e Aplicativos",
+      "desc": "Sites em Framer, SaaS, sistemas e aplicativos personalizados para empresas que buscam design de excelência, tecnologia e experiências digitais que geram valor na era da IA.",
+      "og": true,
+      "jsonld": [
+        "[\"WebPage\",\"ContactPage\",\"ItemList\"]",
+        "\"FAQPage\"",
+        "[[\"Organization\",\"ProfessionalService\"],\"Person\",\"WebSite\"]"
+      ],
+      "canonical": "https://wama.com.br/",
+      "colorScheme": "normal"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Design e desenvolvimento de produtos digitais",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "72px",
+          "weight": "400",
+          "lh": "79.2px",
+          "ls": "-0.72px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Criatividade, excelência, & reconhecimento.",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-0.56px",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Superando padrões.Não apenas expectativas.",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-0.56px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Soluções para cada etapa do seu negócio",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-0.56px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Camila Farani",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "32px",
+          "weight": "400",
+          "lh": "38.4px",
+          "ls": "-0.32px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "KFC Brasil",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "32px",
+          "weight": "400",
+          "lh": "38.4px",
+          "ls": "-0.32px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Tera",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "32px",
+          "weight": "400",
+          "lh": "38.4px",
+          "ls": "-0.32px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "Como vocês definem o prazo de um projeto?",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "20px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "0.2px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "clientes",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "20px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "0.2px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "clientes",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "20px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "0.2px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "projetos",
+          "family": "TWK Lausanne 400 Regular",
+          "size": "20px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "0.2px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "🇧🇷 +55",
+          "family": "CUSTOM;TWK Lausanne 200",
+          "size": "14px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Enviar",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#0000ee",
+          "transform": "none"
+        },
+        {
+          "text": "clientesclientes",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#0000ee",
+          "transform": "none"
+        },
+        {
+          "text": "projetosprojetos",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#0000ee",
+          "transform": "none"
+        },
+        {
+          "text": "serviçosserviços",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#0000ee",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Nome",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Telefone🇧🇷 +55 .uncode-number-Telefone::placeholder { color: var(--token-fda77",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Empresa",
+          "family": "sans-serif",
+          "size": "12px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "relative",
+      "height": 79,
+      "bg": "#ffffff",
+      "backdrop": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "links": [
+        "clientesclientes",
+        "projetosprojetos",
+        "serviçosserviços",
+        "sobresobre",
+        "blogblog",
+        "Inicie um projeto"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 1230,
+        "padT": "156px",
+        "padB": "160px",
+        "bg": null,
+        "heading": "Design e desenvolvimento de produtos digitais"
+      },
+      {
+        "tag": "section",
+        "h": 1079,
+        "padT": "160px",
+        "padB": "160px",
+        "bg": "#000000",
+        "heading": "Criatividade, excelência, & reconhecimento."
+      },
+      {
+        "tag": "section",
+        "h": 9657,
+        "padT": "160px",
+        "padB": "160px",
+        "bg": "#ffffff",
+        "heading": "Superando padrões.Não apenas expectativas."
+      },
+      {
+        "tag": "section",
+        "h": 4950,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 1832,
+        "padT": "160px",
+        "padB": "160px",
+        "bg": "#ffffff",
+        "heading": "Soluções para cada etapa do seu negócio"
+      },
+      {
+        "tag": "section",
+        "h": 1858,
+        "padT": "160px",
+        "padB": "160px",
+        "bg": "#000000",
+        "heading": null
+      },
+      {
+        "tag": "div",
+        "h": 1819,
+        "padT": "160px",
+        "padB": "160px",
+        "bg": null,
+        "heading": "Ainda tem dúvidas?"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1296",
+        15
+      ],
+      [
+        "1013",
+        3
+      ],
+      [
+        "1380",
+        1
+      ],
+      [
+        "1400",
+        1
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Inicie um projeto",
+        "bg": "#000000",
+        "color": "#0000ee",
+        "radius": "999px",
+        "h": 39,
+        "pad": "7px 24px 8px"
+      }
+    ],
+    "headings": [
+      "H1 Design e desenvolvimento de produtos digitais",
+      "H2 Criatividade, excelência, & reconhecimento.",
+      "H2 Superando padrões.Não apenas expectativas.",
+      "H3 Camila Farani",
+      "H3 KFC Brasil",
+      "H3 Tera",
+      "H3 Vibra",
+      "H3 Wiz Benefícios",
+      "H3 Pepper",
+      "H3 Elogiou",
+      "H3 Gogame",
+      "H3 Milhas Pix",
+      "H3 Visor",
+      "H3 Medellin Games",
+      "H3 Youmentor",
+      "H3 Kpass",
+      "H3 Cappta",
+      "H3 Haudience",
+      "H3 Spedy",
+      "H3 Vitat",
+      "H3 Treeunfe",
+      "H3 Biz",
+      "H3 Stric",
+      "H2 Soluções para cada etapa do seu negócio",
+      "H3 Estratégia",
+      "H3 Criação de Interfaces",
+      "H3 Web Design & Softwares",
+      "H3 Branding",
+      "H3 Consultorias",
+      "H3 Design System",
+      "H3 UI & AI",
+      "H3 Motion",
+      "H2 Ainda tem dúvidas?",
+      "H2 Artigos & notícias",
+      "H2 ChatGPT Sites: serve como site da sua empresa?",
+      "H2 Site para instituição de pagamento: o que publicar",
+      "H2 Resolução BCB 587: o que muda no app da fintech",
+      "H2 Multi Site do Framer: site e app no mesmo domínio",
+      "H2 Seu próximo projeto começa aqui",
+      "H3 Conte para nós o que você quer construir."
+    ],
+    "footer": {
+      "h": 2176,
+      "links": 34,
+      "text": "FALE CONOSCOSeu próximo projeto começa aquiEntendemos seu momento, seus objetivos e mostramos como design e código podem transformar sua ideia em um produto digital de alto nível.Entendimento do projeto, objetivos e nece"
+    },
+    "fonts": [
+      [
+        "TWK Lausanne 200 Regular",
+        5136
+      ],
+      [
+        "TWK Lausanne 400 Regular",
+        2447
+      ],
+      [
+        "CUSTOM;TWK Lausanne 200",
+        8
+      ]
+    ],
+    "fgColors": [
+      [
+        "#4f4f4f",
+        3935
+      ],
+      [
+        "#000000",
+        2428
+      ],
+      [
+        "#ffffff",
+        1160
+      ],
+      [
+        "#cdff59",
+        68
+      ]
+    ],
+    "bgColors": [
+      [
+        "#ffffff",
+        1723.9187999999997
+      ],
+      [
+        "#000000",
+        1396.5712124999998
+      ],
+      [
+        "#0f0f0f",
+        123.4935
+      ],
+      [
+        "#000000 a0.03",
+        79.313175
+      ]
+    ],
+    "borders": [
+      [
+        "1px #d2cdd8",
+        15
+      ],
+      [
+        "2px #767676",
+        11
+      ],
+      [
+        "1px null",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "10px",
+        86
+      ],
+      [
+        "58px",
+        14
+      ],
+      [
+        "60px",
+        14
+      ],
+      [
+        "8px",
+        7
+      ],
+      [
+        "999px",
+        4
+      ],
+      [
+        "99px",
+        3
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0.35) -28px 8px 40px 0px",
+        8
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "16px/200/24px/0.16px",
+        3835
+      ],
+      [
+        "14px/200/21px/0.14px",
+        1156
+      ],
+      [
+        "16px/400/24px/normal",
+        1088
+      ],
+      [
+        "20px/400/24px/0.2px",
+        525
+      ],
+      [
+        "32px/400/38.4px/-0.32px",
+        319
+      ],
+      [
+        "56px/400/67.2px/-0.56px",
+        174
+      ],
+      [
+        "12px/400/15.6px/0.8px",
+        154
+      ],
+      [
+        "20px/200/30px/0.2px",
+        128
+      ],
+      [
+        "26px/400/31.2px/-0.26px",
+        103
+      ],
+      [
+        "72px/400/79.2px/-0.72px",
+        45
+      ],
+      [
+        "20px/400/30px/normal",
+        21
+      ],
+      [
+        "40px/400/48px/normal",
+        18
+      ]
+    ],
+    "counts": {
+      "gradients": 1,
+      "backdrop": 0,
+      "filters": 4,
+      "video": 18,
+      "canvas": 0,
+      "svg": 11,
+      "img": 118,
+      "buttons": 2,
+      "forms": 1,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 1,
+      "links": 67
+    },
+    "loadedFonts": [
+      "TWK Lausanne 400 Regular 400 normal",
+      "TWK Lausanne 200 Regular 200 normal",
+      "TWK Lausanne 400 Regular Placeholder normal normal"
+    ],
+    "animations": {
+      "n": 8,
+      "sample": [
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "Animation",
+          "name": "",
+          "dur": 4000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div"
+        }
+      ]
+    },
+    "scrollTimelineCss": true,
+    "keyframes": [],
+    "globals": [],
+    "htmlCls": "",
+    "scripts": [
+      "events.framer.com/script?v=2",
+      "framerusercontent.com/sites/7kL7YF3dkzAplGhM6Mn6dl/script_main.BHETrZ9G.mjs"
+    ],
+    "scriptCount": 2,
+    "domBytes": 705097,
+    "dpr": 1
+  },
+  "pageHeight": 24501,
+  "animationsAfterScroll": [
+    {
+      "at": 0.35,
+      "n": 8
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 83,
+    "wheelListeners": [
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 541,
+    "canvasContexts": [],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 60,
+  "transferBytes": {
+    "js": 400740,
+    "css": 0,
+    "font": 63283,
+    "image": 5893329,
+    "media": 1500929,
+    "doc": 94214,
+    "other": 2943,
+    "requests": 174,
+    "thirdPartyTop": [
+      [
+        "framerusercontent.com",
+        6341907
+      ],
+      [
+        "zaafqpmrqhleovqxkmnm.supabase.co",
+        1500929
+      ],
+      [
+        "events.framer.com",
+        12069
+      ],
+      [
+        "framer.com",
+        4105
+      ],
+      [
+        "app.framerstatic.com",
+        2214
+      ],
+      [
+        "",
+        0
+      ]
+    ]
+  },
+  "axe": {
+    "total": 0,
+    "byImpact": {},
+    "items": []
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 8039,
+    "h1": "Design e desenvolvimento de produtos digitais",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 0,
+    "infiniteRunningAfterScroll": 0
+  }
+}

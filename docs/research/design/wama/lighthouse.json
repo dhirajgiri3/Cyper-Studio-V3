@@ -1,0 +1,61 @@
+{
+  "slug": "wama",
+  "url": "https://wama.com.br",
+  "date": "2026-10-08T03:44:11.158Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 93,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 2944,
+    "CLS": 0,
+    "TBT_ms": 74,
+    "FCP_ms": 1427,
+    "SI_ms": 3307,
+    "totalBytes": 4450779
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 142,
+      "kb": 4346
+    },
+    "image": {
+      "n": 98,
+      "kb": 3787
+    },
+    "script": {
+      "n": 36,
+      "kb": 401
+    },
+    "document": {
+      "n": 2,
+      "kb": 94
+    },
+    "font": {
+      "n": 3,
+      "kb": 62
+    },
+    "other": {
+      "n": 3,
+      "kb": 3
+    },
+    "stylesheet": {
+      "n": 0,
+      "kb": 0
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 141,
+      "kb": 4254
+    }
+  },
+  "finalUrl": "https://wama.com.br/",
+  "runWarnings": []
+}

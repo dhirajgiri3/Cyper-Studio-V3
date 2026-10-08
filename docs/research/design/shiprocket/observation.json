@@ -1,0 +1,1123 @@
+{
+  "slug": "shiprocket",
+  "url": "https://www.shiprocket.in",
+  "date": "2026-10-08T03:44:59.888Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://www.shiprocket.in/",
+  "heroAnimationsAtLoad": 9,
+  "dom": {
+    "prefetch": {
+      "lang": "en-US",
+      "title": "Shiprocket: Your All-in-One eCommerce Growth Partner",
+      "desc": "Simplify your end-to-end eCommerce operations with our all-in-one platform. Trusted by 3 Lakh+ brands for seamless growth.",
+      "og": true,
+      "jsonld": [
+        "[\"WebPage\",\"BreadcrumbList\",\"WebSite\",\"Organization\"]"
+      ],
+      "canonical": "https://www.shiprocket.in/",
+      "colorScheme": "normal",
+      "themeColor": "#735ae5"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Shiprocket, Your Partner for eCommerce Empowerment",
+          "family": "TWKLausanneSemi",
+          "size": "50px",
+          "weight": "400",
+          "lh": "58px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        },
+        {
+          "text": "Redefining Domestic Shipping-Seamless in Every Way",
+          "family": "TWKLausanneSemi",
+          "size": "50px",
+          "weight": "400",
+          "lh": "58px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Shiprocket Making Headlines",
+          "family": "TWKLausanneSemi",
+          "size": "46px",
+          "weight": "400",
+          "lh": "65px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        },
+        {
+          "text": "Discover Our Blogs",
+          "family": "TWKLausanneSemi",
+          "size": "52px",
+          "weight": "400",
+          "lh": "62px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Sign Up for Exclusive Discounts",
+          "family": "TWKLausanneSemi",
+          "size": "20px",
+          "weight": "400",
+          "lh": "27px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Building Success Stories with 4 Lakhs+ Businesses",
+          "family": "TWKLausanne",
+          "size": "24px",
+          "weight": "400",
+          "lh": "32px",
+          "ls": "normal",
+          "color": "#c9c6c6",
+          "transform": "none"
+        },
+        {
+          "text": "Unified domestic shipping",
+          "family": "TWKLausanne",
+          "size": "38px",
+          "weight": "400",
+          "lh": "44px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "20%",
+          "family": "ManropeMed",
+          "size": "32px",
+          "weight": "500",
+          "lh": "46px",
+          "ls": "normal",
+          "color": "#141413",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "Recharge Now for ₹500 & Get ₹1000* In Your Wallet. Use Code: FLAT500 | Limited P",
+          "family": "ManropeRegular",
+          "size": "14px",
+          "weight": "400",
+          "lh": "19.6px",
+          "ls": "normal",
+          "color": "#09074f",
+          "transform": "none"
+        },
+        {
+          "text": "*T&C Apply.",
+          "family": "ManropeRegular",
+          "size": "13px",
+          "weight": "400",
+          "lh": "18.2px",
+          "ls": "normal",
+          "color": "#333333",
+          "transform": "none"
+        },
+        {
+          "text": "From shipping to scaling, we grow your eCommerce brand end-to-end.",
+          "family": "ManropeRegular",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#50504c",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "*T&C Apply. Signup Now",
+          "family": "ManropeRegular",
+          "size": "14px",
+          "weight": "400",
+          "lh": "19.6px",
+          "ls": "normal",
+          "color": "#50504c",
+          "transform": "none"
+        },
+        {
+          "text": "Try for Free",
+          "family": "ManropeMed",
+          "size": "14px",
+          "weight": "400",
+          "lh": "19.6px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Get Started",
+          "family": "ManropeRegular",
+          "size": "16px",
+          "weight": "600",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#6f63c6",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "ManropeRegular",
+          "size": "16px",
+          "weight": "400",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#000000 a0.8",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "ManropeRegular",
+          "size": "16px",
+          "weight": "400",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#735ae5",
+          "transform": "none"
+        },
+        {
+          "text": "Products",
+          "family": "ManropeMed",
+          "size": "15px",
+          "weight": "400",
+          "lh": "18px",
+          "ls": "0.32px",
+          "color": "#141413",
+          "transform": "none"
+        },
+        {
+          "text": "Platform",
+          "family": "ManropeMed",
+          "size": "15px",
+          "weight": "400",
+          "lh": "18px",
+          "ls": "0.32px",
+          "color": "#141413",
+          "transform": "none"
+        },
+        {
+          "text": "Pricing",
+          "family": "ManropeMed",
+          "size": "15px",
+          "weight": "400",
+          "lh": "18px",
+          "ls": "0.32px",
+          "color": "#141413",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Phone number",
+          "family": "ManropeRegular",
+          "size": "16px",
+          "weight": "400",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#50504c",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "static",
+      "height": 92,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px none rgb(80, 80, 76)",
+      "links": [
+        "Products",
+        "Platform",
+        "Pricing",
+        "Partners",
+        "Track Order",
+        "Resources",
+        "Investors",
+        "Log In",
+        "Try for Free"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 710,
+        "padT": "140px",
+        "padB": "65px",
+        "bg": "#f4f4f6",
+        "heading": "Shiprocket, Your Partner for eCommerce Empowerment"
+      },
+      {
+        "tag": "section",
+        "h": 235,
+        "padT": "48px",
+        "padB": "48px",
+        "bg": "#141413",
+        "heading": "Building Success Stories with 4 Lakhs+ Businesses"
+      },
+      {
+        "tag": "section",
+        "h": 364,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Why is Shiprocket the Trusted Partner for Scaling eCommerce Businesses"
+      },
+      {
+        "tag": "section",
+        "h": 3910,
+        "padT": "0px",
+        "padB": "60px",
+        "bg": "#f4f4f6",
+        "heading": "Unified domestic shipping"
+      },
+      {
+        "tag": "section",
+        "h": 682,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#141413",
+        "heading": "AI Powered Innovations"
+      },
+      {
+        "tag": "section",
+        "h": 940,
+        "padT": "70px",
+        "padB": "120px",
+        "bg": "#f4f4f6",
+        "heading": "Experience Shiprocket Products Through Live Demos"
+      },
+      {
+        "tag": "section",
+        "h": 450,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Seamless Integrations with 250+ Ecosystem partners"
+      },
+      {
+        "tag": "section",
+        "h": 621,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#141413",
+        "heading": "Engineered for Developers"
+      },
+      {
+        "tag": "section",
+        "h": 246,
+        "padT": "40px",
+        "padB": "40px",
+        "bg": "#ccee37",
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 665,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Our Core Strengths"
+      },
+      {
+        "tag": "section",
+        "h": 1899,
+        "padT": "0px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Which Businesses Can Benefit from Shiprocket?"
+      },
+      {
+        "tag": "section",
+        "h": 380,
+        "padT": "0px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Anywhere, Anytime – With Your Choice of Courier Partners"
+      },
+      {
+        "tag": "section",
+        "h": 757,
+        "padT": "0px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Voices of Our Sellers"
+      },
+      {
+        "tag": "section",
+        "h": 1768,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": null,
+        "heading": "Our Services & Solutions Portfolio"
+      },
+      {
+        "tag": "section",
+        "h": 305,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#f4f4f6",
+        "heading": "Shiprocket Making Headlines"
+      },
+      {
+        "tag": "section",
+        "h": 935,
+        "padT": "70px",
+        "padB": "70px",
+        "bg": "#ffffff",
+        "heading": "Discover Our Blogs"
+      },
+      {
+        "tag": "section",
+        "h": 155,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 679,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "reach us at"
+      },
+      {
+        "tag": "section",
+        "h": 204,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Download App"
+      },
+      {
+        "tag": "section",
+        "h": 463,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Products"
+      },
+      {
+        "tag": "section",
+        "h": 275,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Features"
+      },
+      {
+        "tag": "section",
+        "h": 495,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Resources"
+      },
+      {
+        "tag": "section",
+        "h": 181,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Company"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1320",
+        42
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Signup Now",
+        "bg": "#ffffff",
+        "color": "#0b0757",
+        "radius": "8px",
+        "h": 29,
+        "pad": "5px 8px"
+      },
+      {
+        "label": "Log In",
+        "bg": null,
+        "color": "#735ae5",
+        "radius": "10px",
+        "h": 40,
+        "pad": "9.6px 24px"
+      },
+      {
+        "label": "Try for Free",
+        "bg": "#735ae5",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 40,
+        "pad": "9.6px 16px"
+      },
+      {
+        "label": "Get Started",
+        "bg": "#e9e5fc",
+        "color": "#6f63c6",
+        "radius": "10px",
+        "h": 52,
+        "pad": "0px 32px"
+      },
+      {
+        "label": "Sign Up for Free",
+        "bg": "#735ae5",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 45,
+        "pad": "11.2px 16px"
+      },
+      {
+        "label": "Sign Up for Free",
+        "bg": "#735ae5",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 45,
+        "pad": "11.2px 16px"
+      },
+      {
+        "label": "Sign Up for Free",
+        "bg": "#735ae5",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 45,
+        "pad": "11.2px 16px"
+      },
+      {
+        "label": "Sign Up for Free",
+        "bg": "#735ae5",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 45,
+        "pad": "11.2px 16px"
+      }
+    ],
+    "headings": [
+      "H1 Shiprocket, Your Partner for eCommerce Empowerment",
+      "H3 Sign Up for Exclusive Discounts",
+      "H1 Redefining Domestic Shipping-Seamless in Every Way",
+      "H1 Cross Border Commerce-Fulfill Your Global Aspirations",
+      "H1 AI Powered Solutions for Marketing Growth",
+      "H1 Financial Services, Supporting Your Ambitions at Every Step",
+      "H3 Building Success Stories with 4 Lakhs+ Businesses",
+      "H3 Unified domestic shipping",
+      "H3 Full-stack global enablement",
+      "H3 AI powered tools for marketing growth",
+      "H3 Capital and financial tools",
+      "H3 Sense",
+      "H3 Trends",
+      "H3 <img src=\"https://sr-website.shiprocket.in/wp-content/uploads/2026/07/",
+      "H3 Shipping",
+      "H3 fastrr Checkout",
+      "H3 <img src=\"https://sr-website.shiprocket.in/wp-content/uploads/2024/11/",
+      "H3 <img src=\"https://sr-website.shiprocket.in/wp-content/uploads/2024/11/",
+      "H3 <img src=\"https://sr-website.shiprocket.in/wp-content/uploads/2024/11/",
+      "H3 4 Lakhs+ Businesses/ Sellers",
+      "H3 19,000+ Unique Pin codes Nationwide",
+      "H3 220+ Countries and Territories Globally",
+      "H3 42+ Courier Partners",
+      "H3 250+ Ecosystem partners",
+      "H3 5 Lakh+ Transactions Enabled Daily",
+      "H3 SMB Online retailers",
+      "H3 Social sellers",
+      "H3 Offline stores",
+      "H3 Large online & offline businesses",
+      "H3 Riya Pant - Founder",
+      "H3 Santosh Kakkirala - Manager, Operations",
+      "H3 Abhay - Founder",
+      "H3 Prithvi Raj",
+      "H3 Adil Qadri - Founder",
+      "H2 Shiprocket Making Headlines",
+      "H2 Discover Our Blogs",
+      "H3 Product Highlights From September 2026",
+      "H3 Seasonal Marketing: Ideas, Strategies, & Examples (2026)",
+      "H3 Flat Discount vs Percentage Discount: Which Wins?",
+      "H3 reach us at"
+    ],
+    "footer": {
+      "h": 1343,
+      "links": 61,
+      "text": "<img decoding=\"async\" width=\"141\" height=\"32\" src=\"https://sr-website.shiprocket.in/wp-content/uploads/2024/11/Shiprocket-Logo-White.svg\" alt=\"\" class=\"wp-image-43773\"/> <img decoding=\"async\" src=\"https://sr-website.ship"
+    },
+    "fonts": [
+      [
+        "ManropeRegular",
+        6289
+      ],
+      [
+        "ManropeMed",
+        6258
+      ],
+      [
+        "TWKLausanneSemi",
+        3106
+      ],
+      [
+        "TWKLausanne",
+        2222
+      ],
+      [
+        "TWKLausanne200",
+        1181
+      ]
+    ],
+    "fgColors": [
+      [
+        "#141413",
+        7759
+      ],
+      [
+        "#735ae5",
+        4364
+      ],
+      [
+        "#bdbdbd",
+        1109
+      ],
+      [
+        "#c9c6c6",
+        1093
+      ],
+      [
+        "#50504c",
+        1034
+      ],
+      [
+        "#5a5a5a",
+        887
+      ],
+      [
+        "#6f6f6a",
+        582
+      ],
+      [
+        "#717182",
+        461
+      ]
+    ],
+    "bgColors": [
+      [
+        "#f4f4f6",
+        1678.140609375
+      ],
+      [
+        "#ffffff",
+        685.4432712822979
+      ],
+      [
+        "#141413",
+        221.472
+      ],
+      [
+        "#000000",
+        193.34475
+      ],
+      [
+        "#d1ff00 a0.54",
+        134.26443125
+      ],
+      [
+        "#f7f9fb",
+        60.37511228477806
+      ],
+      [
+        "#ccee37",
+        35.424
+      ]
+    ],
+    "borders": [
+      [
+        "1px #dcdcdc a0.23",
+        39
+      ],
+      [
+        "1px #141413",
+        21
+      ],
+      [
+        "1px #cbcad7 a0.4",
+        12
+      ],
+      [
+        "1px #735ae5",
+        10
+      ],
+      [
+        "1px #0b0757 a0.05",
+        10
+      ]
+    ],
+    "radii": [
+      [
+        "6px",
+        178
+      ],
+      [
+        "50px",
+        28
+      ],
+      [
+        "10px",
+        19
+      ],
+      [
+        "20px",
+        16
+      ],
+      [
+        "12px",
+        15
+      ],
+      [
+        "15px 15px 0px 0px",
+        13
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(32, 56, 85, 0.09) 0px 6px 10px 0px",
+        10
+      ],
+      [
+        "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px",
+        7
+      ],
+      [
+        "rgba(0, 0, 0, 0.294) 0px 10px 35px 0px",
+        1
+      ],
+      [
+        "rgb(128, 128, 128) 0px 0px 5px 0px",
+        1
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "16px/400/22.4px/normal",
+        2775
+      ],
+      [
+        "12px/400/18px/normal",
+        2216
+      ],
+      [
+        "16px/400/26px/normal",
+        2191
+      ],
+      [
+        "22px/500/28px/normal",
+        2114
+      ],
+      [
+        "18px/400/30px/normal",
+        1985
+      ],
+      [
+        "14px/400/19.6px/normal",
+        1816
+      ],
+      [
+        "16px/400/28px/normal",
+        1455
+      ],
+      [
+        "14px/400/19.6px/0.2px",
+        648
+      ],
+      [
+        "38px/400/44px/normal",
+        531
+      ],
+      [
+        "13px/400/18.2px/normal",
+        467
+      ],
+      [
+        "50px/400/58px/normal",
+        434
+      ],
+      [
+        "22px/400/32px/normal",
+        358
+      ]
+    ],
+    "counts": {
+      "gradients": 15,
+      "backdrop": 1,
+      "filters": 12,
+      "video": 0,
+      "canvas": 1,
+      "svg": 22,
+      "img": 385,
+      "buttons": 32,
+      "forms": 3,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 2,
+      "links": 219
+    },
+    "loadedFonts": [
+      "TWKLausanne200 200 normal",
+      "TWKLausanne 300 normal",
+      "TWKLausanneSemi 500 normal",
+      "ManropeMed 400 normal",
+      "ManropeRegular 500 normal"
+    ],
+    "animations": {
+      "n": 9,
+      "sample": [
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSTransition",
+          "name": "transform",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.slick-track"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "srStepIn",
+          "dur": 320,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "div"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "f",
+          "dur": 4000,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "width"
+          ],
+          "target": "li.slick-active"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "show-content-image",
+      "turn-on-visibility",
+      "turn-off-visibility",
+      "lightbox-zoom-in",
+      "lightbox-zoom-out",
+      "srScrimFade",
+      "b",
+      "c",
+      "d",
+      "e",
+      "f",
+      "g",
+      "srShake",
+      "srSpin",
+      "srStepIn",
+      "srMsgIn"
+    ],
+    "globals": [
+      "gsap",
+      "ScrollTrigger",
+      "Lenis",
+      "jQuery",
+      "gtag",
+      "dataLayer"
+    ],
+    "htmlCls": "js-banner-fade lenis",
+    "scripts": [
+      "scripts.clarity.ms/0.8.72-beta/clarity.js",
+      "www.clarity.ms/tag/uet/355025906",
+      "static-event.com/event.js",
+      "scripts.clarity.ms/0.8.72-beta/clarity.js",
+      "www.googletagmanager.com/gtag/destination?id=DC-14667173&cx=c&gtm=4e6a61",
+      "www.googletagmanager.com/gtag/destination?id=AW-18154548313&cx=c&gtm=4e6a61",
+      "static.ads-twitter.com/uwt.js",
+      "www.clarity.ms/tag/ig2o9qs29f",
+      "cdn.branch.io/branch-latest.min.js",
+      "connect.facebook.net/signals/config/731503586965557?v=2.9.415&r=stable&domain=www.shiprock",
+      "connect.facebook.net/en_US/fbevents.js",
+      "bzrcdn.openai.com/sdk/oaiq.min.js",
+      "bat.bing.com/bat.js",
+      "www.googletagmanager.com/gtag/js?id=AW-17869354203&cx=c&gtm=4e6a61",
+      "www.googletagmanager.com/gtag/js?id=AW-964219477&cx=c&gtm=4e6a61",
+      "www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+      "www.googletagmanager.com/gtm.js?id=GTM-5FGZLTB",
+      "www.googletagmanager.com/gtag/js?id=G-923W0EDVX1",
+      "www.shiprocket.in/wp-content/cache/min/1/shiprocket/files/sr-token-handoff.v1.js?ver=17912",
+      "www.shiprocket.in/wp-content/themes/shiprocket/jquery.min.js",
+      "www.shiprocket.in/wp-content/cache/min/1/wp-content/themes/shiprocket/utmcode.js?ver=17912",
+      "cdn.moengage.com/release/dc_3/versions/2/moe_webSdk.min.latest.js",
+      "googleads.g.doubleclick.net/pagead/viewthroughconversion/964219477/?random=1791431104507&c",
+      "googleads.g.doubleclick.net/pagead/viewthroughconversion/17869354203/?random=1791431104663",
+      "bat.bing.com/p/action/355025906.js",
+      "cdn.trackmyvisits.com/sdk.insight.scevent.min.js?k9X2=https://www.shiprocket.in/",
+      "static-cdn.readtargeting.com/audience.js?domain=www.shiprocket.in",
+      "static-cdn.readtargeting.com/data/check-cart.js?id=AXzEm",
+      "www.google.com/recaptcha/api.js?render=6Lf9AuohAAAAANaxTA97hiGnvTMxvXMLXtqDWm7y",
+      "www.shiprocket.in/wp-content/cache/min/1/wp-content/themes/shiprocket/blogSidebarForm.js?v",
+      "www.shiprocket.in/wp-content/themes/shiprocket/files/lenis.min.js",
+      "www.shiprocket.in/wp-content/cache/min/1/wp-content/themes/shiprocket/homeSliders.js?ver=1",
+      "www.shiprocket.in/wp-content/themes/shiprocket/files/ScrollTrigger.min.js",
+      "www.shiprocket.in/wp-content/cache/min/1/wp-content/themes/shiprocket/files/aos.js?ver=179",
+      "www.shiprocket.in/wp-content/cache/min/1/wp-content/themes/shiprocket/js/navigation.js?ver",
+      "www.shiprocket.in/wp-content/themes/shiprocket/assets/js/vendor.min.js",
+      "www.shiprocket.in/wp-content/themes/shiprocket/assets/js/scripts.min.js",
+      "www.shiprocket.in/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js",
+      "dynamic.criteo.com/js/ld/ld.js?a=118626",
+      "track.omguk.com/e/qs/?action=Content&MID=2358142&PID=56651&ref=https%3A//www.shiprocket.in"
+    ],
+    "scriptCount": 44,
+    "domBytes": 424367,
+    "dpr": 1
+  },
+  "pageHeight": 16252,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 25
+    },
+    {
+      "at": 0.4,
+      "n": 9
+    },
+    {
+      "at": 0.6,
+      "n": 11
+    },
+    {
+      "at": 0.8,
+      "n": 9
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 158,
+      "at960ms": 299
+    },
+    {
+      "expected": 600,
+      "at60ms": 402,
+      "at960ms": 599
+    },
+    {
+      "expected": 900,
+      "at60ms": 702,
+      "at960ms": 899
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 3,
+    "wheelListeners": [
+      {
+        "target": "window",
+        "passive": false
+      },
+      {
+        "target": "document",
+        "passive": "default"
+      },
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "document",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 1,
+    "nonPassiveTouch": 1,
+    "rafCalls": 1921,
+    "canvasContexts": [
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": true
+  },
+  "idleRafPerSecond": 127,
+  "transferBytes": {
+    "js": 2092468,
+    "css": 107043,
+    "font": 158105,
+    "image": 5871281,
+    "media": 0,
+    "doc": 51554,
+    "other": 55418,
+    "requests": 259,
+    "thirdPartyTop": [
+      [
+        "www.googletagmanager.com",
+        1020047
+      ],
+      [
+        "www.gstatic.com",
+        356031
+      ],
+      [
+        "connect.facebook.net",
+        274818
+      ],
+      [
+        "cdn.moengage.com",
+        118744
+      ],
+      [
+        "cdn.branch.io",
+        27898
+      ],
+      [
+        "scripts.clarity.ms",
+        26111
+      ]
+    ]
+  },
+  "axe": {
+    "total": 6,
+    "byImpact": {
+      "serious": 5,
+      "critical": 1
+    },
+    "items": [
+      {
+        "id": "aria-hidden-focus",
+        "impact": "serious",
+        "nodes": 9
+      },
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 4
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "link-in-text-block",
+        "impact": "serious",
+        "nodes": 3
+      },
+      {
+        "id": "list",
+        "impact": "serious",
+        "nodes": 7
+      },
+      {
+        "id": "listitem",
+        "impact": "serious",
+        "nodes": 47
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 10205,
+    "h1": "Shiprocket, Your Partner for eCommerce Empowerment",
+    "visibleOpacity0": 19
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 8,
+    "infiniteRunningAfterScroll": 0
+  }
+}

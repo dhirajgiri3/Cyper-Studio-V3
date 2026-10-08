@@ -1,0 +1,61 @@
+{
+  "slug": "stableapp",
+  "url": "https://www.stableapp.cloud",
+  "date": "2026-10-08T03:42:33.114Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 42,
+    "accessibility": 93,
+    "best-practices": 77,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 5923,
+    "CLS": 0,
+    "TBT_ms": 1001,
+    "FCP_ms": 3120,
+    "SI_ms": 11701,
+    "totalBytes": 5256623
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 134,
+      "kb": 5118
+    },
+    "script": {
+      "n": 43,
+      "kb": 2708
+    },
+    "media": {
+      "n": 1,
+      "kb": 1377
+    },
+    "other": {
+      "n": 46,
+      "kb": 335
+    },
+    "image": {
+      "n": 25,
+      "kb": 300
+    },
+    "document": {
+      "n": 4,
+      "kb": 205
+    },
+    "stylesheet": {
+      "n": 9,
+      "kb": 111
+    },
+    "font": {
+      "n": 6,
+      "kb": 83
+    },
+    "third-party": {
+      "n": 62,
+      "kb": 2664
+    }
+  },
+  "finalUrl": "https://www.stableapp.cloud/",
+  "runWarnings": []
+}

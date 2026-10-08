@@ -1,0 +1,879 @@
+{
+  "slug": "spacefs",
+  "url": "https://spacefs.com",
+  "date": "2026-10-08T03:34:42.587Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://spacefs.com/",
+  "heroAnimationsAtLoad": 6,
+  "dom": {
+    "prefetch": {
+      "lang": "",
+      "title": "Space | The infinite AI-native filesystem",
+      "desc": "Instant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents.",
+      "og": true,
+      "jsonld": [],
+      "colorScheme": "light"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "The infiniteAI-native filesystem",
+          "family": "Google Sans",
+          "size": "76px",
+          "weight": "400",
+          "lh": "77.52px",
+          "ls": "-2.66px",
+          "color": "#0e0f12",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Terabytes of files.Zero bytes on disk.",
+          "family": "Google Sans",
+          "size": "60px",
+          "weight": "400",
+          "lh": "62.4px",
+          "ls": "-2.1px",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Never wait for file transfers again",
+          "family": "Google Sans",
+          "size": "54px",
+          "weight": "500",
+          "lh": "56.16px",
+          "ls": "-1.62px",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Find anything.Ask anything.",
+          "family": "Google Sans",
+          "size": "60px",
+          "weight": "400",
+          "lh": "62.4px",
+          "ls": "-2.1px",
+          "color": "#0e0f12",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Files open instantly",
+          "family": "Google Sans",
+          "size": "34px",
+          "weight": "500",
+          "lh": "42.5px",
+          "ls": "-0.85px",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Instant sync and collaboration",
+          "family": "Google Sans",
+          "size": "34px",
+          "weight": "500",
+          "lh": "42.5px",
+          "ls": "-0.85px",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Works with the apps you already use",
+          "family": "Google Sans",
+          "size": "34px",
+          "weight": "500",
+          "lh": "42.5px",
+          "ls": "-0.85px",
+          "color": "#0e0f12",
+          "transform": "none"
+        }
+      ],
+      "h4": [],
+      "p": [
+        {
+          "text": "Instant access to terabytes of data on any computer, using zero disk space. One ",
+          "family": "Google Sans",
+          "size": "17px",
+          "weight": "400",
+          "lh": "27.625px",
+          "ls": "normal",
+          "color": "#686d78",
+          "transform": "none"
+        },
+        {
+          "text": "macOS · Linux · Windows coming soon",
+          "family": "Google Sans",
+          "size": "12px",
+          "weight": "400",
+          "lh": "16px",
+          "ls": "0.3px",
+          "color": "#0e0f12 a0.8",
+          "transform": "none"
+        },
+        {
+          "text": "Open and edit everything in Space right from Finder, without it ever filling up ",
+          "family": "Google Sans",
+          "size": "17px",
+          "weight": "400",
+          "lh": "27.625px",
+          "ls": "normal",
+          "color": "#686d78",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Menu",
+          "family": "Google Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Download",
+          "family": "Google Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#f7f8fa",
+          "transform": "none"
+        },
+        {
+          "text": "Download",
+          "family": "Google Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#f7f8fa",
+          "transform": "none"
+        },
+        {
+          "text": "Search",
+          "family": "Google Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#0e0f12",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "Space",
+          "family": "Google Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#0e0f12",
+          "transform": "none"
+        },
+        {
+          "text": "Download",
+          "family": "Google Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#f7f8fa",
+          "transform": "none"
+        }
+      ],
+      "label": [],
+      "mono": [
+        {
+          "text": "01",
+          "family": "Google Sans Code",
+          "size": "12px",
+          "weight": "400",
+          "lh": "16px",
+          "ls": "normal",
+          "color": "#686d78",
+          "transform": "none"
+        },
+        {
+          "text": "02",
+          "family": "Google Sans Code",
+          "size": "12px",
+          "weight": "400",
+          "lh": "16px",
+          "ls": "normal",
+          "color": "#686d78",
+          "transform": "none"
+        }
+      ]
+    },
+    "header": {
+      "position": "fixed",
+      "height": 80,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px solid rgb(229, 231, 235)",
+      "links": [
+        "Space",
+        "Download"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 900,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "The infiniteAI-native filesystem"
+      },
+      {
+        "tag": "section",
+        "h": 2891,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Terabytes of files.Zero bytes on disk."
+      },
+      {
+        "tag": "section",
+        "h": 1327,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": null,
+        "heading": "Never wait for file transfers again"
+      },
+      {
+        "tag": "section",
+        "h": 1324,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": null,
+        "heading": "Find anything.Ask anything."
+      },
+      {
+        "tag": "section",
+        "h": 1790,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": null,
+        "heading": "Built for every kind of work"
+      },
+      {
+        "tag": "section",
+        "h": 1171,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": null,
+        "heading": "Simple pricing"
+      },
+      {
+        "tag": "section",
+        "h": 1449,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": null,
+        "heading": "Common questions"
+      },
+      {
+        "tag": "section",
+        "h": 797,
+        "padT": "128px",
+        "padB": "128px",
+        "bg": null,
+        "heading": "Ready to journey into Space?ReadytojourneyintoSpace?"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1280",
+        7
+      ],
+      [
+        "1200",
+        6
+      ],
+      [
+        "768",
+        3
+      ],
+      [
+        "672",
+        2
+      ],
+      [
+        "620",
+        1
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Skip to main content",
+        "bg": "#f7f8fa",
+        "color": "#0e0f12",
+        "radius": "6px",
+        "h": 52,
+        "pad": "12px 16px"
+      },
+      {
+        "label": "Space",
+        "bg": "#ffffff a0.66",
+        "color": "#0e0f12",
+        "radius": "9999px",
+        "h": 52,
+        "pad": "0px"
+      },
+      {
+        "label": "Download",
+        "bg": "#0e0f12",
+        "color": "#f7f8fa",
+        "radius": "9999px",
+        "h": 40,
+        "pad": "0px 16px"
+      },
+      {
+        "label": "Download",
+        "bg": "#0e0f12",
+        "color": "#f7f8fa",
+        "radius": "9999px",
+        "h": 48,
+        "pad": "0px 28px"
+      }
+    ],
+    "headings": [
+      "H1 The infiniteAI-native filesystem",
+      "H2 Terabytes of files.Zero bytes on disk.",
+      "H2 Never wait for file transfers again",
+      "H3 Files open instantly",
+      "H3 Instant sync and collaboration",
+      "H3 Works with the apps you already use",
+      "H3 Your agents work in it too",
+      "H3 Persistent and versioned",
+      "H2 Find anything.Ask anything.",
+      "H2 Built for every kind of work",
+      "H3 Keep agents in sync on one persistent drive.",
+      "H3 Keep every team on the latest plans.",
+      "H3 Build bigger worlds without filling your disk.",
+      "H3 Edit from anywhere. Leave the SSDs behind.",
+      "H3 Governed, on your own storage.",
+      "H2 Simple pricing",
+      "H3 Individual",
+      "H3 Teams",
+      "H3 Enterprise",
+      "H2 Common questions",
+      "H3 What is Space?",
+      "H3 Is Space for individuals or companies?",
+      "H3 How is Space different from existing cloud drives?",
+      "H3 How does Space save disk space?",
+      "H3 Will it work with my existing apps?",
+      "H3 How do files stay in sync across devices?",
+      "H3 Do I need an internet connection?",
+      "H3 What internet speed do you recommend?",
+      "H3 Can AI agents use Space?",
+      "H3 Is there an SDK?",
+      "H3 Which platforms does Space support?",
+      "H3 What are the system requirements?",
+      "H3 How does Space protect my files?",
+      "H3 Can I use my own storage?",
+      "H2 Ready to journey into Space?ReadytojourneyintoSpace?",
+      "H3 Product",
+      "H3 Company",
+      "H3 Legal",
+      "H3 Social"
+    ],
+    "footer": {
+      "h": 809,
+      "links": 22,
+      "text": "SpaceThe infinite AI-native filesystem.DownloadProductOverviewSpace SearchUse casesPricingFAQIndustriesDevelopersEnterpriseCompanyBlogChangelogAboutContactLegalPrivacy NoticeTerms of UseCookie PolicySocialXGitHubLinkedIn"
+    },
+    "fonts": [
+      [
+        "Google Sans",
+        4904
+      ],
+      [
+        "-apple-system",
+        2104
+      ],
+      [
+        "SF Mono",
+        744
+      ],
+      [
+        "Helvetica Neue",
+        328
+      ],
+      [
+        "Menlo",
+        206
+      ],
+      [
+        "Google Sans Code",
+        10
+      ]
+    ],
+    "fgColors": [
+      [
+        "#686d78",
+        3398
+      ],
+      [
+        "#0e0f12",
+        1560
+      ],
+      [
+        "#1d1d1f",
+        1028
+      ],
+      [
+        "#000000 a0.85",
+        538
+      ],
+      [
+        "#000000 a0.45",
+        400
+      ],
+      [
+        "#000000 a0.5",
+        323
+      ],
+      [
+        "#000000 a0.8",
+        287
+      ],
+      [
+        "#000000 a0.55",
+        227
+      ]
+    ],
+    "bgColors": [
+      [
+        "#f7f8fa",
+        576
+      ],
+      [
+        "#ffffff",
+        142.14713484766781
+      ],
+      [
+        "#2a1d14",
+        95.14671875
+      ],
+      [
+        "#0e0f12 a0.024",
+        92.276
+      ],
+      [
+        "#e9ecf2",
+        19.3751990524292
+      ],
+      [
+        "#1b1b1b",
+        13.4136
+      ],
+      [
+        "#ececee",
+        8.111729543215036
+      ],
+      [
+        "#161616",
+        6.49297265625
+      ]
+    ],
+    "borders": [
+      [
+        "1px #0f172a a0.09",
+        26
+      ],
+      [
+        "1px #0e0f12 a0.08",
+        16
+      ],
+      [
+        "1px #0f172a a0.08",
+        10
+      ],
+      [
+        "1px #000000 a0.06",
+        7
+      ],
+      [
+        "1px #0f172a a0.1",
+        4
+      ]
+    ],
+    "radii": [
+      [
+        "9999px",
+        62
+      ],
+      [
+        "6px",
+        53
+      ],
+      [
+        "4px",
+        35
+      ],
+      [
+        "7px",
+        26
+      ],
+      [
+        "28px",
+        10
+      ],
+      [
+        "3px",
+        9
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0.12) 0px 0px 0px 0.5px inset",
+        39
+      ],
+      [
+        "rgba(255, 255, 255, 0.9) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.05) 0px 1px 2px 0px",
+        26
+      ],
+      [
+        "rgba(0, 0, 0, 0.08) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.08) 0px 1px 3px 0px, rgba(0, 0, 0, ",
+        16
+      ],
+      [
+        "rgba(0, 0, 0, 0.14) 0px 0px 0px 0.5px, rgba(0, 0, 0, 0.12) 0px 0.5px 1.5px 0px",
+        12
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "15px/400/24.375px/normal",
+        924
+      ],
+      [
+        "17px/400/27.625px/normal",
+        806
+      ],
+      [
+        "14px/400/22.75px/normal",
+        722
+      ],
+      [
+        "10.5px/400/14px/normal",
+        602
+      ],
+      [
+        "12px/400/18px/normal",
+        544
+      ],
+      [
+        "12px/400/15px/normal",
+        540
+      ],
+      [
+        "17px/500/24px/-0.425px",
+        444
+      ],
+      [
+        "14px/400/20px/normal",
+        442
+      ],
+      [
+        "12px/400/16px/normal",
+        367
+      ],
+      [
+        "16px/500/24px/-0.4px",
+        258
+      ],
+      [
+        "9px/400/12.5px/normal",
+        239
+      ],
+      [
+        "11px/400/16.5px/normal",
+        229
+      ]
+    ],
+    "counts": {
+      "gradients": 36,
+      "backdrop": 42,
+      "filters": 1,
+      "video": 1,
+      "canvas": 1,
+      "svg": 52,
+      "img": 108,
+      "buttons": 22,
+      "forms": 0,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 15,
+      "links": 38
+    },
+    "loadedFonts": [
+      "Google Sans 400 700 normal",
+      "Google Sans Code 400 600 normal"
+    ],
+    "animations": {
+      "n": 6,
+      "sample": [
+        {
+          "type": "CSSAnimation",
+          "name": "fade-in",
+          "dur": 1800,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "canvas.dither-canvas"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "hero-rise",
+          "dur": 1100,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "div.hero-rise"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "hero-rise",
+          "dur": 1100,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "h1.hero-rise"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "hero-rise",
+          "dur": 1100,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "p.hero-rise"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "hero-rise",
+          "dur": 1100,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "div.hero-rise"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "hero-rise",
+          "dur": 1100,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "p.hero-rise"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "pulse",
+      "launcher-caret",
+      "launcher-shimmer",
+      "launcher-word-in",
+      "launcher-spin",
+      "pulse-dot",
+      "blink",
+      "stream-fill",
+      "drop-pulse",
+      "fade-in",
+      "spin",
+      "grid-cell-enter",
+      "finder-item-enter",
+      "provider-scroll",
+      "hero-rise"
+    ],
+    "globals": [],
+    "htmlCls": "",
+    "scripts": [
+      "connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com",
+      "connect.facebook.net/en_US/fbevents.js",
+      "www.redditstatic.com/ads/pixel.js",
+      "spacefs.com/ingest/static/surveys.js?v=1.396.6",
+      "spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6",
+      "spacefs.com/ingest/array/phc_pzzJfSvGPzpVr2cz4tiwrjYA9Qz6fN8RZ4jztqyiZQWi/config.js",
+      "spacefs.com/webpack-runtime-f04e62f547f2e9b902ef.js",
+      "spacefs.com/framework-3c1d949890c47cab83fb.js",
+      "spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js",
+      "spacefs.com/app-cbe974e2c6e70397c193.js",
+      "static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+    ],
+    "scriptCount": 11,
+    "domBytes": 385601,
+    "dpr": 1
+  },
+  "pageHeight": 12458,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 6
+    },
+    {
+      "at": 0.4,
+      "n": 7
+    },
+    {
+      "at": 0.6,
+      "n": 8
+    },
+    {
+      "at": 0.8,
+      "n": 7
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 28,
+    "wheelListeners": [
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 1089,
+    "canvasContexts": [
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 61,
+  "transferBytes": {
+    "js": 892783,
+    "css": 3117,
+    "font": 70864,
+    "image": 1021815,
+    "media": 0,
+    "doc": 61805,
+    "other": 5169,
+    "requests": 127,
+    "thirdPartyTop": [
+      [
+        "connect.facebook.net",
+        271531
+      ],
+      [
+        "fonts.gstatic.com",
+        70864
+      ],
+      [
+        "www.redditstatic.com",
+        25168
+      ],
+      [
+        "static.cloudflareinsights.com",
+        10438
+      ],
+      [
+        "fonts.googleapis.com",
+        3117
+      ],
+      [
+        "pixel-config.reddit.com",
+        389
+      ]
+    ]
+  },
+  "axe": {
+    "total": 2,
+    "byImpact": {
+      "serious": 2
+    },
+    "items": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 35
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 8698,
+    "h1": "The infiniteAI-native filesystem",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 1,
+    "infiniteRunningAfterScroll": 0
+  }
+}

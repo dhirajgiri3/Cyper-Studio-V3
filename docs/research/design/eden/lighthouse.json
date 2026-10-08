@@ -1,0 +1,61 @@
+{
+  "slug": "eden",
+  "url": "https://eden.so",
+  "date": "2026-10-08T03:42:07.577Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 42,
+    "accessibility": 84,
+    "best-practices": 77,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 18604,
+    "CLS": 0.017,
+    "TBT_ms": 706,
+    "FCP_ms": 3632,
+    "SI_ms": 9052,
+    "totalBytes": 12688223
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 90,
+      "kb": 12389
+    },
+    "image": {
+      "n": 45,
+      "kb": 11017
+    },
+    "script": {
+      "n": 32,
+      "kb": 1127
+    },
+    "document": {
+      "n": 1,
+      "kb": 92
+    },
+    "font": {
+      "n": 2,
+      "kb": 76
+    },
+    "other": {
+      "n": 9,
+      "kb": 74
+    },
+    "stylesheet": {
+      "n": 1,
+      "kb": 3
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 13,
+      "kb": 675
+    }
+  },
+  "finalUrl": "https://eden.so/",
+  "runWarnings": []
+}

@@ -1,0 +1,1450 @@
+{
+  "slug": "linear",
+  "url": "https://linear.app",
+  "date": "2026-10-08T03:46:45.227Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://linear.app/",
+  "heroAnimationsAtLoad": 82,
+  "dom": {
+    "prefetch": {
+      "lang": "en",
+      "title": "Linear – The system for product development",
+      "desc": "Purpose-built for planning and building products with AI agents.",
+      "og": true,
+      "jsonld": [],
+      "canonical": "https://linear.app/",
+      "colorScheme": "dark",
+      "themeColor": "#08090a"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "The product development system for teams and agentsThe product developmentsystem",
+          "family": "Inter Variable",
+          "size": "64px",
+          "weight": "510",
+          "lh": "64px",
+          "ls": "-1.408px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "A new species of product tool. Purpose-built for modern teams with AI workflows ",
+          "family": "Inter Variable",
+          "size": "48px",
+          "weight": "510",
+          "lh": "48px",
+          "ls": "-1.056px",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Intakeand integrations",
+          "family": "Inter Variable",
+          "size": "48px",
+          "weight": "510",
+          "lh": "48px",
+          "ls": "-1.056px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        },
+        {
+          "text": "Planningand monitoring",
+          "family": "Inter Variable",
+          "size": "48px",
+          "weight": "510",
+          "lh": "48px",
+          "ls": "-1.056px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Faster app launch",
+          "family": "Inter Variable",
+          "size": "20px",
+          "weight": "590",
+          "lh": "26.6px",
+          "ls": "-0.24px",
+          "color": "#d0d6e0",
+          "transform": "none"
+        },
+        {
+          "text": "Product",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "510",
+          "lh": "19.5px",
+          "ls": "-0.13px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        },
+        {
+          "text": "Features",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "510",
+          "lh": "19.5px",
+          "ls": "-0.13px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "Activity",
+          "family": "Inter Variable",
+          "size": "16px",
+          "weight": "590",
+          "lh": "28px",
+          "ls": "normal",
+          "color": "#d0d6e0",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "Purpose-built for planning and building products. Designed for the AI era.",
+          "family": "Inter Variable",
+          "size": "15px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "-0.165px",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Render UI before vehicle_state sync when minimum required state is present, inst",
+          "family": "Inter Variable",
+          "size": "14px",
+          "weight": "400",
+          "lh": "21px",
+          "ls": "-0.182px",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Fix the dimmed ride rows that never reset and open a PR",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.039px",
+          "color": "#f7f8f8",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Product",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Resources",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Linear",
+          "family": "Inter Variable",
+          "size": "13.3333px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter Variable",
+          "size": "13.3333px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#62666d",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "Inter Variable",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#f7f8f8",
+          "transform": "none"
+        },
+        {
+          "text": "Customers",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Pricing",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#8a8f98",
+          "transform": "none"
+        },
+        {
+          "text": "Now",
+          "family": "Inter Variable",
+          "size": "13px",
+          "weight": "400",
+          "lh": "19.5px",
+          "ls": "normal",
+          "color": "#8a8f98",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Performance",
+          "family": "Inter Variable",
+          "size": "12px",
+          "weight": "400",
+          "lh": "14px",
+          "ls": "normal",
+          "color": "#d0d6e0",
+          "transform": "none"
+        },
+        {
+          "text": "iOS",
+          "family": "Inter Variable",
+          "size": "12px",
+          "weight": "400",
+          "lh": "14px",
+          "ls": "normal",
+          "color": "#d0d6e0",
+          "transform": "none"
+        },
+        {
+          "text": "Learn more",
+          "family": "Inter Variable",
+          "size": "15px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "-0.165px",
+          "color": "#8a8f98",
+          "transform": "none"
+        }
+      ],
+      "mono": [
+        {
+          "text": "vehicle_state",
+          "family": "Berkeley Mono",
+          "size": "12px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "-0.182px",
+          "color": "#d0d6e0",
+          "transform": "none"
+        },
+        {
+          "text": "import React from 'react'import { View, ActivityIndicator } from 'react-native'i",
+          "family": "Berkeley Mono",
+          "size": "14px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#d0d6e0",
+          "transform": "none"
+        }
+      ]
+    },
+    "header": {
+      "position": "fixed",
+      "height": 73,
+      "bg": null,
+      "backdrop": "blur(20px)",
+      "border": "1px solid rgba(255, 255, 255, 0.08)",
+      "links": [
+        "Customers",
+        "Pricing",
+        "Now",
+        "Contact",
+        "Log in",
+        "Sign up"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "div",
+        "h": 9394,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "The product development system for teams and agentsThe product develop"
+      },
+      {
+        "tag": "section",
+        "h": 1226,
+        "padT": "128px",
+        "padB": "128px",
+        "bg": null,
+        "heading": "Intakeand integrations"
+      },
+      {
+        "tag": "section",
+        "h": 1229,
+        "padT": "128px",
+        "padB": "128px",
+        "bg": null,
+        "heading": "Planningand monitoring"
+      },
+      {
+        "tag": "section",
+        "h": 1232,
+        "padT": "128px",
+        "padB": "128px",
+        "bg": null,
+        "heading": "AI andautomations"
+      },
+      {
+        "tag": "section",
+        "h": 1220,
+        "padT": "128px",
+        "padB": "128px",
+        "bg": null,
+        "heading": "Build, review,and ship"
+      },
+      {
+        "tag": "section",
+        "h": 564,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 228,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Built for the future. Available today."
+      }
+    ],
+    "containerWidths": [
+      [
+        "1344",
+        16
+      ],
+      [
+        "672",
+        12
+      ],
+      [
+        "674",
+        4
+      ],
+      [
+        "1392",
+        2
+      ],
+      [
+        "1436",
+        2
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Sign up",
+        "bg": "#e5e5e6",
+        "color": "#08090a",
+        "radius": "9999px",
+        "h": 32,
+        "pad": "0px 12px"
+      },
+      {
+        "label": "",
+        "bg": "#ffffff a0.02",
+        "color": "#e2e4e7",
+        "radius": "9999px",
+        "h": 28,
+        "pad": "0px"
+      }
+    ],
+    "headings": [
+      "H1 The product development system for teams and agentsThe product develop",
+      "H3 Faster app launch",
+      "H2 A new species of product tool. Purpose-built for modern teams with AI ",
+      "H2 Intakeand integrations",
+      "H2 Planningand monitoring",
+      "H2 AI andautomations",
+      "H2 Build, review,and ship",
+      "H2 Changelog",
+      "H2 Built for the future. Available today.",
+      "H3 Product",
+      "H3 Features",
+      "H3 Company",
+      "H3 Resources",
+      "H3 Connect"
+    ],
+    "footer": {
+      "h": 494,
+      "links": 42,
+      "text": "ProductIntakePlanAIBuildPricingSecurityFeaturesAsksAgentsCoding SessionsCustomer RequestsInsightsMobileIntegrationsChangelogCompanyAboutCustomersCareersNowMethodQualityBrandResourcesSwitchDownloadDocumentationDocsDevelop"
+    },
+    "fonts": [
+      [
+        "Inter Variable",
+        7412
+      ],
+      [
+        "Berkeley Mono",
+        1339
+      ]
+    ],
+    "fgColors": [
+      [
+        "#8a8f98",
+        2878
+      ],
+      [
+        "#d0d6e0",
+        2802
+      ],
+      [
+        "#62666d",
+        843
+      ],
+      [
+        "#f7f8f8",
+        716
+      ],
+      [
+        "#08090a",
+        260
+      ],
+      [
+        "#f7bf8b",
+        231
+      ],
+      [
+        "#f79ce0",
+        147
+      ],
+      [
+        "#ffdf9f",
+        130
+      ]
+    ],
+    "bgColors": [
+      [
+        "#08090a",
+        647.136
+      ],
+      [
+        "#0f1011",
+        427.30068288574216
+      ],
+      [
+        "#090a0b",
+        95.04
+      ],
+      [
+        "#101112",
+        95.04
+      ],
+      [
+        "#ffffff a0.01",
+        75.4688
+      ],
+      [
+        "#161718",
+        20.8
+      ],
+      [
+        "#e4f222",
+        20.736
+      ],
+      [
+        "#ffffff a0.02",
+        7.296
+      ]
+    ],
+    "borders": [
+      [
+        "1px #ffffff a0.08",
+        66
+      ],
+      [
+        "1px #ffffff a0.12",
+        11
+      ],
+      [
+        "1px #ffffff a0.05",
+        6
+      ],
+      [
+        "1px #e5e5e6",
+        3
+      ],
+      [
+        "1px #23252a",
+        3
+      ]
+    ],
+    "radii": [
+      [
+        "9999px",
+        72
+      ],
+      [
+        "8px",
+        29
+      ],
+      [
+        "4px",
+        22
+      ],
+      [
+        "12px",
+        19
+      ],
+      [
+        "9px",
+        18
+      ],
+      [
+        "6px",
+        10
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0.2) 0px 0px 0px 1px",
+        8
+      ],
+      [
+        "rgba(0, 0, 0, 0.2) 0px 0px 12px 0px inset",
+        7
+      ],
+      [
+        "rgba(0, 0, 0, 0.25) 0px 2px 32px 0px",
+        5
+      ],
+      [
+        "rgba(255, 255, 255, 0.08) 0px 0px 0px 0.5px inset",
+        5
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "15px/400/24px/-0.165px",
+        1637
+      ],
+      [
+        "14px/400/24px/normal",
+        1173
+      ],
+      [
+        "24px/400/31.92px/-0.288px",
+        547
+      ],
+      [
+        "12px/510/16.8px/normal",
+        529
+      ],
+      [
+        "13px/400/20px/-0.039px",
+        528
+      ],
+      [
+        "13px/510/19.5px/-0.13px",
+        489
+      ],
+      [
+        "12px/510/14px/normal",
+        389
+      ],
+      [
+        "12px/400/14px/normal",
+        387
+      ],
+      [
+        "15px/300/20px/-0.06px",
+        378
+      ],
+      [
+        "13px/400/19.5px/-0.13px",
+        361
+      ],
+      [
+        "48px/510/48px/-1.056px",
+        277
+      ],
+      [
+        "12px/400/16.8px/normal",
+        247
+      ]
+    ],
+    "counts": {
+      "gradients": 58,
+      "backdrop": 2,
+      "filters": 10,
+      "video": 0,
+      "canvas": 0,
+      "svg": 228,
+      "img": 39,
+      "buttons": 71,
+      "forms": 0,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 5,
+      "links": 74
+    },
+    "loadedFonts": [
+      "Inter Variable 100 900 normal",
+      "Berkeley Mono 100 900 normal"
+    ],
+    "animations": {
+      "n": 84,
+      "sample": [
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-0-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-1-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-2-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-3-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-4-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-0-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-1-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-2-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-3-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-4-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-0-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-1-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-2-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-3-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-4-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-0-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-1-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-2-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-3-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-4-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-0-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-1-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-2-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-3-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-4-upDown",
+          "dur": 2800,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-0-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-1-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-2-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-3-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-4-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-0-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-1-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-2-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-3-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-4-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-0-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-1-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-2-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-3-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-2-4-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-0-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-1-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-2-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-3-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-3-4-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-0-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-1-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-2-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-3-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-4-4-pong",
+          "dur": 1600,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-0-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-1-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-2-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-3-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-0-4-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-0-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-1-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-2-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-3-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "grid-dot-1-4-agent",
+          "dur": 3200,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "circle"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "grid-dot-0-0-upDown",
+      "grid-dot-0-1-upDown",
+      "grid-dot-0-2-upDown",
+      "grid-dot-0-3-upDown",
+      "grid-dot-0-4-upDown",
+      "grid-dot-1-0-upDown",
+      "grid-dot-1-1-upDown",
+      "grid-dot-1-2-upDown",
+      "grid-dot-1-3-upDown",
+      "grid-dot-1-4-upDown",
+      "grid-dot-2-0-upDown",
+      "grid-dot-2-1-upDown",
+      "grid-dot-2-2-upDown",
+      "grid-dot-2-3-upDown",
+      "grid-dot-2-4-upDown",
+      "grid-dot-3-0-upDown",
+      "grid-dot-3-1-upDown",
+      "grid-dot-3-2-upDown",
+      "grid-dot-3-3-upDown",
+      "grid-dot-3-4-upDown",
+      "grid-dot-4-0-upDown",
+      "grid-dot-4-1-upDown",
+      "grid-dot-4-2-upDown",
+      "grid-dot-4-3-upDown",
+      "grid-dot-4-4-upDown",
+      "grid-dot-0-0-pong",
+      "grid-dot-0-1-pong",
+      "grid-dot-0-2-pong",
+      "grid-dot-0-3-pong",
+      "grid-dot-0-4-pong"
+    ],
+    "globals": [
+      "Intercom"
+    ],
+    "htmlCls": "enhanced js",
+    "scripts": [
+      "static.linear.app/web/_next/static/chunks/C_JJxWoe.js",
+      "static.linear.app/web/_next/static/chunks/JeNqdi5A.js",
+      "e.linear.app/static/surveys.js?v=1.257.1",
+      "e.linear.app/array/phc_PaCjzqaetuAlYgXjb0uftDOw8QzOmXfWIbD7nkaYrjr/config.js",
+      "static.linear.app/web/_next/static/chunks/index-DyOHPt3v.js"
+    ],
+    "scriptCount": 5,
+    "domBytes": 1076082,
+    "dpr": 1
+  },
+  "pageHeight": 9960,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 83
+    },
+    {
+      "at": 0.4,
+      "n": 522
+    },
+    {
+      "at": 0.6,
+      "n": 526
+    },
+    {
+      "at": 0.8,
+      "n": 520
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 5,
+    "wheelListeners": [
+      {
+        "target": "document",
+        "passive": true
+      },
+      {
+        "target": "document",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 80,
+    "canvasContexts": [],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 0,
+  "transferBytes": {
+    "js": 1555154,
+    "css": 228469,
+    "font": 515202,
+    "image": 291109,
+    "media": 0,
+    "doc": 177120,
+    "other": 701698,
+    "requests": 478,
+    "thirdPartyTop": [
+      [
+        "",
+        0
+      ]
+    ]
+  },
+  "axe": {
+    "total": 3,
+    "byImpact": {
+      "critical": 1,
+      "serious": 2
+    },
+    "items": [
+      {
+        "id": "button-name",
+        "impact": "critical",
+        "nodes": 1
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 17
+      },
+      {
+        "id": "link-name",
+        "impact": "serious",
+        "nodes": 1
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 8709,
+    "h1": "The product development system for teams and agentsThe product developmentsystem for teams",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 76,
+    "infiniteRunningAfterScroll": 76
+  }
+}

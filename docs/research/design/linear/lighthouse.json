@@ -1,0 +1,61 @@
+{
+  "slug": "linear",
+  "url": "https://linear.app",
+  "date": "2026-10-08T03:48:42.635Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 30,
+    "accessibility": 81,
+    "best-practices": 96,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 27440,
+    "CLS": 0,
+    "TBT_ms": 1725,
+    "FCP_ms": 5878,
+    "SI_ms": 8575,
+    "totalBytes": 2952194
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 390,
+      "kb": 2883
+    },
+    "script": {
+      "n": 291,
+      "kb": 1406
+    },
+    "font": {
+      "n": 2,
+      "kb": 503
+    },
+    "other": {
+      "n": 14,
+      "kb": 349
+    },
+    "image": {
+      "n": 12,
+      "kb": 284
+    },
+    "document": {
+      "n": 1,
+      "kb": 173
+    },
+    "stylesheet": {
+      "n": 70,
+      "kb": 167
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 0,
+      "kb": 0
+    }
+  },
+  "finalUrl": "https://linear.app/",
+  "runWarnings": []
+}

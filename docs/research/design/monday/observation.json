@@ -1,0 +1,912 @@
+{
+  "slug": "monday",
+  "url": "https://monday.com",
+  "date": "2026-10-08T03:38:45.193Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://monday.com/",
+  "heroAnimationsAtLoad": 4,
+  "dom": {
+    "prefetch": {
+      "lang": "en",
+      "title": "The AI Workspace for People & Agents | monday.com",
+      "desc": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI Workspace to drive business results.",
+      "og": true,
+      "jsonld": [
+        "[\"Organization\",\"SoftwareApplication\",\"WebSite\",\"WebPage\"]"
+      ],
+      "canonical": "https://monday.com/",
+      "colorScheme": "normal"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "People and agents working as one team",
+          "family": "Poppins",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-2.24px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Get more done with agents",
+          "family": "Poppins",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-1.68px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "An agent for every use case",
+          "family": "Poppins",
+          "size": "56px",
+          "weight": "400",
+          "lh": "67.2px",
+          "ls": "-1.68px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Work in context",
+          "family": "Poppins",
+          "size": "96px",
+          "weight": "500",
+          "lh": "96px",
+          "ls": "-3.84px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Posts, campaigns and ads. Done.",
+          "family": "Poppins",
+          "size": "28px",
+          "weight": "400",
+          "lh": "36.4px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Bring your own agent",
+          "family": "Poppins",
+          "size": "44px",
+          "weight": "400",
+          "lh": "48.4px",
+          "ls": "-0.88px",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Use your favorite AI tools",
+          "family": "Poppins",
+          "size": "44px",
+          "weight": "400",
+          "lh": "48.4px",
+          "ls": "-0.88px",
+          "color": "#000000",
+          "transform": "none"
+        }
+      ],
+      "h4": [],
+      "p": [
+        {
+          "text": "The AI workspace where people and agents drive business results together",
+          "family": "Poppins",
+          "size": "16.9656px",
+          "weight": "400",
+          "lh": "27.145px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Marketing agents write posts, run campaigns, and drive insights while your team ",
+          "family": "Poppins",
+          "size": "16px",
+          "weight": "400",
+          "lh": "24px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Surface deep intelligence and actionable insights from any subject.",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "21px",
+          "ls": "normal",
+          "color": "#7c7b7b",
+          "transform": "none"
+        }
+      ],
+      "small": [],
+      "button": [
+        {
+          "text": "Get Started",
+          "family": "Poppins",
+          "size": "13px",
+          "weight": "300",
+          "lh": "15.6px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Marketing",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#6161ff",
+          "transform": "none"
+        },
+        {
+          "text": "Operations",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#323338",
+          "transform": "none"
+        },
+        {
+          "text": "IT",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#323338",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "",
+          "family": "Poppins",
+          "size": "16px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#000000",
+          "transform": "none"
+        },
+        {
+          "text": "Enterprise",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "300",
+          "lh": "14px",
+          "ls": "normal",
+          "color": "#535768",
+          "transform": "none"
+        },
+        {
+          "text": "Pricing",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "300",
+          "lh": "14px",
+          "ls": "normal",
+          "color": "#535768",
+          "transform": "none"
+        },
+        {
+          "text": "Log in",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "300",
+          "lh": "14px",
+          "ls": "normal",
+          "color": "#535768",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Marketing",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#6161ff",
+          "transform": "none"
+        },
+        {
+          "text": "Operations",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#323338",
+          "transform": "none"
+        },
+        {
+          "text": "IT",
+          "family": "Poppins",
+          "size": "14px",
+          "weight": "400",
+          "lh": "20px",
+          "ls": "normal",
+          "color": "#323338",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "static",
+      "height": 42,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px none rgb(0, 0, 0)",
+      "links": [
+        "Enterprise",
+        "Pricing",
+        "Log in",
+        "Contact sales",
+        "Get Started"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 592,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "People and agents working as one team"
+      },
+      {
+        "tag": "section",
+        "h": 249,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": null
+      },
+      {
+        "tag": "section",
+        "h": 791,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Get more done with agents"
+      },
+      {
+        "tag": "section",
+        "h": 1027,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "An agent for every use case"
+      },
+      {
+        "tag": "section",
+        "h": 2410,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Work in context"
+      },
+      {
+        "tag": "section",
+        "h": 781,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": "#f3f4f5",
+        "heading": "Full control"
+      },
+      {
+        "tag": "section",
+        "h": 1735,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Consider yourself limitless"
+      },
+      {
+        "tag": "section",
+        "h": 798,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Let work flow"
+      },
+      {
+        "tag": "section",
+        "h": 786,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": "#f3f4f5",
+        "heading": "Our customers achieve more"
+      },
+      {
+        "tag": "section",
+        "h": 864,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Trusted by enterprises. Recognized by industry leaders."
+      },
+      {
+        "tag": "section",
+        "h": 392,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": null
+      }
+    ],
+    "containerWidths": [
+      [
+        "1360",
+        6
+      ],
+      [
+        "1280",
+        3
+      ],
+      [
+        "1184",
+        1
+      ],
+      [
+        "1192",
+        1
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Contact sales",
+        "bg": null,
+        "color": "#6161ff",
+        "radius": "80px",
+        "h": 40,
+        "pad": "12px 16px"
+      },
+      {
+        "label": "Get Started",
+        "bg": "#6161ff",
+        "color": "#ffffff",
+        "radius": "160px",
+        "h": 42,
+        "pad": "12px 16px"
+      },
+      {
+        "label": "Marketing",
+        "bg": "#d9d7ff",
+        "color": "#6161ff",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      },
+      {
+        "label": "Operations",
+        "bg": "#f3f4f5",
+        "color": "#323338",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      },
+      {
+        "label": "IT",
+        "bg": "#f3f4f5",
+        "color": "#323338",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      },
+      {
+        "label": "Product",
+        "bg": "#f3f4f5",
+        "color": "#323338",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      },
+      {
+        "label": "Sales",
+        "bg": "#f3f4f5",
+        "color": "#323338",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      },
+      {
+        "label": "HR",
+        "bg": "#f3f4f5",
+        "color": "#323338",
+        "radius": "32px",
+        "h": 32,
+        "pad": "8px 12px"
+      }
+    ],
+    "headings": [
+      "H1 People and agents working as one team",
+      "H2 Get more done with agents",
+      "H3 Posts, campaigns and ads. Done.",
+      "H2 An agent for every use case",
+      "H2 Work in context",
+      "H2 Full control",
+      "H2 Consider yourself limitless",
+      "H3 Bring your own agent",
+      "H3 Use your favorite AI tools",
+      "H2 Let work flow",
+      "H2 Our customers achieve more",
+      "H2 Trusted by enterprises. Recognized by industry leaders.",
+      "H2 Enterprise-grade security"
+    ],
+    "footer": null,
+    "fonts": [
+      [
+        "Poppins",
+        9234
+      ],
+      [
+        "sans-serif",
+        201
+      ]
+    ],
+    "fgColors": [
+      [
+        "#000000",
+        4046
+      ],
+      [
+        "#7c7b7b",
+        3557
+      ],
+      [
+        "#585965",
+        702
+      ],
+      [
+        "#ffffff",
+        407
+      ],
+      [
+        "#c3c6d4",
+        204
+      ],
+      [
+        "#333333",
+        168
+      ],
+      [
+        "#535768",
+        149
+      ],
+      [
+        "#8f8a8a",
+        53
+      ]
+    ],
+    "bgColors": [
+      [
+        "#f3f4f5",
+        412.40499003906245
+      ],
+      [
+        "#ffffff",
+        304.2997150390625
+      ],
+      [
+        "#f2ede9",
+        100.096
+      ],
+      [
+        "#000000",
+        55.3472
+      ],
+      [
+        "#f4cdff",
+        27.6736
+      ],
+      [
+        "#ded4fc",
+        27.6736
+      ],
+      [
+        "#fff0c8",
+        27.6736
+      ],
+      [
+        "#4b00d7",
+        27.6736
+      ]
+    ],
+    "borders": [
+      [
+        "1px #000000",
+        66
+      ],
+      [
+        "1px #e6e7ea a0.7",
+        26
+      ],
+      [
+        "1px #6161ff",
+        17
+      ],
+      [
+        "1px #f3f4f5",
+        7
+      ],
+      [
+        "1px #ffffff",
+        7
+      ]
+    ],
+    "radii": [
+      [
+        "24px",
+        59
+      ],
+      [
+        "160px",
+        55
+      ],
+      [
+        "16px",
+        54
+      ],
+      [
+        "1600px",
+        31
+      ],
+      [
+        "50%",
+        10
+      ],
+      [
+        "8px",
+        9
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0.1) 0px 4px 20px 0px",
+        18
+      ],
+      [
+        "rgba(0, 0, 0, 0.1) 0px 10px 40px 0px",
+        11
+      ],
+      [
+        "rgba(0, 0, 0, 0.1) 0px 1.5px 8px 0px",
+        11
+      ],
+      [
+        "rgba(0, 0, 0, 0.1) 0px 2px 7px 0px",
+        10
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "14px/400/22.4px/normal",
+        3694
+      ],
+      [
+        "16px/400/24px/normal",
+        942
+      ],
+      [
+        "20px/400/26px/normal",
+        720
+      ],
+      [
+        "14px/400/20px/normal",
+        704
+      ],
+      [
+        "13px/300/40px/normal",
+        587
+      ],
+      [
+        "16px/400/20px/normal",
+        390
+      ],
+      [
+        "16px/400/25.6px/normal",
+        222
+      ],
+      [
+        "24px/400/33.6px/-0.48px",
+        207
+      ],
+      [
+        "16px/400/20.8px/normal",
+        197
+      ],
+      [
+        "13px/400/19.5px/normal",
+        168
+      ],
+      [
+        "18px/400/27px/normal",
+        158
+      ],
+      [
+        "16px/600/24px/normal",
+        142
+      ]
+    ],
+    "counts": {
+      "gradients": 4,
+      "backdrop": 30,
+      "filters": 14,
+      "video": 4,
+      "canvas": 0,
+      "svg": 238,
+      "img": 627,
+      "buttons": 82,
+      "forms": 2,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 8,
+      "links": 348
+    },
+    "loadedFonts": [
+      "Poppins 300 normal",
+      "Poppins 700 normal",
+      "Poppins 400 normal",
+      "Poppins 500 normal",
+      "Poppins 600 normal"
+    ],
+    "animations": {
+      "n": 4,
+      "sample": [
+        {
+          "type": "CSSAnimation",
+          "name": "orbSwoosh",
+          "dur": 6000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "backgroundPositionX",
+            "backgroundPositionY"
+          ],
+          "target": "a.m_button"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "scrollMarquee",
+          "dur": 21250,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.marquee-logos_track"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "scroll",
+          "dur": 20000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.hp-agents_marquee-content"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "scroll",
+          "dur": 20000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "transform"
+          ],
+          "target": "div.hp-agents_marquee-content"
+        }
+      ]
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "spin",
+      "subtleSlideFade",
+      "subtleFade",
+      "splide-loading",
+      "swiper-preloader-spin",
+      "tagAnimation",
+      "breathe",
+      "shakeAnimation",
+      "magic-bounce-scale",
+      "orbSwoosh",
+      "scrollMarquee",
+      "wf-stop1-A",
+      "wf-stop2-A",
+      "scroll"
+    ],
+    "globals": [
+      "gsap",
+      "ScrollTrigger",
+      "Webflow",
+      "jQuery",
+      "Swiper",
+      "Splide",
+      "hj",
+      "_hsq",
+      "dataLayer"
+    ],
+    "htmlCls": " w-mod-js w-mod-ix",
+    "scripts": [
+      "js.adsrvr.org/up_loader.1.1.0.js",
+      "tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+      "bat.bing.com/p/insights/s/0.8.72",
+      "bat.bing.com/p/insights/t/5103931",
+      "monday.com/ti/56D7ML6P/UdZ0vGz3nP4qufKLk82tlJ8cbjoK1uKKv_ALyE67_julpCetPqnDq5lP",
+      "js-na1.hs-scripts.com/5945317.js",
+      "tr.capterra.com/static/vcvr.js",
+      "js.hs-banner.com/v2/5945317/banner.js",
+      "js.hs-analytics.net/analytics/1791430500000/5945317.js",
+      "snippet.growsumo.com/growsumo.min.js",
+      "static.ads-twitter.com/uwt.js",
+      "tr.capterra.com/static/wp.js",
+      "bzrcdn.openai.com/sdk/oaiq.min.js",
+      "js.hs-scripts.com/5945317.js",
+      "bat.bing.com/bat.js",
+      "unpkg.com/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+      "www.redditstatic.com/ads/pixel.js?pixel_id=t2_q9tc8qn",
+      "monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW6q60mJ8ebzMch6-G-rUUgUCgrSr--CX5mU8",
+      "monday.com/ti/56D7ML6P/UdYsoWz1srcusP-UgN-1--QYe2FC2bSd_uceyBn4ry7-qJlP",
+      "monday.com/ti/56D7ML6P/UdYsoWz1sdk6wJSR562zm4pMJT9ZwrDP9K5HkBv8r36ZTw",
+      "monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW56O2npsaZTQch6-G-rUUgUCgrSr--CX5mU8",
+      "monday.com/ti/56D7ML6P/UdYsoWz1tM06yZST4aiymJ0aZTQch6-G-rUUgUCgrSr--CX5mU8",
+      "monday.com/ti/56D7ML6P/UdYsoWz1tM06wZaV4aKwn5kee2FC2bSd_uceyBn4ry7-qJlP",
+      "analytics.tiktok.com/i18n/pixel/static/identify_0504602d.js",
+      "s.yimg.jp/images/listing/tool/cv/ytag.js",
+      "analytics.tiktok.com/i18n/pixel/static/main.MWU2MzIzODM0MQ.js",
+      "static.hotjar.com/c/hotjar-1566695.js?sv=7",
+      "analytics.tiktok.com/i18n/pixel/events.js?sdkid=DAL48DRC77UES9755B7G&lib=ttq",
+      "s.yimg.jp/images/listing/tool/cv/ytag.js",
+      "monday.com/ti/56D7ML6P/UdYsoWz1srckyJbii6ix6-h4e2FC2bSd_uceyBn4ry7-qJlP",
+      "www.googletagmanager.com/gtm.js?id=GTM-56D7ML6P&gtg_health=1",
+      "cdn.cookiehub.eu/c2/9f681576.js",
+      "monday.com/ti/56D7ML6P/",
+      "monday.com/webflow-scripts/ab-tests/ab-tests.bundle.js",
+      "monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+      "monday.com/webflow-scripts/w/w.head.bundle.js",
+      "cdn.prod.website-files.com/656da6fea306219773d04208%2F64b6c769ff52ba6c3d904a91%2F68b40717f",
+      "cdn.prod.website-files.com/656da6fea306219773d04208%2F6544eda5f000985a163a8687%2F67d00404e",
+      "monday.com/homepage-shared-scripts/main/head.bundle.js",
+      "cdn.jsdelivr.net/npm/@finsweet/fs-components@2/fs-components.js?v=1791430727598"
+    ],
+    "scriptCount": 61,
+    "domBytes": 833182,
+    "dpr": 1
+  },
+  "pageHeight": 11405,
+  "animationsAfterScroll": [
+    {
+      "at": 0.35,
+      "n": 4
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 3,
+    "wheelListeners": [
+      {
+        "target": "document",
+        "passive": "default"
+      },
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "window",
+        "passive": true
+      },
+      {
+        "target": "window",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 11,
+    "rafCalls": 1707,
+    "canvasContexts": [
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 186,
+  "transferBytes": {
+    "js": 3978325,
+    "css": 420931,
+    "font": 256934,
+    "image": 2176836,
+    "media": 3203520,
+    "doc": 127116,
+    "other": 3498715,
+    "requests": 377,
+    "thirdPartyTop": [
+      [
+        "dapulse-res.cloudinary.com",
+        3745264
+      ],
+      [
+        "cdn.prod.website-files.com",
+        2769244
+      ],
+      [
+        "connect.facebook.net",
+        242368
+      ],
+      [
+        "analytics.tiktok.com",
+        163861
+      ],
+      [
+        "cdn.jsdelivr.net",
+        140855
+      ],
+      [
+        "script.hotjar.com",
+        58315
+      ]
+    ]
+  },
+  "axe": {
+    "total": 1,
+    "byImpact": {
+      "serious": 1
+    },
+    "items": [
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 4
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 4113,
+    "h1": "People and agents working as one team",
+    "visibleOpacity0": 5
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 4,
+    "infiniteRunningAfterScroll": 4
+  }
+}

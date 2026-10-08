@@ -1,0 +1,61 @@
+{
+  "slug": "workos-atlas",
+  "url": "https://workos.com/atlas",
+  "date": "2026-10-08T03:41:43.068Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 37,
+    "accessibility": 97,
+    "best-practices": 77,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 12176,
+    "CLS": 0,
+    "TBT_ms": 5354,
+    "FCP_ms": 1947,
+    "SI_ms": 7229,
+    "totalBytes": 2062471
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 104,
+      "kb": 2014
+    },
+    "script": {
+      "n": 28,
+      "kb": 1555
+    },
+    "image": {
+      "n": 54,
+      "kb": 222
+    },
+    "font": {
+      "n": 7,
+      "kb": 138
+    },
+    "document": {
+      "n": 1,
+      "kb": 62
+    },
+    "other": {
+      "n": 12,
+      "kb": 19
+    },
+    "stylesheet": {
+      "n": 2,
+      "kb": 19
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 22,
+      "kb": 787
+    }
+  },
+  "finalUrl": "https://workos.com/atlas",
+  "runWarnings": []
+}

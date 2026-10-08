@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T02:44:24+05:30",
+  "title": "Design System: Cyper Studio / HELIX Website",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#FFFFFF",
+        "note": "Page background.",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#949494",
+          "#B8B8B8",
+          "#DBDBDB",
+          "#F2F2F2"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Ledger Grey",
+        "canonical": "#F9FAFB",
+        "note": "Alternating sections; base for the hatched device.",
+        "tonalRamp": [
+          "#1F262E",
+          "#33404C",
+          "#47596B",
+          "#5C738A",
+          "#7E94A9",
+          "#A9B8C6",
+          "#D4DBE2",
+          "#F0F2F5"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#E4E7EC",
+        "note": "All 1px borders and dividers.",
+        "tonalRamp": [
+          "#20252D",
+          "#353D4B",
+          "#4A5569",
+          "#5F6E87",
+          "#818FA7",
+          "#ABB4C4",
+          "#D5DAE2",
+          "#F0F2F4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Deep Ink",
+        "canonical": "#0B1220",
+        "note": "Headings and primary text.",
+        "tonalRamp": [
+          "#142039",
+          "#21355F",
+          "#2E4B85",
+          "#3B60AB",
+          "#6082C8",
+          "#95ACDA",
+          "#CAD5ED",
+          "#ECF0F8"
+        ]
+      },
+      "text": {
+        "role": "neutral",
+        "displayName": "Slate Body",
+        "canonical": "#475467",
+        "note": "Body copy.",
+        "tonalRamp": [
+          "#1F252D",
+          "#343E4B",
+          "#49566A",
+          "#5E6F88",
+          "#8090A8",
+          "#AAB5C5",
+          "#D5DAE2",
+          "#F0F2F5"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "#667085",
+        "note": "Captions and mono labels. Verify 4.5:1 on --surface.",
+        "tonalRamp": [
+          "#21242B",
+          "#373D48",
+          "#4D5565",
+          "#646D82",
+          "#868FA2",
+          "#AEB4C1",
+          "#D7DAE0",
+          "#F1F2F4"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Cobalt Signal",
+        "canonical": "#1F4FE0",
+        "note": "CTAs, links, focus, diagram highlights. Working choice (D-14, Q-12).",
+        "tonalRamp": [
+          "#091843",
+          "#102770",
+          "#16379D",
+          "#1C47CA",
+          "#436BE5",
+          "#829CEE",
+          "#C0CEF6",
+          "#E9EDFC"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Cobalt Pressed",
+        "canonical": "#1A42BD",
+        "note": "Accent hover state.",
+        "tonalRamp": [
+          "#091743",
+          "#0F2770",
+          "#16379D",
+          "#1C46CA",
+          "#436BE5",
+          "#819CEE",
+          "#C0CEF6",
+          "#E9EDFC"
+        ]
+      },
+      "accent-tint": {
+        "role": "primary",
+        "displayName": "Cobalt Tint",
+        "canonical": "#EEF3FF",
+        "note": "Badge background; never a section fill beyond --surface.",
+        "tonalRamp": [
+          "#00164C",
+          "#002580",
+          "#0034B2",
+          "#0043E6",
+          "#2968FF",
+          "#709AFF",
+          "#B8CDFF",
+          "#E5EDFF"
+        ]
+      },
+      "success": {
+        "role": "state",
+        "displayName": "Success",
+        "canonical": "#067647",
+        "note": "Real state UI only.",
+        "tonalRamp": [
+          "#04492C",
+          "#067949",
+          "#09AA66",
+          "#0BDA83",
+          "#33F5A3",
+          "#77F8C2",
+          "#BBFCE0",
+          "#E7FEF4"
+        ]
+      },
+      "warning": {
+        "role": "state",
+        "displayName": "Warning",
+        "canonical": "#B54708",
+        "note": "Real state UI only.",
+        "tonalRamp": [
+          "#491D03",
+          "#7A3005",
+          "#AB4308",
+          "#DC560A",
+          "#F67932",
+          "#F9A676",
+          "#FCD2BB",
+          "#FEEFE7"
+        ]
+      },
+      "danger": {
+        "role": "state",
+        "displayName": "Danger",
+        "canonical": "#B42318",
+        "note": "Real state UI only.",
+        "tonalRamp": [
+          "#440D09",
+          "#70160F",
+          "#9D1F15",
+          "#CA271B",
+          "#E64E42",
+          "#EE8981",
+          "#F7C4C0",
+          "#FCEAE8"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero h1 only, once per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card and module h3."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prose, max 65ch."
+      },
+      "label": {
+        "displayName": "Mono Label",
+        "purpose": "Index labels, fact-strip headers, captions, data."
+      }
+    },
+    "shadows": [
+      {
+        "name": "shadow-1",
+        "value": "0 1px 2px rgba(16,24,40,.06)",
+        "purpose": "Product frames only."
+      },
+      {
+        "name": "shadow-2",
+        "value": "0 8px 24px -8px rgba(16,24,40,.12)",
+        "purpose": "Hero and console-tour screenshots only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.2,.7,.2,1)",
+        "purpose": "All transitions and reveals."
+      },
+      {
+        "name": "t-fast",
+        "value": "150ms",
+        "purpose": "Hover and focus."
+      },
+      {
+        "name": "t-base",
+        "value": "250ms",
+        "purpose": "One-time reveal (8px rise and fade); max two moments per page; disabled under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "390px"
+      },
+      {
+        "name": "tablet",
+        "value": "768px"
+      },
+      {
+        "name": "desktop",
+        "value": "1024px"
+      },
+      {
+        "name": "wide",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single primary CTA per viewport (Request a demo).",
+      "html": "<button class=\"ds-btn-primary\">Request a demo</button>",
+      "css": ".ds-btn-primary{height:44px;padding:0 20px;border:0;border-radius:10px;background:#1F4FE0;color:#fff;font:600 16px/1 Geist,system-ui,sans-serif;cursor:pointer;transition:background 150ms cubic-bezier(.2,.7,.2,1)}.ds-btn-primary:hover{background:#1A42BD}.ds-btn-primary:focus-visible{outline:2px solid #1F4FE0;outline-offset:2px}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary path (See how white-label works). White with 1px border.",
+      "html": "<button class=\"ds-btn-secondary\">See how white-label works</button>",
+      "css": ".ds-btn-secondary{height:44px;padding:0 20px;border:1px solid #E4E7EC;border-radius:10px;background:#fff;color:#0B1220;font:600 16px/1 Geist,system-ui,sans-serif;cursor:pointer;transition:border-color 150ms cubic-bezier(.2,.7,.2,1)}.ds-btn-secondary:hover{border-color:#667085}.ds-btn-secondary:focus-visible{outline:2px solid #1F4FE0;outline-offset:2px}"
+    },
+    {
+      "name": "Capability Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Flat bordered card: mono index, title, capability sentence, outcome sentence.",
+      "html": "<article class=\"ds-card\"><p class=\"ds-index\">01</p><h3>Your brand, your domain</h3><p>Run HELIX under your name, domain and colours.</p><p class=\"ds-outcome\">Merchants know you, not a platform vendor.</p></article>",
+      "css": ".ds-card{border:1px solid #E4E7EC;border-radius:10px;padding:24px;background:#fff;color:#475467;font:400 17px/1.65 Geist,system-ui,sans-serif}.ds-card h3{margin:8px 0;color:#0B1220;font-size:20px;line-height:1.3;font-weight:600}.ds-index{margin:0;font:500 12px/1.4 'Geist Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#667085}.ds-outcome{color:#0B1220}"
+    },
+    {
+      "name": "Mono Label Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Tinted mono label for eyebrows and tags.",
+      "html": "<span class=\"ds-badge\">HELIX by Cyper Studio</span>",
+      "css": ".ds-badge{display:inline-block;padding:4px 8px;border-radius:6px;background:#EEF3FF;color:#1F4FE0;font:500 12px/1.4 'Geist Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "44px field with persistent label above and 2px focus ring.",
+      "html": "<label class=\"ds-field\"><span>Work email</span><input type=\"email\" autocomplete=\"email\" placeholder=\"you@company.com\"></label>",
+      "css": ".ds-field{display:grid;gap:6px;font:500 14px/1.5 Geist,system-ui,sans-serif;color:#0B1220}.ds-field input{height:44px;padding:0 12px;border:1px solid #E4E7EC;border-radius:10px;background:#fff;color:#0B1220;font:400 16px/1 Geist,system-ui,sans-serif}.ds-field input:focus-visible{outline:2px solid #1F4FE0;outline-offset:2px}"
+    },
+    {
+      "name": "Fact Strip Cell",
+      "kind": "custom",
+      "refersTo": "fact-cell",
+      "description": "Mono label over one line of text with 1px dividers; four across on desktop, 2x2 on mobile.",
+      "html": "<div class=\"ds-fact\"><p class=\"ds-fact-label\">Company</p><p>Cyper Studio, product engineering, founded 2024</p></div>",
+      "css": ".ds-fact{padding:16px 20px;border-left:1px solid #E4E7EC;color:#475467;font:400 15px/1.5 Geist,system-ui,sans-serif}.ds-fact p{margin:0}.ds-fact-label{margin-bottom:4px!important;font:500 12px/1.4 'Geist Mono',ui-monospace,monospace;letter-spacing:.06em;text-transform:uppercase;color:#667085}"
+    },
+    {
+      "name": "Hatched Paper Section",
+      "kind": "custom",
+      "refersTo": "signature-hatched",
+      "description": "Signature device 1: subtle 135deg hatch on --surface. At most two sections per page.",
+      "html": "<section class=\"ds-hatched\"><p>Section content</p></section>",
+      "css": ".ds-hatched{padding:64px 24px;background-color:#F9FAFB;background-image:repeating-linear-gradient(135deg,rgba(11,18,32,.04) 0 1px,transparent 1px 10px);color:#475467;font:400 17px/1.65 Geist,system-ui,sans-serif}"
+    },
+    {
+      "name": "Corner-Bracket Frame",
+      "kind": "custom",
+      "refersTo": "signature-brackets",
+      "description": "Signature device 2: 12px corner marks on product frames and diagram cards.",
+      "html": "<div class=\"ds-frame\"><div class=\"ds-frame-inner\">Screenshot pending</div></div>",
+      "css": ".ds-frame{position:relative;padding:0}.ds-frame::before,.ds-frame::after{content:'';position:absolute;width:12px;height:12px;border:0 solid #E4E7EC;pointer-events:none}.ds-frame::before{top:-6px;left:-6px;border-top-width:1.5px;border-left-width:1.5px}.ds-frame::after{bottom:-6px;right:-6px;border-bottom-width:1.5px;border-right-width:1.5px}.ds-frame-inner{border:1px solid #E4E7EC;border-radius:16px;background:#fff;box-shadow:0 8px 24px -8px rgba(16,24,40,.12);padding:48px;color:#667085;font:500 12px/1.4 'Geist Mono',ui-monospace,monospace;text-transform:uppercase;letter-spacing:.06em;text-align:center}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Operations Ledger",
+    "overview": "The site should look like operational software a logistics business would trust with money movement. Precise, calm, slightly technical, confident. Whitespace and a strict type scale do the work illustration usually does. The product UI (real HELIX operator-console screenshots) is the main visual; diagrams are second; everything else is flat text and bordered cards. Creativity lives inside the system: no one-off colours, spacing, or radii.",
+    "keyCharacteristics": [
+      "Light mode only (color-scheme: light); no dark theme.",
+      "Flat: 1px borders and tonal surface for hierarchy; shadow only on product frames.",
+      "Mono for data and labels; sans for prose.",
+      "One accent, used rarely, for CTAs, links, focus and diagram highlights.",
+      "Text is the LCP candidate; screenshots never block it."
+    ],
+    "rules": [
+      {
+        "name": "The One Voice Rule",
+        "body": "Accent covers well under 10% of any viewport. One primary-style button per viewport.",
+        "section": "colors"
+      },
+      {
+        "name": "The No-Gradient Rule",
+        "body": "No gradient text or backgrounds and no coloured section fills beyond --surface and --accent-tint. The only background pattern is the hatched device.",
+        "section": "colors"
+      },
+      {
+        "name": "The Token Rule",
+        "body": "A raw hex, rgb, or px value in a component fails review.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono-For-Data Rule",
+        "body": "AWB numbers, rates, weights, COD amounts and step indices are mono and tabular; numeric columns right-aligned.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Cards, buttons, fields and badges carry no shadow. Shadows exist only on product frames.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do render h1, subhead, trust line, primary CTA, entity line and info@ in server HTML.",
+      "Do write headlines that state a fact, outcome or claim; use Capability -> Outcome for features.",
+      "Do use real console screenshots with explicit width/height, AVIF/WebP, hero <= 120KB.",
+      "Do limit motion to two moments per page, transform and opacity only, reduced-motion safe.",
+      "Do build diagrams as inline SVG with only --ink, --border and --accent, with title/desc and a caption.",
+      "Do label sample tenants as fictional."
+    ],
+    "donts": [
+      "Don't ship dark mode, gradients, glass, glows, blobs, sparkles, shimmer, confetti, particles, or canvas/WebGL.",
+      "Don't use parallax, scroll-jacking, auto-advancing carousels, or autoplay video above the fold.",
+      "Don't use stock photos, AI imagery, fake dashboards, placeholder logos, avatars, or metrics.",
+      "Don't hardcode hostnames, emails, or the founding year; read siteConfig.",
+      "Don't hide an unconfirmed claim with CSS; omit it from the build.",
+      "Don't use an animation library above the fold or add a dependency without recording measured KB."
+    ]
+  }
+}

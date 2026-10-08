@@ -1,0 +1,61 @@
+{
+  "slug": "easypost-3pl",
+  "url": "https://get.easypost.com/3pl-solutions",
+  "date": "2026-10-08T03:48:16.588Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 36,
+    "accessibility": 93,
+    "best-practices": 73,
+    "seo": 69
+  },
+  "metrics": {
+    "LCP_ms": 4895,
+    "CLS": 0.305,
+    "TBT_ms": 877,
+    "FCP_ms": 2960,
+    "SI_ms": 6399,
+    "totalBytes": 3577991
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 195,
+      "kb": 3494
+    },
+    "script": {
+      "n": 83,
+      "kb": 2481
+    },
+    "image": {
+      "n": 31,
+      "kb": 558
+    },
+    "font": {
+      "n": 5,
+      "kb": 268
+    },
+    "stylesheet": {
+      "n": 14,
+      "kb": 74
+    },
+    "document": {
+      "n": 10,
+      "kb": 57
+    },
+    "other": {
+      "n": 52,
+      "kb": 55
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 157,
+      "kb": 2430
+    }
+  },
+  "finalUrl": "https://get.easypost.com/3pl-solutions",
+  "runWarnings": []
+}

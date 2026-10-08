@@ -1,0 +1,61 @@
+{
+  "slug": "crealo",
+  "url": "https://www.crealo.app",
+  "date": "2026-10-08T03:43:47.483Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 57,
+    "accessibility": 97,
+    "best-practices": 73,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 2507,
+    "CLS": 0.082,
+    "TBT_ms": 5715,
+    "FCP_ms": 1368,
+    "SI_ms": 8347,
+    "totalBytes": 3025079
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 91,
+      "kb": 2954
+    },
+    "script": {
+      "n": 21,
+      "kb": 1267
+    },
+    "other": {
+      "n": 24,
+      "kb": 694
+    },
+    "image": {
+      "n": 34,
+      "kb": 604
+    },
+    "font": {
+      "n": 9,
+      "kb": 342
+    },
+    "document": {
+      "n": 1,
+      "kb": 45
+    },
+    "stylesheet": {
+      "n": 2,
+      "kb": 1
+    },
+    "media": {
+      "n": 0,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 85,
+      "kb": 2627
+    }
+  },
+  "finalUrl": "https://www.crealo.app/",
+  "runWarnings": []
+}

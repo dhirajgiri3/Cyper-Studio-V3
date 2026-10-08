@@ -1,0 +1,61 @@
+{
+  "slug": "spacefs",
+  "url": "https://spacefs.com",
+  "date": "2026-10-08T03:40:58.149Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 39,
+    "accessibility": 93,
+    "best-practices": 73,
+    "seo": 91
+  },
+  "metrics": {
+    "LCP_ms": 8310,
+    "CLS": 0,
+    "TBT_ms": 1309,
+    "FCP_ms": 3354,
+    "SI_ms": 6540,
+    "totalBytes": 2025061
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 117,
+      "kb": 1974
+    },
+    "image": {
+      "n": 81,
+      "kb": 968
+    },
+    "script": {
+      "n": 23,
+      "kb": 872
+    },
+    "font": {
+      "n": 2,
+      "kb": 69
+    },
+    "document": {
+      "n": 2,
+      "kb": 60
+    },
+    "stylesheet": {
+      "n": 1,
+      "kb": 3
+    },
+    "other": {
+      "n": 7,
+      "kb": 2
+    },
+    "media": {
+      "n": 1,
+      "kb": 0
+    },
+    "third-party": {
+      "n": 11,
+      "kb": 373
+    }
+  },
+  "finalUrl": "https://spacefs.com/",
+  "runWarnings": []
+}

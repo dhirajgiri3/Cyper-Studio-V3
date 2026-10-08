@@ -1,0 +1,915 @@
+{
+  "slug": "eden",
+  "url": "https://eden.so",
+  "date": "2026-10-08T03:36:54.285Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://eden.so/",
+  "heroAnimationsAtLoad": 8,
+  "dom": {
+    "prefetch": {
+      "lang": "",
+      "title": "Eden | The content brain for creators and marketers",
+      "desc": "Save and highlight anything, research what's working, schedule and publish posts, sell courses, coaching, and Custom AIs, and run a content agency. All in one place.",
+      "og": true,
+      "jsonld": [
+        "\"Organization\"",
+        "\"SoftwareApplication\"",
+        "\"WebSite\""
+      ],
+      "canonical": "https://eden.so/",
+      "colorScheme": "normal",
+      "themeColor": "#0a0a0a"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Finally, one place to research viral posts, create original content, sell digita",
+          "family": "Geist",
+          "size": "57.6px",
+          "weight": "500",
+          "lh": "60.48px",
+          "ls": "-2.016px",
+          "color": "#a3a3a3",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Discover",
+          "family": "Geist",
+          "size": "26px",
+          "weight": "500",
+          "lh": "33.8px",
+          "ls": "-1.04px",
+          "color": "#ffffff a0.92",
+          "transform": "none"
+        },
+        {
+          "text": "All items",
+          "family": "Geist",
+          "size": "27px",
+          "weight": "500",
+          "lh": "43.875px",
+          "ls": "-0.945px",
+          "color": "#ffffff a0.92",
+          "transform": "none"
+        },
+        {
+          "text": "Creators see results within days.",
+          "family": "Geist",
+          "size": "38.4px",
+          "weight": "500",
+          "lh": "42.24px",
+          "ls": "-1.344px",
+          "color": "#a3a3a3",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "How I Got My Attention Span Back.",
+          "family": "Geist",
+          "size": "14px",
+          "weight": "600",
+          "lh": "19.25px",
+          "ls": "normal",
+          "color": "#ffffff a0.95",
+          "transform": "none"
+        },
+        {
+          "text": "How to Stop Wasting Your Life (Avoid These 5 Things)",
+          "family": "Geist",
+          "size": "14px",
+          "weight": "600",
+          "lh": "19.25px",
+          "ls": "normal",
+          "color": "#ffffff a0.95",
+          "transform": "none"
+        },
+        {
+          "text": "Script: How to actually grow an audience from scratch",
+          "family": "Geist",
+          "size": "21px",
+          "weight": "600",
+          "lh": "25.62px",
+          "ls": "-0.735px",
+          "color": "#ffffff a0.9",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "How To Remember Everything You Read",
+          "family": "Geist",
+          "size": "16px",
+          "weight": "500",
+          "lh": "20px",
+          "ls": "-0.56px",
+          "color": "#ffffff a0.9",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "Save anything, research millions of posts, schedule everywhere, and run your who",
+          "family": "Inter",
+          "size": "20.48px",
+          "weight": "400",
+          "lh": "28.16px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        },
+        {
+          "text": "The single greatest skill you can develop is the ability to stay in a great mood",
+          "family": "Inter",
+          "size": "13.5px",
+          "weight": "400",
+          "lh": "18.5625px",
+          "ls": "normal",
+          "color": "#ffffff a0.9",
+          "transform": "none"
+        },
+        {
+          "text": "The people who win with AI are not the ones who generate the most. They're the o",
+          "family": "Inter",
+          "size": "13px",
+          "weight": "400",
+          "lh": "21.125px",
+          "ls": "normal",
+          "color": "#ffffff a0.85",
+          "transform": "none"
+        }
+      ],
+      "small": [
+        {
+          "text": "Noah LittleFounder · The Success Squad",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#f5f5f5",
+          "transform": "none"
+        },
+        {
+          "text": "Adam BairFounder · The Awakened Man",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#f5f5f5",
+          "transform": "none"
+        }
+      ],
+      "button": [
+        {
+          "text": "Features",
+          "family": "Inter",
+          "size": "13.6px",
+          "weight": "400",
+          "lh": "22.1px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        },
+        {
+          "text": "Comparisons",
+          "family": "Inter",
+          "size": "13.6px",
+          "weight": "400",
+          "lh": "22.1px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#ffffff a0.45",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "Eden",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#f5f5f5",
+          "transform": "none"
+        },
+        {
+          "text": "Marketplace",
+          "family": "Inter",
+          "size": "13.6px",
+          "weight": "400",
+          "lh": "22.1px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        },
+        {
+          "text": "Referral program",
+          "family": "Inter",
+          "size": "13.6px",
+          "weight": "400",
+          "lh": "22.1px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        },
+        {
+          "text": "Agencies",
+          "family": "Inter",
+          "size": "13.6px",
+          "weight": "400",
+          "lh": "22.1px",
+          "ls": "normal",
+          "color": "#a3a3a3",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#ffffff a0.85",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "16px",
+          "weight": "400",
+          "lh": "26px",
+          "ls": "normal",
+          "color": "#ffffff a0.85",
+          "transform": "none"
+        },
+        {
+          "text": "",
+          "family": "Inter",
+          "size": "11px",
+          "weight": "500",
+          "lh": "17.875px",
+          "ls": "normal",
+          "color": "#ffffff a0.43",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "sticky",
+      "height": 67,
+      "bg": "#0a0a0a a0.72",
+      "backdrop": "blur(20px) saturate(1.4)",
+      "border": "1px solid rgba(255, 255, 255, 0.08)",
+      "links": [
+        "Eden",
+        "Marketplace",
+        "Referral program",
+        "Agencies",
+        "Pricing",
+        "Download",
+        "Help",
+        "Sign in",
+        "Start free"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 1378,
+        "padT": "108px",
+        "padB": "64px",
+        "bg": null,
+        "heading": "Finally, one place to research viral posts, create original content, s"
+      },
+      {
+        "tag": "div",
+        "h": 820,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "How I Got My Attention Span Back."
+      },
+      {
+        "tag": "div",
+        "h": 686,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Script: How to actually grow an audience from scratch"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1120",
+        20
+      ],
+      [
+        "1376",
+        5
+      ],
+      [
+        "768",
+        4
+      ],
+      [
+        "954",
+        3
+      ],
+      [
+        "978",
+        3
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "New",
+        "bg": "#ffffff a0.09",
+        "color": "#ffffff a0.75",
+        "radius": "9999px",
+        "h": 32,
+        "pad": "0px 12px"
+      }
+    ],
+    "headings": [
+      "H1 Finally, one place to research viral posts, create original content, s",
+      "H2 Discover",
+      "H3 How I Got My Attention Span Back.",
+      "H3 How to Stop Wasting Your Life (Avoid These 5 Things)",
+      "H2 All items",
+      "H3 Script: How to actually grow an audience from scratch",
+      "H3 How to Build a Profitable Personal Brand (In Just 30 Days)",
+      "H2 Creators see results within days.",
+      "H2 Find ideas people already care about.",
+      "H3 How to Research Any Topic - Deep-Dive like a PhD Student",
+      "H3 How to bet on yourself without telling anyone",
+      "H2 Study any creator's entire playbook.",
+      "H3 9 Passive Income Ideas - How I Make $27k per Week",
+      "H3 How I Type REALLY Fast (156 Words per Minute)",
+      "H3 How to Invest for Beginners",
+      "H2 Creators who stopped guessing.",
+      "H2 Save any social post, link, or idea.",
+      "H3 If I Started A Business in 2026, I'd Do This",
+      "H3 I'm 44. If you're in your 20's watch this.",
+      "H3 Feel Behind? (Do This For 30 Days)",
+      "H3 Give me 17 minutes, and I'll Make You Dangerously Consistent",
+      "H3 How to Learn ANYTHING Faster Than Everyone",
+      "H3 You're Not Forgetful: My System for Memorising Everything",
+      "H2 Do an hour of research in one message.",
+      "H3 1. Isolation as the ultimate productivity hack",
+      "H2 Everything you know, in one store in your bio.",
+      "H3 Everything in your store",
+      "H2 The rest of the creative system, when you need it.",
+      "H3 Create content calendars and trackers.",
+      "H3 Schedule and publish to every platform.",
+      "H3 Set up routines that run on their own.",
+      "H3 See exactly what grows your audience.",
+      "H3 Read and highlight anything inside Eden.",
+      "H3 All your highlights in one searchable place.",
+      "H3 Every comment gets an instant DM.",
+      "H3 Transcribe and chat with any video, reel, or post.",
+      "H3 Reverse-engineer any post, apply it to your idea.",
+      "H3 Turn one post into a week of content.",
+      "H3 Script, outline, and write all in one place.",
+      "H2 Real results from creators who post with Eden."
+    ],
+    "footer": {
+      "h": 1039,
+      "links": 64,
+      "text": "EdenThe content brain for creators and marketers.UpdatesGet the occasional email on what's working in content right now.ResourcesBlogCustom AI marketplacePricingEden for agenciesEden for teamsCareersReferral programPartn"
+    },
+    "fonts": [
+      [
+        "Inter",
+        23443
+      ],
+      [
+        "Geist",
+        3607
+      ]
+    ],
+    "fgColors": [
+      [
+        "#a3a3a3",
+        15427
+      ],
+      [
+        "#f5f5f5",
+        1338
+      ],
+      [
+        "#ffffff a0.9",
+        938
+      ],
+      [
+        "#737373",
+        936
+      ],
+      [
+        "#ffffff a0.8",
+        798
+      ],
+      [
+        "#ffffff a0.72",
+        759
+      ],
+      [
+        "#ffffff a0.95",
+        721
+      ],
+      [
+        "#ffffff a0.76",
+        700
+      ]
+    ],
+    "bgColors": [
+      [
+        "#111111",
+        708.190875
+      ],
+      [
+        "#0a0a0a",
+        576
+      ],
+      [
+        "#141414",
+        568.2312258544922
+      ],
+      [
+        "#161616",
+        158.4989075480215
+      ],
+      [
+        "#1a1a1a",
+        109.20915000000001
+      ],
+      [
+        "#191919",
+        103.11563818359375
+      ],
+      [
+        "#ffffff a0.02",
+        94.66425000000001
+      ],
+      [
+        "#ffffff a0.08",
+        32.536
+      ]
+    ],
+    "borders": [
+      [
+        "1px #ffffff a0.08",
+        75
+      ],
+      [
+        "1px #ffffff a0.1",
+        61
+      ],
+      [
+        "1px #ffffff a0.07",
+        31
+      ],
+      [
+        "1px #ffffff a0.09",
+        29
+      ],
+      [
+        "1px #ffffff a0.06",
+        17
+      ]
+    ],
+    "radii": [
+      [
+        "9999px",
+        242
+      ],
+      [
+        "8px",
+        78
+      ],
+      [
+        "12px",
+        40
+      ],
+      [
+        "10px",
+        34
+      ],
+      [
+        "14px",
+        22
+      ],
+      [
+        "7px",
+        20
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.85) 0p",
+        49
+      ],
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(255, 255, 255, 0.",
+        37
+      ],
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.35) 0p",
+        33
+      ],
+      [
+        "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.7) 0px",
+        12
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "14.72px/400/23.92px/normal",
+        6593
+      ],
+      [
+        "15.68px/400/25.088px/normal",
+        2706
+      ],
+      [
+        "14.08px/400/19.36px/normal",
+        1634
+      ],
+      [
+        "13.6px/400/22.1px/normal",
+        1050
+      ],
+      [
+        "20px/400/27.5px/normal",
+        733
+      ],
+      [
+        "10px/400/15px/normal",
+        715
+      ],
+      [
+        "12px/400/18.36px/normal",
+        700
+      ],
+      [
+        "16.8px/500/23.1px/-0.588px",
+        668
+      ],
+      [
+        "13.12px/400/21.32px/normal",
+        657
+      ],
+      [
+        "13.12px/400/18.04px/normal",
+        549
+      ],
+      [
+        "14.72px/400/20.24px/normal",
+        396
+      ],
+      [
+        "17.6px/400/28.6px/normal",
+        357
+      ]
+    ],
+    "counts": {
+      "gradients": 99,
+      "backdrop": 46,
+      "filters": 3,
+      "video": 0,
+      "canvas": 0,
+      "svg": 395,
+      "img": 114,
+      "buttons": 49,
+      "forms": 1,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 1,
+      "links": 195
+    },
+    "loadedFonts": [
+      "Geist 400 normal",
+      "Geist 500 normal",
+      "Geist 600 normal",
+      "Inter 400 normal",
+      "Inter 500 normal",
+      "Inter 600 normal"
+    ],
+    "animations": {
+      "n": 8,
+      "sample": [
+        {
+          "type": "CSSAnimation",
+          "name": "eden-caret-blink",
+          "dur": 1050,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.eden-caret"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "eden-leaf-grow",
+          "dur": 1350,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "path"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "eden-leaf-grow-bottom",
+          "dur": 1350,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "path"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "eden-sparkle-grow",
+          "dur": 1350,
+          "iter": 1,
+          "easing": "linear",
+          "props": [
+            "opacity",
+            "transform"
+          ],
+          "target": "path"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "efv-blink",
+          "dur": 1050,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.efv-caret"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "efv-blink",
+          "dur": 1050,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.efv-caret"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "eden-caret-blink",
+          "dur": 1050,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.eden-caret"
+        },
+        {
+          "type": "CSSAnimation",
+          "name": "pulse",
+          "dur": 2000,
+          "iter": null,
+          "easing": "linear",
+          "props": [
+            "opacity"
+          ],
+          "target": "span.h-1.5"
+        }
+      ]
+    },
+    "scrollTimelineCss": true,
+    "keyframes": [
+      "ping",
+      "pulse",
+      "spin",
+      "eden-pulse-dot",
+      "eden-caret-blink",
+      "eden-shimmer-line",
+      "board-tile-in",
+      "hero-card-in",
+      "hero-fade-in",
+      "hero-underline-draw",
+      "eden-leaf-grow",
+      "eden-leaf-grow-bottom",
+      "eden-sparkle-grow",
+      "hero-float-a",
+      "hero-float-b",
+      "hero-float-c",
+      "wall-drift-left",
+      "wall-drift-right",
+      "efv-type",
+      "efv-blink",
+      "efv-in",
+      "efv-float",
+      "eden-tabbed-section-progress"
+    ],
+    "globals": [
+      "dataLayer"
+    ],
+    "htmlCls": " js",
+    "scripts": [
+      "www.googletagmanager.com/gtag/js?id=G-D7Z9V00ZKQ&cx=c&gtm=4e6a61",
+      "connect.facebook.net/signals/config/1603200597384323?v=2.9.415&r=stable&domain=eden.so&hme",
+      "connect.facebook.net/en_US/fbevents.js",
+      "bzrcdn.openai.com/sdk/oaiq.min.js",
+      "www.googletagmanager.com/gtm.js?id=GTM-KX2ZPVNZ",
+      "obs.eden.so/array/phc_DoB97reo8p9PcozTAehApKo8SUMkTnbAXJorwRKJSPwa/config.js",
+      "obs.eden.so/static/posthog-recorder.js?v=1.364.7",
+      "obs.eden.so/static/surveys.js?v=1.364.7",
+      "obs.eden.so/static/logs.js?v=1.364.7",
+      "obs.eden.so/static/dead-clicks-autocapture.js?v=1.364.7",
+      "obs.eden.so/static/web-vitals.js?v=1.364.7",
+      "obs.eden.so/static/exception-autocapture.js?v=1.364.7",
+      "eden.so/webpack-runtime-dd1a1a961fcebcbbc0ea.js",
+      "eden.so/4a51e315-35edaa682505d4ecfcfb.js",
+      "eden.so/1bb5572f-f595ee8c795f605455a0.js",
+      "eden.so/aaa5778d-89857a35f46aae062438.js",
+      "eden.so/app-5db2f5b83689e7a35836.js"
+    ],
+    "scriptCount": 17,
+    "domBytes": 834810,
+    "dpr": 1
+  },
+  "pageHeight": 15604,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 19
+    },
+    {
+      "at": 0.4,
+      "n": 19
+    },
+    {
+      "at": 0.6,
+      "n": 8
+    },
+    {
+      "at": 0.8,
+      "n": 8
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 32,
+    "wheelListeners": [
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 34,
+    "canvasContexts": [],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 0,
+  "transferBytes": {
+    "js": 1154340,
+    "css": 2651,
+    "font": 77781,
+    "image": 16114291,
+    "media": 0,
+    "doc": 94110,
+    "other": 78382,
+    "requests": 129,
+    "thirdPartyTop": [
+      [
+        "www.googletagmanager.com",
+        310120
+      ],
+      [
+        "connect.facebook.net",
+        271182
+      ],
+      [
+        "fonts.gstatic.com",
+        77781
+      ],
+      [
+        "bzrcdn.openai.com",
+        28202
+      ],
+      [
+        "fonts.googleapis.com",
+        2651
+      ],
+      [
+        "www.facebook.com",
+        20
+      ]
+    ]
+  },
+  "axe": {
+    "total": 4,
+    "byImpact": {
+      "serious": 4
+    },
+    "items": [
+      {
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodes": 21
+      },
+      {
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodes": 70
+      },
+      {
+        "id": "html-has-lang",
+        "impact": "serious",
+        "nodes": 1
+      },
+      {
+        "id": "scrollable-region-focusable",
+        "impact": "serious",
+        "nodes": 1
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 15411,
+    "h1": "Finally, one place to research viral posts, create original content, sell digital products",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 4,
+    "infiniteRunningAfterScroll": 1
+  }
+}

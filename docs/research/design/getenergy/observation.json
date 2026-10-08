@@ -1,0 +1,846 @@
+{
+  "slug": "getenergy",
+  "url": "https://getenergy.com",
+  "date": "2026-10-08T03:39:18.741Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "https://getenergy.com/",
+  "heroAnimationsAtLoad": 0,
+  "dom": {
+    "prefetch": {
+      "lang": "en",
+      "title": "Energy — Work at the Speed of Thought",
+      "desc": "Energy is an AI workspace where specialized assistants complete work across your browser, inbox, files, and connected tools.",
+      "og": true,
+      "jsonld": [
+        "[\"Organization\",\"WebSite\",\"WebPage\"]"
+      ],
+      "canonical": "https://getenergy.com/",
+      "colorScheme": "normal",
+      "themeColor": "#ffffff"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Work at the speedof thought.",
+          "family": "Quadrant Text",
+          "size": "80px",
+          "weight": "400",
+          "lh": "81.6px",
+          "ls": "-2.4px",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "See Energy run your workflow.",
+          "family": "Quadrant Text",
+          "size": "38px",
+          "weight": "400",
+          "lh": "41.8px",
+          "ls": "-1.14px",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Most AI stops halfway. Energy manages the workflow.",
+          "family": "Quadrant Text",
+          "size": "46px",
+          "weight": "400",
+          "lh": "49.68px",
+          "ls": "-1.38px",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Chatbots answer. Energy has a computer.",
+          "family": "Quadrant Text",
+          "size": "46px",
+          "weight": "400",
+          "lh": "49.68px",
+          "ls": "-1.38px",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "AI does the whole task",
+          "family": "DM Sans",
+          "size": "24px",
+          "weight": "600",
+          "lh": "normal",
+          "ls": "-0.24px",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Every tool you use",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "600",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Your permissions",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "600",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "h4": [
+        {
+          "text": "Security review",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "600",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "p": [
+        {
+          "text": "An AI assistant for every employee. It works in the tools your team already uses",
+          "family": "DM Sans",
+          "size": "18px",
+          "weight": "400",
+          "lh": "28.8px",
+          "ls": "normal",
+          "color": "#626965",
+          "transform": "none"
+        },
+        {
+          "text": "Available for Windows",
+          "family": "DM Sans",
+          "size": "12px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#6b716d",
+          "transform": "none"
+        },
+        {
+          "text": "Finance and OperationsMatches a payment to the invoice still marked overdue1:18",
+          "family": "DM Sans",
+          "size": "13px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#6b716d",
+          "transform": "none"
+        }
+      ],
+      "small": [
+        {
+          "text": "7:00",
+          "family": "DM Sans",
+          "size": "11.5px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#8a9199",
+          "transform": "none"
+        },
+        {
+          "text": "300 open in NetSuite",
+          "family": "DM Sans",
+          "size": "11.5px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#8a9199",
+          "transform": "none"
+        }
+      ],
+      "button": [
+        {
+          "text": "Download for macOSAvailable for Windows",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Download for macOS",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Book a demo",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#111111",
+          "transform": "none"
+        },
+        {
+          "text": "Finance and Operations",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "energy",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Product",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#5c625e",
+          "transform": "none"
+        },
+        {
+          "text": "Workflows",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#5c625e",
+          "transform": "none"
+        },
+        {
+          "text": "Enterprise",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#5c625e",
+          "transform": "none"
+        }
+      ],
+      "label": [
+        {
+          "text": "Energy for teams",
+          "family": "DM Sans",
+          "size": "13px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#3d4540",
+          "transform": "none"
+        },
+        {
+          "text": "Watch the Finance and Operations demo",
+          "family": "DM Sans",
+          "size": "16px",
+          "weight": "400",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        },
+        {
+          "text": "Watch the Finance and Operations demo",
+          "family": "DM Sans",
+          "size": "14px",
+          "weight": "500",
+          "lh": "normal",
+          "ls": "normal",
+          "color": "#1d2521",
+          "transform": "none"
+        }
+      ],
+      "mono": []
+    },
+    "header": {
+      "position": "sticky",
+      "height": 52,
+      "bg": "#ffffff a0.88",
+      "backdrop": "blur(18px)",
+      "border": "1px solid rgba(255, 255, 255, 0.76)",
+      "links": [
+        "energy",
+        "Product",
+        "Workflows",
+        "Enterprise",
+        "Pricing",
+        "Blog",
+        "Download for macOS"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "section",
+        "h": 1323,
+        "padT": "88px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Work at the speedof thought."
+      },
+      {
+        "tag": "section",
+        "h": 401,
+        "padT": "96px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "See Energy run your workflow."
+      },
+      {
+        "tag": "section",
+        "h": 975,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Most AI stops halfway. Energy manages the workflow."
+      },
+      {
+        "tag": "section",
+        "h": 1165,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Chatbots answer. Energy has a computer."
+      },
+      {
+        "tag": "section",
+        "h": 796,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Runs before you ask. Tells you what changed."
+      },
+      {
+        "tag": "section",
+        "h": 942,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Workflows for every team. Start with what repeats."
+      },
+      {
+        "tag": "section",
+        "h": 1010,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Every leading model. Never locked in."
+      },
+      {
+        "tag": "section",
+        "h": 1785,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Built for teams. Ready for IT."
+      },
+      {
+        "tag": "section",
+        "h": 798,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Frequently asked questions"
+      },
+      {
+        "tag": "section",
+        "h": 683,
+        "padT": "136px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Bring Energy to your team."
+      }
+    ],
+    "containerWidths": [
+      [
+        "1120",
+        15
+      ],
+      [
+        "655",
+        6
+      ],
+      [
+        "634",
+        1
+      ],
+      [
+        "740",
+        1
+      ],
+      [
+        "820",
+        1
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Download for macOS",
+        "bg": "#111111",
+        "color": "#ffffff",
+        "radius": "999px",
+        "h": 34,
+        "pad": "0px 14px 0px 12px"
+      },
+      {
+        "label": "Energy for teams",
+        "bg": "#ffffff a0.8",
+        "color": "#3d4540",
+        "radius": "999px",
+        "h": 31,
+        "pad": "6px 12px 6px 14px"
+      },
+      {
+        "label": "Download for macOS",
+        "bg": "#111111",
+        "color": "#ffffff",
+        "radius": "999px",
+        "h": 56,
+        "pad": "8px 22px 8px 18px"
+      },
+      {
+        "label": "Book a demo",
+        "bg": "#ececec",
+        "color": "#111111",
+        "radius": "999px",
+        "h": 56,
+        "pad": "8px 22px"
+      },
+      {
+        "label": "Finance and Operations",
+        "bg": "#ffffff",
+        "color": "#1d2521",
+        "radius": "999px",
+        "h": 34,
+        "pad": "8px 16px"
+      },
+      {
+        "label": "Reject",
+        "bg": "#ececec",
+        "color": "#3d4540",
+        "radius": "999px",
+        "h": 36,
+        "pad": "0px 14px"
+      },
+      {
+        "label": "Customize",
+        "bg": "#ececec",
+        "color": "#3d4540",
+        "radius": "999px",
+        "h": 36,
+        "pad": "0px 14px"
+      },
+      {
+        "label": "Accept",
+        "bg": "#111111",
+        "color": "#ffffff",
+        "radius": "999px",
+        "h": 36,
+        "pad": "0px 14px"
+      }
+    ],
+    "headings": [
+      "H1 Work at the speedof thought.",
+      "H2 See Energy run your workflow.",
+      "H2 Most AI stops halfway. Energy manages the workflow.",
+      "H3 AI does the whole task",
+      "H2 Chatbots answer. Energy has a computer.",
+      "H3 Every tool you use",
+      "H3 Your permissions",
+      "H3 Nothing to integrate",
+      "H2 Runs before you ask. Tells you what changed.",
+      "H3 3 invoices at risk since yesterday",
+      "H2 Workflows for every team. Start with what repeats.",
+      "H3 Finance and Operations",
+      "H3 E-commerce",
+      "H3 Growth and Marketing",
+      "H3 People and HR",
+      "H3 IT and Onboarding",
+      "H3 Sales",
+      "H2 Every leading model. Never locked in.",
+      "H2 Built for teams. Ready for IT.",
+      "H3 Build one workflow at a time",
+      "H3 One tool for everyone",
+      "H3 We roll it out with you",
+      "H3 Organizations and roles",
+      "H3 Shared tool connections",
+      "H3 Reusable skills",
+      "H3 Scheduled and triggered runs",
+      "H3 Audit trail",
+      "H3 Your data stays yours",
+      "H2 Frequently asked questions",
+      "H2 Bring Energy to your team.",
+      "H2 Stay in the loop"
+    ],
+    "footer": {
+      "h": 544,
+      "links": 18,
+      "text": "energyAI that finishes the whole task, across every tool your team uses.Stay in the loopProduct news and tips, straight to your inbox.Email address→ProductHow it worksAutomationsWorkflowsEnterprisePricingResourcesBlogTru"
+    },
+    "fonts": [
+      [
+        "DM Sans",
+        10590
+      ],
+      [
+        "Quadrant Text",
+        615
+      ],
+      [
+        "ui-monospace",
+        401
+      ]
+    ],
+    "fgColors": [
+      [
+        "#1d2521",
+        3056
+      ],
+      [
+        "#626965",
+        1961
+      ],
+      [
+        "#6d7684",
+        1612
+      ],
+      [
+        "#6b736e",
+        1424
+      ],
+      [
+        "#4f5752",
+        687
+      ],
+      [
+        "#9aa1a9",
+        573
+      ],
+      [
+        "#22292f",
+        373
+      ],
+      [
+        "#7c837f",
+        218
+      ]
+    ],
+    "bgColors": [
+      [
+        "#ffffff",
+        853.2123539062507
+      ],
+      [
+        "#fcfcfc",
+        208.2884
+      ],
+      [
+        "#1d2521 a0.08",
+        172.79444999999998
+      ],
+      [
+        "#0e1512",
+        70.56
+      ],
+      [
+        "#edf2fb",
+        61.29025
+      ],
+      [
+        "#fbfcfe",
+        37.744
+      ],
+      [
+        "#f6f8fc",
+        34.202
+      ],
+      [
+        "#f5f4f2",
+        14.7804
+      ]
+    ],
+    "borders": [
+      [
+        "1px #1d2521 a0.1",
+        29
+      ],
+      [
+        "1px #1d2521 a0.08",
+        17
+      ],
+      [
+        "1px #1d2521 a0.06",
+        16
+      ],
+      [
+        "1px #5388ec a0.22",
+        7
+      ],
+      [
+        "1px #1d2521 a0.13",
+        4
+      ]
+    ],
+    "radii": [
+      [
+        "999px",
+        52
+      ],
+      [
+        "12px",
+        22
+      ],
+      [
+        "7px",
+        21
+      ],
+      [
+        "8px",
+        16
+      ],
+      [
+        "10px",
+        11
+      ],
+      [
+        "16px",
+        7
+      ]
+    ],
+    "shadows": [
+      [
+        "rgba(70, 91, 124, 0.14) 0px 24px 60px 0px",
+        2
+      ],
+      [
+        "rgba(43, 61, 78, 0.1) 0px 10px 36px 0px",
+        1
+      ],
+      [
+        "rgba(29, 37, 33, 0.08) 0px 1px 2px 0px, rgba(29, 37, 33, 0.06) 0px 2px 8px 0px",
+        1
+      ],
+      [
+        "rgba(29, 37, 33, 0.08) 0px 0px 0px 1px, rgba(48, 76, 115, 0.2) 0px 40px 100px 0px, rgba(48",
+        1
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "14px/400/21.7px/normal",
+        1614
+      ],
+      [
+        "15px/400/25.5px/normal",
+        1612
+      ],
+      [
+        "16px/400/26.4px/normal",
+        1028
+      ],
+      [
+        "11px/400/normal/normal",
+        758
+      ],
+      [
+        "12px/500/normal/normal",
+        709
+      ],
+      [
+        "46px/400/49.68px/-1.38px",
+        439
+      ],
+      [
+        "14px/400/22.4px/normal",
+        339
+      ],
+      [
+        "14px/400/normal/normal",
+        304
+      ],
+      [
+        "17px/500/normal/normal",
+        291
+      ],
+      [
+        "11.5px/400/17.825px/normal",
+        268
+      ],
+      [
+        "11px/500/normal/normal",
+        256
+      ],
+      [
+        "13px/600/normal/normal",
+        255
+      ]
+    ],
+    "counts": {
+      "gradients": 22,
+      "backdrop": 5,
+      "filters": 0,
+      "video": 1,
+      "canvas": 0,
+      "svg": 73,
+      "img": 35,
+      "buttons": 31,
+      "forms": 2,
+      "tables": 0,
+      "details": 8,
+      "accordionsAria": 0,
+      "links": 31
+    },
+    "loadedFonts": [
+      "DM Sans 400 600 normal",
+      "Quadrant Text 400 normal"
+    ],
+    "animations": {
+      "n": 0,
+      "sample": []
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [
+      "spin",
+      "composer-label-in"
+    ],
+    "globals": [],
+    "htmlCls": "",
+    "scripts": [
+      "cdn.snitcher.com/releases/latest/radar.min.js",
+      "getenergy.com/snitcher.js",
+      "getenergy.com/reb2b.js",
+      "getenergy.com/assets/index-CVsv6Utp.js"
+    ],
+    "scriptCount": 4,
+    "domBytes": 64103,
+    "dpr": 1
+  },
+  "pageHeight": 10489,
+  "animationsAfterScroll": [
+    {
+      "at": 0.35,
+      "n": 2
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 1,
+    "wheelListeners": [
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "DIV",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      },
+      {
+        "target": "BODY",
+        "passive": true
+      }
+    ],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 76,
+    "canvasContexts": [
+      "2d",
+      "webgl"
+    ],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 59,
+  "transferBytes": {
+    "js": 139271,
+    "css": 15262,
+    "font": 83508,
+    "image": 140086,
+    "media": 0,
+    "doc": 12352,
+    "other": 5420,
+    "requests": 39,
+    "thirdPartyTop": [
+      [
+        "cdn.snitcher.com",
+        25779
+      ],
+      [
+        "radar.snitcher.com",
+        1193
+      ]
+    ]
+  },
+  "axe": {
+    "total": 1,
+    "byImpact": {
+      "serious": 1
+    },
+    "items": [
+      {
+        "id": "target-size",
+        "impact": "serious",
+        "nodes": 2
+      }
+    ]
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 9754,
+    "h1": "Work at the speedof thought.",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 0,
+    "infiniteRunningAfterScroll": 2
+  }
+}

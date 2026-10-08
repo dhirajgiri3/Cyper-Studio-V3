@@ -1,0 +1,779 @@
+{
+  "slug": "lab-directions",
+  "url": "http://localhost:4173/directions/index.html",
+  "date": "2026-10-08T04:00:07.212Z",
+  "tool": "playwright-core + Google Chrome (headless)",
+  "notObserved": [],
+  "status": 200,
+  "finalUrl": "http://localhost:4173/directions/index.html",
+  "heroAnimationsAtLoad": 0,
+  "dom": {
+    "prefetch": {
+      "lang": "en-IN",
+      "title": "Design Lab: three directions (Gate 1)",
+      "og": false,
+      "jsonld": [],
+      "colorScheme": "light"
+    },
+    "type": {
+      "h1": [
+        {
+          "text": "Design Lab: three directions (Gate 1)",
+          "family": "Geist",
+          "size": "24px",
+          "weight": "700",
+          "lh": "28.8px",
+          "ls": "normal",
+          "color": "#101828",
+          "transform": "none"
+        }
+      ],
+      "h2": [
+        {
+          "text": "Calm editorial-technical",
+          "family": "Geist",
+          "size": "28px",
+          "weight": "600",
+          "lh": "32.2px",
+          "ls": "-0.84px",
+          "color": "#0b1220",
+          "transform": "none"
+        },
+        {
+          "text": "Precise instrument, data-dense",
+          "family": "Geist",
+          "size": "28px",
+          "weight": "600",
+          "lh": "32.2px",
+          "ls": "-0.56px",
+          "color": "#101828",
+          "transform": "none"
+        },
+        {
+          "text": "Warm and approachable",
+          "family": "Geist",
+          "size": "28px",
+          "weight": "500",
+          "lh": "32.2px",
+          "ls": "-0.7px",
+          "color": "#1b1712",
+          "transform": "none"
+        }
+      ],
+      "h3": [
+        {
+          "text": "Sample capability title",
+          "family": "Geist",
+          "size": "20px",
+          "weight": "600",
+          "lh": "26px",
+          "ls": "-0.6px",
+          "color": "#0b1220",
+          "transform": "none"
+        },
+        {
+          "text": "Sample headline that states a fact",
+          "family": "Geist",
+          "size": "68px",
+          "weight": "600",
+          "lh": "71.4px",
+          "ls": "-2.04px",
+          "color": "#0b1220",
+          "transform": "none"
+        },
+        {
+          "text": "Research link",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "600",
+          "lh": "24.75px",
+          "ls": "-0.45px",
+          "color": "#0b1220",
+          "transform": "none"
+        }
+      ],
+      "h4": [],
+      "p": [
+        {
+          "text": "Three style studies, not a design system. All content is Sample; no product clai",
+          "family": "Geist",
+          "size": "14px",
+          "weight": "400",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#475467",
+          "transform": "none"
+        },
+        {
+          "text": "Direction A · airy · hairline · hatched paper · brackets visible",
+          "family": "Geist Mono",
+          "size": "15px",
+          "weight": "500",
+          "lh": "21px",
+          "ls": "0.9px",
+          "color": "#667085",
+          "transform": "uppercase"
+        },
+        {
+          "text": "Closest to the Spec's draft system. Generous whitespace, 1px hairlines, restrain",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "400",
+          "lh": "24.75px",
+          "ls": "normal",
+          "color": "#475467",
+          "transform": "none"
+        }
+      ],
+      "small": [
+        {
+          "text": "hover",
+          "family": "Geist Mono",
+          "size": "11px",
+          "weight": "500",
+          "lh": "11px",
+          "ls": "0.66px",
+          "color": "#667085",
+          "transform": "uppercase"
+        },
+        {
+          "text": "focus",
+          "family": "Geist Mono",
+          "size": "11px",
+          "weight": "500",
+          "lh": "11px",
+          "ls": "0.66px",
+          "color": "#667085",
+          "transform": "uppercase"
+        }
+      ],
+      "button": [
+        {
+          "text": "Sample primary",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "600",
+          "lh": "15px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        },
+        {
+          "text": "Sample secondary",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "600",
+          "lh": "15px",
+          "ls": "normal",
+          "color": "#0b1220",
+          "transform": "none"
+        },
+        {
+          "text": "Tertiary link →",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "600",
+          "lh": "15px",
+          "ls": "normal",
+          "color": "#1f4fe0",
+          "transform": "none"
+        },
+        {
+          "text": "Primary",
+          "family": "Geist",
+          "size": "15px",
+          "weight": "600",
+          "lh": "15px",
+          "ls": "normal",
+          "color": "#ffffff",
+          "transform": "none"
+        }
+      ],
+      "nav": [
+        {
+          "text": "A Calm editorial-technical",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#ffffff",
+          "transform": "uppercase"
+        },
+        {
+          "text": "B Precise instrument",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#ffffff",
+          "transform": "uppercase"
+        },
+        {
+          "text": "C Warm and approachable",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#ffffff",
+          "transform": "uppercase"
+        },
+        {
+          "text": "Lab home",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#ffffff",
+          "transform": "uppercase"
+        }
+      ],
+      "label": [
+        {
+          "text": "Palette · contrast computed by script",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#667085",
+          "transform": "uppercase"
+        },
+        {
+          "text": "Shape · density · heading setting",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#667085",
+          "transform": "uppercase"
+        },
+        {
+          "text": "Type specimen · Geist Sans + Geist Mono Sample",
+          "family": "Geist Mono",
+          "size": "12px",
+          "weight": "500",
+          "lh": "16.8px",
+          "ls": "0.72px",
+          "color": "#667085",
+          "transform": "uppercase"
+        }
+      ],
+      "mono": [
+        {
+          "text": "₹12,450.00 · AWB 1234567890 · 07 / 12 · 28.5 kg · 0123456789",
+          "family": "Geist Mono",
+          "size": "14px",
+          "weight": "500",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#0b1220",
+          "transform": "none"
+        },
+        {
+          "text": "₹12,450.00 · AWB 1234567890 · 07 / 12 · 28.5 kg · 0123456789",
+          "family": "Geist Mono",
+          "size": "14px",
+          "weight": "500",
+          "lh": "22.4px",
+          "ls": "normal",
+          "color": "#101828",
+          "transform": "none"
+        }
+      ]
+    },
+    "header": {
+      "position": "static",
+      "height": 17,
+      "bg": null,
+      "backdrop": "none",
+      "border": "0px none rgb(255, 255, 255)",
+      "links": [
+        "A Calm editorial-technic",
+        "B Precise instrument",
+        "C Warm and approachable",
+        "Lab home"
+      ]
+    },
+    "sections": [
+      {
+        "tag": "div",
+        "h": 134,
+        "padT": "24px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Design Lab: three directions (Gate 1)"
+      },
+      {
+        "tag": "section",
+        "h": 2541,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": "#ffffff",
+        "heading": "Calm editorial-technical"
+      },
+      {
+        "tag": "div",
+        "h": 1643,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Calm editorial-technical"
+      },
+      {
+        "tag": "div",
+        "h": 567,
+        "padT": "96px",
+        "padB": "96px",
+        "bg": "#f9fafb",
+        "heading": "Sample headline that states a fact"
+      },
+      {
+        "tag": "div",
+        "h": 259,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Research link"
+      },
+      {
+        "tag": "section",
+        "h": 2536,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": "#ffffff",
+        "heading": "Precise instrument, data-dense"
+      },
+      {
+        "tag": "div",
+        "h": 1596,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Precise instrument, data-dense"
+      },
+      {
+        "tag": "div",
+        "h": 610,
+        "padT": "56px",
+        "padB": "56px",
+        "bg": null,
+        "heading": "Sample headline that states a fact"
+      },
+      {
+        "tag": "div",
+        "h": 257,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Research link"
+      },
+      {
+        "tag": "section",
+        "h": 2612,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": "#fbf9f5",
+        "heading": "Warm and approachable"
+      },
+      {
+        "tag": "div",
+        "h": 1649,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Warm and approachable"
+      },
+      {
+        "tag": "div",
+        "h": 607,
+        "padT": "112px",
+        "padB": "112px",
+        "bg": "#fbf9f5",
+        "heading": "Sample headline that states a fact"
+      },
+      {
+        "tag": "div",
+        "h": 283,
+        "padT": "0px",
+        "padB": "0px",
+        "bg": null,
+        "heading": "Research link"
+      }
+    ],
+    "containerWidths": [
+      [
+        "1200",
+        13
+      ],
+      [
+        "1152",
+        9
+      ]
+    ],
+    "ctas": [
+      {
+        "label": "Sample primary",
+        "bg": "#1f4fe0",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 44,
+        "pad": "0px 20px"
+      },
+      {
+        "label": "Sample secondary",
+        "bg": "#ffffff",
+        "color": "#0b1220",
+        "radius": "10px",
+        "h": 44,
+        "pad": "0px 20px"
+      },
+      {
+        "label": "Tertiary link →",
+        "bg": null,
+        "color": "#1f4fe0",
+        "radius": "10px",
+        "h": 44,
+        "pad": "0px 4px"
+      },
+      {
+        "label": "Primary",
+        "bg": "#1a42bd",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 44,
+        "pad": "0px 20px"
+      },
+      {
+        "label": "Primary",
+        "bg": "#1f4fe0",
+        "color": "#ffffff",
+        "radius": "10px",
+        "h": 44,
+        "pad": "0px 20px"
+      }
+    ],
+    "headings": [
+      "H1 Design Lab: three directions (Gate 1)",
+      "H2 Calm editorial-technical",
+      "H3 Sample capability title",
+      "H3 Sample headline that states a fact",
+      "H3 Research link",
+      "H3 Trade-offs",
+      "H3 Fit for the Operator Founder, mid-range Android, 8 seconds",
+      "H2 Precise instrument, data-dense",
+      "H3 Sample capability title",
+      "H3 Sample headline that states a fact",
+      "H3 Research link",
+      "H3 Trade-offs",
+      "H3 Fit for the Operator Founder, mid-range Android, 8 seconds",
+      "H2 Warm and approachable",
+      "H3 Sample capability title",
+      "H3 Sample headline that states a fact",
+      "H3 Research link",
+      "H3 Trade-offs",
+      "H3 Fit for the Operator Founder, mid-range Android, 8 seconds"
+    ],
+    "footer": null,
+    "fonts": [
+      [
+        "Geist",
+        6457
+      ],
+      [
+        "Geist Mono",
+        4044
+      ]
+    ],
+    "fgColors": [
+      [
+        "#475467",
+        1898
+      ],
+      [
+        "#344054",
+        1670
+      ],
+      [
+        "#4a4135",
+        1639
+      ],
+      [
+        "#6b6152",
+        1178
+      ],
+      [
+        "#566075",
+        1173
+      ],
+      [
+        "#667085",
+        1171
+      ],
+      [
+        "#101828",
+        497
+      ],
+      [
+        "#0b1220",
+        391
+      ]
+    ],
+    "bgColors": [
+      [
+        "#ffffff",
+        932.32275
+      ],
+      [
+        "#fbf9f5",
+        549.1106625000001
+      ],
+      [
+        "#f9fafb",
+        130.9491
+      ],
+      [
+        "#f3f4f6",
+        49.33485
+      ],
+      [
+        "#f4efe7",
+        46.949850000000005
+      ],
+      [
+        "#fff0e4",
+        19.9418625
+      ],
+      [
+        "#101828",
+        5.87475
+      ]
+    ],
+    "borders": [
+      [
+        "1px null",
+        21
+      ],
+      [
+        "1px #e4e7ec",
+        15
+      ],
+      [
+        "1px #d0d5dd",
+        15
+      ],
+      [
+        "1px #e3dacb",
+        15
+      ],
+      [
+        "1px #818c9e",
+        6
+      ]
+    ],
+    "radii": [
+      [
+        "999px",
+        26
+      ],
+      [
+        "10px",
+        22
+      ],
+      [
+        "4px",
+        21
+      ],
+      [
+        "16px",
+        15
+      ],
+      [
+        "3px",
+        15
+      ],
+      [
+        "6px",
+        6
+      ]
+    ],
+    "shadows": [
+      [
+        "rgb(255, 240, 228) 0px 0px 0px 4px",
+        5
+      ],
+      [
+        "rgba(16, 24, 40, 0.12) 0px 8px 24px -8px",
+        2
+      ],
+      [
+        "rgba(16, 24, 40, 0.06) 0px 1px 2px 0px",
+        2
+      ],
+      [
+        "rgba(74, 50, 20, 0.18) 0px 14px 32px -14px",
+        2
+      ]
+    ],
+    "sizesUsed": [
+      [
+        "15px/400/23.25px/normal",
+        2870
+      ],
+      [
+        "12px/500/16.8px/0.72px",
+        1816
+      ],
+      [
+        "11px/500/15.4px/normal",
+        682
+      ],
+      [
+        "11px/500/15.4px/0.66px",
+        462
+      ],
+      [
+        "14px/400/22.4px/normal",
+        436
+      ],
+      [
+        "17px/400/28.05px/normal",
+        409
+      ],
+      [
+        "18px/400/30.6px/normal",
+        409
+      ],
+      [
+        "14px/400/20.3px/normal",
+        366
+      ],
+      [
+        "12px/500/18px/normal",
+        362
+      ],
+      [
+        "15px/600/15px/normal",
+        339
+      ],
+      [
+        "15px/400/25.5px/normal",
+        329
+      ],
+      [
+        "15px/400/24.75px/normal",
+        309
+      ]
+    ],
+    "counts": {
+      "gradients": 4,
+      "backdrop": 0,
+      "filters": 0,
+      "video": 0,
+      "canvas": 0,
+      "svg": 0,
+      "img": 0,
+      "buttons": 15,
+      "forms": 0,
+      "tables": 0,
+      "details": 0,
+      "accordionsAria": 0,
+      "links": 16
+    },
+    "loadedFonts": [
+      "Geist 100 900 normal",
+      "Geist Mono 100 900 normal"
+    ],
+    "animations": {
+      "n": 0,
+      "sample": []
+    },
+    "scrollTimelineCss": false,
+    "keyframes": [],
+    "globals": [],
+    "htmlCls": "",
+    "scripts": [],
+    "scriptCount": 0,
+    "domBytes": 23970,
+    "dpr": 1
+  },
+  "pageHeight": 7878,
+  "animationsAfterScroll": [
+    {
+      "at": 0.2,
+      "n": 0
+    },
+    {
+      "at": 0.4,
+      "n": 0
+    },
+    {
+      "at": 0.6,
+      "n": 0
+    },
+    {
+      "at": 0.8,
+      "n": 0
+    }
+  ],
+  "scrollProbe": [
+    {
+      "expected": 300,
+      "at60ms": 300,
+      "at960ms": 300
+    },
+    {
+      "expected": 600,
+      "at60ms": 600,
+      "at960ms": 600
+    },
+    {
+      "expected": 900,
+      "at60ms": 900,
+      "at960ms": 900
+    }
+  ],
+  "runtime": {
+    "intersectionObservers": 0,
+    "wheelListeners": [],
+    "nonPassiveWheel": 0,
+    "nonPassiveTouch": 0,
+    "rafCalls": 0,
+    "canvasContexts": [],
+    "lenisClass": false
+  },
+  "idleRafPerSecond": 0,
+  "transferBytes": {
+    "js": 0,
+    "css": 13836,
+    "font": 47124,
+    "image": 0,
+    "media": 0,
+    "doc": 24236,
+    "other": 0,
+    "requests": 4,
+    "thirdPartyTop": []
+  },
+  "axe": {
+    "total": 0,
+    "byImpact": {},
+    "items": []
+  },
+  "mobile": {
+    "hScroll": false,
+    "scrollW": 390
+  },
+  "noJs": {
+    "textLen": 10365,
+    "h1": "Design Lab: three directions (Gate 1)",
+    "visibleOpacity0": 0
+  },
+  "reducedMotion": {
+    "animationsAtLoad": 0,
+    "infiniteRunningAfterScroll": 0
+  }
+}

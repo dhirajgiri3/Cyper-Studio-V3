@@ -1,0 +1,61 @@
+{
+  "slug": "monday",
+  "url": "https://monday.com",
+  "date": "2026-10-08T03:42:57.656Z",
+  "tool": "lighthouse (mobile preset, simulated slow 4G, Moto G Power emulation)",
+  "scores": {
+    "performance": 31,
+    "accessibility": 97,
+    "best-practices": 54,
+    "seo": 100
+  },
+  "metrics": {
+    "LCP_ms": 11002,
+    "CLS": 0.001,
+    "TBT_ms": 2435,
+    "FCP_ms": 4537,
+    "SI_ms": 7280,
+    "totalBytes": 12819357
+  },
+  "lcpElement": null,
+  "resources": {
+    "total": {
+      "n": 374,
+      "kb": 12519
+    },
+    "script": {
+      "n": 99,
+      "kb": 3886
+    },
+    "other": {
+      "n": 129,
+      "kb": 3433
+    },
+    "media": {
+      "n": 4,
+      "kb": 2923
+    },
+    "image": {
+      "n": 124,
+      "kb": 1488
+    },
+    "stylesheet": {
+      "n": 5,
+      "kb": 411
+    },
+    "font": {
+      "n": 5,
+      "kb": 251
+    },
+    "document": {
+      "n": 8,
+      "kb": 128
+    },
+    "third-party": {
+      "n": 286,
+      "kb": 6590
+    }
+  },
+  "finalUrl": "https://monday.com/",
+  "runWarnings": []
+}
