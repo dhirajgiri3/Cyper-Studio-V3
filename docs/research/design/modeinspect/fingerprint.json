@@ -1,0 +1,1250 @@
+{
+ "slug": "modeinspect",
+ "url": "https://modeinspect.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 1066,
+  "consent": [],
+  "finalUrl": "https://modeinspect.com/",
+  "transferFirstLoad": {
+   "requests": 72,
+   "totalBytes": 857951,
+   "byType": {
+    "Document": 48050,
+    "Font": 191708,
+    "Script": 541043,
+    "Image": 24916,
+    "Stylesheet": 21665,
+    "XHR": 461,
+    "Other": 7759,
+    "Fetch": 22349
+   },
+   "hosts": {
+    "modeinspect.com": 733258,
+    "sync.modeinspect.com": 86053,
+    "bzrcdn.openai.com": 28202,
+    "static.cloudflareinsights.com": 10438,
+    "": 0
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/1nx4qpfk-i_e-.js",
+     "bytes": 71053
+    },
+    {
+     "url": "https://sync.modeinspect.com/static/posthog-recorder.js?v=1.393.0",
+     "bytes": 69553
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/3j7pa202rww9p.js",
+     "bytes": 68622
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2np59sx41qk_b.js",
+     "bytes": 49241
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/121vse26ciog-.js",
+     "bytes": 49163
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/24vonj8wx89rr.js",
+     "bytes": 38209
+    },
+    {
+     "url": "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+     "bytes": 27330
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/0i_qudf9zxsz-.js",
+     "bytes": 16073
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/1stzg5r__qvds.js",
+     "bytes": 15627
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/3agrz8-rvovxu.js",
+     "bytes": 13793
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/00i0p4bsv-8b0.js",
+     "bytes": 13750
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/3klk6hfq72p2d.js",
+     "bytes": 13585
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/3-hg6ougkudmh.js",
+     "bytes": 12274
+    },
+    {
+     "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+     "bytes": 10438
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2zy-jc1383kxo.js",
+     "bytes": 9907
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2d6o318wp00md.js",
+     "bytes": 9749
+    },
+    {
+     "url": "https://sync.modeinspect.com/static/dead-clicks-autocapture.js?v=1.393.0",
+     "bytes": 9533
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/1zw2zt8p-4kl0.js",
+     "bytes": 8813
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/3k8joymulo_52.js",
+     "bytes": 7235
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2l9gk0054i84s.js",
+     "bytes": 5018
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/turbopack-03ca3oo2rh8_9.js",
+     "bytes": 4799
+    },
+    {
+     "url": "https://sync.modeinspect.com/static/web-vitals.js?v=1.393.0",
+     "bytes": 4705
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/0e-mlc94j34_0.js",
+     "bytes": 4347
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2ki9ezc44rqhc.js",
+     "bytes": 3270
+    },
+    {
+     "url": "https://modeinspect.com/_next/static/chunks/2iho8jepmwwua.js",
+     "bytes": 2872
+    }
+   ]
+  },
+  "dom": {
+   "title": "Modeinspect: Design in code",
+   "lang": "en",
+   "colorScheme": "light",
+   "description": "The production-grade AI design tool that runs in your codebase. Canvas + code, one loop, high-fidelity by default, no handoff required.",
+   "ogImage": "https://modeinspect.com/image/og/og-image.png",
+   "canonical": "https://modeinspect.com/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite"
+    ],
+    "SoftwareApplication",
+    "FAQPage"
+   ],
+   "generator": null,
+   "themeColor": "#E0DAD5",
+   "h1": {
+    "text": "Design in code.\nSkip the handoff.",
+    "font-family": "apkGaleria, \"Galeria Fallback\", sans-serif",
+    "font-size": "67.2px",
+    "font-weight": "400",
+    "line-height": "67.2px",
+    "letter-spacing": "-3.31296px",
+    "color": "oklch(0.216 0.006 56.043)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "Canvas and code, unified.\nOne place for everything.",
+     "font-family": "apkGaleria, \"Galeria Fallback\", sans-serif",
+     "font-size": "51.84px",
+     "font-weight": "400",
+     "line-height": "57.024px",
+     "letter-spacing": "-2.55571px",
+     "color": "rgb(17, 17, 16)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Vibe coding gets you to 80%.\nModeinspect is the last 20%.",
+     "font-family": "apkGaleria, \"Galeria Fallback\", sans-serif",
+     "font-size": "51.84px",
+     "font-weight": "400",
+     "line-height": "57.024px",
+     "letter-spacing": "-2.55571px",
+     "color": "rgb(17, 17, 16)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Share the real thing.\nNot a localhost.",
+     "font-family": "apkGaleria, \"Galeria Fallback\", sans-serif",
+     "font-size": "51.84px",
+     "font-weight": "400",
+     "line-height": "57.024px",
+     "letter-spacing": "-2.55571px",
+     "color": "rgb(17, 17, 16)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "inter, \"Inter Fallback\", system-ui, sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(17, 17, 16)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "pretty",
+    "background-color": "rgb(224, 218, 213)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "modeinspect",
+     "x": 64,
+     "y": 12,
+     "w": 129,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(17, 17, 16)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px solid rgba(17, 17, 16, 0.11)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Sign in",
+     "x": 1171,
+     "y": 15,
+     "w": 82,
+     "h": 36,
+     "bg": "rgb(242, 238, 234)",
+     "color": "rgb(17, 17, 16)",
+     "radius": "12px",
+     "font": "16px/500",
+     "border": "0px solid rgba(17, 17, 16, 0.11)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "a",
+     "text": "Get started",
+     "x": 1261,
+     "y": 15,
+     "w": 115,
+     "h": 36,
+     "bg": "rgb(215, 247, 146)",
+     "color": "rgb(22, 33, 10)",
+     "radius": "10px",
+     "font": "16px/500",
+     "border": "0px solid rgba(17, 17, 16, 0.11)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "a",
+     "text": "Get started",
+     "x": 144,
+     "y": 414,
+     "w": 123,
+     "h": 44,
+     "bg": "rgb(215, 247, 146)",
+     "color": "rgb(22, 33, 10)",
+     "radius": "10px",
+     "font": "16px/500",
+     "border": "0px solid rgba(17, 17, 16, 0.11)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "sticky",
+    "h": 66,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgba(17, 17, 16, 0.11)",
+    "links": [
+     "modeinspect",
+     "Product",
+     "Enterprise",
+     "Pricing",
+     "About",
+     "Sign in",
+     "Get started",
+     "Menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 123,
+     "y": 1403,
+     "w": 61,
+     "h": 38,
+     "src": "https://modeinspect.com/image/customers/kiwi.svg?width=256",
+     "natural": [
+      80,
+      50
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Kiwi.com",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 271,
+     "y": 1412,
+     "w": 24,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/moss-mark.svg?width=32",
+     "natural": [
+      17,
+      14
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 434,
+     "y": 1411,
+     "w": 80,
+     "h": 22,
+     "src": "https://modeinspect.com/image/customers/apify.svg?width=384",
+     "natural": [
+      362,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Apify",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 601,
+     "y": 1412,
+     "w": 72,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/e2b.svg?width=96",
+     "natural": [
+      65,
+      18
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "E2B",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 762,
+     "y": 1411,
+     "w": 90,
+     "h": 22,
+     "src": "https://modeinspect.com/image/customers/prelude.svg?width=96",
+     "natural": [
+      90,
+      22
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Prelude",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 940,
+     "y": 1412,
+     "w": 150,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/nccer.svg?width=256",
+     "natural": [
+      240,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "NCCER",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1178,
+     "y": 1413,
+     "w": 104,
+     "h": 18,
+     "src": "https://modeinspect.com/image/customers/deepnote.svg?width=750",
+     "natural": [
+      300,
+      52
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Deepnote",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1370,
+     "y": 1403,
+     "w": 61,
+     "h": 38,
+     "src": "https://modeinspect.com/image/customers/kiwi.svg?width=256",
+     "natural": [
+      80,
+      50
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Kiwi.com",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1519,
+     "y": 1412,
+     "w": 24,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/moss-mark.svg?width=32",
+     "natural": [
+      17,
+      14
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1681,
+     "y": 1411,
+     "w": 80,
+     "h": 22,
+     "src": "https://modeinspect.com/image/customers/apify.svg?width=384",
+     "natural": [
+      362,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Apify",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1849,
+     "y": 1412,
+     "w": 72,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/e2b.svg?width=96",
+     "natural": [
+      65,
+      18
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "E2B",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2009,
+     "y": 1411,
+     "w": 90,
+     "h": 22,
+     "src": "https://modeinspect.com/image/customers/prelude.svg?width=96",
+     "natural": [
+      90,
+      22
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Prelude",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2187,
+     "y": 1412,
+     "w": 150,
+     "h": 20,
+     "src": "https://modeinspect.com/image/customers/nccer.svg?width=256",
+     "natural": [
+      240,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "NCCER",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2425,
+     "y": 1413,
+     "w": 104,
+     "h": 18,
+     "src": "https://modeinspect.com/image/customers/deepnote.svg?width=750",
+     "natural": [
+      300,
+      52
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Deepnote",
+     "decoding": "async"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "span",
+     "cls": "home-field pointer-events-none fixed ins",
+     "w": 1440,
+     "h": 900,
+     "bg": "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNois"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-x-0 -",
+     "w": 1440,
+     "h": 882,
+     "bg": "radial-gradient(150% 90% at 50% 16%, rgb(194, 236, 102), rgba(194, 236, 102, 0.55) 44%, rgba(0, 0, 0, 0) 72%)"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute -inset-x-16",
+     "w": 1280,
+     "h": 760,
+     "bg": "radial-gradient(62% 58% at 50% 28%, rgba(194, 236, 102, 0.4), rgba(194, 236, 102, 0.12) 46%, rgba(0, 0, 0, 0) 72%)"
+    },
+    {
+     "tag": "div",
+     "cls": "absolute right-0 bottom-0 left-0",
+     "w": 1150,
+     "h": 714,
+     "bg": "radial-gradient(rgba(0, 0, 0, 0.04) 1px, rgba(0, 0, 0, 0) 1px)"
+    },
+    {
+     "tag": "div",
+     "cls": "relative h-full w-full",
+     "w": 292,
+     "h": 183,
+     "bg": "url(\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' ba"
+    },
+    {
+     "tag": "div",
+     "cls": "h-9",
+     "w": 125,
+     "h": 29,
+     "bg": "linear-gradient(135deg, rgb(207, 232, 176), rgb(159, 192, 106))"
+    },
+    {
+     "tag": "div",
+     "cls": "h-9",
+     "w": 125,
+     "h": 29,
+     "bg": "linear-gradient(135deg, rgb(214, 211, 205), rgb(183, 177, 168))"
+    },
+    {
+     "tag": "div",
+     "cls": "h-9",
+     "w": 125,
+     "h": 29,
+     "bg": "linear-gradient(135deg, rgb(233, 199, 168), rgb(207, 159, 120))"
+    },
+    {
+     "tag": "div",
+     "cls": "h-9",
+     "w": 125,
+     "h": 29,
+     "bg": "linear-gradient(135deg, rgb(188, 212, 232), rgb(143, 179, 214))"
+    },
+    {
+     "tag": "div",
+     "cls": "relative h-full w-full",
+     "w": 80,
+     "h": 173,
+     "bg": "url(\"data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' ba"
+    },
+    {
+     "tag": "span",
+     "cls": "size-7 shrink-0 rounded-[3px]",
+     "w": 22,
+     "h": 22,
+     "bg": "linear-gradient(135deg, rgb(207, 232, 176), rgb(159, 192, 106))"
+    },
+    {
+     "tag": "span",
+     "cls": "size-7 shrink-0 rounded-[3px]",
+     "w": 22,
+     "h": 22,
+     "bg": "linear-gradient(135deg, rgb(214, 211, 205), rgb(183, 177, 168))"
+    },
+    {
+     "tag": "span",
+     "cls": "size-7 shrink-0 rounded-[3px]",
+     "w": 22,
+     "h": 22,
+     "bg": "linear-gradient(135deg, rgb(233, 199, 168), rgb(207, 159, 120))"
+    },
+    {
+     "tag": "span",
+     "cls": "size-7 shrink-0 rounded-[3px]",
+     "w": 22,
+     "h": 22,
+     "bg": "linear-gradient(135deg, rgb(188, 212, 232), rgb(143, 179, 214))"
+    },
+    {
+     "tag": "span",
+     "cls": "absolute inset-0 bg-white",
+     "w": 11,
+     "h": 11,
+     "bg": "linear-gradient(45deg, rgb(238, 238, 238) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 75%, rgb(238, 238, 238) 75%, rgb(238, 238, 238)), line"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-x-0 t",
+     "w": 1440,
+     "h": 672,
+     "bg": "radial-gradient(circle at 18% 24%, rgba(194, 236, 102, 0.24), rgba(0, 0, 0, 0) 34%), radial-gradient(circle at 76% 14%, rgba(250, 248, 246, "
+    }
+   ],
+   "fontShare": {
+    "inter": 6737,
+    "apkGaleria": 470,
+    "digiDecay": 132,
+    "system-ui": 32,
+    "jetbrainsMono": 491
+   },
+   "bgs": {
+    "rgb(224, 218, 213)": 32868900,
+    "rgb(231, 229, 228)": 829440,
+    "rgb(245, 245, 245)": 1646752,
+    "rgb(242, 238, 234)": 4489125,
+    "rgb(0, 0, 0)": 2251830,
+    "rgb(17, 17, 16)": 3790958
+   },
+   "counts": {
+    "gradients": 13,
+    "backdrop": 8,
+    "filters": 25,
+    "video": 6,
+    "canvas": 0,
+    "svg": 65,
+    "img": 28,
+    "buttons": 18,
+    "forms": 1,
+    "tables": 0,
+    "details": 0,
+    "links": 33,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Design in code. Skip the handoff.",
+    "H2 Canvas and code, unified. One place for everything.",
+    "H3 Everything in one place",
+    "H3 Live product on canvas",
+    "H2 Vibe coding gets you to 80%. Modeinspect is the last 20%.",
+    "H3 Controls, not prompts",
+    "H3 Canvas to code in one shot",
+    "H2 Share the real thing. Not a localhost.",
+    "H3 Test the real thing",
+    "H3 Collaborate and ship",
+    "H2 Production-grade isn't a tagline. It's the metric.",
+    "H3 How Prelude became an AI-native design team that ships its own PRs.",
+    "H2 Try it on your codebase.",
+    "H2 Code your engineers want to merge.",
+    "H3 Type-safe changes.",
+    "H3 No generated UI debt."
+   ],
+   "fonts": [
+    "apkGaleria 400 normal",
+    "inter normal normal",
+    "jetbrainsMono normal normal",
+    "digiDecay normal normal",
+    "apkGaleria 400 normal",
+    "inter normal normal",
+    "jetbrainsMono normal normal",
+    "digiDecay normal normal"
+   ],
+   "firstViewTextSample": "modeinspect\nProduct\nEnterprise\nPricing\nAbout\nSign in\nGet started\nDesign in code.\nSkip the handoff.\n\nModeinspect is a design canvas with your codebase and agents built in. It's where teams design high-fidelity features.\n\nGet started\nPricing\nSign in\nPRICING\nGet started\nContact\n$0\n/mo\nChoose\n$24\n/mo\nChoose\n$48\n/mo\nChoose\n400 × 300\nCodebase\nacme\nShop now\n$48\n$32\n$64\n$28\nCodebase - Mobile\nacme\nShop\n$48\n$32\n$64\n$28\nExplore\nBuild\nExplore\nAcme Store\nShare\nM\nFrame\nPosition\nX\n523px\nY\n127px\nSize\nW\n400px\nH\n300px\nLayout\nClip content\n0\n0\n0\n0\nAppearance\n100\nnone\nFill\nColor\n#FFFFFF\nImage\nNone\nBorder\n62%\nLOVED BY DESIGN ENGINEERS AT\nmoss\nmoss\nCanvas and code, unified.\nOne place for everything.\n\nYour codebase, the canvas, and coding agents, integrated. Code to canvas in one click, canvas to code in one shot.\n\nEverything in one place\n\nYour codebase, the canvas, and coding agents, integrated out of the box. No MCP servers, no localhost, no devops glue.\n\nLive product on canvas\n\nCapture any element of your live product onto the canvas, pixel perfect and fully editable.\n\nVibe coding gets you to 80%.\nModeinspect is the last 20%.\n\nVisual controls, your components and tokens 1:1, and canvas to code in one shot.\n\nControls, not prompts\n\nA padding change shouldn't take a paragraph. Edit anything, on canvas or in code, with the visual controls you already know.\n\nCanvas to code in one shot\n\nYour changes build back as clean, scoped diffs with your design system enforced.\n\nShare the real thing.\nNot a localho",
+   "pageHeight": 11413,
+   "hasHScroll": false,
+   "visibleChars": 8330,
+   "landmarks": {
+    "header": 1,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "reveal-in",
+    "target": "div.reveal-in",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 900,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "marquee",
+    "target": "div.animate-marquee.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 8,
+   "ro": 1,
+   "animateCalls": 1,
+   "canvasContexts": [],
+   "lcp": {
+    "t": 1044,
+    "tag": "P",
+    "id": null,
+    "size": 37576,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 0,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 0,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 84,
+   "settle98Ms": 84,
+   "distinctPositions": 2,
+   "samples": 106,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 2,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "reveal-in",
+      "target": "div.reveal-in",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 900,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "marquee",
+      "target": "div.animate-marquee.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 5707,
+    "count": 2,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "reveal-in",
+      "target": "div.reveal-in",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 900,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "marquee",
+      "target": "div.animate-marquee.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 10513,
+    "count": 2,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "reveal-in",
+      "target": "div.reveal-in",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 900,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "marquee",
+      "target": "div.animate-marquee.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 110,
+   "totalBytes": 5416547,
+   "byType": {
+    "Document": 48050,
+    "Font": 191708,
+    "Script": 562384,
+    "Image": 31516,
+    "Stylesheet": 21665,
+    "XHR": 461,
+    "Other": 7759,
+    "Fetch": 60081,
+    "Media": 4492923
+   },
+   "hosts": {
+    "modeinspect.com": 5291854,
+    "sync.modeinspect.com": 86053,
+    "bzrcdn.openai.com": 28202,
+    "static.cloudflareinsights.com": 10438,
+    "": 0
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f"
+   ],
+   "htmlCls": "apkgaleria_a1abf606-module__z93gAG__variable inter_be9b6bd2-module__JP4lda__variable jetbrainsmono_60417ef-module__W1oeIG__variable digidecay_3eb55036-module__fCHyWW__variable bg-bg text-fg antialiased",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Everything%20In%20One%20Place.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Explore%20-%20No%20Bg.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Design%20Controls%20-%20No%20Border.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Build%20To%20Product%20-%20No%20Bg.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Interactive%20Mode.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://modeinspect.com/video/Mode%20-%20Share%20-%20No%20Bg.webm",
+      "w": 759,
+      "h": 427,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 35,
+   "scripts": [
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://modeinspect.com/_next/static/chunks/2d6o318wp00md.js",
+    "https://modeinspect.com/_next/static/chunks/1nx4qpfk-i_e-.js",
+    "https://modeinspect.com/_next/static/chunks/24vonj8wx89rr.js",
+    "https://modeinspect.com/_next/static/chunks/2zy-jc1383kxo.js",
+    "https://modeinspect.com/_next/static/chunks/turbopack-03ca3oo2rh8_9.js",
+    "https://modeinspect.com/_next/static/chunks/0e-mlc94j34_0.js",
+    "https://modeinspect.com/_next/static/chunks/00i0p4bsv-8b0.js",
+    "https://modeinspect.com/_next/static/chunks/1vd01guch5800.js",
+    "https://modeinspect.com/_next/static/chunks/1zw2zt8p-4kl0.js",
+    "https://modeinspect.com/_next/static/chunks/2np59sx41qk_b.js",
+    "https://modeinspect.com/_next/static/chunks/3agrz8-rvovxu.js",
+    "https://modeinspect.com/_next/static/chunks/1stzg5r__qvds.js",
+    "https://modeinspect.com/_next/static/chunks/3k8joymulo_52.js",
+    "https://modeinspect.com/_next/static/chunks/3klk6hfq72p2d.js",
+    "https://modeinspect.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://modeinspect.com/_next/static/chunks/3j7pa202rww9p.js",
+    "https://sync.modeinspect.com/array/phc_zXBEVR2UkpUqQcMYW8ykomYcjRjoLpuu8RqxDQP7uBLG/config.js",
+    "https://sync.modeinspect.com/static/posthog-recorder.js?v=1.393.0",
+    "https://sync.modeinspect.com/static/dead-clicks-autocapture.js?v=1.393.0",
+    "https://sync.modeinspect.com/static/web-vitals.js?v=1.393.0",
+    "https://modeinspect.com/_next/static/chunks/2l9gk0054i84s.js",
+    "https://modeinspect.com/_next/static/chunks/3-hg6ougkudmh.js",
+    "https://modeinspect.com/_next/static/chunks/121vse26ciog-.js",
+    "https://modeinspect.com/_next/static/chunks/0i_qudf9zxsz-.js",
+    "https://modeinspect.com/_next/static/chunks/0spyd0o7-jg7j.js",
+    "https://modeinspect.com/_next/static/chunks/31-89sh-hz6zh.js",
+    "https://modeinspect.com/_next/static/chunks/1f5e59cxjibv8.js",
+    "https://modeinspect.com/_next/static/chunks/3yhx61d3lga3_.js",
+    "https://modeinspect.com/_next/static/chunks/1wse2765475r7.js",
+    "https://modeinspect.com/_next/static/chunks/27heu10suiy7i.js",
+    "https://modeinspect.com/_next/static/chunks/2ki9ezc44rqhc.js",
+    "https://modeinspect.com/_next/static/chunks/1hzmrzkqwk9ua.js",
+    "https://modeinspect.com/_next/static/chunks/2iho8jepmwwua.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+   ],
+   "inlineScripts": 19,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "1P modeinspect.com/_next/static/chunks/3j7pa202rww9p.js"
+   ],
+   "scrollTimelineJS": [
+    "1P modeinspect.com/_next/static/chunks/1stzg5r__qvds.js",
+    "1P modeinspect.com/_next/static/chunks/2np59sx41qk_b.js",
+    "1P modeinspect.com/_next/static/chunks/121vse26ciog-.js"
+   ],
+   "intersection": [
+    "1P modeinspect.com/_next/static/chunks/1stzg5r__qvds.js",
+    "1P modeinspect.com/_next/static/chunks/3klk6hfq72p2d.js",
+    "1P modeinspect.com/_next/static/chunks/2np59sx41qk_b.js",
+    "1P modeinspect.com/_next/static/chunks/24vonj8wx89rr.js"
+   ],
+   "webgl": [
+    "3P sync.modeinspect.com/static/posthog-recorder.js?v=1.393.0"
+   ],
+   "wasm": [
+    "1P modeinspect.com/_next/static/chunks/turbopack-03ca3oo2rh8_9.js"
+   ]
+  },
+  "scriptsScanned": 34,
+  "cssFeatures": {
+   "@property": 136,
+   "backdrop-filter": 58,
+   "mix-blend-mode": 28,
+   "content-visibility": 2,
+   "will-change": 10,
+   "sticky": 8,
+   "text-wrap": 10,
+   "color-mix(": 242,
+   "oklch(": 12,
+   "lab(": 30,
+   "@container": 2,
+   "clip-path": 2,
+   "mask-image": 10,
+   "prefers-reduced-motion": 4
+  },
+  "cssBytes": {
+   "linked": 120104,
+   "inline": 120284,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 1,
+   "infinite": 0,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "reveal-in",
+     "target": "div.reveal-in",
+     "props": [
+      "opacity",
+      "transform"
+     ],
+     "duration": 0,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 8330,
+  "paintedChars": 829,
+  "paintedCharsFirstViewport": 219,
+  "h1": "Design in code.\nSkip the handoff.",
+  "firstViewportText": "modeinspect | Product | Enterprise | Pricing | About | Sign in | Get started | Design in code.\nSkip the handoff. | Modeinspect is a design canvas with your codebase and agents built in. It's where teams design high-fidelity features. | Get started"
+ }
+}

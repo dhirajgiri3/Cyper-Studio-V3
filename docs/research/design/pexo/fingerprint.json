@@ -1,0 +1,1824 @@
+{
+ "slug": "pexo",
+ "url": "https://pexo.ai/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 2732,
+  "consent": [],
+  "finalUrl": "https://pexo.ai/",
+  "transferFirstLoad": {
+   "requests": 153,
+   "totalBytes": 20595571,
+   "byType": {
+    "Document": 81205,
+    "Font": 288307,
+    "Stylesheet": 62307,
+    "Script": 1056226,
+    "Image": 3304313,
+    "Other": 9621,
+    "Fetch": 1785,
+    "XHR": 15789086,
+    "Preflight": 0,
+    "FedCM": 2169,
+    "Ping": 552
+   },
+   "hosts": {
+    "cdn.pexo.ai": 18927575,
+    "pexo.ai": 1309976,
+    "www.googletagmanager.com": 178936,
+    "accounts.google.com": 104874,
+    "news.google.com": 39453,
+    "scripts.clarity.ms": 26111,
+    "r.wdfl.co": 4578,
+    "www.clarity.ms": 1152,
+    "c.clarity.ms": 720,
+    "firebaseinstallations.googleapis.com": 560,
+    "stats.g.doubleclick.net": 552,
+    "r.clarity.ms": 542,
+    "firebase.googleapis.com": 348,
+    "google.com": 131
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-EYQFTYMSGT",
+     "bytes": 178936
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/4bae259acf05e5ba.js",
+     "bytes": 158353
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/faea5ac1feef4cf9.js",
+     "bytes": 107294
+    },
+    {
+     "url": "https://accounts.google.com/gsi/client",
+     "bytes": 102194
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/1c87a046726b0c2a.js",
+     "bytes": 59131
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/d9ee965bc91daa52.js",
+     "bytes": 46199
+    },
+    {
+     "url": "https://news.google.com/swg/js/v1/publisher.js",
+     "bytes": 39453
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/447cd2625c93b87f.js",
+     "bytes": 34188
+    },
+    {
+     "url": "https://scripts.clarity.ms/0.8.72-beta/clarity.js",
+     "bytes": 26111
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/19d0a14800e571b0.js",
+     "bytes": 25652
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/0782163fb6aef57d.js",
+     "bytes": 23546
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/f19b2240080e2d71.js",
+     "bytes": 20679
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/e337aeb020e113c4.js",
+     "bytes": 17802
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/b9947a5f1b9b8a0f.js",
+     "bytes": 14085
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/5899158964fc08dd.js",
+     "bytes": 13567
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/6692d4f8b3826721.js",
+     "bytes": 13204
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/de53bd3f7a391e33.js",
+     "bytes": 13184
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/249b40f3bff55316.js",
+     "bytes": 12641
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/ec24b0b3d136e12b.js",
+     "bytes": 11340
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/3b06e222055a210b.js",
+     "bytes": 10439
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/a5113758ac646d24.js",
+     "bytes": 10082
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/56927e4e063f5b90.js",
+     "bytes": 9582
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/30c772a919f21789.js",
+     "bytes": 9433
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/c7cf22a32eb6fe9b.js",
+     "bytes": 9207
+    },
+    {
+     "url": "https://pexo.ai/_next/static/chunks/4a1b39ee5bcc4e38.js",
+     "bytes": 9095
+    }
+   ]
+  },
+  "dom": {
+   "title": "Pexo: AI Video Agent for Effortless Video Creation",
+   "lang": "en",
+   "colorScheme": "light",
+   "description": "Pexo is an AI Video Agent that turns ideas into videos through natural conversation. No advanced AI video generator skills required. Just tell Pexo your ideas. ",
+   "ogImage": "https://pexo.ai/og-image.png",
+   "canonical": "https://pexo.ai/",
+   "jsonLd": [
+    []
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Hi, I'm Pexo. The AI video agent that turns your ideas into videos.",
+    "font-family": "Outfit, sans-serif",
+    "font-size": "54px",
+    "font-weight": "500",
+    "line-height": "63.72px",
+    "letter-spacing": "normal",
+    "color": "rgb(42, 41, 35)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "How Pexo Delivers A Full Video",
+     "font-family": "Outfit, sans-serif",
+     "font-size": "40px",
+     "font-weight": "500",
+     "line-height": "50px",
+     "letter-spacing": "normal",
+     "color": "rgb(42, 41, 35)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "One agent for every kind of video",
+     "font-family": "Outfit, sans-serif",
+     "font-size": "40px",
+     "font-weight": "500",
+     "line-height": "50px",
+     "letter-spacing": "normal",
+     "color": "rgb(42, 41, 35)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Pexo Makes Publish-Ready Videos for TikTok, YouTube, Instagram, X, and More",
+     "font-family": "Outfit, sans-serif",
+     "font-size": "54px",
+     "font-weight": "500",
+     "line-height": "63.72px",
+     "letter-spacing": "normal",
+     "color": "rgb(42, 41, 35)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    }
+   ],
+   "body": {
+    "font-family": "outfit, Inter, \"Inter Fallback\", ui-sans-serif, system-ui, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(23, 23, 23)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(243, 243, 241)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "AI Video Agent",
+     "x": 384,
+     "y": 16,
+     "w": 106,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create",
+     "x": 518,
+     "y": 16,
+     "w": 66,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Toolkit",
+     "x": 611,
+     "y": 16,
+     "w": 64,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Gallery",
+     "x": 702,
+     "y": 16,
+     "w": 69,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Resources",
+     "x": 799,
+     "y": 16,
+     "w": 89,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "a",
+     "text": "CLI/MCP",
+     "x": 914,
+     "y": 16,
+     "w": 65,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "a",
+     "text": "Pricing",
+     "x": 1006,
+     "y": 16,
+     "w": 49,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "8px",
+     "font": "16px/500",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Get Started",
+     "x": 1284,
+     "y": 16,
+     "w": 132,
+     "h": 40,
+     "bg": "rgb(42, 41, 35)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "12px",
+     "font": "16px/500",
+     "border": "0px none rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "a",
+     "text": "PRODUCT HUNT\n#1  Product of the Day",
+     "x": 599,
+     "y": 121,
+     "w": 242,
+     "h": 59,
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.48)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "3.35544e+07px",
+     "font": "16px/400",
+     "border": "1px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.82)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a mascot launch video",
+     "x": -456,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a launch video",
+     "x": 68,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make a collage-style explainer",
+     "x": 592,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create an AI avatar video",
+     "x": 1116,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a SaaS launch video",
+     "x": 1640,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make a kinetic typography explainer",
+     "x": 2164,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a brand launch video",
+     "x": 2688,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make an educational explainer",
+     "x": 3212,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make an infographic product animation",
+     "x": 3736,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make an App demo",
+     "x": 4260,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Explain a service",
+     "x": 4784,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create social ads",
+     "x": 5308,
+     "y": 601,
+     "w": 162,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a cinematic short film",
+     "x": 5482,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Create a live-action instructional video",
+     "x": 6006,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    },
+    {
+     "tag": "button",
+     "text": "Make an animation",
+     "x": 6530,
+     "y": 601,
+     "w": 162,
+     "h": 288,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(42, 41, 35)",
+     "radius": "6px",
+     "font": "16px/400",
+     "border": "0px solid rgb(217, 217, 217)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "fixed",
+    "h": 72,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(217, 217, 217)",
+    "links": [
+     "AI Video Agent",
+     "Create",
+     "Toolkit",
+     "Gallery",
+     "Resources",
+     "CLI/MCP",
+     "Pricing",
+     "Language",
+     "Get Started",
+     "Get Started",
+     "Open navigation menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 24,
+     "y": 22,
+     "w": 82,
+     "h": 26,
+     "src": "https://pexo.ai/_next/static/media/icon-logo-text.72d6b062.svg",
+     "natural": [
+      616,
+      196
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Pexo",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 614,
+     "y": 136,
+     "w": 18,
+     "h": 29,
+     "src": "https://pexo.ai/_next/static/media/icon-laurel-left.ce4596f4.svg",
+     "natural": [
+      18,
+      30
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 808,
+     "y": 136,
+     "w": 18,
+     "h": 29,
+     "src": "https://pexo.ai/_next/static/media/icon-laurel-right.721395cb.svg",
+     "natural": [
+      18,
+      30
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1081,
+     "y": 513,
+     "w": 20,
+     "h": 20,
+     "src": "https://pexo.ai/_next/static/media/icon-landing-hero-send-disabled.ce71ea5d.svg",
+     "natural": [
+      20,
+      20
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "video",
+     "x": -456,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": "blob:https://pexo.ai/7452fb25-467e-4cfd-91c2-440a265d9bf8",
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/ab6080c6267445b398f3178630f6f441/covers/Pexo-Logo-Dance-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 68,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": "blob:https://pexo.ai/45754ef4-a158-415c-bd6f-6cb0736bd305",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/e29cad0e73914c57b37a15dbb8bf82cf/covers/edit-0b92821858084fc6b0ee57752cf1ad66-ai-travel-plan-flow.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 592,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": "blob:https://pexo.ai/e8608fae-b263-48cd-8f44-eb89647ca498",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/3975f535a69b4c9db86b22e7151191b2/covers/Outrank-Pexo-Clean-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 1116,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": "blob:https://pexo.ai/a21241b2-f7bd-4ee5-a23a-9fdacfe9534c",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/2296de42d6e546529df847a278a56cf4/covers/product-designer-build-less-think-more-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 1640,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/01b04995a23348e7b971e01886e980a7/covers/Supermemory-Pexo-Clean-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 2164,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/a42e3e9fcf1c413b9449aaad7d86690f/covers/Espressio-AI-Pexo-Clean-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 2688,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/eb5b1fe4918e44bc9b8d2c38ccce38e7/covers/Narrativ3-Pexo-Clean-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 3212,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/8cb939ba8b0a440c8e2a76888fab61dc/covers/SSO_whiteboard.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 3736,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/95c222ac4d6a435d9afbae34bbf24b21/covers/cover_rift_6s.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 4260,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/ea7f7ae33b01415586ca57ea8bc6ceea/covers/cover_moodchef_22s.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 4784,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/a8ecd422bb8a464baa755d0cb8688a01/covers/cover_jmarkei_4s.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 5308,
+     "y": 601,
+     "w": 162,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/fdc5217d24b14f14981d0b72df5a47a1/covers/low-sugar-candy-campaign-cover.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 5482,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/4ef2fc7607694ac38914398f0d075555/covers/edit-d29b38171b0e44159241bd717d04f9b9-hero-8-create-a-cinematic-short-film.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 6006,
+     "y": 601,
+     "w": 512,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/d6387911b20f4f6ba3d1e14d1e4d99e0/covers/live-action-blood-pressure_cover_15s.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 6530,
+     "y": 601,
+     "w": 162,
+     "h": 288,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://cdn.pexo.ai/materials/b1f2e172574d4a948c4328cd0f3126ee/covers/pixar-animation.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 674,
+     "y": 1355,
+     "w": 643,
+     "h": 343,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://pexo.ai/_next/static/media/idea.f4efa8d3.webp",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "video",
+     "x": 720,
+     "y": 1729,
+     "w": 553,
+     "h": 295,
+     "src": null,
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://pexo.ai/_next/static/media/plan.db99564a.webp",
+     "playsinline": true,
+     "sources": []
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "section",
+     "cls": "overflow-hidden hero-section-module__TWv",
+     "w": 1440,
+     "h": 1016,
+     "bg": "radial-gradient(133.36% 150.51% at 49.7% 91.53%, rgba(99, 120, 253, 0) 50.16%, rgba(99, 120, 253, 0.5) 78.37%, rgb(99, 120, 253) 100%), none"
+    },
+    {
+     "tag": "span",
+     "cls": "bg-gradient-to-r from-[#c641ff] to-[#ffa",
+     "w": 95,
+     "h": 18,
+     "bg": "linear-gradient(to right in oklab, rgb(198, 65, 255) 0%, rgb(255, 161, 20) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 162,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 512,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 162,
+     "h": 288,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 28%, rgba(0, 0, 0, 0.28) 74%, rgba(0, 0, 0, 0.62) 100%)"
+    },
+    {
+     "tag": "span",
+     "cls": "absolute -translate-y-1/2 rounded-full t",
+     "w": 28,
+     "h": 28,
+     "bg": "linear-gradient(to top, rgb(251, 216, 255), rgb(254, 242, 255))"
+    },
+    {
+     "tag": "span",
+     "cls": "absolute -translate-y-1/2 rounded-full t",
+     "w": 18,
+     "h": 18,
+     "bg": "linear-gradient(to top, rgb(209, 223, 255), rgb(236, 242, 255))"
+    },
+    {
+     "tag": "span",
+     "cls": "absolute -translate-y-1/2 rounded-full t",
+     "w": 18,
+     "h": 18,
+     "bg": "linear-gradient(to top, rgb(255, 250, 180), rgb(255, 253, 232))"
+    },
+    {
+     "tag": "span",
+     "cls": "absolute -translate-y-1/2 rounded-full t",
+     "w": 18,
+     "h": 18,
+     "bg": "linear-gradient(to top, rgb(197, 255, 249), rgb(234, 255, 253))"
+    }
+   ],
+   "fontShare": {
+    "Outfit": 6906
+   },
+   "bgs": {
+    "rgb(243, 243, 241)": 19112063,
+    "rgb(249, 247, 241)": 53213886,
+    "rgb(255, 255, 255)": 1276820,
+    "rgb(0, 0, 0)": 1329720
+   },
+   "counts": {
+    "gradients": 52,
+    "backdrop": 1,
+    "filters": 8,
+    "video": 38,
+    "canvas": 0,
+    "svg": 28,
+    "img": 72,
+    "buttons": 49,
+    "forms": 0,
+    "tables": 0,
+    "details": 4,
+    "links": 88,
+    "iframes": 1
+   },
+   "headings": [
+    "H1 Hi, I'm Pexo. The AI video agent that turns your ideas into videos.",
+    "H2 How Pexo Delivers A Full Video",
+    "H2 One agent for every kind of video",
+    "H3 Kinetic Typography",
+    "H3 2.5D Animation",
+    "H3 Whiteboard Animation",
+    "H3 Paper Animation",
+    "H3 Line Art",
+    "H3 Animated Explainer Video",
+    "H3 Motion Graphics",
+    "H3 App Launch Video",
+    "H3 Talking Head Video",
+    "H3 Music Video",
+    "H3 Anime",
+    "H3 UGC Ads",
+    "H3 Product Ads"
+   ],
+   "fonts": [
+    "Outfit 400 normal",
+    "Outfit 500 normal",
+    "Outfit 600 normal"
+   ],
+   "firstViewTextSample": "AI Video Agent\nCreate\nToolkit\nGallery\nResources\nCLI/MCP\nPricing\nGet Started\nPRODUCT HUNT\n#1  Product of the Day\nHi, I'm Pexo. The AI video agent that turns your ideas into videos.\n\nSimply talk to Pexo to create publish-ready videos instantly.\n\nTell Pexo what video you want to create\nAdd\nto create an explainer video with animated charts\n\nStart with a URL, PDF, image, video, audio, or your idea.\n\nCreate a mascot launch video\nCreate a launch video\nMake a collage-style explainer\nCreate an AI avatar video\nCreate a SaaS launch video\nMake a kinetic typography explainer\nCreate a brand launch video\nMake an educational explainer\nMake an infographic product animation\nMake an App demo\nExplain a service\nCreate social ads\nCreate a cinematic short film\nCreate a live-action instructional video\nMake an animation\nHow Pexo Delivers A Full Video\n\nPaste a URL, an image, an audio, or a reference, Pexo writes, creates, and delivers your video end-to-end.\n\nStart with an idea\nShare a link, image, audio clip, or reference, and tell Pexo what you want to create.\nPexo plans it all\nPexo works with you to develop the script, scenes, shots, and creative direction.\nChat to refine video\nMark what you want to fix and make changes through conversation, just like commenting in a Google Doc.\nGet a ready-to-post video\nPexo delivers a polished video complete with voiceover, music, motion graphics, and more.\n\nWHAT YOU CAN CREATE\n\nOne agent for every kind of video\nMG Explainer\nLaunch Videos\nStory & Films\nProduct Ads",
+   "pageHeight": 13272,
+   "hasHScroll": false,
+   "visibleChars": 7209,
+   "landmarks": {
+    "header": 1,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 39,
+   "ro": 4,
+   "animateCalls": 0,
+   "canvasContexts": [],
+   "lcp": {
+    "t": 3004,
+    "tag": "VIDEO",
+    "id": null,
+    "size": 147456,
+    "url": "https://cdn.pexo.ai/materials/e29cad0e73914c57b37a15dbb8bf82cf/covers/edit-0b92821858084fc6b0ee57752cf1ad66-ai-travel-plan-flow.webp"
+   },
+   "cls": 0.0001,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "node"
+    }
+   ]
+  },
+  "idleRafPerSecond": 30,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 60,
+   "settle98Ms": 60,
+   "distinctPositions": 2,
+   "samples": 67,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 6636,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 12372,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   }
+  ],
+  "navOpenToggle": "Create",
+  "transferAfterScroll": {
+   "requests": 262,
+   "totalBytes": 27202492,
+   "byType": {
+    "Document": 81205,
+    "Font": 288307,
+    "Stylesheet": 62307,
+    "Script": 1056226,
+    "Image": 5429661,
+    "Other": 9621,
+    "Fetch": 7421,
+    "XHR": 19161042,
+    "Preflight": 0,
+    "FedCM": 2169,
+    "Ping": 552,
+    "Media": 1103981
+   },
+   "hosts": {
+    "cdn.pexo.ai": 23067520,
+    "pexo.ai": 3775868,
+    "www.googletagmanager.com": 178936,
+    "accounts.google.com": 104874,
+    "news.google.com": 39453,
+    "scripts.clarity.ms": 26111,
+    "r.wdfl.co": 4578,
+    "r.clarity.ms": 1626,
+    "www.clarity.ms": 1152,
+    "c.clarity.ms": 720,
+    "firebaseinstallations.googleapis.com": 560,
+    "stats.g.doubleclick.net": 552,
+    "firebase.googleapis.com": 348,
+    "google.com": 131
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "gtag",
+    "dataLayer",
+    "clarity"
+   ],
+   "htmlCls": "light geist_deef94d5-module__Sms4YG__variable geist_mono_1bf8cbf6-module__FlyLvG__variable reenie_beanie_1eecd850-module__s4nSFa__variable plus_jakarta_sans_28fce1ac-module__b1uA9W__variable outfit_8a65d8c4-module__n3LtlG__variable inter_148788c5-module__ZYKWsa__variable poppins_69c530bc-module__SvJW5W__variable playfair_display_4235cde5-module__CDULrq__variable antialiased",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/b8630d83-cf48-4ce6-b0ab-4d98c5cf0078",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 162,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 162,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/7452fb25-467e-4cfd-91c2-440a265d9bf8",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/45754ef4-a158-415c-bd6f-6cb0736bd305",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/e8608fae-b263-48cd-8f44-eb89647ca498",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/a21241b2-f7bd-4ee5-a23a-9fdacfe9534c",
+      "w": 512,
+      "h": 288,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://pexo.ai/landing/how-to/idea.mp4",
+      "w": 553,
+      "h": 295,
+      "inHero": true
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://pexo.ai/landing/how-to/plan.mp4",
+      "w": 643,
+      "h": 343,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://pexo.ai/landing/how-to/refine.mp4",
+      "w": 553,
+      "h": 295,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 553,
+      "h": 295,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/c3e93510-4a57-4e7c-87f0-191089d465fb",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/2d4df547-9398-4e85-b1ca-bafec19f3fdd",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 578,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "",
+      "w": 183,
+      "h": 325,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "blob:https://pexo.ai/69bad361-efa1-47e7-b1c9-8ebc50b4b104",
+      "w": 255,
+      "h": 573,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 43,
+   "scripts": [
+    "https://scripts.clarity.ms/0.8.72-beta/clarity.js",
+    "https://www.clarity.ms/tag/xmrjrd0o52",
+    "https://pexo.ai/_next/static/chunks/9e157c2233e5b8ef.js",
+    "https://pexo.ai/_next/static/chunks/1c87a046726b0c2a.js",
+    "https://pexo.ai/_next/static/chunks/e337aeb020e113c4.js",
+    "https://pexo.ai/_next/static/chunks/6692d4f8b3826721.js",
+    "https://pexo.ai/_next/static/chunks/turbopack-9068d907ff517f6f.js",
+    "https://pexo.ai/_next/static/chunks/d2d06e8d73636cd4.js",
+    "https://pexo.ai/_next/static/chunks/c9dc2ba3f86ede74.js",
+    "https://pexo.ai/_next/static/chunks/f5a007aea6ed64b7.js",
+    "https://pexo.ai/_next/static/chunks/3b06e222055a210b.js",
+    "https://pexo.ai/_next/static/chunks/30c772a919f21789.js",
+    "https://pexo.ai/_next/static/chunks/3218f5fae18152da.js",
+    "https://pexo.ai/_next/static/chunks/a5113758ac646d24.js",
+    "https://pexo.ai/_next/static/chunks/b9947a5f1b9b8a0f.js",
+    "https://pexo.ai/_next/static/chunks/4a1b39ee5bcc4e38.js",
+    "https://pexo.ai/_next/static/chunks/d20363ccd50c788c.js",
+    "https://pexo.ai/_next/static/chunks/faea5ac1feef4cf9.js",
+    "https://pexo.ai/_next/static/chunks/c7cf22a32eb6fe9b.js",
+    "https://pexo.ai/_next/static/chunks/19d0a14800e571b0.js",
+    "https://pexo.ai/_next/static/chunks/910c42ca4c81df88.js",
+    "https://pexo.ai/_next/static/chunks/249b40f3bff55316.js",
+    "https://pexo.ai/_next/static/chunks/f19b2240080e2d71.js",
+    "https://pexo.ai/_next/static/chunks/de53bd3f7a391e33.js",
+    "https://pexo.ai/_next/static/chunks/d9ee965bc91daa52.js",
+    "https://pexo.ai/_next/static/chunks/5899158964fc08dd.js",
+    "https://pexo.ai/_next/static/chunks/4bae259acf05e5ba.js",
+    "https://pexo.ai/_next/static/chunks/447cd2625c93b87f.js",
+    "https://pexo.ai/_next/static/chunks/f0154d80611273a3.js",
+    "https://pexo.ai/_next/static/chunks/bfbc603b765d0947.js",
+    "https://pexo.ai/_next/static/chunks/ec24b0b3d136e12b.js",
+    "https://pexo.ai/_next/static/chunks/0782163fb6aef57d.js",
+    "https://pexo.ai/_next/static/chunks/56927e4e063f5b90.js",
+    "https://pexo.ai/_next/static/chunks/6dc94485eadbb071.js",
+    "https://pexo.ai/_next/static/chunks/cc6c74cf14595f9a.js",
+    "https://pexo.ai/_next/static/chunks/a6dad97d9634a72d.js",
+    "https://pexo.ai/translation-dom-compat.js",
+    "https://r.wdfl.co/rw.js",
+    "https://pexo.ai/_next/static/chunks/e89c605080fe3a9c.js",
+    "https://news.google.com/swg/js/v1/publisher.js",
+    "https://accounts.google.com/gsi/client",
+    "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-EYQFTYMSGT",
+    "https://pexo.ai/_next/static/chunks/69e6e53f3150d091.js"
+   ],
+   "inlineScripts": 77,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "none"
+  },
+  "documentHeaders": {
+   "server": "nginx/1.31.6",
+   "via": "1.1 google",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "framerMotion": [
+    "1P pexo.ai/_next/static/chunks/d9ee965bc91daa52.js"
+   ],
+   "splitting": [
+    "1P pexo.ai/_next/static/chunks/faea5ac1feef4cf9.js"
+   ],
+   "scrollTimelineJS": [
+    "1P pexo.ai/_next/static/chunks/d9ee965bc91daa52.js"
+   ],
+   "intersection": [
+    "1P pexo.ai/_next/static/chunks/e337aeb020e113c4.js",
+    "1P pexo.ai/_next/static/chunks/f19b2240080e2d71.js",
+    "1P pexo.ai/_next/static/chunks/d9ee965bc91daa52.js",
+    "1P pexo.ai/_next/static/chunks/ec24b0b3d136e12b.js"
+   ],
+   "webgl": [
+    "1P pexo.ai/_next/static/chunks/faea5ac1feef4cf9.js"
+   ],
+   "shader": [
+    "1P pexo.ai/_next/static/chunks/faea5ac1feef4cf9.js"
+   ],
+   "wasm": [
+    "1P pexo.ai/_next/static/chunks/turbopack-9068d907ff517f6f.js"
+   ]
+  },
+  "scriptsScanned": 49,
+  "cssFeatures": {
+   "@property": 93,
+   "scroll-snap-type": 1,
+   "backdrop-filter": 32,
+   "mix-blend-mode": 1,
+   "content-visibility": 1,
+   "will-change": 4,
+   "sticky": 6,
+   "text-wrap": 2,
+   "color-mix(": 516,
+   "lab(": 68,
+   "@container": 1,
+   ":has(": 6,
+   "clip-path": 1,
+   "mask-image": 3,
+   "prefers-reduced-motion": 3
+  },
+  "cssBytes": {
+   "linked": 402731,
+   "inline": 27787,
+   "files": 5
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 1870,
+  "paintedChars": 1762,
+  "paintedCharsFirstViewport": 402,
+  "h1": "Hi, I'm Pexo. The AI video agent that turns your ideas into videos.",
+  "firstViewportText": "AI Video Agent | Create | Toolkit | Gallery | Resources | CLI/MCP | Pricing | Get Started | PRODUCT HUNT\n#1  Product of the Day | Hi, I'm Pexo. The AI video agent that turns your ideas into videos. | Simply talk to Pexo to create publish-ready videos instantly. | Start with a URL, PDF, image, video, audio, or your idea."
+ }
+}

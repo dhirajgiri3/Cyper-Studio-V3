@@ -1,0 +1,3180 @@
+{
+ "slug": "adaline",
+ "url": "https://www.adaline.ai/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 569,
+  "consent": [],
+  "finalUrl": "https://www.adaline.ai/",
+  "transferFirstLoad": {
+   "requests": 56,
+   "totalBytes": 1783534,
+   "byType": {
+    "Document": 26341,
+    "Font": 259983,
+    "Stylesheet": 34494,
+    "Script": 706159,
+    "Image": 701311,
+    "Fetch": 52673,
+    "Other": 2266,
+    "XHR": 307
+   },
+   "hosts": {
+    "www.adaline.ai": 1578346,
+    "www.googletagmanager.com": 195428,
+    "analytics.ahrefs.com": 3349,
+    "googleads.g.doubleclick.net": 3161,
+    "plausible.io": 3122,
+    "www.google.com": 64,
+    "www.google.co.in": 64
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-16659508360",
+     "bytes": 195428
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/2a9a6835.9ed6f6e84a75e27f.js",
+     "bytes": 77580
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/e6502385.0a56673dc7410d5f.js",
+     "bytes": 58490
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/3fd69cd0-c7868b7246d6c5a6.js",
+     "bytes": 54311
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/52643-27e18c58c246e180.js",
+     "bytes": 51878
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/62092-df1b388207db326f.js",
+     "bytes": 40043
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/app/get-started/page-e7fdedaedc997792.js",
+     "bytes": 34651
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/74110-82631126d86a84aa.js",
+     "bytes": 30545
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/3467.4388ead249d5ae90.js",
+     "bytes": 28585
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/webpack-f92275e536c3fc82.js",
+     "bytes": 26178
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/app/layout-48d0a7b7b73eda86.js",
+     "bytes": 16378
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/71550-33c11b06312af24e.js",
+     "bytes": 10352
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/app/page-5e8cd7b10e43beca.js",
+     "bytes": 9324
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/95254-f2645480b2d19940.js",
+     "bytes": 9162
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/83278-6604a5b547e2e4ee.js",
+     "bytes": 7720
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/50464-2a11dc5099281864.js",
+     "bytes": 6983
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/19893-ced2bc48b5c5d603.js",
+     "bytes": 6690
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/51995-2d95102c23be1ec3.js",
+     "bytes": 6108
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/95483-cee9c9df4430a976.js",
+     "bytes": 3972
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/85498.9405456d520333b8.js",
+     "bytes": 3869
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/65034-8d3ec4374a6169f9.js",
+     "bytes": 3533
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/89291.7a60f88a958c0cc6.js",
+     "bytes": 3517
+    },
+    {
+     "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16659508360/?random=1791459275332&cv=11&fst=1791459275332&bg=ffffff&guid=ON",
+     "bytes": 3161
+    },
+    {
+     "url": "https://analytics.ahrefs.com/analytics.js",
+     "bytes": 3042
+    },
+    {
+     "url": "https://www.adaline.ai/_next/static/chunks/app/not-found-324ce0bb7e81e65e.js",
+     "bytes": 2725
+    }
+   ]
+  },
+  "dom": {
+   "title": "Adaline | Ship Agents That Self-Improve",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Adaline is an observability and evals platform for self-improving AI agents. It turns production traces into behaviors, evals, synthetic data, and verified improvements your team can approve and ship.",
+   "ogImage": "https://www.adaline.ai/metadata/og-image.png",
+   "canonical": "https://www.adaline.ai/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "WebPage",
+     [
+      "SoftwareApplication",
+      "WebApplication"
+     ]
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Never stop learning",
+    "font-family": "akkurat, \"akkurat Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "font-size": "53px",
+    "font-weight": "400",
+    "line-height": "64px",
+    "letter-spacing": "-2.12px",
+    "color": "rgb(10, 29, 8)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "Truly understand your agents",
+     "font-family": "akkurat, \"akkurat Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+     "font-size": "30px",
+     "font-weight": "400",
+     "line-height": "34.7px",
+     "letter-spacing": "-0.6px",
+     "color": "rgb(10, 29, 8)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Evals that write themselves",
+     "font-family": "akkurat, \"akkurat Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+     "font-size": "30px",
+     "font-weight": "400",
+     "line-height": "34.7px",
+     "letter-spacing": "-0.6px",
+     "color": "rgb(10, 29, 8)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "",
+     "font-family": "akkurat, \"akkurat Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+     "font-size": "30px",
+     "font-weight": "400",
+     "line-height": "34.7px",
+     "letter-spacing": "-0.6px",
+     "color": "rgb(10, 29, 8)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "akkurat, \"akkurat Fallback\", Inter, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "font-size": "18px",
+    "font-weight": "400",
+    "line-height": "26px",
+    "letter-spacing": "normal",
+    "color": "rgb(10, 29, 8)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(251, 253, 246)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Docs",
+     "x": 1106,
+     "y": 17,
+     "w": 60,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.208019 -0.0367171 0.0289654 / 0.85)",
+     "radius": "0px",
+     "font": "14px/400",
+     "border": "0px solid oklab(0.208019 -0.0367171 0.0289654 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Blog",
+     "x": 1166,
+     "y": 17,
+     "w": 60,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.208019 -0.0367171 0.0289654 / 0.85)",
+     "radius": "0px",
+     "font": "14px/400",
+     "border": "0px solid oklab(0.208019 -0.0367171 0.0289654 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Get Started",
+     "x": 1234,
+     "y": 16,
+     "w": 126,
+     "h": 32,
+     "bg": "rgb(32, 59, 20)",
+     "color": "rgb(251, 253, 246)",
+     "radius": "20px",
+     "font": "14px/400",
+     "border": "0px solid rgb(251, 253, 246)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "The Self-Improving Agent",
+     "x": 80,
+     "y": 257,
+     "w": 264,
+     "h": 26,
+     "bg": "rgb(236, 242, 223)",
+     "color": "rgb(32, 59, 20)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "0px solid rgb(32, 59, 20)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Get Started",
+     "x": 80,
+     "y": 509,
+     "w": 146,
+     "h": 40,
+     "bg": "rgb(32, 59, 20)",
+     "color": "rgb(251, 253, 246)",
+     "radius": "20px",
+     "font": "14px/400",
+     "border": "0px solid rgb(251, 253, 246)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Read Docs",
+     "x": 238,
+     "y": 509,
+     "w": 130,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(46, 59, 40)",
+     "radius": "20px",
+     "font": "14px/400",
+     "border": "1px solid rgb(197, 204, 182)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "nav",
+    "position": "sticky",
+    "h": 64,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(10, 29, 8)",
+    "links": [
+     "Adaline home",
+     "Docs",
+     "Blog",
+     "Get Started",
+     "Open menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 80,
+     "y": 23,
+     "w": 101,
+     "h": 18,
+     "paths": 1,
+     "cls": "text-meadow-900 h-[17px] w-auto md:h-[18"
+    },
+    {
+     "tag": "svg",
+     "x": 960,
+     "y": 122,
+     "w": 400,
+     "h": 563,
+     "paths": 1,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 123,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 309,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 520,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 688,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 836,
+     "y": 833,
+     "w": 98,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Same.svg",
+     "natural": [
+      98,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 998,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1232,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1403,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1563,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1696,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 1882,
+     "y": 833,
+     "w": 105,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Atria.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2051,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2221,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2432,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2580,
+     "y": 837,
+     "w": 54,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Serif.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2698,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 2869,
+     "y": 837,
+     "w": 102,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/SimpleDocs.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3035,
+     "y": 834,
+     "w": 113,
+     "h": 29,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Daybreak.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3212,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3371,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3557,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3725,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 3936,
+     "y": 835,
+     "w": 94,
+     "h": 27,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Statflo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4094,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4328,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4476,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4647,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4780,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 4940,
+     "y": 837,
+     "w": 117,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Symbolic.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5121,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5291,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5477,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5688,
+     "y": 837,
+     "w": 54,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Serif.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5806,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 5954,
+     "y": 836,
+     "w": 82,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/15Five.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6100,
+     "y": 834,
+     "w": 113,
+     "h": 29,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Daybreak.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6277,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6448,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6607,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6775,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 6961,
+     "y": 839,
+     "w": 114,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Crush%20and%20Lovely.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 7139,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 7373,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 7584,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 7732,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 7865,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8036,
+     "y": 836,
+     "w": 41,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Giift.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8141,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8311,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8470,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8656,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 8842,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9053,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9221,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9369,
+     "y": 833,
+     "w": 98,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Same.svg",
+     "natural": [
+      98,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9531,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9765,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 9936,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10096,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10229,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10415,
+     "y": 833,
+     "w": 105,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Atria.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10584,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10754,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 10965,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11113,
+     "y": 837,
+     "w": 54,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Serif.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11231,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11402,
+     "y": 837,
+     "w": 102,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/SimpleDocs.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11568,
+     "y": 834,
+     "w": 113,
+     "h": 29,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Daybreak.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11745,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 11904,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 12090,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 12258,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 12469,
+     "y": 835,
+     "w": 94,
+     "h": 27,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Statflo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 12627,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 12861,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13009,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13180,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13313,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13472,
+     "y": 837,
+     "w": 117,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Symbolic.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13653,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 13823,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14009,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14220,
+     "y": 837,
+     "w": 54,
+     "h": 24,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Serif.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14338,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14486,
+     "y": 836,
+     "w": 82,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/15Five.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14632,
+     "y": 834,
+     "w": 113,
+     "h": 29,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Daybreak.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14809,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 14980,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 15140,
+     "y": 836,
+     "w": 104,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Reforge.svg",
+     "natural": [
+      104,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 15308,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 15494,
+     "y": 839,
+     "w": 114,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Crush%20and%20Lovely.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 15672,
+     "y": 833,
+     "w": 170,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Superhuman.svg",
+     "natural": [
+      170,
+      32
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 15906,
+     "y": 838,
+     "w": 147,
+     "h": 21,
+     "src": "https://www.adaline.ai/logos/Customers/Small/DoorDash.svg",
+     "natural": [
+      147,
+      21
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16117,
+     "y": 836,
+     "w": 84,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Small/HubSpot.svg",
+     "natural": [
+      84,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16265,
+     "y": 835,
+     "w": 69,
+     "h": 26,
+     "src": "https://www.adaline.ai/logos/Customers/Large/Glue.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16398,
+     "y": 839,
+     "w": 107,
+     "h": 20,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Discord.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16569,
+     "y": 836,
+     "w": 41,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Giift.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16674,
+     "y": 835,
+     "w": 106,
+     "h": 28,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Coframe.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 16844,
+     "y": 833,
+     "w": 95,
+     "h": 32,
+     "src": "https://www.adaline.ai/logos/Customers/Small/McKinsey%20and%20Company.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 17003,
+     "y": 836,
+     "w": 122,
+     "h": 25,
+     "src": "https://www.adaline.ai/logos/Customers/Small/Salesforce.svg",
+     "natural": [
+      122,
+      25
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    }
+   ],
+   "bgImgs": [],
+   "fontShare": {
+    "fragmentMono": 149,
+    "GT America Mono": 1980,
+    "akkurat": 2970,
+    "Inter": 10,
+    "Newsreader": 24,
+    "Instrument Serif": 29
+   },
+   "bgs": {
+    "rgb(251, 253, 246)": 18677093,
+    "rgb(239, 242, 232)": 4681120,
+    "rgb(42, 51, 42)": 1572480,
+    "rgb(0, 0, 0)": 2327378,
+    "rgb(29, 34, 38)": 745976,
+    "rgb(5, 14, 17)": 622080
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 1,
+    "filters": 1,
+    "video": 0,
+    "canvas": 1,
+    "svg": 57,
+    "img": 119,
+    "buttons": 5,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 46,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Never stop learning",
+    "H2 Truly understand your agents",
+    "H2 Evals that write themselves",
+    "H2 ",
+    "H2 ",
+    "H2 ",
+    "H2 ",
+    "H2 Self-improve your agents now.",
+    "H3 COMPANY",
+    "H3 RESOURCES",
+    "H3 CONNECT"
+   ],
+   "fonts": [
+    "akkurat 400 normal",
+    "akkurat 700 normal",
+    "fragmentMono 400 normal",
+    "fragmentMono Fallback normal normal",
+    "Instrument Serif 400 normal",
+    "Instrument Serif Fallback normal normal",
+    "Newsreader Fallback normal normal"
+   ],
+   "firstViewTextSample": "Docs\nBlog\nGet Started\n?@!?/++|+&!#~&;;?*|#*^*#.|<:#:/&.%>;!#@$@.%_#+=+!~.^$|><_|@<@^\\_;*\n!!~.~~;>?|%#?^~$@~<_/|>|>;~@>~=;%+!:~|~/+>=_~#<#<+&.!.@+&#&*%/@|\\@\n|?._$%*=*.<#?_@<:.*+_!^@%=?|=|^>~^@;/|?#&<_|#!@^#_$<$;>=#/|:!/:*\\_\n~?<=~^|^?*>$?~~|=:?;^>\\@%?#_;.*=@~?|#<\\@>;^$%;!>!+/_=%*#!!|;#>*@^<\n&:_.*!#.%>!;+@.%^%@\\$<&=+&@*|/#<@$|><+!/|/*/~+\\@_#.&>*!&??^@?\\?;/+\n&~..@&_>+#&.$@?@~;?+/!_;?^>#<=></>@@|@~__=;\\=_/~^#|!>+*^@&#<%#+?.#\n;@.>\\@*#\\#;_\\|;?_@++|#&<@&**!/<*?~//_%=:+?<\\<&=@\\@<$?_@;~$|!$/~*@|\n&@@:!#~:>~|:;@/>+;<>$#:?<~^=|.*.<+;;=*##_*:<<_|@^$\\>?%+?\\&:|+$#.$|\n._@!;>#?>|?*=/!/>*/\\\\~>/<;/^&&!*&:\\=</&*<?|#?&>~<<$_?#+/*\\%/|;\\\\$^\n_!=@\\>~#;/?:.^?|;%#%_//*&$:\\|_=+*<#_$=^@$/*%^<\\/$^%<;+/^~~.#~_~%;_\n_^$+$|.=^^:<@#=_.!:;<?^|%~/*><?:!>+>/=*\\_^$|<!<=$?\\$?^@?%;+?:=@!__\n^/>=$_.~=!?/|_%^~##.;<+/|/.!+%&.</?~~$#>/!__|/%?^#+.*:=#^:$:>@|;*.\n\\?<~.#~:_=&*~^+_|#~>^/\\?_&!>&^~&\\:~+=__/:!|~@\\?#^^|~=\\?&:#/@|~$..%\n>\\~!\\.@?$.;.;<$!$\\<=??|\\=!+;#<%=../_?$$\\%\\#;&~!\\!.$_|=$|>&|!.&*$%?\n!>^\\#.;\\;_/%      ...---···---...      >.*!$?#|=&++@?~%^^<#/$++:~/\n*=~|/:<^;^#;;_**     ...---···---...      ==%@$$~>$._>?;#>~!~^&%/|\n~%+|:*/+#?;_\\#\\##.?      ...---···---...     $?~_;$#!!?<&?^|%$;%;!\n?^!\\$!@/;/>%\\:%??:\\_=#     ...---···---...      !/@&>^@#<&;@.^\\^\\*\n#<.*^:+#^>:$~*_$?;./!=:      ...---···---...     #\\#+_!##.>^=>$+#^\n*:=;:\\<|:#\\^@\\<??/\\_;:      ...---···---...      @=/;&._*+\\!_//;!|\n^~<=|.*$@%\\.!|;.&;+!      ...---···---...      ?@/;|||||/_|;%=$:^>\n!+\\<<!.*>/*@_=+/&      ...---···---...      ;#!&+>?~&\\>%~:&~**#*<~\n!#?^",
+   "pageHeight": 12970,
+   "hasHScroll": false,
+   "visibleChars": 2889,
+   "landmarks": {
+    "header": 0,
+    "nav": 1,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "first-load-nav-enter",
+    "target": "nav.sticky.top-0",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 520,
+    "delay": 580,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pen-stage-fade-in",
+    "target": "div.pen-stage-fade-in",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1000,
+    "delay": 750,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "first-load-rise-enter",
+    "target": "div.first-load-hero-copy-enter.flex",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 520,
+    "delay": 20,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "first-load-rise-enter",
+    "target": "div.first-load-hero-cta-enter.mt-[var(--space-gap-md)]",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 540,
+    "delay": 150,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "first-load-rise-enter",
+    "target": "div.first-load-trusted-by-enter.relative",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 600,
+    "delay": 500,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "customer-logo-marquee",
+    "target": "div.flex.w-max",
+    "props": [
+     "transform"
+    ],
+    "duration": 233000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 12,
+   "ro": 1,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "webgl2"
+   ],
+   "lcp": {
+    "t": 1620,
+    "tag": "PRE",
+    "id": null,
+    "size": 4776,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 0,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 120,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 92,
+   "settle98Ms": 92,
+   "distinctPositions": 2,
+   "samples": 105,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 26,
+    "infinite": 6,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-nav-enter",
+      "target": "nav.sticky.top-0",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pen-stage-fade-in",
+      "target": "div.pen-stage-fade-in",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1000,
+      "delay": 750,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-copy-enter.flex",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 20,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-cta-enter.mt-[var(--space-gap-md)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 540,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-trusted-by-enter.relative",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 600,
+      "delay": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "customer-logo-marquee",
+      "target": "div.flex.w-max",
+      "props": [
+       "transform"
+      ],
+      "duration": 233000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.-inset-[3px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2600,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.-inset-[3px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2600,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.-inset-[3px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2600,
+      "delay": 0,
+      "easing": "ease-in-out",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.pointer-events-none.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 900,
+      "delay": 0,
+      "easing": "ease-out",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 6485,
+    "count": 201,
+    "infinite": 185,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-nav-enter",
+      "target": "nav.sticky.top-0",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pen-stage-fade-in",
+      "target": "div.pen-stage-fade-in",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1000,
+      "delay": 750,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-copy-enter.flex",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 20,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-cta-enter.mt-[var(--space-gap-md)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 540,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-trusted-by-enter.relative",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 600,
+      "delay": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "customer-logo-marquee",
+      "target": "div.flex.w-max",
+      "props": [
+       "transform"
+      ],
+      "duration": 233000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 70,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 140,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 210,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 11290,
+    "count": 192,
+    "infinite": 173,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.relative.h-full",
+      "props": [
+       "transform"
+      ],
+      "duration": 360,
+      "delay": 0,
+      "easing": "cubic-bezier(0.32, 0.72, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-nav-enter",
+      "target": "nav.sticky.top-0",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pen-stage-fade-in",
+      "target": "div.pen-stage-fade-in",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1000,
+      "delay": 750,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-copy-enter.flex",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 20,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-hero-cta-enter.mt-[var(--space-gap-md)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 540,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "first-load-rise-enter",
+      "target": "div.first-load-trusted-by-enter.relative",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 600,
+      "delay": 500,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "customer-logo-marquee",
+      "target": "div.flex.w-max",
+      "props": [
+       "transform"
+      ],
+      "duration": 233000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "live-badge-pulse",
+      "target": "span.size-[4px].shrink-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 140,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 210,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.block.h-[7px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 280,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 81,
+   "totalBytes": 2246564,
+   "byType": {
+    "Document": 26341,
+    "Font": 318426,
+    "Stylesheet": 34494,
+    "Script": 824893,
+    "Image": 960507,
+    "Fetch": 79330,
+    "Other": 2266,
+    "XHR": 307
+   },
+   "hosts": {
+    "www.adaline.ai": 2041376,
+    "www.googletagmanager.com": 195428,
+    "analytics.ahrefs.com": 3349,
+    "googleads.g.doubleclick.net": 3161,
+    "plausible.io": 3122,
+    "www.google.com": 64,
+    "www.google.co.in": 64,
+    "": 0
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "plausible",
+    "gtag",
+    "dataLayer"
+   ],
+   "htmlCls": "__variable_b245a2 __variable_0cfe6f __variable_937831 __variable_bd9aa5 antialiased",
+   "styleAttr": null,
+   "els": {
+    "canvas": 1,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 14,
+   "scripts": [
+    "https://www.adaline.ai/_next/static/chunks/3fd69cd0-c7868b7246d6c5a6.js",
+    "https://www.adaline.ai/_next/static/chunks/52643-27e18c58c246e180.js",
+    "https://www.adaline.ai/_next/static/chunks/main-app-764baa7a28cb90b9.js",
+    "https://www.adaline.ai/_next/static/chunks/95254-f2645480b2d19940.js",
+    "https://www.adaline.ai/_next/static/chunks/50464-2a11dc5099281864.js",
+    "https://www.adaline.ai/_next/static/chunks/51995-2d95102c23be1ec3.js",
+    "https://www.adaline.ai/_next/static/chunks/19893-ced2bc48b5c5d603.js",
+    "https://www.adaline.ai/_next/static/chunks/83278-6604a5b547e2e4ee.js",
+    "https://www.adaline.ai/_next/static/chunks/polyfills-42372ed130431b0a.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16659508360/?random=1791459275332&cv=11&fst=1791459275332&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9192547345za200zd9192547345xecxf1&gcd=13l3l3R3l5l1&dma=0&tag_exp=115938465~115938469~117776795~118131808~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.adaline.ai%2F&rcb=18&frm=0&tiba=Adaline%20%7C%20Ship%20Agents%20That%20Self-Improve&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2018436450.1791459275&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://www.adaline.ai/_next/static/chunks/webpack-f92275e536c3fc82.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-16659508360",
+    "https://analytics.ahrefs.com/analytics.js",
+    "https://plausible.io/js/script.hash.outbound-links.pageview-props.tagged-events.js"
+   ],
+   "inlineScripts": 20,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "Vercel",
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "three": [
+    "1P www.adaline.ai/_next/static/chunks/2a9a6835.9ed6f6e84a75e27f.js",
+    "1P www.adaline.ai/_next/static/chunks/e6502385.0a56673dc7410d5f.js"
+   ],
+   "framerMotion": [
+    "1P www.adaline.ai/_next/static/chunks/83278-6604a5b547e2e4ee.js"
+   ],
+   "swiper": [
+    "1P www.adaline.ai/_next/static/chunks/app/get-started/page-e7fdedaedc997792.js"
+   ],
+   "scrollTimelineJS": [
+    "1P www.adaline.ai/_next/static/chunks/83278-6604a5b547e2e4ee.js",
+    "1P www.adaline.ai/_next/static/chunks/62092-df1b388207db326f.js"
+   ],
+   "intersection": [
+    "1P www.adaline.ai/_next/static/chunks/95254-f2645480b2d19940.js",
+    "1P www.adaline.ai/_next/static/chunks/19893-ced2bc48b5c5d603.js",
+    "1P www.adaline.ai/_next/static/chunks/app/layout-48d0a7b7b73eda86.js",
+    "1P www.adaline.ai/_next/static/chunks/62092-df1b388207db326f.js"
+   ],
+   "shader": [
+    "1P www.adaline.ai/_next/static/chunks/35515.969aa68e0ec1e16b.js",
+    "1P www.adaline.ai/_next/static/chunks/2a9a6835.9ed6f6e84a75e27f.js",
+    "1P www.adaline.ai/_next/static/chunks/e6502385.0a56673dc7410d5f.js"
+   ],
+   "barba": [
+    "1P www.adaline.ai/_next/static/chunks/app/get-started/page-e7fdedaedc997792.js"
+   ]
+  },
+  "scriptsScanned": 40,
+  "cssFeatures": {
+   "@property": 84,
+   "scroll-snap-type": 4,
+   "backdrop-filter": 14,
+   "mix-blend-mode": 18,
+   "will-change": 8,
+   "sticky": 2,
+   "text-wrap": 10,
+   "color-mix(": 161,
+   "oklch(": 242,
+   "lab(": 5,
+   "@container": 2,
+   ":has(": 2,
+   "mask-image": 2,
+   "perspective": 25,
+   "prefers-reduced-motion": 9
+  },
+  "cssBytes": {
+   "linked": 187037,
+   "inline": 3063,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 879,
+  "paintedChars": 1391,
+  "paintedCharsFirstViewport": 272,
+  "h1": "Never stop learning",
+  "firstViewportText": "Docs | Docs | Blog | Blog | Get Started | The Self-Improving Agent | Never stop learning | Adaline helps AI teams improve their agents autonomously, so you can find fires before they happen, ship fixes in minutes, and feel confidence in their agents — for the first time. | Get Started | Read Docs"
+ }
+}

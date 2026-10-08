@@ -1,0 +1,4 @@
+# rebuildable output; includes media and bundles over the 100 KB binary limit (Brief 01 v2.1 hard stop 2)
+dist/
+.cache/
+results/serve*.log

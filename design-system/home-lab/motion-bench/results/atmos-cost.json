@@ -1,0 +1,82 @@
+{
+ "none": {
+  "cpuSecondsPerSecond_median": 0.008,
+  "perProcessType_run1": {
+   "browser": 0.004,
+   "renderer": 0.001,
+   "GPU": 0.002,
+   "network.mojom.NetworkService": 0.001,
+   "storage.mojom.StorageService": 0
+  },
+  "rafPerSecond": 62,
+  "runs": [
+   0.008,
+   0.006,
+   0.018
+  ]
+ },
+ "webp": {
+  "cpuSecondsPerSecond_median": 0.006,
+  "perProcessType_run1": {
+   "browser": 0.002,
+   "renderer": 0.002,
+   "GPU": 0.002,
+   "network.mojom.NetworkService": 0,
+   "storage.mojom.StorageService": 0
+  },
+  "rafPerSecond": 62,
+  "runs": [
+   0.006,
+   0.005,
+   0.013
+  ]
+ },
+ "webp-grain": {
+  "cpuSecondsPerSecond_median": 0.008,
+  "perProcessType_run1": {
+   "browser": 0.002,
+   "renderer": 0.001,
+   "GPU": 0.001,
+   "network.mojom.NetworkService": 0,
+   "storage.mojom.StorageService": 0
+  },
+  "rafPerSecond": 62,
+  "runs": [
+   0.004,
+   0.008,
+   0.008
+  ]
+ },
+ "video": {
+  "cpuSecondsPerSecond_median": 0.047,
+  "perProcessType_run1": {
+   "browser": 0.003,
+   "renderer": 0.016,
+   "GPU": 0.043,
+   "network.mojom.NetworkService": 0,
+   "storage.mojom.StorageService": 0
+  },
+  "rafPerSecond": 62,
+  "runs": [
+   0.062,
+   0.047,
+   0.045
+  ]
+ },
+ "webgl": {
+  "cpuSecondsPerSecond_median": 0.114,
+  "perProcessType_run1": {
+   "browser": 0.001,
+   "renderer": 0.031,
+   "GPU": 0.06,
+   "network.mojom.NetworkService": 0,
+   "storage.mojom.StorageService": 0
+  },
+  "rafPerSecond": 61,
+  "runs": [
+   0.092,
+   0.114,
+   0.136
+  ]
+ }
+}

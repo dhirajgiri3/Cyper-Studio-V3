@@ -1,0 +1,114 @@
+[
+ {
+  "s": "spacefs",
+  "perf": 55,
+  "jsKB": 872,
+  "totMB": 1.9,
+  "lcp": 7.7,
+  "tbt": 392
+ },
+ {
+  "s": "eden",
+  "perf": 51,
+  "jsKB": 1128,
+  "totMB": 2.7,
+  "lcp": 15.8,
+  "tbt": 353
+ },
+ {
+  "s": "monday",
+  "perf": 29,
+  "jsKB": 3838,
+  "totMB": 12,
+  "lcp": 16.3,
+  "tbt": 2004
+ },
+ {
+  "s": "getenergy",
+  "perf": 98,
+  "jsKB": 114,
+  "totMB": 0.4,
+  "lcp": 2,
+  "tbt": 115
+ },
+ {
+  "s": "workos-atlas",
+  "perf": 46,
+  "jsKB": 1554,
+  "totMB": 1.9,
+  "lcp": 9.1,
+  "tbt": 1470
+ },
+ {
+  "s": "crealo",
+  "perf": 58,
+  "jsKB": 1209,
+  "totMB": 2.6,
+  "lcp": 3.1,
+  "tbt": 2081
+ },
+ {
+  "s": "wama",
+  "perf": 76,
+  "jsKB": 391,
+  "totMB": 5.4,
+  "lcp": 7.3,
+  "tbt": 43
+ },
+ {
+  "s": "handhold",
+  "perf": 60,
+  "jsKB": 1062,
+  "totMB": 2.5,
+  "lcp": 15.4,
+  "tbt": 323
+ },
+ {
+  "s": "modeinspect",
+  "perf": 81,
+  "jsKB": 528,
+  "totMB": 0.8,
+  "lcp": 4.8,
+  "tbt": 68
+ },
+ {
+  "s": "pexo",
+  "perf": 57,
+  "jsKB": 1031,
+  "totMB": 19.6,
+  "lcp": 15.6,
+  "tbt": 258
+ },
+ {
+  "s": "legora",
+  "perf": 61,
+  "jsKB": 1234,
+  "totMB": 3.2,
+  "lcp": 9.4,
+  "tbt": 206
+ },
+ {
+  "s": "iru",
+  "perf": 67,
+  "jsKB": 2223,
+  "totMB": 3.2,
+  "lcp": 1.9,
+  "tbt": 1967
+ },
+ {
+  "s": "clay",
+  "perf": 41,
+  "jsKB": 3151,
+  "totMB": 18.3,
+  "lcp": 31.5,
+  "tbt": 586
+ },
+ {
+  "s": "adaline",
+  "perf": 78,
+  "jsKB": 690,
+  "totMB": 1.7,
+  "lcp": 5.8,
+  "tbt": 74
+ }
+]

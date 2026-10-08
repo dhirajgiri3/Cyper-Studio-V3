@@ -36,7 +36,7 @@ ${header()}
   <div class="stage" id="product" data-stage>
     <div class="wrap">
       <div class="switch"><p id="sw-l" data-claim="C-06" data-status="{{CONFIRM: live today or planned}}">What your merchants see, under three sample brands:</p>
-        <div class="switch__g" role="group" aria-labelledby="sw-l">${TENANTS.map((t, i) => `<button type="button" data-i="${i}" aria-pressed="${i === 0}"><i style="background:${t.t}"></i><span>${t.name}</span></button>`).join('')}</div></div>
+        <div class="switch__g" role="group" aria-labelledby="sw-l">${TENANTS.map((t, i) => `<button type="button" data-i="${i}" aria-pressed="${i === 0}" aria-label="${t.name}"><i style="background:${t.t}"></i><span>${t.name}</span></button>`).join('')}</div></div>
       ${frame(merchantScreen(TENANTS[0]), 'Illustrative interface. Sample tenants, orders and rates.', 'Illustrative merchant booking screen under a sample tenant brand', 'C-06,C-07')}
       <p class="under"><span>HELIX runs underneath. It is not shown.</span></p>
       <p class="sr" role="status" aria-live="polite" id="live"></p>

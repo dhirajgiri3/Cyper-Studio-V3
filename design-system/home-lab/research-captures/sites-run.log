@@ -1,0 +1,100 @@
+[17:02:09] fingerprint
+[modeinspect] ok  load=1066ms  first-load=838KB  js=528KB  req=72  libs=gsap,scrollTimelineJS,intersection,webgl,wasm  notObserved=0
+[pexo] ok  load=2732ms  first-load=20113KB  js=1031KB  req=153  libs=framerMotion,splitting,scrollTimelineJS,intersection,webgl,shader,wasm  notObserved=0
+[legora] ok  load=2183ms  first-load=3237KB  js=1234KB  req=129  libs=lenis,framerSite,webflowIx,scrollTimelineJS,intersection  notObserved=0
+[iru] ok  load=1976ms  first-load=3242KB  js=2223KB  req=222  libs=lottie,framerMotion,webflowIx,swiper,intersection,webgl,barba  notObserved=0
+[clay] ok  load=3329ms  first-load=18743KB  js=3151KB  req=185  libs=ScrollTrigger,gsap,lottie,webflowIx,swiper,splitting,intersection,webgl,barba  notObserved=0
+[adaline] ok  load=569ms  first-load=1742KB  js=690KB  req=56  libs=three,framerMotion,swiper,scrollTimelineJS,intersection,shader,barba  notObserved=0
+[spacefs] ok  load=2334ms  first-load=1977KB  js=872KB  req=114  libs=gsap,lenis,three,ogl,framerMotion,swiper,scrollTimelineJS,intersection,webgl,shader,barba  notObserved=0
+[eden] ok  load=2020ms  first-load=2742KB  js=1128KB  req=67  libs=gsap,framerMotion,swiper,intersection,webgl,barba  notObserved=0
+[monday] ok  load=949ms  first-load=12250KB  js=3838KB  req=332  libs=ScrollTrigger,gsap,lottie,framerMotion,webflowIx,swiper,splitting,intersection,webgl,barba  notObserved=0
+[getenergy] ok  load=464ms  first-load=362KB  js=114KB  req=38  libs=intersection,webgl  notObserved=0
+[workos-atlas] ok  load=714ms  first-load=1942KB  js=1554KB  req=93  libs=framerMotion,scrollTimelineJS,intersection,webgl  notObserved=0
+[crealo] ok  load=2108ms  first-load=2701KB  js=1209KB  req=105  libs=gsap,lenis,lottie,webflowIx,intersection,webgl,barba  notObserved=0
+[wama] ok  load=1533ms  first-load=5555KB  js=391KB  req=149  libs=lenis,framerMotion,framerSite,swiper,scrollTimelineJS,intersection  notObserved=0
+[handhold] ok  load=1294ms  first-load=2570KB  js=1062KB  req=173  libs=gsap,three,framerMotion,scrollTimelineJS,intersection,webgl,shader  notObserved=0
+[17:09:05] lighthouse x3
+site-modeinspect perf 72,81,81 | median LCP 4771.65 TBT 67.5 CLS 0 FCP 2005.09 script B 461771
+site-pexo      perf 57,71,57 | median LCP 15569.33 TBT 258 CLS 0 FCP 2839.63 script B 1238415
+site-legora    perf 65,57,61 | median LCP 9434.17 TBT 206.32 CLS 0 FCP 2354.81 script B 1179811
+site-iru       perf 63,67,68 | median LCP 1898.58 TBT 1966.5 CLS 0.03 FCP 1496.49 script B 2488015
+site-clay      perf 33,41,41 | median LCP 31504.9 TBT 586 CLS 0 FCP 10256.04 script B 3223709
+LanternError: NO_LCP
+    at LargestContentfulPaint.getOptimisticGraph (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:30:19)
+    at LargestContentfulPaint.compute (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/Metric.js:46:38)
+    at LargestContentfulPaint.compute (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:63:36)
+    at #createLanternContext (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:253:66)
+    at #computeInsightsForNavigation (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:477:49)
+    at #computeInsights (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:445:47)
+    at TraceProcessor.parse (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:126:38)
+    at async TraceEngineResult.runTraceEngine (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/lighthouse/core/computed/trace-engine-result.js:43:5)
+    at async TraceEngineResult.compute_ (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/lighthouse/core/computed/trace-engine-result.js:256:7)
+site-adaline   perf 87,73,78 | median LCP 5826.02 TBT 74 CLS 0 FCP 1245.52 script B 670050
+https://spacefs.com/ingest/static/posthog-recorder.js.map mapping for last column out of bounds: 1:213578
+https://spacefs.com/ingest/static/posthog-recorder.js.map mapping for last column out of bounds: 1:213578
+LanternError: NO_LCP
+    at LargestContentfulPaint.getOptimisticGraph (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:30:19)
+    at LargestContentfulPaint.compute (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/Metric.js:46:38)
+    at LargestContentfulPaint.compute (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/lantern/metrics/LargestContentfulPaint.js:63:36)
+    at #createLanternContext (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:253:66)
+    at #computeInsightsForNavigation (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:477:49)
+    at #computeInsights (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:445:47)
+    at TraceProcessor.parse (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/@paulirish/trace_engine/models/trace/Processor.js:126:38)
+    at async TraceEngineResult.runTraceEngine (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/lighthouse/core/computed/trace-engine-result.js:43:5)
+    at async TraceEngineResult.compute_ (file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/tools/node_modules/lighthouse/core/computed/trace-engine-result.js:256:7)
+site-spacefs   perf 55,55,53 | median LCP 7675.65 TBT 391.5 CLS 0 FCP 3319.13 script B 892937
+site-eden      perf 48,52,51 | median LCP 15793.48 TBT 353 CLS 0.02 FCP 5189.38 script B 1154759
+site-monday    perf 31,27,29 | median LCP 16253.05 TBT 2003.5 CLS 0 FCP 6254.36 script B 3979631
+site-getenergy perf 97,98,98 | median LCP 1966.36 TBT 115.15 CLS 0 FCP 1366.21 script B 116255
+site-workos-atlas perf 46,43,49 | median LCP 9101.38 TBT 1470 CLS 0 FCP 1914.57 script B 1586841
+compiled.js.map mapping for last column out of bounds: 12:22
+compiled.js.map mapping for last column out of bounds: 12:22
+compiled.js.map mapping for last column out of bounds: 12:22
+site-crealo    perf 58,58,56 | median LCP 3131.26 TBT 2080.5 CLS 0.08 FCP 1327.4 script B 1294336
+
+<--- Last few GCs --->
+
+[20761:0x94940c000]   740104 ms: Scavenge 2018.3 (2077.8) -> 2015.1 (2078.1) MB, pooled: 0 MB, 4.58 / 0.00 ms  (average mu = 0.721, current mu = 0.793) allocation failure; 
+[20761:0x94940c000]   740120 ms: Scavenge 2020.5 (2080.0) -> 2018.9 (2099.2) MB, pooled: 0 MB, 9.00 / 0.00 ms  (average mu = 0.721, current mu = 0.793) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0x102f04e80 node::OOMErrorHandler(char const*, v8::OOMDetails const&) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 2: 0x1030f6904 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 3: 0x10329305c v8::internal::Heap::CallGCPrologueCallbacks(v8::GCType, v8::GCCallbackFlags, v8::internal::GCTracer::Scope::ScopeId) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 4: 0x103290e1c v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 5: 0x103289940 v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 6: 0x10327cac4 v8::internal::Factory::NewFillerObject(int, v8::internal::AllocationAlignment, v8::internal::AllocationType, v8::internal::AllocationOrigin) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 7: 0x10350f388 v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 8: 0x102d09df4 Builtins_CEntry_Return1_ArgvOnStack_NoBuiltinExit [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+ 9: 0x10dc4bbd0 
+10: 0x10d5a24bc 
+11: 0x10df9a5c4 
+12: 0x10dfdb4f0 
+13: 0x10d522888 
+14: 0x10dbef710 
+15: 0x10e023444 
+16: 0x10d5ad62c 
+17: 0x102cb1410 Builtins_AsyncFunctionAwaitResolveClosure [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+18: 0x102d7cf78 Builtins_PromiseFulfillReactionJob [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+19: 0x102ca16f4 Builtins_RunMicrotasks [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+20: 0x102c72af4 Builtins_JSRunMicrotasksEntry [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+21: 0x10320e158 v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+22: 0x10320e8c4 v8::internal::(anonymous namespace)::InvokeWithTryCatch(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+23: 0x103234a78 v8::internal::MicrotaskQueue::PerformCheckpointInternal(v8::Isolate*) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+24: 0x102e2fa74 node::InternalCallbackScope::Close() [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+25: 0x102e2ffb4 node::InternalMakeCallback(node::Environment*, v8::Local<v8::Object>, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*, node::async_context, v8::Local<v8::Value>) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+26: 0x102e30398 node::InternalMakeCallback(v8::Isolate*, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*, node::async_context, v8::Local<v8::Value>) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+27: 0x102e9f9c4 node::Environment::CheckImmediate(uv_check_s*) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+28: 0x1001ec24c uv__run_check [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+29: 0x1001e6b94 uv_run [/opt/homebrew/Cellar/libuv/1.52.1/lib/libuv.1.0.0.dylib]
+30: 0x102e30850 node::SpinEventLoopInternal(node::Environment*) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+31: 0x102f4bd3c node::NodeMainInstance::Run(node::ExitCode*, node::Environment*) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+32: 0x102f4ba88 node::NodeMainInstance::Run() [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+33: 0x102ec5908 node::Start(int, char**) [/opt/homebrew/Cellar/node@22/22.22.2_1/lib/libnode.127.dylib]
+34: 0x18bf104e4 start [/usr/lib/dyld]
+[17:21:25] SITES DONE

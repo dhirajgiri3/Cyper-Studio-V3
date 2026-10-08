@@ -2,8 +2,8 @@
  "A": {
   "file": "hero-a-reskin.html",
   "bytes": {
-   "html": 30865,
-   "cssInline": 16251,
+   "html": 30963,
+   "cssInline": 16259,
    "jsInline": 2649
   },
   "serverHtml": {
@@ -113,8 +113,8 @@
  "B": {
   "file": "hero-b-editorial.html",
   "bytes": {
-   "html": 28747,
-   "cssInline": 16056,
+   "html": 28755,
+   "cssInline": 16064,
    "jsInline": 1088
   },
   "serverHtml": {
@@ -224,8 +224,8 @@
  "C": {
   "file": "hero-c-pair.html",
   "bytes": {
-   "html": 32536,
-   "cssInline": 15897,
+   "html": 32544,
+   "cssInline": 15905,
    "jsInline": 1088
   },
   "serverHtml": {
@@ -335,8 +335,8 @@
  "D": {
   "file": "hero-d-your-name.html",
   "bytes": {
-   "html": 30077,
-   "cssInline": 16198,
+   "html": 30085,
+   "cssInline": 16206,
    "jsInline": 2832
   },
   "serverHtml": {

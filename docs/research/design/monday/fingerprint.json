@@ -1,0 +1,1999 @@
+{
+ "slug": "monday",
+ "url": "https://monday.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 949,
+  "consent": [],
+  "finalUrl": "https://monday.com/",
+  "transferFirstLoad": {
+   "requests": 332,
+   "totalBytes": 12544110,
+   "byType": {
+    "Document": 127022,
+    "Stylesheet": 438286,
+    "Script": 3929964,
+    "Font": 256921,
+    "Image": 1684115,
+    "Fetch": 108148,
+    "Media": 2634862,
+    "Preflight": 0,
+    "XHR": 8482,
+    "Other": 3352484,
+    "Ping": 3826
+   },
+   "hosts": {
+    "dapulse-res.cloudinary.com": 3176603,
+    "cdn.monday.com": 3151451,
+    "cdn.prod.website-files.com": 2300606,
+    "monday.com": 2066401,
+    "microfrontends.monday.com": 796129,
+    "connect.facebook.net": 242460,
+    "analytics.tiktok.com": 164076,
+    "cdn.jsdelivr.net": 140862,
+    "cdn.cookiehub.eu": 49219,
+    "js.hs-analytics.net": 44829,
+    "bat.bing.com": 33742,
+    "d3e54v103j8qbb.cloudfront.net": 31976,
+    "tr.capterra.com": 31362,
+    "bzrcdn.openai.com": 28204
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://microfrontends.monday.com/mf-platform-signup/latest/MF-mf-platform-signup.CYyhbSzu.min.js",
+     "bytes": 438998
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/",
+     "bytes": 236536
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1srcusP-UgN-1--QYe2FC2bSd_uceyBn4ry7-qJlP",
+     "bytes": 197451
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06wZaV4aKwn5kee2FC2bSd_uceyBn4ry7-qJlP",
+     "bytes": 180009
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW6q60mJ8ebzMch6-G-rUUgUCgrSr--CX5mU8",
+     "bytes": 179198
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZST4aiymJ0aZTQch6-G-rUUgUCgrSr--CX5mU8",
+     "bytes": 177081
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW56O2npsaZTQch6-G-rUUgUCgrSr--CX5mU8",
+     "bytes": 176172
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1srckyJbii6ix6-h4e2FC2bSd_uceyBn4ry7-qJlP",
+     "bytes": 174429
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdZ0vGz3nP4qufKLk82tlJ8cbjoK1uKKv_ALyE67_julpCetPqnDq5lP",
+     "bytes": 161715
+    },
+    {
+     "url": "https://monday.com/ti/56D7ML6P/UdYsoWz1sdk6wJSR562zm4pMJT9ZwrDP9K5HkBv8r36ZTw",
+     "bytes": 155205
+    },
+    {
+     "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MWU2MzIzODM0MQ.js",
+     "bytes": 118273
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112954
+    },
+    {
+     "url": "https://monday.com/webflow-scripts/w/w.body.bundle.js",
+     "bytes": 95620
+    },
+    {
+     "url": "https://connect.facebook.net/signals/config/226122027576470?v=2.9.415&r=stable&domain=monday.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c42",
+     "bytes": 91631
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f2efb3c5440a81cf.js",
+     "bytes": 91399
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f38118716cbb9ccc.js",
+     "bytes": 87105
+    },
+    {
+     "url": "https://microfrontends.monday.com/mf-form-adapter/latest/lottie-web.f3ef50dc.shared.js",
+     "bytes": 78937
+    },
+    {
+     "url": "https://monday.com/webflow-scripts/vendor-sentry.38bded4b.js",
+     "bytes": 57219
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.6d4e2731e5bfd25b.js",
+     "bytes": 54973
+    },
+    {
+     "url": "https://cdn.cookiehub.eu/c2/9f681576.js",
+     "bytes": 49219
+    },
+    {
+     "url": "https://monday.com/webflow-scripts/vendor-datadog.d7b0112a.js",
+     "bytes": 45004
+    },
+    {
+     "url": "https://js.hs-analytics.net/analytics/1791459000000/5945317.js",
+     "bytes": 44829
+    },
+    {
+     "url": "https://microfrontends.monday.com/mf-bookmarks/latest/react-dom.c52f9354.shared.js",
+     "bytes": 44357
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js",
+     "bytes": 41449
+    },
+    {
+     "url": "https://analytics.tiktok.com/i18n/pixel/static/identify_0504602d.js",
+     "bytes": 40406
+    }
+   ]
+  },
+  "dom": {
+   "title": "The AI Workspace for People & Agents | monday.com",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI Workspace to drive business results.",
+   "ogImage": "https://s3.amazonaws.com/general-assets/monday-1200x628.png",
+   "canonical": "https://monday.com/",
+   "jsonLd": [
+    [
+     "Organization",
+     "SoftwareApplication",
+     "WebSite",
+     "WebPage"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "People and agentsworking as one team",
+    "font-family": "Poppins, Arial, sans-serif",
+    "font-size": "56px",
+    "font-weight": "400",
+    "line-height": "67.2px",
+    "letter-spacing": "-2.24px",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "You lead. Agents act.",
+     "font-family": "Poppins, Arial, sans-serif",
+     "font-size": "80px",
+     "font-weight": "400",
+     "line-height": "96px",
+     "letter-spacing": "-3.2px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Get more done with agents",
+     "font-family": "Poppins, Arial, sans-serif",
+     "font-size": "56px",
+     "font-weight": "400",
+     "line-height": "67.2px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "An agent for every use case",
+     "font-family": "Poppins, Arial, sans-serif",
+     "font-size": "56px",
+     "font-weight": "400",
+     "line-height": "67.2px",
+     "letter-spacing": "-1.68px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    }
+   ],
+   "body": {
+    "font-family": "Poppins, Arial, sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "20px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "monday.com - Go to homepage",
+     "x": 40,
+     "y": 21,
+     "w": 168,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Enterprise",
+     "x": 548,
+     "y": 21,
+     "w": 92,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(83, 87, 104)",
+     "radius": "8px",
+     "font": "14px/300",
+     "border": "0px none rgb(83, 87, 104)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Pricing",
+     "x": 987,
+     "y": 21,
+     "w": 70,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(83, 87, 104)",
+     "radius": "8px",
+     "font": "14px/300",
+     "border": "0px none rgb(83, 87, 104)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Log in",
+     "x": 1057,
+     "y": 21,
+     "w": 64,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(83, 87, 104)",
+     "radius": "8px",
+     "font": "14px/300",
+     "border": "0px none rgb(83, 87, 104)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Contact sales",
+     "x": 1129,
+     "y": 16,
+     "w": 123,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(97, 97, 255)",
+     "radius": "80px",
+     "font": "13px/300",
+     "border": "1px solid rgb(97, 97, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Get Started",
+     "x": 1269,
+     "y": 15,
+     "w": 131,
+     "h": 42,
+     "bg": "rgb(97, 97, 255)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "160px",
+     "font": "13px/300",
+     "border": "1px solid rgb(97, 97, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Marketing",
+     "x": 72,
+     "y": 389,
+     "w": 116,
+     "h": 32,
+     "bg": "rgb(217, 215, 255)",
+     "color": "rgb(97, 97, 255)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Operations",
+     "x": 194,
+     "y": 389,
+     "w": 104,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "IT",
+     "x": 303,
+     "y": 389,
+     "w": 48,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Product",
+     "x": 357,
+     "y": 389,
+     "w": 80,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Sales",
+     "x": 72,
+     "y": 427,
+     "w": 63,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "HR",
+     "x": 141,
+     "y": 427,
+     "w": 48,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "PMO",
+     "x": 195,
+     "y": 427,
+     "w": 57,
+     "h": 32,
+     "bg": "rgb(243, 244, 245)",
+     "color": "rgb(50, 51, 56)",
+     "radius": "32px",
+     "font": "14px/400",
+     "border": "1px solid rgb(243, 244, 245)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Get Started",
+     "x": 72,
+     "y": 483,
+     "w": 177,
+     "h": 50,
+     "bg": "rgb(97, 97, 255)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "160px",
+     "font": "16px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "static",
+    "h": 42,
+    "top": 15,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "links": [
+     "monday.com - Go to homepage",
+     "PMOProjects & delivery",
+     "MarketingCampaigns & creative",
+     "OperationsProcesses & efficiency",
+     "ITTickets & support",
+     "HRHiring & onboarding",
+     "SalesPipeline & deals",
+     "LegalContracts & compliance",
+     "View all use cases",
+     "Platform overview",
+     "Dashboards & reporting",
+     "Integrations",
+     "Automations",
+     "monday MCP"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 40,
+     "y": 21,
+     "w": 168,
+     "h": 30,
+     "src": "https://cdn.prod.website-files.com/64d0dd4b31aeec4c6cd8e685/64d0dd4b31aeec4c6cd8e6f4_monday.com.png",
+     "natural": [
+      314,
+      56
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 85,
+     "y": 398,
+     "w": 14,
+     "h": 14,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a4cb11ce49ccaf64281ff03_hero-checkmark-white-icon.svg",
+     "natural": [
+      26,
+      26
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 689,
+     "y": 152,
+     "w": 673,
+     "h": 397,
+     "src": "https://dapulse-res.cloudinary.com/video/upload/v1781522554/Generator_featured%20images/webflow-sean/hero_test-agents-9.webm",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": "https://dapulse-res.cloudinary.com/video/upload/so_0/v1784467913/Generator_featured%20images/webflow-sean/hero_test-agents-9.jpg",
+     "playsinline": true,
+     "sources": [
+      "https://dapulse-res.cloudinary.com/video/upload/v1781522554/Generator_featured%20images/webflow-sean/hero_test-agents-9.webm video/webm",
+      "https://dapulse-res.cloudinary.com/video/upload/v1781522554/Generator_featured%20images/webflow-sean/hero_test-agents-9.mp4 video/mp4"
+     ]
+    },
+    {
+     "tag": "img",
+     "x": -182,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf20b4728da8da4332d_canva-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "canva logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 0,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831802_coca-cola-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "coca cola logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 182,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cee51a016ca741d83a593_vistra-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "vistra logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 364,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf29fe26c13b4fefde4_universal-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "universal logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 547,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf18afb979af853d759_holt-cat-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "holt cat logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 729,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831805_lionsgate-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "lionsgate logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 911,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf1738ea525deedd8bd_carrefour-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "carrefour logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1093,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf20b4728da8da4332d_canva-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "canva logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1275,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831802_coca-cola-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "coca cola logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1457,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cee51a016ca741d83a593_vistra-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "vistra logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1639,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf29fe26c13b4fefde4_universal-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "universal logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1821,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf18afb979af853d759_holt-cat-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "holt cat logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2004,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831805_lionsgate-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "lionsgate logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2186,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf1738ea525deedd8bd_carrefour-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "carrefour logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2368,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf20b4728da8da4332d_canva-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "canva logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2550,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831802_coca-cola-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "coca cola logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2732,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cee51a016ca741d83a593_vistra-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "vistra logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2914,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf29fe26c13b4fefde4_universal-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "universal logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3096,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf18afb979af853d759_holt-cat-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "holt cat logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3278,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831805_lionsgate-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "lionsgate logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3461,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf1738ea525deedd8bd_carrefour-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "carrefour logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3643,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf20b4728da8da4332d_canva-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "canva logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3825,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831802_coca-cola-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "coca cola logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4007,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cee51a016ca741d83a593_vistra-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "vistra logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4189,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf29fe26c13b4fefde4_universal-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "universal logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4371,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf18afb979af853d759_holt-cat-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "holt cat logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4553,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf11926389aa8831805_lionsgate-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "lionsgate logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4735,
+     "y": 801,
+     "w": 102,
+     "h": 48,
+     "src": "https://cdn.prod.website-files.com/656da6fea306219773d04208/6a3cedf1738ea525deedd8bd_carrefour-logo.svg",
+     "natural": [
+      100,
+      47
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "carrefour logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 571,
+     "y": 1216,
+     "w": 701,
+     "h": 398,
+     "src": "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/v1780557379/Generator_featured%20images/webflow-sean/Hero_Export_V10.webm",
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": "https://dapulse-res.cloudinary.com/video/upload/so_0/v1780557379/Generator_featured%20images/webflow-sean/Hero_Export_V10.jpg",
+     "playsinline": true,
+     "sources": [
+      "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/v1780557379/Generator_featured%20images/webflow-sean/Hero_Export_V10.webm video/webm",
+      "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/v1780557379/Generator_featured%20images/webflow-sean/Hero_Export_V10.mp4 video/mp4"
+     ]
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "a",
+     "cls": "m_button m_button-primary",
+     "w": 177,
+     "h": 50,
+     "bg": "radial-gradient(circle closest-side, rgba(254, 155, 11, 0.85) 0%, rgba(255, 129, 228, 0.85) 50%, rgba(97, 97, 255, 0) 100%)"
+    },
+    {
+     "tag": "div",
+     "cls": "marquee-logos_fade",
+     "w": 64,
+     "h": 121,
+     "bg": "linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "marquee-logos_fade is-right",
+     "w": 64,
+     "h": 121,
+     "bg": "linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    }
+   ],
+   "fontShare": {
+    "Poppins": 9296
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 18588192,
+    "rgb(243, 244, 245)": 4124050,
+    "rgb(242, 237, 233)": 1000960
+   },
+   "counts": {
+    "gradients": 4,
+    "backdrop": 33,
+    "filters": 14,
+    "video": 4,
+    "canvas": 0,
+    "svg": 238,
+    "img": 639,
+    "buttons": 80,
+    "forms": 2,
+    "tables": 0,
+    "details": 0,
+    "links": 346,
+    "iframes": 7
+   },
+   "headings": [
+    "H1 People and agents working as one team",
+    "H2 You lead. Agents act.",
+    "H2 Get more done with agents",
+    "H3 Posts, campaigns and ads. Done.",
+    "H3 Tickets, issues and risks. Resolved.",
+    "H3 Products and new features. Deployed.",
+    "H3 Leads, follow-ups and deals. Closed.",
+    "H3 Roles, candidates and hires. Secured.",
+    "H3 Plans, milestones and risks. Delivered.",
+    "H3 Build an agent for your mission.",
+    "H2 An agent for every use case",
+    "H2 Get more done with agents and people",
+    "H2 An agent for every use case",
+    "H2 Work in context",
+    "H2 Full control",
+    "H2 Consider yourself limitless"
+   ],
+   "fonts": [
+    "Poppins 300 normal",
+    "Poppins 700 normal",
+    "Poppins 400 normal",
+    "Poppins 500 normal",
+    "Poppins 600 normal"
+   ],
+   "firstViewTextSample": "AI platform\nSolutions\nResources\nEnterprise\nPricing\nLog in\nContact sales\nGet Started\nPeople and agentsworking as one team\n\nThe AI workspace where people and agents drive business results together\n\nMarketing\nOperations\nIT\nProduct\nSales\nHR\nPMO\nGet Started\nNo credit card needed  ✦  Unlimited time on Free plan\n\nTrusted by over 60% of the Fortune 500\n\nGet more done with agents\nMarketing\nIT\nProduct\nSales\nHR\nPMO\nCreate any agent\nPosts, campaigns and ads. Done.\n\nMarketing agents write posts, run campaigns, and drive insights while your team can focus on strategy.\n\nGet Started\nAn agent for every use case\nResearch Agents\n\nSurface deep intelligence and actionable insights from any subject.\n\nReporting Agents\n\nAutomate status updates and performance reports on a set schedule.\n\nInsights Agents\n\nSpot risks and progress gaps before they become problems.\n\nMeeting Assistants\n\nSchedule meetings, summarize calls, and extract action items.\n\nProcess Optimizers\n\nIdentify, fix, and remove redundant or outdated data and processes.\n\nCreate Your Own Agent\n\nBuild a custom agent for any specific workflow or job.\n\nMarket Analyzer\n\nScans industry news and reports to surface new trends and technology automatically.\n\nGet Started\nVendor Scout\n\nIdentifies and sources the most suitable suppliers based on your specific needs.\n\nGet Started\nCompetitor Researcher\n\nTracks pricing, product launches, and hiring moves to build a clear snapshot of market shifts.\n\nGet Started\nMarket Analyzer\n\nScans industry news and repo",
+   "pageHeight": 11405,
+   "hasHScroll": false,
+   "visibleChars": 9676,
+   "landmarks": {
+    "header": 1,
+    "nav": 2,
+    "main": 0,
+    "footer": 0,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "orbSwoosh",
+    "target": "a.m_button.m_button-primary",
+    "props": [
+     "backgroundPositionX",
+     "backgroundPositionY"
+    ],
+    "duration": 6000,
+    "delay": 2000,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "scrollMarquee",
+    "target": "div.marquee-logos_track",
+    "props": [
+     "transform"
+    ],
+    "duration": 21250,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "scroll",
+    "target": "div.hp-agents_marquee-content.scroll",
+    "props": [
+     "transform"
+    ],
+    "duration": 20000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "scroll",
+    "target": "div.hp-agents_marquee-content.scroll",
+    "props": [
+     "transform"
+    ],
+    "duration": 20000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 3,
+   "ro": 3,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "2d",
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 484,
+    "tag": "VIDEO",
+    "id": null,
+    "size": 267181,
+    "url": "https://dapulse-res.cloudinary.com/video/upload/so_0/v1784467913/Generator_featured%20images/webflow-sean/hero_test-agents-9.jpg"
+   },
+   "cls": 0.0003,
+   "longTasks": 3,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "html"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "html"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    }
+   ]
+  },
+  "idleRafPerSecond": 184,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 74,
+   "settle98Ms": 74,
+   "distinctPositions": 2,
+   "samples": 65,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 4,
+    "infinite": 4,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "orbSwoosh",
+      "target": "a.m_button.m_button-primary",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 6000,
+      "delay": 2000,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scrollMarquee",
+      "target": "div.marquee-logos_track",
+      "props": [
+       "transform"
+      ],
+      "duration": 21250,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 5703,
+    "count": 4,
+    "infinite": 4,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "orbSwoosh",
+      "target": "a.m_button.m_button-primary",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 6000,
+      "delay": 2000,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scrollMarquee",
+      "target": "div.marquee-logos_track",
+      "props": [
+       "transform"
+      ],
+      "duration": 21250,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 10957,
+    "count": 4,
+    "infinite": 4,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "orbSwoosh",
+      "target": "a.m_button.m_button-primary",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 6000,
+      "delay": 2000,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scrollMarquee",
+      "target": "div.marquee-logos_track",
+      "props": [
+       "transform"
+      ],
+      "duration": 21250,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "scroll",
+      "target": "div.hp-agents_marquee-content.scroll",
+      "props": [
+       "transform"
+      ],
+      "duration": 20000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 431,
+   "totalBytes": 14769551,
+   "byType": {
+    "Document": 127022,
+    "Stylesheet": 438286,
+    "Script": 3929964,
+    "Font": 256921,
+    "Image": 2729293,
+    "Fetch": 108213,
+    "Media": 3803068,
+    "Preflight": 0,
+    "XHR": 19519,
+    "Other": 3352484,
+    "Ping": 4781
+   },
+   "hosts": {
+    "dapulse-res.cloudinary.com": 4344809,
+    "cdn.prod.website-files.com": 3342556,
+    "cdn.monday.com": 3151451,
+    "monday.com": 2066466,
+    "microfrontends.monday.com": 796129,
+    "connect.facebook.net": 242460,
+    "analytics.tiktok.com": 165031,
+    "cdn.jsdelivr.net": 140862,
+    "cdn.cookiehub.eu": 49219,
+    "js.hs-analytics.net": 44829,
+    "bat.bing.com": 34106,
+    "d3e54v103j8qbb.cloudfront.net": 31976,
+    "tr.capterra.com": 31362,
+    "bzrcdn.openai.com": 28204
+   }
+  },
+  "fp": {
+   "present": [
+    "gsap",
+    "ScrollTrigger",
+    "SplitText",
+    "Webflow",
+    "jQuery",
+    "Swiper",
+    "Splide",
+    "dataLayer",
+    "_hsq",
+    "fbq",
+    "twq"
+   ],
+   "htmlCls": "w-mod-js w-mod-ix",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://dapulse-res.cloudinary.com/video/upload/v1781522554/Generator_featured%20images/webflow-sean/hero_test-agents-9.",
+      "w": 673,
+      "h": 397,
+      "inHero": true
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/Generator_featured%20images/hp-mobile-0526/hero_mb-v5",
+      "w": 0,
+      "h": 0,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/v1780557379/Generator_featured%20images/webflow-sean/",
+      "w": 701,
+      "h": 398,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://dapulse-res.cloudinary.com/video/upload/q_auto:eco/ac_none/Generator_featured%20images/hp-020626/hero-it-tickets",
+      "w": 0,
+      "h": 0,
+      "inHero": true
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": true,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": true,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 101,
+   "scripts": [
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://js.adsrvr.org/up_loader.1.1.0.js",
+    "https://tags.clickagy.com/data.js?rnd=62fe5c0e6ad96",
+    "https://bat.bing.com/p/insights/s/0.8.72",
+    "https://bat.bing.com/p/insights/t/5103931",
+    "https://monday.com/ti/56D7ML6P/UdZ0vGz3nP4qufKLk82tlJ8cbjoK1uKKv_ALyE67_julpCetPqnDq5lP",
+    "https://js-na1.hs-scripts.com/5945317.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/identify_0504602d.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://analytics.tiktok.com/i18n/pixel/static/main.MWU2MzIzODM0MQ.js",
+    "https://tr.capterra.com/static/vcvr.js",
+    "https://js.hs-banner.com/v2/5945317/banner.js",
+    "https://js.hs-analytics.net/analytics/1791459000000/5945317.js",
+    "https://snippet.growsumo.com/growsumo.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://tr.capterra.com/static/wp.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://snippet.growsumo.com/growsumo.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://tr.capterra.com/static/wp.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://snippet.growsumo.com/growsumo.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://tr.capterra.com/static/wp.js",
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://js.hs-scripts.com/5945317.js",
+    "https://bat.bing.com/bat.js",
+    "https://unpkg.com/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+    "https://connect.facebook.net/signals/config/1474213777264902?v=2.9.415&r=stable&domain=monday.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188%2C267%2C265%2C260%2C262%2C263%2C264%2C261%2C259%2C246%2C266%2C268%2C258%2C216%2C217%2C269%2C270%2C257%2C256%2C199%2C201%2C202%2C206%2C205%2C207%2C203%2C204%2C200%2C198%2C197%2C229%2C224%2C227%2C228%2C222%2C387%2C225%2C226%2C250%2C223%2C221%2C277%2C241%2C214%2C215%2C211%2C212%2C213%2C210%2C208%2C219%2C220%2C218%2C325%2C380%2C230%2C280%2C287%2C288%2C281%2C283%2C286%2C284%2C285%2C282%2C279%2C298%2C292%2C295%2C291%2C299%2C296%2C290%2C294%2C297%2C293%2C289%2C356",
+    "https://connect.facebook.net/signals/config/226122027576470?v=2.9.415&r=stable&domain=monday.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.redditstatic.com/ads/pixel.js?pixel_id=t2_q9tc8qn",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW6q60mJ8ebzMch6-G-rUUgUCgrSr--CX5mU8",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1srcusP-UgN-1--QYe2FC2bSd_uceyBn4ry7-qJlP",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1sdk6wJSR562zm4pMJT9ZwrDP9K5HkBv8r36ZTw",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZSW56O2npsaZTQch6-G-rUUgUCgrSr--CX5mU8",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06yZST4aiymJ0aZTQch6-G-rUUgUCgrSr--CX5mU8",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1tM06wZaV4aKwn5kee2FC2bSd_uceyBn4ry7-qJlP",
+    "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+    "https://static.hotjar.com/c/hotjar-1566695.js?sv=7",
+    "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=DAL48DRC77UES9755B7G&lib=ttq",
+    "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+    "https://monday.com/ti/56D7ML6P/UdYsoWz1srckyJbii6ix6-h4e2FC2bSd_uceyBn4ry7-qJlP",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-56D7ML6P&gtg_health=1",
+    "https://cdn.cookiehub.eu/c2/9f681576.js",
+    "https://monday.com/ti/56D7ML6P/",
+    "https://monday.com/webflow-scripts/ab-tests/ab-tests.bundle.js",
+    "https://monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+    "https://monday.com/webflow-scripts/w/w.head.bundle.js",
+    "https://cdn.prod.website-files.com/656da6fea306219773d04208%2F64b6c769ff52ba6c3d904a91%2F68b40717f50745445fb1c553%2Fray_white_redirect-1.0.0.js",
+    "https://cdn.prod.website-files.com/656da6fea306219773d04208%2F6544eda5f000985a163a8687%2F67d00404e205e87cf850b63d%2Ffinsweetcomponentsconfig-1.0.6.js",
+    "https://monday.com/homepage-shared-scripts/main/head.bundle.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/fs-components@2/fs-components.js?v=1791459360485",
+    "https://b99.yahoo.co.jp/pagead/conversion_async.js",
+    "https://bat.bing.com/p/action/5103931.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11084453121/?random=1791459362487&cv=11&fst=1791459362487&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6a61v9101559452z89234834581za20kzb9234834581zd9234834581xecxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412526~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=2&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/10853517003/?random=1791459362497&cv=11&fst=1791459362497&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6a61v9101559452z89234834581za20kzb9234834581zd9234834581xecxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120412526~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=2&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/933380251/?random=1791459362572&cv=11&fst=1791459362572&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6a61v891024089z89234834581za20kzb9234834581zd9234834581xecxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=17&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11059637586/?random=1791459362634&cv=11&fst=1791459362634&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6a61v9184680452z89234834581za20kzb9234834581zd9234834581xecxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=3&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11532251586/?random=1791459362748&cv=11&fst=1791459362748&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45892e6a61v9214554228z89234834581za20kzb9234834581zd9234834581xecxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121125486~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=12&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=event%3Dgtag.config&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-933380251/?random=1791459363066&cv=11&fst=1791459363066&bg=ffffff&guid=ON&async=1&gtm=45892e6a61z89234834581za20kzb9234834581zd9234834581xeaxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=14&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=unique_event_id%3D1791459361557.675949.cookiehub_ready%3Bbb_visitor_id%3D5cecc8e0%3Bads_data_redaction%3Dfalse&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-933380251/?random=1791459363074&cv=11&fst=1791459363074&bg=ffffff&guid=ON&async=1&gtm=45892e6a61z89234834581za20kzb9234834581zd9234834581xeaxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=14&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=unique_event_id%3D1791459361557.675949.cookiehub_modified%3Bbb_visitor_id%3D5cecc8e0%3Bads_data_redaction%3Dfalse&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/AW-933380251/?random=1791459363076&cv=11&fst=1791459363076&bg=ffffff&guid=ON&async=1&gtm=45892e6a61z89234834581za20kzb9234834581zd9234834581xeaxf4&gcd=13v3v3v3v5l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120385422~120469145~120469153~121046263~121046271~121246026~121246034~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fmonday.com%2F&rcb=14&frm=0&tiba=The%20AI%20Workspace%20for%20People%20%26%20Agents%20%7C%20monday.com&did=dMzY0Yz&gdid=dMzY0Yz&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=1616031560.1791459362&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&gtb=2&data=unique_event_id%3D1791459361557.675949.cookiehub_modified%3Bbb_visitor_id%3D5cecc8e0%3Bads_data_redaction%3Dfalse&gap.gtb=2&ept=9&rfmt=3&fmt=4",
+    "https://informer-cdn2.monday.com/monday-informer-1.0.min.js"
+   ],
+   "inlineScripts": 38,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "via": "1.1 684e330ffd9014b55761b14d60231dc2.cloudfront.net (CloudFront)",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "ScrollTrigger": [
+    "1P monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
+   ],
+   "gsap": [
+    "1P monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/TextPlugin.min.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/CustomEase.min.js",
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.6d4e2731e5bfd25"
+   ],
+   "lottie": [
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f2efb3c5440a81c",
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.6d4e2731e5bfd25",
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f38118716cbb9cc",
+    "3P microfrontends.monday.com/mf-form-adapter/latest/lottie-web.f3ef50dc.shared.js"
+   ],
+   "framerMotion": [
+    "3P cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js",
+    "3P tr.capterra.com/static/vcvr.js"
+   ],
+   "webflowIx": [
+    "1P monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.6d4e2731e5bfd25",
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f38118716cbb9cc"
+   ],
+   "swiper": [
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.f38118716cbb9cc",
+    "3P cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js",
+    "3P cdn.jsdelivr.net/npm/@finsweet/fs-components@2/dist/chunk-2PJ4KWGC.js",
+    "3P cdn.jsdelivr.net/npm/@finsweet/fs-components@2/dist/src-CTTUF44Y.js"
+   ],
+   "splitting": [
+    "1P monday.com/webflow-scripts/query-param-toggles/query-param-toggles.bundle.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js"
+   ],
+   "intersection": [
+    "3P cdn.prod.website-files.com/656da6fea306219773d04208/js/websitepages.schunk.6d4e2731e5bfd25",
+    "1P monday.com/webflow-scripts/w/w.body.bundle.js",
+    "3P cdn.jsdelivr.net/npm/@finsweet/fs-components@2/dist/src-EZNPUX3K.js",
+    "1P monday.com/ti/56D7ML6P/"
+   ],
+   "webgl": [
+    "3P js.hs-analytics.net/analytics/1791459000000/5945317.js"
+   ],
+   "barba": [
+    "3P microfrontends.monday.com/mf-platform-signup/latest/MF-mf-platform-signup.CYyhbSzu.min.js",
+    "3P connect.facebook.net/en_US/fbevents.js",
+    "3P unpkg.com/meta-capi-param-builder-clientjs@1.3.2/dist/clientParamBuilder.bundle.js",
+    "3P analytics.tiktok.com/i18n/pixel/static/main.MWU2MzIzODM0MQ.js"
+   ]
+  },
+  "scriptsScanned": 83,
+  "cssFeatures": {
+   "scroll-snap-type": 6,
+   "backdrop-filter": 108,
+   "mix-blend-mode": 30,
+   "will-change": 4,
+   "sticky": 191,
+   "text-wrap": 169,
+   "color-mix(": 3,
+   "@container": 1,
+   ":has(": 1,
+   "mask-image": 4,
+   "perspective": 9,
+   "prefers-reduced-motion": 4
+  },
+  "cssBytes": {
+   "linked": 2573177,
+   "inline": 21489,
+   "files": 4
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 4,
+   "infinite": 4,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "orbSwoosh",
+     "target": "a.m_button.m_button-primary",
+     "props": [
+      "backgroundPositionX",
+      "backgroundPositionY"
+     ],
+     "duration": 6000,
+     "delay": 2000,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "scrollMarquee",
+     "target": "div.marquee-logos_track",
+     "props": [
+      "transform"
+     ],
+     "duration": 21250,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "scroll",
+     "target": "div.hp-agents_marquee-content.scroll",
+     "props": [
+      "transform"
+     ],
+     "duration": 20000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "scroll",
+     "target": "div.hp-agents_marquee-content.scroll",
+     "props": [
+      "transform"
+     ],
+     "duration": 20000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 4113,
+  "paintedChars": 3588,
+  "paintedCharsFirstViewport": 369,
+  "h1": "People and agentsworking as one team",
+  "firstViewportText": "Enterprise | Pricing | Log in | Contact sales | Get Started | People and agentsworking as one team | The AI workspace where people and agents drive business results together | Marketing | Operations | IT | Product | Sales | HR | PMO | Get Started"
+ }
+}

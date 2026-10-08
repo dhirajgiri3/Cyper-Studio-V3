@@ -1,0 +1,1211 @@
+{
+ "slug": "handhold",
+ "url": "https://handhold.io/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 1294,
+  "consent": [
+   "clicked:Decline"
+  ],
+  "finalUrl": "https://handhold.io/",
+  "transferFirstLoad": {
+   "requests": 173,
+   "totalBytes": 2632024,
+   "byType": {
+    "Document": 161326,
+    "Font": 614506,
+    "Image": 654546,
+    "Stylesheet": 31683,
+    "Script": 1087838,
+    "Other": 45063,
+    "Fetch": 34731,
+    "XHR": 2331
+   },
+   "hosts": {
+    "handhold.io": 2632024
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://handhold.io/_next/static/chunks/3aza3yf562oh1.js",
+     "bytes": 144228
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+     "bytes": 134679
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+     "bytes": 73406
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+     "bytes": 61997
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+     "bytes": 47430
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+     "bytes": 46648
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+     "bytes": 46544
+    },
+    {
+     "url": "https://handhold.io/demo/embed.js",
+     "bytes": 35356
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+     "bytes": 33891
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+     "bytes": 30420
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+     "bytes": 28783
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+     "bytes": 27522
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+     "bytes": 25667
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+     "bytes": 20018
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+     "bytes": 16469
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2_tk2z60b5h8_.js",
+     "bytes": 15929
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+     "bytes": 15836
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+     "bytes": 15050
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22nygzt-x_wfz.js",
+     "bytes": 14520
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c74n3fcxnasu.js",
+     "bytes": 14244
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+     "bytes": 14106
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+     "bytes": 14018
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+     "bytes": 12893
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0an71yv8a-gl9.js",
+     "bytes": 12794
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+     "bytes": 12786
+    }
+   ]
+  },
+  "dom": {
+   "title": "Handhold",
+   "lang": "en-GB",
+   "colorScheme": "light",
+   "description": "Capture quality leads 24/7 and free up sales team’s time with personalised, multilingual AI demos and 1-to-1 onboarding",
+   "ogImage": "https://handhold.io/preview-v5.png",
+   "canonical": "https://handhold.io/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "Person",
+     "Person"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "A dedicated guide for every buyer",
+    "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+    "font-size": "72px",
+    "font-weight": "200",
+    "line-height": "72px",
+    "letter-spacing": "-2.16px",
+    "color": "lab(0 0 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "See Handhold in action",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Deploy agents across your customer journey",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Help leads validate with AI chat",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "pretty"
+    }
+   ],
+   "body": {
+    "font-family": "Inter, \"Inter Fallback\"",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgba(0, 0, 0, 0)"
+   },
+   "ctas": [
+    {
+     "tag": "button",
+     "text": "Resources",
+     "x": 1085,
+     "y": 16,
+     "w": 124,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "0px solid lab(0 0 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Sign in",
+     "x": 1217,
+     "y": 16,
+     "w": 76,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "0px solid lab(0 0 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Try for free",
+     "x": 1301,
+     "y": 16,
+     "w": 107,
+     "h": 40,
+     "bg": "lab(0 0 0)",
+     "color": "lab(100 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "See AI demo",
+     "x": 588,
+     "y": 336,
+     "w": 145,
+     "h": 40,
+     "bg": "lab(0 0 0)",
+     "color": "lab(100 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Try for free",
+     "x": 745,
+     "y": 336,
+     "w": 107,
+     "h": 40,
+     "bg": "lab(95.139 -0.175655 2.06032)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "relative",
+    "h": 72,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(0, 0, 0)",
+    "links": [
+     "Handhold home",
+     "Resources",
+     "Sign in",
+     "Try for free",
+     "Open menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 32,
+     "y": 26,
+     "w": 144,
+     "h": 20,
+     "paths": 0,
+     "cls": "inline-block text-logo h-5 w-36"
+    },
+    {
+     "tag": "canvas",
+     "x": 0,
+     "y": 206,
+     "w": 1440,
+     "h": 758,
+     "canvasSize": [
+      1440,
+      759
+     ],
+     "id": null,
+     "cls": "absolute top-1/2 left-1/2 aspect-[3024/1592] w-ful"
+    },
+    {
+     "tag": "svg",
+     "x": 132,
+     "y": 813,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 298,
+     "y": 807,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 423,
+     "y": 808,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 591,
+     "y": 804,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 761,
+     "y": 806,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 933,
+     "y": 807,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1185,
+     "y": 810,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 1213,
+     "y": 1102,
+     "w": 38,
+     "h": 38,
+     "src": "https://handhold.io/_next/image?url=%2Fhomepage%2FAlasdair.png&w=48&q=75",
+     "natural": [
+      48,
+      48
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Alasdair Reynolds",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 245,
+     "y": 1236,
+     "w": 951,
+     "h": 493,
+     "src": "https://handhold.io/homepage/demo-bot.webp",
+     "natural": [
+      1960,
+      1017
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -291,
+     "y": 520,
+     "w": 770,
+     "h": 1342,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -69,
+     "y": 1127,
+     "w": 1344,
+     "h": 708,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 325,
+     "y": 1106,
+     "w": 1278,
+     "h": 677,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -98,
+     "y": 1019,
+     "w": 747,
+     "h": 1456,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 425,
+     "y": 1092,
+     "w": 1250,
+     "h": 652,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "iframe",
+     "x": 428,
+     "y": 812,
+     "w": 584,
+     "h": 88
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "absolute right-0 bottom-0 left-0 z-2 h-6",
+     "w": 1335,
+     "h": 248,
+     "bg": "linear-gradient(rgba(242, 241, 237, 0) 0%, rgb(242, 241, 237) 70%)"
+    }
+   ],
+   "fontShare": {
+    "Inter": 4796,
+    "bureauSerif": 1364
+   },
+   "bgs": {
+    "rgb(242, 241, 237)": 779396,
+    "lab(95.139 -0.175655 2.06032)": 2174357
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 0,
+    "filters": 0,
+    "video": 0,
+    "canvas": 7,
+    "svg": 66,
+    "img": 16,
+    "buttons": 22,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 13,
+    "iframes": 2
+   },
+   "headings": [
+    "H1 A dedicated guide for every buyer",
+    "H2 See Handhold in action",
+    "H2 Deploy agents across your customer journey",
+    "H2 Help leads validate with AI chat",
+    "H2 Give 1:1 demos at scale with an AI expert",
+    "H2 Provide tailored onboarding with an AI guide",
+    "H2 Get started in minutes",
+    "H2 1.",
+    "H2 2.",
+    "H2 3.",
+    "H2 Scale personalised sales without growing your team",
+    "H2 Create your own agent",
+    "H3 Live 24/7",
+    "H3 Multilingual",
+    "H3 Personalised for each prospect",
+    "H2 We're seeing a very positive impact. Sales reps are less occupied with bad fit leads, crea"
+   ],
+   "fonts": [
+    "Inter 100 900 normal",
+    "bureauSerif 200 normal"
+   ],
+   "firstViewTextSample": "Resources\nSign in\nTry for free\nA dedicated guide for every buyer\n\nAI agents running tailored demos & onboarding 24/7\n\nSee AI demo\nTry for free\n60%\nreduction in bad fit sales calls\n20%\nmonth-on-month increase in total SQLs\n\n“Our sales reps are less occupied with bad fit leads, creating extra capacity for outbound, and Handhold’s agent has been super useful for coverage outside of regular business hours.”\n\nAlasdair Reynolds\n\nHead of Growth at Parim\n\nAI Demo\n\nSee Handhold in action\n\nLet our agent walk you through our product\n\nStart demo\nDeploy agents across your customer journey\n\nMost buyer journeys are full of hurdles, each contributing to drop-off. Let our agents handhold your prospects from intent to activation.\n\nInbound Q&A agent\nHelp leads validate with AI chat\n\nEngages visitors and answers their questions\n\nDiscovers what customers are looking for, responds in real time, and turns curiosity into meaningful interactions.\n\nQualifies leads and nudges them towards next steps\n\nIdentifies intent, filters high-value leads, and guides prospects toward the right next action.\n\nRetains memory and passes context\n\nRemembers every conversation and seamlessly shares context across agents for a continuous experience.\n\nDemo agent\nGive 1:1 demos at scale with an AI expert\n\nRuns deep-dive demo sessions\n\nDelivers interactive, personalised demos by showing your live product in real time.\n\nGathers insights from conversations\n\nCaptures key signals, needs, and preferences directly from each intera",
+   "pageHeight": 7629,
+   "hasHScroll": false,
+   "visibleChars": 6329,
+   "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 0,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 30,
+   "ro": 9,
+   "animateCalls": 13,
+   "canvasContexts": [
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2"
+   ],
+   "lcp": {
+    "t": 1192,
+    "tag": "H1",
+    "id": null,
+    "size": 87058,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 60,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 50,
+   "settle98Ms": 50,
+   "distinctPositions": 2,
+   "samples": 107,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 3815,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 6729,
+    "count": 18,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "grid-template-rows",
+      "target": "div.grid.transition-[grid-template-rows]",
+      "props": [
+       "gridTemplateRows"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "opacity",
+      "target": "p.font-sans.text-content-secondary",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "img.absolute.w-[48%]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 400,
+      "delay": 0,
+      "easing": "cubic-bezier(0.23, 1, 0.32, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "navOpenToggle": "Resources",
+  "transferAfterScroll": {
+   "requests": 201,
+   "totalBytes": 4392669,
+   "byType": {
+    "Document": 161326,
+    "Font": 614506,
+    "Image": 2298633,
+    "Stylesheet": 31683,
+    "Script": 1132263,
+    "Other": 45063,
+    "Fetch": 106864,
+    "XHR": 2331
+   },
+   "hosts": {
+    "handhold.io": 4392669
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "plausible"
+   ],
+   "htmlCls": "inter_5901b7c6-module__ec5Qua__variable bureauserif_14406768-module__8wID-G__variable h-full font-sans light h-full",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 7,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 42,
+   "scripts": [
+    "https://handhold.io/_next/static/chunks/2i7vdq31dltzw.js",
+    "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+    "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "https://handhold.io/_next/static/chunks/turbopack-1f_buqr0-muc3.js",
+    "https://handhold.io/_next/static/chunks/0an71yv8a-gl9.js",
+    "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+    "https://handhold.io/_next/static/chunks/0x5rdq9-3r5ym.js",
+    "https://handhold.io/_next/static/chunks/0uwr7wn_py9wu.js",
+    "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+    "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+    "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+    "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "https://handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+    "https://handhold.io/_next/static/chunks/1g7wj5_nl9x9n.js",
+    "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+    "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+    "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+    "https://handhold.io/_next/static/chunks/2olvhwm96-8_n.js",
+    "https://handhold.io/_next/static/chunks/1fdpondzf0f6p.js",
+    "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "https://handhold.io/_next/static/chunks/1l2i3xzgj28rw.js",
+    "https://handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+    "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+    "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "https://handhold.io/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+    "https://handhold.io/_next/static/chunks/137xxg5f7wwko.js",
+    "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+    "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+    "https://handhold.io/_next/static/chunks/2rt-4edx9gijl.js",
+    "https://handhold.io/_next/static/chunks/0mfx86pv-__p8.js",
+    "https://handhold.io/_next/static/chunks/32xy-licoyc1n.js",
+    "https://handhold.io/_next/static/chunks/1o39ce2eh_5jq.js",
+    "https://handhold.io/_next/static/chunks/35atc-r4osjx7.js",
+    "https://handhold.io/_next/static/chunks/128_8x0_9k8aj.js",
+    "https://handhold.io/_next/static/chunks/1iutt65gc64u7.js",
+    "https://handhold.io/_next/static/chunks/0h8s8jcw9c-25.js",
+    "https://handhold.io/_next/static/chunks/1fja39xpiy4pk.js",
+    "https://handhold.io/_next/static/chunks/2dim4-b1-538y.js",
+    "https://handhold.io/pa/script.js",
+    "https://handhold.io/demo/embed.js"
+   ],
+   "inlineScripts": 7,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "1P handhold.io/_next/static/chunks/2mg0s2yv51fw5.js"
+   ],
+   "three": [
+    "1P handhold.io/_next/static/chunks/0pu7w_ljt06gl.js"
+   ],
+   "framerMotion": [
+    "1P handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "1P handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "1P handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "1P handhold.io/_next/static/chunks/3u7sgjy-czdei.js"
+   ],
+   "scrollTimelineJS": [
+    "1P handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "1P handhold.io/_next/static/chunks/395fp86v1a9dc.js"
+   ],
+   "intersection": [
+    "1P handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "1P handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "1P handhold.io/_next/static/chunks/1qbequw011zcy.js",
+    "1P handhold.io/_next/static/chunks/395fp86v1a9dc.js"
+   ],
+   "webgl": [
+    "1P handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "1P handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "1P handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+    "1P handhold.io/_next/static/chunks/1fja39xpiy4pk.js"
+   ],
+   "shader": [
+    "1P handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "1P handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "1P handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "1P handhold.io/_next/static/chunks/3-gsgluxmli0u.js"
+   ]
+  },
+  "scriptsScanned": 53,
+  "cssFeatures": {
+   "@property": 71,
+   "scroll-snap-type": 1,
+   "backdrop-filter": 15,
+   "mix-blend-mode": 1,
+   "content-visibility": 2,
+   "will-change": 4,
+   "sticky": 4,
+   "text-wrap": 2,
+   "color-mix(": 4,
+   "oklch(": 1,
+   "lab(": 214,
+   "@container": 9,
+   ":has(": 1,
+   "clip-path": 1,
+   "mask-image": 4,
+   "prefers-reduced-motion": 2
+  },
+  "cssBytes": {
+   "linked": 155637,
+   "inline": 14859,
+   "files": 4
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 0,
+  "paintedChars": 0,
+  "paintedCharsFirstViewport": 0,
+  "h1": "A dedicated guide for every buyer",
+  "firstViewportText": ""
+ }
+}

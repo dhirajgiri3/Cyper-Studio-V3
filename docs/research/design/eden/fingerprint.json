@@ -1,0 +1,1547 @@
+{
+ "slug": "eden",
+ "url": "https://eden.so/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 2020,
+  "consent": [],
+  "finalUrl": "https://eden.so/",
+  "transferFirstLoad": {
+   "requests": 67,
+   "totalBytes": 2807965,
+   "byType": {
+    "Document": 94113,
+    "Stylesheet": 2651,
+    "Image": 1402731,
+    "Script": 1154771,
+    "Font": 77781,
+    "Fetch": 73121,
+    "XHR": 1150,
+    "Other": 1647
+   },
+   "hosts": {
+    "eden.so": 1393252,
+    "public.eden.so": 524962,
+    "www.googletagmanager.com": 310095,
+    "connect.facebook.net": 271195,
+    "obs.eden.so": 128292,
+    "fonts.gstatic.com": 77781,
+    "api.eden.so": 71535,
+    "bzrcdn.openai.com": 28202,
+    "fonts.googleapis.com": 2651
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-D7Z9V00ZKQ&cx=c&gtm=4e6a61",
+     "bytes": 181814
+    },
+    {
+     "url": "https://connect.facebook.net/signals/config/1603200597384323?v=2.9.415&r=stable&domain=eden.so&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266",
+     "bytes": 158242
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KX2ZPVNZ",
+     "bytes": 128281
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112953
+    },
+    {
+     "url": "https://eden.so/75067fce90325ec600e9aa01b0a6741d8bdede33-3e2e6eaedaf4386b3fd1.js",
+     "bytes": 110373
+    },
+    {
+     "url": "https://obs.eden.so/static/posthog-recorder.js?v=1.364.7",
+     "bytes": 68423
+    },
+    {
+     "url": "https://eden.so/1bb5572f-f595ee8c795f605455a0.js",
+     "bytes": 58381
+    },
+    {
+     "url": "https://eden.so/4a51e315-35edaa682505d4ecfcfb.js",
+     "bytes": 56195
+    },
+    {
+     "url": "https://obs.eden.so/static/surveys.js?v=1.364.7",
+     "bytes": 33732
+    },
+    {
+     "url": "https://eden.so/app-5db2f5b83689e7a35836.js",
+     "bytes": 29519
+    },
+    {
+     "url": "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+     "bytes": 27335
+    },
+    {
+     "url": "https://eden.so/ec3aa36ecc752db27a1127dcef0433dc3567e934-04a2e0f6b3b94d46aeeb.js",
+     "bytes": 24779
+    },
+    {
+     "url": "https://eden.so/0eb495b31f539f81a5a367f4be115ac36351b28c-e341729f881ece66bd6c.js",
+     "bytes": 24078
+    },
+    {
+     "url": "https://eden.so/webpack-runtime-dd1a1a961fcebcbbc0ea.js",
+     "bytes": 22128
+    },
+    {
+     "url": "https://eden.so/b4457d2eb9878d8f5a8b2c4c1bff3a882973e7e0-578d428fcf8e6e5ef121.js",
+     "bytes": 14860
+    },
+    {
+     "url": "https://eden.so/aaa5778d-89857a35f46aae062438.js",
+     "bytes": 11831
+    },
+    {
+     "url": "https://eden.so/d9b72f5eef39457c523c78a34101d532cc83cd43-725e91a1c33a79ec1f36.js",
+     "bytes": 9519
+    },
+    {
+     "url": "https://eden.so/945772e905af96521021b6af79ebc4ab7501d578-49765a9bbdcb8ca6cc2f.js",
+     "bytes": 9421
+    },
+    {
+     "url": "https://obs.eden.so/static/dead-clicks-autocapture.js?v=1.364.7",
+     "bytes": 9249
+    },
+    {
+     "url": "https://eden.so/a0e58d306a24b0cc80a9de9ec0ac498fee7b1708-52973811319bdcbdf889.js",
+     "bytes": 8909
+    },
+    {
+     "url": "https://eden.so/c8516cc1efda0c96b0c89b79f6169b64051c528b-3907ca1f9d25198c8fec.js",
+     "bytes": 7964
+    },
+    {
+     "url": "https://eden.so/d396db8e036ac1febff378fc71b949434bb0bfda-2128491cd65a1fbea220.js",
+     "bytes": 7534
+    },
+    {
+     "url": "https://obs.eden.so/static/exception-autocapture.js?v=1.364.7",
+     "bytes": 7202
+    },
+    {
+     "url": "https://eden.so/58c145a96308e1c04fecdb87ac3a5ba810a7b181-1bb530238b232066d2c0.js",
+     "bytes": 5709
+    },
+    {
+     "url": "https://eden.so/a9c926c122f6029b38900b5f777fab2d265d0775-a94e2c08c14322f0abd4.js",
+     "bytes": 5232
+    }
+   ]
+  },
+  "dom": {
+   "title": "Eden | The content brain for creators and marketers",
+   "lang": "",
+   "colorScheme": "normal",
+   "description": "Save and highlight anything, research what's working, schedule and publish posts, sell courses, coaching, and Custom AIs, and run a content agency. All in one place.",
+   "ogImage": "https://eden.so/main-og-image.png?v=2026-10-04-content-brain-4",
+   "canonical": "https://eden.so/",
+   "jsonLd": [
+    "Organization",
+    "SoftwareApplication",
+    "WebSite"
+   ],
+   "generator": "Gatsby 5.16.1",
+   "themeColor": "#0a0a0a",
+   "h1": {
+    "text": "Finally, one place to research viral posts, create original content, sell digital products, grow your email list.\nFinally, one place to\ncrea",
+    "font-family": "Geist, Inter, -apple-system, \"system-ui\", sans-serif",
+    "font-size": "57.6px",
+    "font-weight": "500",
+    "line-height": "60.48px",
+    "letter-spacing": "-2.016px",
+    "color": "rgb(163, 163, 163)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "Discover",
+     "font-family": "Geist, Inter, -apple-system, \"system-ui\", sans-serif",
+     "font-size": "26px",
+     "font-weight": "500",
+     "line-height": "33.8px",
+     "letter-spacing": "-1.04px",
+     "color": "rgba(255, 255, 255, 0.92)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "All items",
+     "font-family": "Geist, Inter, -apple-system, \"system-ui\", sans-serif",
+     "font-size": "27px",
+     "font-weight": "500",
+     "line-height": "43.875px",
+     "letter-spacing": "-0.945px",
+     "color": "rgba(255, 255, 255, 0.92)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Creators see results within days.",
+     "font-family": "Geist, Inter, -apple-system, \"system-ui\", sans-serif",
+     "font-size": "38.4px",
+     "font-weight": "500",
+     "line-height": "42.24px",
+     "letter-spacing": "-1.344px",
+     "color": "rgb(163, 163, 163)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "Inter, -apple-system, \"system-ui\", \"Segoe UI\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(245, 245, 245)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(10, 10, 10)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Eden",
+     "x": 32,
+     "y": 19,
+     "w": 79,
+     "h": 28,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(245, 245, 245)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px solid rgb(229, 231, 235)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "static",
+    "h": 72,
+    "top": 639,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(229, 231, 235)",
+    "links": [
+     "New"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 32,
+     "y": 19,
+     "w": 28,
+     "h": 28,
+     "src": "https://eden.so/eden-logo-dark-transparent.svg",
+     "natural": [
+      50,
+      50
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "Eden",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 90,
+     "y": 1338,
+     "w": 20,
+     "h": 20,
+     "src": "https://eden.so/dan-koe.jpg",
+     "natural": [
+      728,
+      729
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 380,
+     "y": 810,
+     "w": 32,
+     "h": 32,
+     "src": "https://eden.so/creators/hormozi-x-avatar.jpg",
+     "natural": [
+      400,
+      400
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 380,
+     "y": 996,
+     "w": 32,
+     "h": 32,
+     "src": "https://eden.so/creators/justinwelsh-avatar.png",
+     "natural": [
+      400,
+      400
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 380,
+     "y": 1170,
+     "w": 28,
+     "h": 28,
+     "src": "https://eden.so/creators/codiesanchez-avatar.png",
+     "natural": [
+      400,
+      400
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 366,
+     "y": 1206,
+     "w": 316,
+     "h": 316,
+     "src": "https://eden.so/creators/codie-portapotty.jpg",
+     "natural": [
+      360,
+      640
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 696,
+     "y": 796,
+     "w": 316,
+     "h": 178,
+     "src": "https://eden.so/creators/lilla-bjorn-attention.jpg",
+     "natural": [
+      1280,
+      720
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 710,
+     "y": 982,
+     "w": 36,
+     "h": 36,
+     "src": "https://eden.so/creators/lilla-bjorn-avatar.jpg",
+     "natural": [
+      240,
+      240
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 710,
+     "y": 1092,
+     "w": 28,
+     "h": 28,
+     "src": "https://eden.so/creators/joe-dispenza-avatar.jpg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 696,
+     "y": 1128,
+     "w": 316,
+     "h": 316,
+     "src": "https://eden.so/creators/joe-dispenza-abundance.jpg",
+     "natural": [
+      360,
+      640
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1040,
+     "y": 810,
+     "w": 36,
+     "h": 36,
+     "src": "https://eden.so/creators/janelle-dodo-avatar.jpg",
+     "natural": [
+      240,
+      240
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1026,
+     "y": 1155,
+     "w": 316,
+     "h": 178,
+     "src": "https://eden.so/creators/aliabdaal-stop-wasting-life.jpg",
+     "natural": [
+      1280,
+      720
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1040,
+     "y": 1341,
+     "w": 36,
+     "h": 36,
+     "src": "https://eden.so/creators/aliabdaal-ig-avatar.jpg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 709,
+     "y": 847,
+     "w": 305,
+     "h": 172,
+     "src": "https://eden.so/matt-gray-personal-brand.jpg",
+     "natural": [
+      1280,
+      720
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "Matt Gray working on a laptop",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 725,
+     "y": 1035,
+     "w": 36,
+     "h": 36,
+     "src": "https://eden.so/matt-gray-personal-brand.jpg",
+     "natural": [
+      1280,
+      720
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1032,
+     "y": 846,
+     "w": 307,
+     "h": 475,
+     "src": "https://eden.so/purpose-and-profit.jpg",
+     "natural": [
+      750,
+      1159
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "Purpose & Profit by Dan Koe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 185,
+     "y": 1650,
+     "w": 36,
+     "h": 36,
+     "src": "https://public.eden.so/testimonials/eden-love/95565cc5-3083-4cbe-bd9d-1e7876306185/profile.jpg",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Noah Little",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 564,
+     "y": 1650,
+     "w": 36,
+     "h": 36,
+     "src": "https://public.eden.so/testimonials/eden-love/ff54c4f0-6114-41b4-99d6-0e47d703de80/profile.jpg",
+     "natural": [
+      789,
+      789
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Hussain Ibarra",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 942,
+     "y": 1650,
+     "w": 36,
+     "h": 36,
+     "src": "https://public.eden.so/testimonials/eden-love/065416ba-7317-414c-863e-33eaafec6131/profile.png",
+     "natural": [
+      320,
+      320
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Nick Neve",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "a",
+     "cls": "inline-flex items-center bg-gradient-to-",
+     "w": 96,
+     "h": 38,
+     "bg": "linear-gradient(rgb(255, 255, 255), rgb(232, 232, 232))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 1440,
+     "h": 1378,
+     "bg": "radial-gradient(95% 90% at 50% 0px, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.024) 35%, rgba(255, 255, 255, 0.01) 60%, rgba(0, 0, 0, "
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute -inset-x-[2",
+     "w": 2016,
+     "h": 1309,
+     "bg": "radial-gradient(95% 85% at 50% 100%, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.07) 38%, rgba(255, 255, 255, 0.02) 62%, rgba(0, 0, 0, "
+    },
+    {
+     "tag": "a",
+     "cls": "group inline-flex items-center justify-c",
+     "w": 176,
+     "h": 45,
+     "bg": "linear-gradient(rgb(255, 255, 255), rgb(232, 232, 232))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute -inset-x-[8",
+     "w": 1531,
+     "h": 549,
+     "bg": "radial-gradient(rgba(92, 151, 118, 0.14), rgba(255, 255, 255, 0.03) 42%, rgba(0, 0, 0, 0) 72%)"
+    },
+    {
+     "tag": "div",
+     "cls": "relative overflow-hidden rounded-[13px] ",
+     "w": 1320,
+     "h": 762,
+     "bg": "linear-gradient(135deg, rgba(255, 255, 255, 0.24), rgba(255, 255, 255, 0.11) 24%, rgba(255, 255, 255, 0.043) 62%, rgba(255, 255, 255, 0.12))"
+    },
+    {
+     "tag": "span",
+     "cls": "flex h-7 w-7 shrink-0 items-center justi",
+     "w": 28,
+     "h": 28,
+     "bg": "linear-gradient(rgb(44, 44, 44), rgb(29, 29, 29))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-x-0 b",
+     "w": 1034,
+     "h": 112,
+     "bg": "linear-gradient(to top, rgb(17, 17, 17), rgba(18, 18, 18, 0.55), rgba(0, 0, 0, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-x-0 b",
+     "w": 305,
+     "h": 80,
+     "bg": "linear-gradient(to top, rgb(28, 28, 28), rgba(0, 0, 0, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-x-0 b",
+     "w": 1034,
+     "h": 112,
+     "bg": "linear-gradient(to top, rgb(17, 17, 17), rgba(18, 18, 18, 0.7), rgba(0, 0, 0, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-0 z-3",
+     "w": 1318,
+     "h": 760,
+     "bg": "radial-gradient(120% 90% at 15% -10%, rgba(255, 255, 255, 0.04) 0px, rgba(255, 255, 255, 0) 75%), radial-gradient(110% 80% at 105% 110%, rgb"
+    },
+    {
+     "tag": "div",
+     "cls": "pointer-events-none absolute inset-0 bg-",
+     "w": 1358,
+     "h": 680,
+     "bg": "radial-gradient(70% 50% at 50% 0px, rgba(255, 255, 255, 0.043), rgba(0, 0, 0, 0) 70%)"
+    }
+   ],
+   "fontShare": {
+    "Geist": 3730,
+    "Inter": 31087,
+    "Georgia": 12
+   },
+   "bgs": {
+    "rgb(10, 10, 10)": 44938756,
+    "rgb(20, 20, 20)": 2761949,
+    "rgb(17, 17, 17)": 7081909,
+    "rgba(255, 255, 255, 0.08)": 325360
+   },
+   "counts": {
+    "gradients": 99,
+    "backdrop": 46,
+    "filters": 3,
+    "video": 0,
+    "canvas": 0,
+    "svg": 395,
+    "img": 114,
+    "buttons": 49,
+    "forms": 1,
+    "tables": 0,
+    "details": 0,
+    "links": 195,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Finally, one place to research viral posts, create original content, sell digital products",
+    "H2 Discover",
+    "H3 How I Got My Attention Span Back.",
+    "H3 How to Stop Wasting Your Life (Avoid These 5 Things)",
+    "H2 All items",
+    "H3 Script: How to actually grow an audience from scratch",
+    "H3 How to Build a Profitable Personal Brand (In Just 30 Days)",
+    "H2 Creators see results within days.",
+    "H2 Find ideas people already care about.",
+    "H2 ",
+    "H3 How to Research Any Topic - Deep-Dive like a PhD Student",
+    "H3 How to bet on yourself without telling anyone",
+    "H2 Study any creator's entire playbook.",
+    "H2 ",
+    "H3 9 Passive Income Ideas - How I Make $27k per Week",
+    "H3 How I Type REALLY Fast (156 Words per Minute)"
+   ],
+   "fonts": [
+    "Geist 400 normal",
+    "Geist 500 normal",
+    "Geist 600 normal",
+    "Inter 400 normal",
+    "Inter 500 normal",
+    "Inter 600 normal"
+   ],
+   "firstViewTextSample": "Eden\nFeatures\nMarketplace\nReferral program\nComparisons\nAgencies\nPricing\nDownload\nHelp\nSign in\nStart free\nThe content brain for creators and marketers\nFinally, one place to research viral posts, create original content, sell digital products, grow your email list.\nFinally, one place to\ncreate original conten\n\nSave anything, research millions of posts, schedule everywhere, and run your whole store and email list in one place.\n\nGet started free\nFree includes 50 AI credits. No card. No deadline.\nNew\nLibrary\nDiscover\nCustom AI\nPublish\nChats\nPlan this week's content\n1d\nDevelop newsletter idea\n1d\nOutline a YouTube video\n1d\nFind 10 fresh angles\n3d\nRepurpose my latest essay\n3d\nMore\nBoards\nFavorite Ideas\nYouTube Swipe File\nWriting Inspiration\nAudience Research\nBook Notes\nMy Newsletters\nActive Projects\nDan Koe\nintermittent fasting\n6 platforms\n· Last 6 months · 5× · Top 10%\nDiscover\nCreators\nLists\nAll\nProductivity\nSelf-improvement\nAdd\nBreakouts\nHidden gems\nViral now\nAll-time greats\nAlex Hormozi\n@alexhormozi\n1y\n\nThe single greatest skill you can develop is the ability to stay in a great mood in the absence of things to be in a great mood about.\n\n101K\n17K\n25×\nTop 1%\nJustin Welsh\n@thejustinwelsh\n1mo\n\nThe people who win with AI are not the ones who generate the most. They're the ones who develop the clearest taste.\n\n1.1K\n39\n7.26×\nCodie Sanchez\n418K\n24×\n\nCodie Sanchez The boring business hiding in plain sight\n\n10:38\nHow I Got My Attention Span Back.\nLilla Björn Stationery\n451K views\n28×\nTop 3",
+   "pageHeight": 15604,
+   "hasHScroll": false,
+   "visibleChars": 26547,
+   "landmarks": {
+    "header": 3,
+    "nav": 5,
+    "main": 2,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "eden-caret-blink",
+    "target": "span.eden-caret.ml-1",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1050,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "eden-leaf-grow",
+    "target": "path",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1350,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "eden-leaf-grow-bottom",
+    "target": "path",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1350,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "eden-sparkle-grow",
+    "target": "path",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1350,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "efv-blink",
+    "target": "span.efv-caret",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1050,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "efv-blink",
+    "target": "span.efv-caret",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1050,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "eden-caret-blink",
+    "target": "span.eden-caret.ml-0.5",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1050,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.h-1.5.w-1.5",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 32,
+   "ro": 12,
+   "animateCalls": 0,
+   "canvasContexts": [],
+   "lcp": {
+    "t": 1148,
+    "tag": "IMG",
+    "id": null,
+    "size": 32745,
+    "url": "https://eden.so/creators/lilla-bjorn-attention.jpg"
+   },
+   "cls": 0.0194,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    }
+   ]
+  },
+  "idleRafPerSecond": 0,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 59,
+   "settle98Ms": 59,
+   "distinctPositions": 2,
+   "samples": 109,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 8,
+    "infinite": 5,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-1",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow-bottom",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-sparkle-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-0.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.h-1.5.w-1.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 7802,
+    "count": 8,
+    "infinite": 5,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-1",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow-bottom",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-sparkle-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-0.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.h-1.5.w-1.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 15091,
+    "count": 8,
+    "infinite": 5,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-1",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-leaf-grow-bottom",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-sparkle-grow",
+      "target": "path",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1350,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "efv-blink",
+      "target": "span.efv-caret",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "eden-caret-blink",
+      "target": "span.eden-caret.ml-0.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1050,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.h-1.5.w-1.5",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 121,
+   "totalBytes": 17518951,
+   "byType": {
+    "Document": 94113,
+    "Stylesheet": 2651,
+    "Image": 16113717,
+    "Script": 1154771,
+    "Font": 77781,
+    "Fetch": 73121,
+    "XHR": 1150,
+    "Other": 1647
+   },
+   "hosts": {
+    "public.eden.so": 13053952,
+    "eden.so": 3575248,
+    "www.googletagmanager.com": 310095,
+    "connect.facebook.net": 271195,
+    "obs.eden.so": 128292,
+    "fonts.gstatic.com": 77781,
+    "api.eden.so": 71535,
+    "bzrcdn.openai.com": 28202,
+    "fonts.googleapis.com": 2651
+   }
+  },
+  "fp": {
+   "present": [
+    "dataLayer",
+    "fbq"
+   ],
+   "htmlCls": "js",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": true,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 17,
+   "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-D7Z9V00ZKQ&cx=c&gtm=4e6a61",
+    "https://connect.facebook.net/signals/config/1603200597384323?v=2.9.415&r=stable&domain=eden.so&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://bzrcdn.openai.com/sdk/oaiq.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-KX2ZPVNZ",
+    "https://obs.eden.so/array/phc_DoB97reo8p9PcozTAehApKo8SUMkTnbAXJorwRKJSPwa/config.js",
+    "https://obs.eden.so/static/posthog-recorder.js?v=1.364.7",
+    "https://obs.eden.so/static/surveys.js?v=1.364.7",
+    "https://obs.eden.so/static/logs.js?v=1.364.7",
+    "https://obs.eden.so/static/dead-clicks-autocapture.js?v=1.364.7",
+    "https://obs.eden.so/static/web-vitals.js?v=1.364.7",
+    "https://obs.eden.so/static/exception-autocapture.js?v=1.364.7",
+    "https://eden.so/webpack-runtime-dd1a1a961fcebcbbc0ea.js",
+    "https://eden.so/4a51e315-35edaa682505d4ecfcfb.js",
+    "https://eden.so/1bb5572f-f595ee8c795f605455a0.js",
+    "https://eden.so/aaa5778d-89857a35f46aae062438.js",
+    "https://eden.so/app-5db2f5b83689e7a35836.js"
+   ],
+   "inlineScripts": 10,
+   "generator": "Gatsby 5.16.1",
+   "scrollBehavior": "smooth",
+   "overscroll": "auto none"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "1P eden.so/1bb5572f-f595ee8c795f605455a0.js"
+   ],
+   "framerMotion": [
+    "1P eden.so/app-5db2f5b83689e7a35836.js"
+   ],
+   "swiper": [
+    "3P connect.facebook.net/signals/config/1603200597384323?v=2.9.415&r=stable&domain=eden.so&hme"
+   ],
+   "intersection": [
+    "1P eden.so/app-5db2f5b83689e7a35836.js",
+    "3P www.googletagmanager.com/gtag/js?id=G-D7Z9V00ZKQ&cx=c&gtm=4e6a61",
+    "1P eden.so/0eb495b31f539f81a5a367f4be115ac36351b28c-e341729f881ece66bd6c.js",
+    "1P eden.so/91e4df1270cf25b2ce015cfac3b769d0373471f4-b4a603aca7b5de19bb73.js"
+   ],
+   "webgl": [
+    "3P obs.eden.so/static/posthog-recorder.js?v=1.364.7"
+   ],
+   "barba": [
+    "3P connect.facebook.net/en_US/fbevents.js"
+   ]
+  },
+  "scriptsScanned": 32,
+  "cssFeatures": {
+   "scroll-snap-type": 2,
+   "backdrop-filter": 6,
+   "mix-blend-mode": 2,
+   "will-change": 3,
+   "sticky": 6,
+   "text-wrap": 2,
+   "mask-image": 5,
+   "prefers-reduced-motion": 14
+  },
+  "cssBytes": {
+   "linked": 28104,
+   "inline": 238641,
+   "files": 1
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 4,
+   "infinite": 1,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "eden-leaf-grow",
+     "target": "path",
+     "props": [
+      "opacity",
+      "transform"
+     ],
+     "duration": 1350,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "eden-leaf-grow-bottom",
+     "target": "path",
+     "props": [
+      "opacity",
+      "transform"
+     ],
+     "duration": 1350,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "eden-sparkle-grow",
+     "target": "path",
+     "props": [
+      "opacity",
+      "transform"
+     ],
+     "duration": 1350,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.h-1.5.w-1.5",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 15411,
+  "paintedChars": 13298,
+  "paintedCharsFirstViewport": 1155,
+  "h1": "Finally, one place to research viral posts, create original content, sell digital products, grow your email list.\nFinally, one place to\nrese",
+  "firstViewportText": "Eden | Features | Features | Marketplace | Marketplace | Referral program | Referral program | Comparisons | Comparisons | Agencies | Agencies | Pricing | Pricing | Download | Download | Help | Help | Sign in | Sign in | Start free | Start free | Finally, one place to research viral posts, create original content, sell digital products, grow your email list.\nFinally, one place to\nresearch viral posts. | Save anything, research millions of posts, schedule everywhere, and run your whole store and "
+ }
+}

@@ -17,10 +17,11 @@ for (const pair of pairs) {
         fcp: n('first-contentful-paint'), lcp: n('largest-contentful-paint'), tbt: n('total-blocking-time'), cls: n('cumulative-layout-shift'), si: n('speed-index'), tti: n('interactive'),
         requests: reqs.length, bytesTotal: n('total-byte-weight'), scriptBytes: by('Script'), cssBytes: by('Stylesheet'), imageBytes: by('Image'), mediaBytes: by('Media'), fontBytes: by('Font'), docBytes: by('Document'),
         mainThreadMs: n('mainthread-work-breakdown'), bootupMs: n('bootup-time'), lcpEl: (a['largest-contentful-paint-element']?.details?.items?.[0]?.items?.[0]?.node?.snippet || a['lcp-breakdown-insight']?.details?.items?.[0]?.node?.snippet || '').slice(0, 60) });
-    } finally { await chrome.kill(); }
+    } catch (e) { all.push({ error: String(e.message || e).slice(0, 120), perf: null }); } finally { await chrome.kill(); }
   }
+  const okRuns = all.filter(x => !x.error); if (!okRuns.length) { fs.writeFileSync(`../results/lh-${id}.json`, JSON.stringify({ id, url, runs: all, median: null, date: new Date().toISOString() }, null, 1)); console.log(id.padEnd(14), 'ALL RUNS FAILED:', all[0].error); continue; }
   const keys = ['perf', 'fcp', 'lcp', 'tbt', 'cls', 'si', 'tti', 'scriptBytes', 'bytesTotal', 'mainThreadMs'];
-  const median = Object.fromEntries(keys.map(k => [k, med(all.map(x => x[k]))]));
+  const median = Object.fromEntries(keys.map(k => [k, med(okRuns.map(x => x[k]))]));
   fs.writeFileSync(`../results/lh-${id}.json`, JSON.stringify({ id, url, runs: all, median, date: new Date().toISOString() }, null, 1));
-  console.log(id.padEnd(14), 'perf', all.map(x => x.perf).join(','), '| median LCP', median.lcp, 'TBT', median.tbt, 'CLS', median.cls, 'FCP', median.fcp, 'script B', median.scriptBytes);
+  console.log(id.padEnd(14), 'perf', all.map(x => x.error ? 'ERR' : x.perf).join(','), '| median LCP', median.lcp, 'TBT', median.tbt, 'CLS', median.cls, 'FCP', median.fcp, 'script B', median.scriptBytes);
 }

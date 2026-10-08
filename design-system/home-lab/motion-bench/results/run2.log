@@ -7,3 +7,19 @@ atmos-webgl    desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CL
 [16:53:55] lighthouse bench
 s0             perf 100,100,100,100,100 | median LCP 1202.26 TBT 0 CLS 0 FCP 752.26 script B 662
 s1             perf 100,100,100,100,100 | median LCP 1204.06 TBT 0 CLS 0 FCP 754.06 script B 5953
+s2             perf 100,100,100,100,100 | median LCP 1248.4 TBT 0 CLS 0 FCP 753.03 script B 43856
+s3             perf 100,100,100,100,100 | median LCP 1253.8 TBT 0 CLS 0 FCP 753.33 script B 48538
+s4             perf 100,100,100,99,100 | median LCP 1712.55 TBT 0 CLS 0 FCP 753.23 script B 100587
+[16:56:39] lighthouse atmosphere
+atmos-none     perf 100,100,100,100,100 | median LCP 1052.16 TBT 0 CLS 0 FCP 752.16 script B 0
+atmos-webp     perf 100,100,100,100,100 | median LCP 1127.36 TBT 0 CLS 0 FCP 752.36 script B 0
+atmos-webp-grain perf 100,100,100,100,100 | median LCP 1128.24 TBT 0 CLS 0 FCP 753.24 script B 0
+atmos-video    perf 100,100,100,100,100 | median LCP 1205.5 TBT 0 CLS 0 FCP 755.5 script B 0
+atmos-webgl    perf 85,100,100,100,100 | median LCP 1100.73 TBT 0 CLS 0 FCP 753.73 script B 11835
+[16:59:17] lighthouse heroes + baseline
+hero-a         perf 100,100,100,100,100 | median LCP 1203.52 TBT 0 CLS 0 FCP 903.52 script B 0
+hero-b         perf 100,100,100,100,100 | median LCP 1203.38 TBT 0 CLS 0 FCP 904.12 script B 0
+hero-c         perf 100,100,100,100,100 | median LCP 1203.41 TBT 0 CLS 0 FCP 903.41 script B 0
+hero-d         perf 100,100,100,100,100 | median LCP 1201.53 TBT 0 CLS 0 FCP 901.53 script B 0
+baseline       perf 88,88,89,88,91 | median LCP 3115.14 TBT 0 CLS 0 FCP 3115.14 script B 0
+[17:02:00] DONE2

@@ -1,4 +1,68 @@
-# Design research synthesis (v0.0, 8 Oct 2026)
+# Design research synthesis v1.0 (14 sites, 8 Oct 2026 lab round)
+
+Evidence base: 14 home pages observed in real Chrome: the original eight (spacefs, eden, monday, getenergy, workos atlas, crealo, wama, handhold) plus six added in Brief 01 v2.1 (modeinspect, pexo, legora, iru, clay, adaline). Cards: `<site>/CARD.md`. Technology: [`TECH_FINGERPRINT.md`](TECH_FINGERPRINT.md). The v0.0 synthesis (12 sites including three calibration pages) follows unchanged below this section. Nothing is copied from a reference; patterns and ratios only. `?` means not checked, `-` not observed (not proof of absence), `~` partial.
+
+## A. Asset-and-motion pattern matrix (patterns x 14 sites)
+
+| Pattern | spacefs | eden | monday | getenergy | workos-atlas | crealo | wama | handhold | modeinspect | pexo | legora | iru | clay | adaline | count Y |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Display headline tracking -0.03em or tighter (measured h1) | Y | Y | Y | Y | - | - | - | Y | Y | - | Y | Y | Y | Y | 10 |
+| Centred hero | Y | Y | - | Y | Y | Y | Y | Y | - | Y | Y | - | - | - | 9 |
+| Product UI (live or image) in the first viewport | - | Y | Y | ~ | ~ | ~ | - | - | Y | - | - | ~ | - | ~ | 3 |
+| Product drawn as live DOM markup (not an image) | ? | ? | ? | ? | ? | ? | ? | ? | Y | ? | - | ? | - | Y | 2 |
+| Customer-logo strip or marquee | - | - | Y | - | - | - | ~ | Y | Y | - | Y | Y | Y | Y | 7 |
+| Stats, testimonials or quote cards on the home page | ? | ? | Y | ? | ? | ? | ? | ? | Y | ~ | Y | Y | Y | Y | 6 |
+| Video as the hero visual | - | - | - | - | - | - | ~ | - | - | Y | Y | - | Y | - | 3 |
+| WebGL or canvas visual you can see | Y | - | - | - | Y | - | - | Y | - | - | - | - | - | Y | 4 |
+| Pinned or scroll-scrubbed scene | Y | - | - | - | - | - | - | - | - | Y | Y | - | - | Y | 4 |
+| Full dark theme | - | Y | - | - | - | - | - | - | - | - | - | - | - | - | 1 |
+| h1 and subhead visible with JavaScript off | Y | Y | Y | Y | Y | Y | Y | - | Y | Y | - | Y | Y | Y | 12 |
+| Gradient-background elements, 20 or more (probe count; includes legibility scrims) | Y (36) | Y (99) | - (4) | Y (22) | Y (61) | - (2) | - (1) | - (2) | - (13) | Y (52) | - (12) | - (0) | Y (49) | - (2) | 6 |
+| `requestAnimationFrame` still running at idle (probe; includes third-party) | Y (60) | - (0) | Y (184) | - (0) | Y (61) | Y (120) | Y (60) | Y (60) | - (0) | Y (30) | Y (120) | Y (121) | Y (248) | Y (120) | 11 |
+| First-load JavaScript over 1 MB | - (872) | Y (1128) | Y (3838) | - (114) | Y (1554) | Y (1209) | - (391) | Y (1062) | - (528) | Y (1031) | Y (1234) | Y (2223) | Y (3151) | - (690) | 9 |
+| Mobile Lighthouse 90 or above (3-run median) | - (55) | - (51) | - (29) | Y (98) | - (46) | - (58) | - (76) | - (60) | - (81) | - (57) | - (61) | - (67) | - (41) | - (78) | 1 |
+| Smoothing behaviour observed on a wheel tick | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | - (2) | 0 |
+| `animation-timeline` in fetched CSS | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | - (0) | 0 |
+
+Rows 1 to 11 are judgements from first-viewport screenshots and the cards; the six rows beneath are automated or measured (value in brackets). The Lighthouse row is a 3-run median measured on 8 Oct 2026 on one machine; **wama scored 93 in the single run in the earlier round and 76 now (65, 76, 76)**, so single-run scores in the v0.0 matrix below are not comparable with these.
+
+## B. The five patterns that most separate premium from generic across the set (ranked)
+
+Method: the patterns that appear in the "makes it feel premium" list of the card **and** are absent or contradicted in the "generic" lists; then checked against what HELIX can truthfully do. Evidence is from the cards.
+
+1. **The product shown as a working object, early.** Live markup with tabular mono data, status chips and a caption, not an illustration (modeinspect: a 1152 x 720 UI at about 506 nodes; adaline: windows at about 590 nodes on a plate; eden, monday in the first viewport). The sites that show illustration or output instead (clay, legora, pexo, spacefs) say less about what the product is. HELIX-truthful form: the operator-console frame, captioned and labelled until real captures exist.
+2. **Colour quarantined to the product or one accent.** UI surfaces in white, off-white and ink with hairlines; saturated colour only inside the product windows or one accent (iru: all chroma in the Lottie and plates; adaline: two ramps, saturation only in windows; legora: one green). HELIX-truthful form: P1 with blue on the wordmark and one CTA, and no blue inside tenant windows.
+3. **Stillness with one reused curve.** iru: 0 of about 920 elements changed under scroll; modeinspect: one expo-out curve for every reveal; adaline: colour-only hover at 150 ms and a 14 px, 520 ms rise. The premium feeling comes from what does not move. HELIX-truthful form: one moment per hero.
+4. **A single clear type scale with tight display tracking and balanced wrapping.** Ten of the 14 measured at -0.03em to -0.049em on the h1; the premium five (modeinspect, adaline, iru, legora, clay) all do it with `text-wrap: balance`, and four of the five use one family at two or three weights. It is cheap, but it is **table stakes more than a separator**: ten of 14 do it, including sites whose cards list generic tells (monday, eden). HELIX-truthful form: Geist, plus the wordmark as the only heavy element.
+5. **Lean first load.** Across the 14, mobile Lighthouse falls as first-load JavaScript rises (Spearman -0.75, n = 14). The only site above 90 (getenergy, 98) loads 114 KB of JS and 0.4 MB in total; the premium-feeling sites that score in the high 70s and 80s (modeinspect 81, adaline 78) load 528 and 690 KB. HELIX-truthful form: 0 KB of JS before and after interaction in all four heroes, measured.
+
+Honourable mention that HELIX cannot use: **one commissioned art world used for every asset** (clay). It reads as the most premium thing in the set and costs 18 MB at first load; HELIX has no art direction brief, no images and no permission to use stock or AI imagery.
+
+## C. Commodity patterns: on most sites, so using them makes HELIX look like everyone else
+
+Counts from the matrix (n = 14 unless stated):
+
+| Pattern | Sites | HELIX can use it? |
+|---|---|---|
+| Idle `requestAnimationFrame` loops (ambient motion, partly third-party) | 11 | Avoid: nothing should run at idle |
+| Gradient wash, glow or aurora behind the hero | at least 6 by card (modeinspect, pexo, handhold, iru, adaline, clay) and 6 by gradient-element count | No (Spec 14.6) |
+| Customer-logo strip or marquee | 7 (+1 partial) | No: no permitted logos |
+| Centred hero | 9 | Possible (HERO-A) but undifferentiated |
+| First-load JS over 1 MB | 9 | No |
+| Stats, quotes or testimonials | 6 confirmed (+1 partial), 7 not checked | No: nothing to cite |
+| Product mock in a window or card | most, incl. all four of this round's heroes | Yes, with labels; the **differentiator is what changes inside it** |
+| Same CTA label repeated, header and hero identical | legora, clay, modeinspect (x3), adaline (x5), iru | Avoid: header outline, hero filled |
+| Hero that never shows the product | legora (film), clay (illustration), pexo (output), spacefs, adaline (ASCII) | Avoid |
+| Third-party tag stack | 12 of 14 confirmed to carry analytics, session-replay or visitor-ID scripts (the 8 earlier sites plus modeinspect, legora, iru, clay); pexo and adaline not checked | HELIX target: none except deferred privacy-friendly analytics |
+
+## D. What this changes in the Lab (feeds THESIS.md, PATTERNS.md)
+- The set is **less smooth and less library-driven than assumed**: no smoothing behaviour observed on any of the 14 (TECH_FINGERPRINT.md), so "premium smoothness" is not evidence for adding Lenis.
+- The two sites closest to the handhold-style atmosphere reference (handhold itself and spacefs) are in the **slower half** of the set (Lighthouse 60 and 55; 1.1 MB and 0.9 MB of JS).
+- Premium separation comes mostly from things HELIX can do for free (type, tone, restraint, a working product object), which is the thesis in THESIS.md.
+
+---
+
+# Earlier synthesis (v0.0, 8 Oct 2026, 12 sites)
 
 Evidence base: 12 live pages observed in real Chrome (5 primary, 4 secondary, 3 calibration), home page only, desktop plus 1024 and 390 viewports. Cards: `<site>/CARD.md`. Numbers: [`MEASURED.md`](MEASURED.md). Motion: [`motion-catalogue.md`](motion-catalogue.md). Anything not measured is marked `NOT OBSERVED` in the cards. Nothing here is copied from a reference; principles and ratios only.
 

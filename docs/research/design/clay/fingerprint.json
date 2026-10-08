@@ -1,0 +1,3472 @@
+{
+ "slug": "clay",
+ "url": "https://www.clay.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 3329,
+  "consent": [],
+  "finalUrl": "https://www.clay.com/",
+  "transferFirstLoad": {
+   "requests": 185,
+   "totalBytes": 19192931,
+   "byType": {
+    "Document": 77123,
+    "Stylesheet": 182025,
+    "Script": 3227105,
+    "Image": 2761744,
+    "Fetch": 8557,
+    "Font": 396556,
+    "Media": 12532897,
+    "Ping": 1748,
+    "Preflight": 0,
+    "XHR": 524,
+    "FedCM": 2166,
+    "Other": 2486
+   },
+   "hosts": {
+    "assets.clayrun.dev": 12536062,
+    "cdn.prod.website-files.com": 3500682,
+    "cdn.jsdelivr.net": 540558,
+    "www.googletagmanager.com": 535431,
+    "www.gstatic.com": 356031,
+    "www.clay.com": 277910,
+    "prod-assets.sequelvideo.com": 236768,
+    "connect.facebook.net": 216725,
+    "unpkg.com": 185090,
+    "evs.cdp.clay.com": 170586,
+    "transcend-cdn.com": 150445,
+    "clay-webflow-dev.vercel.app": 132605,
+    "accounts.google.com": 104877,
+    "cdn.intellimize.co": 88570
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js",
+     "bytes": 454559
+    },
+    {
+     "url": "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+     "bytes": 356031
+    },
+    {
+     "url": "https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js",
+     "bytes": 236768
+    },
+    {
+     "url": "https://www.clay.com/wvxwa3jtwetcNjE0NzdmMmMyNGE4MjY4MzZmOTY5YWZl/MaGYX-N2_EF-d6DtTH1F8qMiFTM",
+     "bytes": 200787
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-NHFD0GLCLV",
+     "bytes": 189434
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WQ2D7W7",
+     "bytes": 175153
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-11388401378&cx=c&gtm=4e6a70h2",
+     "bytes": 170621
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.181a2070a530b302.js",
+     "bytes": 143678
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+     "bytes": 130427
+    },
+    {
+     "url": "https://clay-webflow-dev.vercel.app/app.js",
+     "bytes": 129802
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112953
+    },
+    {
+     "url": "https://connect.facebook.net/signals/config/792409723405810?v=2.9.415&r=stable&domain=www.clay.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c",
+     "bytes": 103772
+    },
+    {
+     "url": "https://accounts.google.com/gsi/client",
+     "bytes": 102201
+    },
+    {
+     "url": "https://transcend-cdn.com/cm/e091122d-95d3-4fb5-b663-7121c10f3329/ui.js",
+     "bytes": 92100
+    },
+    {
+     "url": "https://cdn.intellimize.co/snippet/117293819.js",
+     "bytes": 88570
+    },
+    {
+     "url": "https://evs.cdp.clay.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js",
+     "bytes": 59661
+    },
+    {
+     "url": "https://evs.cdp.clay.com/next-integrations/integrations/vendor/commons.1b78f84a8c1751144d06.js.gz",
+     "bytes": 58095
+    },
+    {
+     "url": "https://transcend-cdn.com/cm/e091122d-95d3-4fb5-b663-7121c10f3329/airgap.js",
+     "bytes": 51808
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@eppo/visual_editor_snippet@latest/dist/renderer.bundle.js",
+     "bytes": 45948
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.be3217a3423ba33c.js",
+     "bytes": 43585
+    },
+    {
+     "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61477f2c24a826836f969afe",
+     "bytes": 31977
+    },
+    {
+     "url": "https://evs.cdp.clay.com/hwgzA3Y9rl/tWJbqMNRgGHjbwHiie73pz.min.js",
+     "bytes": 31083
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+     "bytes": 29840
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js",
+     "bytes": 29693
+    },
+    {
+     "url": "https://cdn.claydar.com/releases/latest/radar.min.js",
+     "bytes": 25911
+    }
+   ]
+  },
+  "dom": {
+   "title": "Clay | Build systems to grow revenue",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Infrastructure to get any data, run agentic workflows, and launch GTM plays.",
+   "ogImage": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a3ab15061812432ead96f56_Clay_Homepage_og-image%201000.png",
+   "canonical": "https://www.clay.com/",
+   "jsonLd": [
+    "SoftwareApplication",
+    "WebSite"
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Build systems to grow revenue",
+    "font-family": "Roobertvf, Arial, sans-serif",
+    "font-size": "88px",
+    "font-weight": "575",
+    "line-height": "88px",
+    "letter-spacing": "-3.52px",
+    "color": "rgb(254, 253, 251)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "\"wght\" 575",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "GTM engineers build on Clay",
+     "font-family": "Roobertvf, Arial, sans-serif",
+     "font-size": "72px",
+     "font-weight": "500",
+     "line-height": "72px",
+     "letter-spacing": "-2.16px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "\"wght\" 530",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Turn your growth ideas into reality today",
+     "font-family": "Roobertvf, Arial, sans-serif",
+     "font-size": "44px",
+     "font-weight": "500",
+     "line-height": "48.4px",
+     "letter-spacing": "-0.88px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "\"wght\" 530",
+     "text-wrap": "wrap"
+    }
+   ],
+   "body": {
+    "font-family": "Roobertvf, Arial, sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "The most creative minds in GTM. October ",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 44,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(254, 253, 251)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px none rgb(254, 253, 251)",
+     "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 100px inset"
+    },
+    {
+     "tag": "a",
+     "text": "Product\n\nProduct",
+     "x": 159,
+     "y": 52,
+     "w": 67,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Solutions\n\nSolutions",
+     "x": 231,
+     "y": 52,
+     "w": 76,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Resources\n\nResources",
+     "x": 311,
+     "y": 52,
+     "w": 83,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Company\n\nCompany",
+     "x": 398,
+     "y": 52,
+     "w": 78,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Pricing\n\nPricing",
+     "x": 480,
+     "y": 52,
+     "w": 61,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "⌘\nK",
+     "x": 1012,
+     "y": 55,
+     "w": 70,
+     "h": 35,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "12.8px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Log in",
+     "x": 1083,
+     "y": 56,
+     "w": 61,
+     "h": 32,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "12.8px/500",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Get a demo",
+     "x": 1144,
+     "y": 53,
+     "w": 107,
+     "h": 39,
+     "bg": "rgb(243, 242, 237)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "12px",
+     "font": "13.92px/500",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Start free trial",
+     "x": 1258,
+     "y": 53,
+     "w": 121,
+     "h": 39,
+     "bg": "rgb(0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "12px",
+     "font": "13.92px/500",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Audiences",
+     "x": 60,
+     "y": 147,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Data marketplace",
+     "x": 60,
+     "y": 189,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Signals and Intent",
+     "x": 60,
+     "y": 231,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Waterfall",
+     "x": 60,
+     "y": 273,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Claygents",
+     "x": 313,
+     "y": 147,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Account Agents",
+     "x": 313,
+     "y": 189,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Agent plugin CLI/API",
+     "x": 313,
+     "y": 231,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "MCP for reps",
+     "x": 313,
+     "y": 273,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Workflows",
+     "x": 566,
+     "y": 147,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Functions",
+     "x": 566,
+     "y": 189,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "AI formatting",
+     "x": 566,
+     "y": 231,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Ads",
+     "x": 820,
+     "y": 147,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Sequencer",
+     "x": 820,
+     "y": 189,
+     "w": 253,
+     "h": 42,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "CLAY MCP\n\nGive reps the best prospecting",
+     "x": 1073,
+     "y": 125,
+     "w": 307,
+     "h": 224,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "16px",
+     "font": "16px/400",
+     "border": "0px none rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "CRM enrichment",
+     "x": 60,
+     "y": 147,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "TAM sourcing",
+     "x": 60,
+     "y": 177,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Territory planning",
+     "x": 60,
+     "y": 206,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Reverse ETL",
+     "x": 60,
+     "y": 236,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Outbound",
+     "x": 313,
+     "y": 147,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Automated inbound",
+     "x": 313,
+     "y": 177,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "PLG assist",
+     "x": 313,
+     "y": 206,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "ABM",
+     "x": 313,
+     "y": 236,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Rep prospecting",
+     "x": 566,
+     "y": 147,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Account research",
+     "x": 566,
+     "y": 177,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Rep assist",
+     "x": 566,
+     "y": 206,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "GTM Ops",
+     "x": 820,
+     "y": 147,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Marketing",
+     "x": 820,
+     "y": 177,
+     "w": 253,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": null,
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "nav",
+    "position": "static",
+    "h": 59,
+    "top": 44,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "links": [
+     "Back",
+     "Product\n\nProduct",
+     "Solutions\n\nSolutions",
+     "Resources\n\nResources",
+     "Company\n\nCompany",
+     "Pricing\n\nPricing",
+     "⌘\nK",
+     "Log in",
+     "Get a demo",
+     "Start free trial",
+     "Audiences",
+     "Data marketplace",
+     "Signals and Intent",
+     "Waterfall"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 56,
+     "y": 8,
+     "w": 101,
+     "h": 28,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a9000b05f737fe02f82088d_Default.svg",
+     "natural": [
+      636,
+      135
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 61,
+     "y": 61,
+     "w": 72,
+     "h": 23,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6778506d788ebf16fef48551_Clay%20primary%20logo.avif",
+     "natural": [
+      509,
+      163
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "Clay logo, go to homepage",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf18dcd166ee8066e89_Audiences.webp",
+     "natural": [
+      88,
+      88
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Audiences",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abc88fb18290e684672_3d-icon-wire.avif",
+     "natural": [
+      300,
+      300
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Data marketplace",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 242,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1e25139458afbc01799d0_Signals%2C%20satellite%20dish%2C%20monitor.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Signals and Intent",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 284,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abca946b59ed38891ca_3d-icon-wave.avif",
+     "natural": [
+      300,
+      300
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Waterfall",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 319,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a6c429ed4f8b16b3583f413_Claygent_Claymation.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Claygents",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 319,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a8dd3d3b04433679c85d4e8_Automation.avif",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Account Agents",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 319,
+     "y": 242,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c285d30643c440dfd33e_3d-icon-changelog.avif",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Agent plugin CLI/API",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 319,
+     "y": 284,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/66968abccc0d2ccc96dada4d_3d-icon-link.avif",
+     "natural": [
+      300,
+      300
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "MCP for reps",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 572,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7a815b4a7453c17df51d80_Workflows.avif",
+     "natural": [
+      400,
+      400
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Workflows",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 572,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a6c469c8f52cf0ced000fd9_functions.png",
+     "natural": [
+      400,
+      400
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Functions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 572,
+     "y": 242,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6696c285a5ca1580d2949393_3d-icon-data.avif",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "AI formatting",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 826,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6994e3f966056e5cbb08f379_ads-icon%201.png",
+     "natural": [
+      361,
+      380
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Ads",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 826,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6998ccf1b91a6faab45a7707_image.webp",
+     "natural": [
+      88,
+      88
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Sequencer",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1073,
+     "y": 125,
+     "w": 307,
+     "h": 224,
+     "src": "https://cdn.prod.website-files.com/61702af2e3966e09c4101538/6a591a9e3e484c06e9ad7def_MCP.avif",
+     "natural": [
+      500,
+      472
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1073,
+     "y": 125,
+     "w": 307,
+     "h": 224,
+     "src": "https://cdn.prod.website-files.com/61702af2e3966e09c4101538/69a8cff4ee3cb50deaa6b048_intercom-p-500.avif",
+     "natural": [
+      345,
+      343
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1073,
+     "y": 125,
+     "w": 307,
+     "h": 224,
+     "src": "https://cdn.prod.website-files.com/61702af2e3966e09c4101538/699c92ab9bfd079f17f3fdb2_Untitled%20design%20(1)-p-500.avif",
+     "natural": [
+      345,
+      194
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebcb63149318ee33f742_Heart%20Tricolor.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "About",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebcb6dc3754e5ab88059_Signal%2C%20Title%20Change.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Careers",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 242,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebcb7b4979434a400756_Signal%2C%20Jobs.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Open roles",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 66,
+     "y": 284,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6760a5af049f68ed0b62f2d5_startups.avif",
+     "natural": [
+      84,
+      84
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Blog",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 404,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebcb5b7f83e761333953_Chat%20B.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Contact",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 404,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebcb63437533c9dd4fa6_Signal%2C%20News.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "Press",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 741,
+     "y": 158,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebd1f749bdabf75d1cd6_Linkedin.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "LinkedIn",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 741,
+     "y": 200,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/69a1ebd08d0559b33d8f2202_Youtube.png",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "lazy",
+     "fetchpriority": "",
+     "alt": "YouTube",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1073,
+     "y": 125,
+     "w": 307,
+     "h": 224,
+     "src": "https://cdn.prod.website-files.com/61702af2e3966e09c4101538/69a1f1f3a080096c6cf4cbfa_company-ads-v0-p-500.avif",
+     "natural": [
+      345,
+      201
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1120,
+     "y": 790,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a712716b1f02fb1be7cbf35_Frame%202147261726.svg",
+     "natural": [
+      20,
+      20
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1148,
+     "y": 788,
+     "w": 24,
+     "h": 24,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7127165d8c29c07402f522_Frame%202147261727.svg",
+     "natural": [
+      24,
+      24
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1180,
+     "y": 790,
+     "w": 20,
+     "h": 20,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7127164cd37e26c439e22f_Frame%202147261728.svg",
+     "natural": [
+      20,
+      20
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 0,
+     "y": -54,
+     "w": 1440,
+     "h": 1072,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a231084ed9c142b6d5c41c6_hero-still_v3-p-1600.avif",
+     "natural": [
+      1440,
+      682
+     ],
+     "loading": "eager",
+     "fetchpriority": "high",
+     "alt": "Colorful playful contraption with tubes, balls, magnets, and",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 1072,
+     "src": "https://assets.clayrun.dev/Hero%2006-02%20Lossy%200001-0240.mp4",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": null,
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "img",
+     "x": -23,
+     "y": 1000,
+     "w": 76,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb555445092a87f2709e_stripe.svg",
+     "natural": [
+      85,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -35,
+     "y": 1085,
+     "w": 116,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb0c2bf53107f21d44c7_openai.svg",
+     "natural": [
+      109,
+      30
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 129,
+     "y": 1000,
+     "w": 32,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70e3dfddc4fecd0ba9ddb5_snapchat-logo-svgrepo-com.svg",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 225,
+     "y": 1000,
+     "w": 83,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de741bbaa090adc89091a_figma.svg",
+     "natural": [
+      93,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 238,
+     "y": 1092,
+     "w": 129,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccbb286520a4c0e24960d_cursor.svg",
+     "natural": [
+      145,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 225,
+     "y": 1184,
+     "w": 140,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1791215a474231062b4_intercom.svg",
+     "natural": [
+      158,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 443,
+     "y": 1092,
+     "w": 27,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c5b9c6fbdb1c03fe2e84_ups%20logo.svg",
+     "natural": [
+      52,
+      62
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 547,
+     "y": 1092,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df040091092333801bccc_hubspot.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 704,
+     "y": 993,
+     "w": 90,
+     "h": 36,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6e1e1dac677646e8b46_vanta.svg",
+     "natural": [
+      98,
+      39
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 710,
+     "y": 1184,
+     "w": 84,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6610ad9f1586b27b2a7_Canva.svg",
+     "natural": [
+      94,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 852,
+     "y": 1004,
+     "w": 107,
+     "h": 24,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df205f982e4d9bdc0e6e3_Perplexity.svg",
+     "natural": [
+      161,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 852,
+     "y": 1090,
+     "w": 137,
+     "h": 16,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de7adeebce78e9afbcd29_anthropic.svg",
+     "natural": [
+      146,
+      17
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1011,
+     "y": 1000,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df09c2211b0094722ac24_Notion.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1156,
+     "y": 1000,
+     "w": 102,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df119144736bb9e7310b2_google.svg",
+     "natural": [
+      115,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1156,
+     "y": 1092,
+     "w": 121,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df0d97c25defd00b0fa06_rippling.svg",
+     "natural": [
+      136,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1344,
+     "y": 1184,
+     "w": 98,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df14a9b0484a8e77799d4_okta.svg",
+     "natural": [
+      110,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1505,
+     "y": 1092,
+     "w": 115,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df080f837402bbf30791b_verkada.svg",
+     "natural": [
+      129,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1705,
+     "y": 1000,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de774f8c55d6f2dd0864f_workday.svg",
+     "natural": [
+      109,
+      52
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1185,
+     "y": 1184,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df15ead79765c58028f4c_uber.svg",
+     "natural": [
+      75,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1505,
+     "y": 1184,
+     "w": 122,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1b2385b73a20f7b534d_elevenlabs.svg",
+     "natural": [
+      137,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1871,
+     "y": 1184,
+     "w": 80,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c50ca05f5a7f864e4bed_EBay_logo.svg",
+     "natural": [
+      1000,
+      401
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1851,
+     "y": 993,
+     "w": 106,
+     "h": 29,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df12ff09e285248c8b732_ramp.svg",
+     "natural": [
+      103,
+      28
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2030,
+     "y": 1184,
+     "w": 108,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7c9d3e8418f14e6c0a1953_d31cb39379d4cd50ef5df65fc3ab58ac_Siemens-logo.svg",
+     "natural": [
+      122,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2208,
+     "y": 1000,
+     "w": 76,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb555445092a87f2709e_stripe.svg",
+     "natural": [
+      85,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2196,
+     "y": 1085,
+     "w": 116,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb0c2bf53107f21d44c7_openai.svg",
+     "natural": [
+      109,
+      30
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2360,
+     "y": 1000,
+     "w": 32,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70e3dfddc4fecd0ba9ddb5_snapchat-logo-svgrepo-com.svg",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2456,
+     "y": 1000,
+     "w": 83,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de741bbaa090adc89091a_figma.svg",
+     "natural": [
+      93,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2469,
+     "y": 1092,
+     "w": 129,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccbb286520a4c0e24960d_cursor.svg",
+     "natural": [
+      145,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2456,
+     "y": 1184,
+     "w": 140,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1791215a474231062b4_intercom.svg",
+     "natural": [
+      158,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2674,
+     "y": 1092,
+     "w": 27,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c5b9c6fbdb1c03fe2e84_ups%20logo.svg",
+     "natural": [
+      52,
+      62
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2778,
+     "y": 1092,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df040091092333801bccc_hubspot.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2935,
+     "y": 993,
+     "w": 90,
+     "h": 36,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6e1e1dac677646e8b46_vanta.svg",
+     "natural": [
+      98,
+      39
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2941,
+     "y": 1184,
+     "w": 84,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6610ad9f1586b27b2a7_Canva.svg",
+     "natural": [
+      94,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3083,
+     "y": 1004,
+     "w": 107,
+     "h": 24,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df205f982e4d9bdc0e6e3_Perplexity.svg",
+     "natural": [
+      161,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3083,
+     "y": 1090,
+     "w": 137,
+     "h": 16,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de7adeebce78e9afbcd29_anthropic.svg",
+     "natural": [
+      146,
+      17
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3242,
+     "y": 1000,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df09c2211b0094722ac24_Notion.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3387,
+     "y": 1000,
+     "w": 102,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df119144736bb9e7310b2_google.svg",
+     "natural": [
+      115,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3387,
+     "y": 1092,
+     "w": 121,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df0d97c25defd00b0fa06_rippling.svg",
+     "natural": [
+      136,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3575,
+     "y": 1184,
+     "w": 98,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df14a9b0484a8e77799d4_okta.svg",
+     "natural": [
+      110,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3736,
+     "y": 1092,
+     "w": 115,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df080f837402bbf30791b_verkada.svg",
+     "natural": [
+      129,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3936,
+     "y": 1000,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de774f8c55d6f2dd0864f_workday.svg",
+     "natural": [
+      109,
+      52
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3416,
+     "y": 1184,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df15ead79765c58028f4c_uber.svg",
+     "natural": [
+      75,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3736,
+     "y": 1184,
+     "w": 122,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1b2385b73a20f7b534d_elevenlabs.svg",
+     "natural": [
+      137,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4102,
+     "y": 1184,
+     "w": 80,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c50ca05f5a7f864e4bed_EBay_logo.svg",
+     "natural": [
+      1000,
+      401
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4082,
+     "y": 993,
+     "w": 106,
+     "h": 29,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df12ff09e285248c8b732_ramp.svg",
+     "natural": [
+      103,
+      28
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4261,
+     "y": 1184,
+     "w": 108,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7c9d3e8418f14e6c0a1953_d31cb39379d4cd50ef5df65fc3ab58ac_Siemens-logo.svg",
+     "natural": [
+      122,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4439,
+     "y": 1000,
+     "w": 76,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb555445092a87f2709e_stripe.svg",
+     "natural": [
+      85,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4427,
+     "y": 1085,
+     "w": 116,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccb0c2bf53107f21d44c7_openai.svg",
+     "natural": [
+      109,
+      30
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4591,
+     "y": 1000,
+     "w": 32,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70e3dfddc4fecd0ba9ddb5_snapchat-logo-svgrepo-com.svg",
+     "natural": [
+      800,
+      800
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4687,
+     "y": 1000,
+     "w": 83,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de741bbaa090adc89091a_figma.svg",
+     "natural": [
+      93,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4700,
+     "y": 1092,
+     "w": 129,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0ccbb286520a4c0e24960d_cursor.svg",
+     "natural": [
+      145,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4687,
+     "y": 1184,
+     "w": 140,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1791215a474231062b4_intercom.svg",
+     "natural": [
+      158,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4905,
+     "y": 1092,
+     "w": 27,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c5b9c6fbdb1c03fe2e84_ups%20logo.svg",
+     "natural": [
+      52,
+      62
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5009,
+     "y": 1092,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df040091092333801bccc_hubspot.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5166,
+     "y": 993,
+     "w": 90,
+     "h": 36,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6e1e1dac677646e8b46_vanta.svg",
+     "natural": [
+      98,
+      39
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5172,
+     "y": 1184,
+     "w": 84,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de6610ad9f1586b27b2a7_Canva.svg",
+     "natural": [
+      94,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5314,
+     "y": 1004,
+     "w": 107,
+     "h": 24,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df205f982e4d9bdc0e6e3_Perplexity.svg",
+     "natural": [
+      161,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5314,
+     "y": 1090,
+     "w": 137,
+     "h": 16,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de7adeebce78e9afbcd29_anthropic.svg",
+     "natural": [
+      146,
+      17
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5473,
+     "y": 1000,
+     "w": 92,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df09c2211b0094722ac24_Notion.svg",
+     "natural": [
+      104,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5618,
+     "y": 1000,
+     "w": 102,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df119144736bb9e7310b2_google.svg",
+     "natural": [
+      115,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5618,
+     "y": 1092,
+     "w": 121,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df0d97c25defd00b0fa06_rippling.svg",
+     "natural": [
+      136,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5806,
+     "y": 1184,
+     "w": 98,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df14a9b0484a8e77799d4_okta.svg",
+     "natural": [
+      110,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5967,
+     "y": 1092,
+     "w": 115,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df080f837402bbf30791b_verkada.svg",
+     "natural": [
+      129,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6167,
+     "y": 1000,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0de774f8c55d6f2dd0864f_workday.svg",
+     "natural": [
+      109,
+      52
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5647,
+     "y": 1184,
+     "w": 67,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df15ead79765c58028f4c_uber.svg",
+     "natural": [
+      75,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5967,
+     "y": 1184,
+     "w": 122,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df1b2385b73a20f7b534d_elevenlabs.svg",
+     "natural": [
+      137,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6333,
+     "y": 1184,
+     "w": 80,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a70c50ca05f5a7f864e4bed_EBay_logo.svg",
+     "natural": [
+      1000,
+      401
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6313,
+     "y": 993,
+     "w": 106,
+     "h": 29,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a0df12ff09e285248c8b732_ramp.svg",
+     "natural": [
+      103,
+      28
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6492,
+     "y": 1184,
+     "w": 108,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a7c9d3e8418f14e6c0a1953_d31cb39379d4cd50ef5df65fc3ab58ac_Siemens-logo.svg",
+     "natural": [
+      122,
+      36
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 14,
+     "y": -25,
+     "w": 41,
+     "h": 41,
+     "src": "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a1797e881c7e667e295352b_case-2-p-1600.png",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Job search filters targeting engineering managers or CTOs at",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a1797e6d3521b590356310e_case-1-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Table showing companies, leads, titles, cloud providers, and",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 116,
+     "y": 1776,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a179faff90f119220577af5_case-13-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Email preview showing a message to Justin about a demo reque",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 44,
+     "y": 1728,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a179fafd3521b5903574d32_case-12-p-1600.png",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Demo request form with filled fields: First name Justin, Las",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1760,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a179fb22da16e223f77e1ba_case-11.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Table of demo form submissions with names, employee count, s",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 116,
+     "y": 1796,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a1797e66f7069ecbc07c7e9_case-7-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Table showing six company names and their corresponding scor",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a1797eac527a0f357c5c344_case-5.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lead scoring table with company names, titles, signals, PLG ",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 116,
+     "y": 1744,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17999dacf41661f8506ba0_case-10-p-1600.png",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Interface to add a promotion signal with filters for New tit",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17999e7db7a603d7ee0d66_case-8.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Table of warm leads at T1 and T2 accounts showing names, com",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 35,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a1797e635ca38900bfbb10a_case-4.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Clay app interface showing data enrichment, cleaning, and re",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a18e5abd503d973ad198052_replace-crm.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "CRM audience table showing names, companies, LinkedIn URLs, ",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 116,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17a25c2ff7f5b53dc40b65_case-23-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Chart comparing LinkedIn, Meta, and Google Ads with match ra",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17a25f992e1d665e16ea68_case-21.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Dashboard showing ABM Targets with full names, companies, jo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 116,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17a0504d077d0205e53b81_case-16-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Slack message from Clay Agent with a brief for an 11am demo ",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 44,
+     "y": 1712,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17a050b4b2caf5acfde214_case-15-p-1600.avif",
+     "natural": [
+      1440,
+      643
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Agent builder interface with prompt to prep reps for first c",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 80,
+     "y": 1736,
+     "w": 1280,
+     "h": 572,
+     "src": "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/6a17a05226b22fa10e5df344_case-14.avif",
+     "natural": [
+      3600,
+      1608
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Dashboard showing warm leads at T1 & T2 accounts with names,",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "nav__ad--img-o",
+     "w": 307,
+     "h": 224,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.45) 77%)"
+    },
+    {
+     "tag": "div",
+     "cls": "nav__ad--img-o",
+     "w": 307,
+     "h": 224,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.45) 77%)"
+    },
+    {
+     "tag": "div",
+     "cls": "nav__ad--img-o",
+     "w": 307,
+     "h": 224,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.45) 77%)"
+    },
+    {
+     "tag": "div",
+     "cls": "nav__ad--img-o",
+     "w": 307,
+     "h": 224,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0) 14%, rgba(0, 0, 0, 0.45) 77%)"
+    },
+    {
+     "tag": "div",
+     "cls": "home-hero_shade",
+     "w": 1440,
+     "h": 180,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255))"
+    },
+    {
+     "tag": "div",
+     "cls": "home-logo_shade cc-right",
+     "w": 256,
+     "h": 264,
+     "bg": "linear-gradient(270deg, rgb(244, 243, 240), rgba(244, 243, 240, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "home-logo_shade",
+     "w": 256,
+     "h": 264,
+     "bg": "linear-gradient(270deg, rgba(244, 243, 240, 0), rgb(244, 243, 240))"
+    },
+    {
+     "tag": "div",
+     "cls": "home-flow_shade cc-right",
+     "w": 296,
+     "h": 44,
+     "bg": "linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "home-flow_shade",
+     "w": 296,
+     "h": 44,
+     "bg": "linear-gradient(270deg, rgba(255, 255, 255, 0), rgb(255, 255, 255))"
+    }
+   ],
+   "fontShare": {
+    "Roobertvf": 9947
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 31133206,
+    "rgb(3, 93, 68)": 1543680,
+    "rgb(244, 243, 240)": 2855700,
+    "rgb(59, 211, 253)": 528380,
+    "rgb(238, 247, 115)": 528380,
+    "rgb(161, 123, 249)": 528380,
+    "rgb(255, 119, 20)": 528380,
+    "rgb(190, 223, 254)": 528380,
+    "rgb(251, 68, 80)": 528380,
+    "rgb(255, 112, 210)": 528380,
+    "rgb(240, 248, 255)": 986880,
+    "rgb(255, 243, 237)": 986880,
+    "rgb(252, 254, 226)": 986880,
+    "rgb(255, 240, 250)": 986880,
+    "rgba(0, 0, 0, 0.03)": 504644,
+    "rgb(255, 253, 249)": 2189453,
+    "rgba(244, 243, 240, 0)": 1862865
+   },
+   "counts": {
+    "gradients": 49,
+    "backdrop": 8,
+    "filters": 0,
+    "video": 9,
+    "canvas": 0,
+    "svg": 100,
+    "img": 336,
+    "buttons": 75,
+    "forms": 1,
+    "tables": 0,
+    "details": 0,
+    "links": 267,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Build systems to grow revenue",
+    "H2 GTM engineers build on Clay",
+    "H3 What do you want to build?",
+    "H3 Build, test, and scale any GTM play you can imagine.",
+    "H3 Get data from the most complete data marketplace",
+    "H3 Put agents that know your business to work",
+    "H3 Orchestrate workflows across tools in real time",
+    "H3 Launch new plays as fast as you have ideas",
+    "H3 Build systems that make reps more productive",
+    "H3 Hear from the teams that grow with Clay",
+    "H3 Learn more about GTM engineering",
+    "H3 Sculpt: The go-to-market conference returns in 2026",
+    "H3 Get started with Clay",
+    "H3 How Clay Uses Clay: ABM campaigns to break into Tier 1 accounts",
+    "H3 Sandra has built the Clay community in Lagos",
+    "H3 Where girls often choose between career or marriage, she carved her own path"
+   ],
+   "fonts": [
+    "Roobertvf 300 900 normal",
+    "Space Mono 400 normal",
+    "Space Mono 700 normal",
+    "Phosphor normal normal"
+   ],
+   "firstViewTextSample": "The most creative minds in GTM. October 8, San Francisco\nGET TICKETS\n→\nBack\n\nProduct\n\nProduct\n\nSolutions\n\nSolutions\n\nResources\n\nResources\n\nCompany\n\nCompany\n\nPricing\n\nPricing\n\n⌘\nK\nLog in\nGet a demo\nStart free trial\n\nDATA INFRASTRUCTURE\n\nAudiences\n\nData marketplace\n\nSignals and Intent\n\nWaterfall\n\nAGENTS\n\nClaygents\n\nAccount Agents\n\nAgent plugin CLI/API\n\nMCP for reps\n\nORCHESTRATION\n\nWorkflows\n\nFunctions\n\nAI formatting\n\nEXECUTION\n\nAds\n\nSequencer\n\nCLAY MCP\n\nGive reps the best prospecting data in their AI tools\n\nDATA FOUNDATIONS\n\nCRM enrichment\n\nTAM sourcing\n\nTerritory planning\n\nReverse ETL\n\nPIPELINE GENERATION\n\nOutbound\n\nAutomated inbound\n\nPLG assist\n\nABM\n\nREP PRODUCTIVITY\n\nRep prospecting\n\nAccount research\n\nRep assist\n\nDEPARTMENT\n\nGTM Ops\n\nMarketing\n\nSales\n\nEnterprise\n\nStartup\n\nINTERCOM\n\nGrew their outbound-sourced pipeline by +140%\n\nLEARN TO BUILD ON CLAY\n\nUniversity\n\nGuides\n\nLivestreams\n\nCohort live classes\n\nCONNECT WITH GTM ENGINEERS\n\nClay community\n\nSlack\n\nLive events\n\nStartup program\n\nCampus ambassadors\n\nWORK WITH GTM ENGINEERS\n\nFind Clay experts\n\nGTM Engineer job board\n\n\nPARTNER WITH CLAY\n\nBecome a partner\n\nSolution partners\n\nIntegration partners\n\nPrivate Equity\n\nCLAY COMMUNITY\n\nIn Nigeria, she built a life where money wouldn’t decide\n\nOUR COMPANY\n\nAbout\n\nCareers\n\nOpen roles\n\nBlog\n\nGET IN TOUCH\n\nContact\n\nPress\n\nSOCIALS\n\nLinkedIn\n\nYouTube\n\nARTICLE – NY TIMES\n\nClay allows employees to sell shares at a $5b valuation.\n\nBuild systems to grow revenue\n\nInfrastructure to get any dat",
+   "pageHeight": 10255,
+   "hasHScroll": false,
+   "visibleChars": 8736,
+   "landmarks": {
+    "header": 0,
+    "nav": 1,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 2,
+   "ro": 0,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "2d",
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 1052,
+    "tag": "H1",
+    "id": null,
+    "size": 116012,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 8,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "section"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "main"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "inkeep-portal"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    }
+   ]
+  },
+  "idleRafPerSecond": 248,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 108,
+   "settle98Ms": 108,
+   "distinctPositions": 2,
+   "samples": 106,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 5128,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 9355,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   }
+  ],
+  "navOpenToggle": "⌘\nK",
+  "transferAfterScroll": {
+   "requests": 227,
+   "totalBytes": 30695911,
+   "byType": {
+    "Document": 77123,
+    "Stylesheet": 182025,
+    "Script": 3227105,
+    "Image": 3957778,
+    "Fetch": 9272,
+    "Font": 1338634,
+    "Media": 21897050,
+    "Ping": 1748,
+    "Preflight": 0,
+    "XHR": 524,
+    "FedCM": 2166,
+    "Other": 2486
+   },
+   "hosts": {
+    "assets.clayrun.dev": 21900215,
+    "cdn.prod.website-files.com": 5638794,
+    "cdn.jsdelivr.net": 540558,
+    "www.googletagmanager.com": 535431,
+    "www.gstatic.com": 356031,
+    "www.clay.com": 277910,
+    "prod-assets.sequelvideo.com": 236768,
+    "connect.facebook.net": 216725,
+    "unpkg.com": 185090,
+    "evs.cdp.clay.com": 170586,
+    "transcend-cdn.com": 150445,
+    "clay-webflow-dev.vercel.app": 132605,
+    "accounts.google.com": 104877,
+    "cdn.intellimize.co": 88570
+   }
+  },
+  "fp": {
+   "present": [
+    "gsap",
+    "ScrollTrigger",
+    "SplitText",
+    "Webflow",
+    "jQuery",
+    "analytics",
+    "gtag",
+    "dataLayer",
+    "fbq"
+   ],
+   "htmlCls": "w-mod-js w-mod-ix wf-spacemono-n6-active wf-spacemono-n7-active wf-spacemono-n3-active wf-spacemono-n4-active wf-spacemono-n5-active wf-active w-mod-ix3",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Hero%2006-02%20Lossy%200001-0240.mp4",
+      "w": 1440,
+      "h": 1072,
+      "inHero": true
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Data%2006-16%201000px.webm",
+      "w": 592,
+      "h": 675,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Agents%2006-16%201000px.webm",
+      "w": 592,
+      "h": 675,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Orch%2006-16%201000px.webm",
+      "w": 592,
+      "h": 675,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Execution%2006-16%201000px.webm",
+      "w": 592,
+      "h": 675,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Reps%2006-16%201500px.webm",
+      "w": 1184,
+      "h": 533,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Clay-Hero%20(3)%20(1).mp4",
+      "w": 947,
+      "h": 533,
+      "inHero": false
+     },
+     {
+      "autoplay": false,
+      "loop": false,
+      "muted": false,
+      "src": "https://assets.clayrun.dev/euro_case_study_final_v1_(2)_(1)_v1%20(1080p).mp4",
+      "w": 947,
+      "h": 533,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.clayrun.dev/Footer%2005-29%20Lossy%200001-0060.mp4",
+      "w": 1440,
+      "h": 1294,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": true,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 48,
+   "scripts": [
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://cdn.claydar.com/releases/latest/radar.min.js",
+    "https://evs.cdp.clay.com/next-integrations/integrations/vendor/commons.1b78f84a8c1751144d06.js.gz",
+    "https://www.googletagmanager.com/gtag/js?id=G-NHFD0GLCLV",
+    "https://evs.cdp.clay.com/next-integrations/integrations/linkedin-insight-tag/1.0.1/linkedin-insight-tag.dynamic.js.gz",
+    "https://evs.cdp.clay.com/next-integrations/actions/google-analytics-4-web/aeadee7d142fb4d69ca8.js",
+    "https://evs.cdp.clay.com/next-integrations/actions/amplitude-plugins/f12a4347e1080fb88155.js",
+    "https://prod-assets.sequelvideo.com/uploads/toolkit/sequel.js",
+    "https://connect.facebook.net/signals/config/792409723405810?v=2.9.415&r=stable&domain=www.clay.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://app.factors.ai/assets/factors.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-11388401378&cx=c&gtm=4e6a70h2",
+    "https://www.googletagmanager.com/gtag/js?id=G-NHFD0GLCLV&gtg_health=1",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-WQ2D7W7",
+    "https://evs.cdp.clay.com/hwgzA3Y9rl/tWJbqMNRgGHjbwHiie73pz.min.js",
+    "https://www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+    "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+    "https://cdn.intellimize.co/snippet/117293819.js",
+    "https://www.clay.com/wvxwa3jtwetcNjE0NzdmMmMyNGE4MjY4MzZmOTY5YWZl/MaGYX-N2_EF-d6DtTH1F8qMiFTM",
+    "https://www.google.com/recaptcha/api.js",
+    "https://cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js",
+    "https://rewards.clay.com/rw.js",
+    "https://www.dubcdn.com/analytics/script.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-NHFD0GLCLV",
+    "https://cdn.jsdelivr.net/npm/@eppo/visual_editor_snippet@latest/dist/renderer.bundle.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js",
+    "https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/Flip.min.js",
+    "https://assets.clayrun.dev/bundle-aprl30.js",
+    "https://clay-webflow-dev.vercel.app/attribution.js",
+    "https://clay-webflow-dev.vercel.app/app.js",
+    "https://cdn.jetboost.io/jetboost.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/11388401378/?random=1791459244598&cv=11&fst=1791459244598&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a70h2v9173068337z8858497529za20gzb858497529zd858497529xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119381662~120213116~120385422~120469145~120469153~121046263~121046271~121246027~121246035&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.clay.com%2F&rcb=7&frm=0&tiba=Clay%20%7C%20Build%20systems%20to%20grow%20revenue&did=dZGVlNj%2CdYWYxNW&gdid=dZGVlNj.dYWYxNW&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=640836156.1791459245&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61477f2c24a826836f969afe",
+    "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.181a2070a530b302.js",
+    "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.be3217a3423ba33c.js",
+    "https://cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.bc22771b.161607d958bb9ecd.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "https://cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "https://transcend-cdn.com/cm/e091122d-95d3-4fb5-b663-7121c10f3329/airgap.js",
+    "https://accounts.google.com/gsi/client",
+    "https://mm-uxrv.com/js/mm_1015aa47-6c12-43fc-ae2c-b1c134b4883a-93269003.js",
+    "https://static.claydar.com/init.v1.js?id=cjCSLe1bXS",
+    "https://analytics.roadwayai.com/tag.js",
+    "https://wt.inflection.io/scripts/wt-script.js",
+    "https://static.claydar.com/init.v1.js?id=ch4MrVQhXy"
+   ],
+   "inlineScripts": 35,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "via": "1.1 bfaa70857d8a672333a2301d01dd71da.cloudfront.net (CloudFront)",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "ScrollTrigger": [
+    "3P cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js"
+   ],
+   "gsap": [
+    "3P cdn.jsdelivr.net/npm/gsap@3.14.1/dist/Flip.min.js",
+    "3P cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js",
+    "3P cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js"
+   ],
+   "lottie": [
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.181a2070a530b302.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.be3217a3423ba33c.js"
+   ],
+   "webflowIx": [
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.be3217a3423ba33c.js",
+    "3P www.gstatic.com/recaptcha/releases/guXhH0v-XMxlzmbTwqkaT4i5/recaptcha__en.js",
+    "3P prod-assets.sequelvideo.com/uploads/toolkit/sequel.js"
+   ],
+   "swiper": [
+    "3P connect.facebook.net/signals/config/792409723405810?v=2.9.415&r=stable&domain=www.clay.com"
+   ],
+   "splitting": [
+    "3P cdn.prod.website-files.com/gsap/3.15.0/SplitText.min.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.be3217a3423ba33c.js",
+    "3P clay-webflow-dev.vercel.app/app.js"
+   ],
+   "intersection": [
+    "3P cdn.jsdelivr.net/npm/@inkeep/cxkit-js@0.5/dist/embed.js",
+    "3P cdn.prod.website-files.com/61477f2c24a826836f969afe/js/fs-clay.schunk.491680b23d636e41.js",
+    "3P clay-webflow-dev.vercel.app/app.js",
+    "1P www.clay.com/wvxwa3jtwetcNjE0NzdmMmMyNGE4MjY4MzZmOTY5YWZl/MaGYX-N2_EF-d6DtTH1F8qMiFTM"
+   ],
+   "webgl": [
+    "3P cdn.claydar.com/releases/latest/radar.min.js"
+   ],
+   "barba": [
+    "3P connect.facebook.net/en_US/fbevents.js",
+    "3P prod-assets.sequelvideo.com/uploads/toolkit/sequel.js"
+   ]
+  },
+  "scriptsScanned": 51,
+  "cssFeatures": {
+   "backdrop-filter": 19,
+   "mix-blend-mode": 14,
+   "will-change": 1,
+   "sticky": 85,
+   "text-wrap": 16,
+   "color-mix(": 14,
+   ":has(": 16,
+   "clip-path": 8,
+   "filter: blur": 3,
+   "perspective": 8
+  },
+  "cssBytes": {
+   "linked": 1148850,
+   "inline": 36807,
+   "files": 9
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 7646,
+  "paintedChars": 7071,
+  "paintedCharsFirstViewport": 1253,
+  "h1": "Build systems to grow revenue",
+  "firstViewportText": "The most creative minds in GTM. October 8, San Francisco\nGET TICKETS\n→ | Product\n\nProduct | Product\n\nProduct | Product | Product | Solutions\n\nSolutions | Solutions\n\nSolutions | Solutions | Solutions | Resources\n\nResources | Resources\n\nResources | Resources | Resources | Company\n\nCompany | Company\n\nCompany | Company | Company | Pricing\n\nPricing | Pricing\n\nPricing | Pricing | Pricing | ⌘\nK | Log in | Get a demo | Start free trial | DATA INFRASTRUCTURE | Audiences | Audiences | Audiences | Data mar"
+ }
+}

@@ -1,0 +1,1700 @@
+{
+ "slug": "workos-atlas",
+ "url": "https://workos.com/atlas",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 714,
+  "consent": [],
+  "finalUrl": "https://workos.com/atlas",
+  "transferFirstLoad": {
+   "requests": 93,
+   "totalBytes": 1988262,
+   "byType": {
+    "Document": 62107,
+    "Font": 141613,
+    "Image": 155948,
+    "Stylesheet": 19102,
+    "Script": 1591468,
+    "Other": 2781,
+    "Fetch": 13579,
+    "XHR": 1110,
+    "Ping": 554
+   },
+   "hosts": {
+    "dotcom.workos.com": 1108338,
+    "www.googletagmanager.com": 697649,
+    "workos.com": 75686,
+    "js.hs-analytics.net": 43697,
+    "www.redditstatic.com": 25771,
+    "js.hs-banner.com": 24440,
+    "js.hsadspixel.net": 5415,
+    "googleads.g.doubleclick.net": 3156,
+    "js-na1.hs-scripts.com": 1290,
+    "api.hubapi.com": 1110,
+    "track.hubspot.com": 965,
+    "stats.g.doubleclick.net": 554,
+    "www.google.co.in": 127,
+    "www.google.com": 64
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2adgldfn8pzeb.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 476532
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-8TFHF8KP00&cx=c&gtm=4e6a70h2",
+     "bytes": 191470
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NTN3Q3DV",
+     "bytes": 169738
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-654613002&cx=c&gtm=4e6a70h2",
+     "bytes": 169073
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-654613002",
+     "bytes": 167368
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/3ggs-b_g9q4yg.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 73902
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/05rldqiw5jovp.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 54487
+    },
+    {
+     "url": "https://js.hs-analytics.net/analytics/1791453600000/20433186.js",
+     "bytes": 43697
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2jc-tfgiyn8yy.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 36363
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2788hgwms205m.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 26609
+    },
+    {
+     "url": "https://www.redditstatic.com/ads/pixel.js?pixel_id=t2_eww6iys0d",
+     "bytes": 25771
+    },
+    {
+     "url": "https://js.hs-banner.com/v2/20433186/banner.js",
+     "bytes": 24440
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/1x8bqpav3yf69.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 20493
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2se7p81bcay5p.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 12483
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/3jmftj79_l8d2.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 12128
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/3m-x-20pyln1g.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 11476
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/0mtwm_6crtc0b.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 10008
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2i_q07tc0n1pe.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 9888
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/1qufylzv1fxi8.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 9656
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/1xr1fqwi3aj2a.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 9631
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/2xku0n3o82gnb.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 9467
+    },
+    {
+     "url": "https://js.hsadspixel.net/pixels.js",
+     "bytes": 5415
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/turbopack-0o1m9rctm0n2r.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 5299
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/03e076p9h2qbj.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 4934
+    },
+    {
+     "url": "https://dotcom.workos.com/_next/static/chunks/0skh6t4yno70v.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "bytes": 4625
+    }
+   ]
+  },
+  "dom": {
+   "title": "Atlas by WorkOS",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Atlas works alongside your team in Slack to answer questions, automate tasks, and help everyone do their best work.",
+   "ogImage": "https://dotcom.workos.com/atlas/opengraph-image-4ih8la.jpg?opengraph-image.2l-0cnefjyw-b.jpg?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+   "canonical": "https://workos.com/atlas",
+   "jsonLd": [],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Meet Atlas,\nyour AI coworker.",
+    "font-family": "InterDisplay, \"InterDisplay Fallback\", sans-serif",
+    "font-size": "84px",
+    "font-weight": "600",
+    "line-height": "85.68px",
+    "letter-spacing": "-1.68px",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "How teams use Atlas",
+     "font-family": "Inter, \"Inter Fallback\", sans-serif",
+     "font-size": "16px",
+     "font-weight": "400",
+     "line-height": "24px",
+     "letter-spacing": "normal",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "nowrap"
+    },
+    {
+     "text": "Connected to all your tools.",
+     "font-family": "InterDisplay, \"InterDisplay Fallback\", sans-serif",
+     "font-size": "48px",
+     "font-weight": "600",
+     "line-height": "48px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "A coworker for the whole team.",
+     "font-family": "InterDisplay, \"InterDisplay Fallback\", sans-serif",
+     "font-size": "48px",
+     "font-weight": "600",
+     "line-height": "48px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(0, 0, 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "Inter, \"Inter Fallback\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Atlas home",
+     "x": 40,
+     "y": 29,
+     "w": 176,
+     "h": 31,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "4px",
+     "font": "16px/400",
+     "border": "0px solid rgb(0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Add to your Slack",
+     "x": 1212,
+     "y": 24,
+     "w": 188,
+     "h": 40,
+     "bg": "rgb(0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "3.35544e+07px",
+     "font": "16px/500",
+     "border": "0px solid rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Prep for a call",
+     "x": 210,
+     "y": 785,
+     "w": 255,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "radius": "3.35544e+07px",
+     "font": "16px/400",
+     "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Debug a regression",
+     "x": 465,
+     "y": 785,
+     "w": 255,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "radius": "3.35544e+07px",
+     "font": "16px/400",
+     "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Onboard a new hire",
+     "x": 720,
+     "y": 785,
+     "w": 255,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "radius": "3.35544e+07px",
+     "font": "16px/400",
+     "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Catch up after time off",
+     "x": 975,
+     "y": 785,
+     "w": 255,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "radius": "3.35544e+07px",
+     "font": "16px/400",
+     "border": "0px solid oklab(0.999994 0.0000455678 0.0000200868 / 0.85)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Add to your Slack",
+     "x": 1084,
+     "y": 859,
+     "w": 144,
+     "h": 28,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "lab(10.4113 0.684075 -0.513756 / 0.7)",
+     "radius": "3.35544e+07px",
+     "font": "14px/500",
+     "border": "0px solid lab(10.4113 0.684075 -0.513756 / 0.7)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "static",
+    "h": 1757,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(0, 0, 0)",
+    "links": [
+     "Add to your Slack",
+     "Prep for a call",
+     "Debug a regression",
+     "Onboard a new hire",
+     "Catch up after time off",
+     "Add to your Slack"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 40,
+     "y": 29,
+     "w": 176,
+     "h": 31,
+     "paths": 4,
+     "cls": "h-auto w-full"
+    },
+    {
+     "tag": "img",
+     "x": 520,
+     "y": 355,
+     "w": 400,
+     "h": 400,
+     "src": "https://dotcom.workos.com/_next/image?url=%2Fimages%2Fatlas%2Fbot.png&w=640&q=75&dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "natural": [
+      640,
+      640
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "Atlas Robot",
+     "decoding": "async"
+    },
+    {
+     "tag": "canvas",
+     "x": 620,
+     "y": 475,
+     "w": 200,
+     "h": 132,
+     "canvasSize": [
+      200,
+      132
+     ],
+     "id": null,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 520,
+     "y": 355,
+     "w": 400,
+     "h": 400,
+     "src": "https://dotcom.workos.com/_next/image?url=%2Fimages%2Fatlas%2Fbot-face-shadow.png&w=640&q=75&dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "natural": [
+      640,
+      640
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 180,
+     "y": 755,
+     "w": 1080,
+     "h": 716,
+     "src": "https://dotcom.workos.com/_next/image?url=%2Fimages%2Fatlas%2Fwallpaper-bg.jpg&w=1080&q=75&dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "natural": [
+      960,
+      560
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 220,
+     "y": 1352,
+     "w": 18,
+     "h": 18,
+     "src": "https://dotcom.workos.com/_next/image?url=%2Fimages%2Fatlas%2Fatlas-slack-icon.png&w=96&q=75&dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+     "natural": [
+      72,
+      72
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "async"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "bot-eye-glow",
+     "w": 84,
+     "h": 120,
+     "bg": "radial-gradient(46% 50% at 50% 46%, rgba(168, 226, 255, 0.5) 0%, rgba(97, 199, 250, 0.24) 38%, rgba(51, 173, 235, 0.08) 60%, rgba(51, 173, 2"
+    },
+    {
+     "tag": "div",
+     "cls": "bot-eye-core-body",
+     "w": 72,
+     "h": 120,
+     "bg": "radial-gradient(25% 26.667% at 50% 49.583%, rgba(230, 247, 255, 0.95) 0%, rgba(161, 222, 253, 0.78) 48%, rgba(98, 199, 249, 0.26) 78%, rgba("
+    },
+    {
+     "tag": "div",
+     "cls": "bot-eye-core-pupil",
+     "w": 72,
+     "h": 120,
+     "bg": "radial-gradient(17.5% 18.333% at 50% 46.667%, rgb(255, 255, 255) 0%, rgba(240, 250, 255, 0.92) 34%, rgba(214, 241, 255, 0) 100%)"
+    },
+    {
+     "tag": "div",
+     "cls": "bot-eye-glow",
+     "w": 84,
+     "h": 120,
+     "bg": "radial-gradient(46% 50% at 50% 46%, rgba(168, 226, 255, 0.5) 0%, rgba(97, 199, 250, 0.24) 38%, rgba(51, 173, 235, 0.08) 60%, rgba(51, 173, 2"
+    },
+    {
+     "tag": "div",
+     "cls": "bot-eye-core-body",
+     "w": 72,
+     "h": 120,
+     "bg": "radial-gradient(25% 26.667% at 50% 49.583%, rgba(230, 247, 255, 0.95) 0%, rgba(161, 222, 253, 0.78) 48%, rgba(98, 199, 249, 0.26) 78%, rgba("
+    },
+    {
+     "tag": "div",
+     "cls": "bot-eye-core-pupil",
+     "w": 72,
+     "h": 120,
+     "bg": "radial-gradient(17.5% 18.333% at 50% 46.667%, rgb(255, 255, 255) 0%, rgba(240, 250, 255, 0.92) 34%, rgba(214, 241, 255, 0) 100%)"
+    }
+   ],
+   "fontShare": {
+    "Inter": 2115,
+    "InterDisplay": 202,
+    "Lato": 2038
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 11208909,
+    "lab(98.26 0 0)": 1746720,
+    "rgb(5, 7, 14)": 1203210
+   },
+   "counts": {
+    "gradients": 61,
+    "backdrop": 6,
+    "filters": 40,
+    "video": 0,
+    "canvas": 1,
+    "svg": 76,
+    "img": 153,
+    "buttons": 23,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 9,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Meet Atlas, your AI coworker.",
+    "H2 How teams use Atlas",
+    "H3 Right where your team works",
+    "H3 Talk it through",
+    "H3 Turn questions into action",
+    "H2 Connected to all your tools.",
+    "H2 A coworker for the whole team.",
+    "H2 Always learning, never guessing.",
+    "H2 Build your AI team.",
+    "H2 Built on WorkOS. Secure by default.",
+    "H2 Ready to meet Atlas?",
+    "H3 1. Add Atlas to Slack",
+    "H3 2. @mention it anywhere",
+    "H3 3. Connect tools when you're ready"
+   ],
+   "fonts": [
+    "InterDisplay 600 normal",
+    "InterDisplay Fallback normal normal",
+    "Inter 400 normal",
+    "Inter 500 normal",
+    "Inter 600 normal",
+    "Inter Fallback normal normal",
+    "Lato 400 normal",
+    "Lato 700 normal",
+    "Lato 900 normal",
+    "Lato Fallback normal normal"
+   ],
+   "firstViewTextSample": "Add to your Slack\nMeet Atlas,\nyour AI coworker.\n\nAtlas works alongside your team in Slack to answer questions, automate tasks, and help everyone do their best work.\n\nPrep for a call\nDebug a regression\nOnboard a new hire\nCatch up after time off\nPrep for a call\nDebug a regression\nOnboard a new hire\nCatch up after time off\nAdd to your Slack\nFoo Corp\nThreads\nHuddles\n\nChannels\n\ncustomer-success\nproduct-eng\ngeneral\nmarketing\ngtm-ops\nfinance\nleadership\n\nDirect messages\n\nAtlas\ncustomer-success\n9\nMessage #customer-success\nHow teams use Atlas\nRight where your team works\n\nAtlas lives in Slack — ready in any DM, channel, or thread the moment you need it.\n\nTalk it through\n\nAsk a question, add context, and dig deeper. Atlas keeps up as the conversation unfolds.\n\nTurn questions into action\n\nHave Atlas draft a brief, handle the follow-up, or set recurring work to run on its own.\n\nConnected to all your tools.\n\nAtlas connects to 300+ tools out of the box, plus anything with an API. It works across all of them at once, so a question that spans several systems comes back as one answer.\n\nA coworker for the whole team.\n\nMost AI lives in a private chat only you can see. Atlas works out in the open, in the shared channels your team already uses. Anyone can jump into a thread, add what they know, or pick up where a teammate left off.\n\nproject-orbit\nAtlas\nAGENT\n9:00 AM\n\nMorning standup — rate-limit fix merged overnight, beta docs in review, launch still on for Thursday.\n\nPriya\n9:03 AM\n\nDocs just went ",
+   "pageHeight": 7001,
+   "hasHScroll": false,
+   "visibleChars": 4561,
+   "landmarks": {
+    "header": 1,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.absolute.inset-x-0",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.absolute.inset-x-0",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.font-slack.inline-flex",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.absolute.inset-x-0",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.inline-flex.items-center",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.inline-flex.items-center",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "pulse",
+    "target": "span.inline-flex.items-center",
+    "props": [
+     "opacity"
+    ],
+    "duration": 2000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "security-module__yRcFLa__security-breathe",
+    "target": "div.security-module__yRcFLa__field.security-module__yRcFLa__glow",
+    "props": [
+     "opacity",
+     "scale"
+    ],
+    "duration": 9000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "paused",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "atlas-caret-blink",
+    "target": "span.ml-px.inline-block",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1060,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "Animation",
+    "name": null,
+    "target": "span.absolute.top-0",
+    "props": [
+     "transform"
+    ],
+    "duration": 6500,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "paused",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "Animation",
+    "name": null,
+    "target": "span.absolute.top-0",
+    "props": [
+     "transform"
+    ],
+    "duration": 10500,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "paused",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 21,
+   "ro": 8,
+   "animateCalls": 16,
+   "canvasContexts": [
+    "webgpu",
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 804,
+    "tag": "IMG",
+    "id": null,
+    "size": 410988,
+    "url": "https://dotcom.workos.com/_next/image?url=%2Fimages%2Fatlas%2Fbot.png&w=640&q=75&dpl=7ab293fdf86d42e6a789cddb85914ef800737e46"
+   },
+   "cls": 0,
+   "longTasks": 2,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    }
+   ]
+  },
+  "idleRafPerSecond": 61,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 60,
+   "settle98Ms": 60,
+   "distinctPositions": 2,
+   "samples": 108,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 14,
+    "infinite": 10,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "slack-demo-module__MxRj7G__shimmer",
+      "target": "span.text-[15px].font-black",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 1500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.font-slack.inline-flex",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-breathe",
+      "target": "div.security-module__yRcFLa__field.security-module__yRcFLa__glow",
+      "props": [
+       "opacity",
+       "scale"
+      ],
+      "duration": 9000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "atlas-caret-blink",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1060,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 6500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 10500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div.group.-mx-3",
+      "props": [
+       "opacity"
+      ],
+      "duration": 350,
+      "delay": 0,
+      "easing": "cubic-bezier(0.2, 0, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div.group.-mx-3",
+      "props": [
+       "transform"
+      ],
+      "duration": 350,
+      "delay": 0,
+      "easing": "cubic-bezier(0.2, 0, 0, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 3501,
+    "count": 15,
+    "infinite": 11,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "slack-demo-module__MxRj7G__shimmer",
+      "target": "span.text-[15px].font-black",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 1500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "slack-demo-module__MxRj7G__shimmer",
+      "target": "span.text-[15px].font-black",
+      "props": [
+       "backgroundPositionX",
+       "backgroundPositionY"
+      ],
+      "duration": 1500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.font-slack.inline-flex",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-breathe",
+      "target": "div.security-module__yRcFLa__field.security-module__yRcFLa__glow",
+      "props": [
+       "opacity",
+       "scale"
+      ],
+      "duration": 9000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "atlas-caret-blink",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1060,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 6500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 10500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div",
+      "props": [
+       "opacity"
+      ],
+      "duration": 340,
+      "delay": 0,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div",
+      "props": [
+       "transform"
+      ],
+      "duration": 340,
+      "delay": 0,
+      "easing": "cubic-bezier(0.33, 1, 0.68, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 6101,
+    "count": 15,
+    "infinite": 9,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.font-slack.inline-flex",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.absolute.inset-x-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-flex.items-center",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-breathe",
+      "target": "div.security-module__yRcFLa__field.security-module__yRcFLa__glow",
+      "props": [
+       "opacity",
+       "scale"
+      ],
+      "duration": 9000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-sheen-travel",
+      "target": "div.security-module__yRcFLa__sheenWindow",
+      "props": [
+       "translate"
+      ],
+      "duration": 1500,
+      "delay": 420,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-sheen-fade",
+      "target": "div.security-module__yRcFLa__sheenWindow",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1500,
+      "delay": 420,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-sheen-counter",
+      "target": "div.security-module__yRcFLa__sheenArt",
+      "props": [
+       "translate"
+      ],
+      "duration": 1500,
+      "delay": 420,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "security-module__yRcFLa__security-lamp-arm",
+      "target": "div.security-module__yRcFLa__lampWindow",
+      "props": [
+       "visibility"
+      ],
+      "duration": 1,
+      "delay": 700,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "atlas-caret-blink",
+      "target": "span.ml-px.inline-block",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1060,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 6500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "span.absolute.top-0",
+      "props": [
+       "transform"
+      ],
+      "duration": 10500,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 122,
+   "totalBytes": 2459719,
+   "byType": {
+    "Document": 62107,
+    "Font": 141613,
+    "Image": 627405,
+    "Stylesheet": 19102,
+    "Script": 1591468,
+    "Other": 2781,
+    "Fetch": 13579,
+    "XHR": 1110,
+    "Ping": 554
+   },
+   "hosts": {
+    "dotcom.workos.com": 1579795,
+    "www.googletagmanager.com": 697649,
+    "workos.com": 75686,
+    "js.hs-analytics.net": 43697,
+    "www.redditstatic.com": 25771,
+    "js.hs-banner.com": 24440,
+    "js.hsadspixel.net": 5415,
+    "googleads.g.doubleclick.net": 3156,
+    "js-na1.hs-scripts.com": 1290,
+    "api.hubapi.com": 1110,
+    "track.hubspot.com": 965,
+    "stats.g.doubleclick.net": 554,
+    "www.google.co.in": 127,
+    "www.google.com": 64
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "dataLayer",
+    "_hsq"
+   ],
+   "htmlCls": "interdisplay_5d721241-module__bMza8G__variable inter_a25a8e49-module__cSpxAq__variable lato_b1192a9c-module__2-xiNq__variable antialiased hero-go bg-background text-foreground min-h-screen",
+   "styleAttr": null,
+   "els": {
+    "canvas": 1,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": true,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 29,
+   "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=AW-654613002&cx=c&gtm=4e6a70h2",
+    "https://www.redditstatic.com/ads/pixel.js?pixel_id=t2_eww6iys0d",
+    "https://www.googletagmanager.com/gtag/js?id=G-8TFHF8KP00&cx=c&gtm=4e6a70h2",
+    "https://js.hs-banner.com/v2/20433186/banner.js",
+    "https://js.hs-analytics.net/analytics/1791453600000/20433186.js",
+    "https://js.hsadspixel.net/pixels.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NTN3Q3DV",
+    "https://dotcom.workos.com/_next/static/chunks/1qufylzv1fxi8.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2jc-tfgiyn8yy.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/3ggs-b_g9q4yg.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/0mtwm_6crtc0b.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/turbopack-0o1m9rctm0n2r.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/0skh6t4yno70v.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2i_q07tc0n1pe.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/1xr1fqwi3aj2a.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2xku0n3o82gnb.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/3m-x-20pyln1g.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2788hgwms205m.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/1x8bqpav3yf69.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2se7p81bcay5p.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2adgldfn8pzeb.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/3jmftj79_l8d2.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/2spm_oj-y20sn.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/05rldqiw5jovp.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://dotcom.workos.com/_next/static/chunks/0cz1d0mv5g_q7.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://www.googletagmanager.com/gtag/js?id=AW-654613002",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/654613002/?random=1791459443376&cv=11&fst=1791459443376&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61h1v9179586716za208zb9252813065zd9252813065xecxf1&gcd=13t3t3t3t5l1&dma=0&tag_exp=115616985~115938466~115938468~118131810~118897920~118897930~120213116~120385423~120469145~120469153~121046263~121046271~121280971&u_w=1440&u_h=900&url=https%3A%2F%2Fworkos.com%2Fatlas&rcb=16&frm=0&tiba=Atlas%20by%20WorkOS&did=dZTQ1Zm&gdid=dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=724951637.1791459443&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://dotcom.workos.com/_next/static/chunks/03e076p9h2qbj.js?dpl=7ab293fdf86d42e6a789cddb85914ef800737e46",
+    "https://js-na1.hs-scripts.com/20433186.js"
+   ],
+   "inlineScripts": 7,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "framerMotion": [
+    "3P dotcom.workos.com/_next/static/chunks/3jmftj79_l8d2.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+    "3P dotcom.workos.com/_next/static/chunks/3m-x-20pyln1g.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+    "3P dotcom.workos.com/_next/static/chunks/05rldqiw5jovp.js?dpl=7ab293fdf86d42e6a789cddb85914ef"
+   ],
+   "scrollTimelineJS": [
+    "3P dotcom.workos.com/_next/static/chunks/2788hgwms205m.js?dpl=7ab293fdf86d42e6a789cddb85914ef"
+   ],
+   "intersection": [
+    "3P dotcom.workos.com/_next/static/chunks/3jmftj79_l8d2.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+    "3P dotcom.workos.com/_next/static/chunks/3m-x-20pyln1g.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+    "3P dotcom.workos.com/_next/static/chunks/1x8bqpav3yf69.js?dpl=7ab293fdf86d42e6a789cddb85914ef",
+    "3P dotcom.workos.com/_next/static/chunks/2jc-tfgiyn8yy.js?dpl=7ab293fdf86d42e6a789cddb85914ef"
+   ],
+   "webgl": [
+    "3P js.hs-analytics.net/analytics/1791453600000/20433186.js"
+   ]
+  },
+  "scriptsScanned": 28,
+  "cssFeatures": {
+   "@property": 79,
+   "scroll-snap-type": 1,
+   "backdrop-filter": 6,
+   "mix-blend-mode": 4,
+   "content-visibility": 1,
+   "will-change": 7,
+   "text-wrap": 2,
+   "color-mix(": 106,
+   "lab(": 12,
+   "clip-path": 10,
+   "mask-image": 14,
+   "perspective": 4,
+   "prefers-reduced-motion": 1
+  },
+  "cssBytes": {
+   "linked": 87769,
+   "inline": 0,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 11,
+   "infinite": 9,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.absolute.inset-x-0",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.absolute.inset-x-0",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.font-slack.inline-flex",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.absolute.inset-x-0",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.inline-flex.items-center",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    },
+    {
+     "type": "CSSAnimation",
+     "name": "pulse",
+     "target": "span.inline-flex.items-center",
+     "props": [
+      "opacity"
+     ],
+     "duration": 2000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 4561,
+  "paintedChars": 2276,
+  "paintedCharsFirstViewport": 160,
+  "h1": "Meet Atlas,\nyour AI coworker.",
+  "firstViewportText": "Add to your Slack | Meet Atlas,\nyour AI coworker. | Atlas works alongside your team in Slack to answer questions, automate tasks, and help everyone do their best work. | Prep for a call | Debug a regression | Onboard a new hire | Catch up after time off | Add to your Slack"
+ }
+}

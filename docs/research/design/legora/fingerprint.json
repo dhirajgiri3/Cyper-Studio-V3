@@ -1,0 +1,1171 @@
+{
+ "slug": "legora",
+ "url": "https://legora.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 2183,
+  "consent": [],
+  "finalUrl": "https://legora.com/",
+  "transferFirstLoad": {
+   "requests": 129,
+   "totalBytes": 3314619,
+   "byType": {
+    "Document": 47556,
+    "Script": 1263647,
+    "Image": 1288955,
+    "XHR": 1454,
+    "Font": 589725,
+    "Fetch": 85982,
+    "Ping": 839,
+    "Other": 1449,
+    "Media": 35012
+   },
+   "hosts": {
+    "framerusercontent.com": 2559763,
+    "www.googletagmanager.com": 491022,
+    "legora.com": 47556,
+    "consent.cookiebot.com": 38371,
+    "cdn.drda.io": 35485,
+    "cdn.dreamdata.cloud": 35459,
+    "scripts.clarity.ms": 26112,
+    "snap.licdn.com": 23482,
+    "bat.bing.com": 18653,
+    "c.amazon-adsystem.com": 12529,
+    "events.framer.com": 11633,
+    "framer.com": 4115,
+    "googleads.g.doubleclick.net": 3150,
+    "app.framerstatic.com": 2215
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W3PRDDJQ",
+     "bytes": 177478
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-16882792220&cx=c&gtm=4e6a61",
+     "bytes": 168831
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=DC-16654897&cx=c&gtm=4e6a61",
+     "bytes": 144713
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/framer.DYSnjsCx.mjs",
+     "bytes": 135705
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/script_main.D-p0W6pa.mjs",
+     "bytes": 50988
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/motion.B8Jv1A6-.mjs",
+     "bytes": 49873
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/react.BCtL1DNk.mjs",
+     "bytes": 45199
+    },
+    {
+     "url": "https://consent.cookiebot.com/uc.js",
+     "bytes": 37952
+    },
+    {
+     "url": "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+     "bytes": 35485
+    },
+    {
+     "url": "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+     "bytes": 35426
+    },
+    {
+     "url": "https://scripts.clarity.ms/0.8.72-beta/clarity.js",
+     "bytes": 26112
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/iqOBOABSA.CJ4sOyuB.mjs",
+     "bytes": 25722
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/MwaMJHSSoUy4AspRwaeKe316-1bNungGjKleNk7sA4U.C8gd0uRY.mjs",
+     "bytes": 22328
+    },
+    {
+     "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+     "bytes": 21734
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/I9aE2hVy1RDGjITE1dk4ezIgAAec-fasO5qL6kUz9bc.BKXin0ad.mjs",
+     "bytes": 17553
+    },
+    {
+     "url": "https://bat.bing.com/bat.js",
+     "bytes": 15934
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Scroll_Video.f502xGP-.mjs",
+     "bytes": 13380
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/sTdy54l2M.mHyJ8iJk.mjs",
+     "bytes": 13077
+    },
+    {
+     "url": "https://c.amazon-adsystem.com/aat/amzn.js",
+     "bytes": 11675
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/VxbN1Mpa7.CfiFE_RW.mjs",
+     "bytes": 11234
+    },
+    {
+     "url": "https://events.framer.com/script?v=2",
+     "bytes": 11201
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/CDTkbQukr.CKmjWCe1.mjs",
+     "bytes": 10736
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/r2Pqnk93Z.wieBXkp-.mjs",
+     "bytes": 10717
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/qxfVRyRxU.Bxi-Lw0o.mjs",
+     "bytes": 10657
+    },
+    {
+     "url": "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/B0SKOinCB.D4HC8sj-.mjs",
+     "bytes": 9554
+    }
+   ]
+  },
+  "dom": {
+   "title": "Legora",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Legora is the collaborative AI powering lawyers to review and research faster, draft smarter, and advise with precision. Legora adapts to your ways of working, unlocking team and machine collaboration at scale.",
+   "ogImage": "https://framerusercontent.com/images/OX7NczP3W2YNtTSTatCCNsXhgfA.png",
+   "canonical": "https://legora.com/",
+   "jsonLd": [],
+   "generator": "Framer 7788242",
+   "themeColor": null,
+   "h1": {
+    "text": "Legal work, without limits.",
+    "font-family": "\"CUSTOMV2;Aktiv Grotesk VF Variable Regular\", sans-serif",
+    "font-size": "56.2477px",
+    "font-weight": "400",
+    "line-height": "59.0601px",
+    "letter-spacing": "-2.24991px",
+    "color": "rgb(255, 255, 255)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "\"wght\" 450",
+    "text-wrap": "balance"
+   },
+   "h2": [],
+   "body": {
+    "font-family": "sans-serif",
+    "font-size": "12px",
+    "font-weight": "400",
+    "line-height": "normal",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(250, 250, 249)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Introducing Skills\n\nLearn more\n\n→\n\n→",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 44,
+     "bg": "rgb(0, 80, 50)",
+     "color": "rgb(0, 0, 238)",
+     "radius": "0px",
+     "font": "12px/400",
+     "border": "0px none rgb(0, 0, 238)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Product",
+     "x": 9,
+     "y": 64,
+     "w": 75,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Solutions",
+     "x": 84,
+     "y": 64,
+     "w": 84,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Security",
+     "x": 169,
+     "y": 64,
+     "w": 78,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 238)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": "0px none rgb(0, 0, 238)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Customers",
+     "x": 246,
+     "y": 64,
+     "w": 94,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 238)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": "0px none rgb(0, 0, 238)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Company",
+     "x": 340,
+     "y": 64,
+     "w": 86,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Log in",
+     "x": 1207,
+     "y": 64,
+     "w": 66,
+     "h": 30,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "16px 16px 0px 0px",
+     "font": "12px/400",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Book a demo",
+     "x": 1288,
+     "y": 64,
+     "w": 128,
+     "h": 30,
+     "bg": "rgb(0, 80, 50)",
+     "color": "rgb(0, 0, 238)",
+     "radius": "48px",
+     "font": "12px/400",
+     "border": "0px none rgb(0, 0, 238)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Book a demo",
+     "x": 794,
+     "y": 810,
+     "w": 128,
+     "h": 30,
+     "bg": "rgb(0, 80, 50)",
+     "color": "rgb(0, 0, 238)",
+     "radius": "48px",
+     "font": "12px/400",
+     "border": "0px none rgb(0, 0, 238)",
+     "shadow": null
+    }
+   ],
+   "header": null,
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 676,
+     "y": 70,
+     "w": 89,
+     "h": 17,
+     "paths": 0,
+     "cls": ""
+    },
+    {
+     "tag": "video",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 900,
+     "src": "https://framerusercontent.com/assets/xQGtnfqeLeuUVaIJ9aHazCogW4s.mp4",
+     "autoplay": true,
+     "loop": true,
+     "muted": true,
+     "poster": "https://framerusercontent.com/images/sGI6HdSappESUAeJXSPS7wmekg.webp?width=2400&height=1350",
+     "playsinline": true,
+     "sources": []
+    },
+    {
+     "tag": "img",
+     "x": 2628,
+     "y": 960,
+     "w": 56,
+     "h": 30,
+     "src": "https://framerusercontent.com/images/wurj9HgULPtFnayAGDSj0eEh5PQ.png?width=150&height=105",
+     "natural": [
+      150,
+      105
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 64,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/8BWje2mXmuWYLeOtZA9sm721uA.png?width=300&height=24",
+     "natural": [
+      300,
+      24
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 200,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/vMRbsNvXuOwmySYeGvSKWNMj9JM.png?width=179&height=34",
+     "natural": [
+      179,
+      34
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 336,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/FkNxaiSuHxQcvSQi7MbkPZBXQyY.png?width=308&height=24",
+     "natural": [
+      308,
+      24
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 472,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/6ZSYvrAbmtzO6d1eWLmU7I7p3Sk.png?width=240&height=51",
+     "natural": [
+      240,
+      51
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 608,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/jAmkTkI5RYaAws50uxs0ozoa1Q.png?width=183&height=30",
+     "natural": [
+      183,
+      30
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 744,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/uoGFbxdKM56hNc7qRlmLlW6Z2E.svg?width=125&height=23",
+     "natural": [
+      125,
+      23
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 880,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/J5eCt7FimjeIfWrScy4JbTC3QSQ.png?width=225&height=39",
+     "natural": [
+      225,
+      39
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1016,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/38CZI5krCke3iS4Oe4WVbr6oYkU.png?width=210&height=48",
+     "natural": [
+      210,
+      48
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1152,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/1V6e1MIE0CM0jKyz2fF8h59RCns.png?width=240&height=53",
+     "natural": [
+      240,
+      53
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1288,
+     "y": 960,
+     "w": 56,
+     "h": 30,
+     "src": "https://framerusercontent.com/images/wurj9HgULPtFnayAGDSj0eEh5PQ.png?width=150&height=105",
+     "natural": [
+      150,
+      105
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1404,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/8BWje2mXmuWYLeOtZA9sm721uA.png?width=300&height=24",
+     "natural": [
+      300,
+      24
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1540,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/vMRbsNvXuOwmySYeGvSKWNMj9JM.png?width=179&height=34",
+     "natural": [
+      179,
+      34
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1676,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/FkNxaiSuHxQcvSQi7MbkPZBXQyY.png?width=308&height=24",
+     "natural": [
+      308,
+      24
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1812,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/6ZSYvrAbmtzO6d1eWLmU7I7p3Sk.png?width=240&height=51",
+     "natural": [
+      240,
+      51
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1948,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/jAmkTkI5RYaAws50uxs0ozoa1Q.png?width=183&height=30",
+     "natural": [
+      183,
+      30
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2084,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/uoGFbxdKM56hNc7qRlmLlW6Z2E.svg?width=125&height=23",
+     "natural": [
+      125,
+      23
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2220,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/J5eCt7FimjeIfWrScy4JbTC3QSQ.png?width=225&height=39",
+     "natural": [
+      225,
+      39
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2356,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/38CZI5krCke3iS4Oe4WVbr6oYkU.png?width=210&height=48",
+     "natural": [
+      210,
+      48
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2492,
+     "y": 965,
+     "w": 76,
+     "h": 20,
+     "src": "https://framerusercontent.com/images/1V6e1MIE0CM0jKyz2fF8h59RCns.png?width=240&height=53",
+     "natural": [
+      240,
+      53
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 0,
+     "y": 1374,
+     "w": 1440,
+     "h": 900,
+     "src": "https://framerusercontent.com/assets/HoYj2qgmfKv6ASbeLvxadGH2mY.mp4",
+     "autoplay": false,
+     "loop": false,
+     "muted": true,
+     "poster": "https://legora.com/",
+     "playsinline": true,
+     "sources": []
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "framer-T5MzI framer-1mqvwos framer-v-1mq",
+     "w": 1440,
+     "h": 72,
+     "bg": "linear-gradient(rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 0) 50%, rgba(250, 250, 250, 0) 100%)"
+    },
+    {
+     "tag": "div",
+     "cls": "framer-1nwm4q",
+     "w": 1440,
+     "h": 900,
+     "bg": "linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 13.1176%, rgba(0, 0, 0, 0.1) 72.2498%, rgba(0, 0, 0, 0.5) 100%)"
+    },
+    {
+     "tag": "div",
+     "cls": "framer-itnlk9",
+     "w": 90,
+     "h": 90,
+     "bg": "linear-gradient(rgba(250, 250, 249, 0) 0%, rgb(250, 250, 249) 73.9056%)"
+    },
+    {
+     "tag": "div",
+     "cls": "framer-1e1xt5k",
+     "w": 90,
+     "h": 90,
+     "bg": "linear-gradient(rgba(250, 250, 249, 0) 0%, rgb(250, 250, 249) 73.9056%)"
+    }
+   ],
+   "fontShare": {
+    "CUSTOMV2;Aktiv Grotesk VF Variable Regular": 4517,
+    "Aktiv Grotesk VF Variable Regular": 84
+   },
+   "bgs": {
+    "rgb(250, 250, 249)": 41424706,
+    "rgb(230, 230, 230)": 1296000,
+    "rgb(225, 223, 218)": 1217025,
+    "rgb(13, 16, 22)": 1089900,
+    "rgb(0, 61, 38)": 575100,
+    "rgba(0, 0, 0, 0.1)": 575100,
+    "rgb(255, 255, 255)": 1296000
+   },
+   "counts": {
+    "gradients": 12,
+    "backdrop": 8,
+    "filters": 0,
+    "video": 3,
+    "canvas": 0,
+    "svg": 5,
+    "img": 40,
+    "buttons": 0,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 72,
+    "iframes": 3
+   },
+   "headings": [
+    "H1 Legal work, without limits.",
+    "H3 Introducing the Legora aOS™",
+    "H3 Our latest innovations",
+    "H3 Every team. Every practice."
+   ],
+   "fonts": [
+    "Aktiv Grotesk VF Variable Regular 400 normal",
+    "Aktiv Grotesk VF Variable Regular Placeholder normal normal"
+   ],
+   "firstViewTextSample": "Introducing Skills\n\nLearn more\n\n→\n\n→\n\nProduct\n\nSolutions\n\nSecurity\n\nCustomers\n\nCompany\n\nLog in\n\nBook a demo\n\nLegal work, without limits.\n\nCollaborative AI for exceptional lawyers\n\nBook a demo\n\nTrusted by\n\nIntroducing the Legora aOS™\n\nThe agentic operating system for legal work\n\nLarge Language Models\n\nAgentic Harness\n\nData & Integrations\n\nContext & Knowledge\n\nLegal Capabilities\n\nProducts & Interfaces\n\nSecurity & Governance\n\nA single system that connects information, communication, and the execution of legal work.\n\nExplore the Legora aOS™\n\nOur latest innovations\n\nEarlier this spring we hosted Precedent in London, our annual summit on the future of law and AI. We gathered some of the most influential voices in the industry, and unveiled our latest product innovations.\n\nLegora aOS™\n\nThe Legora aOS facilitates the flow of information, communication, and execution of legal work, helping lawyers deliver higher quality work at unprecedented speed and scale.\n\n↳\n\n \n\nRead more\n\nAgent\n\nEnd-to-end execution of complex legal work. The Agent plans, executes, reviews and delivers, so you can focus on the decisions that require your judgment.\n\n↳\n\n \n\nRead more\n\nMonitors\n\nStay ahead of regulatory change. Monitors cuts through the noise by continuously scanning global regulation and surfacing what matters before it impacts your business.\n\n↳\n\n \n\nRead more\n\nLists\n\nKeep legal work organised, owned, and connected. Lists can be generated by the Agent directly from your documents, connecting AI output",
+   "pageHeight": 13917,
+   "hasHScroll": false,
+   "visibleChars": 4920,
+   "landmarks": {
+    "header": 0,
+    "nav": 0,
+    "main": 0,
+    "footer": 0,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "center-carousel-r1a-progress",
+    "target": "div.cc-progress-fill",
+    "props": [
+     "transform"
+    ],
+    "duration": 5000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "paused",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 21,
+   "ro": 4,
+   "animateCalls": 16,
+   "canvasContexts": [],
+   "lcp": {
+    "t": 316,
+    "tag": "H1",
+    "id": null,
+    "size": 20928,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 0,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    }
+   ]
+  },
+  "idleRafPerSecond": 120,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 84,
+   "settle98Ms": 84,
+   "distinctPositions": 2,
+   "samples": 108,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 1,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "center-carousel-r1a-progress",
+      "target": "div.cc-progress-fill",
+      "props": [
+       "transform"
+      ],
+      "duration": 5000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 6959,
+    "count": 1,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "center-carousel-r1a-progress",
+      "target": "div.cc-progress-fill",
+      "props": [
+       "transform"
+      ],
+      "duration": 5000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 13017,
+    "count": 1,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "center-carousel-r1a-progress",
+      "target": "div.cc-progress-fill",
+      "props": [
+       "transform"
+      ],
+      "duration": 5000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "paused",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 289,
+   "totalBytes": 5191131,
+   "byType": {
+    "Document": 47556,
+    "Script": 2258354,
+    "Image": 1533498,
+    "XHR": 2276,
+    "Font": 589725,
+    "Fetch": 721990,
+    "Ping": 1271,
+    "Other": 1449,
+    "Media": 35012
+   },
+   "hosts": {
+    "framerusercontent.com": 4435021,
+    "www.googletagmanager.com": 491022,
+    "legora.com": 47556,
+    "consent.cookiebot.com": 38371,
+    "cdn.drda.io": 35485,
+    "cdn.dreamdata.cloud": 35459,
+    "scripts.clarity.ms": 26112,
+    "snap.licdn.com": 23482,
+    "bat.bing.com": 18653,
+    "c.amazon-adsystem.com": 12529,
+    "events.framer.com": 12065,
+    "framer.com": 4115,
+    "googleads.g.doubleclick.net": 3150,
+    "app.framerstatic.com": 2215
+   }
+  },
+  "fp": {
+   "present": [
+    "__framer_importFromPackage",
+    "__framer_events",
+    "gtag",
+    "dataLayer",
+    "clarity",
+    "fbq"
+   ],
+   "htmlCls": "",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://framerusercontent.com/assets/xQGtnfqeLeuUVaIJ9aHazCogW4s.mp4",
+      "w": 1440,
+      "h": 900,
+      "inHero": true
+     },
+     {
+      "autoplay": false,
+      "loop": false,
+      "muted": true,
+      "src": "https://framerusercontent.com/assets/HoYj2qgmfKv6ASbeLvxadGH2mY.mp4",
+      "w": 1440,
+      "h": 900,
+      "inHero": false
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://framerusercontent.com/assets/JddAlmutOUc2BATDtC8MFjNo6wQ.mp4",
+      "w": 1440,
+      "h": 900,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": true,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 18,
+   "scripts": [
+    "https://scripts.clarity.ms/0.8.72-beta/clarity.js",
+    "https://www.clarity.ms/tag/uet/343231976",
+    "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+    "https://c.amazon-adsystem.com/aat/amzn.js",
+    "https://cdn.dreamdata.cloud/scripts/analytics/next/dreamdata.min.js",
+    "https://bat.bing.com/bat.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://cdn.drda.io/scripts/analytics/next/dreamdata.cl.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=DC-16654897&cx=c&gtm=4e6a61",
+    "https://www.googletagmanager.com/gtag/js?id=AW-16882792220&cx=c&gtm=4e6a61",
+    "https://consent.cookiebot.com/846ed741-8cc7-4ab9-9c08-9037e1630a90/cc.js?renew=false&referer=legora.com&dnt=false&init=false",
+    "https://consentcdn.cookiebot.com/consentconfig/846ed741-8cc7-4ab9-9c08-9037e1630a90/legora.com/configuration.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-W3PRDDJQ",
+    "https://consent.cookiebot.com/uc.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/16882792220/?random=1791459188536&cv=11&fst=1791459188536&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a61v9213476356z89208239891za20gzb9208239891zd9208239891xecxf1&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121246027~121246035~121280969&u_w=1440&u_h=900&url=https%3A%2F%2Flegora.com%2F&rcb=3&frm=0&tiba=Legora&hn=www.googleadservices.com&npa=0&us_privacy=1---&pscdl=noapi&auid=230502556.1791459188&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&_tu=CA&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://bat.bing.com/p/action/343231976.js",
+    "https://events.framer.com/script?v=2",
+    "https://framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/script_main.D-p0W6pa.mjs"
+   ],
+   "inlineScripts": 18,
+   "generator": "Framer 7788242",
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "Framer/26fa766",
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "lenis": [
+    "3P framer.com/edit/init.mjs"
+   ],
+   "framerSite": [
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Video.Bfq1mKmO.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Scroll_Video.f502xGP-.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/sTdy54l2M.mHyJ8iJk.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/I9aE2hVy1RDGjITE1dk4ezIgAAec-fasO5qL6kU"
+   ],
+   "webflowIx": [
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Scroll_Video.f502xGP-.mjs"
+   ],
+   "scrollTimelineJS": [
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/motion.B8Jv1A6-.mjs"
+   ],
+   "intersection": [
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Numbercounter.oU2-6mRN.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/Ewcarousel.6CmDXt7M.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/motion.B8Jv1A6-.mjs",
+    "3P framerusercontent.com/sites/7d1d8MT3FUmImOoUwreiS6/framer.DYSnjsCx.mjs"
+   ]
+  },
+  "scriptsScanned": 82,
+  "cssFeatures": {
+   "backdrop-filter": 3,
+   "will-change": 30,
+   "sticky": 2,
+   "text-wrap": 104,
+   "clip-path": 2,
+   "filter: blur": 1
+  },
+  "cssBytes": {
+   "linked": 0,
+   "inline": 254357,
+   "files": 0
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 1,
+   "infinite": 0,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "center-carousel-r1m-progress",
+     "target": "div.cc-progress-fill",
+     "props": [
+      "transform"
+     ],
+     "duration": 5000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "paused",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 4929,
+  "paintedChars": 3409,
+  "paintedCharsFirstViewport": 87,
+  "h1": "Legal work, without limits.",
+  "firstViewportText": "Introducing Skills\n\nLearn more\n\n→\n\n→ | Introducing Skills | Learn more | → | → | Product | Product | Solutions | Solutions | Security | Security | Customers | Customers | Company | Company | Log in | Log in | Book a demo | Book a demo | Legal work, without limits. | Collaborative AI for exceptional lawyers | Book a demo | Book a demo"
+ }
+}

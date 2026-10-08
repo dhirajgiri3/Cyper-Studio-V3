@@ -1,0 +1,1649 @@
+{
+ "slug": "iru",
+ "url": "https://www.iru.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 1976,
+  "consent": [],
+  "finalUrl": "https://www.iru.com/",
+  "transferFirstLoad": {
+   "requests": 222,
+   "totalBytes": 3319489,
+   "byType": {
+    "Document": 29713,
+    "Font": 0,
+    "Stylesheet": 0,
+    "Image": 642037,
+    "Script": 2276504,
+    "Media": 109498,
+    "XHR": 202964,
+    "Fetch": 47707,
+    "Other": 10102,
+    "Ping": 964,
+    "Preflight": 0
+   },
+   "hosts": {
+    "www.iru.com": 1083950,
+    "www.googletagmanager.com": 709551,
+    "connect.facebook.net": 301360,
+    "cdn.cookielaw.org": 229314,
+    "assets.m.iru.com": 190523,
+    "opps-widget.getwarmly.com": 173179,
+    "snippet.m.iru.com": 146777,
+    "googleads.g.doubleclick.net": 77377,
+    "cdn.jsdelivr.net": 51942,
+    "js.hs-analytics.net": 44030,
+    "s.adroll.com": 35352,
+    "tag.unifyintent.com": 31030,
+    "js.hubspot.com": 30663,
+    "www.redditstatic.com": 25863
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://www.iru.com/_hcms/forms/v2.js",
+     "bytes": 207335
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=AW-781421631",
+     "bytes": 203956
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T7GZQ3L",
+     "bytes": 195251
+    },
+    {
+     "url": "https://connect.facebook.net/signals/config/1031886028456323?v=2.9.415&r=stable&domain=www.iru.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c",
+     "bytes": 159689
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-V21CT0R1FX&cx=c&gtm=4e6a70h2",
+     "bytes": 156028
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-V21CT0R1FX",
+     "bytes": 154316
+    },
+    {
+     "url": "https://snippet.m.iru.com/us-417d4676-f039-41e0-9fd7-2ea3d934cbc5.js",
+     "bytes": 146777
+    },
+    {
+     "url": "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+     "bytes": 138937
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112953
+    },
+    {
+     "url": "https://opps-widget.getwarmly.com/widget-ktKkg01N.js",
+     "bytes": 112715
+    },
+    {
+     "url": "https://www.iru.com/hubfs/hub_generated/template_assets/1/204263283764/1791410223595/template_lottie.min.js",
+     "bytes": 78208
+    },
+    {
+     "url": "https://js.hs-analytics.net/analytics/1791459000000/5058330.js",
+     "bytes": 44030
+    },
+    {
+     "url": "https://opps-widget.getwarmly.com/mui-theme-BlwwWWeB.js",
+     "bytes": 34788
+    },
+    {
+     "url": "https://s.adroll.com/j/QG5WZUJVXBB45LVXWDFVDE/roundtrip.js",
+     "bytes": 33257
+    },
+    {
+     "url": "https://tag.unifyintent.com/v1/JAM6t1WDBh6qkSwDQo7uRu/script.js",
+     "bytes": 31030
+    },
+    {
+     "url": "https://js.hubspot.com/web-interactives-embed.js",
+     "bytes": 30663
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3.3.2/dist/fp.js",
+     "bytes": 30641
+    },
+    {
+     "url": "https://connect.facebook.net/signals/config/821678078239751?v=2.9.415&r=stable&domain=www.iru.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4",
+     "bytes": 28718
+    },
+    {
+     "url": "https://www.iru.com/hubfs/hub_generated/template_assets/1/198161581150/1791410214806/template_iru.main.min.js",
+     "bytes": 27568
+    },
+    {
+     "url": "https://www.redditstatic.com/ads/pixel.js?pixel_id=t2_55e33mt8",
+     "bytes": 25863
+    },
+    {
+     "url": "https://scripts.clarity.ms/0.8.72/clarity.js",
+     "bytes": 25561
+    },
+    {
+     "url": "https://js.hs-banner.com/v2/5058330/banner.js",
+     "bytes": 24576
+    },
+    {
+     "url": "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+     "bytes": 21786
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js",
+     "bytes": 21301
+    },
+    {
+     "url": "https://static.ads-twitter.com/uwt.js",
+     "bytes": 17674
+    }
+   ]
+  },
+  "dom": {
+   "title": "Iru (formerly Kandji) | Securing devices, identity, and compliance.",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Manage devices and everything they touch. See how security, IT, and compliance get easier when unified around devices with Iru.",
+   "ogImage": "https://www.iru.com/hubfs/assets/favicons/og-image.png",
+   "canonical": "https://www.iru.com/",
+   "jsonLd": [
+    "Organization"
+   ],
+   "generator": "HubSpot",
+   "themeColor": "#ffffff",
+   "h1": {
+    "text": "Manage devices and everything they touch",
+    "font-family": "\"FK Grotesk Neue\", -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+    "font-size": "56px",
+    "font-weight": "500",
+    "line-height": "60.48px",
+    "letter-spacing": "-1.68px",
+    "color": "rgb(12, 12, 41)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "One integrated platform.\nGreater than the sum of its parts.",
+     "font-family": "\"FK Grotesk Neue\", -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+     "font-size": "48px",
+     "font-weight": "500",
+     "line-height": "52.8px",
+     "letter-spacing": "-1.44px",
+     "color": "rgb(12, 12, 41)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Point and click\nor commit and push.",
+     "font-family": "\"FK Grotesk Neue\", -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+     "font-size": "48px",
+     "font-weight": "500",
+     "line-height": "52.8px",
+     "letter-spacing": "-1.44px",
+     "color": "rgb(12, 12, 41)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Numbers don’t lie",
+     "font-family": "\"FK Grotesk Neue\", -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+     "font-size": "48px",
+     "font-weight": "500",
+     "line-height": "52.8px",
+     "letter-spacing": "-1.44px",
+     "color": "rgb(12, 12, 41)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "\"FK Grotesk Neue\", -apple-system, \"system-ui\", \"Segoe UI\", \"Noto Sans\", Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(12, 12, 41)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "pretty",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Introducing Iru MCP",
+     "x": 626,
+     "y": 7,
+     "w": 187,
+     "h": 28,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "0px",
+     "font": "14px/400",
+     "border": "0px solid rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Pricing",
+     "x": 910,
+     "y": 58,
+     "w": 71,
+     "h": 48,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(12, 12, 41)",
+     "radius": "0px",
+     "font": "14px/500",
+     "border": "0px solid rgb(12, 12, 41)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Login",
+     "x": 1183,
+     "y": 60,
+     "w": 79,
+     "h": 44,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(12, 12, 41)",
+     "radius": "8px",
+     "font": "14px/500",
+     "border": "1px solid oklab(0.175514 0.00868706 -0.0570399 / 0.1)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Book a demo",
+     "x": 1278,
+     "y": 60,
+     "w": 130,
+     "h": 44,
+     "bg": "rgb(12, 12, 41)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "8px",
+     "font": "14px/500",
+     "border": "1px solid rgb(12, 12, 41)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Ok",
+     "x": 1040,
+     "y": 842,
+     "w": 125,
+     "h": 42,
+     "bg": "rgb(12, 12, 41)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "2px",
+     "font": "13.008px/600",
+     "border": "1px solid rgb(12, 12, 41)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "static",
+    "h": 80,
+    "top": 42,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(12, 12, 41)",
+    "links": [
+     "Endpoint",
+     "Endpoint Management",
+     "Endpoint Detection & Response",
+     "Vulnerability Management",
+     "Identity",
+     "Workforce Identity",
+     "Compliance",
+     "Compliance Automation",
+     "Trust Center",
+     "Iru AI",
+     "Mac",
+     "Android",
+     "Windows",
+     "iPhone & iPad"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 32,
+     "y": 62,
+     "w": 59,
+     "h": 40,
+     "paths": 4,
+     "cls": "block transition-all my-0 shrink-0 w-aut"
+    },
+    {
+     "tag": "img",
+     "x": 97,
+     "y": 61,
+     "w": 42,
+     "h": 42,
+     "src": "https://www.iru.com/hs-fs/hubfs/raw_assets/public/IruAurelia/images/iru-logo.png?width=80&height=80&name=iru-logo.png",
+     "natural": [
+      80,
+      80
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "Iru Logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 630,
+     "y": 106,
+     "w": 924,
+     "h": 760,
+     "paths": 309,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": -432,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/airbus.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Airbus",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -252,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/replit.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Replit",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -72,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/amplitude.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Amplitude",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 108,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/demandbase.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Demandbase",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 288,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/mclaren.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "McLaren",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 468,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/vercel.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Vercel",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 648,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/gocardless.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "GoCardless",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 828,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/betterhelp.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Betterhelp",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1008,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/lifetime.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lifetime",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1188,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/plaid.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Plaid",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1368,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/glean.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Glean",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1548,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/cursor.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Cursor",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1728,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/cloudera.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Cloudera",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1908,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/wise.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Wise",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2088,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/bumble.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bumble",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2268,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/a24.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "A24",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2448,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/lottiefiles.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "LottieFiles",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2628,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/turo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Turo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2808,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/pendo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Pendo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2988,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/intercom.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Intercom",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3168,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/apollo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Apollo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3348,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/airbus.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Airbus",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3528,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/replit.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Replit",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3708,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/amplitude.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Amplitude",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3888,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/demandbase.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Demandbase",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4068,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/mclaren.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "McLaren",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4248,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/vercel.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Vercel",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4428,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/gocardless.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "GoCardless",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4608,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/betterhelp.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Betterhelp",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4788,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/lifetime.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lifetime",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4968,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/plaid.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Plaid",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5148,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/glean.svg",
+     "natural": [
+      100,
+      100
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Glean",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5328,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/cursor.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Cursor",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5508,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/cloudera.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Cloudera",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5688,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/wise.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Wise",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5868,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/bumble.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bumble",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6048,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/a24.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "A24",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6228,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/lottiefiles.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "LottieFiles",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6408,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/turo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Turo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6588,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/pendo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Pendo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6768,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/intercom.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Intercom",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 6948,
+     "y": 964,
+     "w": 100,
+     "h": 100,
+     "src": "https://www.iru.com/hubfs/Company_Logos/apollo.svg",
+     "natural": [
+      0,
+      0
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Apollo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 32,
+     "y": 1701,
+     "w": 44,
+     "h": 44,
+     "src": "https://www.iru.com/hs-fs/hubfs/Iru%20Website%20Images/Product%20Icons/Endpoint%20Management.png?width=44&height=44&name=Endpoint%20Management.png",
+     "natural": [
+      44,
+      44
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Endpoint Management",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 32,
+     "y": 1762,
+     "w": 44,
+     "h": 44,
+     "src": "https://www.iru.com/hs-fs/hubfs/Iru%20Website%20Images/Product%20Icons/EDR.png?width=44&height=44&name=EDR.png",
+     "natural": [
+      44,
+      44
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "EDR",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 632,
+     "y": 1444,
+     "w": 776,
+     "h": 436,
+     "src": "https://www.iru.com/hs-fs/hubfs/01-Endpoint.png?width=2000&height=1124&name=01-Endpoint.png",
+     "natural": [
+      1440,
+      809
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "01-Endpoint",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [],
+   "fontShare": {
+    "FK Grotesk Neue": 4355
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 11800598,
+    "rgb(246, 246, 246)": 1036800,
+    "rgb(12, 12, 41)": 4108677,
+    "rgba(0, 0, 0, 0.7)": 1322041
+   },
+   "counts": {
+    "gradients": 0,
+    "backdrop": 0,
+    "filters": 8,
+    "video": 3,
+    "canvas": 0,
+    "svg": 41,
+    "img": 101,
+    "buttons": 18,
+    "forms": 2,
+    "tables": 0,
+    "details": 0,
+    "links": 157,
+    "iframes": 3
+   },
+   "headings": [
+    "H1 Manage devices and everything they touch",
+    "H2 One integrated platform. Greater than the sum of its parts.",
+    "H3 Endpoint",
+    "H3 Identity",
+    "H3 Compliance",
+    "H2 Point and click or commit and push.",
+    "H3 Unified by design. Built for the AI era.",
+    "H2 Numbers don’t lie",
+    "H3 Iru helps companies rewrite",
+    "H3 the way work is done",
+    "H2 Let your team focus on what matters",
+    "H2 Stay up to date",
+    "H2 Site Footer",
+    "H3 Product",
+    "H3 Resources",
+    "H3 Company"
+   ],
+   "fonts": [
+    "FK Grotesk Neue 100 900 normal"
+   ],
+   "firstViewTextSample": "Skip to content\n\nIntroducing Iru MCP\n\nSite Header\nProducts\nSolutions\nResources\nCompany\nPricing\nLogin\nBook a demo\n\n850+\n5 star reviews\n\nManage devices and everything they touch\n\nSee how compliance, productivity, and security are easier in a unified platform that starts with strong devices.\n\nTrusted by teams at 6,000+ companies\n\nOne integrated platform.\nGreater than the sum of its parts.\n\nIru gives you a single view of your users, apps, and devices. It’s an integrated system to secure access, protect endpoints, and prove compliance while delivering a better employee experience.\n\nEndpoint\n\nDeploy endpoint management, detection & response, and vulnerability management in a single agent. Protect against threats and deliver great work experiences across Apple, Windows, and Android.\n\nView Endpoint Overview\nEndpoint Management\nEndpoint Detection & Response\nVulnerability Management\nIdentity\n\nPasswordless workforce identity that grants secure access to every app. Wrap your apps and users in a trust fabric with device-bound authentication and robust security policies.\n\nView Identity Overview\nWorkforce Identity\nCompliance\n\nCompliance automation that’s fully powered by Iru AI tailors controls and builds an Adaptive Evidence Map. It keeps you audit-ready and unblocks deals with a public trust center.\n\nView Compliance Overview\nCompliance Automation\nTrust Center\nPoint and click\nor commit and push.\n\nA visual interface for teams that want speed. Config as code for the ones that want control.\n\n",
+   "pageHeight": 8195,
+   "hasHScroll": false,
+   "visibleChars": 4523,
+   "landmarks": {
+    "header": 1,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "marquee__widget_1761599983263",
+    "target": "div.marquee-content.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 44000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 6,
+   "ro": 1,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "2d",
+    "2d",
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 880,
+    "tag": "H1",
+    "id": null,
+    "size": 62118,
+    "url": null
+   },
+   "cls": 0.0006,
+   "longTasks": 4,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    }
+   ]
+  },
+  "idleRafPerSecond": 121,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 77,
+   "settle98Ms": 77,
+   "distinctPositions": 2,
+   "samples": 106,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 1,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "marquee__widget_1761599983263",
+      "target": "div.marquee-content.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 44000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 3675,
+    "count": 1,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "marquee__widget_1761599983263",
+      "target": "div.marquee-content.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 44000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 7295,
+    "count": 1,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "marquee__widget_1761599983263",
+      "target": "div.marquee-content.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 44000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 521,
+   "totalBytes": 4563218,
+   "byType": {
+    "Document": 58892,
+    "Font": 0,
+    "Stylesheet": 0,
+    "Image": 1293724,
+    "Script": 2823460,
+    "Media": 109498,
+    "XHR": 215498,
+    "Fetch": 50708,
+    "Other": 10102,
+    "Ping": 1336,
+    "Preflight": 0
+   },
+   "hosts": {
+    "www.iru.com": 1737953,
+    "www.googletagmanager.com": 911424,
+    "connect.facebook.net": 536530,
+    "cdn.cookielaw.org": 229314,
+    "assets.m.iru.com": 190523,
+    "opps-widget.getwarmly.com": 179915,
+    "googleads.g.doubleclick.net": 174635,
+    "snippet.m.iru.com": 147059,
+    "cdn.jsdelivr.net": 51942,
+    "js.hs-analytics.net": 44030,
+    "s.adroll.com": 35352,
+    "tag.unifyintent.com": 31030,
+    "js.hubspot.com": 30663,
+    "www.redditstatic.com": 25863
+   }
+  },
+  "fp": {
+   "present": [
+    "lottie",
+    "Alpine",
+    "gtag",
+    "dataLayer",
+    "hbspt",
+    "_hsq",
+    "fbq",
+    "twq"
+   ],
+   "htmlCls": "Aurelia font-sans relative text-terminal bg-cursor",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://www.iru.com/hubfs/assets/iru-motions/intro-iru.webm",
+      "w": 0,
+      "h": 0,
+      "inHero": true
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://www.iru.com/hubfs/assets/iru-motions/intro-iru.webm",
+      "w": 0,
+      "h": 0,
+      "inHero": true
+     },
+     {
+      "autoplay": true,
+      "loop": true,
+      "muted": true,
+      "src": "https://www.iru.com/hubfs/IRU_AI_Stringout_03_8.8mb.mp4",
+      "w": 1376,
+      "h": 900,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": true,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 72,
+   "scripts": [
+    "https://bat.bing.com/bat.js",
+    "https://connect.facebook.net/signals/config/821678078239751?v=2.9.415&r=stable&domain=www.iru.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188%2C267%2C265%2C260%2C262%2C263%2C264%2C261%2C259%2C246%2C266%2C268%2C258%2C216%2C217%2C269%2C270%2C257%2C256%2C229%2C224%2C227%2C228%2C206%2C222%2C387%2C205%2C225%2C226%2C250%2C223%2C221%2C277%2C241%2C214%2C215%2C211%2C212%2C213%2C210%2C208%2C219%2C220%2C218%2C325%2C380%2C230%2C280%2C287%2C288%2C281%2C283%2C286%2C284%2C285%2C282%2C279%2C298%2C292%2C295%2C291%2C299%2C296%2C290%2C294%2C297%2C293%2C289%2C356%2C351%2C352%2C199%2C201%2C202%2C207%2C203%2C204%2C200%2C198%2C197%2C303%2C307%2C310%2C311%2C312%2C308%2C313%2C306%2C301%2C315%2C316%2C305%2C314%2C318%2C309%2C304%2C317%2C319%2C302%2C239%2C300%2C345%2C346%2C348%2C349%2C347%2C344%2C343%2C339",
+    "https://connect.facebook.net/signals/config/1031886028456323?v=2.9.415&r=stable&domain=www.iru.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188%2C267%2C265%2C260%2C262%2C263%2C264%2C261%2C259%2C246%2C266%2C268%2C258%2C216%2C217%2C269%2C270%2C257%2C256%2C229%2C224%2C227%2C228%2C206%2C222%2C387%2C205%2C225%2C226%2C250%2C223%2C221%2C277%2C241%2C214%2C215%2C211%2C212%2C213%2C210%2C208%2C219%2C220%2C218%2C325%2C380%2C230%2C280%2C287%2C288%2C281%2C283%2C286%2C284%2C285%2C282%2C279%2C298%2C292%2C295%2C291%2C299%2C296%2C290%2C294%2C297%2C293%2C289%2C356",
+    "https://connect.facebook.net/signals/config/1380849165410427?v=2.9.415&r=stable&domain=www.iru.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://opps-widget.getwarmly.com/widget-ktKkg01N.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-V21CT0R1FX",
+    "https://snap.licdn.com/li.lms-analytics/insight.beta.min.js",
+    "https://sc.lfeeder.com/lftracker_v1_JMvZ8gv15z5a2pOd.js",
+    "https://app.factors.ai/assets/factors.js",
+    "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/GOYPYHDW24OX/GOYPYHDW24OX.js.gz",
+    "https://s.adroll.com/j/QG5WZUJVXBB45LVXWDFVDE/roundtrip.js",
+    "https://a.quora.com/qevents.js",
+    "https://static.ads-twitter.com/uwt.js",
+    "https://static.hotjar.com/c/hotjar-1939626.js?sv=7",
+    "https://www.redditstatic.com/ads/pixel.js?pixel_id=t2_55e33mt8",
+    "https://js.hs-scripts.com/5058330.js",
+    "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+    "https://www.googletagmanager.com/gtag/js?id=AW-781421631&cx=c&gtm=4e6a61",
+    "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0198cd75-02b2-7c91-b3b7-9778bb4fa8d3",
+    "https://js.hs-banner.com/v2/5058330/banner.js",
+    "https://js.hsadspixel.net/pixels.js",
+    "https://js.hs-analytics.net/analytics/1791459000000/5058330.js",
+    "https://js.hubspot.com/web-interactives-embed.js",
+    "https://snippet.m.iru.com/us-417d4676-f039-41e0-9fd7-2ea3d934cbc5.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-T7GZQ3L",
+    "https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3.3.2/dist/fp.js",
+    "https://cdn.cookielaw.org/scripttemplates/202605.1.0/otBannerSdk.js",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=fu4yek",
+    "https://www.googletagmanager.com/gtag/js?id=AW-781421631",
+    "https://d.adroll.com/consent/check/QG5WZUJVXBB45LVXWDFVDE?af0=469d95fb&adroll_fpc=ddb0be5004edb3c5ab652bee5d90a279-1791459221339&pv=41074758526.67437&arrfrr=https%3A%2F%2Fwww.iru.com%2F&_s=7f3f5dab8b1d7427160a8398876d521a&_b=2",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229793&cv=11&fst=1791459229793&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a70h2v885711243z8810153545za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj&gdid=dYWJhMj&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229808&cv=11&fst=1791459229808&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229814&cv=11&fst=1791459229814&bg=ffffff&guid=ON&async=1&en=form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229820&cv=11&fst=1791459229820&bg=ffffff&guid=ON&async=1&en=data_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229826&cv=11&fst=1791459229826&bg=ffffff&guid=ON&async=1&en=form_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229830&cv=11&fst=1791459229830&bg=ffffff&guid=ON&async=1&en=data_form_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229834&cv=11&fst=1791459229834&bg=ffffff&guid=ON&async=1&en=form_before_validation_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_before_validation_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229837&cv=11&fst=1791459229837&bg=ffffff&guid=ON&async=1&en=data_form_before_validation_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_before_validation_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229841&cv=11&fst=1791459229841&bg=ffffff&guid=ON&async=1&en=form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229846&cv=11&fst=1791459229846&bg=ffffff&guid=ON&async=1&en=data_form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229851&cv=11&fst=1791459229851&bg=ffffff&guid=ON&async=1&en=form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229855&cv=11&fst=1791459229855&bg=ffffff&guid=ON&async=1&en=data_form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229859&cv=11&fst=1791459229859&bg=ffffff&guid=ON&async=1&en=form_form_definition_fetch_success&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_form_definition_fetch_success%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229865&cv=11&fst=1791459229865&bg=ffffff&guid=ON&async=1&en=data_form_form_definition_fetch_success&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_form_definition_fetch_success%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229869&cv=11&fst=1791459229869&bg=ffffff&guid=ON&async=1&en=form_before_form_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_before_form_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229873&cv=11&fst=1791459229873&bg=ffffff&guid=ON&async=1&en=data_form_before_form_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_before_form_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229876&cv=11&fst=1791459229876&bg=ffffff&guid=ON&async=1&en=form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229880&cv=11&fst=1791459229880&bg=ffffff&guid=ON&async=1&en=data_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229884&cv=11&fst=1791459229884&bg=ffffff&guid=ON&async=1&en=form_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229887&cv=11&fst=1791459229887&bg=ffffff&guid=ON&async=1&en=data_form_form_ready&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_form_ready%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229891&cv=11&fst=1791459229891&bg=ffffff&guid=ON&async=1&en=form_before_validation_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_before_validation_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229894&cv=11&fst=1791459229894&bg=ffffff&guid=ON&async=1&en=data_form_before_validation_init&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_before_validation_init%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229897&cv=11&fst=1791459229897&bg=ffffff&guid=ON&async=1&en=form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dform_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459229899&cv=11&fst=1791459229899&bg=ffffff&guid=ON&async=1&en=data_form_analytic_event&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Ddata_form_analytic_event%3Bform_value%3D0&ept=9&rfmt=3&fmt=4",
+    "https://s.adroll.com/j/sendrolling.js",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459231598&cv=11&fst=1791459231598&bg=ffffff&guid=ON&async=1&en=scroll_tracking&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dscroll_tracking%3Bform_value%3D0%3Bscroll_depth%3D10&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459231612&cv=11&fst=1791459231612&bg=ffffff&guid=ON&async=1&en=scroll_tracking&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dscroll_tracking%3Bform_value%3D0%3Bscroll_depth%3D25&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459231620&cv=11&fst=1791459231620&bg=ffffff&guid=ON&async=1&en=scroll_tracking&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dscroll_tracking%3Bform_value%3D0%3Bscroll_depth%3D50&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459231631&cv=11&fst=1791459231631&bg=ffffff&guid=ON&async=1&en=scroll_tracking&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dscroll_tracking%3Bform_value%3D0%3Bscroll_depth%3D75&ept=9&rfmt=3&fmt=4",
+    "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/781421631/?random=1791459231677&cv=11&fst=1791459231677&bg=ffffff&guid=ON&async=1&en=scroll_tracking&gtm=45be6a70h2v885711243za20gzb810153545zd810153545xecxf1&gcd=13v3v3_3v5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~121046263~121046271~121280970&u_w=1440&u_h=900&url=https%3A%2F%2Fwww.iru.com%2F&ref=https%3A%2F%2Fwww.iru.com%2F&rcb=15&frm=0&tiba=Iru%20(formerly%20Kandji)%20%7C%20Securing%20devices%2C%20identity%2C%20and%20compliance.&did=dYWJhMj%2CdZTQ1Zm&gdid=dYWJhMj.dZTQ1Zm&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=621520979.1791459218&uaa=arm&uab=64&uafvl=Chromium%3B154.0.8037.98%7CGoogle%2520Chrome%3B154.0.8037.98%7CNot%2520A(Brand%3B99.0.0.0&uamb=0&uam=&uap=macOS&uapv=26.7.1&uaw=0&data=event%3Dscroll_tracking%3Bform_value%3D0%3Bscroll_depth%3D90&ept=9&rfmt=3&fmt=4",
+    "https://www.iru.com/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js",
+    "https://www.iru.com/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js",
+    "https://www.iru.com/hubfs/hub_generated/template_assets/1/198161581150/1791410214806/template_iru.main.min.js",
+    "https://www.iru.com/hubfs/hub_generated/template_assets/1/204263283764/1791410223595/template_lottie.min.js",
+    "https://www.iru.com/_hcms/forms/v2.js",
+    "https://www.iru.com/hs/scriptloader/5058330.js",
+    "https://www.iru.com/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js",
+    "https://tag.unifyintent.com/v1/JAM6t1WDBh6qkSwDQo7uRu/script.js",
+    "https://opps-widget.getwarmly.com/warmly.js?clientId=45ecc8de6fb689ebe44c9960b3390020"
+   ],
+   "inlineScripts": 22,
+   "generator": "HubSpot",
+   "scrollBehavior": "smooth",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "br"
+  },
+  "documentProto": "h3",
+  "scriptSignatures": {
+   "lottie": [
+    "1P www.iru.com/hubfs/hub_generated/template_assets/1/204263283764/1791410223595/template_lott",
+    "1P www.iru.com/hubfs/hub_generated/template_assets/1/198161581150/1791410214806/template_iru."
+   ],
+   "framerMotion": [
+    "1P www.iru.com/_hcms/forms/v2.js"
+   ],
+   "webflowIx": [
+    "3P cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=0198cd75-02b2-7c91-b3b7-9778bb4fa8d3"
+   ],
+   "swiper": [
+    "3P connect.facebook.net/signals/config/1031886028456323?v=2.9.415&r=stable&domain=www.iru.com",
+    "3P opps-widget.getwarmly.com/mui-theme-BlwwWWeB.js"
+   ],
+   "intersection": [
+    "1P www.iru.com/hubfs/hub_generated/template_assets/1/198161581150/1791410214806/template_iru.",
+    "1P www.iru.com/_hcms/forms/v2.js",
+    "3P js.hubspot.com/web-interactives-embed.js",
+    "3P www.googletagmanager.com/gtag/js?id=AW-781421631"
+   ],
+   "webgl": [
+    "3P js.hs-analytics.net/analytics/1791459000000/5058330.js"
+   ],
+   "barba": [
+    "1P www.iru.com/_hcms/forms/v2.js",
+    "3P connect.facebook.net/en_US/fbevents.js",
+    "3P cdn.jsdelivr.net/npm/meta-capi-param-builder-clientjs/dist/clientParamBuilder.bundle.js"
+   ]
+  },
+  "scriptsScanned": 83,
+  "cssFeatures": {
+   "@property": 68,
+   "backdrop-filter": 6,
+   "content-visibility": 4,
+   "will-change": 2,
+   "sticky": 4,
+   "text-wrap": 12,
+   "color-mix(": 421,
+   "oklch(": 34,
+   ":has(": 5,
+   "clip-path": 4,
+   "prefers-reduced-motion": 2
+  },
+  "cssBytes": {
+   "linked": 188669,
+   "inline": 150042,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 1,
+   "infinite": 1,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "marquee__widget_1761599983263",
+     "target": "div.marquee-content.flex",
+     "props": [
+      "transform"
+     ],
+     "duration": 44000,
+     "delay": 0,
+     "easing": "linear",
+     "iterations": "infinite",
+     "state": "running",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 4264,
+  "paintedChars": 4100,
+  "paintedCharsFirstViewport": 256,
+  "h1": "Manage devices and everything they touch",
+  "firstViewportText": "Introducing Iru MCP | Introducing Iru MCP | Products | Solutions | Resources | Company | Pricing | Pricing | Login | Book a demo | 850+\n5 star reviews | Manage devices and everything they touch | See how compliance, productivity, and security are easier in a unified platform that starts with strong devices."
+ }
+}
