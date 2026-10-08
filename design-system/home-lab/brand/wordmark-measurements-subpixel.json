@@ -1,0 +1,167 @@
+{
+  "H": {
+    "topEdgeMedian": 125,
+    "flatTopCols": 351,
+    "flatTopRange": [
+      56,
+      634
+    ],
+    "botEdgeMedian": 801.5,
+    "flatBotCols": 350
+  },
+  "E": {
+    "topEdgeMedian": 125,
+    "flatTopCols": 264,
+    "flatTopRange": [
+      891,
+      1154
+    ],
+    "botEdgeMedian": 802,
+    "flatBotCols": 264
+  },
+  "L": {
+    "topEdgeMedian": 118.5,
+    "flatTopCols": 176,
+    "flatTopRange": [
+      1203,
+      1378
+    ],
+    "botEdgeMedian": 801.5,
+    "flatBotCols": 191
+  },
+  "I": {
+    "topEdgeMedian": 123.5,
+    "flatTopCols": 176,
+    "flatTopRange": [
+      1642,
+      1817
+    ],
+    "botEdgeMedian": 801.5,
+    "flatBotCols": 176
+  },
+  "X": {
+    "topEdgeMedian": 124,
+    "flatTopCols": 343,
+    "flatTopRange": [
+      1870,
+      2435
+    ],
+    "botEdgeMedian": 801.5,
+    "flatBotCols": 343
+  },
+  "L_topProfileRuns": [
+    [
+      1203,
+      118.15
+    ],
+    [
+      1271,
+      118.25
+    ]
+  ],
+  "verticalEdgeDrift": {
+    "H.left": {
+      "x_at_y200": 55.69,
+      "x_at_y700": 56.03,
+      "drift_px_over_500": 0.34
+    },
+    "H.right": {
+      "x_at_y200": 635.73,
+      "x_at_y700": 635.73,
+      "drift_px_over_500": 0
+    },
+    "I.left": {
+      "x_at_y200": 1641.13,
+      "x_at_y700": 1641.13,
+      "drift_px_over_500": 0
+    },
+    "I.right": {
+      "x_at_y200": 1818.94,
+      "x_at_y700": 1818.94,
+      "drift_px_over_500": 0
+    },
+    "L.left": {
+      "x_at_y200": 1202.93,
+      "x_at_y700": 1235.29,
+      "drift_px_over_500": 32.36
+    }
+  },
+  "rowRuns_y160": {
+    "H": [
+      [
+        56,
+        232,
+        177
+      ],
+      [
+        460,
+        635,
+        176
+      ]
+    ],
+    "I": [
+      [
+        1641,
+        1818,
+        178
+      ]
+    ],
+    "L": [
+      [
+        1203,
+        1379,
+        177
+      ]
+    ]
+  },
+  "rowRuns_y450": {
+    "H": [
+      [
+        56,
+        635,
+        580
+      ]
+    ],
+    "E": [
+      [
+        682,
+        1155,
+        474
+      ]
+    ]
+  },
+  "opticalGaps": [
+    {
+      "pair": "HE",
+      "minGap": 46.6,
+      "meanRawGap": 74.2,
+      "meanGap_cap30": 59.7,
+      "meanGap_cap60": 67.2,
+      "meanGap_cap100": 72.5
+    },
+    {
+      "pair": "EL",
+      "minGap": 47.1,
+      "meanRawGap": 139.4,
+      "meanGap_cap30": 61.2,
+      "meanGap_cap60": 72.5,
+      "meanGap_cap100": 85.4
+    },
+    {
+      "pair": "LI",
+      "minGap": 57.7,
+      "meanRawGap": 211,
+      "meanGap_cap30": 80.4,
+      "meanGap_cap60": 103.1,
+      "meanGap_cap100": 133.4
+    },
+    {
+      "pair": "IX",
+      "minGap": 50.3,
+      "meanRawGap": 99.1,
+      "meanGap_cap30": 67.6,
+      "meanGap_cap60": 79.9,
+      "meanGap_cap100": 91.6
+    }
+  ]
+}

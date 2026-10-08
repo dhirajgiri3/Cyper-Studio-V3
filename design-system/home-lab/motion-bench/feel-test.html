@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scroll feel test: A or B? (blind)</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<style>
+:root{color-scheme:light;--ink:#0B1220;--line:#E4E7EC;--accent:#4161F4}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:#475467;display:grid;grid-template-rows:auto 1fr auto;height:100vh}
+header{padding:12px 20px;border-bottom:1px solid var(--line)}h1{margin:0 0 4px;font-size:16px;color:var(--ink)}p{margin:0;max-width:100ch}
+main{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:12px;min-height:0}
+.pane{display:grid;grid-template-rows:auto 1fr;border:1px solid var(--line);border-radius:10px;overflow:hidden;min-height:0}
+.pane b{padding:6px 12px;background:var(--ink);color:#fff;font:600 13px ui-monospace,monospace}
+iframe{border:0;width:100%;height:100%}
+footer{padding:12px 20px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+button{min-height:44px;padding:0 16px;border:1px solid #8691A3;border-radius:8px;background:#fff;color:var(--ink);font:500 14px system-ui;cursor:pointer}button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+#result{font-weight:600;color:var(--ink)}
+</style></head>
+<body>
+<header><h1>Which one feels better to scroll? (blind)</h1>
+<p>Both panes are the same page. Put the pointer over a pane and scroll it with your trackpad or mouse wheel, the same way in each: slow, then fast, then stop mid-page. Also try Space, PageDown, End and Home, and click "Steps" in the header. Then choose. The labels A and B are shuffled; the real names appear only after you choose.</p></header>
+<main><section class="pane"><b>A</b><iframe id="fa" title="Candidate A"></iframe></section><section class="pane"><b>B</b><iframe id="fb" title="Candidate B"></iframe></section></main>
+<footer><button data-v="A">A feels better</button><button data-v="B">B feels better</button><button data-v="same">No difference I can feel</button><button id="shuffle">Shuffle again</button><span id="result" role="status"></span></footer>
+<script>
+var S0='dist/s0.html',S1='dist/s1.html',map;
+function shuffle(){map=Math.random()<.5?{A:'S0',B:'S1'}:{A:'S1',B:'S0'};document.getElementById('fa').src=map.A==='S0'?S0:S1;document.getElementById('fb').src=map.B==='S0'?S0:S1;document.getElementById('result').textContent=''}
+document.querySelectorAll('[data-v]').forEach(function(b){b.addEventListener('click',function(){var v=b.dataset.v,names={S0:'S0 native scrolling',S1:'S1 native + Lenis smooth scrolling'};var msg=v==='same'?'No difference felt. A was '+names[map.A]+'; B was '+names[map.B]+'.':'You chose '+v+': '+names[map[v]]+'. (A was '+names[map.A]+'; B was '+names[map.B]+'.)';document.getElementById('result').textContent=msg;try{var r=JSON.parse(localStorage.getItem('feel')||'[]');r.push({t:Date.now(),choice:v,A:map.A,B:map.B});localStorage.setItem('feel',JSON.stringify(r))}catch(e){}})});
+document.getElementById('shuffle').addEventListener('click',shuffle);shuffle();
+</script>
+</body></html>

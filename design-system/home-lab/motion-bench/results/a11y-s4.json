@@ -1,0 +1,239 @@
+{
+ "id": "s4",
+ "url": "http://127.0.0.1:4173/s4.html",
+ "keyboardScroll": {
+  "Space": {
+   "before": 0,
+   "after": 608
+  },
+  "PageDown": {
+   "before": 608,
+   "after": 1216
+  },
+  "ArrowDown x3": {
+   "before": 1216,
+   "after": 1336
+  },
+  "End": {
+   "before": 1336,
+   "after": 6021
+  },
+  "Home": {
+   "before": 6021,
+   "after": 0
+  },
+  "expect": {
+   "maxScroll": 6021,
+   "endReachedMax": true,
+   "homeReachedZero": true,
+   "spaceMoved": true,
+   "pageDownMoved": true
+  }
+ },
+ "anchors": {
+  "lit": {
+   "targetTop": 72,
+   "headerBottom": 64,
+   "hiddenUnderHeader": false,
+   "scrollY": 538
+  },
+  "steps": {
+   "targetTop": 366,
+   "headerBottom": 64,
+   "hiddenUnderHeader": false,
+   "scrollY": 1056
+  },
+  "panels": {
+   "targetTop": 72,
+   "headerBottom": 64,
+   "hiddenUnderHeader": false,
+   "scrollY": 3216
+  },
+  "end": {
+   "targetTop": 147,
+   "headerBottom": 64,
+   "hiddenUnderHeader": false,
+   "scrollY": 6021
+  }
+ },
+ "findInPage": {
+  "Your name": {
+   "found": true,
+   "inViewport": true,
+   "rect": [
+    892,
+    384,
+    974,
+    406
+   ],
+   "effectiveOpacity": 0,
+   "visuallyReadable": false
+  },
+  "Open for business": {
+   "found": true,
+   "inViewport": true,
+   "rect": [
+    677,
+    376,
+    923,
+    415
+   ],
+   "effectiveOpacity": 0,
+   "visuallyReadable": false
+  },
+  "Set your brand": {
+   "found": true,
+   "inViewport": true,
+   "rect": [
+    677,
+    376,
+    876,
+    415
+   ],
+   "effectiveOpacity": 1,
+   "visuallyReadable": true
+  },
+  "Panel 4 of 5": {
+   "found": true,
+   "inViewport": false,
+   "rect": [
+    2041,
+    3678,
+    2134,
+    3700
+   ],
+   "effectiveOpacity": 1,
+   "visuallyReadable": false
+  }
+ },
+ "zoom200": {
+  "docOverflowX": 0,
+  "stepsStickOverflowsY": 8,
+  "stepsStickH": 296,
+  "elementsClippedRight": 0,
+  "stepBoxes": [
+   {
+    "f": 0.1,
+    "visibleStep": "Set your brand",
+    "fitsInBox": true
+   },
+   {
+    "f": 0.5,
+    "visibleStep": "Add your merchants",
+    "fitsInBox": true
+   },
+   {
+    "f": 0.9,
+    "visibleStep": "Open for business",
+    "fitsInBox": true
+   }
+  ]
+ },
+ "reducedMotion": {
+  "runningAnimations": 3,
+  "minOpacityOfMotionElements": 0,
+  "stepsOverlap": false,
+  "trackTransform": "none",
+  "panelsAllWithinViewportWidth": true,
+  "pageHeight": 4132,
+  "pinnedHeights": [
+   452,
+   1979
+  ],
+  "lenisActive": false,
+  "gsapPins": 0
+ },
+ "jsOff": {
+  "h1": "Run your own branded shipping platform.",
+  "litWordsMinOpacityAtParagraphEnd": 0.22,
+  "litChars": 248,
+  "frameOpacity": 0,
+  "stepsOverlap": false,
+  "pageHeight": 4132,
+  "cssAnimationsRunning": 0
+ },
+ "touch": {
+  "gestureDistance": 600,
+  "resultingDeltas": [
+   608,
+   596,
+   607
+  ],
+  "lenisSyncTouch": "no lenis",
+  "scrollBehavior": "auto"
+ },
+ "readingOrder": [
+  "link \"Skip to content\":",
+  "/url: \"#main\"",
+  "banner:",
+  "link \"Bench scene, top\":",
+  "/url: \"#top\"",
+  "text: HELIX bench",
+  "navigation \"Primary\":",
+  "link \"Lit text\":",
+  "/url: \"#lit\"",
+  "link \"Steps\":",
+  "/url: \"#steps\"",
+  "link \"Panels\":",
+  "/url: \"#panels\"",
+  "link \"Form\":",
+  "/url: \"#end\"",
+  "link \"Request a demo\":",
+  "/url: \"#end\"",
+  "main:",
+  "region \"Run your own branded shipping platform.\":",
+  "paragraph: Bench S4 · scene filler, not site copy",
+  "heading \"Run your own branded shipping platform.\"",
+  "paragraph: Bench scene. A white-label logistics operating system for couriers and 3PLs, under your own name.",
+  "paragraph:",
+  "link \"Request a demo\":",
+  "/url: \"#end\"",
+  "'img \"Screenshot pending: placeholder frame for the operator console\"': Screenshot pending",
+  "region \"Scroll-lit paragraph\":",
+  "paragraph: When your merchants ship on someone else's platform they learn someone else's name. Run the pickups, the hubs and the deliveries under your own brand, your own domain and your own colours, and keep the relationship with every merchant you bring in.",
+  "region \"Three steps\":",
+  "heading \"Three steps\"",
+  "list:",
+  "listitem:",
+  "text: \"1\"",
+  "heading \"Set your brand\"",
+  "paragraph: Name, domain and colours are yours.",
+  "listitem:",
+  "text: \"2\"",
+  "heading \"Add your merchants\"",
+  "paragraph: They sign up on your platform.",
+  "listitem:",
+  "text: \"3\"",
+  "heading \"Open for business\"",
+  "paragraph: Everything they see carries your name.",
+  "region \"Five panels\":",
+  "heading \"Five panels\"",
+  "article:",
+  "text: \"01\"",
+  "heading \"Your brand\"",
+  "paragraph: Panel 1 of 5. Filler text so find-in-page has something to find.",
+  "article:",
+  "text: \"02\"",
+  "heading \"Your domain\"",
+  "paragraph: Panel 2 of 5. Filler text so find-in-page has something to find.",
+  "article:",
+  "text: \"03\"",
+  "heading \"Your colours\"",
+  "paragraph: Panel 3 of 5. Filler text so find-in-page has something to find.",
+  "article:",
+  "text: \"04\"",
+  "heading \"Your merchants\"",
+  "paragraph: Panel 4 of 5. Filler text so find-in-page has something to find.",
+  "article:",
+  "text: \"05\"",
+  "heading \"Your name\"",
+  "paragraph: Panel 5 of 5. Filler text so find-in-page has something to find.",
+  "heading \"Request a demo\"",
+  "paragraph: \"Interaction target for the INP test: the button below toggles a sample brand colour.\"",
+  "text: Sample tenant Kestrel Couriers",
+  "paragraph:",
+  "button \"Toggle sample brand\"",
+  "contentinfo: Bench scene. Founded 2024. info@cyper.studio"
+ ],
+ "readingOrderLines": 71
+}

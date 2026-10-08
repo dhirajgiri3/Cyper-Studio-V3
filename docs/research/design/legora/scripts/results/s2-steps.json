@@ -1,0 +1,1826 @@
+{
+ "H": 13917,
+ "steps": [
+  {
+   "sy": 0,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(255, 255, 255)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 4.32,
+     "dur": 29.52,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 1374,
+     "h": 900,
+     "ct": 0,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 8842,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 576,
+   "rafPerSec": 120,
+   "newWAAPI": 16,
+   "waapiSample": [
+    {
+     "t": "div.framer-695pid \"Collaborative AI for e\"",
+     "kf": "{\"opacity\":[0.001,0.001]}",
+     "o": "{\"delay\":0,\"duration\":10000,\"easing\":\"linear\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}"
+    },
+    {
+     "t": "div.framer-695pid \"Collaborative AI for e\"",
+     "kf": "{\"opacity\":[0.001,1]}",
+     "o": "{\"delay\":200,\"duration\":600,\"easing\":\"cubic-bezier(0, 0, 1, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}"
+    },
+    {
+     "t": "div.framer-1wkaquj-container \"Book a demo\"",
+     "kf": "{\"opacity\":[0.001,1]}",
+     "o": "{\"delay\":200,\"duration\":600,\"easing\":\"cubic-bezier(0, 0, 1, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}"
+    },
+    {
+     "t": "div.framer-1v37yb3 \"Legora aOS™The Legora \"",
+     "kf": "{\"opacity\":[0.001,1]}",
+     "o": "{\"delay\":250,\"duration\":500,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}"
+    }
+   ]
+  },
+  {
+   "sy": 450,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -450,
+     "h": 900,
+     "ct": 6.33,
+     "dur": 29.52,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 924,
+     "h": 900,
+     "ct": 0,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 8392,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 792,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 900,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -900,
+     "h": 900,
+     "ct": 8.25,
+     "dur": 29.52,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 474,
+     "h": 900,
+     "ct": 0,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 7942,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 996,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 1350,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -1350,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 24,
+     "h": 900,
+     "ct": 0,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 7492,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 1232,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 1800,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -1800,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 1.14,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 7042,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 1462,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 2250,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -2250,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 2.36,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 6592,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 1678,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 2700,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -2700,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 3.58,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 6142,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 1892,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 3150,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -3150,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 4.8,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 5692,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 2128,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 3600,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -3600,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 6.02,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 5242,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 2358,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 4050,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -4050,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 7.24,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 4792,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 2594,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 4500,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -4500,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 8.47,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 4342,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 2822,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 4950,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -4950,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 9.69,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 3892,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 3058,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 5400,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -5400,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 0,
+     "h": 900,
+     "ct": 10.91,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 3442,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 3286,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 5850,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -5850,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -408,
+     "h": 900,
+     "ct": 11.01,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 2992,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 3444,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 6300,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -6300,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -858,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 2542,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 3674,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 6750,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -6750,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -1308,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 2092,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 3904,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 7200,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -7200,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -1758,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 1642,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "running",
+     "ct": 817
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 4134,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 7650,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -7650,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -2208,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 1192,
+     "h": 900,
+     "ct": 0,
+     "dur": 0,
+     "paused": true,
+     "rs": 0,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "running",
+     "ct": 2767
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 4368,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 8100,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -8100,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -2658,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 742,
+     "h": 900,
+     "ct": 0.59,
+     "dur": 12.89,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "running",
+     "ct": 4683
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 4598,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 8550,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -8550,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -3108,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": 292,
+     "h": 900,
+     "ct": 2.55,
+     "dur": 12.89,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "running",
+     "ct": 1633
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 4832,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 9000,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -9000,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -3558,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -158,
+     "h": 900,
+     "ct": 4.45,
+     "dur": 12.89,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 5114,
+   "rafPerSec": 183,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 9450,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -9450,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -4008,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -608,
+     "h": 900,
+     "ct": 6.42,
+     "dur": 12.89,
+     "paused": false,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 5530,
+   "rafPerSec": 240,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 9900,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -9900,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -4458,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -1058,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 5890,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 10350,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -10350,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -4908,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -1508,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 6126,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 10800,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -10800,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -5358,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -1958,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 6354,
+   "rafPerSec": 122,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 11250,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -11250,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -5808,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -2408,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 6588,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 11700,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -11700,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -6258,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -2858,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 6818,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 12150,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -12150,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -6708,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -3308,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 7050,
+   "rafPerSec": 120,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 12600,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -12600,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -7158,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -3758,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 7280,
+   "rafPerSec": 124,
+   "newWAAPI": 0,
+   "waapiSample": []
+  },
+  {
+   "sy": 13017,
+   "hdr": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "transition": "all",
+    "cls": "framer-g9il1b"
+   },
+   "ann": {
+    "pos": "fixed",
+    "top": 0,
+    "h": 116
+   },
+   "linkColor": "rgb(13, 16, 22)",
+   "logoFill": "rgb(0, 0, 0)",
+   "vids": [
+    {
+     "top": -13017,
+     "h": 900,
+     "ct": 9.32,
+     "dur": 29.52,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -7575,
+     "h": 900,
+     "ct": 11.03,
+     "dur": 11.03,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    },
+    {
+     "top": -4175,
+     "h": 900,
+     "ct": 7.44,
+     "dur": 12.89,
+     "paused": true,
+     "rs": 4,
+     "op": "1"
+    }
+   ],
+   "anims": [
+    {
+     "n": "center-carousel-r19-progress",
+     "state": "paused",
+     "ct": 0
+    }
+   ],
+   "animLog": 16,
+   "rafTotal": 7534,
+   "rafPerSec": 138,
+   "newWAAPI": 0,
+   "waapiSample": []
+  }
+ ]
+}

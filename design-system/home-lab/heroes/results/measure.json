@@ -1,0 +1,446 @@
+{
+ "A": {
+  "file": "hero-a-reskin.html",
+  "bytes": {
+   "html": 30865,
+   "cssInline": 16251,
+   "jsInline": 2649
+  },
+  "serverHtml": {
+   "h1": true,
+   "sub": true,
+   "primaryCta": true,
+   "trustLine": true,
+   "entityLine": true,
+   "email": true,
+   "canonical": true,
+   "ogUrl": true,
+   "jsonLdFoundingDate2024": true,
+   "jsonLdOrg": true
+  },
+  "firstViewport": {
+   "1440x800": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": true
+   },
+   "390x844": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": false
+   }
+  },
+  "jsOff": {
+   "h1Visible": true,
+   "subVisible": true,
+   "ctaVisible": true,
+   "trustVisible": true,
+   "entityVisible": true,
+   "tenantControlsHidden": true,
+   "horizontalScroll": false
+  },
+  "reducedMotion": {
+   "runningAnimations": 0,
+   "tenantAutoAdvanced": "Kestrel Couriers"
+  },
+  "axe": {
+   "violations": [],
+   "passes": 46,
+   "incomplete": []
+  },
+  "tenantWindow": {
+   "statesChecked": 3,
+   "distinctColours": 13,
+   "minDistanceToHelixBlue_OKLab": 0.188,
+   "closestColour": "rgb(102,112,133)",
+   "helixBluePresent": false,
+   "pass": true
+  },
+  "focusOrder": [
+   "a:Skip to content|outline 2px",
+   "a:HELIX by Cyper Studio, home|outline 2px",
+   "a:Product|outline 2px",
+   "a:About|outline 2px",
+   "a:Contact|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:See the same platform under |outline 2px",
+   "button:Kestrel Couriers|outline 2px",
+   "button:Monsoon Freight|outline 2px",
+   "button:Bramble Logistics|outline 2px",
+   "a:info@cyper.studio|outline 2px",
+   "input:f-name|outline 2px",
+   "input:f-mail|outline 2px"
+  ],
+  "form": {
+   "requiredFields": 4,
+   "optionalFields": 1,
+   "honeypot": true,
+   "successState": true,
+   "responseExpectationPlaceholder": true,
+   "invalidEmailBlocks": true,
+   "successShown": true
+  }
+ },
+ "B": {
+  "file": "hero-b-editorial.html",
+  "bytes": {
+   "html": 28747,
+   "cssInline": 16056,
+   "jsInline": 1088
+  },
+  "serverHtml": {
+   "h1": true,
+   "sub": true,
+   "primaryCta": true,
+   "trustLine": true,
+   "entityLine": true,
+   "email": true,
+   "canonical": true,
+   "ogUrl": true,
+   "jsonLdFoundingDate2024": true,
+   "jsonLdOrg": true
+  },
+  "firstViewport": {
+   "1440x800": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": false
+   },
+   "390x844": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": false
+   }
+  },
+  "jsOff": {
+   "h1Visible": true,
+   "subVisible": true,
+   "ctaVisible": true,
+   "trustVisible": true,
+   "entityVisible": true,
+   "tenantControlsHidden": "n/a",
+   "horizontalScroll": false
+  },
+  "reducedMotion": {
+   "runningAnimations": 0,
+   "tenantAutoAdvanced": "n/a"
+  },
+  "axe": {
+   "violations": [],
+   "passes": 47,
+   "incomplete": []
+  },
+  "tenantWindow": {
+   "statesChecked": 1,
+   "distinctColours": 0,
+   "minDistanceToHelixBlue_OKLab": 9,
+   "closestColour": "",
+   "helixBluePresent": false,
+   "pass": true
+  },
+  "focusOrder": [
+   "a:Skip to content|outline 2px",
+   "a:HELIX by Cyper Studio, home|outline 2px",
+   "a:Product|outline 2px",
+   "a:About|outline 2px",
+   "a:Contact|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:See the operator console|outline 2px",
+   "a:info@cyper.studio|outline 2px",
+   "input:f-name|outline 2px",
+   "input:f-mail|outline 2px",
+   "input:f-co|outline 2px",
+   "select:Choose one Regional courier |outline 2px",
+   "textarea:f-msg|outline 2px"
+  ],
+  "form": {
+   "requiredFields": 4,
+   "optionalFields": 1,
+   "honeypot": true,
+   "successState": true,
+   "responseExpectationPlaceholder": true,
+   "invalidEmailBlocks": true,
+   "successShown": true
+  }
+ },
+ "C": {
+  "file": "hero-c-pair.html",
+  "bytes": {
+   "html": 32536,
+   "cssInline": 15897,
+   "jsInline": 1088
+  },
+  "serverHtml": {
+   "h1": true,
+   "sub": true,
+   "primaryCta": true,
+   "trustLine": true,
+   "entityLine": true,
+   "email": true,
+   "canonical": true,
+   "ogUrl": true,
+   "jsonLdFoundingDate2024": true,
+   "jsonLdOrg": true
+  },
+  "firstViewport": {
+   "1440x800": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": true
+   },
+   "390x844": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": false
+   }
+  },
+  "jsOff": {
+   "h1Visible": true,
+   "subVisible": true,
+   "ctaVisible": true,
+   "trustVisible": true,
+   "entityVisible": true,
+   "tenantControlsHidden": "n/a",
+   "horizontalScroll": false
+  },
+  "reducedMotion": {
+   "runningAnimations": 0,
+   "tenantAutoAdvanced": "n/a"
+  },
+  "axe": {
+   "violations": [],
+   "passes": 47,
+   "incomplete": []
+  },
+  "tenantWindow": {
+   "statesChecked": 1,
+   "distinctColours": 11,
+   "minDistanceToHelixBlue_OKLab": 0.188,
+   "closestColour": "rgb(102,112,133)",
+   "helixBluePresent": false,
+   "pass": true
+  },
+  "focusOrder": [
+   "a:Skip to content|outline 2px",
+   "a:HELIX by Cyper Studio, home|outline 2px",
+   "a:Product|outline 2px",
+   "a:About|outline 2px",
+   "a:Contact|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:info@cyper.studio|outline 2px",
+   "input:f-name|outline 2px",
+   "input:f-mail|outline 2px",
+   "input:f-co|outline 2px",
+   "select:Choose one Regional courier |outline 2px",
+   "textarea:f-msg|outline 2px",
+   "button:Request a demo|outline 2px"
+  ],
+  "form": {
+   "requiredFields": 4,
+   "optionalFields": 1,
+   "honeypot": true,
+   "successState": true,
+   "responseExpectationPlaceholder": true,
+   "invalidEmailBlocks": true,
+   "successShown": true
+  }
+ },
+ "D": {
+  "file": "hero-d-your-name.html",
+  "bytes": {
+   "html": 30077,
+   "cssInline": 16198,
+   "jsInline": 2832
+  },
+  "serverHtml": {
+   "h1": true,
+   "sub": true,
+   "primaryCta": true,
+   "trustLine": true,
+   "entityLine": true,
+   "email": true,
+   "canonical": true,
+   "ogUrl": true,
+   "jsonLdFoundingDate2024": true,
+   "jsonLdOrg": true
+  },
+  "firstViewport": {
+   "1440x800": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": true
+   },
+   "390x844": {
+    "answers": {
+     "company": true,
+     "product": true,
+     "audience": true,
+     "outcome": true,
+     "cta": true,
+     "trustLine": true,
+     "entityLine": true
+    },
+    "allFourPass": true,
+    "ctaInfo": {
+     "primaryFilledInViewport": 1,
+     "quietHeader": 1,
+     "primaryHeightPx": 52
+    },
+    "hScroll": false,
+    "productVisibleInViewport": false
+   }
+  },
+  "jsOff": {
+   "h1Visible": true,
+   "subVisible": true,
+   "ctaVisible": true,
+   "trustVisible": true,
+   "entityVisible": true,
+   "tenantControlsHidden": true,
+   "horizontalScroll": false
+  },
+  "reducedMotion": {
+   "runningAnimations": 0,
+   "tenantAutoAdvanced": "n/a"
+  },
+  "axe": {
+   "violations": [],
+   "passes": 46,
+   "incomplete": []
+  },
+  "tenantWindow": {
+   "statesChecked": 3,
+   "distinctColours": 8,
+   "minDistanceToHelixBlue_OKLab": 0.188,
+   "closestColour": "rgb(102,112,133)",
+   "helixBluePresent": false,
+   "pass": true
+  },
+  "focusOrder": [
+   "a:Skip to content|outline 2px",
+   "a:HELIX by Cyper Studio, home|outline 2px",
+   "a:Product|outline 2px",
+   "a:About|outline 2px",
+   "a:Contact|outline 2px",
+   "a:Request a demo|outline 2px",
+   "a:Request a demo|outline 2px",
+   "input:nm|outline 2px",
+   "button:Sample colour 1|outline 2px",
+   "button:Sample colour 2|outline 2px",
+   "button:Sample colour 3|outline 2px",
+   "a:info@cyper.studio|outline 2px",
+   "input:f-name|outline 2px",
+   "input:f-mail|outline 2px"
+  ],
+  "form": {
+   "requiredFields": 4,
+   "optionalFields": 1,
+   "honeypot": true,
+   "successState": true,
+   "responseExpectationPlaceholder": true,
+   "invalidEmailBlocks": true,
+   "successShown": true
+  }
+ }
+}

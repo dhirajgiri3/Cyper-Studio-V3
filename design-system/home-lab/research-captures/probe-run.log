@@ -1,0 +1,15 @@
+[pexo] ok  load=2950ms  first-load=17073KB  js=1029KB  req=152  libs=framerMotion,splitting,scrollTimelineJS,intersection,webgl,shader,wasm  notObserved=0
+[legora] ok  load=2260ms  first-load=3237KB  js=1234KB  req=130  libs=framerSite,webflowIx,scrollTimelineJS,intersection  notObserved=0
+[iru] ok  load=1070ms  first-load=3238KB  js=2220KB  req=213  libs=lottie,framerMotion,webflowIx,swiper,intersection,webgl,barba  notObserved=0
+[clay] ok  load=3296ms  first-load=19066KB  js=3151KB  req=184  libs=ScrollTrigger,gsap,lottie,webflowIx,swiper,splitting,intersection,webgl,barba  notObserved=0
+[adaline] ok  load=471ms  first-load=1742KB  js=690KB  req=56  libs=three,framerMotion,swiper,scrollTimelineJS,intersection,shader,barba  notObserved=0
+=== NEW SIX DONE ===
+[spacefs] ok  load=1599ms  first-load=1977KB  js=872KB  req=114  libs=gsap,lenis,three,ogl,framerMotion,swiper,scrollTimelineJS,intersection,webgl,shader,barba  notObserved=0
+[eden] ok  load=2051ms  first-load=2742KB  js=1128KB  req=67  libs=gsap,framerMotion,swiper,intersection,webgl,barba  notObserved=0
+[monday] ok  load=1254ms  first-load=12256KB  js=3838KB  req=343  libs=ScrollTrigger,gsap,lottie,framerMotion,webflowIx,swiper,splitting,intersection,barba  notObserved=0
+[getenergy] ok  load=675ms  first-load=362KB  js=113KB  req=38  libs=intersection,webgl  notObserved=0
+[workos-atlas] ok  load=1065ms  first-load=1942KB  js=1554KB  req=93  libs=framerMotion,scrollTimelineJS,intersection,webgl  notObserved=0
+[crealo] ok  load=3139ms  first-load=2698KB  js=1206KB  req=106  libs=gsap,lenis,lottie,webflowIx,intersection,webgl,barba  notObserved=0
+[wama] ok  load=1969ms  first-load=5555KB  js=391KB  req=149  libs=lenis,framerMotion,framerSite,swiper,scrollTimelineJS,intersection  notObserved=0
+[handhold] ok  load=2859ms  first-load=2582KB  js=1071KB  req=173  libs=gsap,three,framerMotion,scrollTimelineJS,intersection,webgl,shader  notObserved=0
+=== ALL DONE ===

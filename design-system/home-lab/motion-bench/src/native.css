@@ -1,0 +1,35 @@
+/* Native motion (S0, S1): CSS animations; scroll-driven where supported, variable-driven fallback elsewhere.
+   Transform and opacity only. Default layout is static; the pinned layout is enabled only when motion is allowed. */
+@keyframes rise{from{transform:translateY(12px)}to{transform:none}}
+@keyframes frame-in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+@keyframes lit{from{opacity:.22}to{opacity:1}}
+@keyframes bar{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes step{0%{opacity:0;transform:translateY(16px)}10%,82%{opacity:1;transform:none}92%,100%{opacity:0;transform:translateY(-16px)}}
+@keyframes step-first{0%,82%{opacity:1;transform:none}92%,100%{opacity:0;transform:translateY(-16px)}}
+@keyframes step-last{0%{opacity:0;transform:translateY(16px)}12%,100%{opacity:1;transform:none}}
+@keyframes slide{to{transform:translateX(calc(-100% + 100vw - 40px))}}
+@media (prefers-reduced-motion:no-preference){
+ h1 .line{animation:rise .7s var(--ease) both;animation-delay:calc(var(--i)*70ms)}
+ .frame{animation:frame-in .9s var(--ease) .2s both}
+ /* ---- supported: pure CSS scroll-driven animations, no JS ---- */
+ @supports (animation-timeline:view()){
+  .steps{height:300vh;position:relative;view-timeline:--steps block}
+  .steps__stick{position:sticky;top:var(--hdr);height:calc(100svh - var(--hdr))}
+  .steps__grid{padding-block:0}.steps__list{min-height:220px}
+  .step{position:absolute;inset:0 0 auto 0;margin:0;animation:step linear both;animation-timeline:--steps;animation-range:contain calc(var(--k)*33.3%) contain calc(var(--k)*33.3% + 33.4%)}
+  .step:first-child{animation-name:step-first;animation-range:contain 0% contain 33.4%}
+  .step:last-child{animation-name:step-last}
+  .bar i{animation:bar linear both;animation-timeline:--steps;animation-range:contain 0% contain 100%}
+  .h{height:400vh;position:relative;view-timeline:--panels block}
+  .h__stick{position:sticky;top:var(--hdr);height:calc(100svh - var(--hdr));overflow:hidden}
+  .track{flex-wrap:nowrap;width:max-content;padding-bottom:0;animation:slide linear both;animation-timeline:--panels;animation-range:contain 0% contain 100%;will-change:transform}
+  .w{animation:lit linear both;animation-timeline:view();animation-range:entry 10% cover 30%}
+ }
+ /* ---- unsupported: s0.js adds html.pin.fallback and writes --p/--ps/--pp; animations are paused and seeked ---- */
+ html.fallback .w{animation:lit 1s linear both paused;animation-delay:calc(-1s*clamp(0,(var(--p,0)*(var(--n,70) + 8) - var(--i))/8,1))}
+ html.fallback .bar i{animation:bar 1s linear both paused;animation-delay:calc(-1s*var(--ps,0))}
+ html.fallback .step{animation:step 1s linear both paused;animation-delay:calc(-1s*clamp(0,(var(--ps,0) - var(--k)*.333)/.334,1))}
+ html.fallback .step:first-child{animation-name:step-first;animation-delay:calc(-1s*clamp(0,var(--ps,0)/.334,1))}
+ html.fallback .step:last-child{animation-name:step-last}
+ html.fallback .track{animation:slide 1s linear both paused;animation-delay:calc(-1s*var(--pp,0));will-change:transform}
+}

@@ -1,0 +1,338 @@
+{
+ "focusOrder": [
+  {
+   "txt": "Introducing SkillsLearn ",
+   "href": "./product/skills",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 0,
+   "x": 0
+  },
+  {
+   "txt": "Security",
+   "href": "./security",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 64,
+   "x": 169
+  },
+  {
+   "txt": "Customers",
+   "href": "./customers",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 64,
+   "x": 246
+  },
+  {
+   "txt": "",
+   "href": "./",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 70,
+   "x": 676
+  },
+  {
+   "txt": "Book a demo",
+   "href": "./book-a-demo",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 64,
+   "x": 1288
+  },
+  {
+   "txt": "Book a demo",
+   "href": "./book-a-demo",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 810,
+   "x": 794
+  },
+  {
+   "txt": "Large Language Models",
+   "href": "./#aos1",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 425,
+   "x": 24
+  },
+  {
+   "txt": "Agentic Harness",
+   "href": "./#aos2",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 470,
+   "x": 24
+  },
+  {
+   "txt": "Data & Integrations",
+   "href": "./#aos3",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 515,
+   "x": 24
+  },
+  {
+   "txt": "Context & Knowledge",
+   "href": "./#aos4",
+   "outline": "auto 1px rgb(0, 95, 204)",
+   "shadow": "none",
+   "y": 560,
+   "x": 24
+  }
+ ],
+ "videoBuffer": {
+  "ranges": [
+   [
+    0,
+    16.7
+   ]
+  ],
+  "ct": 4.2,
+  "dur": 29.52
+ },
+ "statType": {
+  "txt": "97%",
+  "fs": "89.9964px",
+  "fw": "300",
+  "lh": "89.9964px",
+  "ls": "-2.69989px",
+  "fvs": "\"wght\" 300",
+  "fvn": "normal",
+  "color": "rgb(13, 16, 22)",
+  "w": 179,
+  "h": 90,
+  "all": [
+   "97%",
+   "71%",
+   "80%"
+  ]
+ },
+ "hoverNavShot": [
+  {
+   "tag": "a",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "br": "16px 16px 0px 0px"
+  },
+  {
+   "tag": "div",
+   "bg": "rgba(0, 0, 0, 0.4)",
+   "color": "rgb(0, 0, 0)",
+   "br": "32px"
+  },
+  {
+   "tag": "div",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(0, 0, 0)",
+   "br": "0px"
+  },
+  {
+   "tag": "p",
+   "bg": "rgba(0, 0, 0, 0)",
+   "color": "rgb(255, 255, 255)",
+   "br": "0px"
+  }
+ ],
+ "reducedMotion": {
+  "mq": true,
+  "waapi": [
+   "div.framer-695pid \"Collaborative AI f\" {\"opacity\":[0.001,0.001]} {\"delay\":0,\"duration\":10000,\"easing\":\"linear\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "div.framer-695pid \"Collaborative AI f\" {\"opacity\":[0.001,1]} {\"delay\":200,\"duration\":600,\"easing\":\"cubic-bezier(0, 0, 1, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "div.framer-1wkaquj-container \"Book a demo\" {\"opacity\":[0.001,1]} {\"delay\":200,\"duration\":600,\"easing\":\"cubic-bezier(0, 0, 1, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "div.framer-1v37yb3 \"Legora aOS™The Leg\" {\"opacity\":[0.001,1]} {\"delay\":250,\"duration\":500,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-1gjassv \"Legora aOS™\" {\"opacity\":[0.001,1]} {\"delay\":300,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-1q8s5pe \"The Legora aOS fac\" {\"opacity\":[0.001,1]} {\"delay\":400,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-27lupy \"M&A\" {\"opacity\":[0.001,1]} {\"delay\":300,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-1ek2z36 \"\" {\"opacity\":[0.001,1]} {\"delay\":300,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-liny7t \"Take tax law to ta\" {\"opacity\":[0.001,1]} {\"delay\":250,\"duration\":500,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-1b6bbnk \"Take tax law to ta\" {\"opacity\":[0.001,1]} {\"delay\":300,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-12iwyw7 \"Analyze complex ta\" {\"opacity\":[0.001,1]} {\"delay\":400,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "div.framer-1e4obn0-container \"↳ Read more\" {\"opacity\":[0.001,1]} {\"delay\":500,\"duration\":400,\"easing\":\"cubic-bezier(0.12, 0.23, 0.5, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal",
+   "span \"Legal\" {\"opacity\":[0.001,1]} {\"delay\":0,\"duration\":1000,\"easing\":\"cubic-bezier(0, 0.7, 0.56, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "span \"work,\" {\"opacity\":[0.001,1]} {\"delay\":50,\"duration\":1000,\"easing\":\"cubic-bezier(0, 0.7, 0.56, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "span \"without\" {\"opacity\":[0.001,1]} {\"delay\":100,\"duration\":1000,\"easing\":\"cubic-bezier(0, 0.7, 0.56, 1)\",\"fill\":\"both\",\"iterations\":1,\"direction\":\"normal\"}",
+   "span \"limits.\" {\"opacity\":[0.001,1]} {\"delay\":150.00000000000003,\"duration\":1000,\"easing\":\"cubic-bezier(0, 0.7, 0.56, 1)\",\"fill\":\"both\",\"iterations\":1,\"direc"
+  ],
+  "waapiCount": 16,
+  "hero": {
+   "ct0": 5.32,
+   "ct1": 6.83,
+   "paused": false,
+   "h1spanOpacity": [
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "subOpacity": "1"
+  },
+  "ticker": {
+   "a": "matrix(1, 0, 0, 1, -1340, 0)",
+   "b": "matrix(1, 0, 0, 1, -1340, 0)"
+  },
+  "scrub": {
+   "at2400": 2.78,
+   "at3400": 5.48
+  },
+  "headerFlip": [
+   "rgb(255, 255, 255)",
+   "rgb(237, 237, 237)",
+   "rgb(217, 217, 217)",
+   "rgb(195, 196, 196)",
+   "rgb(175, 175, 176)",
+   "rgb(154, 154, 154)",
+   "rgb(133, 134, 134)",
+   "rgb(111, 111, 112)",
+   "rgb(91, 91, 92)",
+   "rgb(69, 70, 71)",
+   "rgb(48, 49, 51)",
+   "rgb(29, 30, 34)",
+   "rgb(14, 17, 23)",
+   "rgb(13, 16, 22)"
+  ],
+  "counters": [
+   [
+    2,
+    "70%,50%,60%"
+   ],
+   [
+    384,
+    "72%,51%,61%"
+   ],
+   [
+    388,
+    "72%,52%,61%"
+   ],
+   [
+    395,
+    "72%,52%,62%"
+   ],
+   [
+    428,
+    "73%,52%,62%"
+   ],
+   [
+    479,
+    "73%,53%,62%"
+   ],
+   [
+    1861,
+    "96%,71%,80%"
+   ],
+   [
+    1895,
+    "97%,71%,80%"
+   ]
+  ],
+  "carousel": {
+   "a": [
+    {
+     "n": "center-carousel-r1b-progress",
+     "st": "running",
+     "ct": 950
+    }
+   ],
+   "b": [
+    {
+     "n": "center-carousel-r1b-progress",
+     "st": "running",
+     "ct": 3950
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "probe": {
+   "h1spanOpacity": [
+    "0.001",
+    "0.001",
+    "0.001",
+    "0.001"
+   ],
+   "subEffectiveOpacity": 0.001,
+   "ctaEffective": [
+    "1@y64",
+    "0.001@y810",
+    "0.001@y0",
+    "1@y13120",
+    "1@y0"
+   ],
+   "videoControls": false,
+   "videoPaused": true,
+   "videoRS": 0,
+   "poster": true,
+   "height": 14280,
+   "textLen": 4932,
+   "zeroOpacityEls": 78
+  }
+ },
+ "mobileMenu": {
+  "before": {
+   "href": null,
+   "rect": [
+    0,
+    59,
+    66,
+    40
+   ],
+   "docW": 390
+  },
+  "menuText": [
+   "Introducing Skills",
+   "Learn more",
+   "→",
+   "→",
+   "Menu",
+   "Log in",
+   "Legal work, without limits.",
+   "Collaborative AI for exceptional lawyers",
+   "Book a demo",
+   "Trusted by",
+   "Introducing the Legora aOS™",
+   "The agentic operating system for legal work",
+   "Large Language Models",
+   "A single system that connects information, communication, and the execution of legal work.",
+   "Explore the Legora aOS™",
+   "Our latest innovations",
+   "Earlier this spring we hosted Precedent in London, our annual summit on the future of law and AI. We gathered some of the most influential voices in the industry, and unveiled our latest product innovations.",
+   "Legora aOS™",
+   "The Legora aOS facilitates the flow of information, communication, and execution of legal work, helping lawyers deliver higher quality work at unprecedented speed and scale.",
+   "↳",
+   "Read more",
+   "Agent",
+   "End-to-end execution of complex legal work. The Agent plans, executes, reviews and delivers, so you can focus on the decisions that require your judgment.",
+   "↳",
+   "Read more",
+   "Monitors",
+   "Stay ahead of regulatory change. Monitors cuts through the noise by continuously scanning global regulation and surfacing what matters before it impacts your business.",
+   "↳",
+   "Read more",
+   "Lists",
+   "Keep legal work organised, owned, and connected. Lists can be generated by the Agent directly from your documents, connecting AI outputs to the workflows that drive legal work forward.",
+   "↳",
+   "Read more",
+   "Every team.",
+   "Every practice.",
+   "Legora handles complex workflows end-to-end across firms and in-house teams, from intake to last-mile delivery.",
+   "M&A",
+   "Litigation",
+   "Banking",
+   "Tax"
+  ],
+  "bodyOverflow": "visible / visible"
+ },
+ "wide1920": {
+  "navX": 105,
+  "loginRight": 1652,
+  "h1fs": "60px",
+  "h1ls": "-2.4px",
+  "cards": [
+   [
+    725,
+    470,
+    588
+   ]
+  ]
+ }
+}

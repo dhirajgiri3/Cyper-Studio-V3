@@ -1,0 +1,1590 @@
+{
+ "slug": "getenergy",
+ "url": "https://getenergy.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 675,
+  "consent": [
+   "clicked:?"
+  ],
+  "finalUrl": "https://getenergy.com/",
+  "transferFirstLoad": {
+   "requests": 38,
+   "totalBytes": 370366,
+   "byType": {
+    "Document": 12355,
+    "Font": 83552,
+    "Script": 115758,
+    "Stylesheet": 15281,
+    "Image": 138001,
+    "Preflight": 0,
+    "Fetch": 1190,
+    "Other": 4229,
+    "Media": 0
+   },
+   "hosts": {
+    "getenergy.com": 343396,
+    "cdn.snitcher.com": 25780,
+    "radar.snitcher.com": 1190,
+    "api.getenergy.com": 0
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://getenergy.com/assets/index-BJ3iFrmj.js",
+     "bytes": 88760
+    },
+    {
+     "url": "https://cdn.snitcher.com/releases/latest/radar.min.js",
+     "bytes": 25780
+    },
+    {
+     "url": "https://getenergy.com/snitcher.js",
+     "bytes": 869
+    },
+    {
+     "url": "https://getenergy.com/reb2b.js",
+     "bytes": 349
+    }
+   ]
+  },
+  "dom": {
+   "title": "Energy — Work at the Speed of Thought",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Energy is an AI workspace where specialized assistants complete work across your browser, inbox, files, and connected tools.",
+   "ogImage": "https://getenergy.com/og-image.png",
+   "canonical": "https://getenergy.com/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "WebPage"
+    ]
+   ],
+   "generator": null,
+   "themeColor": "#ffffff",
+   "h1": {
+    "text": "Work at the speed\nof thought.",
+    "font-family": "\"Quadrant Text\", Georgia, serif",
+    "font-size": "80px",
+    "font-weight": "400",
+    "line-height": "81.6px",
+    "letter-spacing": "-2.4px",
+    "color": "rgb(29, 37, 33)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "See Energy run your workflow.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "38px",
+     "font-weight": "400",
+     "line-height": "41.8px",
+     "letter-spacing": "-1.14px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Most AI stops halfway.\nEnergy manages the workflow.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "46px",
+     "font-weight": "400",
+     "line-height": "49.68px",
+     "letter-spacing": "-1.38px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Chatbots answer.\nEnergy has a computer.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "46px",
+     "font-weight": "400",
+     "line-height": "49.68px",
+     "letter-spacing": "-1.38px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "\"DM Sans\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "normal",
+    "letter-spacing": "normal",
+    "color": "rgb(29, 37, 33)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgba(0, 0, 0, 0)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "energy",
+     "x": 297,
+     "y": 24,
+     "w": 95,
+     "h": 36,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Download for macOS",
+     "x": 989,
+     "y": 25,
+     "w": 164,
+     "h": 34,
+     "bg": "rgb(17, 17, 17)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "999px",
+     "font": "12px/500",
+     "border": "0px none rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Energy for teams",
+     "x": 644,
+     "y": 156,
+     "w": 152,
+     "h": 31,
+     "bg": "rgba(255, 255, 255, 0.8)",
+     "color": "rgb(61, 69, 64)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "1px solid rgba(29, 37, 33, 0.1)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Download for macOS",
+     "x": 545,
+     "y": 496,
+     "w": 207,
+     "h": 56,
+     "bg": "rgb(17, 17, 17)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Book a demo",
+     "x": 765,
+     "y": 496,
+     "w": 130,
+     "h": 56,
+     "bg": "rgb(236, 236, 236)",
+     "color": "rgb(17, 17, 17)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(17, 17, 17)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Finance and Operations",
+     "x": 272,
+     "y": 665,
+     "w": 214,
+     "h": 34,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": "rgba(29, 37, 33, 0.08) 0px 1px 2px 0px, rgba(29, 37, 33, 0.06) 0px 2px 8px 0px"
+    },
+    {
+     "tag": "button",
+     "text": "E-commerce",
+     "x": 488,
+     "y": 665,
+     "w": 143,
+     "h": 34,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Growth and Marketing",
+     "x": 633,
+     "y": 665,
+     "w": 202,
+     "h": 34,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "People and HR",
+     "x": 837,
+     "y": 665,
+     "w": 151,
+     "h": 34,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "IT and Onboarding",
+     "x": 990,
+     "y": 665,
+     "w": 177,
+     "h": 34,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Watch the Finance and Operations demo",
+     "x": 160,
+     "y": 724,
+     "w": 1120,
+     "h": 630,
+     "bg": "rgb(14, 21, 18)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "16px",
+     "font": "16px/400",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": "rgba(29, 37, 33, 0.08) 0px 0px 0px 1px, rgba(48, 76, 115, 0.2) 0px 40px 100px 0p"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "sticky",
+    "h": 52,
+    "top": 16,
+    "bg": "rgba(255, 255, 255, 0.88)",
+    "backdrop": "blur(18px)",
+    "border": "1px solid rgba(255, 255, 255, 0.76)",
+    "links": [
+     "energy",
+     "Product",
+     "Workflows",
+     "Enterprise",
+     "Pricing",
+     "Blog",
+     "Download for macOS"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 297,
+     "y": 24,
+     "w": 36,
+     "h": 36,
+     "src": "https://getenergy.com/assets/spiky-blink-BaSUUdt7.svg",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 160,
+     "y": 724,
+     "w": 1120,
+     "h": 630,
+     "src": "https://getenergy.com/assets/video/demos/financial-operations-poster.jpg",
+     "natural": [
+      1100,
+      618
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 160,
+     "y": 724,
+     "w": 1120,
+     "h": 630,
+     "src": "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4",
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": null,
+     "playsinline": true,
+     "sources": [
+      "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4 video/mp4"
+     ]
+    }
+   ],
+   "bgImgs": [],
+   "fontShare": {
+    "DM Sans": 8417,
+    "Quadrant Text": 448,
+    "ui-monospace": 356
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 15545835,
+    "rgb(246, 248, 252)": 342020,
+    "rgb(252, 252, 252)": 2082884,
+    "rgb(251, 252, 254)": 377440,
+    "rgba(29, 37, 33, 0.08)": 1411830,
+    "rgb(237, 242, 251)": 612903
+   },
+   "counts": {
+    "gradients": 22,
+    "backdrop": 4,
+    "filters": 0,
+    "video": 1,
+    "canvas": 0,
+    "svg": 73,
+    "img": 35,
+    "buttons": 28,
+    "forms": 2,
+    "tables": 0,
+    "details": 8,
+    "links": 30,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Work at the speed of thought.",
+    "H2 See Energy run your workflow.",
+    "H2 Most AI stops halfway. Energy manages the workflow.",
+    "H3 AI does the whole task",
+    "H2 Chatbots answer. Energy has a computer.",
+    "H3 Every tool you use",
+    "H3 Your permissions",
+    "H3 Nothing to integrate",
+    "H2 Runs before you ask. Tells you what changed.",
+    "H3 3 invoices at risk since yesterday",
+    "H2 Workflows for every team. Start with what repeats.",
+    "H3 Finance and Operations",
+    "H3 E-commerce",
+    "H3 Growth and Marketing",
+    "H3 People and HR",
+    "H3 IT and Onboarding"
+   ],
+   "fonts": [
+    "DM Sans 400 600 normal",
+    "Quadrant Text 400 normal"
+   ],
+   "firstViewTextSample": "energy\nProduct\nWorkflows\nEnterprise\nPricing\nBlog\nDownload for macOS\nEnergy for teams\nWork at the speed\nof thought.\n\nAn AI assistant for every employee. It works in the tools your team already uses, and IT stays in control.\n\nDownload for macOS\n\nAvailable for Windows\n\nBook a demo\nFinance and Operations\nE-commerce\nGrowth and Marketing\nPeople and HR\nIT and Onboarding\nWatch the Finance and Operations demo\n\nFinance and Operations\nMatches a payment to the invoice still marked overdue\n1:18\n\nTailored demo\n\nSee Energy run your workflow.\n\nTell us who you are and where you work. We’ll send you a short video of Energy doing a real task in the tools your company already uses.\n\nWork email\nLinkedIn profile\nCompany website\nSend me a demo\n\nThe five levels of AI\n\nMost AI stops halfway.\nEnergy manages the workflow.\n\nEngineers barely write code by hand anymore, because AI can reach the whole codebase. Everyone else works across tools like Outlook, Salesforce, NetSuite, and Excel. Follow one real task through each level.\n\nLevel 1\nAsk questions\nLevel 2\nBring your data\nLevel 3\nAI in one app\nLevel 4\nThe whole task\nEnergy\nLevel 5\nRuns on its own\nEnergy\n\n300 invoices are due by the 30th. Which will be paid late?\n\nAI does the whole task\n\nYou ask once. Energy works across every tool in a browser signed in as you, then brings the result back for your review.\n\n95% of the task done by AI\n\nYou ask, then review the result\n\nSalesforce\nOpen the account\nEnergy\nNetSuite\nHas the invoice been paid?\nEnergy\nOutlook\nW",
+   "pageHeight": 10489,
+   "hasHScroll": false,
+   "visibleChars": 9755,
+   "landmarks": {
+    "header": 9,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 1,
+   "ro": 0,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 692,
+    "tag": "IMG",
+    "id": null,
+    "size": 189912,
+    "url": "https://getenergy.com/assets/video/demos/financial-operations-poster.jpg"
+   },
+   "cls": 0.0063,
+   "longTasks": 2,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    }
+   ]
+  },
+  "idleRafPerSecond": 0,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 33,
+   "settle98Ms": 33,
+   "distinctPositions": 2,
+   "samples": 108,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 5245,
+    "count": 4,
+    "infinite": 3,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "agent-tab-glow",
+      "target": "span.agent-tab-glow.pointer-events-none",
+      "props": [
+       "boxShadow"
+      ],
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "spin",
+      "target": "svg",
+      "props": [
+       "transform"
+      ],
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "shimmer",
+      "target": "span.block.min-w-0",
+      "props": [
+       "webkitMaskPositionX",
+       "webkitMaskPositionY"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "browser-overlay-click-pulse",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 9589,
+    "count": 3,
+    "infinite": 2,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "transform"
+      ],
+      "duration": 1500,
+      "delay": 200,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "agent-tab-glow",
+      "target": "span.agent-tab-glow.pointer-events-none",
+      "props": [
+       "boxShadow"
+      ],
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "shimmer",
+      "target": "span.block.min-w-0",
+      "props": [
+       "webkitMaskPositionX",
+       "webkitMaskPositionY"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 41,
+   "totalBytes": 395084,
+   "byType": {
+    "Document": 12355,
+    "Font": 83552,
+    "Script": 138499,
+    "Stylesheet": 15281,
+    "Image": 139978,
+    "Preflight": 0,
+    "Fetch": 1190,
+    "Other": 4229,
+    "Media": 0
+   },
+   "hosts": {
+    "getenergy.com": 368114,
+    "cdn.snitcher.com": 25780,
+    "radar.snitcher.com": 1190,
+    "api.getenergy.com": 0
+   }
+  },
+  "fp": {
+   "present": [],
+   "htmlCls": "",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4",
+      "w": 1120,
+      "h": 630,
+      "inHero": true
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": true
+   },
+   "scriptCount": 4,
+   "scripts": [
+    "https://cdn.snitcher.com/releases/latest/radar.min.js",
+    "https://getenergy.com/snitcher.js",
+    "https://getenergy.com/reb2b.js",
+    "https://getenergy.com/assets/index-BJ3iFrmj.js"
+   ],
+   "inlineScripts": 1,
+   "generator": null,
+   "scrollBehavior": "smooth",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "intersection": [
+    "getenergy.com/assets/index-BJ3iFrmj.js"
+   ],
+   "webgl": [
+    "cdn.snitcher.com/releases/latest/radar.min.js"
+   ]
+  },
+  "scriptsScanned": 5,
+  "cssFeatures": {
+   "@property": 59,
+   "backdrop-filter": 16,
+   "content-visibility": 1,
+   "will-change": 2,
+   "sticky": 5,
+   "text-wrap": 4,
+   "color-mix(": 14,
+   "oklch(": 7,
+   "mask-image": 6,
+   "prefers-reduced-motion": 1
+  },
+  "cssBytes": {
+   "linked": 88127,
+   "inline": 266,
+   "files": 1
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "mobile": {
+  "viewport": {
+   "width": 390,
+   "height": 844
+  },
+  "mobile": true,
+  "loadMs": 221,
+  "consent": [
+   "clicked:?"
+  ],
+  "finalUrl": "https://getenergy.com/",
+  "transferFirstLoad": {
+   "requests": 38,
+   "totalBytes": 370334,
+   "byType": {
+    "Document": 12354,
+    "Font": 83477,
+    "Script": 115734,
+    "Stylesheet": 16130,
+    "Image": 137220,
+    "Preflight": 0,
+    "Fetch": 1193,
+    "Other": 4226,
+    "Media": 0
+   },
+   "hosts": {
+    "getenergy.com": 343360,
+    "cdn.snitcher.com": 25781,
+    "radar.snitcher.com": 1193,
+    "api.getenergy.com": 0
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://getenergy.com/assets/index-BJ3iFrmj.js",
+     "bytes": 88735
+    },
+    {
+     "url": "https://cdn.snitcher.com/releases/latest/radar.min.js",
+     "bytes": 25781
+    },
+    {
+     "url": "https://getenergy.com/snitcher.js",
+     "bytes": 869
+    },
+    {
+     "url": "https://getenergy.com/reb2b.js",
+     "bytes": 349
+    }
+   ]
+  },
+  "dom": {
+   "title": "Energy — Work at the Speed of Thought",
+   "lang": "en",
+   "colorScheme": "normal",
+   "description": "Energy is an AI workspace where specialized assistants complete work across your browser, inbox, files, and connected tools.",
+   "ogImage": "https://getenergy.com/og-image.png",
+   "canonical": "https://getenergy.com/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "WebPage"
+    ]
+   ],
+   "generator": null,
+   "themeColor": "#ffffff",
+   "h1": {
+    "text": "Work at the speed\nof thought.",
+    "font-family": "\"Quadrant Text\", Georgia, serif",
+    "font-size": "44px",
+    "font-weight": "400",
+    "line-height": "44.88px",
+    "letter-spacing": "-1.32px",
+    "color": "rgb(29, 37, 33)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "See Energy run your workflow.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "28px",
+     "font-weight": "400",
+     "line-height": "30.8px",
+     "letter-spacing": "-0.84px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Most AI stops halfway.\nEnergy manages the workflow.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "32px",
+     "font-weight": "400",
+     "line-height": "34.56px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Chatbots answer.\nEnergy has a computer.",
+     "font-family": "\"Quadrant Text\", Georgia, serif",
+     "font-size": "32px",
+     "font-weight": "400",
+     "line-height": "34.56px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(29, 37, 33)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "\"DM Sans\", sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "normal",
+    "letter-spacing": "normal",
+    "color": "rgb(29, 37, 33)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgba(0, 0, 0, 0)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "energy",
+     "x": 37,
+     "y": 17,
+     "w": 95,
+     "h": 36,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Download for macOS",
+     "x": 199,
+     "y": 19,
+     "w": 160,
+     "h": 32,
+     "bg": "rgb(17, 17, 17)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "999px",
+     "font": "12px/500",
+     "border": "0px none rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Energy for teams",
+     "x": 119,
+     "y": 126,
+     "w": 152,
+     "h": 31,
+     "bg": "rgba(255, 255, 255, 0.8)",
+     "color": "rgb(61, 69, 64)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "1px solid rgba(29, 37, 33, 0.1)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Download for macOS",
+     "x": 92,
+     "y": 456,
+     "w": 207,
+     "h": 56,
+     "bg": "rgb(17, 17, 17)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(255, 255, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Book a demo",
+     "x": 130,
+     "y": 554,
+     "w": 130,
+     "h": 56,
+     "bg": "rgb(236, 236, 236)",
+     "color": "rgb(17, 17, 17)",
+     "radius": "999px",
+     "font": "14px/500",
+     "border": "0px none rgb(17, 17, 17)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Finance and Operations",
+     "x": 25,
+     "y": 671,
+     "w": 194,
+     "h": 31,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": "rgba(29, 37, 33, 0.08) 0px 1px 2px 0px, rgba(29, 37, 33, 0.06) 0px 2px 8px 0px"
+    },
+    {
+     "tag": "button",
+     "text": "E-commerce",
+     "x": 221,
+     "y": 671,
+     "w": 129,
+     "h": 31,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Growth and Marketing",
+     "x": 352,
+     "y": 671,
+     "w": 184,
+     "h": 31,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "People and HR",
+     "x": 538,
+     "y": 671,
+     "w": 136,
+     "h": 31,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "IT and Onboarding",
+     "x": 676,
+     "y": 671,
+     "w": 161,
+     "h": 31,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(107, 113, 109)",
+     "radius": "999px",
+     "font": "13px/500",
+     "border": "0px none rgb(107, 113, 109)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "Watch the Finance and Operations demo fi",
+     "x": 20,
+     "y": 727,
+     "w": 350,
+     "h": 197,
+     "bg": "rgb(14, 21, 18)",
+     "color": "rgb(29, 37, 33)",
+     "radius": "10px",
+     "font": "16px/400",
+     "border": "0px none rgb(29, 37, 33)",
+     "shadow": "rgba(29, 37, 33, 0.08) 0px 0px 0px 1px, rgba(48, 76, 115, 0.18) 0px 24px 55px 0p"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "sticky",
+    "h": 46,
+    "top": 12,
+    "bg": "rgba(255, 255, 255, 0.88)",
+    "backdrop": "blur(18px)",
+    "border": "1px solid rgba(255, 255, 255, 0.76)",
+    "links": [
+     "energy",
+     "Product",
+     "Workflows",
+     "Enterprise",
+     "Pricing",
+     "Blog",
+     "Download for macOS"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 37,
+     "y": 17,
+     "w": 36,
+     "h": 36,
+     "src": "https://getenergy.com/assets/spiky-blink-BaSUUdt7.svg",
+     "natural": [
+      150,
+      150
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 20,
+     "y": 727,
+     "w": 350,
+     "h": 197,
+     "src": "https://getenergy.com/assets/video/demos/financial-operations-poster.jpg",
+     "natural": [
+      1100,
+      618
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "video",
+     "x": 20,
+     "y": 727,
+     "w": 350,
+     "h": 197,
+     "src": "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4",
+     "autoplay": false,
+     "loop": true,
+     "muted": true,
+     "poster": null,
+     "playsinline": true,
+     "sources": [
+      "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4 video/mp4"
+     ]
+    }
+   ],
+   "bgImgs": [],
+   "fontShare": {
+    "DM Sans": 8101,
+    "Quadrant Text": 448,
+    "ui-monospace": 356
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 6586081,
+    "rgb(246, 248, 252)": 211389,
+    "rgb(252, 252, 252)": 544344,
+    "rgb(251, 252, 254)": 244300,
+    "rgba(29, 37, 33, 0.08)": 1274219,
+    "rgb(237, 242, 251)": 215545
+   },
+   "counts": {
+    "gradients": 22,
+    "backdrop": 4,
+    "filters": 0,
+    "video": 1,
+    "canvas": 0,
+    "svg": 73,
+    "img": 35,
+    "buttons": 28,
+    "forms": 2,
+    "tables": 0,
+    "details": 8,
+    "links": 30,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Work at the speed of thought.",
+    "H2 See Energy run your workflow.",
+    "H2 Most AI stops halfway. Energy manages the workflow.",
+    "H3 AI does the whole task",
+    "H2 Chatbots answer. Energy has a computer.",
+    "H3 Every tool you use",
+    "H3 Your permissions",
+    "H3 Nothing to integrate",
+    "H2 Runs before you ask. Tells you what changed.",
+    "H3 3 invoices at risk since yesterday",
+    "H2 Workflows for every team. Start with what repeats.",
+    "H3 Finance and Operations",
+    "H3 E-commerce",
+    "H3 Growth and Marketing",
+    "H3 People and HR",
+    "H3 IT and Onboarding"
+   ],
+   "fonts": [
+    "DM Sans 400 600 normal",
+    "Quadrant Text 400 normal"
+   ],
+   "firstViewTextSample": "energy\nDownload for macOS\nEnergy for teams\nWork at the speed\nof thought.\n\nAn AI assistant for every employee. It works in the tools your team already uses, and IT stays in control.\n\nDownload for macOS\n\nAvailable for Windows\n\nBook a demo\nFinance and Operations\nE-commerce\nGrowth and Marketing\nPeople and HR\nIT and Onboarding\n\nFinance and Operations\nMatches a payment to the invoice still marked overdue\n1:18\n\nTailored demo\n\nSee Energy run your workflow.\n\nTell us who you are and where you work. We’ll send you a short video of Energy doing a real task in the tools your company already uses.\n\nWork email\nLinkedIn profile\nCompany website\nSend me a demo\n\nThe five levels of AI\n\nMost AI stops halfway.\nEnergy manages the workflow.\n\nEngineers barely write code by hand anymore, because AI can reach the whole codebase. Everyone else works across tools like Outlook, Salesforce, NetSuite, and Excel. Follow one real task through each level.\n\nLevel 1\nAsk questions\nLevel 2\nBring your data\nLevel 3\nAI in one app\nLevel 4\nThe whole task\nLevel 5\nRuns on its own\n\n300 invoices are due by the 30th. Which will be paid late?\n\nAI does the whole task\n\nYou ask once. Energy works across every tool in a browser signed in as you, then brings the result back for your review.\n\n95% of the task done by AI\n\nYou ask, then review the result\n\nSalesforce\nOpen the account\nEnergy\nNetSuite\nHas the invoice been paid?\nEnergy\nOutlook\nWhat did the customer say?\nEnergy\nDecide\nOn track, or at risk?\nEnergy\nExcel\nUpdate the tracker\n",
+   "pageHeight": 15795,
+   "hasHScroll": false,
+   "visibleChars": 9397,
+   "landmarks": {
+    "header": 9,
+    "nav": 2,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 1,
+   "ro": 0,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 212,
+    "tag": "IMG",
+    "id": null,
+    "size": 40807,
+    "url": "https://getenergy.com/assets/video/demos/financial-operations-poster.jpg"
+   },
+   "cls": 0,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "window"
+    }
+   ]
+  },
+  "idleRafPerSecond": 0,
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 844,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 7968,
+    "count": 4,
+    "infinite": 2,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "transform"
+      ],
+      "duration": 1500,
+      "delay": 200,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "agent-tab-glow",
+      "target": "span.agent-tab-glow.pointer-events-none",
+      "props": [
+       "boxShadow"
+      ],
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "shimmer",
+      "target": "span.block.min-w-0",
+      "props": [
+       "webkitMaskPositionX",
+       "webkitMaskPositionY"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "browser-overlay-click-pulse",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 15035,
+    "count": 4,
+    "infinite": 2,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "transform",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "transform"
+      ],
+      "duration": 1500,
+      "delay": 200,
+      "easing": "cubic-bezier(0.22, 1, 0.36, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "agent-tab-glow",
+      "target": "span.agent-tab-glow.pointer-events-none",
+      "props": [
+       "boxShadow"
+      ],
+      "duration": 1000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "shimmer",
+      "target": "span.block.min-w-0",
+      "props": [
+       "webkitMaskPositionX",
+       "webkitMaskPositionY"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "browser-overlay-click-pulse",
+      "target": "div.pointer-events-none.absolute",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 520,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 42,
+   "totalBytes": 423331,
+   "byType": {
+    "Document": 12354,
+    "Font": 83477,
+    "Script": 166755,
+    "Stylesheet": 16130,
+    "Image": 139196,
+    "Preflight": 0,
+    "Fetch": 1193,
+    "Other": 4226,
+    "Media": 0
+   },
+   "hosts": {
+    "getenergy.com": 368019,
+    "challenges.cloudflare.com": 28338,
+    "cdn.snitcher.com": 25781,
+    "radar.snitcher.com": 1193,
+    "api.getenergy.com": 0
+   }
+  },
+  "fp": {
+   "present": [],
+   "htmlCls": "",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://getenergy.com/assets/video/demos/financial-operations-preview.mp4",
+      "w": 350,
+      "h": 197,
+      "inHero": true
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": true
+   },
+   "scriptCount": 5,
+   "scripts": [
+    "https://cdn.snitcher.com/releases/latest/radar.min.js",
+    "https://getenergy.com/snitcher.js",
+    "https://getenergy.com/reb2b.js",
+    "https://getenergy.com/assets/index-BJ3iFrmj.js",
+    "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+   ],
+   "inlineScripts": 1,
+   "generator": null,
+   "scrollBehavior": "smooth",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "content-encoding": "br"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "intersection": [
+    "getenergy.com/assets/index-BJ3iFrmj.js"
+   ],
+   "webgl": [
+    "cdn.snitcher.com/releases/latest/radar.min.js"
+   ]
+  },
+  "scriptsScanned": 10,
+  "cssFeatures": {
+   "@property": 59,
+   "backdrop-filter": 16,
+   "content-visibility": 1,
+   "will-change": 2,
+   "sticky": 5,
+   "text-wrap": 4,
+   "color-mix(": 14,
+   "oklch(": 7,
+   "mask-image": 6,
+   "prefers-reduced-motion": 1
+  },
+  "cssBytes": {
+   "linked": 88127,
+   "inline": 0,
+   "files": 1
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 9754,
+  "h1": "Work at the speed\nof thought.",
+  "firstViewportText": "energy | Product | Workflows | Enterprise | Pricing | Blog | Download for macOS | Energy for teams | Work at the speed\nof thought. | An AI assistant for every employee. It works in the tools your team already uses, and IT stays in control. | Download for macOS | Available for Windows | Book a demo | Finance and Operations | E-commerce | Growth and Marketing | People and HR | IT and Onboarding | Watch the Finance and Operations demo"
+ }
+}

@@ -1,0 +1,49 @@
+[16:40:33] perf + a11y (bench)
+s0             desktop cpu x4 | TBT(load) 11 TBT(session) 11 maxLT 61 | INP 24 CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 1 | script ms 16
+s0             mobile cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP 16 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 2 | script ms 7
+s0       kbd {"maxScroll":6021,"endReachedMax":true,"homeReachedZero":true,"spaceMoved":true,"pageDownMoved":true} | anchors under header: none | find readable: Your name=false; Open for business=false; Set your brand=true; Panel 4 of 5=false | RM overlap false anim 0 | noJS litMinOp 1 | touch 603,605,603
+s1             desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP 16 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 0 | script ms 33
+s1             mobile cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP 16 CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 1 | script ms 17
+s1       kbd {"maxScroll":6021,"endReachedMax":true,"homeReachedZero":true,"spaceMoved":true,"pageDownMoved":true} | anchors under header: none | find readable: Your name=false; Open for business=false; Set your brand=true; Panel 4 of 5=false | RM overlap false anim 0 | noJS litMinOp 1 | touch 608,596,597
+s2             desktop cpu x4 | TBT(load) 23 TBT(session) 23 maxLT 73 | INP 16 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 1 | script ms 88
+s2             mobile cpu x4 | TBT(load) 34 TBT(session) 34 maxLT 84 | INP 32 CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 1 | script ms 113
+s2       kbd {"maxScroll":6549,"endReachedMax":true,"homeReachedZero":true,"spaceMoved":true,"pageDownMoved":true} | anchors under header: none | find readable: Your name=false; Open for business=undefined; Set your brand=true; Panel 4 of 5=false | RM overlap false anim 0 | noJS litMinOp n/a (paragraph is plain text) |
+s3             desktop cpu x4 | TBT(load) 27 TBT(session) 27 maxLT 77 | INP 16 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0.3 dropped 1 | script ms 128
+s3             mobile cpu x4 | TBT(load) 24 TBT(session) 24 maxLT 74 | INP 16 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 1 | script ms 104
+s3       kbd {"maxScroll":6549,"endReachedMax":true,"homeReachedZero":true,"spaceMoved":true,"pageDownMoved":true} | anchors under header: none | find readable: Your name=false; Open for business=undefined; Set your brand=true; Panel 4 of 5=false | RM overlap false anim 0 | noJS litMinOp n/a (paragraph is plain text) |
+s4             desktop cpu x4 | TBT(load) 43 TBT(session) 43 maxLT 92 | INP 16 CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 2 | script ms 226
+s4             mobile cpu x4 | TBT(load) 45 TBT(session) 45 maxLT 95 | INP 24 CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 1 | script ms 231
+s4       kbd {"maxScroll":6021,"endReachedMax":true,"homeReachedZero":true,"spaceMoved":true,"pageDownMoved":true} | anchors under header: none | find readable: Your name=false; Open for business=false; Set your brand=true; Panel 4 of 5=false | RM overlap false anim 3 | noJS litMinOp 0.22 | touch 608,596,607
+s0-fallback    desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP 16 CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0.4 dropped 2 | script ms 22
+Node.js v22.22.2
+Node.js v22.22.2
+Node.js v22.22.2
+Node.js v22.22.2
+Node.js v22.22.2
+[16:51:33] lighthouse (bench, 5 runs each)
+file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19
+        mainThreadMs: n('mainthread-work-breakdown'), bootupMs: n('bootup-time'), lcpEl: (a['largest-contentful-paint-element'].details?.items?.[0]?.items?.[0]?.node?.snippet || '').slice(0, 60) });
+                                                                                                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'details')
+    at file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19:129
+
+Node.js v22.22.2
+file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19
+        mainThreadMs: n('mainthread-work-breakdown'), bootupMs: n('bootup-time'), lcpEl: (a['largest-contentful-paint-element'].details?.items?.[0]?.items?.[0]?.node?.snippet || '').slice(0, 60) });
+                                                                                                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'details')
+    at file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19:129
+
+Node.js v22.22.2
+[16:51:48] lighthouse (heroes + baseline, 5 runs each)
+file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19
+        mainThreadMs: n('mainthread-work-breakdown'), bootupMs: n('bootup-time'), lcpEl: (a['largest-contentful-paint-element'].details?.items?.[0]?.items?.[0]?.node?.snippet || '').slice(0, 60) });
+                                                                                                                                ^
+
+TypeError: Cannot read properties of undefined (reading 'details')
+    at file:///Users/dhirajgiri/Documents/Projects/Cyper%20studio/design-system/home-lab/motion-bench/measure/lh.mjs:19:129
+
+Node.js v22.22.2
+[16:51:55] DONE

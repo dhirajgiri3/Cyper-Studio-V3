@@ -1,0 +1,2426 @@
+{
+ "slug": "handhold",
+ "url": "https://handhold.io/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 2859,
+  "consent": [
+   "clicked:Decline"
+  ],
+  "finalUrl": "https://handhold.io/",
+  "transferFirstLoad": {
+   "requests": 173,
+   "totalBytes": 2644313,
+   "byType": {
+    "Document": 161397,
+    "Font": 618525,
+    "Image": 654652,
+    "Stylesheet": 31246,
+    "Script": 1096372,
+    "Other": 45061,
+    "Fetch": 34730,
+    "XHR": 2330
+   },
+   "hosts": {
+    "handhold.io": 2644313
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://handhold.io/_next/static/chunks/3aza3yf562oh1.js",
+     "bytes": 144223
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+     "bytes": 134660
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+     "bytes": 74979
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+     "bytes": 62017
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+     "bytes": 48619
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+     "bytes": 47411
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+     "bytes": 46595
+    },
+    {
+     "url": "https://handhold.io/demo/embed.js",
+     "bytes": 35408
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+     "bytes": 33877
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+     "bytes": 30344
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+     "bytes": 28741
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+     "bytes": 27524
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+     "bytes": 25664
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+     "bytes": 22064
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+     "bytes": 16477
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+     "bytes": 16149
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2_tk2z60b5h8_.js",
+     "bytes": 15924
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+     "bytes": 15045
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+     "bytes": 14822
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22nygzt-x_wfz.js",
+     "bytes": 14515
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c74n3fcxnasu.js",
+     "bytes": 14239
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+     "bytes": 14013
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+     "bytes": 13909
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+     "bytes": 12888
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+     "bytes": 12582
+    }
+   ]
+  },
+  "dom": {
+   "title": "Handhold",
+   "lang": "en-GB",
+   "colorScheme": "light",
+   "description": "Capture quality leads 24/7 and free up sales team’s time with personalised, multilingual AI demos and 1-to-1 onboarding",
+   "ogImage": "https://handhold.io/preview-v5.png",
+   "canonical": "https://handhold.io/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "Person",
+     "Person"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "A dedicated guide for every buyer",
+    "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+    "font-size": "72px",
+    "font-weight": "200",
+    "line-height": "72px",
+    "letter-spacing": "-2.16px",
+    "color": "lab(0 0 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "See Handhold in action",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Deploy agents across your customer journey",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Help leads validate with AI chat",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "pretty"
+    }
+   ],
+   "body": {
+    "font-family": "Inter, \"Inter Fallback\"",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgba(0, 0, 0, 0)"
+   },
+   "ctas": [
+    {
+     "tag": "button",
+     "text": "Resources",
+     "x": 1085,
+     "y": 16,
+     "w": 124,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "0px solid lab(0 0 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Sign in",
+     "x": 1217,
+     "y": 16,
+     "w": 76,
+     "h": 40,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "0px solid lab(0 0 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Try for free",
+     "x": 1301,
+     "y": 16,
+     "w": 107,
+     "h": 40,
+     "bg": "lab(0 0 0)",
+     "color": "lab(100 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "button",
+     "text": "See AI demo",
+     "x": 588,
+     "y": 336,
+     "w": 145,
+     "h": 40,
+     "bg": "lab(0 0 0)",
+     "color": "lab(100 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Try for free",
+     "x": 745,
+     "y": 336,
+     "w": 107,
+     "h": 40,
+     "bg": "lab(95.139 -0.175655 2.06032)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "relative",
+    "h": 72,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(0, 0, 0)",
+    "links": [
+     "Handhold home",
+     "Resources",
+     "Sign in",
+     "Try for free",
+     "Open menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 32,
+     "y": 26,
+     "w": 144,
+     "h": 20,
+     "paths": 0,
+     "cls": "inline-block text-logo h-5 w-36"
+    },
+    {
+     "tag": "canvas",
+     "x": 0,
+     "y": 206,
+     "w": 1440,
+     "h": 758,
+     "canvasSize": [
+      1440,
+      759
+     ],
+     "id": null,
+     "cls": "absolute top-1/2 left-1/2 aspect-[3024/1592] w-ful"
+    },
+    {
+     "tag": "svg",
+     "x": 132,
+     "y": 813,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 298,
+     "y": 807,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 423,
+     "y": 808,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 591,
+     "y": 804,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 761,
+     "y": 806,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 933,
+     "y": 807,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1185,
+     "y": 810,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 1213,
+     "y": 1102,
+     "w": 38,
+     "h": 38,
+     "src": "https://handhold.io/_next/image?url=%2Fhomepage%2FAlasdair.png&w=48&q=75",
+     "natural": [
+      48,
+      48
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Alasdair Reynolds",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": 245,
+     "y": 1236,
+     "w": 951,
+     "h": 493,
+     "src": "https://handhold.io/homepage/demo-bot.webp",
+     "natural": [
+      1960,
+      1017
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -291,
+     "y": 520,
+     "w": 770,
+     "h": 1342,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -69,
+     "y": 1127,
+     "w": 1344,
+     "h": 708,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 325,
+     "y": 1106,
+     "w": 1278,
+     "h": 677,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -98,
+     "y": 1019,
+     "w": 747,
+     "h": 1456,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 425,
+     "y": 1092,
+     "w": 1250,
+     "h": 652,
+     "src": "https://handhold.io/homepage/demo-orb.webp",
+     "natural": [
+      3024,
+      1588
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "iframe",
+     "x": 428,
+     "y": 812,
+     "w": 584,
+     "h": 88
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "absolute right-0 bottom-0 left-0 z-2 h-6",
+     "w": 1335,
+     "h": 248,
+     "bg": "linear-gradient(rgba(242, 241, 237, 0) 0%, rgb(242, 241, 237) 70%)"
+    }
+   ],
+   "fontShare": {
+    "Inter": 4796,
+    "bureauSerif": 1364
+   },
+   "bgs": {
+    "rgb(242, 241, 237)": 779396,
+    "lab(95.139 -0.175655 2.06032)": 2174357
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 0,
+    "filters": 0,
+    "video": 0,
+    "canvas": 7,
+    "svg": 66,
+    "img": 16,
+    "buttons": 22,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 13,
+    "iframes": 2
+   },
+   "headings": [
+    "H1 A dedicated guide for every buyer",
+    "H2 See Handhold in action",
+    "H2 Deploy agents across your customer journey",
+    "H2 Help leads validate with AI chat",
+    "H2 Give 1:1 demos at scale with an AI expert",
+    "H2 Provide tailored onboarding with an AI guide",
+    "H2 Get started in minutes",
+    "H2 1.",
+    "H2 2.",
+    "H2 3.",
+    "H2 Scale personalised sales without growing your team",
+    "H2 Create your own agent",
+    "H3 Live 24/7",
+    "H3 Multilingual",
+    "H3 Personalised for each prospect",
+    "H2 We're seeing a very positive impact. Sales reps are less occupied with bad fit leads, crea"
+   ],
+   "fonts": [
+    "Inter 100 900 normal",
+    "bureauSerif 200 normal"
+   ],
+   "firstViewTextSample": "Resources\nSign in\nTry for free\nA dedicated guide for every buyer\n\nAI agents running tailored demos & onboarding 24/7\n\nSee AI demo\nTry for free\n60%\nreduction in bad fit sales calls\n20%\nmonth-on-month increase in total SQLs\n\n“Our sales reps are less occupied with bad fit leads, creating extra capacity for outbound, and Handhold’s agent has been super useful for coverage outside of regular business hours.”\n\nAlasdair Reynolds\n\nHead of Growth at Parim\n\nAI Demo\n\nSee Handhold in action\n\nLet our agent walk you through our product\n\nStart demo\nDeploy agents across your customer journey\n\nMost buyer journeys are full of hurdles, each contributing to drop-off. Let our agents handhold your prospects from intent to activation.\n\nInbound Q&A agent\nHelp leads validate with AI chat\n\nEngages visitors and answers their questions\n\nDiscovers what customers are looking for, responds in real time, and turns curiosity into meaningful interactions.\n\nQualifies leads and nudges them towards next steps\n\nIdentifies intent, filters high-value leads, and guides prospects toward the right next action.\n\nRetains memory and passes context\n\nRemembers every conversation and seamlessly shares context across agents for a continuous experience.\n\nDemo agent\nGive 1:1 demos at scale with an AI expert\n\nRuns deep-dive demo sessions\n\nDelivers interactive, personalised demos by showing your live product in real time.\n\nGathers insights from conversations\n\nCaptures key signals, needs, and preferences directly from each intera",
+   "pageHeight": 7629,
+   "hasHScroll": false,
+   "visibleChars": 6329,
+   "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 0,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 30,
+   "ro": 9,
+   "animateCalls": 13,
+   "canvasContexts": [
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2"
+   ],
+   "lcp": {
+    "t": 1720,
+    "tag": "H1",
+    "id": null,
+    "size": 87058,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 2,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 60,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 44,
+   "settle98Ms": 44,
+   "distinctPositions": 2,
+   "samples": 103,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 3815,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 6729,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   }
+  ],
+  "navOpenToggle": "Resources",
+  "transferAfterScroll": {
+   "requests": 201,
+   "totalBytes": 4404862,
+   "byType": {
+    "Document": 161397,
+    "Font": 618525,
+    "Image": 2298654,
+    "Stylesheet": 31246,
+    "Script": 1140788,
+    "Other": 45061,
+    "Fetch": 106861,
+    "XHR": 2330
+   },
+   "hosts": {
+    "handhold.io": 4404862
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "plausible"
+   ],
+   "htmlCls": "inter_5901b7c6-module__ec5Qua__variable bureauserif_14406768-module__8wID-G__variable h-full font-sans light h-full",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 7,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 42,
+   "scripts": [
+    "https://handhold.io/_next/static/chunks/2i7vdq31dltzw.js",
+    "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+    "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "https://handhold.io/_next/static/chunks/turbopack-1f_buqr0-muc3.js",
+    "https://handhold.io/_next/static/chunks/0an71yv8a-gl9.js",
+    "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+    "https://handhold.io/_next/static/chunks/0x5rdq9-3r5ym.js",
+    "https://handhold.io/_next/static/chunks/0uwr7wn_py9wu.js",
+    "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+    "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+    "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+    "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "https://handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+    "https://handhold.io/_next/static/chunks/1g7wj5_nl9x9n.js",
+    "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+    "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+    "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+    "https://handhold.io/_next/static/chunks/2olvhwm96-8_n.js",
+    "https://handhold.io/_next/static/chunks/1fdpondzf0f6p.js",
+    "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "https://handhold.io/_next/static/chunks/1l2i3xzgj28rw.js",
+    "https://handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+    "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+    "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "https://handhold.io/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+    "https://handhold.io/_next/static/chunks/2rt-4edx9gijl.js",
+    "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+    "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+    "https://handhold.io/_next/static/chunks/137xxg5f7wwko.js",
+    "https://handhold.io/_next/static/chunks/0mfx86pv-__p8.js",
+    "https://handhold.io/_next/static/chunks/32xy-licoyc1n.js",
+    "https://handhold.io/_next/static/chunks/1o39ce2eh_5jq.js",
+    "https://handhold.io/_next/static/chunks/35atc-r4osjx7.js",
+    "https://handhold.io/_next/static/chunks/128_8x0_9k8aj.js",
+    "https://handhold.io/_next/static/chunks/1iutt65gc64u7.js",
+    "https://handhold.io/_next/static/chunks/0h8s8jcw9c-25.js",
+    "https://handhold.io/_next/static/chunks/1fja39xpiy4pk.js",
+    "https://handhold.io/_next/static/chunks/2dim4-b1-538y.js",
+    "https://handhold.io/pa/script.js",
+    "https://handhold.io/demo/embed.js"
+   ],
+   "inlineScripts": 7,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+    "handhold.io/_next/static/chunks/2mg0s2yv51fw5.js"
+   ],
+   "three": [
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js"
+   ],
+   "framerMotion": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js"
+   ],
+   "scrollTimelineJS": [
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js"
+   ],
+   "intersection": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "handhold.io/_next/static/chunks/2olvhwm96-8_n.js",
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js"
+   ],
+   "webgl": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "handhold.io/_next/static/chunks/3-gsgluxmli0u.js"
+   ],
+   "shader": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "handhold.io/_next/static/chunks/3-gsgluxmli0u.js"
+   ]
+  },
+  "scriptsScanned": 60,
+  "cssFeatures": {
+   "@property": 213,
+   "scroll-snap-type": 3,
+   "backdrop-filter": 45,
+   "mix-blend-mode": 3,
+   "content-visibility": 6,
+   "will-change": 12,
+   "sticky": 12,
+   "text-wrap": 6,
+   "color-mix(": 12,
+   "oklch(": 3,
+   "lab(": 584,
+   "@container": 27,
+   ":has(": 3,
+   "clip-path": 3,
+   "mask-image": 12,
+   "prefers-reduced-motion": 4
+  },
+  "cssBytes": {
+   "linked": 462269,
+   "inline": 14859,
+   "files": 10
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "mobile": {
+  "viewport": {
+   "width": 390,
+   "height": 844
+  },
+  "mobile": true,
+  "loadMs": 800,
+  "consent": [
+   "clicked:Decline"
+  ],
+  "finalUrl": "https://handhold.io/",
+  "transferFirstLoad": {
+   "requests": 170,
+   "totalBytes": 2610272,
+   "byType": {
+    "Document": 161390,
+    "Font": 616427,
+    "Image": 655352,
+    "Stylesheet": 31641,
+    "Script": 1070814,
+    "Other": 45099,
+    "Fetch": 27219,
+    "XHR": 2330
+   },
+   "hosts": {
+    "handhold.io": 2610272
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://handhold.io/_next/static/chunks/3aza3yf562oh1.js",
+     "bytes": 144226
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+     "bytes": 132690
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+     "bytes": 73526
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+     "bytes": 60012
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+     "bytes": 48641
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+     "bytes": 47422
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+     "bytes": 44559
+    },
+    {
+     "url": "https://handhold.io/demo/embed.js",
+     "bytes": 35848
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+     "bytes": 33887
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+     "bytes": 30372
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+     "bytes": 27524
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+     "bytes": 26711
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+     "bytes": 25676
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+     "bytes": 22059
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+     "bytes": 16473
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+     "bytes": 16151
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/2_tk2z60b5h8_.js",
+     "bytes": 15938
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+     "bytes": 15050
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+     "bytes": 14623
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/22nygzt-x_wfz.js",
+     "bytes": 14520
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3c74n3fcxnasu.js",
+     "bytes": 14244
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+     "bytes": 14018
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+     "bytes": 13843
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+     "bytes": 12738
+    },
+    {
+     "url": "https://handhold.io/_next/static/chunks/137xxg5f7wwko.js",
+     "bytes": 12237
+    }
+   ]
+  },
+  "dom": {
+   "title": "Handhold",
+   "lang": "en-GB",
+   "colorScheme": "light",
+   "description": "Capture quality leads 24/7 and free up sales team’s time with personalised, multilingual AI demos and 1-to-1 onboarding",
+   "ogImage": "https://handhold.io/preview-v5.png",
+   "canonical": "https://handhold.io/",
+   "jsonLd": [
+    [
+     "Organization",
+     "WebSite",
+     "Person",
+     "Person"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "A dedicated guide for every buyer",
+    "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+    "font-size": "44px",
+    "font-weight": "200",
+    "line-height": "44px",
+    "letter-spacing": "-2.16px",
+    "color": "lab(0 0 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "balance"
+   },
+   "h2": [
+    {
+     "text": "See Handhold in action",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Deploy agents across your customer journey",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Help leads validate with AI chat",
+     "font-family": "bureauSerif, \"bureauSerif Fallback\"",
+     "font-size": "40px",
+     "font-weight": "200",
+     "line-height": "40px",
+     "letter-spacing": "-1.2px",
+     "color": "lab(0 0 0)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "pretty"
+    }
+   ],
+   "body": {
+    "font-family": "Inter, \"Inter Fallback\"",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(0, 0, 0)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgba(0, 0, 0, 0)"
+   },
+   "ctas": [
+    {
+     "tag": "button",
+     "text": "See AI demo",
+     "x": 63,
+     "y": 352,
+     "w": 145,
+     "h": 40,
+     "bg": "lab(0 0 0)",
+     "color": "lab(100 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Try for free",
+     "x": 220,
+     "y": 352,
+     "w": 107,
+     "h": 40,
+     "bg": "lab(95.139 -0.175655 2.06032)",
+     "color": "lab(0 0 0)",
+     "radius": "3.35544e+07px",
+     "font": "14px/400",
+     "border": "1px solid rgba(0, 0, 0, 0)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "relative",
+    "h": 72,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(0, 0, 0)",
+    "links": [
+     "Handhold home",
+     "Resources",
+     "Sign in",
+     "Try for free",
+     "Open menu"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 16,
+     "y": 26,
+     "w": 144,
+     "h": 20,
+     "paths": 0,
+     "cls": "inline-block text-logo h-5 w-36"
+    },
+    {
+     "tag": "canvas",
+     "x": -525,
+     "y": 287,
+     "w": 1440,
+     "h": 758,
+     "canvasSize": [
+      2880,
+      1518
+     ],
+     "id": null,
+     "cls": "absolute top-1/2 left-1/2 aspect-[3024/1592] w-ful"
+    },
+    {
+     "tag": "svg",
+     "x": -85,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 57,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 158,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 302,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 448,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 596,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 824,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 995,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1137,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1238,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1382,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1528,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1676,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 1904,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2075,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2217,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2318,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2462,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2608,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2756,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 2984,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3155,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3297,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3398,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3542,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3688,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 3836,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4064,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4235,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4377,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4478,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4622,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4768,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 4916,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5144,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5315,
+     "y": 783,
+     "w": 94,
+     "h": 21,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5457,
+     "y": 777,
+     "w": 53,
+     "h": 32,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5558,
+     "y": 778,
+     "w": 96,
+     "h": 30,
+     "paths": 11,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5702,
+     "y": 774,
+     "w": 98,
+     "h": 38,
+     "paths": 3,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5848,
+     "y": 776,
+     "w": 100,
+     "h": 34,
+     "paths": 5,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 5996,
+     "y": 777,
+     "w": 180,
+     "h": 32,
+     "paths": 16,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 6224,
+     "y": 780,
+     "w": 123,
+     "h": 26,
+     "paths": 8,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 17,
+     "y": 1206,
+     "w": 38,
+     "h": 38,
+     "src": "https://handhold.io/_next/image?url=%2Fhomepage%2FAlasdair.png&w=96&q=75",
+     "natural": [
+      48,
+      48
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Alasdair Reynolds",
+     "decoding": "async"
+    },
+    {
+     "tag": "img",
+     "x": -251,
+     "y": 1341,
+     "w": 892,
+     "h": 463,
+     "src": "https://handhold.io/homepage/demo-bot.webp",
+     "natural": [
+      1960,
+      1017
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "iframe",
+     "x": 0,
+     "y": 756,
+     "w": 390,
+     "h": 88
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "absolute right-0 bottom-0 left-0 z-2 h-6",
+     "w": 347,
+     "h": 248,
+     "bg": "linear-gradient(rgba(242, 241, 237, 0) 0%, rgb(242, 241, 237) 70%)"
+    }
+   ],
+   "fontShare": {
+    "bureauSerif": 1364,
+    "Inter": 4768
+   },
+   "bgs": {
+    "rgb(242, 241, 237)": 188632,
+    "lab(95.139 -0.175655 2.06032)": 578429
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 0,
+    "filters": 0,
+    "video": 0,
+    "canvas": 7,
+    "svg": 66,
+    "img": 16,
+    "buttons": 22,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 13,
+    "iframes": 2
+   },
+   "headings": [
+    "H1 A dedicated guide for every buyer",
+    "H2 See Handhold in action",
+    "H2 Deploy agents across your customer journey",
+    "H2 Help leads validate with AI chat",
+    "H2 Give 1:1 demos at scale with an AI expert",
+    "H2 Provide tailored onboarding with an AI guide",
+    "H2 Get started in minutes",
+    "H2 1.",
+    "H2 2.",
+    "H2 3.",
+    "H2 Scale personalised sales without growing your team",
+    "H2 Create your own agent",
+    "H3 Live 24/7",
+    "H3 Multilingual",
+    "H3 Personalised for each prospect",
+    "H2 We're seeing a very positive impact. Sales reps are less occupied with bad fit leads, crea"
+   ],
+   "fonts": [
+    "Inter 100 900 normal",
+    "bureauSerif 200 normal"
+   ],
+   "firstViewTextSample": "A dedicated guide for every buyer\n\nAI agents running tailored demos & onboarding 24/7\n\nSee AI demo\nTry for free\n60%\nreduction in bad fit sales calls\n20%\nmonth-on-month increase in total SQLs\n\n“Our sales reps are less occupied with bad fit leads, creating extra capacity for outbound, and Handhold’s agent has been super useful for coverage outside of regular business hours.”\n\nAlasdair Reynolds\n\nHead of Growth at Parim\n\nAI Demo\n\nSee Handhold in action\n\nLet our agent walk you through our product\n\nStart demo\nDeploy agents across your customer journey\n\nMost buyer journeys are full of hurdles, each contributing to drop-off. Let our agents handhold your prospects from intent to activation.\n\nInbound Q&A agent\nHelp leads validate with AI chat\n\nEngages visitors and answers their questions\n\nDiscovers what customers are looking for, responds in real time, and turns curiosity into meaningful interactions.\n\nQualifies leads and nudges them towards next steps\n\nIdentifies intent, filters high-value leads, and guides prospects toward the right next action.\n\nRetains memory and passes context\n\nRemembers every conversation and seamlessly shares context across agents for a continuous experience.\n\nDemo agent\nGive 1:1 demos at scale with an AI expert\n\nRuns deep-dive demo sessions\n\nDelivers interactive, personalised demos by showing your live product in real time.\n\nGathers insights from conversations\n\nCaptures key signals, needs, and preferences directly from each interaction.\n\nTurns visitors into cus",
+   "pageHeight": 9431,
+   "hasHScroll": false,
+   "visibleChars": 6298,
+   "landmarks": {
+    "header": 1,
+    "nav": 1,
+    "main": 0,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "logoSlide",
+    "target": "div.mx-auto.flex",
+    "props": [
+     "transform"
+    ],
+    "duration": 40000,
+    "delay": 0,
+    "easing": "linear",
+    "iterations": "infinite",
+    "state": "running",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 30,
+   "ro": 9,
+   "animateCalls": 13,
+   "canvasContexts": [
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2",
+    "webgl2"
+   ],
+   "lcp": {
+    "t": 1412,
+    "tag": "H1",
+    "id": null,
+    "size": 31428,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 2,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 61,
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 844,
+    "count": 6,
+    "infinite": 6,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 4716,
+    "count": 6,
+    "infinite": 6,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 8848,
+    "count": 6,
+    "infinite": 6,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "logoSlide",
+      "target": "div.mx-auto.flex",
+      "props": [
+       "transform"
+      ],
+      "duration": 40000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "navOpenToggle": "Open menu",
+  "transferAfterScroll": {
+   "requests": 201,
+   "totalBytes": 4391135,
+   "byType": {
+    "Document": 161390,
+    "Font": 616427,
+    "Image": 2302528,
+    "Stylesheet": 31641,
+    "Script": 1124854,
+    "Other": 45099,
+    "Fetch": 106866,
+    "XHR": 2330
+   },
+   "hosts": {
+    "handhold.io": 4391135
+   }
+  },
+  "fp": {
+   "present": [
+    "__next_f",
+    "plausible"
+   ],
+   "htmlCls": "inter_5901b7c6-module__ec5Qua__variable bureauserif_14406768-module__8wID-G__variable h-full font-sans light h-full",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 7,
+    "video": [],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": true,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 42,
+   "scripts": [
+    "https://handhold.io/_next/static/chunks/2i7vdq31dltzw.js",
+    "https://handhold.io/_next/static/chunks/0q8n9vxojgq4e.js",
+    "https://handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "https://handhold.io/_next/static/chunks/turbopack-1f_buqr0-muc3.js",
+    "https://handhold.io/_next/static/chunks/0an71yv8a-gl9.js",
+    "https://handhold.io/_next/static/chunks/0j7l9onw1-mqg.js",
+    "https://handhold.io/_next/static/chunks/0x5rdq9-3r5ym.js",
+    "https://handhold.io/_next/static/chunks/0uwr7wn_py9wu.js",
+    "https://handhold.io/_next/static/chunks/2l3_n5joraiog.js",
+    "https://handhold.io/_next/static/chunks/1qbequw011zcy.js",
+    "https://handhold.io/_next/static/chunks/21c_mn361zq6j.js",
+    "https://handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "https://handhold.io/_next/static/chunks/0ejtk1s6j6ads.js",
+    "https://handhold.io/_next/static/chunks/1g7wj5_nl9x9n.js",
+    "https://handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+    "https://handhold.io/_next/static/chunks/287zmeqlk5e9p.js",
+    "https://handhold.io/_next/static/chunks/3ra42mplmy1vd.js",
+    "https://handhold.io/_next/static/chunks/2olvhwm96-8_n.js",
+    "https://handhold.io/_next/static/chunks/1fdpondzf0f6p.js",
+    "https://handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "https://handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "https://handhold.io/_next/static/chunks/1l2i3xzgj28rw.js",
+    "https://handhold.io/_next/static/chunks/3_y92xyuzld6l.js",
+    "https://handhold.io/_next/static/chunks/22zxjc5igufv9.js",
+    "https://handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "https://handhold.io/_next/static/chunks/0cz1d0mv5g_q7.js",
+    "https://handhold.io/_next/static/chunks/3-gsgluxmli0u.js",
+    "https://handhold.io/_next/static/chunks/137xxg5f7wwko.js",
+    "https://handhold.io/_next/static/chunks/3hwkw0fsgoouo.js",
+    "https://handhold.io/_next/static/chunks/1ympro5i-n12j.js",
+    "https://handhold.io/_next/static/chunks/0mfx86pv-__p8.js",
+    "https://handhold.io/_next/static/chunks/32xy-licoyc1n.js",
+    "https://handhold.io/_next/static/chunks/1o39ce2eh_5jq.js",
+    "https://handhold.io/_next/static/chunks/2rt-4edx9gijl.js",
+    "https://handhold.io/_next/static/chunks/35atc-r4osjx7.js",
+    "https://handhold.io/_next/static/chunks/128_8x0_9k8aj.js",
+    "https://handhold.io/_next/static/chunks/1iutt65gc64u7.js",
+    "https://handhold.io/_next/static/chunks/0h8s8jcw9c-25.js",
+    "https://handhold.io/_next/static/chunks/1fja39xpiy4pk.js",
+    "https://handhold.io/_next/static/chunks/2dim4-b1-538y.js",
+    "https://handhold.io/pa/script.js",
+    "https://handhold.io/demo/embed.js"
+   ],
+   "inlineScripts": 7,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "handhold.io/_next/static/chunks/2mg0s2yv51fw5.js",
+    "handhold.io/_next/static/chunks/2mg0s2yv51fw5.js"
+   ],
+   "three": [
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js"
+   ],
+   "framerMotion": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/3c9yv2_es7444.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js"
+   ],
+   "scrollTimelineJS": [
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js"
+   ],
+   "intersection": [
+    "handhold.io/_next/static/chunks/1-o-lb94jtbo4.js",
+    "handhold.io/_next/static/chunks/1qbequw011zcy.js",
+    "handhold.io/_next/static/chunks/395fp86v1a9dc.js",
+    "handhold.io/_next/static/chunks/2olvhwm96-8_n.js"
+   ],
+   "webgl": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "handhold.io/_next/static/chunks/3-gsgluxmli0u.js"
+   ],
+   "shader": [
+    "handhold.io/_next/static/chunks/3tvcn_if3p0az.js",
+    "handhold.io/_next/static/chunks/0pu7w_ljt06gl.js",
+    "handhold.io/_next/static/chunks/3u7sgjy-czdei.js",
+    "handhold.io/_next/static/chunks/3-gsgluxmli0u.js"
+   ]
+  },
+  "scriptsScanned": 66,
+  "cssFeatures": {
+   "@property": 213,
+   "scroll-snap-type": 3,
+   "backdrop-filter": 45,
+   "mix-blend-mode": 3,
+   "content-visibility": 6,
+   "will-change": 12,
+   "sticky": 12,
+   "text-wrap": 6,
+   "color-mix(": 12,
+   "oklch(": 3,
+   "lab(": 584,
+   "@container": 27,
+   ":has(": 3,
+   "clip-path": 3,
+   "mask-image": 12,
+   "prefers-reduced-motion": 4
+  },
+  "cssBytes": {
+   "linked": 462269,
+   "inline": 14859,
+   "files": 10
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 0,
+  "h1": "A dedicated guide for every buyer",
+  "firstViewportText": ""
+ }
+}

@@ -1,0 +1,304 @@
+[
+ {
+  "i": 2,
+  "title": "One agent for every kind of video",
+  "top": 3327,
+  "h": 801,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 486,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   -284,
+   0,
+   0
+  ],
+  "sticky": [
+   "sticky top-[88px] grid h-[calc(100svh-112px)] max-"
+  ],
+  "playing": 1
+ },
+ {
+  "i": 3,
+  "title": "Pexo Makes Publish-Ready Videos for TikT",
+  "top": 4188,
+  "h": 1225,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 358,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   -284,
+   0,
+   0
+  ],
+  "sticky": [
+   "sticky top-[88px] grid h-[calc(100svh-112px)] max-"
+  ],
+  "playing": 1
+ },
+ {
+  "i": 4,
+  "title": "More Than an AI Video Generator",
+  "top": 5413,
+  "h": 1066,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 230,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   240,
+   0,
+   0
+  ],
+  "sticky": [
+   "sticky top-[88px] grid h-[calc(100svh-112px)] max-"
+  ],
+  "playing": 1
+ },
+ {
+  "i": 5,
+  "title": "Work with the World's Leading AI Models",
+  "top": 6479,
+  "h": 777,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 88,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   240,
+   0,
+   0
+  ],
+  "sticky": [],
+  "playing": 0
+ },
+ {
+  "i": 6,
+  "title": "How Your AI Video Agent Pexo Gets It Don",
+  "top": 7255,
+  "h": 1842,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 484,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   -284,
+   0,
+   0
+  ],
+  "sticky": [],
+  "playing": 0
+ },
+ {
+  "i": 7,
+  "title": "Pexo reviews from customers",
+  "top": 9097,
+  "h": 1483,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 360,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   -284,
+   0,
+   0
+  ],
+  "sticky": [],
+  "playing": 0
+ },
+ {
+  "i": 8,
+  "title": "Explore more at Pexo",
+  "top": 10580,
+  "h": 954,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 232,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   240,
+   0,
+   0
+  ],
+  "sticky": [],
+  "playing": 0
+ },
+ {
+  "i": 9,
+  "title": "Questions?",
+  "top": 11534,
+  "h": 575,
+  "anims": [],
+  "scrollersA": [
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain md:round",
+    "sl": 108,
+    "sw": 7168,
+    "cw": 1440,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide overflow-x-auto overscroll-x-contain ",
+    "sl": 0,
+    "sw": 6586,
+    "cw": 1315,
+    "snap": "none"
+   },
+   {
+    "cls": "scrollbar-hide mt-10 flex w-full gap-4 overflow-x-auto scrol",
+    "sl": 0,
+    "sw": 2202,
+    "cw": 1315,
+    "snap": "none"
+   }
+  ],
+  "movedIn2s": [
+   244,
+   0,
+   0
+  ],
+  "sticky": [],
+  "playing": 0
+ }
+]

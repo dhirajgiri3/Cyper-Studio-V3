@@ -1,0 +1,1518 @@
+{
+ "entrance": {
+  "revealEls": [
+   {
+    "tag": "DIV",
+    "text": "LOVED BY DESIGN ENGINEERS AT moss moss",
+    "delay": "0s",
+    "dur": "0.9s",
+    "y": "24px",
+    "top": 1355
+   }
+  ],
+  "paint": [
+   [
+    "first-paint",
+    216
+   ],
+   [
+    "first-contentful-paint",
+    216
+   ]
+  ],
+  "sampleCount": 150,
+  "first": [
+   {
+    "t": 209,
+    "els": [
+     [
+      0.215,
+      18.8
+     ]
+    ],
+    "h1": 1,
+    "hdr": "1"
+   },
+   {
+    "t": 221,
+    "els": [
+     [
+      0.215,
+      18.8
+     ]
+    ],
+    "h1": 1,
+    "hdr": "1"
+   },
+   {
+    "t": 228,
+    "els": [
+     [
+      0.308,
+      16.6
+     ]
+    ],
+    "h1": 1,
+    "hdr": "1"
+   }
+  ],
+  "series": [
+   {
+    "t": 209,
+    "els": [
+     [
+      0.215,
+      18.8
+     ]
+    ]
+   },
+   {
+    "t": 261,
+    "els": [
+     [
+      0.467,
+      12.8
+     ]
+    ]
+   },
+   {
+    "t": 314,
+    "els": [
+     [
+      0.642,
+      8.6
+     ]
+    ]
+   },
+   {
+    "t": 350,
+    "els": [
+     [
+      0.758,
+      5.8
+     ]
+    ]
+   },
+   {
+    "t": 400,
+    "els": [
+     [
+      0.837,
+      3.9
+     ]
+    ]
+   },
+   {
+    "t": 450,
+    "els": [
+     [
+      0.889,
+      2.7
+     ]
+    ]
+   },
+   {
+    "t": 501,
+    "els": [
+     [
+      0.925,
+      1.8
+     ]
+    ]
+   },
+   {
+    "t": 550,
+    "els": [
+     [
+      0.95,
+      1.2
+     ]
+    ]
+   },
+   {
+    "t": 600,
+    "els": [
+     [
+      0.967,
+      0.8
+     ]
+    ]
+   },
+   {
+    "t": 650,
+    "els": [
+     [
+      0.979,
+      0.5
+     ]
+    ]
+   },
+   {
+    "t": 700,
+    "els": [
+     [
+      0.987,
+      0.3
+     ]
+    ]
+   },
+   {
+    "t": 750,
+    "els": [
+     [
+      0.992,
+      0.2
+     ]
+    ]
+   },
+   {
+    "t": 813,
+    "els": [
+     [
+      0.996,
+      0.1
+     ]
+    ]
+   },
+   {
+    "t": 1350,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1400,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1450,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1500,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1550,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1600,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1650,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1699,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1750,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1800,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1849,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1900,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 1950,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2000,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2052,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2100,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2150,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2216,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2267,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2317,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2367,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2417,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2467,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2517,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   },
+   {
+    "t": 2566,
+    "els": [
+     [
+      1,
+      0
+     ]
+    ]
+   }
+  ],
+  "frameTimes": [
+   95,
+   343,
+   460,
+   578,
+   664,
+   749,
+   893,
+   1438,
+   1551,
+   1667,
+   1784,
+   1900,
+   1984,
+   2070,
+   2169,
+   2272,
+   2350,
+   2434,
+   2518
+  ]
+ },
+ "reqsAtLoad": 62,
+ "firstLoadMedia": [
+  {
+   "u": "/_next/static/media/APK_Galeria_Regular_latin.p.3eukkgzc87yek.woff2",
+   "rt": "font",
+   "body": 9013,
+   "ct": "font/woff2"
+  },
+  {
+   "u": "/_next/static/media/APK_Galeria_Bold_latin.p.02bh2r4be38w5.woff2",
+   "rt": "font",
+   "body": 9314,
+   "ct": "font/woff2"
+  },
+  {
+   "u": "/_next/static/media/InterVariable_latin.p.443h5yeifegl1.woff2",
+   "rt": "font",
+   "body": 112142,
+   "ct": "font/woff2"
+  },
+  {
+   "u": "/_next/static/media/DigiDecay_latin-s.17htpl_ama3cw.woff2",
+   "rt": "font",
+   "body": 7985,
+   "ct": "font/woff2"
+  },
+  {
+   "u": "/_next/static/media/JetBrainsMono_latin.2kcbxsuy4zzv1.woff2",
+   "rt": "font",
+   "body": 53767,
+   "ct": "font/woff2"
+  },
+  {
+   "u": "/cdn-cgi/image/width=828,quality=75,format=auto/image/home/bg-inverted-1.jpg",
+   "rt": "image",
+   "body": 6169,
+   "ct": "image/avif"
+  },
+  {
+   "u": "/image/customers/e2b.svg?width=96",
+   "rt": "image",
+   "body": 1264,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/apify.svg?width=384",
+   "rt": "image",
+   "body": 1578,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/nccer.svg?width=256",
+   "rt": "image",
+   "body": 8206,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/prelude.svg?width=96",
+   "rt": "image",
+   "body": 3214,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/kiwi.svg?width=256",
+   "rt": "image",
+   "body": 1686,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/moss-mark.svg?width=32",
+   "rt": "image",
+   "body": 1134,
+   "ct": "image/svg+xml"
+  },
+  {
+   "u": "/image/customers/deepnote.svg?width=750",
+   "rt": "image",
+   "body": 1658,
+   "ct": "image/svg+xml"
+  }
+ ],
+ "header": {
+  "y0": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center px-3.5 py-2",
+    "bg": "rgba(242, 238, 234, 0.66)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center col-start-2 hidden justify-self-center px-5",
+    "bg": "rgba(242, 238, 234, 0.66)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ],
+  "y10": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center px-3.5 py-2",
+    "bg": "rgba(242, 238, 234, 0.66)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center col-start-2 hidden justify-self-center px-5",
+    "bg": "rgba(242, 238, 234, 0.66)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ],
+  "y60": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center home-nav-pill--solid px-3.5 py-2",
+    "bg": "rgba(242, 238, 234, 0.8)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center home-nav-pill--solid col-start-2 hidden jus",
+    "bg": "rgba(242, 238, 234, 0.8)",
+    "bd": "rgba(255, 255, 255, 0.18)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ],
+  "beforeDark": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center home-nav-pill--dark home-nav-pill--sol",
+    "bg": "rgba(92, 91, 85, 0.635)",
+    "bd": "rgba(252, 250, 249, 0.153)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center home-nav-pill--dark home-nav-pill--solid co",
+    "bg": "rgba(92, 91, 85, 0.635)",
+    "bd": "rgba(252, 250, 249, 0.153)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ],
+  "dark80ms": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center home-nav-pill--dark home-nav-pill--sol",
+    "bg": "rgba(92, 91, 85, 0.635)",
+    "bd": "rgba(252, 250, 249, 0.153)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center home-nav-pill--dark home-nav-pill--solid co",
+    "bg": "rgba(92, 91, 85, 0.635)",
+    "bd": "rgba(252, 250, 249, 0.153)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ],
+  "dark680ms": [
+   {
+    "cls": "home-nav-pill pointer-events-auto flex items-center home-nav-pill--dark home-nav-pill--sol",
+    "bg": "rgba(20, 20, 14, 0.58)",
+    "bd": "rgba(250, 248, 246, 0.14)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   },
+   {
+    "cls": "home-nav-pill pointer-events-auto items-center home-nav-pill--dark home-nav-pill--solid co",
+    "bg": "rgba(20, 20, 14, 0.58)",
+    "bd": "rgba(250, 248, 246, 0.14)",
+    "bf": "blur(20px) saturate(1.5)",
+    "rect": 12
+   }
+  ]
+ },
+ "darkSections": [
+  {
+   "tag": "SECTION",
+   "top": 7642,
+   "h": 1098
+  },
+  {
+   "tag": "SECTION",
+   "top": 9878,
+   "h": 933
+  },
+  {
+   "tag": "FOOTER",
+   "top": 10811,
+   "h": 602
+  }
+ ],
+ "docH": 11413,
+ "hover": [
+  {
+   "name": "hero CTA Get started",
+   "transition": "box-shadow 0.2s cubic-bezier(0, 0, 0.2, 1), background-color 0.2s cubic-bezier(0, 0, 0.2, 1)",
+   "cursor": "pointer",
+   "hoverDiff": {
+    "background-color": [
+     "rgb(215, 247, 146)",
+     "rgb(194, 236, 102)"
+    ],
+    "box-shadow": [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, ",
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, "
+    ]
+   }
+  },
+  {
+   "name": "header nav link Pricing",
+   "transition": "opacity 0.25s",
+   "cursor": "pointer",
+   "hoverDiff": {
+    "opacity": [
+     "1",
+     "0.6"
+    ]
+   }
+  },
+  {
+   "name": "header Sign in",
+   "transition": "box-shadow 0.2s cubic-bezier(0, 0, 0.2, 1), background-color 0.2s cubic-bezier(0, 0, 0.2, 1)",
+   "cursor": "pointer",
+   "hoverDiff": {
+    "background-color": [
+     "rgb(242, 238, 234)",
+     "rgb(246, 243, 239)"
+    ],
+    "box-shadow": [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, ",
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, "
+    ]
+   }
+  },
+  {
+   "name": "header Get started",
+   "transition": "box-shadow 0.2s cubic-bezier(0, 0, 0.2, 1), background-color 0.2s cubic-bezier(0, 0, 0.2, 1)",
+   "cursor": "pointer",
+   "hoverDiff": {
+    "background-color": [
+     "rgb(215, 247, 146)",
+     "rgb(194, 236, 102)"
+    ],
+    "box-shadow": [
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, ",
+     "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, "
+    ]
+   }
+  },
+  {
+   "name": "logo pill (wordmark)",
+   "transition": "background-color 0.3s, border-color 0.3s, box-shadow 0.3s",
+   "cursor": "pointer",
+   "hoverDiff": {}
+  },
+  {
+   "name": "home-panel card",
+   "transition": "all",
+   "cursor": "auto",
+   "hoverDiff": {}
+  },
+  {
+   "name": "footer link",
+   "transition": "color 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.3s ",
+   "cursor": "pointer",
+   "hoverDiff": {
+    "color": [
+     "rgba(250, 248, 246, 0.62)",
+     "rgb(250, 248, 246)"
+    ],
+    "outline": [
+     "rgba(250, 248, 246, 0.62) none 3px",
+     "rgb(250, 248, 246) none 3px"
+    ]
+   }
+  },
+  {
+   "name": "FAQ trigger",
+   "transition": "all",
+   "cursor": "pointer",
+   "hoverDiff": {}
+  }
+ ],
+ "marquee": {
+  "hasPauseParent": false,
+  "parentCls": null,
+  "childCount": 14,
+  "width": 2495
+ },
+ "focus": [
+  {
+   "t": "Do I need a dev environm",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "Where does Modeinspect f",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "What do I get out of Mod",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "Does Modeinspect work wi",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "What if the screen I nee",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "How does engineering sta",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  },
+  {
+   "t": "Can I use Modeinspect ju",
+   "outline": "none 3px rgb(17, 17, 16)",
+   "shadow": "rgb(224, 218, 213) 0px 0px 0px 2px, rgba(194, 236, 102, 0.9) 0px 0px 0px 4px"
+  }
+ ],
+ "scrollLinked": [
+  {
+   "y": 350,
+   "tracked": 31,
+   "changed": [
+    {
+     "c": "DIV.animate-marquee.flex.w-max",
+     "pos": "static",
+     "dTop": 0,
+     "tr": [
+      "matrix(1, 0, 0, 1, -592.472, 0)",
+      "matrix(1, 0, 0, 1, -597.15, 0)"
+     ]
+    }
+   ],
+   "fixedSticky": []
+  },
+  {
+   "y": 1100,
+   "tracked": 27,
+   "changed": [
+    {
+     "c": "DIV.animate-marquee.flex.w-max",
+     "pos": "static",
+     "dTop": 0,
+     "tr": [
+      "matrix(1, 0, 0, 1, -647.562, 0)",
+      "matrix(1, 0, 0, 1, -651.719, 0)"
+     ]
+    }
+   ],
+   "fixedSticky": []
+  },
+  {
+   "y": 2200,
+   "tracked": 3,
+   "changed": [],
+   "fixedSticky": []
+  },
+  {
+   "y": 3600,
+   "tracked": 3,
+   "changed": [],
+   "fixedSticky": []
+  },
+  {
+   "y": 5200,
+   "tracked": 0,
+   "changed": [],
+   "fixedSticky": []
+  },
+  {
+   "y": 7000,
+   "tracked": 10,
+   "changed": [
+    {
+     "c": "DIV.",
+     "pos": "static",
+     "dTop": 12.6,
+     "tr": [
+      "matrix(1, 0, 0, 1, 0, 24)",
+      "matrix(1, 0, 0, 1, 0, 11.3905)"
+     ],
+     "op": [
+      "0",
+      "0.516756"
+     ]
+    }
+   ],
+   "fixedSticky": [
+    "sticky:DIV.lg:sticky.lg:top-28"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "at": 1826,
+   "now": [
+    {
+     "src": "Mode - Everything In One Place.webm",
+     "paused": false,
+     "t": 4.82,
+     "rs": 4
+    }
+   ]
+  },
+  {
+   "at": 2433,
+   "now": [
+    {
+     "src": "Mode - Explore - No Bg.webm",
+     "paused": false,
+     "t": 5.26,
+     "rs": 4
+    }
+   ]
+  },
+  {
+   "at": 3286,
+   "now": [
+    {
+     "src": "Mode - Design Controls - No Border.webm",
+     "paused": false,
+     "t": 3.2,
+     "rs": 4
+    }
+   ]
+  },
+  {
+   "at": 3893,
+   "now": [
+    {
+     "src": "Mode - Build To Product - No Bg.webm",
+     "paused": false,
+     "t": 5.37,
+     "rs": 4
+    }
+   ]
+  },
+  {
+   "at": 4746,
+   "now": [
+    {
+     "src": "Mode - Interactive Mode.webm",
+     "paused": false,
+     "t": 1.72,
+     "rs": 4
+    }
+   ]
+  },
+  {
+   "at": 5353,
+   "now": [
+    {
+     "src": "Mode - Share - No Bg.webm",
+     "paused": false,
+     "t": 0.97,
+     "rs": 4
+    }
+   ]
+  }
+ ],
+ "videosAtTop": [
+  {
+   "src": "Mode - Everything In One Place.webm",
+   "docTop": 1826,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 3.03,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 14.3,
+   "vw": 1280,
+   "vh": 720,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Explore - No Bg.webm",
+   "docTop": 2433,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 1.66,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 13.1,
+   "vw": 1920,
+   "vh": 1182,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Design Controls - No Border.webm",
+   "docTop": 3286,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 1.36,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 26.8,
+   "vw": 1920,
+   "vh": 1182,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Build To Product - No Bg.webm",
+   "docTop": 3893,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 1.72,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 18.9,
+   "vw": 1920,
+   "vh": 1188,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "",
+   "docTop": 4746,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 0,
+   "rs": 0,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 0,
+   "vw": 0,
+   "vh": 0,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Share - No Bg.webm",
+   "docTop": 5353,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 1.63,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 4.2,
+   "vw": 1920,
+   "vh": 1180,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  }
+ ],
+ "videoInViewVsOut": [
+  {
+   "src": "Mode - Everything In One Place.webm",
+   "docTop": 1826,
+   "w": 759,
+   "h": 427,
+   "paused": false,
+   "t": 6.96,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 14.3,
+   "vw": 1280,
+   "vh": 720,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Explore - No Bg.webm",
+   "docTop": 2433,
+   "w": 759,
+   "h": 427,
+   "paused": false,
+   "t": 5.59,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 13.1,
+   "vw": 1920,
+   "vh": 1182,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Design Controls - No Border.webm",
+   "docTop": 3286,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 5.12,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 26.8,
+   "vw": 1920,
+   "vh": 1182,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Build To Product - No Bg.webm",
+   "docTop": 3893,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 5.45,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 18.9,
+   "vw": 1920,
+   "vh": 1188,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Interactive Mode.webm",
+   "docTop": 4746,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 3.59,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 5,
+   "vw": 1280,
+   "vh": 720,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  },
+  {
+   "src": "Mode - Share - No Bg.webm",
+   "docTop": 5353,
+   "w": 759,
+   "h": 427,
+   "paused": true,
+   "t": 1.02,
+   "rs": 4,
+   "preload": "auto",
+   "loop": true,
+   "muted": true,
+   "playsInline": true,
+   "poster": null,
+   "dur": 4.2,
+   "vw": 1920,
+   "vh": 1180,
+   "ctl": false,
+   "ar": null,
+   "tabindex": null
+  }
+ ],
+ "heroFrame": {
+  "cls": "relative mt-16 w-full max-w-[1200px]",
+  "w": 1152,
+  "h": 720,
+  "top": 522,
+  "radius": "0px",
+  "shadow": "none",
+  "bg": "rgba(0, 0, 0, 0)",
+  "border": "0px solid rgba(17, 17, 16, 0.11)",
+  "descendants": 506,
+  "svgs": 54,
+  "imgs": 0,
+  "canvases": 0,
+  "ariaHidden": null,
+  "role": null,
+  "animations": [],
+  "textLen": 362,
+  "anyImgSrc": []
+ },
+ "grain": [
+  {
+   "sel": "body",
+   "pos": "static",
+   "op": "1",
+   "blend": "normal",
+   "z": "auto",
+   "bgImg": "none",
+   "size": "auto",
+   "inset": "auto",
+   "pe": "auto"
+  },
+  {
+   "sel": "body::before",
+   "pos": "fixed",
+   "op": "0.22",
+   "blend": "multiply",
+   "z": "0",
+   "bgImg": "url(\"data:image/svg+xml;utf8,<svg xmlns=",
+   "size": "auto",
+   "inset": "0px",
+   "pe": "none"
+  },
+  {
+   "sel": ".home-field",
+   "pos": "fixed",
+   "op": "0.55",
+   "blend": "multiply",
+   "z": "0",
+   "bgImg": "url(\"data:image/svg+xml;utf8,<svg xmlns=",
+   "size": "200px 200px",
+   "inset": "0px",
+   "pe": "none"
+  },
+  {
+   "sel": ".home-field::after",
+   "pos": "absolute",
+   "op": "0.4",
+   "blend": "soft-light",
+   "z": "auto",
+   "bgImg": "url(\"data:image/svg+xml;utf8,<svg xmlns=",
+   "size": "320px 320px",
+   "inset": "0px",
+   "pe": "none"
+  },
+  {
+   "homeFieldRect": [
+    1440,
+    900
+   ],
+   "pos": "fixed"
+  }
+ ],
+ "heads": [
+  {
+   "t": "Canvas and code, unified. One ",
+   "top": 1570
+  },
+  {
+   "t": "Vibe coding gets you to 80%. M",
+   "top": 3029
+  },
+  {
+   "t": "Share the real thing. Not a lo",
+   "top": 4489
+  },
+  {
+   "t": "Production-grade isn't a tagli",
+   "top": 6077
+  },
+  {
+   "t": "Try it on your codebase.",
+   "top": 7402
+  },
+  {
+   "t": "Code your engineers want to me",
+   "top": 7771
+  },
+  {
+   "t": "Questions Design Engineers ask",
+   "top": 8869
+  }
+ ],
+ "animationsInUse": {
+  "reveal-in | 0.9s | cubic-bezier(0.16, 1, 0.3, 1) | 1": {
+   "n": 1,
+   "e": [
+    "DIV.reveal-in"
+   ]
+  },
+  "marquee | 40s | linear | infinite": {
+   "n": 1,
+   "e": [
+    "DIV.animate-marquee.flex"
+   ]
+  },
+  " |  |  | ": {
+   "n": 12,
+   "e": [
+    "SOURCE.",
+    "SOURCE."
+   ]
+  }
+ },
+ "transitionsInUse": [
+  [
+   "color, background-color, border-color, outline-color, text-d | 0.3s | cubic-bezier(0.4",
+   20
+  ],
+  [
+   " |  | ",
+   12
+  ],
+  [
+   "transform, translate, scale, rotate | 0.4s | cubic-bezier(0.22",
+   8
+  ],
+  [
+   "grid-template-rows | 0.35s | cubic-bezier(0.22",
+   8
+  ],
+  [
+   "transform, opacity, filter | 0.35s | cubic-bezier(0.22",
+   8
+  ],
+  [
+   "color, background-color, border-color, outline-color, text-d | 0.2s | cubic-bezier(0.4",
+   7
+  ],
+  [
+   "box-shadow, background-color | 0.2s | cubic-bezier(0",
+   5
+  ],
+  [
+   "background-color, border-color, box-shadow | 0.3s | ease",
+   4
+  ],
+  [
+   "opacity | 0.25s | ease",
+   4
+  ],
+  [
+   "outline-color | 0.15s | cubic-bezier(0.4",
+   1
+  ],
+  [
+   "opacity, background-color | 0.15s | cubic-bezier(0.4",
+   1
+  ],
+  [
+   "opacity | 0.4s | ease",
+   1
+  ],
+  [
+   "filter | 0.15s | cubic-bezier(0.4",
+   1
+  ],
+  [
+   "box-shadow, border-color | 0.25s | ease",
+   1
+  ]
+ ],
+ "afterScrollMedia": [
+  {
+   "u": "/_next/static/media/APK_Galeria_Regular_latin.p.3eukkgzc87yek.woff2",
+   "rt": "font",
+   "body": 9013,
+   "ct": "font/woff2",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/_next/static/media/APK_Galeria_Bold_latin.p.02bh2r4be38w5.woff2",
+   "rt": "font",
+   "body": 9314,
+   "ct": "font/woff2",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/_next/static/media/InterVariable_latin.p.443h5yeifegl1.woff2",
+   "rt": "font",
+   "body": 112142,
+   "ct": "font/woff2",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/_next/static/media/DigiDecay_latin-s.17htpl_ama3cw.woff2",
+   "rt": "font",
+   "body": 7985,
+   "ct": "font/woff2",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/_next/static/media/JetBrainsMono_latin.2kcbxsuy4zzv1.woff2",
+   "rt": "font",
+   "body": 53767,
+   "ct": "font/woff2",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/cdn-cgi/image/width=828,quality=75,format=auto/image/home/bg-inverted-1.jpg",
+   "rt": "image",
+   "body": 6169,
+   "ct": "image/avif",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/e2b.svg?width=96",
+   "rt": "image",
+   "body": 1264,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/apify.svg?width=384",
+   "rt": "image",
+   "body": 1578,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/nccer.svg?width=256",
+   "rt": "image",
+   "body": 8206,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/prelude.svg?width=96",
+   "rt": "image",
+   "body": 3214,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/kiwi.svg?width=256",
+   "rt": "image",
+   "body": 1686,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/moss-mark.svg?width=32",
+   "rt": "image",
+   "body": 1134,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/deepnote.svg?width=750",
+   "rt": "image",
+   "body": 1658,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/cdn-cgi/image/width=48,quality=75,format=auto/_next/static/media/christian-bist",
+   "rt": "image",
+   "body": 1502,
+   "ct": "image/avif",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/cdn-cgi/image/width=48,quality=75,format=auto/_next/static/media/quentin.1wojrs",
+   "rt": "image",
+   "body": 1350,
+   "ct": "image/avif",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/cdn-cgi/image/width=48,quality=75,format=auto/_next/static/media/tereza-reznick",
+   "rt": "image",
+   "body": 1509,
+   "ct": "image/avif",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/cdn-cgi/image/width=48,quality=75,format=auto/_next/static/media/martin-jancik.",
+   "rt": "image",
+   "body": 1534,
+   "ct": "image/avif",
+   "cc": "public, max-age=31536000, immutable",
+   "st": 200
+  },
+  {
+   "u": "/image/customers/prelude-mark.svg?width=32",
+   "rt": "image",
+   "body": 707,
+   "ct": "image/svg+xml",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 200
+  },
+  {
+   "u": "/video/Mode - Everything In One Place.webm",
+   "rt": "media",
+   "body": 528376,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  },
+  {
+   "u": "/video/Mode - Explore - No Bg.webm",
+   "rt": "media",
+   "body": 1174127,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  },
+  {
+   "u": "/video/Mode - Build To Product - No Bg.webm",
+   "rt": "media",
+   "body": 1709606,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  },
+  {
+   "u": "/video/Mode - Design Controls - No Border.webm",
+   "rt": "media",
+   "body": 3498377,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  },
+  {
+   "u": "/video/Mode - Share - No Bg.webm",
+   "rt": "media",
+   "body": 915382,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  },
+  {
+   "u": "/video/Mode - Interactive Mode.webm",
+   "rt": "media",
+   "body": 165059,
+   "ct": "video/webm",
+   "cc": "public, max-age=14400, must-revalidate",
+   "st": 206
+  }
+ ],
+ "reqsTotal": 146
+}

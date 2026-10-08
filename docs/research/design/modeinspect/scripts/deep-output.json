@@ -1,0 +1,401 @@
+{
+ "mergeSection": {
+  "top": 7642,
+  "h": 1098,
+  "rows": [
+   {
+    "tag": "BUTTON",
+    "role": null,
+    "sel": null,
+    "t": "Type-safe changes"
+   },
+   {
+    "tag": "BUTTON",
+    "role": null,
+    "sel": null,
+    "t": "No generated UI debt"
+   },
+   {
+    "tag": "BUTTON",
+    "role": null,
+    "sel": null,
+    "t": "Reviewed like any PR"
+   }
+  ],
+  "sticky": [
+   {
+    "cls": "lg:sticky lg:top-28",
+    "top": "112px",
+    "h": 390
+   }
+  ]
+ },
+ "mergeSteps": [
+  {
+   "y": 7542,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 7692,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 7842,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 7992,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 8142,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 8292,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 8442,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  },
+  {
+   "y": 8592,
+   "rows": [
+    [
+     "Type-safe chan",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "No generated U",
+     "rgb(242, 244, 234)",
+     null
+    ],
+    [
+     "Reviewed like ",
+     "rgb(242, 244, 234)",
+     null
+    ]
+   ],
+   "card": [
+    "Type-safe changes.",
+    "No generated UI debt.",
+    "Reviewed like any PR."
+   ]
+  }
+ ],
+ "mergeHover": {
+  "before": [
+   "Type-safe changes.",
+   "No generated UI debt.",
+   "Reviewed like any PR."
+  ],
+  "afterHover": [
+   "Type-safe changes.",
+   "No generated UI debt.",
+   "Reviewed like any PR."
+  ]
+ },
+ "mergeClick": [
+  [
+   14,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   95,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   177,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   260,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   344,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   427,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   511,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   594,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   677,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ],
+  [
+   761,
+   [
+    [
+     "Type-safe ch",
+     1
+    ],
+    [
+     "No generated",
+     1
+    ]
+   ]
+  ]
+ ],
+ "footerArt": {
+  "x": 981,
+  "y": 363,
+  "w": 395,
+  "h": 390,
+  "svgs": 1,
+  "canv": 0,
+  "anims": [],
+  "imgs": 0,
+  "text": "rules are just suggestions",
+  "aria": null
+ },
+ "footerArtRaf": {
+  "idlePerSec": 60.7,
+  "hoverPerSec": 152.5
+ },
+ "footerArtTransforms": [
+  "ellipse:rotate(-43.86 540.93 322.32)",
+  "ellipse:rotate(-43.86 540.93 322.32)",
+  "ellipse:rotate(-43.86 540.93 322.32)",
+  "g:translate(0 0)"
+ ]
+}

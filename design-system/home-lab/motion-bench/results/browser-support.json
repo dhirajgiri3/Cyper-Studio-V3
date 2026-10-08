@@ -1,0 +1,173 @@
+{
+ "bcd": "8.1.4",
+ "raw": {
+  "animation-timeline": {
+   "chrome": "115",
+   "chrome_android": "115",
+   "edge": "115",
+   "firefox": "preview",
+   "firefox_android": "NO",
+   "safari": "26",
+   "safari_ios": "26",
+   "samsunginternet_android": "23.0",
+   "webview_android": "115",
+   "opera": "101"
+  },
+  "animation-range": {
+   "chrome": "115",
+   "chrome_android": "115",
+   "edge": "115",
+   "firefox": "preview",
+   "firefox_android": "NO",
+   "safari": "26",
+   "safari_ios": "26",
+   "samsunginternet_android": "23.0",
+   "webview_android": "115",
+   "opera": "101"
+  },
+  "view() / scroll() functions": {
+   "chrome": "115",
+   "chrome_android": "115",
+   "edge": "115",
+   "firefox": "preview",
+   "firefox_android": "NO",
+   "safari": "26",
+   "safari_ios": "26",
+   "samsunginternet_android": "23.0",
+   "webview_android": "115",
+   "opera": "101"
+  },
+  "view-timeline (named)": {
+   "chrome": "115",
+   "chrome_android": "115",
+   "edge": "115",
+   "firefox": "preview",
+   "firefox_android": "NO",
+   "safari": "26",
+   "safari_ios": "26",
+   "samsunginternet_android": "23.0",
+   "webview_android": "115",
+   "opera": "101"
+  },
+  "timeline-scope": {
+   "chrome": "116",
+   "chrome_android": "116",
+   "edge": "116",
+   "firefox": "preview",
+   "firefox_android": "NO",
+   "safari": "26",
+   "safari_ios": "26",
+   "samsunginternet_android": "24.0",
+   "webview_android": "116",
+   "opera": "102"
+  },
+  "View Transitions (same-document)": {
+   "chrome": "111",
+   "chrome_android": "111",
+   "edge": "111",
+   "firefox": "144",
+   "firefox_android": "144",
+   "safari": "18",
+   "safari_ios": "18",
+   "samsunginternet_android": "22.0",
+   "webview_android": "111",
+   "opera": "97"
+  },
+  "@property": {
+   "chrome": "85",
+   "chrome_android": "85",
+   "edge": "85",
+   "firefox": "128",
+   "firefox_android": "128",
+   "safari": "16.4",
+   "safari_ios": "16.4",
+   "samsunginternet_android": "14.0",
+   "webview_android": "85",
+   "opera": "71"
+  },
+  "position: sticky": {
+   "chrome": "56",
+   "chrome_android": "56",
+   "edge": "16",
+   "firefox": "32",
+   "firefox_android": "32",
+   "safari": "13",
+   "safari_ios": "13",
+   "samsunginternet_android": "6.0",
+   "webview_android": "56",
+   "opera": "43"
+  },
+  "IntersectionObserver": {
+   "chrome": "51",
+   "chrome_android": "51",
+   "edge": "15",
+   "firefox": "55",
+   "firefox_android": "55",
+   "safari": "12.1",
+   "safari_ios": "12.2",
+   "samsunginternet_android": "5.0",
+   "webview_android": "51",
+   "opera": "38"
+  },
+  "Web Animations: Element.animate": {
+   "chrome": "36",
+   "chrome_android": "36",
+   "edge": "79",
+   "firefox": "48",
+   "firefox_android": "48",
+   "safari": "13.1",
+   "safari_ios": "13.4",
+   "samsunginternet_android": "3.0",
+   "webview_android": "37",
+   "opera": "23"
+  },
+  "prefers-reduced-motion": {
+   "chrome": "74",
+   "chrome_android": "74",
+   "edge": "79",
+   "firefox": "63",
+   "firefox_android": "64",
+   "safari": "10.1",
+   "safari_ios": "10.3",
+   "samsunginternet_android": "11.0",
+   "webview_android": "74",
+   "opera": "62"
+  },
+  "CSS clamp()": {
+   "chrome": "79",
+   "chrome_android": "79",
+   "edge": "79",
+   "firefox": "75",
+   "firefox_android": "79",
+   "safari": "13.1",
+   "safari_ios": "13.4",
+   "samsunginternet_android": "12.0",
+   "webview_android": "79",
+   "opera": "66"
+  },
+  "svh units": {
+   "chrome": "108",
+   "chrome_android": "108",
+   "edge": "108",
+   "firefox": "101",
+   "firefox_android": "101",
+   "safari": "15.4",
+   "safari_ios": "15.4",
+   "samsunginternet_android": "21.0",
+   "webview_android": "108",
+   "opera": "94"
+  },
+  "window.find": {
+   "chrome": "1",
+   "chrome_android": "18",
+   "edge": "79",
+   "firefox": "1",
+   "firefox_android": "4",
+   "safari": "3",
+   "safari_ios": "1",
+   "samsunginternet_android": "1.0",
+   "webview_android": "4.4",
+   "opera": "15"
+  }
+ }
+}

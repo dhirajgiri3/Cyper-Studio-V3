@@ -1,0 +1,289 @@
+{
+ "header Get Started": {
+  "transition": "color, background-color, border-color, outline-color, -webkit-text-decoration-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)",
+  "cls": "font-outfit flex h-10 items-center justify-center rounded-[12px] border-none bg-[var(--landing-ink)] px-6 py-2.5 text-[16px] font-medium tex",
+  "diffAt60ms": {
+   "backgroundColor": [
+    "rgb(42, 41, 35)",
+    "rgb(52, 52, 45)"
+   ]
+  },
+  "diffAfter": {
+   "backgroundColor": [
+    "rgb(42, 41, 35)",
+    "rgb(86, 88, 77)"
+   ]
+  }
+ },
+ "header Pricing link": {
+  "transition": "color, opacity | 0.2s, 0.2s | ease, ease",
+  "cls": "nav-hover font-outfit flex items-center rounded-lg py-2 text-[16px] leading-6 font-medium text-[var(--landing-ink)] ",
+  "diffAt60ms": {
+   "opacity": [
+    "1",
+    "0.884777"
+   ]
+  },
+  "diffAfter": {
+   "opacity": [
+    "1",
+    "0.884777"
+   ]
+  }
+ },
+ "header AI Video Agent link": {
+  "transition": "color, opacity | 0.2s, 0.2s | ease, ease",
+  "cls": "nav-hover font-outfit flex items-center rounded-lg py-2 text-[16px] leading-6 font-medium text-[var(--landing-ink)] ",
+  "diffAt60ms": {
+   "opacity": [
+    "1",
+    "0.918296"
+   ]
+  },
+  "diffAfter": {
+   "opacity": [
+    "1",
+    "0.8"
+   ]
+  }
+ },
+ "header Create trigger": {
+  "transition": "color, opacity | 0.2s, 0.2s | ease, ease",
+  "cls": "font-outfit flex w-full items-center justify-between gap-[3px] text-[var(--landing-ink)] nav-hover rounded-lg py-2 text-[16px] leading-6 fon",
+  "diffAt60ms": {
+   "opacity": [
+    "1",
+    "0.955935"
+   ]
+  },
+  "diffAfter": {
+   "opacity": [
+    "1",
+    "0.8"
+   ]
+  }
+ },
+ "Create menu opens on hover": {
+  "menuBefore": 0,
+  "menuHover": {
+   "expanded": 1,
+   "text": true
+  }
+ },
+ "Start for Free": {
+  "transition": "color, background-color, border-color, outline-color, -webkit-text-decoration-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+  "cls": "font-outfit mt-14 inline-flex h-12 items-center justify-center rounded-[12px] bg-[var(--landing-ink)] px-8 text-[16px] font-medium text-whit",
+  "diffAt60ms": {},
+  "diffAfter": {}
+ },
+ "tab Launch Videos": {
+  "transition": "all | 0s | ease",
+  "cls": "shrink-0 border-b-2 px-3 py-3 text-sm font-medium border-transparent text-[var(--landing-text)]",
+  "diffAt60ms": {},
+  "diffAfter": {}
+ },
+ "stepper step 2 (hover on inactive)": {
+  "transition": "color, background-color, border-color, outline-color, -webkit-text-decoration-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)",
+  "cls": "absolute right-8 left-16 rounded-[12px] px-4 py-3 text-left text-white transition-colors lg:right-12 lg:left-20 top-[39%] -translate-y-1/2 b",
+  "diffAt60ms": {},
+  "diffAfter": {}
+ },
+ "carousel": {
+  "scrollLeftNoHover": [
+   432,
+   28,
+   "delta per 1s=-404"
+  ],
+  "scrollLeftHover": [
+   28,
+   28,
+   "delta per 1.5s=0"
+  ],
+  "cardHover": {
+   "cls": "group relative h-[146px] shrink-0 overflow-hidden rounded-md text-left md:h-[288px] aspect-video",
+   "tr": "all",
+   "vTransform": "none",
+   "vTransition": "0s all",
+   "vTr": "none",
+   "kids": [
+    "VIDEO:pointer-events-none absolute inset-0 h-full w-full object-cover",
+    "SPAN:pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,rgba(0",
+    "SPAN:absolute inset-x-0 bottom-0 font-semibold text-white md:px-4 md:pb-4 m"
+   ],
+   "label": "Make a kinetic typography explainer",
+   "cursor": "pointer"
+  }
+ },
+ "header over scroll": [
+  [
+   0,
+   {
+    "bg": "rgba(0, 0, 0, 0)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   20,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   40,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   60,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   80,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   100,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   150,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   300,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "0"
+   }
+  ],
+  [
+   1000,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "1"
+   }
+  ],
+  [
+   5000,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "1"
+   }
+  ],
+  [
+   12000,
+   {
+    "bg": "rgb(249, 247, 241)",
+    "bf": "none",
+    "bb": "0px rgb(217, 217, 217)",
+    "sh": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0)",
+    "toTopOp": "1",
+    "toTopVis": "visible",
+    "toTopParentOp": "1"
+   }
+  ]
+ ],
+ "keyboard focus (first 4 tabs)": [
+  {
+   "el": "A:",
+   "outline": "none 1px rgb(0, 95, 204)",
+   "offset": "1px",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+  },
+  {
+   "el": "A:AI Video Agent",
+   "outline": "none 1px rgb(0, 95, 204)",
+   "offset": "1px",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+  },
+  {
+   "el": "BUTTON:Create",
+   "outline": "none 1px rgb(0, 95, 204)",
+   "offset": "0px",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+  },
+  {
+   "el": "BUTTON:Toolkit",
+   "outline": "none 1px rgb(0, 95, 204)",
+   "offset": "0px",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0"
+  }
+ ],
+ "prompt box focus": {
+  "boxBefore": {
+   "border": "4px rgba(0, 0, 0, 0)",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0",
+   "tr": "all 0s"
+  },
+  "boxAfter": {
+   "border": "4px rgb(198, 204, 245)",
+   "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0",
+   "outline": "none"
+  }
+ }
+}

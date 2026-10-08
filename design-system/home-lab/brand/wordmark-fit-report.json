@@ -1,0 +1,11 @@
+{
+  "IoU": 0.99595,
+  "pixelsOff_gt_half": 2989,
+  "perLetterPixelsOff": {
+    "L": 139,
+    "X": 1882,
+    "H": 509,
+    "E": 459
+  },
+  "note": "R0 vs supplied PNG alpha at 2500x1000; pixelsOff counts pixels whose coverage differs by > 0.5 (i.e. >0.5 px edge error)"
+}

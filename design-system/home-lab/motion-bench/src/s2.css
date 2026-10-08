@@ -1,0 +1,7 @@
+/* S2/S3: GSAP-driven layout. ScrollTrigger pins; no CSS animations. */
+html.gsap .steps__stick{position:relative;height:calc(100svh - var(--hdr))}
+html.gsap .steps__grid{padding-block:0}
+html.gsap .steps__list{min-height:220px}
+html.gsap .step{position:absolute;inset:0 0 auto 0;margin:0}
+html.gsap .h__stick{position:relative;height:calc(100svh - var(--hdr));overflow:hidden}
+html.gsap .track{flex-wrap:nowrap;width:max-content;padding-bottom:0}

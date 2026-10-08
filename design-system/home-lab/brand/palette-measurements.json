@@ -1,0 +1,213 @@
+{
+  "blueOn": {
+    "white": 4.95,
+    "mist": 4.53,
+    "mist-2": 4.21,
+    "ink": 3.6,
+    "navy": 3.45,
+    "slate": 3.45
+  },
+  "whiteOnBlue": 4.95,
+  "inkOnBlue": 3.6,
+  "hover #3A57DB": {
+    "whiteOn": 5.89,
+    "onWhite": 5.89
+  },
+  "hover #3350C8": {
+    "whiteOn": 6.73,
+    "onWhite": 6.73
+  },
+  "hover #2F49BE": {
+    "whiteOn": 7.45,
+    "onWhite": 7.45
+  },
+  "tint #EEF1FE": {
+    "blueOn": 4.4,
+    "darkBlueOn": 6.62
+  },
+  "tint #E8ECFD": {
+    "blueOn": 4.21,
+    "darkBlueOn": 6.33
+  },
+  "tint #DCE3FC": {
+    "blueOn": 3.88,
+    "darkBlueOn": 5.83
+  },
+  "ink-2 #3A4452": {
+    "white": 9.87,
+    "mist": 9.03
+  },
+  "ink-3 #5E6979": {
+    "white": 5.57,
+    "mist": 5.1
+  },
+  "muted #667085": {
+    "white": 4.97,
+    "mist": 4.55
+  },
+  "tenants": [
+    {
+      "name": "Tidewell indigo #4338CA (baseline)",
+      "hex": "#4338CA",
+      "oklch": {
+        "L": 0.457,
+        "C": 0.215,
+        "h": 277
+      },
+      "distToBlue_OKLab": 0.108,
+      "whiteTextOn": 7.9
+    },
+    {
+      "name": "cyan-dark #0E7490",
+      "hex": "#0E7490",
+      "oklch": {
+        "L": 0.52,
+        "C": 0.094,
+        "h": 223
+      },
+      "distToBlue_OKLab": 0.175,
+      "whiteTextOn": 5.36
+    },
+    {
+      "name": "magenta #A21CAF",
+      "hex": "#A21CAF",
+      "oklch": {
+        "L": 0.518,
+        "C": 0.226,
+        "h": 324
+      },
+      "distToBlue_OKLab": 0.212,
+      "whiteTextOn": 6.32
+    },
+    {
+      "name": "plum #86198F",
+      "hex": "#86198F",
+      "oklch": {
+        "L": 0.452,
+        "C": 0.192,
+        "h": 325
+      },
+      "distToBlue_OKLab": 0.224,
+      "whiteTextOn": 8.24
+    },
+    {
+      "name": "Monsoon teal #0F766E",
+      "hex": "#0F766E",
+      "oklch": {
+        "L": 0.511,
+        "C": 0.086,
+        "h": 186
+      },
+      "distToBlue_OKLab": 0.232,
+      "whiteTextOn": 5.47
+    },
+    {
+      "name": "slate-green #115E59",
+      "hex": "#115E59",
+      "oklch": {
+        "L": 0.437,
+        "C": 0.071,
+        "h": 188
+      },
+      "distToBlue_OKLab": 0.253,
+      "whiteTextOn": 7.58
+    },
+    {
+      "name": "forest #166534",
+      "hex": "#166534",
+      "oklch": {
+        "L": 0.448,
+        "C": 0.108,
+        "h": 151
+      },
+      "distToBlue_OKLab": 0.309,
+      "whiteTextOn": 7.13
+    },
+    {
+      "name": "green #15803D",
+      "hex": "#15803D",
+      "oklch": {
+        "L": 0.527,
+        "C": 0.137,
+        "h": 150
+      },
+      "distToBlue_OKLab": 0.314,
+      "whiteTextOn": 5.02
+    },
+    {
+      "name": "crimson #9F1239",
+      "hex": "#9F1239",
+      "oklch": {
+        "L": 0.455,
+        "C": 0.171,
+        "h": 14
+      },
+      "distToBlue_OKLab": 0.331,
+      "whiteTextOn": 8.02
+    },
+    {
+      "name": "olive #4D7C0F",
+      "hex": "#4D7C0F",
+      "oklch": {
+        "L": 0.532,
+        "C": 0.141,
+        "h": 132
+      },
+      "distToBlue_OKLab": 0.34,
+      "whiteTextOn": 4.99
+    },
+    {
+      "name": "brick #9A3412",
+      "hex": "#9A3412",
+      "oklch": {
+        "L": 0.47,
+        "C": 0.143,
+        "h": 37
+      },
+      "distToBlue_OKLab": 0.343,
+      "whiteTextOn": 7.31
+    },
+    {
+      "name": "rose #BE123C",
+      "hex": "#BE123C",
+      "oklch": {
+        "L": 0.514,
+        "C": 0.198,
+        "h": 17
+      },
+      "distToBlue_OKLab": 0.344,
+      "whiteTextOn": 6.29
+    },
+    {
+      "name": "amber-brown #B45309",
+      "hex": "#B45309",
+      "oklch": {
+        "L": 0.555,
+        "C": 0.146,
+        "h": 49
+      },
+      "distToBlue_OKLab": 0.347,
+      "whiteTextOn": 5.02
+    },
+    {
+      "name": "Kestrel orange #C2410C",
+      "hex": "#C2410C",
+      "oklch": {
+        "L": 0.553,
+        "C": 0.174,
+        "h": 38
+      },
+      "distToBlue_OKLab": 0.359,
+      "whiteTextOn": 5.18
+    }
+  ],
+  "bestTenantTrio": {
+    "d": 0.248,
+    "set": [
+      "#A21CAF magenta #A21CAF",
+      "#0F766E Monsoon teal #0F766E",
+      "#C2410C Kestrel orange #C2410C"
+    ]
+  },
+  "blueVsCyperBlack": 4.24
+}

@@ -1,0 +1,3728 @@
+{
+ "slug": "crealo",
+ "url": "https://www.crealo.app/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 3139,
+  "consent": [],
+  "finalUrl": "https://www.crealo.app/",
+  "transferFirstLoad": {
+   "requests": 106,
+   "totalBytes": 2762791,
+   "byType": {
+    "Document": 46291,
+    "Stylesheet": 1367,
+    "Script": 1235297,
+    "Image": 419743,
+    "Other": 1206,
+    "Font": 350242,
+    "XHR": 621026,
+    "Ping": 1586,
+    "Fetch": 86033,
+    "Preflight": 0
+   },
+   "hosts": {
+    "cdn.prod.website-files.com": 1801211,
+    "www.crealo.app": 334636,
+    "static.axept.io": 213235,
+    "www.googletagmanager.com": 123115,
+    "fonts.axept.io": 117483,
+    "cdn.mxpnl.com": 34187,
+    "unpkg.com": 32966,
+    "d3e54v103j8qbb.cloudfront.net": 31990,
+    "cdn.jsdelivr.net": 28860,
+    "challenges.cloudflare.com": 28275,
+    "static.hotjar.com": 6864,
+    "client.axept.io": 2823,
+    "assets.apollo.io": 2670,
+    "aplo-evnt.com": 2455
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+     "bytes": 397691
+    },
+    {
+     "url": "https://www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8",
+     "bytes": 207590
+    },
+    {
+     "url": "https://static.axept.io/sdk.js",
+     "bytes": 204665
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+     "bytes": 125224
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PB6L4WQR",
+     "bytes": 122892
+    },
+    {
+     "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+     "bytes": 34187
+    },
+    {
+     "url": "https://unpkg.com/@bebranded/bb-contents@1.1.22/bb-contents.js",
+     "bytes": 32966
+    },
+    {
+     "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f96c1e75e94f64c995cffee",
+     "bytes": 31990
+    },
+    {
+     "url": "https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js",
+     "bytes": 28275
+    },
+    {
+     "url": "https://static.axept.io/behavior-detection.min.js",
+     "bytes": 8570
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmscore@1/cmscore.js",
+     "bytes": 8067
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-a11y@1/a11y.js",
+     "bytes": 7963
+    },
+    {
+     "url": "https://static.hotjar.com/c/hotjar-6401755.js?sv=7",
+     "bytes": 6864
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-animation@1/animation.esm.js",
+     "bytes": 5376
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",
+     "bytes": 3889
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js",
+     "bytes": 3565
+    },
+    {
+     "url": "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=vqyf7",
+     "bytes": 2670
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.c5f8b343.49f563063802fe47.js",
+     "bytes": 2630
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-D4T691Q80F&gtg_health=1",
+     "bytes": 223
+    }
+   ]
+  },
+  "dom": {
+   "title": "Crealo - Logiciel de gestion des droits d'auteur pour les éditeurs",
+   "lang": "fr",
+   "colorScheme": "normal",
+   "description": "Simplifiez votre reddition des comptes avec notre logiciel de gestion des droits d'auteur. Automatisez le calcul des droits, la gestion des contrats et des cessions.",
+   "ogImage": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/678d9ca53786862948002180_graphCrealo.png",
+   "canonical": "https://www.crealo.app/",
+   "jsonLd": [
+    "WebSite",
+    "SiteNavigationElement",
+    "Organization",
+    [
+     "Organization",
+     "WebSite",
+     "SoftwareApplication"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Logiciel de gestion des droits d'auteur pour les éditeurs",
+    "font-family": "Ratio, sans-serif",
+    "font-size": "64px",
+    "font-weight": "400",
+    "line-height": "70.4px",
+    "letter-spacing": "-0.75px",
+    "color": "rgb(45, 45, 45)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "Discover Crealo in 4 minutes",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "40px",
+     "font-weight": "400",
+     "line-height": "40px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(51, 51, 51)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Le système de référence pour vos droits d’auteur",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "40px",
+     "font-weight": "400",
+     "line-height": "40px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(51, 51, 51)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Ils recommandent Crealo",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "40px",
+     "font-weight": "400",
+     "line-height": "40px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    }
+   ],
+   "body": {
+    "font-family": "Manrope, Georgia, sans-serif",
+    "font-size": "14px",
+    "font-weight": "400",
+    "line-height": "20px",
+    "letter-spacing": "normal",
+    "color": "rgb(51, 51, 51)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Clients",
+     "x": 482,
+     "y": 0,
+     "w": 70,
+     "h": 80,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "14px/600",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Nos offres",
+     "x": 661,
+     "y": 0,
+     "w": 73,
+     "h": 80,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "14px/600",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Connexion",
+     "x": 854,
+     "y": 0,
+     "w": 94,
+     "h": 80,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(0, 0, 0)",
+     "radius": "0px",
+     "font": "14px/600",
+     "border": null,
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Planifier une démo",
+     "x": 1012,
+     "y": 20,
+     "w": 194,
+     "h": 40,
+     "bg": "rgb(0, 112, 255)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "2px",
+     "font": "14.4px/600",
+     "border": "1px solid rgb(0, 112, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Planifier une démo",
+     "x": 529,
+     "y": 408,
+     "w": 212,
+     "h": 42,
+     "bg": "rgb(0, 112, 255)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "2px",
+     "font": "16px/600",
+     "border": "1px solid rgb(0, 112, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Nous contacter",
+     "x": 753,
+     "y": 408,
+     "w": 158,
+     "h": 42,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(45, 45, 45)",
+     "radius": "2px",
+     "font": "16px/600",
+     "border": "1px solid rgb(45, 45, 45)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "nav",
+    "position": "absolute",
+    "h": 0,
+    "top": 0,
+    "bg": "rgb(221, 221, 221)",
+    "backdrop": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "links": [
+     "Gestion des ContratsComplétez, signez et diffusez vos contrats d'édition et de cession",
+     "AnalyticsAnalysez la performance de vos titres et de vos canaux",
+     "Gestion des CessionsSuivez les échéances des contrats, surveillez les paiements et automatisez les relances",
+     "Reddition des ComptesMettez votre reddition des comptes en autopilote",
+     "Gestion des commandesFormalisez les demandes d'assets, même en flux tendu.",
+     "Clearing des droits Centralisez vos droits acquis dans un tableau de bord",
+     "Gestion du CatalogueCentralisez la gestion de votre catalogue",
+     "Espace AuteurÉchangez facilement avec vos auteurs",
+     "Télécharger le guide"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "svg",
+     "x": 244,
+     "y": 28,
+     "w": 123,
+     "h": 24,
+     "paths": 12,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": 960,
+     "y": 32,
+     "w": 16,
+     "h": 16,
+     "src": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68249ac7cd3abb61cd70bdef_france.svg",
+     "natural": [
+      512,
+      512
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "French (Standard)",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 244,
+     "y": 163,
+     "w": 952,
+     "h": 351,
+     "src": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68f60c7bf72c18cd3a42ef9c_hero-pattern.svg",
+     "natural": [
+      1440,
+      531
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 244,
+     "y": 514,
+     "w": 229,
+     "h": 368,
+     "paths": 94,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 485,
+     "y": 514,
+     "w": 229,
+     "h": 368,
+     "paths": 22,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 726,
+     "y": 514,
+     "w": 470,
+     "h": 368,
+     "paths": 971,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": -2782,
+     "y": 954,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      1440,
+      846
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2615,
+     "y": 954,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2500,
+     "y": 954,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      1440,
+      590
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2292,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2060,
+     "y": 954,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628.webp",
+     "natural": [
+      1440,
+      574
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1847,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608.webp",
+     "natural": [
+      1440,
+      498
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1615,
+     "y": 954,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1456,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9a9c79f186bbd2b61df_Frame%201.webp",
+     "natural": [
+      1440,
+      421
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "City Editions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1224,
+     "y": 954,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1112,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -984,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -855,
+     "y": 954,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      1440,
+      820
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -685,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -453,
+     "y": 954,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -282,
+     "y": 954,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -150,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -13,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 125,
+     "y": 954,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      1440,
+      846
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 292,
+     "y": 954,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 407,
+     "y": 954,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      1440,
+      590
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 616,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 848,
+     "y": 954,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628.webp",
+     "natural": [
+      1440,
+      574
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1060,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608.webp",
+     "natural": [
+      1440,
+      498
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1292,
+     "y": 954,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1451,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9a9c79f186bbd2b61df_Frame%201.webp",
+     "natural": [
+      1440,
+      421
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "City Editions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1683,
+     "y": 954,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1795,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1923,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2052,
+     "y": 954,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      1440,
+      820
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2222,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2454,
+     "y": 954,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2626,
+     "y": 954,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2757,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2895,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3032,
+     "y": 954,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      1440,
+      846
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3200,
+     "y": 954,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3315,
+     "y": 954,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      1440,
+      590
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3523,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3755,
+     "y": 954,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628.webp",
+     "natural": [
+      1440,
+      574
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3968,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608.webp",
+     "natural": [
+      1440,
+      498
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4200,
+     "y": 954,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4359,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9a9c79f186bbd2b61df_Frame%201.webp",
+     "natural": [
+      1440,
+      421
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "City Editions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4591,
+     "y": 954,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4703,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4831,
+     "y": 954,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4959,
+     "y": 954,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      1440,
+      820
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5130,
+     "y": 954,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5362,
+     "y": 954,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5533,
+     "y": 954,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5665,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5802,
+     "y": 954,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 245,
+     "y": 1474,
+     "w": 625,
+     "h": 205,
+     "paths": 1341,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 896,
+     "y": 1496,
+     "w": 299,
+     "h": 182,
+     "paths": 18,
+     "cls": ""
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "logo-left-gradient",
+     "w": 144,
+     "h": 60,
+     "bg": "linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "logo-left-gradient right",
+     "w": 144,
+     "h": 60,
+     "bg": "linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    }
+   ],
+   "fontShare": {
+    "Manrope": 2888,
+    "Ratio": 2933
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 16984644,
+    "rgb(45, 45, 45)": 3103920
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 0,
+    "filters": 77,
+    "video": 0,
+    "canvas": 0,
+    "svg": 70,
+    "img": 100,
+    "buttons": 0,
+    "forms": 1,
+    "tables": 0,
+    "details": 0,
+    "links": 81,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 Logiciel de gestion des droits d'auteur pour les éditeurs",
+    "H2 Discover Crealo in 4 minutes",
+    "H2 Le système de référence pour vos droits d’auteur",
+    "H3 Reddition des comptes",
+    "H3 Gestion des cessions",
+    "H3 Analytics",
+    "H3 Gestion des contrats",
+    "H3 Espace auteur",
+    "H2 Ils recommandent Crealo",
+    "H2 Transformez votre gestion des droits d'auteur et des contrats, simplifiez vos redditions a",
+    "H2 Jusqu'à 70% de gain de temps dédié à la reddition des compte et à la gestion des droits",
+    "H2 Une solution de gestion des droits d'auteur qui vous accompagne dans votre développement",
+    "H3 Modélisez vos flux comme ils fonctionnent réellement dans votre organisation",
+    "H3 Des intégrations natives et conçues pour l'industrie",
+    "H2 Un engagement constant pour la sécurité de vos données",
+    "H2 Notre actualité"
+   ],
+   "fonts": [
+    "Manrope 400 normal",
+    "Manrope 700 normal",
+    "Manrope 600 normal",
+    "Ratio 400 normal",
+    "Ratio 500 normal",
+    "Axeptio CJK Fallback 100 900 normal",
+    "Axeptio Source Sans 3 400 normal",
+    "Axeptio Source Sans 3 500 normal",
+    "Axeptio Source Sans 3 600 normal",
+    "Axeptio Source Sans 3 700 normal"
+   ],
+   "firstViewTextSample": "Produit\nClients\nIndustries\nNos offres\nRessources\nConnexion\nFR\nPlanifier une démo\nLogiciel de gestion des droits d'auteur pour les éditeurs\n\nAutomatisez tout le flux de travail lié à la gestion des droits d’auteur,\nde la signature des contrats jusqu’aux déclarations URSSAF\n\nPlanifier une démo\nNous contacter\n\nPlus de 200 éditeurs de tous les segments simplifient leur gestion des droits d’auteur avec Crealo\n\nLe système de référence pour vos droits d’auteur\n\nDes fonctionnalités avancées, une interface intuitive et un large éventail d'intégrations\n\nReddition des comptes\nAutomatisez votre reddition des comptes\nGestion des cessions\nSuivez vos cessions de droits et réduisez les délais de paiement\nAnalytics\nSuivez la performance de vos titres et nouveautés\nGestion des contrats\nSimplifiez la création et la signature de vos contrats d'édition\nEspace auteur\nÉchangez facilement des documents avec vos auteurs\nIls recommandent Crealo\nDécouvrez comment nos éditeurs partenaires ont automatisé leur gestion des redevances.\nRetour d'expérience d'éditeurs\n\" Tenant compte de nos volumes, nous avons un grand besoin de souplesse, couplé à un besoin d’analyser les données, de contrôler les calculs, et de lier notre outil de suivi des ventes à celui des droits d’auteur. Nous cherchions une interface simple et moderne et Crealo couvrait toutes nos spécificités.\"\nFanny Lepaicheux\nGestionnaire de droits d'auteur\nLire le témoignage\n\" Avant j’utilisais Excel et mettais 1 mois par an pour faire la reddition",
+   "pageHeight": 7096,
+   "hasHScroll": false,
+   "visibleChars": 5954,
+   "landmarks": {
+    "header": 0,
+    "nav": 5,
+    "main": 1,
+    "footer": 0,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 3,
+   "ro": 0,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "2d",
+    "webgl",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 484,
+    "tag": "IMG",
+    "id": null,
+    "size": 333735,
+    "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68f60c7bf72c18cd3a42ef9c_hero-pattern.svg"
+   },
+   "cls": 0.0032,
+   "longTasks": 3,
+   "listeners": [
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "head"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    }
+   ]
+  },
+  "idleRafPerSecond": 121,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 165,
+   "settle98Ms": 165,
+   "distinctPositions": 2,
+   "samples": 105,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 3548,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 6383,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 121,
+   "totalBytes": 3493471,
+   "byType": {
+    "Document": 46291,
+    "Stylesheet": 1367,
+    "Script": 1244515,
+    "Image": 1140561,
+    "Other": 1206,
+    "Font": 350242,
+    "XHR": 621113,
+    "Ping": 2143,
+    "Fetch": 86033,
+    "Preflight": 0
+   },
+   "hosts": {
+    "cdn.prod.website-files.com": 2517798,
+    "www.crealo.app": 334636,
+    "static.axept.io": 222453,
+    "www.googletagmanager.com": 123115,
+    "fonts.axept.io": 117483,
+    "cdn.mxpnl.com": 34187,
+    "unpkg.com": 32966,
+    "d3e54v103j8qbb.cloudfront.net": 31990,
+    "cdn.jsdelivr.net": 28860,
+    "challenges.cloudflare.com": 28275,
+    "static.hotjar.com": 6864,
+    "axeptio.imgix.net": 4231,
+    "client.axept.io": 2823,
+    "assets.apollo.io": 2670
+   }
+  },
+  "fp": {
+   "present": [
+    "Webflow",
+    "jQuery",
+    "gtag",
+    "dataLayer",
+    "mixpanel"
+   ],
+   "htmlCls": "w-mod-js w-mod-ix",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [],
+    "lottie": 3,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": true,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 17,
+   "scripts": [
+    "https://static.hotjar.com/c/hotjar-6401755.js?sv=7",
+    "https://static.axept.io/sdk.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-D4T691Q80F&gtg_health=1",
+    "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-PB6L4WQR",
+    "https://www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8",
+    "https://unpkg.com/@bebranded/bb-contents@test/bb-contents.js",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=vqyf7",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-a11y@1/a11y.js",
+    "https://challenges.cloudflare.com/turnstile/v0/api.js",
+    "https://static.axept.io/behavior-detection.min.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f96c1e75e94f64c995cffee",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.c5f8b343.49f563063802fe47.js"
+   ],
+   "inlineScripts": 21,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h3",
+  "scriptSignatures": {
+   "gsap": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js"
+   ],
+   "lenis": [
+    "static.axept.io/sdk.js"
+   ],
+   "lottie": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js"
+   ],
+   "webflowIx": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "static.axept.io/sdk.js"
+   ],
+   "intersection": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8"
+   ],
+   "webgl": [
+    "static.axept.io/behavior-detection.min.js"
+   ],
+   "barba": [
+    "unpkg.com/@bebranded/bb-contents@1.1.22/bb-contents.js"
+   ]
+  },
+  "scriptsScanned": 21,
+  "cssFeatures": {
+   "backdrop-filter": 4,
+   "sticky": 8,
+   "text-wrap": 2,
+   "clip-path": 4
+  },
+  "cssBytes": {
+   "linked": 266703,
+   "inline": 7075,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "mobile": {
+  "viewport": {
+   "width": 390,
+   "height": 844
+  },
+  "mobile": true,
+  "loadMs": 2941,
+  "consent": [],
+  "finalUrl": "https://www.crealo.app/",
+  "transferFirstLoad": {
+   "requests": 104,
+   "totalBytes": 2759108,
+   "byType": {
+    "Document": 46306,
+    "Stylesheet": 1365,
+    "Script": 1294115,
+    "Image": 356960,
+    "Other": 1206,
+    "Font": 350497,
+    "XHR": 621025,
+    "Ping": 1585,
+    "Fetch": 86049,
+    "Preflight": 0
+   },
+   "hosts": {
+    "cdn.prod.website-files.com": 1739616,
+    "www.crealo.app": 334685,
+    "static.axept.io": 213211,
+    "www.googletagmanager.com": 123124,
+    "fonts.axept.io": 117440,
+    "script.hotjar.com": 58313,
+    "cdn.mxpnl.com": 34168,
+    "unpkg.com": 32966,
+    "d3e54v103j8qbb.cloudfront.net": 31989,
+    "cdn.jsdelivr.net": 28864,
+    "challenges.cloudflare.com": 28275,
+    "static.hotjar.com": 6871,
+    "client.axept.io": 2823,
+    "assets.apollo.io": 2670
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+     "bytes": 398064
+    },
+    {
+     "url": "https://www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8",
+     "bytes": 207598
+    },
+    {
+     "url": "https://static.axept.io/sdk.js",
+     "bytes": 204667
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+     "bytes": 125372
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PB6L4WQR",
+     "bytes": 122901
+    },
+    {
+     "url": "https://script.hotjar.com/modules.ac003456795fba9e297a.js",
+     "bytes": 58313
+    },
+    {
+     "url": "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+     "bytes": 34168
+    },
+    {
+     "url": "https://unpkg.com/@bebranded/bb-contents@1.1.22/bb-contents.js",
+     "bytes": 32966
+    },
+    {
+     "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f96c1e75e94f64c995cffee",
+     "bytes": 31989
+    },
+    {
+     "url": "https://challenges.cloudflare.com/turnstile/v0/g/4df4a60fa397/api.js",
+     "bytes": 28275
+    },
+    {
+     "url": "https://static.axept.io/behavior-detection.min.js",
+     "bytes": 8544
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmscore@1/cmscore.js",
+     "bytes": 8071
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-a11y@1/a11y.js",
+     "bytes": 7965
+    },
+    {
+     "url": "https://static.hotjar.com/c/hotjar-6401755.js?sv=7",
+     "bytes": 6871
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-animation@1/animation.esm.js",
+     "bytes": 5376
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",
+     "bytes": 3891
+    },
+    {
+     "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js",
+     "bytes": 3561
+    },
+    {
+     "url": "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=5v4orz",
+     "bytes": 2670
+    },
+    {
+     "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.c5f8b343.49f563063802fe47.js",
+     "bytes": 2630
+    },
+    {
+     "url": "https://www.googletagmanager.com/gtag/js?id=G-D4T691Q80F&gtg_health=1",
+     "bytes": 223
+    }
+   ]
+  },
+  "dom": {
+   "title": "Crealo - Logiciel de gestion des droits d'auteur pour les éditeurs",
+   "lang": "fr",
+   "colorScheme": "normal",
+   "description": "Simplifiez votre reddition des comptes avec notre logiciel de gestion des droits d'auteur. Automatisez le calcul des droits, la gestion des contrats et des cessions.",
+   "ogImage": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/678d9ca53786862948002180_graphCrealo.png",
+   "canonical": "https://www.crealo.app/",
+   "jsonLd": [
+    "WebSite",
+    "SiteNavigationElement",
+    "Organization",
+    [
+     "Organization",
+     "WebSite",
+     "SoftwareApplication"
+    ]
+   ],
+   "generator": null,
+   "themeColor": null,
+   "h1": {
+    "text": "Logiciel de gestion des droits d'auteur pour les éditeurs",
+    "font-family": "Ratio, sans-serif",
+    "font-size": "40px",
+    "font-weight": "400",
+    "line-height": "44px",
+    "letter-spacing": "-0.75px",
+    "color": "rgb(45, 45, 45)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "Discover Crealo in 4 minutes",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "32px",
+     "font-weight": "400",
+     "line-height": "32px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(51, 51, 51)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Le système de référence pour vos droits d’auteur",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "32px",
+     "font-weight": "400",
+     "line-height": "32px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(51, 51, 51)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    },
+    {
+     "text": "Ils recommandent Crealo",
+     "font-family": "Ratio, sans-serif",
+     "font-size": "32px",
+     "font-weight": "400",
+     "line-height": "32px",
+     "letter-spacing": "-0.75px",
+     "color": "rgb(255, 255, 255)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "wrap"
+    }
+   ],
+   "body": {
+    "font-family": "Manrope, Georgia, sans-serif",
+    "font-size": "14px",
+    "font-weight": "400",
+    "line-height": "20px",
+    "letter-spacing": "normal",
+    "color": "rgb(51, 51, 51)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(255, 255, 255)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "home",
+     "x": 20,
+     "y": 12,
+     "w": 104,
+     "h": 32,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(51, 51, 51)",
+     "radius": "0px",
+     "font": "16px/400",
+     "border": "0px none rgb(51, 51, 51)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Planifier une démo",
+     "x": 16,
+     "y": 396,
+     "w": 358,
+     "h": 42,
+     "bg": "rgb(0, 112, 255)",
+     "color": "rgb(255, 255, 255)",
+     "radius": "2px",
+     "font": "16px/600",
+     "border": "1px solid rgb(0, 112, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Nous contacter",
+     "x": 16,
+     "y": 450,
+     "w": 358,
+     "h": 42,
+     "bg": "rgb(255, 255, 255)",
+     "color": "rgb(45, 45, 45)",
+     "radius": "2px",
+     "font": "16px/600",
+     "border": "1px solid rgb(45, 45, 45)",
+     "shadow": null
+    }
+   ],
+   "header": {
+    "tag": "nav",
+    "position": "absolute",
+    "h": 0,
+    "top": 0,
+    "bg": "rgb(221, 221, 221)",
+    "backdrop": "none",
+    "border": "0px none rgb(0, 0, 0)",
+    "links": [
+     "Gestion des ContratsComplétez, signez et diffusez vos contrats d'édition et de cession",
+     "AnalyticsAnalysez la performance de vos titres et de vos canaux",
+     "Gestion des CessionsSuivez les échéances des contrats, surveillez les paiements et automatisez les relances",
+     "Reddition des ComptesMettez votre reddition des comptes en autopilote",
+     "Gestion des commandesFormalisez les demandes d'assets, même en flux tendu.",
+     "Clearing des droits Centralisez vos droits acquis dans un tableau de bord",
+     "Gestion du CatalogueCentralisez la gestion de votre catalogue",
+     "Espace AuteurÉchangez facilement avec vos auteurs",
+     "Télécharger le guide"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "img",
+     "x": 20,
+     "y": 12,
+     "w": 104,
+     "h": 32,
+     "src": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/669cea95015b23e2293f82e6_Crealo-logo.svg",
+     "natural": [
+      123,
+      24
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "Crealo logo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 278,
+     "y": 20,
+     "w": 16,
+     "h": 16,
+     "src": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68249ac7cd3abb61cd70bdef_france.svg",
+     "natural": [
+      512,
+      512
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "French (Standard)",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 16,
+     "y": 228,
+     "w": 358,
+     "h": 132,
+     "src": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68f60c7bf72c18cd3a42ef9c_hero-pattern.svg",
+     "natural": [
+      1440,
+      531
+     ],
+     "loading": "eager",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 16,
+     "y": 524,
+     "w": 173,
+     "h": 225,
+     "paths": 94,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 201,
+     "y": 524,
+     "w": 173,
+     "h": 225,
+     "paths": 22,
+     "cls": ""
+    },
+    {
+     "tag": "svg",
+     "x": 16,
+     "y": 760,
+     "w": 358,
+     "h": 225,
+     "paths": 971,
+     "cls": ""
+    },
+    {
+     "tag": "img",
+     "x": -2786,
+     "y": 1119,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      390,
+      229
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2619,
+     "y": 1119,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2504,
+     "y": 1119,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      390,
+      159
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2296,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -2064,
+     "y": 1119,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628-p-800.webp",
+     "natural": [
+      390,
+      155
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1851,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608-p-800.webp",
+     "natural": [
+      390,
+      135
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1619,
+     "y": 1119,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1460,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9a9c79f186bbd2b61df_Frame%201.webp",
+     "natural": [
+      390,
+      114
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "City Editions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1228,
+     "y": 1119,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -1116,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -988,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -860,
+     "y": 1119,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      390,
+      222
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -689,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -457,
+     "y": 1119,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -286,
+     "y": 1119,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -154,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": -17,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 121,
+     "y": 1119,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      390,
+      229
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 288,
+     "y": 1119,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 403,
+     "y": 1119,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      390,
+      159
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 612,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 844,
+     "y": 1119,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628-p-800.webp",
+     "natural": [
+      390,
+      155
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1056,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608-p-800.webp",
+     "natural": [
+      390,
+      135
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1288,
+     "y": 1119,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1519,
+     "y": 1119,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1631,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1759,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1888,
+     "y": 1119,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      390,
+      222
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2058,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2290,
+     "y": 1119,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2462,
+     "y": 1119,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2593,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2731,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 2868,
+     "y": 1119,
+     "w": 95,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb23f2028be7c89a116a_Frame%201707478610.webp",
+     "natural": [
+      390,
+      229
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Auzou",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3036,
+     "y": 1119,
+     "w": 43,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8f9e7efac1afe968b684c_Frame%203.webp",
+     "natural": [
+      267,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Lunii",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3151,
+     "y": 1119,
+     "w": 137,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa300034aa0cdf09d373_Frame%201707478598.webp",
+     "natural": [
+      390,
+      159
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Henry Lemoine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3359,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabc0b1c160ac3a006ebae9_bayard-black.svg",
+     "natural": [
+      800,
+      214
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Bayard",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3591,
+     "y": 1119,
+     "w": 140,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcd597ec18d962dae752_Frame%201707478628-p-800.webp",
+     "natural": [
+      390,
+      155
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Beaux Arts magazine",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 3804,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fae71a6c0cc9b200f8cb_Frame%201707478608-p-800.webp",
+     "natural": [
+      390,
+      135
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Rosie & Wolfe",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4036,
+     "y": 1119,
+     "w": 87,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2a3f3489d448cdc55a525_crealo-paris-match-black.svg",
+     "natural": [
+      180,
+      116
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Paris Match",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4266,
+     "y": 1119,
+     "w": 40,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fc22f36d4ba0236c6599_Frame%201707478621.webp",
+     "natural": [
+      250,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Éditions Paulsen",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4379,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aabeaa599ad59a0d3d357f9_milan-black.svg",
+     "natural": [
+      224,
+      224
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Milan Presse",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4507,
+     "y": 1119,
+     "w": 56,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fafc70ff26c60ded93f1_Frame%201707478609.webp",
+     "natural": [
+      351,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Muséum National d'histoire naturelle",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4635,
+     "y": 1119,
+     "w": 98,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fd5524ad47cc5338cf0d_Frame%201707478635.webp",
+     "natural": [
+      390,
+      222
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Accès éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 4805,
+     "y": 1119,
+     "w": 160,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aba69f231baa7bf5c06fe96_Conse%CC%81quences-editions-logo.svg",
+     "natural": [
+      1280,
+      200
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Conséquences Éditions",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5037,
+     "y": 1119,
+     "w": 100,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/6aa2ae526d186fac75911acf_arte_logo_rgb%20blanc%201%20(1).svg",
+     "natural": [
+      1920,
+      1080
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5209,
+     "y": 1119,
+     "w": 59,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fa8029042f90cec218d6_Frame%201707478603.webp",
+     "natural": [
+      369,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Le Un Hebdo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5340,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fcff86a915282232774c_Frame%201707478630.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Palais de Tokyo",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 5478,
+     "y": 1119,
+     "w": 66,
+     "h": 56,
+     "src": "https://cdn.prod.website-files.com/608d4c6fb6b329469655bd94/69e8fb372d114553aeb95006_Frame%201707478611.webp",
+     "natural": [
+      408,
+      348
+     ],
+     "loading": "lazy",
+     "fetchpriority": null,
+     "alt": "Arte Studio",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "logo-left-gradient",
+     "w": 39,
+     "h": 60,
+     "bg": "linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    },
+    {
+     "tag": "div",
+     "cls": "logo-left-gradient right",
+     "w": 39,
+     "h": 60,
+     "bg": "linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0))"
+    }
+   ],
+   "fontShare": {
+    "Manrope": 2817,
+    "Ratio": 2933
+   },
+   "bgs": {
+    "rgb(255, 255, 255)": 9549453,
+    "rgb(45, 45, 45)": 1044054,
+    "rgb(209, 238, 247)": 228806
+   },
+   "counts": {
+    "gradients": 2,
+    "backdrop": 0,
+    "filters": 77,
+    "video": 0,
+    "canvas": 0,
+    "svg": 70,
+    "img": 100,
+    "buttons": 0,
+    "forms": 1,
+    "tables": 0,
+    "details": 0,
+    "links": 81,
+    "iframes": 1
+   },
+   "headings": [
+    "H1 Logiciel de gestion des droits d'auteur pour les éditeurs",
+    "H2 Discover Crealo in 4 minutes",
+    "H2 Le système de référence pour vos droits d’auteur",
+    "H3 Reddition des comptes",
+    "H3 Gestion des cessions",
+    "H3 Analytics",
+    "H3 Gestion des contrats",
+    "H3 Espace auteur",
+    "H2 Ils recommandent Crealo",
+    "H2 Transformez votre gestion des droits d'auteur et des contrats, simplifiez vos redditions a",
+    "H2 Jusqu'à 70% de gain de temps dédié à la reddition des compte et à la gestion des droits",
+    "H2 Une solution de gestion des droits d'auteur qui vous accompagne dans votre développement",
+    "H3 Modélisez vos flux comme ils fonctionnent réellement dans votre organisation",
+    "H3 Des intégrations natives et conçues pour l'industrie",
+    "H2 Un engagement constant pour la sécurité de vos données",
+    "H2 Notre actualité"
+   ],
+   "fonts": [
+    "Manrope 400 normal",
+    "Manrope 700 normal",
+    "Manrope 600 normal",
+    "Ratio 400 normal",
+    "Ratio 500 normal",
+    "Axeptio CJK Fallback 100 900 normal",
+    "Axeptio Source Sans 3 400 normal",
+    "Axeptio Source Sans 3 500 normal",
+    "Axeptio Source Sans 3 600 normal",
+    "Axeptio Source Sans 3 700 normal"
+   ],
+   "firstViewTextSample": "FR\nLogiciel de gestion des droits d'auteur pour les éditeurs\n\nAutomatisez tout le flux de travail lié à la gestion des droits d’auteur,\nde la signature des contrats jusqu’aux déclarations URSSAF\n\nPlanifier une démo\nNous contacter\n\nPlus de 200 éditeurs de tous les segments simplifient leur gestion des droits d’auteur avec Crealo\n\nLe système de référence pour vos droits d’auteur\n\nDes fonctionnalités avancées, une interface intuitive et un large éventail d'intégrations\n\nReddition des comptes\nAutomatisez votre reddition des comptes\nGestion des cessions\nSuivez vos cessions de droits et réduisez les délais de paiement\nAnalytics\nSuivez la performance de vos titres et nouveautés\nGestion des contrats\nSimplifiez la création et la signature de vos contrats d'édition\nEspace auteur\nÉchangez facilement des documents avec vos auteurs\nIls recommandent Crealo\nDécouvrez comment nos éditeurs partenaires ont automatisé leur gestion des redevances.\nRetour d'expérience d'éditeurs\n\" Tenant compte de nos volumes, nous avons un grand besoin de souplesse, couplé à un besoin d’analyser les données, de contrôler les calculs, et de lier notre outil de suivi des ventes à celui des droits d’auteur. Nous cherchions une interface simple et moderne et Crealo couvrait toutes nos spécificités.\"\nFanny Lepaicheux\nGestionnaire de droits d'auteur\nLire le témoignage\n\" Avant j’utilisais Excel et mettais 1 mois par an pour faire la reddition des comptes. Aujourd’hui avec Crealo, je ne touche plus à la reddition, c’est",
+   "pageHeight": 9630,
+   "hasHScroll": false,
+   "visibleChars": 5876,
+   "landmarks": {
+    "header": 0,
+    "nav": 5,
+    "main": 1,
+    "footer": 0,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [],
+  "runtime": {
+   "io": 3,
+   "ro": 0,
+   "animateCalls": 0,
+   "canvasContexts": [
+    "2d",
+    "2d",
+    "webgl",
+    "webgl"
+   ],
+   "lcp": {
+    "t": 248,
+    "tag": "IMG",
+    "id": null,
+    "size": 47256,
+    "url": "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/68f60c7bf72c18cd3a42ef9c_hero-pattern.svg"
+   },
+   "cls": 0,
+   "longTasks": 4,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "wheel",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "document"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "head"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "head"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "node"
+    },
+    {
+     "type": "touchmove",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "a"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "input"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    }
+   ]
+  },
+  "idleRafPerSecond": 120,
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 844,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "mid",
+    "scrollY": 4815,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   },
+   {
+    "stop": "footer",
+    "scrollY": 9630,
+    "count": 0,
+    "infinite": 0,
+    "sample": []
+   }
+  ],
+  "transferAfterScroll": {
+   "requests": 125,
+   "totalBytes": 3239356,
+   "byType": {
+    "Document": 46306,
+    "Stylesheet": 1365,
+    "Script": 1303334,
+    "Image": 826973,
+    "Other": 1206,
+    "Font": 350497,
+    "XHR": 621484,
+    "Ping": 2142,
+    "Fetch": 86049,
+    "Preflight": 0
+   },
+   "hosts": {
+    "cdn.prod.website-files.com": 2202732,
+    "www.crealo.app": 334685,
+    "static.axept.io": 222430,
+    "www.googletagmanager.com": 123124,
+    "fonts.axept.io": 117440,
+    "script.hotjar.com": 58313,
+    "cdn.mxpnl.com": 34168,
+    "unpkg.com": 32966,
+    "d3e54v103j8qbb.cloudfront.net": 31989,
+    "cdn.jsdelivr.net": 28864,
+    "challenges.cloudflare.com": 28275,
+    "axeptio.imgix.net": 6897,
+    "static.hotjar.com": 6871,
+    "client.axept.io": 2823
+   }
+  },
+  "fp": {
+   "present": [
+    "Webflow",
+    "jQuery",
+    "gtag",
+    "dataLayer",
+    "mixpanel"
+   ],
+   "htmlCls": "w-mod-js w-mod-touch w-mod-ix",
+   "styleAttr": null,
+   "els": {
+    "canvas": 0,
+    "video": [],
+    "lottie": 3,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": true,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": false,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 18,
+   "scripts": [
+    "https://static.hotjar.com/c/hotjar-6401755.js?sv=7",
+    "https://static.axept.io/sdk.js",
+    "https://www.googletagmanager.com/gtag/js?id=G-D4T691Q80F&gtg_health=1",
+    "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-PB6L4WQR",
+    "https://www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8",
+    "https://unpkg.com/@bebranded/bb-contents@test/bb-contents.js",
+    "https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=5v4orz",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-a11y@1/a11y.js",
+    "https://challenges.cloudflare.com/turnstile/v0/api.js",
+    "https://script.hotjar.com/modules.ac003456795fba9e297a.js",
+    "https://static.axept.io/behavior-detection.min.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-modal@1/modal.js",
+    "https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsslider@1/cmsslider.js",
+    "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f96c1e75e94f64c995cffee",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "https://cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.c5f8b343.49f563063802fe47.js"
+   ],
+   "inlineScripts": 21,
+   "generator": null,
+   "scrollBehavior": "auto",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h3",
+  "scriptSignatures": {
+   "gsap": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js"
+   ],
+   "lenis": [
+    "static.axept.io/sdk.js"
+   ],
+   "lottie": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.f029965fe588bec7.js",
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js"
+   ],
+   "framerMotion": [
+    "script.hotjar.com/modules.ac003456795fba9e297a.js"
+   ],
+   "webflowIx": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "static.axept.io/sdk.js"
+   ],
+   "intersection": [
+    "cdn.prod.website-files.com/5f96c1e75e94f64c995cffee/js/webflow.schunk.821e331d07b33b0c.js",
+    "www.crealo.app/wvxwa3jtwetcNWY5NmMxZTc1ZTk0ZjY0Yzk5NWNmZmVl/cUV9bvrBogbuwgjnEh65XSslCt8"
+   ],
+   "webgl": [
+    "static.axept.io/behavior-detection.min.js"
+   ],
+   "barba": [
+    "unpkg.com/@bebranded/bb-contents@1.1.22/bb-contents.js"
+   ]
+  },
+  "scriptsScanned": 22,
+  "cssFeatures": {
+   "backdrop-filter": 4,
+   "sticky": 8,
+   "text-wrap": 2,
+   "clip-path": 4
+  },
+  "cssBytes": {
+   "linked": 266703,
+   "inline": 7075,
+   "files": 2
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 0,
+   "infinite": 0,
+   "sample": []
+  }
+ },
+ "noJs": {
+  "visibleChars": 5954,
+  "h1": "Logiciel de gestion des droits d'auteur pour les éditeurs",
+  "firstViewportText": "Clients | Nos offres | Connexion | Planifier une démo | Logiciel de gestion des droits d'auteur pour les éditeurs | Automatisez tout le flux de travail lié à la gestion des droits d’auteur,\nde la signature des contrats jusqu’aux déclarations URSSAF | Planifier une démo | Nous contacter"
+ }
+}

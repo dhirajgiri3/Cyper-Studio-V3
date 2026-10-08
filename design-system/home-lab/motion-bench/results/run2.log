@@ -1,0 +1,9 @@
+[16:52:48] atmosphere perf
+atmos-none     desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 0 | script ms 2
+atmos-webp     desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 0 | script ms 2
+atmos-webp-grain desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 0 | script ms 2
+atmos-video    desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CLS 0 | frame p95 16.8 p99 16.8 >33ms% 0 dropped 0 | script ms 2
+atmos-webgl    desktop cpu x4 | TBT(load) 0 TBT(session) 0 maxLT 0 | INP null CLS 0 | frame p95 16.7 p99 16.8 >33ms% 0 dropped 0 | script ms 39
+[16:53:55] lighthouse bench
+s0             perf 100,100,100,100,100 | median LCP 1202.26 TBT 0 CLS 0 FCP 752.26 script B 662
+s1             perf 100,100,100,100,100 | median LCP 1204.06 TBT 0 CLS 0 FCP 754.06 script B 5953

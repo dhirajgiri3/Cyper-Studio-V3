@@ -1,0 +1,13 @@
+{
+  "ribbonWebp": 9330,
+  "ribbonAvif": 4278,
+  "ribbonGrainWebp": 133154,
+  "ribbon390Webp": 2976,
+  "videoMp4": 164134,
+  "videoWebm": 112179,
+  "webglJs": {
+    "raw": 46045,
+    "gzip": 13561,
+    "brotli": 11581
+  }
+}

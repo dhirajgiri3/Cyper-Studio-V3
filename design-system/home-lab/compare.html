@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HELIX Home Lab: compare heroes (not locked)</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<style>
+@font-face{font-family:Geist;src:url(../fonts/Geist-Variable.subset.woff2) format("woff2");font-weight:100 900;font-display:swap}
+@font-face{font-family:"Geist Mono";src:url(../fonts/GeistMono-Variable.subset.woff2) format("woff2");font-weight:100 900;font-display:swap}
+:root{color-scheme:light;--ink:#0B1220;--text:#475467;--line:#E4E7EC;--surface:#F9FAFB;--accent:#4161F4}
+*{box-sizing:border-box}body{margin:0;font:15px/1.5 Geist,system-ui,sans-serif;color:var(--text);background:#fff}
+.bar{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid var(--line);padding:10px 20px;display:flex;flex-wrap:wrap;gap:12px 28px;align-items:center}
+.bar h1{font-size:15px;margin:0;color:var(--ink);font-weight:600}.badge{font:500 11px "Geist Mono",monospace;border:1px solid var(--line);border-radius:6px;padding:2px 6px;color:#667085}
+.grp{display:inline-flex;align-items:center;gap:6px;font:500 12px "Geist Mono",monospace;color:#667085}
+.seg{display:inline-flex;border:1px solid #8691A3;border-radius:8px;overflow:hidden}.seg button{border:0;background:#fff;padding:7px 12px;font:500 13px Geist,sans-serif;color:var(--ink);cursor:pointer;min-height:36px}.seg button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.seg button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.grid{display:grid;gap:20px;padding:20px;justify-content:center}
+.v1440 .grid{grid-template-columns:repeat(2,minmax(0,var(--tw)))}.v390 .grid{grid-template-columns:repeat(4,var(--tw))}
+.tile{position:relative;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface);width:var(--tw)}
+.id{position:absolute;z-index:2;right:8px;bottom:44px;background:var(--ink);color:#fff;font:600 12px "Geist Mono",monospace;padding:4px 8px;border-radius:6px;letter-spacing:.04em}
+.tile figcaption{padding:8px 12px;border-top:1px solid var(--line);font-size:13px;background:#fff}.tile figcaption b{color:var(--ink)}
+.vp{overflow:hidden;width:var(--tw);height:var(--th)}
+.vp iframe{border:0;width:var(--fw);height:var(--fh);transform:scale(var(--sc));transform-origin:0 0;background:#fff;pointer-events:none}
+.live .vp iframe{pointer-events:auto}
+.note{padding:0 20px 24px;max-width:90ch;font-size:13px}
+</style></head>
+<body class="v1440">
+<div class="bar">
+  <h1>HELIX Home Lab · hero compare</h1><span class="badge">PROPOSAL · NOTHING LOCKED</span>
+  <span class="grp">VIEW <span class="seg" role="group" aria-label="Viewport"><button type="button" data-view="1440" aria-pressed="true">1440 × 800</button><button type="button" data-view="390" aria-pressed="false">390 × 844</button></span></span>
+  <span class="grp">PALETTE <span class="seg" role="group" aria-label="Palette"><button type="button" data-pal="p1" aria-pressed="true">P1 blue</button><button type="button" data-pal="p2" aria-pressed="false">P2 ink</button></span></span>
+  <span class="grp">TYPE <span class="seg" role="group" aria-label="Headline treatment"><button type="button" data-type="" aria-pressed="true">default</button><button type="button" data-type="1" aria-pressed="false">TYPE-1</button><button type="button" data-type="2" aria-pressed="false">TYPE-2</button><button type="button" data-type="3" aria-pressed="false">TYPE-3</button></span></span>
+  <span class="grp">MOTION <span class="seg" role="group" aria-label="Motion"><button type="button" data-rm="0" aria-pressed="true">on</button><button type="button" data-rm="1" aria-pressed="false">reduced</button></span></span>
+  <span class="grp">INTERACT <span class="seg" role="group" aria-label="Interact"><button type="button" data-live="0" aria-pressed="true">off</button><button type="button" data-live="1" aria-pressed="false">on</button></span></span>
+  <button type="button" id="reload" class="badge" style="cursor:pointer;background:#fff">replay</button>
+</div>
+<main class="grid" id="grid"></main>
+<p class="note">TYPE-1: Geist 600, -0.03em. TYPE-2: Geist 700, -0.045em, tighter leading. TYPE-3: 600 with the second clause in the muted tone. Treatments are designed on HERO-A; HERO-B carries its own heavy setting (800) by default and maps TYPE-1/2 to 600/700. Interact: off shows the first viewport; on lets you scroll and click inside each frame. Reduced motion applies a class inside each hero (the real <code>prefers-reduced-motion</code> media query cannot be toggled from a page).</p>
+<script>
+var HEROES=[['HERO-A','hero-a-reskin.html','Tenant re-skin, sharpened'],['HERO-B','hero-b-editorial.html','Editorial headline, product rising'],['HERO-C','hero-c-pair.html','White-label proof pair'],['HERO-D','hero-d-your-name.html','Your name on the platform (wildcard)']];
+var st={view:'1440',pal:'p1',type:'',rm:0};
+var grid=document.getElementById('grid');
+function build(){grid.innerHTML='';var v=st.view==='1440',fw=v?1440:390,fh=v?800:844,tw=v?Math.min(640,Math.floor((innerWidth-60)/2)):Math.floor((innerWidth-100)/4);if(!v&&tw<250)tw=Math.floor((innerWidth-40)/1);var sc=tw/fw,th=Math.round(fh*sc);
+document.body.className=(v?'v1440':'v390')+(document.body.classList.contains('live')?' live':'');
+document.body.style.setProperty('--tw',tw+'px');
+HEROES.forEach(function(h){var t=document.createElement('figure');t.className='tile';t.style.margin=0;t.style.setProperty('--tw',tw+'px');t.style.setProperty('--th',th+'px');t.style.setProperty('--fw',fw+'px');t.style.setProperty('--fh',fh+'px');t.style.setProperty('--sc',sc);
+t.innerHTML='<span class="id">'+h[0]+'</span><div class="vp"><iframe title="'+h[0]+' '+h[2]+'" loading="eager" src="heroes/'+h[1]+'"></iframe></div><figcaption><b>'+h[0]+'</b> · '+h[2]+'</figcaption>';
+grid.appendChild(t);t.querySelector('iframe').addEventListener('load',function(e){send(e.target)})})}
+function send(f){try{f.contentWindow.postMessage({palette:st.pal,type:st.type,rm:st.rm},'*')}catch(e){}}
+function sendAll(){document.querySelectorAll('iframe').forEach(send)}
+function seg(attr,cb){document.querySelectorAll('['+attr+']').forEach(function(b){b.addEventListener('click',function(){b.parentNode.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});cb(b.getAttribute(attr))})})}
+seg('data-view',function(v){st.view=v;build()});seg('data-pal',function(v){st.pal=v;sendAll()});seg('data-type',function(v){st.type=v;sendAll()});seg('data-rm',function(v){st.rm=+v;sendAll()});
+seg('data-live',function(v){document.body.classList.toggle('live',v==='1')});
+document.getElementById('reload').addEventListener('click',build);
+addEventListener('resize',function(){clearTimeout(window.__t);window.__t=setTimeout(build,200)});
+build();
+</script>
+</body></html>

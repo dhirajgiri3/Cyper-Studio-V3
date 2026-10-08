@@ -1,0 +1,3003 @@
+{
+ "slug": "spacefs",
+ "url": "https://spacefs.com/",
+ "date": "2026-10-08",
+ "tool": "playwright-core + Google Chrome 154.0.8037.98 (headless)",
+ "notObserved": [],
+ "desktop": {
+  "viewport": {
+   "width": 1440,
+   "height": 900
+  },
+  "mobile": false,
+  "loadMs": 1599,
+  "consent": [],
+  "finalUrl": "https://spacefs.com/",
+  "transferFirstLoad": {
+   "requests": 114,
+   "totalBytes": 2024144,
+   "byType": {
+    "Document": 61658,
+    "Stylesheet": 3117,
+    "Image": 991404,
+    "Script": 892588,
+    "Font": 70864,
+    "XHR": 1009,
+    "Other": 3504
+   },
+   "hosts": {
+    "spacefs.com": 1314806,
+    "assets.spacefs.com": 327820,
+    "connect.facebook.net": 271543,
+    "fonts.gstatic.com": 70864,
+    "www.redditstatic.com": 25168,
+    "static.cloudflareinsights.com": 10438,
+    "fonts.googleapis.com": 3117,
+    "pixel-config.reddit.com": 388,
+    "": 0
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c",
+     "bytes": 158591
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112952
+    },
+    {
+     "url": "https://spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+     "bytes": 101395
+    },
+    {
+     "url": "https://spacefs.com/fb7d5399-ed1da61e214198326291.js",
+     "bytes": 88162
+    },
+    {
+     "url": "https://spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js",
+     "bytes": 69986
+    },
+    {
+     "url": "https://spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6",
+     "bytes": 67746
+    },
+    {
+     "url": "https://spacefs.com/framework-3c1d949890c47cab83fb.js",
+     "bytes": 46442
+    },
+    {
+     "url": "https://spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js",
+     "bytes": 45403
+    },
+    {
+     "url": "https://spacefs.com/ingest/static/surveys.js?v=1.396.6",
+     "bytes": 33862
+    },
+    {
+     "url": "https://spacefs.com/app-cbe974e2c6e70397c193.js",
+     "bytes": 32655
+    },
+    {
+     "url": "https://spacefs.com/component---src-pages-index-tsx-1075043671bc0c36bae4.js",
+     "bytes": 29639
+    },
+    {
+     "url": "https://www.redditstatic.com/ads/pixel.js",
+     "bytes": 25168
+    },
+    {
+     "url": "https://spacefs.com/0c5e4062fe41a3e348b401851ddecb5d095c95af-bb28d5ea848e0f1bf1a2.js",
+     "bytes": 16803
+    },
+    {
+     "url": "https://spacefs.com/8235685ff385744a4e98baf37fa1220d2a52f68a-12d8f5f0b42f867a45f3.js",
+     "bytes": 10981
+    },
+    {
+     "url": "https://spacefs.com/8180fa69a0b5c163a4860e900a3803f45a7d007c-0afeb12fe20d5bdcc1c6.js",
+     "bytes": 10780
+    },
+    {
+     "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+     "bytes": 10438
+    },
+    {
+     "url": "https://spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+     "bytes": 10430
+    },
+    {
+     "url": "https://spacefs.com/429f0654c01309f5712b3aa84f216cbf2eeaf534-825b89c1876c26fc4e11.js",
+     "bytes": 6641
+    },
+    {
+     "url": "https://spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+     "bytes": 5564
+    },
+    {
+     "url": "https://spacefs.com/c2d234868fc2940a7b240ffd6cdabcae81907710-23ff0a74750c5cffe72c.js",
+     "bytes": 4406
+    },
+    {
+     "url": "https://spacefs.com/webpack-runtime-f04e62f547f2e9b902ef.js",
+     "bytes": 2797
+    },
+    {
+     "url": "https://spacefs.com/ingest/array/phc_pzzJfSvGPzpVr2cz4tiwrjYA9Qz6fN8RZ4jztqyiZQWi/config.js",
+     "bytes": 938
+    },
+    {
+     "url": "https://spacefs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+     "bytes": 809
+    }
+   ]
+  },
+  "dom": {
+   "title": "Space | The infinite AI-native filesystem",
+   "lang": "",
+   "colorScheme": "light",
+   "description": "Instant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents.",
+   "ogImage": "https://spacefs.com/og-image.png",
+   "canonical": null,
+   "jsonLd": [],
+   "generator": "Gatsby 5.16.1",
+   "themeColor": null,
+   "h1": {
+    "text": "The infinite\nAI-native filesystem",
+    "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "font-size": "76px",
+    "font-weight": "400",
+    "line-height": "77.52px",
+    "letter-spacing": "-2.66px",
+    "color": "rgb(14, 15, 18)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "Terabytes of files.\nZero bytes on disk.",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "60px",
+     "font-weight": "400",
+     "line-height": "62.4px",
+     "letter-spacing": "-2.1px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Never wait for file transfers again",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "54px",
+     "font-weight": "500",
+     "line-height": "56.16px",
+     "letter-spacing": "-1.62px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Find anything.\nAsk anything.",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "60px",
+     "font-weight": "400",
+     "line-height": "62.4px",
+     "letter-spacing": "-2.1px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(14, 15, 18)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(247, 248, 250)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Skip to main content",
+     "x": -9999,
+     "y": 16,
+     "w": 190,
+     "h": 52,
+     "bg": "rgb(247, 248, 250)",
+     "color": "rgb(14, 15, 18)",
+     "radius": "6px",
+     "font": "16px/600",
+     "border": "2px solid rgb(0, 102, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Space",
+     "x": 40,
+     "y": 14,
+     "w": 52,
+     "h": 52,
+     "bg": "rgba(255, 255, 255, 0.66)",
+     "color": "rgb(14, 15, 18)",
+     "radius": "9999px",
+     "font": "16px/400",
+     "border": "1px solid rgba(15, 23, 42, 0.09)",
+     "shadow": "rgba(255, 255, 255, 0.9) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.05) 0px 1px 2"
+    },
+    {
+     "tag": "button",
+     "text": "Menu",
+     "x": 672,
+     "y": 24,
+     "w": 96,
+     "h": 32,
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(14, 15, 18)",
+     "radius": "9999px",
+     "font": "14px/500",
+     "border": "0px solid rgb(229, 231, 235)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Download",
+     "x": 1302,
+     "y": 20,
+     "w": 98,
+     "h": 40,
+     "bg": "rgb(14, 15, 18)",
+     "color": "rgb(247, 248, 250)",
+     "radius": "9999px",
+     "font": "14px/500",
+     "border": "0px solid rgb(229, 231, 235)",
+     "shadow": "rgba(255, 255, 255, 0.16) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.5) 0px 8px 2"
+    },
+    {
+     "tag": "a",
+     "text": "Download",
+     "x": 659,
+     "y": 575,
+     "w": 122,
+     "h": 48,
+     "bg": "rgb(14, 15, 18)",
+     "color": "rgb(247, 248, 250)",
+     "radius": "9999px",
+     "font": "14px/500",
+     "border": "0px solid rgb(229, 231, 235)",
+     "shadow": "rgba(255, 255, 255, 0.16) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.5) 0px 8px 2"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "fixed",
+    "h": 80,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(229, 231, 235)",
+    "links": [
+     "Space",
+     "Menu",
+     "Download"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "canvas",
+     "x": 0,
+     "y": 0,
+     "w": 1440,
+     "h": 900,
+     "canvasSize": [
+      1440,
+      900
+     ],
+     "id": null,
+     "cls": "dither-canvas absolute inset-0 h-full w-full"
+    },
+    {
+     "tag": "img",
+     "x": 55,
+     "y": 28,
+     "w": 24,
+     "h": 24,
+     "src": "https://spacefs.com/static/space-app-icon-dark-1341f6e43a0c6788d1bf8b42b8c6a83c.png",
+     "natural": [
+      512,
+      512
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 700,
+     "y": 209,
+     "w": 109,
+     "h": 15,
+     "paths": 3,
+     "cls": "text-foreground h-[15px] w-auto translat"
+    },
+    {
+     "tag": "img",
+     "x": 562,
+     "y": 1391,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 667,
+     "y": 1391,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 772,
+     "y": 1391,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 877,
+     "y": 1391,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 981,
+     "y": 1398,
+     "w": 52,
+     "h": 38,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 562,
+     "y": 1489,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/md.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 667,
+     "y": 1489,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/pdf.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 771,
+     "y": 1495,
+     "w": 52,
+     "h": 38,
+     "src": "https://assets.spacefs.com/public/clips/posters/night-plaza.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 877,
+     "y": 1489,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/pdf.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 982,
+     "y": 1489,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/docx.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 562,
+     "y": 1605,
+     "w": 52,
+     "h": 38,
+     "src": "https://assets.spacefs.com/public/clips/posters/team-dinner.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 667,
+     "y": 1599,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/xlsx.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 772,
+     "y": 1599,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/key.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 877,
+     "y": 1599,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/fig.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 982,
+     "y": 1599,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/pdf.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 537,
+     "y": 1747,
+     "w": 9,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/space-drive-silver.png",
+     "natural": [
+      246,
+      294
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 585,
+     "y": 1747,
+     "w": 11,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 632,
+     "y": 1747,
+     "w": 11,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 864,
+     "y": 1389,
+     "w": 11,
+     "h": 8,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 812,
+     "y": 1412,
+     "w": 26,
+     "h": 18,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 1052,
+     "y": 1768,
+     "w": 22,
+     "h": 32,
+     "src": "https://spacefs.com/macos/cursor-arrow.png",
+     "natural": [
+      84,
+      120
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "paper-grain absolute inset-0",
+     "w": 1440,
+     "h": 900,
+     "bg": "url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='prefix__a'%3E%3CfeT"
+    },
+    {
+     "tag": "div",
+     "cls": "glass-strong pointer-events-none absolut",
+     "w": 128,
+     "h": 68,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.78))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex h-full w-full flex-col overflow-hid",
+     "w": 149,
+     "h": 415,
+     "bg": "linear-gradient(rgba(244, 244, 246, 0.96), rgba(240, 240, 243, 0.94))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 45,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 39,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 118,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 29,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "rounded-[14px] p-[6px] select-none",
+     "w": 237,
+     "h": 384,
+     "bg": "linear-gradient(rgba(250, 250, 252, 0.9), rgba(244, 244, 247, 0.88))"
+    }
+   ],
+   "fontShare": {
+    "Google Sans": 4760,
+    "-apple-system": 2565,
+    "Google Sans Code": 10,
+    "SF Mono": 744,
+    "Menlo": 206,
+    "Helvetica Neue": 328
+   },
+   "bgs": {
+    "rgb(247, 248, 250)": 35880300,
+    "rgb(42, 29, 20)": 951467
+   },
+   "counts": {
+    "gradients": 36,
+    "backdrop": 42,
+    "filters": 1,
+    "video": 1,
+    "canvas": 1,
+    "svg": 52,
+    "img": 108,
+    "buttons": 22,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 38,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 The infinite AI-native filesystem",
+    "H2 Terabytes of files. Zero bytes on disk.",
+    "H2 Never wait for file transfers again",
+    "H3 Files open instantly",
+    "H3 Instant sync and collaboration",
+    "H3 Works with the apps you already use",
+    "H3 Your agents work in it too",
+    "H3 Persistent and versioned",
+    "H2 Find anything. Ask anything.",
+    "H2 Built for every kind of work",
+    "H3 Keep agents in sync on one persistent drive.",
+    "H3 Keep every team on the latest plans.",
+    "H3 Build bigger worlds without filling your disk.",
+    "H3 Edit from anywhere. Leave the SSDs behind.",
+    "H3 Governed, on your own storage.",
+    "H2 Simple pricing"
+   ],
+   "fonts": [
+    "Google Sans 400 700 normal",
+    "Google Sans Code 400 600 normal"
+   ],
+   "firstViewTextSample": "Skip to main content\nSpace\nMenu\nDownload\nBacked by\nThe infinite\nAI-native filesystem\n\nInstant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents.\n\nDownload\n\nmacOS · Linux · Windows coming soon\n\nTerabytes of files.\nZero bytes on disk.\n\nOpen and edit everything in Space right from Finder, without it ever filling up your computer.\n\nFavorites\nAirDrop\nRecents\nApplications\nDesktop\nDocuments\nDownloads\nSpace\nLocations\nNetwork\nLaunch Assets\nBrand\nDecks\nLegal\nPress Kit\nlaunch-​hero_​4k​.mov\n24.3 GB\nLaunch Plan​.md\n12 KB\nPitch Deck​.pdf\n48 MB\nProduct Demo​.mp4\n4.2 GB\nBrand Guidelines​.pdf\n96 MB\nPress Release​.docx\n84 KB\nTeam Photo​.jpg\n8.4 MB\nQ3 Metrics​.xlsx\n1.3 MB\nLaunch Keynote​.key\n310 MB\nOnboarding​.fig\n62 MB\nInvestor Update​.pdf\n3.2 MB\nSpace\nTeam\nLaunch Assets\nNever wait for file transfers again\n\nSpace streams files in real time, straight to the app that asks for them. No more juggling hard drives or waiting hours for large file downloads.\n\n01\nFiles open instantly\n\nSpace streams byte ranges from the cloud in real time, meaning files don't need to be downloaded for them to be used in applications.\n\n02\nInstant sync and collaboration\n\nHit save and your changes are synced to all devices connected to the same Space in seconds. Your teammates see your changes instantly.\n\n03\nWorks with the apps you already use\n\nRevit, AutoCAD, Excel, Blender, and Premiere all see Space as a normal drive. No extensions or plugins re",
+   "pageHeight": 12458,
+   "hasHScroll": false,
+   "visibleChars": 8717,
+   "landmarks": {
+    "header": 4,
+    "nav": 0,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "fade-in",
+    "target": "canvas.dither-canvas.absolute",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1800,
+    "delay": 150,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "div.hero-rise.glass-control",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 50,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 160,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "p.hero-rise.text-muted-foreground",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 300,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "div.hero-rise.mt-10",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 440,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "p.hero-rise.text-foreground/80",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 580,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 28,
+   "ro": 2,
+   "animateCalls": 1,
+   "canvasContexts": [
+    "webgl"
+   ],
+   "lcp": {
+    "t": 1072,
+    "tag": "DIV",
+    "id": null,
+    "size": 1037,
+    "url": null
+   },
+   "cls": 0.0035,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 61,
+  "wheelProbe": {
+   "finalScrollY": 500,
+   "firstMoveMs": 75,
+   "settle98Ms": 75,
+   "distinctPositions": 2,
+   "samples": 106,
+   "wheelDeltaSent": 500,
+   "settleSpan": 0
+  },
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 900,
+    "count": 6,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 6229,
+    "count": 11,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "pulse",
+      "target": "span.inline-block.h-[8px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 2000,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div.absolute.inset-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 280,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 0.68, 0.35, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 11558,
+    "count": 6,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "navOpenToggle": "Open menu",
+  "transferAfterScroll": {
+   "requests": 115,
+   "totalBytes": 2025649,
+   "byType": {
+    "Document": 61658,
+    "Stylesheet": 3117,
+    "Image": 992909,
+    "Script": 892588,
+    "Font": 70864,
+    "XHR": 1009,
+    "Other": 3504
+   },
+   "hosts": {
+    "spacefs.com": 1316311,
+    "assets.spacefs.com": 327820,
+    "connect.facebook.net": 271543,
+    "fonts.gstatic.com": 70864,
+    "www.redditstatic.com": 25168,
+    "static.cloudflareinsights.com": 10438,
+    "fonts.googleapis.com": 3117,
+    "pixel-config.reddit.com": 388,
+    "": 0
+   }
+  },
+  "fp": {
+   "present": [
+    "fbq"
+   ],
+   "htmlCls": "",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 1,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.spacefs.com/public/clips/nyc-brownstones.mp4",
+      "w": 124,
+      "h": 133,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": true,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 11,
+   "scripts": [
+    "https://connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://spacefs.com/ingest/static/surveys.js?v=1.396.6",
+    "https://spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6",
+    "https://spacefs.com/ingest/array/phc_pzzJfSvGPzpVr2cz4tiwrjYA9Qz6fN8RZ4jztqyiZQWi/config.js",
+    "https://spacefs.com/webpack-runtime-f04e62f547f2e9b902ef.js",
+    "https://spacefs.com/framework-3c1d949890c47cab83fb.js",
+    "https://spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js",
+    "https://spacefs.com/app-cbe974e2c6e70397c193.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+   ],
+   "inlineScripts": 6,
+   "generator": "Gatsby 5.16.1",
+   "scrollBehavior": "smooth",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "via": "1.1 Caddy",
+   "x-powered-by": "Express",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js"
+   ],
+   "lenis": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js",
+    "spacefs.com/c2d234868fc2940a7b240ffd6cdabcae81907710-23ff0a74750c5cffe72c.js"
+   ],
+   "three": [
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+    "spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+    "spacefs.com/fb7d5399-ed1da61e214198326291.js"
+   ],
+   "ogl": [
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js"
+   ],
+   "framerMotion": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js"
+   ],
+   "swiper": [
+    "connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com"
+   ],
+   "scrollTimelineJS": [
+    "spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js",
+    "spacefs.com/8235685ff385744a4e98baf37fa1220d2a52f68a-12d8f5f0b42f867a45f3.js"
+   ],
+   "intersection": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js",
+    "spacefs.com/429f0654c01309f5712b3aa84f216cbf2eeaf534-825b89c1876c26fc4e11.js",
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+    "spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js"
+   ],
+   "webgl": [
+    "spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+    "spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6"
+   ],
+   "shader": [
+    "spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+    "spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+    "spacefs.com/fb7d5399-ed1da61e214198326291.js"
+   ],
+   "barba": [
+    "connect.facebook.net/en_US/fbevents.js"
+   ]
+  },
+  "scriptsScanned": 23,
+  "cssFeatures": {
+   "backdrop-filter": 16,
+   "mix-blend-mode": 2,
+   "will-change": 1,
+   "sticky": 4,
+   "text-wrap": 2,
+   "mask-image": 12,
+   "prefers-reduced-motion": 2
+  },
+  "cssBytes": {
+   "linked": 17815,
+   "inline": 107694,
+   "files": 1
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 1,
+   "infinite": 0,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "fade-in",
+     "target": "canvas.dither-canvas.absolute",
+     "props": [
+      "opacity"
+     ],
+     "duration": 0,
+     "delay": 150,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "mobile": {
+  "viewport": {
+   "width": 390,
+   "height": 844
+  },
+  "mobile": true,
+  "loadMs": 1545,
+  "consent": [],
+  "finalUrl": "https://spacefs.com/",
+  "transferFirstLoad": {
+   "requests": 115,
+   "totalBytes": 2024083,
+   "byType": {
+    "Document": 61554,
+    "Stylesheet": 3117,
+    "Image": 991282,
+    "Font": 70868,
+    "Script": 892506,
+    "XHR": 1033,
+    "Other": 3526,
+    "Fetch": 197
+   },
+   "hosts": {
+    "spacefs.com": 1314778,
+    "assets.spacefs.com": 327778,
+    "connect.facebook.net": 271548,
+    "fonts.gstatic.com": 70868,
+    "www.redditstatic.com": 25168,
+    "static.cloudflareinsights.com": 10438,
+    "fonts.googleapis.com": 3117,
+    "pixel-config.reddit.com": 388,
+    "": 0
+   }
+  },
+  "jsFirstLoad": {
+   "scripts": [
+    {
+     "url": "https://connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com&im=1&hme=a4c28c8787325ac3f8f9eac68364f47d",
+     "bytes": 158596
+    },
+    {
+     "url": "https://connect.facebook.net/en_US/fbevents.js",
+     "bytes": 112952
+    },
+    {
+     "url": "https://spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+     "bytes": 101508
+    },
+    {
+     "url": "https://spacefs.com/fb7d5399-ed1da61e214198326291.js",
+     "bytes": 88163
+    },
+    {
+     "url": "https://spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js",
+     "bytes": 69977
+    },
+    {
+     "url": "https://spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6",
+     "bytes": 67749
+    },
+    {
+     "url": "https://spacefs.com/framework-3c1d949890c47cab83fb.js",
+     "bytes": 46374
+    },
+    {
+     "url": "https://spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js",
+     "bytes": 45343
+    },
+    {
+     "url": "https://spacefs.com/ingest/static/surveys.js?v=1.396.6",
+     "bytes": 33845
+    },
+    {
+     "url": "https://spacefs.com/app-cbe974e2c6e70397c193.js",
+     "bytes": 32648
+    },
+    {
+     "url": "https://spacefs.com/component---src-pages-index-tsx-1075043671bc0c36bae4.js",
+     "bytes": 29638
+    },
+    {
+     "url": "https://www.redditstatic.com/ads/pixel.js",
+     "bytes": 25168
+    },
+    {
+     "url": "https://spacefs.com/0c5e4062fe41a3e348b401851ddecb5d095c95af-bb28d5ea848e0f1bf1a2.js",
+     "bytes": 16811
+    },
+    {
+     "url": "https://spacefs.com/8235685ff385744a4e98baf37fa1220d2a52f68a-12d8f5f0b42f867a45f3.js",
+     "bytes": 11047
+    },
+    {
+     "url": "https://spacefs.com/8180fa69a0b5c163a4860e900a3803f45a7d007c-0afeb12fe20d5bdcc1c6.js",
+     "bytes": 10736
+    },
+    {
+     "url": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+     "bytes": 10438
+    },
+    {
+     "url": "https://spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+     "bytes": 10385
+    },
+    {
+     "url": "https://spacefs.com/429f0654c01309f5712b3aa84f216cbf2eeaf534-825b89c1876c26fc4e11.js",
+     "bytes": 6612
+    },
+    {
+     "url": "https://spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+     "bytes": 5574
+    },
+    {
+     "url": "https://spacefs.com/c2d234868fc2940a7b240ffd6cdabcae81907710-23ff0a74750c5cffe72c.js",
+     "bytes": 4399
+    },
+    {
+     "url": "https://spacefs.com/webpack-runtime-f04e62f547f2e9b902ef.js",
+     "bytes": 2819
+    },
+    {
+     "url": "https://spacefs.com/ingest/array/phc_pzzJfSvGPzpVr2cz4tiwrjYA9Qz6fN8RZ4jztqyiZQWi/config.js",
+     "bytes": 915
+    },
+    {
+     "url": "https://spacefs.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+     "bytes": 809
+    }
+   ]
+  },
+  "dom": {
+   "title": "Space | The infinite AI-native filesystem",
+   "lang": "",
+   "colorScheme": "light",
+   "description": "Instant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents.",
+   "ogImage": "https://spacefs.com/og-image.png",
+   "canonical": null,
+   "jsonLd": [],
+   "generator": "Gatsby 5.16.1",
+   "themeColor": null,
+   "h1": {
+    "text": "The infinite\nAI-native filesystem",
+    "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "font-size": "40px",
+    "font-weight": "400",
+    "line-height": "40.8px",
+    "letter-spacing": "-1.4px",
+    "color": "rgb(14, 15, 18)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap"
+   },
+   "h2": [
+    {
+     "text": "Terabytes of files.\nZero bytes on disk.",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "34px",
+     "font-weight": "400",
+     "line-height": "35.36px",
+     "letter-spacing": "-1.19px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Never wait for file transfers again",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "32px",
+     "font-weight": "500",
+     "line-height": "33.28px",
+     "letter-spacing": "-0.96px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    },
+    {
+     "text": "Find anything.\nAsk anything.",
+     "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+     "font-size": "34px",
+     "font-weight": "400",
+     "line-height": "35.36px",
+     "letter-spacing": "-1.19px",
+     "color": "rgb(14, 15, 18)",
+     "text-transform": "none",
+     "font-style": "normal",
+     "font-variation-settings": "normal",
+     "text-wrap": "balance"
+    }
+   ],
+   "body": {
+    "font-family": "\"Google Sans\", -apple-system, \"system-ui\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+    "font-size": "16px",
+    "font-weight": "400",
+    "line-height": "24px",
+    "letter-spacing": "normal",
+    "color": "rgb(14, 15, 18)",
+    "text-transform": "none",
+    "font-style": "normal",
+    "font-variation-settings": "normal",
+    "text-wrap": "wrap",
+    "background-color": "rgb(247, 248, 250)"
+   },
+   "ctas": [
+    {
+     "tag": "a",
+     "text": "Skip to main content",
+     "x": -9999,
+     "y": 16,
+     "w": 190,
+     "h": 52,
+     "bg": "rgb(247, 248, 250)",
+     "color": "rgb(14, 15, 18)",
+     "radius": "6px",
+     "font": "16px/600",
+     "border": "2px solid rgb(0, 102, 255)",
+     "shadow": null
+    },
+    {
+     "tag": "a",
+     "text": "Space",
+     "x": 20,
+     "y": 14,
+     "w": 52,
+     "h": 52,
+     "bg": "rgba(255, 255, 255, 0.66)",
+     "color": "rgb(14, 15, 18)",
+     "radius": "9999px",
+     "font": "16px/400",
+     "border": "1px solid rgba(15, 23, 42, 0.09)",
+     "shadow": "rgba(255, 255, 255, 0.9) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.05) 0px 1px 2"
+    },
+    {
+     "tag": "a",
+     "text": "Download",
+     "x": 134,
+     "y": 508,
+     "w": 122,
+     "h": 48,
+     "bg": "rgb(14, 15, 18)",
+     "color": "rgb(247, 248, 250)",
+     "radius": "9999px",
+     "font": "14px/500",
+     "border": "0px solid rgb(229, 231, 235)",
+     "shadow": "rgba(255, 255, 255, 0.16) 0px 1px 0px 0px inset, rgba(15, 23, 42, 0.5) 0px 8px 2"
+    }
+   ],
+   "header": {
+    "tag": "header",
+    "position": "fixed",
+    "h": 80,
+    "top": 0,
+    "bg": "rgba(0, 0, 0, 0)",
+    "backdrop": "none",
+    "border": "0px solid rgb(229, 231, 235)",
+    "links": [
+     "Space",
+     "Open menu",
+     "Download"
+    ]
+   },
+   "assets": [
+    {
+     "tag": "canvas",
+     "x": 0,
+     "y": 0,
+     "w": 390,
+     "h": 844,
+     "canvasSize": [
+      1264,
+      2736
+     ],
+     "id": null,
+     "cls": "dither-canvas absolute inset-0 h-full w-full"
+    },
+    {
+     "tag": "img",
+     "x": 35,
+     "y": 28,
+     "w": 24,
+     "h": 24,
+     "src": "https://spacefs.com/static/space-app-icon-dark-1341f6e43a0c6788d1bf8b42b8c6a83c.png",
+     "natural": [
+      512,
+      512
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "svg",
+     "x": 175,
+     "y": 220,
+     "w": 109,
+     "h": 15,
+     "paths": 3,
+     "cls": "text-foreground h-[15px] w-auto translat"
+    },
+    {
+     "tag": "img",
+     "x": 58,
+     "y": 1347,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 170,
+     "y": 1347,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 281,
+     "y": 1347,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 58,
+     "y": 1434,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 169,
+     "y": 1441,
+     "w": 53,
+     "h": 38,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 281,
+     "y": 1434,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/md.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 58,
+     "y": 1533,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/pdf.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 169,
+     "y": 1539,
+     "w": 53,
+     "h": 38,
+     "src": "https://assets.spacefs.com/public/clips/posters/night-plaza.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 281,
+     "y": 1533,
+     "w": 51,
+     "h": 51,
+     "src": "https://spacefs.com/macos/icons/pdf.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 30,
+     "y": 1635,
+     "w": 9,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/space-drive-silver.png",
+     "natural": [
+      246,
+      294
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 78,
+     "y": 1635,
+     "w": 11,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 126,
+     "y": 1635,
+     "w": 11,
+     "h": 11,
+     "src": "https://spacefs.com/macos/icons/folder.png",
+     "natural": [
+      192,
+      192
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 127,
+     "y": 1427,
+     "w": 11,
+     "h": 8,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    },
+    {
+     "tag": "img",
+     "x": 74,
+     "y": 1451,
+     "w": 26,
+     "h": 18,
+     "src": "https://assets.spacefs.com/public/clips/posters/startup-loft.jpg",
+     "natural": [
+      640,
+      360
+     ],
+     "loading": "auto",
+     "fetchpriority": null,
+     "alt": "",
+     "decoding": "auto"
+    }
+   ],
+   "bgImgs": [
+    {
+     "tag": "div",
+     "cls": "paper-grain absolute inset-0",
+     "w": 390,
+     "h": 844,
+     "bg": "url(\"data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='prefix__a'%3E%3CfeT"
+    },
+    {
+     "tag": "div",
+     "cls": "glass-strong pointer-events-none absolut",
+     "w": 68,
+     "h": 68,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.78))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 46,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "flex shrink-0 items-center rounded-full ",
+     "w": 29,
+     "h": 25,
+     "bg": "linear-gradient(rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.84))"
+    },
+    {
+     "tag": "div",
+     "cls": "rounded-[14px] p-[6px] select-none",
+     "w": 239,
+     "h": 387,
+     "bg": "linear-gradient(rgba(250, 250, 252, 0.9), rgba(244, 244, 247, 0.88))"
+    }
+   ],
+   "fontShare": {
+    "Google Sans": 4748,
+    "-apple-system": 1527,
+    "Google Sans Code": 10,
+    "SF Mono": 372,
+    "Menlo": 206,
+    "Helvetica Neue": 328
+   },
+   "bgs": {
+    "rgb(247, 248, 250)": 10996696,
+    "rgb(255, 255, 255)": 125841,
+    "rgb(236, 236, 238)": 82380,
+    "rgb(42, 29, 20)": 116293,
+    "rgba(14, 15, 18, 0.024)": 361920
+   },
+   "counts": {
+    "gradients": 33,
+    "backdrop": 42,
+    "filters": 1,
+    "video": 1,
+    "canvas": 1,
+    "svg": 51,
+    "img": 102,
+    "buttons": 22,
+    "forms": 0,
+    "tables": 0,
+    "details": 0,
+    "links": 38,
+    "iframes": 0
+   },
+   "headings": [
+    "H1 The infinite AI-native filesystem",
+    "H2 Terabytes of files. Zero bytes on disk.",
+    "H2 Never wait for file transfers again",
+    "H3 Files open instantly",
+    "H3 Instant sync and collaboration",
+    "H3 Works with the apps you already use",
+    "H3 Your agents work in it too",
+    "H3 Persistent and versioned",
+    "H2 Find anything. Ask anything.",
+    "H2 Built for every kind of work",
+    "H3 Keep agents in sync on one persistent drive.",
+    "H3 Keep every team on the latest plans.",
+    "H3 Build bigger worlds without filling your disk.",
+    "H3 Edit from anywhere. Leave the SSDs behind.",
+    "H3 Governed, on your own storage.",
+    "H2 Simple pricing"
+   ],
+   "fonts": [
+    "Google Sans 400 700 normal",
+    "Google Sans Code 400 600 normal"
+   ],
+   "firstViewTextSample": "Skip to main content\nSpace\nBacked by\nThe infinite\nAI-native filesystem\n\nInstant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents.\n\nDownload\n\nmacOS · Linux · Windows coming soon\n\nTerabytes of files.\nZero bytes on disk.\n\nOpen and edit everything in Space right from Finder, without it ever filling up your computer.\n\nLaunch Assets\nBrand\nDecks\nLegal\nPress Kit\nlaunch-​hero_​4k​.mov\n24.3 GB\nLaunch Plan​.md\n12 KB\nPitch Deck​.pdf\n48 MB\nProduct Demo​.mp4\n4.2 GB\nBrand Guidelines​.pdf\n96 MB\nSpace\nTeam\nLaunch Assets\nNever wait for file transfers again\n\nSpace streams files in real time, straight to the app that asks for them. No more juggling hard drives or waiting hours for large file downloads.\n\n01\nFiles open instantly\n\nSpace streams byte ranges from the cloud in real time, meaning files don't need to be downloaded for them to be used in applications.\n\n02\nInstant sync and collaboration\n\nHit save and your changes are synced to all devices connected to the same Space in seconds. Your teammates see your changes instantly.\n\n03\nWorks with the apps you already use\n\nRevit, AutoCAD, Excel, Blender, and Premiere all see Space as a normal drive. No extensions or plugins required.\n\n04\nYour agents work in it too\n\nAgents read and write the same files you do. When an agent saves, the change appears on every connected device.\n\n05\nPersistent and versioned\n\nEvery change is a version, so nothing is ever lost. Fork a whole drive in",
+   "pageHeight": 14098,
+   "hasHScroll": false,
+   "visibleChars": 7175,
+   "landmarks": {
+    "header": 4,
+    "nav": 0,
+    "main": 1,
+    "footer": 1,
+    "h1": 1
+   }
+  },
+  "animationsAtLoad": [
+   {
+    "type": "CSSAnimation",
+    "name": "fade-in",
+    "target": "canvas.dither-canvas.absolute",
+    "props": [
+     "opacity"
+    ],
+    "duration": 1800,
+    "delay": 150,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "div.hero-rise.glass-control",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 50,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 160,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "p.hero-rise.text-muted-foreground",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 300,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "div.hero-rise.mt-10",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 440,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   },
+   {
+    "type": "CSSAnimation",
+    "name": "hero-rise",
+    "target": "p.hero-rise.text-foreground/80",
+    "props": [
+     "opacity",
+     "transform"
+    ],
+    "duration": 1100,
+    "delay": 580,
+    "easing": "linear",
+    "iterations": 1,
+    "state": "finished",
+    "timeline": "DocumentTimeline"
+   }
+  ],
+  "runtime": {
+   "io": 28,
+   "ro": 2,
+   "animateCalls": 1,
+   "canvasContexts": [
+    "webgl"
+   ],
+   "lcp": {
+    "t": 1152,
+    "tag": "P",
+    "id": null,
+    "size": 24768,
+    "url": null
+   },
+   "cls": 0,
+   "longTasks": 1,
+   "listeners": [
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "body"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "window"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchstart",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": false,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "wheel",
+     "passive": true,
+     "target": "div"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "window"
+    },
+    {
+     "type": "touchmove",
+     "passive": true,
+     "target": "document"
+    },
+    {
+     "type": "scroll",
+     "passive": true,
+     "target": "document"
+    }
+   ]
+  },
+  "idleRafPerSecond": 66,
+  "animationsAfterScroll": [
+   {
+    "stop": "screen2",
+    "scrollY": 844,
+    "count": 6,
+    "infinite": 0,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "mid",
+    "scrollY": 7049,
+    "count": 11,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSTransition",
+      "name": "background-color",
+      "target": "span.block.rounded-full",
+      "props": [
+       "backgroundColor"
+      ],
+      "duration": 200,
+      "delay": 0,
+      "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "launcher-caret",
+      "target": "span.launcher-caret.h-[22px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1060,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "Animation",
+      "name": null,
+      "target": "div.absolute.inset-0",
+      "props": [
+       "opacity"
+      ],
+      "duration": 280,
+      "delay": 0,
+      "easing": "cubic-bezier(0.22, 0.68, 0.35, 1)",
+      "iterations": 1,
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   },
+   {
+    "stop": "footer",
+    "scrollY": 13254,
+    "count": 7,
+    "infinite": 1,
+    "sample": [
+     {
+      "type": "CSSAnimation",
+      "name": "fade-in",
+      "target": "canvas.dither-canvas.absolute",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1800,
+      "delay": 150,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.glass-control",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 50,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "h1.hero-rise.text-[clamp(40px,10vw,48px)]",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 160,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-muted-foreground",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 300,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "div.hero-rise.mt-10",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 440,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "hero-rise",
+      "target": "p.hero-rise.text-foreground/80",
+      "props": [
+       "opacity",
+       "transform"
+      ],
+      "duration": 1100,
+      "delay": 580,
+      "easing": "linear",
+      "iterations": 1,
+      "state": "finished",
+      "timeline": "DocumentTimeline"
+     },
+     {
+      "type": "CSSAnimation",
+      "name": "launcher-caret",
+      "target": "span.launcher-caret.h-[22px]",
+      "props": [
+       "opacity"
+      ],
+      "duration": 1060,
+      "delay": 0,
+      "easing": "linear",
+      "iterations": "infinite",
+      "state": "running",
+      "timeline": "DocumentTimeline"
+     }
+    ]
+   }
+  ],
+  "navOpenToggle": "Open menu",
+  "transferAfterScroll": {
+   "requests": 120,
+   "totalBytes": 2027846,
+   "byType": {
+    "Document": 61554,
+    "Stylesheet": 3117,
+    "Image": 994627,
+    "Font": 70868,
+    "Script": 892506,
+    "XHR": 1033,
+    "Other": 3526,
+    "Fetch": 615
+   },
+   "hosts": {
+    "spacefs.com": 1318541,
+    "assets.spacefs.com": 327778,
+    "connect.facebook.net": 271548,
+    "fonts.gstatic.com": 70868,
+    "www.redditstatic.com": 25168,
+    "static.cloudflareinsights.com": 10438,
+    "fonts.googleapis.com": 3117,
+    "pixel-config.reddit.com": 388,
+    "": 0
+   }
+  },
+  "fp": {
+   "present": [
+    "fbq"
+   ],
+   "htmlCls": "",
+   "styleAttr": "color-scheme: light;",
+   "els": {
+    "canvas": 2,
+    "video": [
+     {
+      "autoplay": false,
+      "loop": true,
+      "muted": true,
+      "src": "https://assets.spacefs.com/public/clips/nyc-brownstones.mp4",
+      "w": 62,
+      "h": 67,
+      "inHero": false
+     }
+    ],
+    "lottie": 0,
+    "rive": 0,
+    "spline": 0,
+    "modelViewer": 0
+   },
+   "hints": {
+    "nextjs": false,
+    "nuxt": false,
+    "astro": false,
+    "svelte": false,
+    "webflow": false,
+    "framer": false,
+    "shopify": false,
+    "wordpress": false,
+    "hubspot": false,
+    "gatsby": true,
+    "remix": false,
+    "vue": false,
+    "reactRoot": false
+   },
+   "scriptCount": 11,
+   "scripts": [
+    "https://connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com&im=1&hme=a4c28c8787325ac3f8f9eac68364f47df2a8c4266e43177443e5d7f6289c9774&ex_m=117%2C240%2C170%2C27%2C81%2C82%2C161%2C77%2C76%2C11%2C180%2C101%2C20%2C152%2C140%2C46%2C84%2C89%2C148%2C175%2C182%2C8%2C4%2C5%2C7%2C6%2C3%2C102%2C114%2C32%2C17%2C31%2C18%2C33%2C34%2C35%2C37%2C55%2C162%2C86%2C125%2C22%2C24%2C51%2C47%2C49%2C48%2C94%2C103%2C107%2C123%2C159%2C163%2C53%2C124%2C29%2C26%2C132%2C78%2C43%2C165%2C164%2C166%2C156%2C154%2C30%2C42%2C66%2C122%2C177%2C79%2C21%2C127%2C92%2C75%2C23%2C96%2C97%2C129%2C95%2C150%2C149%2C153%2C108%2C176%2C179%2C41%2C56%2C126%2C54%2C160%2C71%2C184%2C109%2C183%2C209%2C254%2C83%2C273%2C272%2C271%2C14%2C25%2C28%2C40%2C62%2C116%2C68%2C10%2C72%2C110%2C111%2C112%2C118%2C143%2C38%2C36%2C145%2C146%2C147%2C142%2C141%2C171%2C85%2C174%2C172%2C173%2C57%2C67%2C136%2C19%2C178%2C52%2C322%2C323%2C324%2C321%2C337%2C359%2C247%2C236%2C69%2C237%2C235%2C362%2C353%2C59%2C248%2C120%2C144%2C91%2C134%2C61%2C133%2C139%2C138%2C65%2C73%2C167%2C87%2C88%2C128%2C44%2C39%2C60%2C63%2C113%2C181%2C1%2C137%2C16%2C135%2C12%2C2%2C64%2C104%2C15%2C74%2C70%2C131%2C100%2C99%2C186%2C187%2C105%2C106%2C9%2C115%2C185%2C58%2C157%2C98%2C90%2C80%2C130%2C119%2C168%2C50%2C158%2C0%2C93%2C151%2C155%2C169%2C45%2C121%2C13%2C188",
+    "https://connect.facebook.net/en_US/fbevents.js",
+    "https://www.redditstatic.com/ads/pixel.js",
+    "https://spacefs.com/ingest/static/surveys.js?v=1.396.6",
+    "https://spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6",
+    "https://spacefs.com/ingest/array/phc_pzzJfSvGPzpVr2cz4tiwrjYA9Qz6fN8RZ4jztqyiZQWi/config.js",
+    "https://spacefs.com/webpack-runtime-f04e62f547f2e9b902ef.js",
+    "https://spacefs.com/framework-3c1d949890c47cab83fb.js",
+    "https://spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js",
+    "https://spacefs.com/app-cbe974e2c6e70397c193.js",
+    "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920"
+   ],
+   "inlineScripts": 6,
+   "generator": "Gatsby 5.16.1",
+   "scrollBehavior": "smooth",
+   "overscroll": "auto"
+  },
+  "documentHeaders": {
+   "server": "cloudflare",
+   "via": "1.1 Caddy",
+   "x-powered-by": "Express",
+   "content-encoding": "gzip"
+  },
+  "documentProto": "h2",
+  "scriptSignatures": {
+   "gsap": [
+    "spacefs.com/67a3bf3c-27b69025ef31f174fdd3.js"
+   ],
+   "lenis": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js",
+    "spacefs.com/c2d234868fc2940a7b240ffd6cdabcae81907710-23ff0a74750c5cffe72c.js"
+   ],
+   "three": [
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+    "spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+    "spacefs.com/fb7d5399-ed1da61e214198326291.js"
+   ],
+   "ogl": [
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js"
+   ],
+   "framerMotion": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js"
+   ],
+   "swiper": [
+    "connect.facebook.net/signals/config/1566244658329422?v=2.9.415&r=stable&domain=spacefs.com"
+   ],
+   "scrollTimelineJS": [
+    "spacefs.com/8235685ff385744a4e98baf37fa1220d2a52f68a-12d8f5f0b42f867a45f3.js",
+    "spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js"
+   ],
+   "intersection": [
+    "spacefs.com/app-cbe974e2c6e70397c193.js",
+    "spacefs.com/429f0654c01309f5712b3aa84f216cbf2eeaf534-825b89c1876c26fc4e11.js",
+    "spacefs.com/c5662dfcbff29d43166e3e47069644af74888578-406e34b412197b7a16e5.js",
+    "spacefs.com/cf5220533d5c08e288a76484365526c4a8fd8869-d6aad0d22e2d0769c395.js"
+   ],
+   "webgl": [
+    "spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+    "spacefs.com/ingest/static/posthog-recorder.js?v=1.396.6"
+   ],
+   "shader": [
+    "spacefs.com/05f8401dfc1bd9320861b5db36d816f7d4effcb8-5400191eb0feeef05cec.js",
+    "spacefs.com/2d36dd80-72f84d99deb3447a9877.js",
+    "spacefs.com/fb7d5399-ed1da61e214198326291.js"
+   ],
+   "barba": [
+    "connect.facebook.net/en_US/fbevents.js"
+   ]
+  },
+  "scriptsScanned": 23,
+  "cssFeatures": {
+   "backdrop-filter": 16,
+   "mix-blend-mode": 2,
+   "will-change": 1,
+   "sticky": 4,
+   "text-wrap": 2,
+   "mask-image": 12,
+   "prefers-reduced-motion": 2
+  },
+  "cssBytes": {
+   "linked": 17815,
+   "inline": 107694,
+   "files": 1
+  },
+  "reducedMotion": {
+   "animationsAfterReload": 1,
+   "infinite": 0,
+   "sample": [
+    {
+     "type": "CSSAnimation",
+     "name": "fade-in",
+     "target": "canvas.dither-canvas.absolute",
+     "props": [
+      "opacity"
+     ],
+     "duration": 0,
+     "delay": 150,
+     "easing": "linear",
+     "iterations": 1,
+     "state": "finished",
+     "timeline": "DocumentTimeline"
+    }
+   ]
+  }
+ },
+ "noJs": {
+  "visibleChars": 8698,
+  "h1": "The infinite\nAI-native filesystem",
+  "firstViewportText": "Skip to main content | Menu | Download | The infinite\nAI-native filesystem | Instant access to terabytes of data on any computer, using zero disk space. One persistent drive for you, your team, and your agents. | Download | macOS · Linux · Windows coming soon"
+ }
+}

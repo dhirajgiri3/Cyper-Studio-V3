@@ -1,0 +1,1836 @@
+{
+ "frames": [
+  {
+   "scrollY": 0,
+   "panel": [
+    63,
+    1247,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1297
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1445
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1586
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1720
+    }
+   ],
+   "vids": [
+    {
+     "y": 1340,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1715,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 2041,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 2368,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 1247
+    }
+   ]
+  },
+  {
+   "scrollY": 150,
+   "panel": [
+    63,
+    1097,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1147
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1295
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1436
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1570
+    }
+   ],
+   "vids": [
+    {
+     "y": 1190,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1565,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1891,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 2218,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 1097
+    }
+   ]
+  },
+  {
+   "scrollY": 300,
+   "panel": [
+    63,
+    947,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 997
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1145
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1286
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1420
+    }
+   ],
+   "vids": [
+    {
+     "y": 1040,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1415,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1741,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 2068,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 947
+    }
+   ]
+  },
+  {
+   "scrollY": 450,
+   "panel": [
+    63,
+    797,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 847
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 995
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1136
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1270
+    }
+   ],
+   "vids": [
+    {
+     "y": 890,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1265,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1591,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1918,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 797
+    }
+   ]
+  },
+  {
+   "scrollY": 600,
+   "panel": [
+    63,
+    647,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 697
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 845
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 986
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 1120
+    }
+   ],
+   "vids": [
+    {
+     "y": 740,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1115,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1441,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1768,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 647
+    }
+   ]
+  },
+  {
+   "scrollY": 750,
+   "panel": [
+    63,
+    497,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 547
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 695
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 836
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 970
+    }
+   ],
+   "vids": [
+    {
+     "y": 590,
+     "paused": false,
+     "rs": 4,
+     "t": 0.1,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 965,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1291,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1618,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 497
+    }
+   ]
+  },
+  {
+   "scrollY": 900,
+   "panel": [
+    63,
+    347,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 397
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 545
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 686
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 820
+    }
+   ],
+   "vids": [
+    {
+     "y": 440,
+     "paused": false,
+     "rs": 4,
+     "t": 0.6,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 815,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1141,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1468,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 347
+    }
+   ]
+  },
+  {
+   "scrollY": 1050,
+   "panel": [
+    63,
+    197,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 247
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 395
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 536
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 670
+    }
+   ],
+   "vids": [
+    {
+     "y": 290,
+     "paused": false,
+     "rs": 4,
+     "t": 1.2,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 665,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 991,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1318,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 197
+    }
+   ]
+  },
+  {
+   "scrollY": 1200,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": 181,
+     "paused": false,
+     "rs": 4,
+     "t": 1.7,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 555,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 882,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1208,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 1350,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": 181,
+     "paused": false,
+     "rs": 4,
+     "t": 2.2,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 555,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 882,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1208,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 1500,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": 181,
+     "paused": false,
+     "rs": 4,
+     "t": 2.7,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 555,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 882,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1208,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 1650,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 282
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -20,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 313,
+     "paused": false,
+     "rs": 4,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 681,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 1007,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 1800,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 282
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -90,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 236,
+     "paused": false,
+     "rs": 4,
+     "t": 0.5,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 611,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 937,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 1950,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 282
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -90,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 236,
+     "paused": false,
+     "rs": 4,
+     "t": 1,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 611,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 937,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 2100,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 282
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 426
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -90,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 236,
+     "paused": false,
+     "rs": 4,
+     "t": 1.5,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 611,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 937,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 2250,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 422
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -331,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -5,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 329,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 696,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 2400,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 422
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -417,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -91,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 236,
+     "paused": false,
+     "rs": 4,
+     "t": 0.5,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 610,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 2550,
+   "panel": [
+    63,
+    88,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 137
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 286
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 422
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 561
+    }
+   ],
+   "vids": [
+    {
+     "y": -417,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -91,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 236,
+     "paused": false,
+     "rs": 4,
+     "t": 1,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 610,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": 88
+    }
+   ]
+  },
+  {
+   "scrollY": 2700,
+   "panel": [
+    63,
+    -13,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 37
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 185
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 326
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 456
+    }
+   ],
+   "vids": [
+    {
+     "y": -756,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -429,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -103,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": 231,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": -13
+    }
+   ]
+  },
+  {
+   "scrollY": 2850,
+   "panel": [
+    63,
+    -163,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": -113
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 35
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 176
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 306
+    }
+   ],
+   "vids": [
+    {
+     "y": -994,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -667,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -341,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -14,
+     "paused": false,
+     "rs": 4,
+     "t": 0.5,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": -163
+    }
+   ]
+  },
+  {
+   "scrollY": 3000,
+   "panel": [
+    63,
+    -313,
+    1315,
+    640
+   ],
+   "steps": [
+    {
+     "t": "Start with an ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": -263
+    },
+    {
+     "t": "Pexo plans it ",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": -115
+    },
+    {
+     "t": "Chat to refine",
+     "bg": "rgba(0, 0, 0, 0)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 26
+    },
+    {
+     "t": "Get a ready-to",
+     "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.2)",
+     "color": "rgb(255, 255, 255)",
+     "op": "1",
+     "tx": "none",
+     "y": 156
+    }
+   ],
+   "vids": [
+    {
+     "y": -1144,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -817,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -491,
+     "paused": true,
+     "rs": 0,
+     "t": 0,
+     "tr": "none",
+     "op": "1"
+    },
+    {
+     "y": -164,
+     "paused": false,
+     "rs": 4,
+     "t": 1,
+     "tr": "none",
+     "op": "1"
+    }
+   ],
+   "stickyEls": [
+    {
+     "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-",
+     "top": "88px",
+     "y": -313
+    }
+   ]
+  }
+ ],
+ "struct": {
+  "chain": [
+   {
+    "tag": "button",
+    "cls": "absolute right-8 left-16 rounded-[12px] px-4 py-3 text-left text-white transition-colors lg:right-12 lg:left-20 top-[calc(11%_-_21px)] hover",
+    "display": "block",
+    "pos": "absolute",
+    "tr": "color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.",
+    "bg": "rgba(0, 0, 0, 0)",
+    "w": 424,
+    "role": null,
+    "aria": null
+   },
+   {
+    "tag": "div",
+    "cls": "relative h-full min-h-0",
+    "display": "block",
+    "pos": "relative",
+    "tr": "all",
+    "bg": "rgba(0, 0, 0, 0)",
+    "w": 552,
+    "role": null,
+    "aria": null
+   },
+   {
+    "tag": "div",
+    "cls": "sticky top-[88px] grid h-[calc(100svh-112px)] max-h-[640px] grid-cols-[42%_58%] overflow-hidden rounded-2xl bg-black",
+    "display": "grid",
+    "pos": "sticky",
+    "tr": "all",
+    "bg": "rgb(0, 0, 0)",
+    "w": 1315,
+    "role": null,
+    "aria": null
+   },
+   {
+    "tag": "div",
+    "cls": "mt-10 how-to-section-module__Hpxu5a__track",
+    "display": "block",
+    "pos": "static",
+    "tr": "all",
+    "bg": "rgba(0, 0, 0, 0)",
+    "w": 1315,
+    "role": null,
+    "aria": null
+   },
+   {
+    "tag": "div",
+    "cls": "mx-auto max-w-[1315px]",
+    "display": "block",
+    "pos": "static",
+    "tr": "all",
+    "bg": "rgba(0, 0, 0, 0)",
+    "w": 1315,
+    "role": null,
+    "aria": null
+   }
+  ],
+  "ariaCount": 0,
+  "h3Count": 0,
+  "secInner": 7158,
+  "buttons": [
+   "Start with an idea\nS",
+   "Pexo plans it all\nPe",
+   "Chat to refine video",
+   "Get a ready-to-post "
+  ]
+ }
+}
