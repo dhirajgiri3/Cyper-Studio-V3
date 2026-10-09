@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# claude code (machine-local; .claude/settings.json and .claude/skills are shared)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# impeccable (config.json, design.json, README.md are shared; the rest is per-developer or generated)
+.impeccable/config.local.json
+.impeccable/hook.cache.json
+.impeccable/live/sessions/
+.impeccable/live/*.json
+!.impeccable/live/config.json
+.impeccable/review/
+.impeccable/mocks/
+.impeccable/build/
+.impeccable/shots/

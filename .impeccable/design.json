@@ -1,0 +1,579 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T12:27:01+00:00",
+  "title": "Design System: Cyper Studio",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Signal Blue",
+        "canonical": "#3b82f6",
+        "oklch": "oklch(62.3% 0.188 260)",
+        "tonalRamp": [
+          "#000924",
+          "#002058",
+          "#003b91",
+          "#0e59c9",
+          "#367df0",
+          "#70a5fb",
+          "#abcbfd",
+          "#e6effe"
+        ]
+      },
+      "primary-dark": {
+        "role": "primary",
+        "displayName": "Deep Signal Blue",
+        "canonical": "#1d4ed8",
+        "oklch": "oklch(48.8% 0.217 264)",
+        "tonalRamp": [
+          "#000134",
+          "#010479",
+          "#0326b2",
+          "#1e50da",
+          "#4177fc",
+          "#79a2fb",
+          "#b0c9fd",
+          "#e7effe"
+        ]
+      },
+      "primary-light": {
+        "role": "primary",
+        "displayName": "Sky Signal Blue",
+        "canonical": "#60a5fa",
+        "oklch": "oklch(71.4% 0.143 255)",
+        "tonalRamp": [
+          "#000b1f",
+          "#00244d",
+          "#004181",
+          "#1961b0",
+          "#3f83d6",
+          "#62a7fd",
+          "#a5ccfe",
+          "#e4f0ff"
+        ]
+      },
+      "electric-violet": {
+        "role": "secondary",
+        "displayName": "Electric Violet",
+        "canonical": "#a855f7",
+        "oklch": "oklch(62.7% 0.233 304)",
+        "tonalRamp": [
+          "#130025",
+          "#340457",
+          "#590a91",
+          "#8022c9",
+          "#a24ef0",
+          "#bd86fb",
+          "#d7bafd",
+          "#f2eaff"
+        ]
+      },
+      "hot-pink": {
+        "role": "tertiary",
+        "displayName": "Hot Pink",
+        "canonical": "#ec4899",
+        "oklch": "oklch(65.6% 0.212 354)",
+        "tonalRamp": [
+          "#1d000d",
+          "#490028",
+          "#7a0047",
+          "#ae0368",
+          "#da368a",
+          "#fc69ad",
+          "#ffadcd",
+          "#fee7f0"
+        ]
+      },
+      "gradient-azure": {
+        "role": "tertiary",
+        "displayName": "Declared Gradient Azure (unused)",
+        "canonical": "#3a86ff",
+        "oklch": "oklch(63.7% 0.195 260)",
+        "tonalRamp": [
+          "#000924",
+          "#002157",
+          "#053c8c",
+          "#0158cd",
+          "#307cf4",
+          "#6da5fe",
+          "#aacbff",
+          "#e5efff"
+        ]
+      },
+      "gradient-iris": {
+        "role": "tertiary",
+        "displayName": "Declared Gradient Iris (unused)",
+        "canonical": "#8b5cf6",
+        "oklch": "oklch(60.6% 0.219 293)",
+        "tonalRamp": [
+          "#0f002a",
+          "#2c0163",
+          "#4d04a3",
+          "#6c35cf",
+          "#8b5df7",
+          "#a991fb",
+          "#cabffd",
+          "#efecff"
+        ]
+      },
+      "daylight": {
+        "role": "neutral",
+        "displayName": "Daylight",
+        "canonical": "#f9fafb",
+        "oklch": "oklch(98.5% 0.002 248)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242526",
+          "#414243",
+          "#606162",
+          "#818283",
+          "#a4a5a6",
+          "#c8c9ca",
+          "#edeeef"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "#ffffff",
+        "oklch": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "charcoal": {
+        "role": "neutral",
+        "displayName": "Charcoal",
+        "canonical": "#1f2126",
+        "oklch": "oklch(24.8% 0.010 268)",
+        "tonalRamp": [
+          "#090b0f",
+          "#23252a",
+          "#404247",
+          "#5f6167",
+          "#808288",
+          "#a2a5ab",
+          "#c6c9d0",
+          "#ebeef5"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "canonical": "#000000",
+        "oklch": "oklch(0.0% 0.000 0)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#07070c",
+        "oklch": "oklch(13.1% 0.012 285)",
+        "tonalRamp": [
+          "#0a0b10",
+          "#24242b",
+          "#414148",
+          "#606068",
+          "#818189",
+          "#a4a4ac",
+          "#c8c8d1",
+          "#edeef6"
+        ]
+      },
+      "text-primary": {
+        "role": "neutral",
+        "displayName": "Text Primary",
+        "canonical": "#171717",
+        "oklch": "oklch(20.5% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Text Secondary",
+        "canonical": "#525252",
+        "oklch": "oklch(43.9% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "mist": {
+        "role": "neutral",
+        "displayName": "Mist",
+        "canonical": "#bbbbbb",
+        "oklch": "oklch(79.2% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "hairline-dark": {
+        "role": "neutral",
+        "displayName": "Dark Hairline",
+        "canonical": "#333333",
+        "oklch": "oklch(32.1% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "danger": {
+        "role": "error",
+        "displayName": "Danger",
+        "canonical": "#ef4444",
+        "oklch": "oklch(63.7% 0.208 25)",
+        "tonalRamp": [
+          "#1f0001",
+          "#4d0006",
+          "#800110",
+          "#b7061c",
+          "#e4393b",
+          "#fd746d",
+          "#fdb4ac",
+          "#ffe9e6"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only; steps 3.5rem → 4rem → 5.5rem at sm/md; italic neutral-800 emphasis words."
+      },
+      "display-mega": {
+        "displayName": "Display Mega",
+        "purpose": "The 'Our Work' section title (text-9xl, black weight, balanced wrap)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section titles; 2rem → 3.75rem; white or white→white/80 gradient on dark, charcoal→black gradient on light."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project card names and contact panel headings; 1.125rem → 1.875rem."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Paragraph copy; weight 300 on dark (Approach), 400 elsewhere; mist (#bbb) on dark, text-secondary on light."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Eyebrows (often uppercase, tracking 0.05–0.1em) and footer column heads; tag chips use 11–12px."
+      }
+    },
+    "shadows": [
+      {
+        "name": "header-lift",
+        "value": "0 8px 30px rgb(0 0 0 / 0.03)",
+        "purpose": "Header pill on hover only."
+      },
+      {
+        "name": "primary-glow",
+        "value": "0 0 20px rgba(var(--primary-rgb), 0.35)",
+        "purpose": "Tailwind shadow-glow token (blue halo)."
+      },
+      {
+        "name": "avatar-float",
+        "value": "0 8px 32px rgba(0,0,0,0.15), inset 0 2px 4px rgba(255,255,255,0.1)",
+        "purpose": "Team avatars in Dream section at rest."
+      },
+      {
+        "name": "avatar-float-hover",
+        "value": "0 12px 40px rgba(0,0,0,0.2), inset 0 2px 4px rgba(255,255,255,0.2), 0 0 20px rgba(255,255,255,0.1)",
+        "purpose": "Team avatars on hover (with translateY(-4px) scale(1.05))."
+      },
+      {
+        "name": "chip-halo",
+        "value": "0 0 15px rgba(255,255,255,0.15)",
+        "purpose": "Category tiles on hover."
+      },
+      {
+        "name": "particle-glow",
+        "value": "0 0 10px currentColor",
+        "purpose": "3px cursor particles on PrimaryButton."
+      },
+      {
+        "name": "glow-blue-radial",
+        "value": "radial-gradient(ellipse at top, rgba(14,78,232,0.15), transparent 70%)",
+        "purpose": "Ambient blue glow behind Our Work (blur-3xl, 60% opacity)."
+      },
+      {
+        "name": "glow-violet-radial",
+        "value": "radial-gradient(ellipse at bottom, rgba(142,53,240,0.15), transparent 70%)",
+        "purpose": "Ambient violet glow behind Our Work."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-smooth",
+        "value": "cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "Default UI transition (Tailwind ease-smooth); 300ms on hovers."
+      },
+      {
+        "name": "ease-expo-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Sidebar slide/radius morph (0.5s) and rolling text links (1s)."
+      },
+      {
+        "name": "ease-button",
+        "value": "cubic-bezier(0.43, 0.13, 0.23, 0.96)",
+        "purpose": "PrimaryButton press (0.1s, scale 0.98)."
+      },
+      {
+        "name": "ease-out-cubic",
+        "value": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+        "purpose": "Hero entrance items (0.6s, y 30 → 0, stagger 0.15s)."
+      },
+      {
+        "name": "ease-card",
+        "value": "cubic-bezier(0.25, 0.4, 0.25, 1)",
+        "purpose": "Project card entrance (1.2s)."
+      },
+      {
+        "name": "ease-bg-tween",
+        "value": "cubic-bezier(0.33, 1, 0.68, 1)",
+        "purpose": "Page background color tween between sections (0.6s; GSAP power3.out)."
+      },
+      {
+        "name": "ease-overshoot",
+        "value": "cubic-bezier(0.68, -0.55, 0.265, 1.55)",
+        "purpose": "Hamburger → X morph (500ms)."
+      },
+      {
+        "name": "magnetic-release",
+        "value": "elastic.out(1, 0.3) 0.8s",
+        "purpose": "GSAP ease when a magnetic button springs back."
+      },
+      {
+        "name": "magnetic-follow",
+        "value": "power2.out 0.5s; strength 0.2, radius 100px",
+        "purpose": "PrimaryButton cursor attraction."
+      },
+      {
+        "name": "ripple",
+        "value": "scale(0 → 2.5), opacity → 0, 600ms cubic-bezier(0.4, 0, 0.2, 1)",
+        "purpose": "White radial ripple on press."
+      },
+      {
+        "name": "blur-in-letters",
+        "value": "opacity 0 → 1, blur(4–10px) → 0, stagger 0.02–0.04s",
+        "purpose": "Per-character text reveal (Story, Dream)."
+      },
+      {
+        "name": "ambient-blob",
+        "value": "blob-slow 30s / blob-slow-reverse 35s cubic-bezier(0.4, 0, 0.2, 1) infinite",
+        "purpose": "Drifting background blobs on dark sections and cards."
+      },
+      {
+        "name": "ambient-float",
+        "value": "floating 12s / 18s / 25s ease-in-out infinite",
+        "purpose": "Floating contact labels."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "lg",
+        "value": "1024px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      },
+      {
+        "name": "2xl",
+        "value": "1536px"
+      },
+      {
+        "name": "sc-mobile",
+        "value": "767px (max-width, styled-components)"
+      },
+      {
+        "name": "sc-tablet",
+        "value": "1024px (max-width, styled-components)"
+      },
+      {
+        "name": "sc-tiny",
+        "value": "380px (max-width, styled-components)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only CTA style in use: magnetic gradient pill with ripple and cursor particles (large size shown).",
+      "html": "<button class=\"ds-btn-primary\">Start Your Project</button>",
+      "css": ".ds-btn-primary { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; padding: 12px 32px; font-size: 1rem; font-weight: 500; letter-spacing: 0.025em; white-space: nowrap; color: #fff; background: linear-gradient(to right, var(--primary-dark, #1d4ed8), var(--primary, #3b82f6), var(--primary-light, #60a5fa)); border: 1px solid rgba(59,130,246,0.1); border-radius: 9999px; cursor: pointer; transition: transform 300ms ease-out, border-color 300ms ease-out, box-shadow 300ms ease-out; } .ds-btn-primary:hover { transform: scale(1.05); border-color: rgba(96,165,250,0.3); box-shadow: 0 0 20px rgba(59,130,246,0.35); } .ds-btn-primary:active { transform: scale(0.98); transition-duration: 100ms; transition-timing-function: cubic-bezier(0.43,0.13,0.23,0.96); } .ds-btn-primary:focus-visible { outline: 2px solid var(--primary-light, #60a5fa); outline-offset: 3px; }"
+    },
+    {
+      "name": "Header Nav Pill",
+      "kind": "nav",
+      "refersTo": "header-pill",
+      "description": "Fixed floating white glass pill with logo, underline-grow links and a CTA.",
+      "html": "<header class=\"ds-header\"><span class=\"ds-header-logo\">C</span><nav class=\"ds-header-nav\"><a href=\"#\" class=\"ds-header-link\">Home</a><a href=\"#\" class=\"ds-header-link\">Our Work</a><a href=\"#\" class=\"ds-header-link\">Contact</a></nav><button class=\"ds-header-cta\">Get Started</button></header>",
+      "css": ".ds-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; width: 94%; padding: 8px 32px; background: rgba(255,255,255,0.8); backdrop-filter: blur(16px); border: 1px solid rgba(241,245,249,0.2); border-radius: 9999px; transition: box-shadow 300ms; } .ds-header:hover { box-shadow: 0 8px 30px rgb(0 0 0 / 0.03); } .ds-header-logo { width: 42px; height: 42px; display: grid; place-items: center; font-weight: 700; color: var(--dark, #1f2126); } .ds-header-nav { display: flex; gap: 64px; } .ds-header-link { position: relative; color: var(--dark, #1f2126); font-size: 1rem; font-weight: 500; text-decoration: none; transition: color 300ms; } .ds-header-link::after { content: ''; position: absolute; left: 0; bottom: -4px; width: 0; height: 2px; background: var(--primary, #3b82f6); transition: width 300ms; } .ds-header-link:hover, .ds-header-link:focus-visible { color: var(--primary, #3b82f6); outline: none; } .ds-header-link:hover::after, .ds-header-link:focus-visible::after { width: 100%; } .ds-header-cta { padding: 12px 24px; font-size: 0.875rem; font-weight: 500; letter-spacing: 0.025em; color: #fff; background: linear-gradient(to right, var(--primary-dark, #1d4ed8), var(--primary, #3b82f6), var(--primary-light, #60a5fa)); border: none; border-radius: 9999px; cursor: pointer; transition: transform 300ms; } .ds-header-cta:hover { transform: scale(1.05); }"
+    },
+    {
+      "name": "Rolling Text Link",
+      "kind": "nav",
+      "refersTo": "nav-link-hover",
+      "description": "Sidebar menu item: 48px window; on hover the label rolls up to reveal a subtitle (1s expo-out).",
+      "html": "<a href=\"#\" class=\"ds-roll-link\"><span class=\"ds-roll-track\"><span class=\"ds-roll-row\">Our Work</span><span class=\"ds-roll-row\">See What We've Done</span></span></a>",
+      "css": ".ds-roll-link { display: block; height: 3rem; overflow: hidden; text-decoration: none; color: var(--dark, #1f2126); font-size: 1.5rem; font-weight: 400; } .ds-roll-track { display: flex; flex-direction: column; transition: transform 1s cubic-bezier(0.16,1,0.3,1); } .ds-roll-row { height: 3rem; display: flex; align-items: flex-start; white-space: nowrap; } .ds-roll-link:hover .ds-roll-track, .ds-roll-link:focus-visible .ds-roll-track { transform: translateY(-3rem); } .ds-roll-link:focus-visible { outline: 2px solid var(--primary, #3b82f6); outline-offset: 2px; } .ds-roll-link:active { transform: scale(0.95); }"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Glass bento card on ink: 20px radius, white hairline, bottom scrim, tags + title anchored low.",
+      "html": "<a href=\"#\" class=\"ds-project-card\"><div class=\"ds-project-body\"><div class=\"ds-project-tags\"><span class=\"ds-tag\">Next.js</span><span class=\"ds-tag\">E-commerce</span></div><h3 class=\"ds-project-title\">Helix Logistics</h3><p class=\"ds-project-desc\">Real-time tracking and courier tooling.</p></div></a>",
+      "css": ".ds-project-card { position: relative; display: flex; width: 360px; height: 340px; border-radius: 20px; overflow: hidden; text-decoration: none; background: linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.85)), linear-gradient(135deg, rgba(59,130,246,0.25), rgba(168,85,247,0.25)), #07070c; border: 1px solid rgba(255,255,255,0.15); transition: border-color 500ms ease-out, transform 300ms ease-out; } .ds-project-card:hover, .ds-project-card:focus-visible { border-color: rgba(255,255,255,0.25); outline: none; } .ds-project-body { margin-top: auto; padding: 24px; display: flex; flex-direction: column; gap: 12px; } .ds-project-tags { display: flex; gap: 8px; flex-wrap: wrap; } .ds-tag { padding: 6px 12px; font-size: 12px; font-weight: 500; letter-spacing: 0.025em; color: rgba(255,255,255,0.95); background: rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2); border-radius: 9999px; backdrop-filter: blur(12px); transition: all 300ms; } .ds-project-card:hover .ds-tag { background: rgba(0,0,0,0.25); border-color: rgba(255,255,255,0.3); } .ds-project-title { margin: 0; color: #fff; font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; } .ds-project-desc { margin: 0; color: rgba(255,255,255,0.75); font-size: 0.875rem; transition: color 300ms; } .ds-project-card:hover .ds-project-desc { color: #fff; }"
+    },
+    {
+      "name": "Tag Chip",
+      "kind": "chip",
+      "refersTo": "tag-chip",
+      "description": "Small translucent pill for project tech/category tags on imagery.",
+      "html": "<span class=\"ds-chip\">React</span>",
+      "css": ".ds-chip { display: inline-flex; padding: 4px 10px; font-size: 11px; font-weight: 500; letter-spacing: 0.025em; color: rgba(255,255,255,0.95); background: rgba(0,0,0,0.15); border: 1px solid rgba(255,255,255,0.2); border-radius: 9999px; backdrop-filter: blur(12px); transition: all 300ms; } .ds-chip:hover { background: rgba(0,0,0,0.25); border-color: rgba(255,255,255,0.3); }"
+    },
+    {
+      "name": "Category Tile",
+      "kind": "chip",
+      "refersTo": "category-tile",
+      "description": "Gradient filter tile in the Our Work grid (each tile its own hue); magnetic, sheen + halo on hover.",
+      "html": "<div class=\"ds-cat-tile\" role=\"button\" tabindex=\"0\"><span class=\"ds-cat-icon\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><circle cx=\"9\" cy=\"21\" r=\"1\"/><circle cx=\"20\" cy=\"21\" r=\"1\"/><path d=\"M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6\"/></svg></span><span class=\"ds-cat-label\">E-commerce</span></div>",
+      "css": ".ds-cat-tile { position: relative; overflow: hidden; display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 20px 16px; border-radius: 12px; background: linear-gradient(to bottom right, #3b82f6, #1d4ed8); color: #fff; font-weight: 500; letter-spacing: -0.025em; cursor: pointer; transition: all 300ms ease-out; } .ds-cat-tile::before { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom right, rgba(255,255,255,0.2), rgba(255,255,255,0)); border: 1px solid rgba(255,255,255,0.15); border-radius: inherit; opacity: 0; transition: opacity 500ms; pointer-events: none; } .ds-cat-tile:hover, .ds-cat-tile:focus-visible { box-shadow: 0 0 15px rgba(255,255,255,0.15), 0 10px 15px -3px rgba(0,0,0,0.1); outline: none; } .ds-cat-tile:hover::before, .ds-cat-tile:focus-visible::before { opacity: 1; } .ds-cat-tile:active { transform: scale(0.95); } .ds-cat-icon { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 9999px; background: rgba(255,255,255,0.1); transition: transform 300ms; } .ds-cat-tile:hover .ds-cat-icon { transform: scale(1.1); } .ds-cat-label { font-size: 0.875rem; font-weight: 600; white-space: nowrap; }"
+    },
+    {
+      "name": "Contact Input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Dark translucent field with floating label that lifts onto the border in blue when filled.",
+      "html": "<div class=\"ds-field\"><input id=\"ds-name\" class=\"ds-input\" placeholder=\" \" /><label for=\"ds-name\" class=\"ds-label\">Name <span class=\"ds-req\">*</span></label></div>",
+      "css": ".ds-field { position: relative; width: 320px; padding-top: 8px; } .ds-input { display: block; width: 100%; padding: 16px 20px; color: #fff; background: rgba(55,65,81,0.3); backdrop-filter: blur(4px); border: 1px solid rgba(64,64,64,0.5); border-radius: 12px; font-size: 1rem; transition: all 300ms; } .ds-field:hover .ds-input { border-color: rgba(59,130,246,0.3); } .ds-input:focus, .ds-input:focus-visible { outline: none; border-color: rgba(59,130,246,0.7); box-shadow: 0 0 0 1px rgba(59,130,246,0.1); } .ds-label { position: absolute; left: 16px; top: calc(50% + 4px); transform: translateY(-50%); padding: 0 8px; border-radius: 9999px; font-size: 0.875rem; color: #a3a3a3; pointer-events: none; transition: all 300ms; } .ds-input:focus + .ds-label, .ds-input:not(:placeholder-shown) + .ds-label { top: 0; transform: translateY(-4px) scale(0.9); color: #60a5fa; background: #000; } .ds-req { color: #60a5fa; } .ds-input[aria-invalid=\"true\"] { border-color: rgba(239,68,68,0.7); }"
+    },
+    {
+      "name": "Glass Panel",
+      "kind": "card",
+      "refersTo": "glass-panel",
+      "description": "Translucent white-on-dark panel used for Dream CTA copy and footer link block.",
+      "html": "<div class=\"ds-glass\"><p class=\"ds-glass-title\">Ready to see your vision come alive?</p><p class=\"ds-glass-body\">Team up with us, and your goals become our obsession.</p></div>",
+      "css": ".ds-glass { max-width: 42rem; padding: 32px; display: flex; flex-direction: column; gap: 16px; background: rgba(255,255,255,0.05); backdrop-filter: blur(4px); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; transition: border-color 300ms; } .ds-glass:hover { border-color: rgba(255,255,255,0.2); } .ds-glass-title { margin: 0; color: rgba(255,255,255,0.9); font-size: 1.25rem; font-weight: 600; } .ds-glass-body { margin: 0; color: rgba(255,255,255,0.7); font-size: 1rem; line-height: 1.625; }"
+    },
+    {
+      "name": "Dark Media Frame",
+      "kind": "custom",
+      "refersTo": "media-frame-dark",
+      "description": "Approach section video frame: 12px padding, 24px outer / 16px inner radius, #333 hairline.",
+      "html": "<div class=\"ds-media-frame\"><div class=\"ds-media\"></div></div>",
+      "css": ".ds-media-frame { width: 360px; padding: 12px; background: #1f2126; border: 1px solid #333; border-radius: 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); transition: border-color 500ms; } .ds-media-frame:hover { border-color: #444; } .ds-media { aspect-ratio: 16 / 9; border-radius: 16px; background: radial-gradient(circle at 30% 30%, rgba(59,130,246,0.5), transparent 60%), radial-gradient(circle at 70% 70%, rgba(168,85,247,0.5), transparent 60%), #000; transition: transform 500ms; } .ds-media-frame:hover .ds-media { transform: scale(1.01); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Daylight to Deep Space",
+    "overview": "The home page is a single scroll that descends. It opens on near-white daylight (hero, story), drops into a blue-tinged charcoal (approach, dream), and ends in pure black (our work, contact, footer). `Home.jsx` tweens the `<main>` background between each section's `data-bg` with GSAP ScrollTrigger (0.6s, `power3.out`) instead of cutting between them. The light half is clean and editorial. The dark half is atmospheric: radial blue and violet glows, grid and noise overlays, drifting blobs, tsParticles, and three.js models in the hero, dream section and footer.\n\nThe site is maximal in motion and restrained in palette. One blue (`primary`) carries the identity, almost always as a blue-to-violet gradient that sometimes runs on to pink. Everything else is neutral. Interaction is tactile: the main CTA is magnetic, ripples when pressed, and gives off particles under the cursor. Text reveals letter by letter, with each character going from blurred to sharp.",
+    "keyCharacteristics": [
+      "Light-to-dark scroll narrative with a tweened page background.",
+      "Single blue primary, used as a gradient that runs blue → violet (→ pink).",
+      "Pill-shaped CTAs and a floating pill header; glass cards with large radii.",
+      "Depth from blur, translucent white fills and colored glows instead of drop shadows.",
+      "3D scenes (react-three-fiber), physics labels (matter-js), particles and an image trail as signature moments.",
+      "System sans for all text; heavy display weights (600–900) set tight."
+    ],
+    "rules": [
+      {
+        "name": "The Descent Rule",
+        "body": "Section backgrounds go one way: daylight → paper-white → charcoal → night/ink. Never put a light section after a dark one, and change the page background with the tween, not with hard cuts.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gradient-Accent Rule",
+        "body": "Blue appears flat only in small spots (eyebrows, links, focus). Wherever accent covers an area (buttons, dividers, glows, gradient text), it is a gradient that runs from blue toward violet.",
+        "section": "colors"
+      },
+      {
+        "name": "The Weight-Contrast Rule",
+        "body": "Headlines are 600–900 with tight tracking. Body text never goes above 400, and on dark surfaces it may drop to 300.",
+        "section": "typography"
+      },
+      {
+        "name": "The Glow-Not-Shadow Rule",
+        "body": "On charcoal and black, express depth with blur, translucent white and colored radial glow. Use black drop shadows only on floating objects (avatars), and keep them faint.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Pill-for-Action Rule",
+        "body": "Anything that triggers navigation or submission is a full pill. Containers stay in the 12–24px range.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** keep the page descending from light to dark, and set each section's `data-bg` so the GSAP background tween stays continuous.",
+      "**Do** express accent as a primary → electric-violet gradient. Keep flat primary for links, eyebrows and focus states.",
+      "**Do** use PrimaryButton (primary variant, large on dark sections) for every CTA, with `withParticles` and the magnetic wrapper.",
+      "**Do** build dark surfaces from white at 5–15% fill, white at 10–25% hairlines, backdrop blur and a blue or violet radial glow.",
+      "**Do** use pills for actions and chips, and 12–24px radii for containers.",
+      "**Do** set headlines at 600–900 with tight tracking, and body at 300–400 with 1.625 line height.",
+      "**Do** reduce, rather than delete, motion under `prefers-reduced-motion`, as PrimaryButton does."
+    ],
+    "donts": [
+      "**Don't** put a light section after a dark one, or cut the page background without the tween.",
+      "**Don't** introduce new grey families. Pick from the neutral tokens (charcoal, mist, hairline-dark) rather than adding more raw `#666` / `#999` / slate / gray.",
+      "**Don't** use heavy black drop shadows on dark surfaces. Use glow and translucency.",
+      "**Don't** add a second flat accent hue. Pink and violet appear only inside gradients, particles and confetti.",
+      "**Don't** rely on `font-clash`, `font-playfair`, `xs:`, `z-5`, `text-10xl`+, `animate-aurora` or `bg-mesh-pattern`. They are not defined, so they do nothing."
+    ]
+  }
+}
